@@ -1,0 +1,42 @@
+{
+  "id" : "icpd1308",
+  "formula" : "C4H9NO2Se",
+  "name" : "selenohomocysteine",
+  "synonyms" : [ ],
+  "alias" : "selhcys",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "selhcys"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SELENOHOMOCYSTEINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05698"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB04119"
+  }, {
+    "source" : "BiGG",
+    "entry" : "selhcys"
+  } ],
+  "inchi" : "InChI=1S/C4H9NO2Se/c5-3(1-2-8)4(6)7/h3,8H,1-2,5H2,(H,6,7)/t3-/m0/s1",
+  "inchikey" : "RCWCGLALNCIQNM-VKHMYHEASA-N",
+  "smiles" : "C(C[SeH])[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "biofuncions" : [ "Protein synthesis, amino acid biosynthesis" ],
+      "origins" : [ "Endogenous" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : 11.410093,
+      "cmlMolWeight" : 182.081,
+      "molWeight" : 182.081
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  }
+}

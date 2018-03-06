@@ -1,0 +1,125 @@
+{
+  "records" : [ {
+    "id" : "icpd0",
+    "formula" : "C10H15N5O10P2",
+    "name" : "adenosine-diphosphate",
+    "synonyms" : [ "[({[(2r,3s,4r,5r)-5-(6-amino-9h-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy]phosphonic acid", "adenosine 5'-diphosphate", "adenosine 5'-pyrophosphate", "adenosine diphosphate", "adenosine-5'-diphosphate", "{[(2r,3s,4r,5r)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy(hydroxy)phosphoryl}oxyphosphonic acid" ],
+    "alias" : "adp",
+    "references" : [ {
+      "source" : "MetaCyc",
+      "entry" : "META:ADP"
+    }, {
+      "source" : "LigandCompound",
+      "entry" : "C00008"
+    }, {
+      "source" : "BiGG",
+      "entry" : "adp"
+    }, {
+      "source" : "ModelSeed",
+      "entry" : "cpd00008"
+    }, {
+      "source" : "HMDB",
+      "entry" : "HMDB06557"
+    }, {
+      "source" : "LigandGlycan",
+      "entry" : "G11113"
+    }, {
+      "source" : "BiGGMetabolite",
+      "entry" : "adp"
+    } ]
+  }, {
+    "id" : "icpd1",
+    "formula" : "C10H16N5O13P3",
+    "name" : "adenosine 5'-triphosphate",
+    "synonyms" : [ "({[(2r,3s,4r,5r)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy(hydroxy)phosphoryl}oxy(hydroxy)phosphoryl)oxyphosphonic acid", "({[({[(2r,3s,4r,5r)-5-(6-amino-9h-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)phosphonic acid", "adenosine 5'-triphosphorate", "adenosine triphosphate", "adenosine-5'-triphosphate", "adenosine-triphosphate" ],
+    "alias" : "atp",
+    "references" : [ {
+      "source" : "MetaCyc",
+      "entry" : "META:ATP"
+    }, {
+      "source" : "LigandDrug",
+      "entry" : "D08646"
+    }, {
+      "source" : "BiGG",
+      "entry" : "atp"
+    }, {
+      "source" : "ModelSeed",
+      "entry" : "cpd00002"
+    }, {
+      "source" : "LigandCompound",
+      "entry" : "C00002"
+    }, {
+      "source" : "BiGGMetabolite",
+      "entry" : "atp"
+    } ]
+  }, {
+    "id" : "icpd2",
+    "formula" : "C3H3O3",
+    "name" : "pyruvate",
+    "synonyms" : [ "2-oxopropanoate", "2-oxopropionate", "acetylformate", "alpha-ketopropionate" ],
+    "alias" : "pyr",
+    "references" : [ {
+      "source" : "ModelSeed",
+      "entry" : "cpd00020"
+    }, {
+      "source" : "HMDB",
+      "entry" : "HMDB00243"
+    }, {
+      "source" : "MetaCyc",
+      "entry" : "META:PYRUVATE"
+    }, {
+      "source" : "BiGGMetabolite",
+      "entry" : "pyr"
+    }, {
+      "source" : "LigandCompound",
+      "entry" : "C00022"
+    }, {
+      "source" : "BiGG",
+      "entry" : "pyr"
+    } ]
+  }, {
+    "id" : "icpd3",
+    "formula" : "C3H5O6P",
+    "name" : "2-phosphonooxyprop-2-enoic acid",
+    "synonyms" : [ "2-(phosphonooxy)prop-2-enoic acid" ],
+    "alias" : "pep",
+    "references" : [ {
+      "source" : "LigandCompound",
+      "entry" : "C00074"
+    }, {
+      "source" : "BiGGMetabolite",
+      "entry" : "pep"
+    }, {
+      "source" : "ModelSeed",
+      "entry" : "cpd00061"
+    }, {
+      "source" : "BiGG",
+      "entry" : "pep"
+    }, {
+      "source" : "MetaCyc",
+      "entry" : "META:PHOSPHO-ENOL-PYRUVATE"
+    } ]
+  }, {
+    "id" : "icpd4",
+    "formula" : "H",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "h",
+    "references" : [ {
+      "source" : "BiGG",
+      "entry" : "h"
+    }, {
+      "source" : "LigandCompound",
+      "entry" : "C00080"
+    }, {
+      "source" : "MetaCyc",
+      "entry" : "META:PROTON"
+    }, {
+      "source" : "ModelSeed",
+      "entry" : "cpd00067"
+    }, {
+      "source" : "BiGGMetabolite",
+      "entry" : "h"
+    } ]
+  } ]
+}

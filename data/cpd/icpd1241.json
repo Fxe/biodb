@@ -1,0 +1,43 @@
+{
+  "id" : "icpd1241",
+  "formula" : "C20H31O4",
+  "name" : "(6e,8z,11z,14z)-(5s)-5-hydroperoxyeicosa-6,8,11,14-tetraenoate",
+  "synonyms" : [ "(5s,6e,8z,11z,14z)-5-hydroperoxyicosa-6,8,11,14-tetraenoate", "(6e,8z,11z,14z)-(5s)-5-hydroperoxycosa-6,8,11,14-tetraenoate" ],
+  "alias" : "5HPET",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "5HPET"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6E8Z11Z14Z-5S-5-HYDROPEROXYCOSA-6"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05356"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "5HPET"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB11135"
+  } ],
+  "inchi" : "InChI=1S/C20H32O4/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-16-19(24-23)17-15-18-20(21)22/h6-7,9-10,12-14,16,19,23H,2-5,8,11,15,17-18H2,1H3,(H,21,22)/p-1/b7-6-,10-9-,13-12-,16-14+/t19-/m1/s1",
+  "inchikey" : "JNUUNUQHXIOFDA-JGKLHWIESA-M",
+  "smiles" : "CCCCC/C(/[H])=C(/[H])\\C/C(/[H])=C(/[H])\\C/C(/[H])=C(/[H])\\C(\\[H])=C(/[H])\\[C@]([H])(CCCC(=O)[O-])OO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "biofuncions" : [ "Cell signaling", "Fuel and energy storage", "Fuel or energy source", "Membrane integrity/stability" ],
+      "origins" : [ "Endogenous", "Food" ],
+      "applications" : [ "Nutrients", "Stabilizers", "Surfactants and Emulsifiers" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : 283.88266,
+      "cmlMolWeight" : 335.462,
+      "molWeight" : 335.462
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

@@ -1,6 +1,454 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    @media screen and (min-width: 768px) {
+
+      #cpd-model .modal-dialog  {width:1200px;}
+
+    }
+  </style>
+</head>
 <body>
-<h1>Testing page</h1>
-it works !
+<!-- Trigger the modal with a button -->
+
+
+<!-- Metabolite Modal -->
+<div id="cpd-model" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <!--
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      -->
+      <div class="modal-body">
+        <div id="cpd-view-container">
+          <div class="container"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Compounds</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <table id="cpd-table" class="table"></table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <table id="rxn-table" class="table"></table>
+    </div>
+  </div>
+</div>
 </body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/scroller/1.4.2/js/dataTables.scroller.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/render-hmdb.js"></script>
+<script type="text/javascript" src="js/render-bigg.js"></script>
+<script type="text/javascript" src="js/render-kegg.js"></script>
+
+<script id="cpd-view-template-hmdb" type="text/template">
+  <% //console.log(cpdData) %>
+  <h4>Human Metabolome:</h4>
+  <dl class="dl-horizontal">
+    <% if (cpdData.cellularLocation) { %>
+      <dt>Cellular</dt>
+      <dd><%-cpdData.cellularLocation %></dd>
+    <%} %>
+    <% if (cpdData.biofluids) { %>
+      <dt>Biofluids</dt>
+      <dd><%-cpdData.biofluids %></dd>
+    <%} %>
+  </dl>
+  <dl class="dl-horizontal">
+    <% if (cpdData.applications) { %>
+      <dt>Applications</dt>
+      <dd><%-cpdData.applications %></dd>
+    <%} %>
+    <% if (cpdData.origins) { %>
+      <dt>Origins</dt>
+      <dd><%-cpdData.origins %></dd>
+    <%} %>
+    <% if (cpdData.biofuncions) { %>
+      <dt>Biofunctions</dt>
+      <dd><%-cpdData.biofuncions %></dd>
+    <%} %>
+  </dl>
+</script>
+<script id="cpd-view-template-bigg" type="text/template">
+  <dl class="dl-horizontal">
+    <dt>Models</dt>
+    <dd>
+      <ul class="list-inline">
+        <% _.each(cpdData.models, function(s) { %>
+        <li><a href="http://bigg.ucsd.edu/models/<%- s %>" target="_blank"><%- s %></a></li>
+        <%} );%>
+      </ul>
+    </dd>
+  </dl>
+</script>
+<script id="cpd-view-template-modelseed" type="text/template">
+  <dl class="dl-horizontal">
+    <dt>ModelSEED</dt>
+    <dd>
+      <ul class="list-inline">
+        Core: <%-cpdData.core %>
+        Cofactor: <%-cpdData.cofactor %>
+        deltag: <%-cpdData.deltag %>
+        deltagerr: <%-cpdData.deltagerr %>
+      </ul>
+    </dd>
+  </dl>
+</script>
+<script id="cpd-view-template-metacyc" type="text/template">
+  <% console.log(cpdData); %>
+  <h4>MetaCyc:</h4>
+  <dl class="dl-horizontal">
+    <% if (cpdData.parents) { %>
+    <dt>Is a:</dt>
+    <dd><%-cpdData.parents %></dd>
+    <%} %>
+    <% if (cpdData.instances) { %>
+    <dt>Instances: </dt>
+    <dd><%-cpdData.instances %></dd>
+    <%} %>
+
+    <% if (cpdData.activators) { %>
+    <dt>Reactions activated by this compound: </dt>
+    <dd><%-cpdData.activators %></dd>
+    <%} %>
+
+    <% if (cpdData.inhibitors) { %>
+    <dt>Reactions inhibited by this compound: </dt>
+    <dd>
+      <% _.each(cpdData.inhibitors, function(e) { %>
+        <%- e%>
+      <%}); %>
+    </dd>
+    <%} %>
+  </dl>
+</script>
+<script id="cpd-view-template" type="text/template">
+  <% console.log(cpdData) %>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-header">
+          <h1><%-cpdData.id %>: <small><%-cpdData.name %></small>
+            <% if (cpdData.alias) { %>
+              <small>(<%- cpdData.alias%>)</small>
+            <%} %>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-9">
+        <dl class="dl-horizontal">
+          <dt>Names</dt>
+          <dd>
+            <ul class="list-inline">
+              <% _.each(cpdData.synonyms, function(s) { %>
+                <li><%- s %></li>
+              <%} );%>
+            </ul>
+          </dd>
+          <% if (cpdData.formula) { %>
+            <dt>Formula</dt>
+            <dd><%-cpdData.formula %></dd>
+          <%} %>
+          <dt>Charge</dt>
+          <dd>0</dd>
+          <% if (cpdData.smiles) { %>
+            <dt>Universal SMILES</dt>
+            <dd>
+              <div style="word-wrap: break-word">
+                <%-cpdData.smiles %>
+              </div>
+            </dd>
+          <%} %>
+          <% if (cpdData.inchi) { %>
+            <dt>InChI</dt>
+            <dd>
+              <div style="word-wrap: break-word">
+                <%-cpdData.inchi %>
+              </div>
+            </dd>
+          <%} %>
+          <% if (cpdData.inchikey) { %>
+            <dt>InChIKey</dt>
+            <dd><%-cpdData.inchikey %></dd>
+          <%} %>
+        </dl>
+        <h4>Lipid Data:</h4>
+
+        <% _.each(cpdData.extra, function(v, k) { %>
+          <%
+             if (renderFunctions[k] && _.size(v)) { %>
+             <div style="background-color: #e1fcf4; border-radius: 10px; padding-left: 10px">
+             <%= renderFunctions[k]({cpdData: v}) %>
+             </div>
+          <%
+             };
+             console.log(k, v);
+          %>
+        <%})%>
+      </div>
+      <div class="col-md-3">
+
+        <h4>Database Links:</h4>
+        <% _.each(cpdData.references, function(s) { %>
+          <%-s.entry %> @ <%-s.source %><br>
+        <%} );%>
+      </div>
+    </div>
+  </div>
+</script>
+<script>
+  var renderFunctions = {
+    "bigg" : _.template($("#cpd-view-template-bigg").html()),
+    "ms" : _.template($("#cpd-view-template-modelseed").html()),
+    "metacyc" : _.template($("#cpd-view-template-metacyc").html())
+  };
+  var cpdViewTemplate = _.template($("#cpd-view-template").html());
+
+  var tsize = 300;
+  var identifiersMap = {
+    "LigandCompound" : "http://identifiers.org/kegg.compound/",
+    "MetaCyc" : "http://identifiers.org/biocyc/",
+    "ModelSeed" : "http://identifiers.org/seed.compound/",
+    "BiGGMetabolite" : "http://identifiers.org/bigg.metabolite/",
+    "LipidMAPS" : "http://identifiers.org/lipidmaps/",
+    "HMDB" : "http://identifiers.org/hmdb/"
+  };
+  var rxnDatabaseMap = {
+    "LigandReaction" : "http://identifiers.org/kegg.reaction/",
+    "MetaCyc" : "http://identifiers.org/biocyc/",
+    "ModelSeed" : "http://identifiers.org/seed.reaction",
+    "BiGGReaction" : "http://identifiers.org/bigg.reaction/"
+  };
+
+  var getCpdLink = function(entry, database) {
+    if (identifiersMap[database]) {
+      return '<a href="' + identifiersMap[database] + entry + '" target="_blank">' + entry + '</a>';
+    }
+    return entry;
+  };
+
+  var getRxnLink = function(entry, database) {
+    if (rxnDatabaseMap[database]) {
+      return '<a href="' + rxnDatabaseMap[database] + entry + '" target="_blank">' + entry + '</a>';
+    }
+    return entry;
+  };
+
+  var table_rxn_sets_config = {
+    scrollY: tsize,
+    scroller: true,
+    "dom": '<"top"f>rt<"bottom"i><"clear">',
+    "aaData" : [],
+    "aoColumns" : [
+      {
+        sTitle: 'Reaction',
+        mDataProp: 'id',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: 'Alias',
+        mDataProp: 'alias',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: 'Enzyme',
+        mDataProp: 'ecn',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: 'Name',
+        mDataProp: 'name',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: 'Equation',
+        mDataProp: 'equation',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: 'References',
+        mDataProp: 'refs',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: '',
+        mDataProp: 'details',
+        bSearchable: false,
+        bVisible: true
+      }
+    ]
+  };
+
+  var table_cpd_sets_config = {
+    scrollY: tsize,
+    scroller: true,
+    "dom": '<"top"f>rt<"bottom"i><"clear">',
+    "aaData" : [],
+    "aoColumns" : [
+      {
+        sTitle: 'Compound',
+        mDataProp: 'id',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: 'Name',
+        mDataProp: 'name',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: 'Alias',
+        mDataProp: 'alias',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: 'Formula',
+        mDataProp: 'formula',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: 'Reactions',
+        mDataProp: 'reactions',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: 'References',
+        mDataProp: 'refs',
+        bSearchable: true,
+        bVisible: true
+      },
+      {
+        sTitle: '',
+        mDataProp: 'details',
+        bSearchable: false,
+        bVisible: true
+      }
+    ]
+  };
+
+  var show = function(id) {
+//    console.log('data/cpd/' + id + '.json');
+    $.getJSON('data/cpd/' + id + '.json', function(data) {
+//      console.log(data);
+      var html = cpdViewTemplate({cpdData: data});
+      $('#cpd-view-container').html(html);
+    });
+  };
+  
+  $(function () {
+    init();
+
+    var cpdData = {
+      "id" : "icpd2369",
+      "formula" : "C3H3O3",
+      "name" : "pyruvate",
+      "synonyms" : [ "2-oxopropanoate", "2-oxopropionate", "acetylformate", "alpha-ketopropionate" ],
+      "alias" : "pyr",
+      "references" : [ {
+        "source" : "MetaCyc",
+        "entry" : "META:PYRUVATE"
+      }, {
+        "source" : "BiGGMetabolite",
+        "entry" : "pyr"
+      }, {
+        "source" : "LigandCompound",
+        "entry" : "C00022"
+      }]
+    };
+
+    var tableCpd = $("#cpd-table");
+    tableCpd.dataTable(table_cpd_sets_config);
+    $.getJSON('cpds.json', function(data) {
+      var tableData = [];
+      _.each(data.records, function(cpdData) {
+        var reflinks = "";
+        _.each(cpdData.references, function(ref) {
+          reflinks += getCpdLink(ref.entry, ref.source) + ', ';
+        });
+        var rowData = {
+          "id" : cpdData.id,
+          "name" : cpdData.name,
+          "alias" : cpdData.alias,
+          "formula" : cpdData.formula,
+          "refs" : reflinks,
+          "reactions" : 0,
+          "details" : '<button type="button" ' +
+            'onclick="show(\'' + cpdData.id + '\');"' +
+            'class=\'btn btn-info btn-xs\'' +
+            'data-toggle="modal" data-target="#cpd-model">Show</button>'
+        };
+        tableData.push(rowData);
+      });
+      tableCpd.DataTable().rows.add(tableData).draw();
+    });
+
+    var tableRxn = $("#rxn-table");
+    tableRxn.dataTable(table_rxn_sets_config);
+    $.getJSON('reactionTable.json', function(data) {
+      var tableData = [];
+      _.each(data.records, function(rxnData) {
+        var reflinks = "";
+        _.each(rxnData.references, function(ref) {
+          reflinks += getRxnLink(ref.entry, ref.source) + ', ';
+        });
+        var rowData = {
+          "id" : rxnData.id,
+          "name" : rxnData.name,
+          "alias" : rxnData.alias,
+          "equation" : rxnData.equation,
+          "ecn" : rxnData.ecn,
+          "refs" : reflinks,
+          "reactions" : 0,
+          "details" : '<button type="button" ' +
+          'onclick="show(\'' + rxnData.id + '\');"' +
+          'class=\'btn btn-info btn-xs\'' +
+          'data-toggle="modal" data-target="#cpd-model">Show</button>'
+        };
+        tableData.push(rowData);
+      });
+      tableRxn.DataTable().rows.add(tableData).draw();
+    });
+  });
+</script>
 </html>

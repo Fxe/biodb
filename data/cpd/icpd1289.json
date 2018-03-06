@@ -1,0 +1,45 @@
+{
+  "id" : "icpd1289",
+  "formula" : "C19H30O2",
+  "name" : "3alpha-hydroxy-5alpha-androstan-17-one",
+  "synonyms" : [ "(3alpha,5alpha)-3-hydroxy-androstan-17-one", "(3r,5s,8r,9s,10s,13s,14s)-3-hydroxy-10,13-dimethyl-1,2,3,4,5,6,7,8,9,11,12,14,15,16-tetradecahydrocyclopenta[a]phenanthren-17-one", "3alphal-aydroxy-5alphal-lndrostln-17-one" ],
+  "alias" : "andrstrn",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00523"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB00031"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "andrstrn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ANDROSTERONE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "andrstrn"
+  } ],
+  "inchi" : "InChI=1S/C19H30O2/c1-18-9-7-13(20)11-12(18)3-4-14-15-5-6-17(21)19(15,2)10-8-16(14)18/h12-16,20H,3-11H2,1-2H3/t12-,13+,14-,15-,16-,18-,19-/m0/s1",
+  "inchikey" : "QGXBDMJGAMFCBF-HLUDHZFRSA-N",
+  "smiles" : "C[C@@]12CC[C@H](C[C@]2([H])CC[C@@]3([H])[C@]4([H])CCC(=O)[C@@]4(C)CC[C@@]31[H])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "tissues" : [ "Intestine", "Most Tissues", "Primarily Liver", "Prostate", "Testes" ],
+      "biofuncions" : [ "Cell signaling", "Fuel and energy storage", "Fuel or energy source", "Hormones, Membrane component", "Membrane integrity/stability" ],
+      "origins" : [ "Endogenous", "Food" ],
+      "biofluids" : [ "Blood", "Cerebrospinal Fluid (CSF)", "Urine" ],
+      "applications" : [ "Nutrients", "Stabilizers", "Surfactants and Emulsifiers" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : 265.3136,
+      "cmlMolWeight" : 290.445,
+      "molWeight" : 290.445
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

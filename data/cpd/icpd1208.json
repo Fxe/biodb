@@ -1,0 +1,37 @@
+{
+  "id" : "icpd1208",
+  "formula" : "C31H52N7O17P3S",
+  "name" : "{[(2r,3s,4r,5r)-5-(6-amino-9h-purin-9-yl)-2-({[({[(3r)-3-{[2-({2-[(3e)-dec-3-enoylsulfanyl]ethyl}carbamoyl)ethyl]carbamoyl}-3-hydroxy-2,2-dimethylpropoxy](hydroxy)phosphoryl}oxy)(hydroxy)phosphoryl]oxy}methyl)-4-hydroxyoxolan-3-yl]oxy}phosphonic acid",
+  "synonyms" : [ "(3e)-dec-3-enoyl-coa", "[(2r,3s,4r,5r)-5-(6-aminopurin-9-yl)-2-[({[(3r)-3-{[2-({2-[(3e)-dec-3-enoylsulfanyl]ethyl}carbamoyl)ethyl]carbamoyl}-3-hydroxy-2,2-dimethylpropoxy(hydroxy)phosphoryl]oxy(hydroxy)phosphoryl}oxy)methyl]-4-hydroxyoxolan-3-yl]oxyphosphonic acid", "trans-3-decenoyl-coa", "trans-3-decenoyl-coenzyme a" ],
+  "alias" : "dd3ecoa",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15692"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dd3ecoa"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB02137"
+  } ],
+  "inchi" : "InChI=1S/C31H52N7O17P3S/c1-4-5-6-7-8-9-10-11-22(40)59-15-14-33-21(39)12-13-34-29(43)26(42)31(2,3)17-52-58(49,50)55-57(47,48)51-16-20-25(54-56(44,45)46)24(41)30(53-20)38-19-37-23-27(32)35-18-36-28(23)38/h9-10,18-20,24-26,30,41-42H,4-8,11-17H2,1-3H3,(H,33,39)(H,34,43)(H,47,48)(H,49,50)(H2,32,35,36)(H2,44,45,46)/b10-9+/t20-,24-,25-,26+,30-/m1/s1",
+  "inchikey" : "CQGVNMQHZQJNII-ZJZQAHHTSA-N",
+  "smiles" : "CCCCCC/C(/[H])=C(\\[H])/CC(=O)SCCN=C(CCN=C([C@@]([H])(C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "biofuncions" : [ "Cell signaling", "Fuel and energy storage", "Fuel or energy source", "Lipid biosynthesis, Fatty acid transport", "Membrane integrity/stability" ],
+      "origins" : [ "Endogenous", "Food" ],
+      "applications" : [ "Nutrients", "Stabilizers", "Surfactants and Emulsifiers" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : -327.74817,
+      "cmlMolWeight" : 915.738,
+      "molWeight" : 915.738
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

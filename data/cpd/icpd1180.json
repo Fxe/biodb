@@ -1,0 +1,36 @@
+{
+  "id" : "icpd1180",
+  "formula" : "C7H12N2O3",
+  "name" : "glycyl-l-proline",
+  "synonyms" : [ "1-(aminoacetyl)proline", "1-glycyl-l-proline", "1-glycylproline", "glycylproline", "n-glycyl-l-proline", "n-glycylproline" ],
+  "alias" : "glypro",
+  "references" : [ {
+    "source" : "HMDB",
+    "entry" : "HMDB00721"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10814"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "glypro"
+  } ],
+  "inchi" : "InChI=1S/C7H12N2O3/c8-4-6(10)9-3-1-2-5(9)7(11)12/h5H,1-4,8H2,(H,11,12)/t5-/m0/s1",
+  "inchikey" : "KZNQNBZMBZJQJO-YFKPBYRVSA-N",
+  "smiles" : "C1C[C@@]([H])(C(=O)O)N(C1)C(=O)CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "origins" : [ "Endogenous" ],
+      "biofluids" : [ "Blood", "Cerebrospinal Fluid (CSF)", "Urine" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : 29.303448,
+      "cmlMolWeight" : 172.183,
+      "molWeight" : 172.183
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

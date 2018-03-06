@@ -1,0 +1,43 @@
+{
+  "id" : "icpd1023",
+  "formula" : "C45H74N7O19P3S",
+  "name" : "3blph,7blph-dihydroxy-5beta-cholnoyl-co",
+  "synonyms" : [ "3alpha,7alpha-dihydroxy-5beta-cholanoyl-coa" ],
+  "alias" : "dcholcoa",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10556"
+  }, {
+    "source" : "BiGG",
+    "entry" : "dcholcoa"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dcholcoa"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB06292"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05337"
+  } ],
+  "inchi" : "InChI=1S/C45H74N7O19P3S/c1-24(27-7-8-28-34-29(11-14-45(27,28)5)44(4)13-10-26(53)18-25(44)19-30(34)54)6-9-33(56)75-17-16-47-32(55)12-15-48-41(59)38(58)43(2,3)21-68-74(65,66)71-73(63,64)67-20-31-37(70-72(60,61)62)36(57)42(69-31)52-23-51-35-39(46)49-22-50-40(35)52/h22-31,34,36-38,42,53-54,57-58H,6-21H2,1-5H3,(H,47,55)(H,48,59)(H,63,64)(H,65,66)(H2,46,49,50)(H2,60,61,62)/t24-,25+,26-,27-,28+,29+,30-,31-,34+,36-,37-,38+,42-,44+,45-/m1/s1",
+  "inchikey" : "IIWDDMINEZBCTG-RUAADODMSA-N",
+  "smiles" : "C[C@]([H])(CCC(=O)SCCN=C(CCN=C([C@@]([H])(C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O)[C@@]4([H])CC[C@@]5([H])[C@@]6([H])[C@]([H])(CC[C@]45C)[C@@]7(C)CC[C@]([H])(C[C@@]7([H])C[C@@]6([H])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "biofuncions" : [ "Cell signaling", "Fuel and energy storage", "Fuel or energy source", "Lipid biosynthesis, Fatty acid transport", "Membrane integrity/stability" ],
+      "origins" : [ "Endogenous", "Food" ],
+      "applications" : [ "Nutrients", "Stabilizers", "Surfactants and Emulsifiers" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : -176.50351,
+      "cmlMolWeight" : 1138.065,
+      "molWeight" : 1138.065
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

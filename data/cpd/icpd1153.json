@@ -1,0 +1,43 @@
+{
+  "id" : "icpd1153",
+  "formula" : "C6H13N2O3",
+  "name" : "5-hydroxy-2,6-diaminohexanoate",
+  "synonyms" : [ "2,6-diamino-5-hydroxyhexanoate", "alpha,epsilon-diamino-delta-hydroxycaproate", "alphal,aehsipon-dilmino-deptl-aydroxyclhrolte" ],
+  "alias" : "hlys",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "hlys"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16741"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14226"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-HYDROXY-L-LYSINE"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB00450"
+  } ],
+  "inchi" : "InChI=1S/C6H14N2O3/c7-3-4(9)1-2-5(8)6(10)11/h4-5,9H,1-3,7-8H2,(H,10,11)/p-1",
+  "inchikey" : "YSMODUONRAFBET-UHFFFAOYSA-M",
+  "smiles" : "C(CC(C(=O)[O-])N)C(CN)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "biofuncions" : [ "Protein synthesis, amino acid biosynthesis" ],
+      "origins" : [ "Endogenous" ],
+      "biofluids" : [ "Blood", "Urine" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : 31.674742,
+      "cmlMolWeight" : 163.196,
+      "molWeight" : 163.196
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}
