@@ -1,6 +1,7 @@
 {
   "records" : [ {
     "id" : "icpd0",
+    "structure" : true,
     "formula" : "C10H15N5O10P2",
     "name" : "adenosine-diphosphate",
     "synonyms" : [ "[({[(2r,3s,4r,5r)-5-(6-amino-9h-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy]phosphonic acid", "adenosine 5'-diphosphate", "adenosine 5'-pyrophosphate", "adenosine diphosphate", "adenosine-5'-diphosphate", "{[(2r,3s,4r,5r)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy(hydroxy)phosphoryl}oxyphosphonic acid" ],
@@ -29,31 +30,27 @@
     } ]
   }, {
     "id" : "icpd1",
-    "formula" : "C10H16N5O13P3",
-    "name" : "adenosine 5'-triphosphate",
-    "synonyms" : [ "({[(2r,3s,4r,5r)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy(hydroxy)phosphoryl}oxy(hydroxy)phosphoryl)oxyphosphonic acid", "({[({[(2r,3s,4r,5r)-5-(6-amino-9h-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)phosphonic acid", "adenosine 5'-triphosphorate", "adenosine triphosphate", "adenosine-5'-triphosphate", "adenosine-triphosphate" ],
-    "alias" : "atp",
+    "structure" : true,
+    "formula" : null,
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "ddcaACP",
     "references" : [ {
       "source" : "MetaCyc",
-      "entry" : "META:ATP"
-    }, {
-      "source" : "LigandDrug",
-      "entry" : "D08646"
-    }, {
-      "source" : "BiGG",
-      "entry" : "atp"
-    }, {
-      "source" : "ModelSeed",
-      "entry" : "cpd00002"
-    }, {
-      "source" : "LigandCompound",
-      "entry" : "C00002"
+      "entry" : "META:Dodecanoyl-ACPs"
     }, {
       "source" : "BiGGMetabolite",
-      "entry" : "atp"
+      "entry" : "ddcaACP"
+    }, {
+      "source" : "LigandCompound",
+      "entry" : "C05223"
+    }, {
+      "source" : "BiGG",
+      "entry" : "ddcaACP"
     } ]
   }, {
     "id" : "icpd2",
+    "structure" : true,
     "formula" : "C3H3O3",
     "name" : "pyruvate",
     "synonyms" : [ "2-oxopropanoate", "2-oxopropionate", "acetylformate", "alpha-ketopropionate" ],
@@ -79,6 +76,61 @@
     } ]
   }, {
     "id" : "icpd3",
+    "structure" : true,
+    "formula" : "C9H16N3O14P3",
+    "name" : "cytidine 5'-triphosphate",
+    "synonyms" : [ "({[(2r,3s,4r,5r)-5-(4-amino-2-oxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy(hydroxy)phosphoryl}oxy(hydroxy)phosphoryl)oxyphosphonic acid", "({[({[(2r,3s,4r,5r)-5-(4-amino-2-oxo-1,2-dihydropyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)phosphonic acid", "cytidine 5'-(tetrahydrogen triphosphate)", "cytidine triphosphate", "cytidine-5'-triphosphate", "cytidine-triphosphate" ],
+    "alias" : "ctp",
+    "references" : [ {
+      "source" : "LigandCompound",
+      "entry" : "C00063"
+    }, {
+      "source" : "BiGG",
+      "entry" : "ctp"
+    }, {
+      "source" : "BiGGMetabolite",
+      "entry" : "ctp"
+    }, {
+      "source" : "MetaCyc",
+      "entry" : "META:CTP"
+    } ]
+  }, {
+    "id" : "icpd4",
+    "structure" : true,
+    "formula" : "O7P2",
+    "name" : "diphosphate",
+    "synonyms" : [ "(phosphonatooxy)phosphonate", "phosphonatooxyphosphonate", "pyrophosphate" ],
+    "alias" : "ppi",
+    "references" : [ {
+      "source" : "MetaCyc",
+      "entry" : "META:PPI"
+    }, {
+      "source" : "BiGGMetabolite",
+      "entry" : "ppi"
+    }, {
+      "source" : "BiGG",
+      "entry" : "ppi"
+    }, {
+      "source" : "LigandCompound",
+      "entry" : "C00013"
+    } ]
+  }, {
+    "id" : "icpd5",
+    "structure" : true,
+    "formula" : "C27H53O8P",
+    "name" : "1,2-didodecanoyl-sn-glycerol 3-phosphate",
+    "synonyms" : [ ],
+    "alias" : "pa120",
+    "references" : [ {
+      "source" : "LipidMAPS",
+      "entry" : "LMGP10010030"
+    }, {
+      "source" : "BiGGMetabolite",
+      "entry" : "pa120"
+    } ]
+  }, {
+    "id" : "icpd6",
+    "structure" : true,
     "formula" : "C3H5O6P",
     "name" : "2-phosphonooxyprop-2-enoic acid",
     "synonyms" : [ "2-(phosphonooxy)prop-2-enoic acid" ],
@@ -100,7 +152,116 @@
       "entry" : "META:PHOSPHO-ENOL-PYRUVATE"
     } ]
   }, {
-    "id" : "icpd4",
+    "id" : "icpd7",
+    "structure" : true,
+    "formula" : "C36H65N3O15P2",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "cdpdddecg",
+    "references" : [ {
+      "source" : "BiGGMetabolite",
+      "entry" : "cdpdddecg"
+    }, {
+      "source" : "LipidMAPS",
+      "entry" : "LMGP13010001"
+    } ]
+  }, {
+    "id" : "icpd8",
+    "structure" : true,
+    "formula" : "C10H16N5O13P3",
+    "name" : "adenosine 5'-triphosphate",
+    "synonyms" : [ "({[(2r,3s,4r,5r)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy(hydroxy)phosphoryl}oxy(hydroxy)phosphoryl)oxyphosphonic acid", "({[({[(2r,3s,4r,5r)-5-(6-amino-9h-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)phosphonic acid", "adenosine 5'-triphosphorate", "adenosine triphosphate", "adenosine-5'-triphosphate", "adenosine-triphosphate" ],
+    "alias" : "atp",
+    "references" : [ {
+      "source" : "MetaCyc",
+      "entry" : "META:ATP"
+    }, {
+      "source" : "LigandDrug",
+      "entry" : "D08646"
+    }, {
+      "source" : "BiGG",
+      "entry" : "atp"
+    }, {
+      "source" : "ModelSeed",
+      "entry" : "cpd00002"
+    }, {
+      "source" : "LigandCompound",
+      "entry" : "C00002"
+    }, {
+      "source" : "BiGGMetabolite",
+      "entry" : "atp"
+    } ]
+  }, {
+    "id" : "icpd9",
+    "structure" : true,
+    "formula" : null,
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "pa_EC",
+    "references" : [ {
+      "source" : "BiGGMetabolite",
+      "entry" : "pa_EC"
+    }, {
+      "source" : "LipidMAPS",
+      "entry" : "LMGP10010000"
+    }, {
+      "source" : "LigandCompound",
+      "entry" : "C00416"
+    } ]
+  }, {
+    "id" : "icpd10",
+    "structure" : true,
+    "formula" : null,
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "ACP",
+    "references" : [ {
+      "source" : "BiGGMetabolite",
+      "entry" : "ACP"
+    }, {
+      "source" : "MetaCyc",
+      "entry" : "META:ACP"
+    }, {
+      "source" : "LigandCompound",
+      "entry" : "C00229"
+    }, {
+      "source" : "BiGG",
+      "entry" : "ACP"
+    } ]
+  }, {
+    "id" : "icpd11",
+    "structure" : true,
+    "formula" : "C15H31O7P",
+    "name" : "1-dodecanoyl-sn-glycerol 3-phosphate",
+    "synonyms" : [ ],
+    "alias" : "1ddecg3p",
+    "references" : [ {
+      "source" : "LipidMAPS",
+      "entry" : "LMGP10050015"
+    }, {
+      "source" : "BiGGMetabolite",
+      "entry" : "1ddecg3p"
+    } ]
+  }, {
+    "id" : "icpd12",
+    "structure" : true,
+    "formula" : null,
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "cdpdag_EC",
+    "references" : [ {
+      "source" : "BiGGMetabolite",
+      "entry" : "cdpdag_EC"
+    }, {
+      "source" : "LigandCompound",
+      "entry" : "C00269"
+    }, {
+      "source" : "LipidMAPS",
+      "entry" : "LMGP13010000"
+    } ]
+  }, {
+    "id" : "icpd13",
+    "structure" : true,
     "formula" : "H",
     "name" : null,
     "synonyms" : [ ],

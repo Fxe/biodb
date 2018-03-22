@@ -1,11 +1,44 @@
 {
   "records" : [ {
     "id" : "irxn0",
-    "equation" : "pyr + atp <=> pep + adp",
-    "ecn" : null,
+    "equation" : "h + pa120 + ctp <=> ppi + cdpdddecg",
+    "ecn" : "",
     "name" : null,
     "synonyms" : [ ],
     "alias" : null,
+    "stoichiometry" : {
+      "l" : {
+        "icpd5" : "",
+        "icpd3" : "",
+        "icpd13" : ""
+      },
+      "r" : {
+        "icpd4" : "",
+        "icpd7" : ""
+      }
+    },
+    "references" : [ {
+      "source" : "BiGGReaction",
+      "entry" : "DASYN120"
+    } ]
+  }, {
+    "id" : "irxn1",
+    "equation" : "h + pep + adp <=> pyr + atp",
+    "ecn" : "EC-2.7.1.40; 2.7.1.40",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : null,
+    "stoichiometry" : {
+      "l" : {
+        "icpd0" : "",
+        "icpd13" : "",
+        "icpd6" : ""
+      },
+      "r" : {
+        "icpd8" : "",
+        "icpd2" : ""
+      }
+    },
     "references" : [ {
       "source" : "BiGGReaction",
       "entry" : "PYK_h"
@@ -24,6 +57,51 @@
     }, {
       "source" : "BiGGReaction",
       "entry" : "PYK"
+    } ]
+  }, {
+    "id" : "irxn2",
+    "equation" : "ddcaACP + 1ddecg3p <=> pa120 + ACP",
+    "ecn" : "",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : null,
+    "stoichiometry" : {
+      "l" : {
+        "icpd1" : "",
+        "icpd11" : ""
+      },
+      "r" : {
+        "icpd5" : "",
+        "icpd10" : ""
+      }
+    },
+    "references" : [ {
+      "source" : "BiGGReaction",
+      "entry" : "AGPAT120"
+    } ]
+  }, {
+    "id" : "irxn3",
+    "equation" : "pa_EC + ctp <=> cdpdag_EC + ppi",
+    "ecn" : "2.7.7.41",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : null,
+    "stoichiometry" : {
+      "l" : {
+        "icpd9" : "",
+        "icpd3" : ""
+      },
+      "r" : {
+        "icpd4" : "",
+        "icpd12" : ""
+      }
+    },
+    "references" : [ {
+      "source" : "BiGGReaction",
+      "entry" : "DASYN_EC"
+    }, {
+      "source" : "LigandReaction",
+      "entry" : "R01799"
     } ]
   } ]
 }

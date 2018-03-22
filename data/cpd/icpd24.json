@@ -1,0 +1,45 @@
+{
+  "id" : "icpd24",
+  "formula" : "C8H7O4",
+  "name" : "homogentisate",
+  "synonyms" : [ "(2,5-dihydroxyphenyl)-acetate", "2,5-dihydroxy-alpha-toluate", "2,5-dihydroxy-benzeneacetate", "2,5-dihydroxyphenylacetate" ],
+  "alias" : "hgentis",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "hgentis"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "hgentis"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB00130"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOGENTISATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00544"
+  } ],
+  "inchi" : "InChI=1S/C8H8O4/c9-6-1-2-7(10)5(3-6)4-8(11)12/h1-3,9-10H,4H2,(H,11,12)/p-1",
+  "inchikey" : "IGMNYECMUMZDDF-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=C(CC(=O)[O-])C(=C1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "tissues" : [ "Cartilage", "Connective Tissue", "Kidney" ],
+      "biofuncions" : [ "Component of Phenylalanine metabolism", "Component of Tyrosine metabolism" ],
+      "origins" : [ "Endogenous" ],
+      "biofluids" : [ "Blood", "Urine" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : -57.254215,
+      "cmlMolWeight" : 167.141,
+      "molWeight" : 167.141,
+      "parents" : [ ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "iJN678", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  }
+}

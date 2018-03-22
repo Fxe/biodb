@@ -1,0 +1,44 @@
+{
+  "id" : "icpd619",
+  "formula" : "C3H8O",
+  "name" : "2-propanol",
+  "synonyms" : [ "2-hydroxypropane", "2-propyl alcohol", "iso-propylalcohol", "isopropanol", "isopropyl alcohol", "propan-2-ol" ],
+  "alias" : "2ppoh",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "2ppoh"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2ppoh"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01845"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB00863"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ISO-PROPANOL"
+  } ],
+  "inchi" : "InChI=1S/C3H8O/c1-3(2)4/h3-4H,1-2H3",
+  "inchikey" : "KFZMGEQAYNKOFK-UHFFFAOYSA-N",
+  "smiles" : "CC(C)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "tissues" : [ "Pancreas", "Platelet", "Skin", "Stratum Corneum" ],
+      "origins" : [ "Endogenous", "Microbial" ],
+      "biofluids" : [ "Blood", "Cerebrospinal Fluid (CSF)", "Urine" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : 37.72897,
+      "cmlMolWeight" : 60.096,
+      "molWeight" : 60.096,
+      "parents" : [ ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  }
+}

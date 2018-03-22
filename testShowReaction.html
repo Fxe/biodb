@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Reaction Panel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .eqs-box {
+            border: 1px solid #d8d8d8;
+            'background-color: #d8d8d8;
+            margin: 2px;
+
+            float: left;
+        }
+        .floating-box {
+            float: left;
+            margin: 2px;
+            'border: 0px solid #73AD21;
+        }
+        .eqs-dipiction {
+            height: 150px;
+            width: 150px;
+            vertical-align: bottom;
+            text-align: center;
+        }
+        .eqs-label {
+            height: 30px;
+            'border: 0px solid #0f0f0f;
+            alignment: center;
+            text-align: center;
+        }
+        .eqs-sum {
+            vertical-align: bottom;
+            height: 180px;
+            float: left;
+            display: inline-block;
+        }
+        .eqs-empty {
+            height: 150px;
+        }
+        .eqs {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<!--
+<div id="eq1" class="eqs"></div>
+<div id="eq" class="eqs">
+    <div class="floating-box">
+        <div class="eqs-dipiction"><img src="C00002.svg" width="100%" height="100%"></div>
+        <div class="eqs-label">
+            <span class="label label-primary">-0.02</span>
+            <button type="button" onclick="show('icpd4');" class="btn btn-success btn-xs" data-toggle="modal" data-target="#cpd-model">ctp</button>
+        </div>
+    </div>
+    <div class="floating-box">
+        <div><img src="C00002.svg" width="100%" height="100%"></div>
+        <div class="eqs-label">!!!</div>
+    </div>
+    <div class="floating-box">
+        <div><img src="C00002.svg" width="100%" height="100%"></div>
+
+        <div class="eqs-label">!!!</div>
+    </div>
+    <div class="floating-box">
+        <div><img src="C00002.svg" width="100%" height="100%"></div>
+        <div class="eqs-label">!!!</div>
+    </div>
+    <div class="floating-box">
+        <div><img src="C00002.svg" width="100%" height="100%"></div>
+        <div class="eqs-label">!!!</div>
+    </div>
+</div> -->
+<div id="container"></div>
+</body>
+<script id="rxn-view-template-bigg" type="text/template">
+    <dl class="dl-horizontal">
+        <dt>Models</dt>
+        <dd>
+            <ul class="list-inline">
+                <% _.each(rxnData.models, function(s) { %>
+                <li><a href="http://bigg.ucsd.edu/models/<%- s %>" target="_blank"><%- s %></a></li>
+                <%} );%>
+            </ul>
+        </dd>
+    </dl>
+</script>
+<script id="rxn-view-template" type="text/template">
+    <% console.log(rxnData) %>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1><%-rxnData.id %>: <small><%-rxnData.name %></small>
+                        <% if (rxnData.alias) { %>
+                        <small>(<%- rxnData.alias%>)</small>
+                        <%} %>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="eqs-box">
+                    <%=renderEquationSHtml(rxnData, index) %>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <dl class="dl-horizontal">
+                    <dt>Names</dt>
+                    <dd>
+                        <ul class="list-inline">
+                            <% _.each(rxnData.synonyms, function(s) { %>
+                            <li><%- s %></li>
+                            <%} );%>
+                        </ul>
+                    </dd>
+                    <% if (rxnData.ecn) { %>
+                    <dt>EC Number</dt>
+                    <dd><%-rxnData.ecn %></dd>
+                    <%} %>
+                    <dt>Equation</dt>
+                    <dd><%=rxnData.equation %></dd>
+                    <% if (rxnData.smiles) { %>
+                    <dt>Universal SMILES</dt>
+                    <dd>
+                        <div style="word-wrap: break-word">
+                            <%-rxnData.smiles %>
+                        </div>
+                    </dd>
+                    <%} %>
+                    <% if (rxnData.inchi) { %>
+                    <dt>InChI</dt>
+                    <dd>
+                        <div style="word-wrap: break-word">
+                            <%-rxnData.inchi %>
+                        </div>
+                    </dd>
+                    <%} %>
+                    <% if (rxnData.inchikey) { %>
+                    <dt>InChIKey</dt>
+                    <dd><%-rxnData.inchikey %></dd>
+                    <%} %>
+                </dl>
+                <h4>Lipid Data:</h4>
+
+                <% _.each(rxnData.extra, function(v, k) { %>
+                <%
+                if (renderFunctions[k] && _.size(v)) { %>
+                <div style="background-color: #e1fcf4; border-radius: 10px; padding-left: 10px">
+                    <%= renderFunctions[k]({rxnData: v}) %>
+                </div>
+                <%
+                };
+                console.log(k, v);
+                %>
+                <%})%>
+            </div>
+            <div class="col-md-3">
+
+                <h4>Database Links:</h4>
+                <% _.each(rxnData.references, function(s) { %>
+                  <%-s.source %>: <%=getRxnLink(s.entry, s.source) %><br>
+                <%} );%>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/scroller/1.4.2/js/dataTables.scroller.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/idatabase.js"></script>
+
+<script type="text/javascript">
+  var renderFunctions = {
+    "bigg" : _.template($("#rxn-view-template-bigg").html()),
+//    "ms" : _.template($("#cpd-view-template-modelseed").html()),
+//    "metacyc" : _.template($("#cpd-view-template-metacyc").html())
+  };
+
+  var index = new BiodbIndex();
+
+$(function() {
+  var str = {}
+
+  var rxnViewTemplate = _.template($("#rxn-view-template").html());
+  var id = "irxn0";
+  loadCpdIndex('cpds.json', index);
+  $.getJSON('data/rxn/' + id + '.json', function(data) {
+    console.log(data);
+    $('#eq1').html(renderEquationSHtml(data, index));
+    var html = rxnViewTemplate({rxnData: data, index: index});
+    $('#container').html(html);
+    //$('#cpd-view-container').html(html);
+  });
+});
+</script>
+</html>

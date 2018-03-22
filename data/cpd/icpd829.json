@@ -1,0 +1,43 @@
+{
+  "id" : "icpd829",
+  "formula" : "C9H13NO2",
+  "name" : "3-methoxytyramine",
+  "synonyms" : [ "3-methoxy-4-hydroxyphenylethyl amine", "3-o-methyldopamine", "4-(2-amino-ethyl)-2-methoxy-phenol", "4-(2-aminoethyl)-2-methoxy-phenol", "4-(2-aminoethyl)-2-methoxyphenol", "5-(2-aminoethyl)guaiacol", "o-methyldopamine" ],
+  "alias" : "3moxtyr",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05587"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3moxtyr"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB00022"
+  }, {
+    "source" : "BiGG",
+    "entry" : "3moxtyr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7650"
+  } ],
+  "inchi" : "InChI=1S/C9H13NO2/c1-12-9-6-7(4-5-10)2-3-8(9)11/h2-3,6,11H,4-5,10H2,1H3",
+  "inchikey" : "DIVQKHQLANKJQO-UHFFFAOYSA-N",
+  "smiles" : "COC1=CC(=CC=C1O)CCN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "tissues" : [ "Brain", "Most Tissues" ],
+      "origins" : [ "Endogenous" ],
+      "biofluids" : [ "Blood", "Cerebrospinal Fluid (CSF)", "Urine" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : 107.763626,
+      "cmlMolWeight" : 168.215,
+      "molWeight" : 168.215
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

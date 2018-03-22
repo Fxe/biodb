@@ -1,0 +1,43 @@
+{
+  "id" : "icpd178",
+  "formula" : "C6H14O12P2",
+  "name" : "beta-d-fructose 2,6-bisphosphate",
+  "synonyms" : [ "[(2r,3s,4s,5s)-3,4-dihydroxy-5-(hydroxymethyl)-5-(phosphonooxy)oxolan-2-yl]methoxyphosphonic acid", "beta-d-frucaost 2,6-eisphosphat", "{[(2r,3s,4s,5s)-3,4-dihydroxy-5-(hydroxymethyl)-5-(phosphonooxy)oxolan-2-yl]methoxy}phosphonic acid" ],
+  "alias" : "f26bp",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-535"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB01047"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00665"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "f26bp"
+  }, {
+    "source" : "BiGG",
+    "entry" : "f26bp"
+  } ],
+  "inchi" : "InChI=1S/C6H14O12P2/c7-2-6(18-20(13,14)15)5(9)4(8)3(17-6)1-16-19(10,11)12/h3-5,7-9H,1-2H2,(H2,10,11,12)(H2,13,14,15)/t3-,4-,5+,6+/m1/s1",
+  "inchikey" : "YXWOAJXNVLXPMU-ZXXMMSQZSA-N",
+  "smiles" : "C([C@]1([H])[C@]([H])([C@@]([H])([C@@](CO)(O1)OP(=O)(O)O)O)O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "biofuncions" : [ "Component of Fructose and mannose metabolism" ],
+      "origins" : [ "Endogenous" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : -546.4518,
+      "cmlMolWeight" : 336.085,
+      "molWeight" : 336.085,
+      "parents" : [ ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iMM904", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

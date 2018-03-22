@@ -1,0 +1,42 @@
+{
+  "id" : "icpd530",
+  "formula" : "C6H14N2O",
+  "name" : "n-acetylputrescine",
+  "synonyms" : [ "acetylputrescine", "monoacetylputrescine", "n-(4-aminobutyl)acetamide", "n-(4-aminobutyl)ethanimidic acid" ],
+  "alias" : "aprut",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "aprut"
+  }, {
+    "source" : "BiGG",
+    "entry" : "aprut"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-569"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB02064"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02714"
+  } ],
+  "inchi" : "InChI=1S/C6H14N2O/c1-6(9)8-5-3-2-4-7/h2-5,7H2,1H3,(H,8,9)",
+  "inchikey" : "KLZGKIDSEJWEDW-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)NCCCCN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "origins" : [ "Endogenous", "Microbial" ],
+      "biofluids" : [ "Blood", "Urine" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : 118.13475,
+      "cmlMolWeight" : 131.197,
+      "molWeight" : 131.197
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

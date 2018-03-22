@@ -1,0 +1,43 @@
+{
+  "id" : "icpd637",
+  "formula" : "C3H3O2",
+  "name" : "acrylate",
+  "synonyms" : [ "propenoate" ],
+  "alias" : "acryl",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACRYLATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "acryl"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB31647"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00511"
+  }, {
+    "source" : "BiGG",
+    "entry" : "acryl"
+  } ],
+  "inchi" : "InChI=1S/C3H4O2/c1-2-3(4)5/h2H,1H2,(H,4,5)/p-1",
+  "inchikey" : "NIXOWILDQLNWCW-UHFFFAOYSA-M",
+  "smiles" : "C=CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "origins" : [ "Endogenous", "Food" ],
+      "applications" : [ "Nutrient" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : -37.8987,
+      "cmlMolWeight" : 71.055,
+      "molWeight" : 71.055,
+      "parents" : [ ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iIT341" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "icpd47",
+  "formula" : "C20H40O2",
+  "name" : "phytanic acid",
+  "synonyms" : [ "3,7,11,15-tetramethyl-hexadecanoic acid", "3,7,11,15-tetramethylhexadecanoic acid", "hexadecanoic acid, 3,7,11,15-tetramethyl-", "phytanoic acid" ],
+  "alias" : "phyt",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "phyt"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01607"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB00801"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHYTANATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "phyt"
+  } ],
+  "inchi" : "InChI=1S/C20H40O2/c1-16(2)9-6-10-17(3)11-7-12-18(4)13-8-14-19(5)15-20(21)22/h16-19H,6-15H2,1-5H3,(H,21,22)",
+  "inchikey" : "RLCKHJSFHOZMDR-UHFFFAOYSA-N",
+  "smiles" : "CC(C)CCCC(C)CCCC(C)CCCC(C)CC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "tissues" : [ "Fibroblasts", "Liver", "Myelin", "Prostate" ],
+      "biofuncions" : [ "Cell signaling", "Fuel and energy storage", "Fuel or energy source", "Membrane integrity/stability" ],
+      "origins" : [ "Endogenous", "Food" ],
+      "biofluids" : [ "Blood" ],
+      "applications" : [ "Nutrients", "Stabilizers", "Surfactants and Emulsifiers" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : 335.43167,
+      "cmlMolWeight" : 311.527,
+      "molWeight" : 311.527
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

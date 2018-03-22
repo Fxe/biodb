@@ -1,0 +1,41 @@
+{
+  "id" : "icpd587",
+  "formula" : "C4H8O4",
+  "name" : "l-erythrulose",
+  "synonyms" : [ "(3s)-1,3,4-trihydroxybutan-2-one", "l-glycero-tetrulose" ],
+  "alias" : "eryth",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "eryth"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB06293"
+  }, {
+    "source" : "BiGG",
+    "entry" : "eryth"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ERYTHRULOSE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02045"
+  } ],
+  "inchi" : "InChI=1S/C4H8O4/c5-1-3(7)4(8)2-6/h3,5-7H,1-2H2/t3-/m0/s1",
+  "inchikey" : "UQPHVQVXLPRNCX-VKHMYHEASA-N",
+  "smiles" : "C([C@@]([H])(C(=O)CO)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "origins" : [ "Endogenous" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : -62.411037,
+      "cmlMolWeight" : 120.105,
+      "molWeight" : 120.105
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

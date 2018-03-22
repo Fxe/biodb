@@ -1,0 +1,45 @@
+{
+  "id" : "icpd385",
+  "formula" : "C4H2O4",
+  "name" : "maleate",
+  "synonyms" : [ "(2z)-2-butenedioate", "(2z)-but-2-enedioate", "(z)-2-butenedioate", "(z)-butenedioate", "cis-2-butenedioate", "cis-but-2-enedioate", "cis-butenedioate" ],
+  "alias" : "male",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "male"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01384"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB00176"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MALEATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "male"
+  } ],
+  "inchi" : "InChI=1S/C4H4O4/c5-3(6)1-2-4(7)8/h1-2H,(H,5,6)(H,7,8)/p-2/b2-1-",
+  "inchikey" : "VZCYOOQTPOCHFL-UPHRSURJSA-L",
+  "smiles" : "C(\\[H])(=C(\\[H])/C(=O)[O-])/C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "tissues" : [ "Fibroblasts", "Muscle", "Neuron", "Pancreas", "Platelet", "Prostate", "Spleen" ],
+      "biofuncions" : [ "Cell signaling", "Fuel and energy storage", "Fuel or energy source", "Membrane integrity/stability" ],
+      "origins" : [ "Endogenous", "Food" ],
+      "biofluids" : [ "Blood", "Urine" ],
+      "applications" : [ "Nutrients", "Stabilizers", "Surfactants and Emulsifiers" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : -125.11602,
+      "cmlMolWeight" : 114.057,
+      "molWeight" : 114.057
+    },
+    "bigg" : {
+      "models" : [ "iSB619", "iJN746" ]
+    }
+  }
+}

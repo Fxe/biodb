@@ -54,6 +54,11 @@
   </div>
   <div class="row">
     <div class="col-md-12">
+      <h1>Reactions</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
       <table id="rxn-table" class="table"></table>
     </div>
   </div>
@@ -65,6 +70,7 @@
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/scroller/1.4.2/js/dataTables.scroller.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/idatabase.js"></script>
 <script type="text/javascript" src="js/render-hmdb.js"></script>
 <script type="text/javascript" src="js/render-bigg.js"></script>
 <script type="text/javascript" src="js/render-kegg.js"></script>
@@ -150,8 +156,9 @@
     <%} %>
   </dl>
 </script>
+
 <script id="cpd-view-template" type="text/template">
-  <% console.log(cpdData) %>
+  <% //console.log(cpdData) %>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -218,6 +225,9 @@
         <%})%>
       </div>
       <div class="col-md-3">
+        <% if (cpdData.mol) { %>
+          <%="<img src='data/structure/" + cpdData.id + ".svg'>"%>
+        <%} %>
 
         <h4>Database Links:</h4>
         <% _.each(cpdData.references, function(s) { %>
@@ -236,34 +246,6 @@
   var cpdViewTemplate = _.template($("#cpd-view-template").html());
 
   var tsize = 300;
-  var identifiersMap = {
-    "LigandCompound" : "http://identifiers.org/kegg.compound/",
-    "MetaCyc" : "http://identifiers.org/biocyc/",
-    "ModelSeed" : "http://identifiers.org/seed.compound/",
-    "BiGGMetabolite" : "http://identifiers.org/bigg.metabolite/",
-    "LipidMAPS" : "http://identifiers.org/lipidmaps/",
-    "HMDB" : "http://identifiers.org/hmdb/"
-  };
-  var rxnDatabaseMap = {
-    "LigandReaction" : "http://identifiers.org/kegg.reaction/",
-    "MetaCyc" : "http://identifiers.org/biocyc/",
-    "ModelSeed" : "http://identifiers.org/seed.reaction",
-    "BiGGReaction" : "http://identifiers.org/bigg.reaction/"
-  };
-
-  var getCpdLink = function(entry, database) {
-    if (identifiersMap[database]) {
-      return '<a href="' + identifiersMap[database] + entry + '" target="_blank">' + entry + '</a>';
-    }
-    return entry;
-  };
-
-  var getRxnLink = function(entry, database) {
-    if (rxnDatabaseMap[database]) {
-      return '<a href="' + rxnDatabaseMap[database] + entry + '" target="_blank">' + entry + '</a>';
-    }
-    return entry;
-  };
 
   var table_rxn_sets_config = {
     scrollY: tsize,
@@ -375,10 +357,14 @@
       $('#cpd-view-container').html(html);
     });
   };
-  
+
+
+
+  var index;
+
   $(function () {
     init();
-
+    index = new BiodbIndex();
     var cpdData = {
       "id" : "icpd2369",
       "formula" : "C3H3O3",
@@ -403,7 +389,10 @@
       var tableData = [];
       _.each(data.records, function(cpdData) {
         var reflinks = "";
+        index.setMetaboliteAlias(cpdData.id, cpdData.alias);
         _.each(cpdData.references, function(ref) {
+          //console.log(cpdData.id, "database", ref.source, "entry", ref.entry);
+          index.addMetabolite(cpdData.id, ref.entry, ref.source);
           reflinks += getCpdLink(ref.entry, ref.source) + ', ';
         });
         var rowData = {
@@ -426,17 +415,20 @@
     var tableRxn = $("#rxn-table");
     tableRxn.dataTable(table_rxn_sets_config);
     $.getJSON('reactionTable.json', function(data) {
+      console.log('loading reactions...');
       var tableData = [];
       _.each(data.records, function(rxnData) {
+        console.log(rxnData);
         var reflinks = "";
         _.each(rxnData.references, function(ref) {
+          index.addReaction(rxnData.id, ref.entry, ref.source);
           reflinks += getRxnLink(ref.entry, ref.source) + ', ';
         });
         var rowData = {
           "id" : rxnData.id,
           "name" : rxnData.name,
           "alias" : rxnData.alias,
-          "equation" : rxnData.equation,
+          "equation" : renderEquationHtml(rxnData, index),
           "ecn" : rxnData.ecn,
           "refs" : reflinks,
           "reactions" : 0,

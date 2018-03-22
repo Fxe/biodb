@@ -1,0 +1,43 @@
+{
+  "id" : "icpd841",
+  "formula" : "C9H13N5O3",
+  "name" : "(6r)-2-amino-6-[(1r,2s)-1,2-dihydroxypropyl]-1,4,6,7-tetrahydropteridin-4-one",
+  "synonyms" : [ "(6r)-2-amino-6-[(1r,2s)-1,2-dihydroxypropyl]-6,7-dihydro-1h-pteridin-4-one" ],
+  "alias" : "dhbpt",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00268"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dhbpt"
+  }, {
+    "source" : "HMDB",
+    "entry" : "HMDB02215"
+  }, {
+    "source" : "BiGG",
+    "entry" : "dhbpt"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15159"
+  } ],
+  "inchi" : "InChI=1S/C9H13N5O3/c1-3(15)6(16)4-2-11-7-5(12-4)8(17)14-9(10)13-7/h3-4,6,15-16H,2H2,1H3,(H3,10,11,13,14,17)/t3-,4+,6-/m0/s1",
+  "inchikey" : "ZHQJVZLJDXWFFX-RPDRRWSUSA-N",
+  "smiles" : "C[C@@H]([C@@H]([C@@]1([H])CN=C2C(=N1)C(=O)N=C(N)N2)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : {
+      "tissues" : [ "Epidermis" ],
+      "origins" : [ "Endogenous" ],
+      "biofluids" : [ "Blood" ]
+    },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : 49.954563,
+      "cmlMolWeight" : 239.233,
+      "molWeight" : 239.233
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  }
+}
