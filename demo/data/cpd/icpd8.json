@@ -1,0 +1,51 @@
+{
+  "id" : "icpd8",
+  "formula" : "C3H5O6P",
+  "name" : "2-phosphonooxyprop-2-enoic acid",
+  "synonyms" : [ "2-(phosphonooxy)prop-2-enoic acid" ],
+  "alias" : "pep",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00074"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "pep"
+  }, {
+    "source" : "ModelSeed",
+    "entry" : "cpd00061"
+  }, {
+    "source" : "BiGG",
+    "entry" : "pep"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHO-ENOL-PYRUVATE"
+  } ],
+  "inchi" : "InChI=1S/C3H5O6P/c1-2(3(4)5)9-10(6,7)8/h1H2,(H,4,5)(H2,6,7,8)",
+  "inchikey" : "DTBNBXWJWCWCIK-UHFFFAOYSA-N",
+  "smiles" : "C=C(C(=O)O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : {
+      "core" : false,
+      "cofactor" : false,
+      "deltag" : -316.08,
+      "deltagerr" : 0.58973
+    },
+    "metacyc" : {
+      "inhibitors" : [ "META:F16ALDOLASE-RXN", "META:MALSYN-RXN", "META:3.11.1.3-RXN", "META:PHOSICITDEHASE-RXN", "META:TRIOSEPISOMERIZATION-RXN", "META:6PFRUCTPHOS-RXN", "META:L-LACTATE-DEHYDROGENASE-RXN", "META:2.7.1.90-RXN", "META:PEPCARBOXYKIN-RXN", "META:GSADENYLATION-RXN", "META:PGLUCISOM-RXN", "META:GAPOXNPHOSPHN-RXN", "META:ISOCIT-CLEAV-RXN", "META:ISOCITDEH-RXN", "META:THI-P-SYN-RXN", "META:PEPSYNTH-RXN", "META:F16BDEPHOS-RXN", "META:GLUCOKIN-RXN", "META:METHGLYSYN-RXN", "META:RXN0-5260" ],
+      "activators" : [ "META:PHOSACETYLTRANS-RXN", "META:F16BDEPHOS-RXN", "META:2.5.1.19-RXN", "META:PEPDEPHOS-RXN", "META:DEPHOSICITDEHASE-RXN" ],
+      "instances" : [ "META:Monocarboxylates" ],
+      "reactions" : [ "META:2PGADEHYDRAT-RXN", "META:2.7.1.121-RXN", "META:RXN-14117", "META:PEPDEPHOS-RXN", "META:RXN-12238", "META:PEPCARBOXYKIN-RXN", "META:PYRUVATEORTHOPHOSPHATE-DIKINASE-RXN", "META:4.4.1.19-RXN", "META:RXN-12809", "META:PEPSYNTH-RXN", "META:RXN-9991", "META:RXN-14192", "META:PEPCARBOX-RXN", "META:RXN-12481", "META:RXN-15654", "META:RXN-17078", "META:N-ACETYLNEURAMINATE-SYNTHASE-RXN", "META:4.1.1.32-RXN", "META:RXN-17354", "META:RXN-10002", "META:RXN-12324", "META:2.5.1.19-RXN", "META:KDO-8PSYNTH-RXN", "META:RXN-14207", "META:4.1.1.38-RXN", "META:PHOSPHOENOLPYRUVATE-MUTASE-RXN", "META:RXN-11802", "META:UDPNACETYLGLUCOSAMENOLPYRTRANS-RXN", "META:TRANS-RXN-210", "META:RXN-9988", "META:RXN-17394", "META:2.7.3.9-RXN", "META:PHOSPHOENOLPYRUVATE-PHOSPHATASE-RXN", "META:DAHPSYN-RXN", "META:RXN-9584" ],
+      "gibbs" : -293.83633,
+      "cmlMolWeight" : 165.019,
+      "molWeight" : 165.019,
+      "parents" : [ "META:Monocarboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "e_coli_core", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   19.3200  -20.8600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5324  -20.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7449  -20.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9573  -20.1600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7449  -22.2598    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5324  -18.7602    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9200  -20.8600    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5200  -20.8600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9200  -19.4600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9200  -22.2600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\n  2  6  2  0     0  0\n  1  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  7 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00074\n\n$$$$",
+  "reactions" : [ "irxn6" ]
+}

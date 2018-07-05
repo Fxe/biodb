@@ -1,0 +1,43 @@
+{
+  "id" : "irxn2",
+  "equation" : "h2o + 0.02 pa_hs <=> pi + 0.02 dag_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd17" : "",
+      "icpd13" : "0.02"
+    },
+    "r" : {
+      "icpd10" : "",
+      "icpd19" : "0.02"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PAPA_EC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PAPA_EC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJR904" ]
+    }
+  }
+}
