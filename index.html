@@ -18,6 +18,20 @@
       margin-left: auto !important;
     }
 
+    .database-card-inner {
+      font: 18px Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+      height: 100px;
+      /*width: 200px;
+      height: 100px;
+      */
+      vertical-align: middle;
+    }
+
+    .base {
+      margin: 50px 50px 50px 50px;
+      font: 18px Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+    }
+
     .btn-card {
       width: 200px;
       /*width: 200px;
@@ -27,7 +41,7 @@
     }
   </style>
 </head>
-<body>
+<body style="margin-top: 40px">
 <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,65 +64,64 @@
         <li><a href="#">GitHub</a></li>
         <li><a href="#">Docker</a></li>
         <li><a href="#">Docs</a></li>
+        <li><a href="#">About</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 <div class="jumbotron">
   <div class="container">
+    <div style="text-align: center !important">
     <h1>BioDB</h1>
-    <p>Metabolic Database Integration Pipeline</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    <h2>Metabolic Database Integration Pipeline</h2>
+    <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>-->
+    </div>
   </div>
 </div>
 <div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="base">
+        The pipeline creates compound and reaction sets from metabolic databases. The compilation method fuses theses sets into single records to display an unified database.
+        The web viewer allows to inspect the final solution. Since the viewer does not rely on any server side processing the entire data is loaded into the browser.
+        Large sets may consume a lot of browser memory, the viewer is only for debugging and demonstration purposes.
+      </div>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col-md-4">
       <div class="database-card mx-auto">
-        <a href="demo/index.html" class="btn btn-info btn-card"><h3>DEMO</h3></a>
-        dasdsadad
+        <div class="database-card-inner">
+          Example instances
+        </div>
+        <a href="demo/index.html" class="btn btn-info btn-card">DEMO</a>
       </div>
     </div>
     <div class="col-md-4">
       <div class="database-card">
-        <a href="kmb/index.html" class="btn btn-success btn-card">KMB DISABLE</a>
+        <div class="database-card-inner">
+          <p>Integration of:</p>
+          KEGG, MetaCyc, BiGG
+        </div>
+        <a href="kmb/index.html" class="btn btn-success btn-card">KMB</a>
       </div>
     </div>
     <div class="col-md-4">
       <div class="database-card">
-        <a href="full/index.html" class="btn btn-danger btn-card">FULL DISABLE</a>
+        <div class="database-card-inner">
+          <p>Full integration with:</p>
+          ModelSeed, HMDB, LipidMAPS
+        </div>
+        <a href="full/index.html" class="btn btn-danger btn-card">FULL</a>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12">
-      <table id="cpd-table" class="table"></table>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum risus et risus ornare, a ornare lectus hendrerit. Nulla gravida ante in velit scelerisque, ut porttitor quam iaculis. Aenean dui est,
-      blandit eu vestibulum at, vestibulum et sem. Quisque vitae pretium nunc. Aenean eu elit leo. Duis sit amet magna odio. Vivamus sit amet augue dapibus, fringilla augue sit amet, luctus lectus. Morbi elementum,
-      velit ac auctor lobortis, elit magna sodales nulla, at pretium augue purus vitae nibh. <br>
-      In pellentesque blandit sapien ut aliquet. Ut id ante consectetur, iaculis nunc quis, condimentum ligula. Proin sit amet efficitur sapien. Sed vitae aliquet odio, non hendrerit nunc. Donec in tortor sed eros
-      dapibus ultrices. Etiam fermentum felis vel massa luctus congue. Duis id vehicula urna, sit amet semper massa. Proin tristique vestibulum suscipit. Nulla facilisi. Vestibulum ut nisl gravida, scelerisque magna
-      vel, auctor lectus.<br>
-      Pellentesque facilisis fermentum ullamcorper. Sed consectetur mattis urna, vitae rhoncus dolor efficitur at. Praesent at nisi sed ligula molestie porta quis et nunc. Integer sed elit nec magna imperdiet malesuada
-      at at ante. Donec eget nulla in nulla varius lacinia. Vivamus non quam leo. Integer ultricies ac enim at pharetra. Duis dignissim viverra felis, ac efficitur mi tempor ut. Aliquam porttitor dictum dictum. Sed ex
-      purus, vehicula vitae massa nec, maximus ornare ante.<br>
-      Fusce semper arcu ac purus volutpat semper. Donec vel auctor lacus. Morbi pharetra nibh lectus, blandit hendrerit turpis tempus lacinia. Donec vel leo imperdiet, faucibus nisi nec, vulputate massa. Class aptent
-      taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sagittis orci ut risus porttitor, ac pulvinar arcu bibendum. Pellentesque eget sapien mattis, pellentesque libero non,
-      imperdiet lorem. Sed sit amet aliquet mi. Ut luctus feugiat turpis, in dignissim dui. Nulla vitae venenatis est. Nulla metus velit, tincidunt at efficitur mollis, pretium at ex. Aenean et condimentum neque.
-      Mauris nec eleifend nisl, ac sollicitudin orci. Phasellus ac sem mi. <br>
-      Donec porttitor libero vitae iaculis accumsan. In feugiat justo quis urna vehicula, vel consequat mauris hendrerit. Duis congue erat odio, nec convallis elit rhoncus sit amet. Cras nulla ante, consequat id
-      libero nec, varius pellentesque elit. Morbi sed placerat lectus. Fusce in leo erat. Sed augue tortor, tempor eget pulvinar nec, hendrerit vitae leo.
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <table id="rxn-table" class="table"></table>
-    </div>
-  </div>
+
+
+
+
 </div>
 </body>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
