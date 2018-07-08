@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7168",
+  "formula" : "C8H8NOS",
+  "name" : "phenylthioacetohydroximate",
+  "synonyms" : [ "phenylacetothiohydroximate" ],
+  "alias" : "icpd7168",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENYLACETOTHIOHYDROXIMATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03719"
+  } ],
+  "inchi" : "InChI=1S/C8H9NOS/c10-9-8(11)6-7-4-2-1-3-5-7/h1-5,10H,6H2,(H,9,11)/p-1",
+  "inchikey" : "IHTJGIKQNHDTSX-UHFFFAOYSA-M",
+  "smiles" : "C1=CC=C(C=C1)CC(=N[O-])S",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aldoxime" ],
+      "reactions" : [ "META:2.4.1.195-RXN", "META:RXN-8054", "META:RXN-11436" ],
+      "gibbs" : 101.97691,
+      "cmlMolWeight" : 166.217,
+      "molWeight" : 166.217,
+      "parents" : [ "META:Aldoxime" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   23.9993  -16.5498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2341  -15.8450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0051  -17.9825    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7470  -15.8392    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4747  -16.5556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7587  -18.7107    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5006  -16.5615    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6047  -15.8975    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4630  -17.8545    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5064  -17.9942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7405  -16.5498    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  2  0     0  0\n  5  9  1  0     0  0\n  6 10  1  0     0  0\n  8 11  1  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03719\n\n$$$$",
+  "reactions" : [ "irxn3038", "irxn4005" ]
+}

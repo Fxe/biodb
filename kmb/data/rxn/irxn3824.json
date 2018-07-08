@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3824",
+  "equation" : "mmcoa__R <=> mmcoa__S",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7542" : ""
+    },
+    "r" : {
+      "icpd3283" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.99.1; EC-5.1.99.1",
+  "otherNames" : [ ],
+  "alias" : "MME",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MME"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02765"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLMALONYL-COA-EPIM-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MMEm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:GLUTARYL-COA", "META:CU+2", "META:BUTYRYL-COA", "META:CO-A", "META:ZN+2", "META:MALONYL-COA", "META:CPD-196", "META:PROPIONYL-COA", "META:ACETYL-COA", "META:EDTA" ],
+      "activators" : [ "META:SUC-COA", "META:FE+2", "META:CO+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7384", "META:PWY-5789", "META:PWY-5743", "META:PWY-6728", "META:PROPIONMET-PWY", "META:P108-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn00630", "rn01100", "rn01200", "rn01120", "rn00280", "rn00720" ],
+      "orthologs" : [ "K05606" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iAF1260", "iAF1260b", "iNJ661", "iMM1415", "iLB1027_lipid", "iJR904", "iAT_PLT_636", "iAF987", "RECON1", "STM_v1_0" ]
+    }
+  }
+}

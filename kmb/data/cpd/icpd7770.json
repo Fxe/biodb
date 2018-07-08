@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7770",
+  "formula" : "C10H18O",
+  "name" : "(3s)-3,7-dimethylocta-1,6-dien-3-ol",
+  "synonyms" : [ "(3s)-3,7-dimethyl-1,6-octadien-3-ol", "(s)-(+)-linalool", "(s)-3,7-dimethyl-1,6-octadien-3-ol", "(s)-linalool" ],
+  "alias" : "icpd7770",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8997"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11389"
+  } ],
+  "inchi" : "InChI=1S/C10H18O/c1-5-10(4,11)8-6-7-9(2)3/h5,7,11H,1,6,8H2,2-4H3/t10-/m1/s1",
+  "inchikey" : "CDOSHBSSFJOMGT-SNVBAGLBSA-N",
+  "smiles" : "C=C[C@](C)(CCC=C(C)C)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Linalools" ],
+      "reactions" : [ "META:4.2.3.25-RXN", "META:RXN-12335", "META:RXN-12336" ],
+      "gibbs" : 190.96019,
+      "cmlMolWeight" : 154.252,
+      "molWeight" : 154.252,
+      "parents" : [ "META:Linalools" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   27.2350  -20.1409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0527  -19.4633    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.8707  -20.1409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6886  -19.4633    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5064  -20.1409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3241  -19.4633    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1491  -20.1409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3241  -18.1010    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4099  -19.4633    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0596  -18.2295    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7493  -18.2296    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  6  7  1  0     0  0\n  3  4  1  0     0  0\n  6  8  1  0     0  0\n  4  5  1  0     0  0\n  2  3  1  0     0  0\n  1  9  2  0     0  0\n  2 10  1  1     0  0\n  5  6  2  0     0  0\n  2 11  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C11389\n\n$$$$",
+  "reactions" : [ "irxn4386", "irxn4380", "irxn2812" ]
+}

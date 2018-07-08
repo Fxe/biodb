@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3552",
+  "formula" : "C9H9O3",
+  "name" : "phloretate",
+  "synonyms" : [ "3-(4'-hydroxyphenyl)-propionate", "3-(4-hydroxy-phenyl)-propionate", "3-(4-hydroxyphenyl)-propionate", "3-(4-hydroxyphenyl)propanoate", "3-(4-hydroxyphenyl)propionate", "3-(p-hydroxyphenyl)propionate", "3-(para-hydroxyphenyl)propionate", "4-hydroxy-benzenepropanoate", "4-hydroxybenzenepropanoate", "4-hydroxybenzylacetate", "beta-(p-hydroxyphenyl)propionate", "p-hydroxy-hydrocinnamate", "p-hydroxyhydrocinnamate" ],
+  "alias" : "icpd3552",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PHLORETATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01744"
+  } ],
+  "inchi" : "InChI=1S/C9H10O3/c10-8-4-1-7(2-5-8)3-6-9(11)12/h1-2,4-5,10H,3,6H2,(H,11,12)/p-1",
+  "inchikey" : "NMHMNPHRMNGLLB-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=CC(=C1)[O-])CCC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:PHLORETIN-HYDROLASE-RXN" ],
+      "gibbs" : 4.3880324,
+      "cmlMolWeight" : 165.168,
+      "molWeight" : 165.168
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   12.9500  -21.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9500  -23.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1624  -23.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3749  -23.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3749  -21.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1624  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.7376  -21.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6124  -23.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8249  -23.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0373  -23.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2497  -23.1000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0373  -25.2000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  4  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01744\n\n$$$$",
+  "reactions" : [ "irxn4978" ]
+}

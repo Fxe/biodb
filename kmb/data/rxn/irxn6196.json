@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6196",
+  "equation" : "3.0 malcoa + ibcoa <=> 4.0 coa + 3.0 co2 + icpd5393",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "3.0",
+      "icpd7932" : ""
+    },
+    "r" : {
+      "icpd5393" : "",
+      "icpd2377" : "4.0",
+      "icpd2454" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.156; 2.3.1.156",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7805"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11584"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5808", "META:PWY-5133" ],
+      "orphan" : "NO",
+      "gibbs" : 9.581787,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

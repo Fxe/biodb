@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6044",
+  "equation" : "co2 + 5hxkynam <=> 5hxkyn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2454" : "",
+      "icpd3795" : ""
+    },
+    "r" : {
+      "icpd3863" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.28",
+  "otherNames" : [ ],
+  "alias" : "5HXKYNDCL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "5HXKYNDCL"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04909"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ "K01593" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

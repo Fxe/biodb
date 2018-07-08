@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3079",
+  "formula" : "C8H13O8",
+  "name" : "3-deoxy-d-manno-2-octulosonate",
+  "synonyms" : [ "3-deoxy-d-manno-octulosonate", "deoxy-manno-octulosonate", "keto-3-deoxy-d-manno-oct-2-ulosonate", "keto-3-deoxy-d-manno-octulosonate" ],
+  "alias" : "kdo",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "kdo"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19753"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01187"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "kdo"
+  } ],
+  "inchi" : "InChI=1S/C8H14O8/c9-2-5(12)7(14)6(13)3(10)1-4(11)8(15)16/h3,5-7,9-10,12-14H,1-2H2,(H,15,16)/p-1/t3-,5-,6-,7-/m1/s1",
+  "inchikey" : "KYQCXUMVJGMDNG-SHUUEZRQSA-M",
+  "smiles" : "C([C@]([H])([C@]([H])([C@@]([H])([C@@]([H])(CO)O)O)O)O)C(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Ketoaldonates" ],
+      "reactions" : [ "META:RXN-18392" ],
+      "gibbs" : -159.7675,
+      "cmlMolWeight" : 237.186,
+      "molWeight" : 237.186,
+      "parents" : [ "META:Ketoaldonates" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 16 15  0  0  1  0  0  0  0  0999 V2000\n   14.3616  -16.5329    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5749  -15.8324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7883  -16.5329    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0016  -15.8324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2149  -16.5329    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4283  -15.8324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6416  -16.5329    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6416  -17.9339    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2149  -17.9338    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0016  -14.4313    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7883  -17.9337    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5749  -14.4315    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.1483  -15.8324    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8590  -15.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0574  -16.5221    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8590  -14.4315    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  2  0     0  0\n  5  9  1  1     0  0\n  4 10  1  6     0  0\n  3 11  1  6     0  0\n  2 12  1  1     0  0\n  1 13  1  0     0  0\n  7 14  1  0     0  0\n 14 15  1  0     0  0\n 14 16  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01187\n\n$$$$",
+  "reactions" : [ "irxn665", "irxn1151" ]
+}

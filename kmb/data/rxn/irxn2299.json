@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2299",
+  "equation" : "34hpp + o2 <=> co2 + hgentis",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd3343" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd6702" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.27; EC-1.13.11.27",
+  "otherNames" : [ ],
+  "alias" : "34HPPOR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02521"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "34HPPOR"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXYPHENYLPYRUVATE-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-19563", "META:26-DIFLUORO-4-HYDROXYPHENYLPYRUVATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1581", "META:PWY-7432", "META:PWY-1422", "META:TYRFUMCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -109.72,
+      "uniprot" : [ "O23920", "P32755", "O48604", "Q02110", "P32754", "P93836" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00130", "rn00350" ],
+      "orthologs" : [ "K00457" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM1415", "iJN678", "iMM904", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  }
+}

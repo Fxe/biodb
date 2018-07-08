@@ -1,0 +1,35 @@
+{
+  "id" : "icpd6043",
+  "formula" : "C26H38N7O18P3S",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "3optcoa",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "3optcoa"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13534"
+  } ],
+  "inchi" : "InChI=1S/C26H42N7O18P3S/c1-4-14(34)9-17(36)55-8-7-28-16(35)5-6-29-24(39)21(38)26(2,3)11-48-54(45,46)51-53(43,44)47-10-15-20(50-52(40,41)42)19(37)25(49-15)33-13-32-18-22(27)30-12-31-23(18)33/h12-13,15,19-21,25,37-38H,4-11H2,1-3H3,(H,28,35)(H,29,39)(H,43,44)(H,45,46)(H2,27,30,31)(H2,40,41,42)/p-4",
+  "inchikey" : "WIOQNWTZBOQTEU-UHFFFAOYSA-J",
+  "smiles" : "CCC(=O)CC(=O)SCCN=C(CCN=C(C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)([O-])[O-])O)[O-])[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Short-Chain-oxoacyl-CoAs" ],
+      "reactions" : [ "META:RXN-12560", "META:RXN-12561" ],
+      "gibbs" : -490.93945,
+      "cmlMolWeight" : 861.604,
+      "molWeight" : 861.604,
+      "parents" : [ "META:Short-Chain-oxoacyl-CoAs" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF987" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn2995" ]
+}

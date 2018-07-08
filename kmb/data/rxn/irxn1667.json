@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1667",
+  "equation" : "adp + atp <=> ap4a + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5753" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd6868" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.53; 2.7.7.53",
+  "otherNames" : [ ],
+  "alias" : "ADATT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ADATT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ATPATF1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ATP-ADENYLYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00126"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 6.944336,
+      "uniprot" : [ "P22108", "P16550" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230" ],
+      "orthologs" : [ "K00988", "K19710" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iMM904" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn884",
+  "equation" : "icpd8128 + coucoa <=> coa + icpd904",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5815" : "",
+      "icpd8128" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd904" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1; 2.3.1.215",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R06544"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15327"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CUSO4", "META:CPD0-2386", "META:CPD0-2393", "META:CPD-29", "META:CPD0-1589", "META:CPD-18101", "META:SINAPOYL-COA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7450", "META:PWY-7679" ],
+      "orphan" : "NO",
+      "gibbs" : -3.6099854,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00942" ],
+      "orthologs" : [ "K21383" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

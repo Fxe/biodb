@@ -1,0 +1,53 @@
+{
+  "id" : "irxn979",
+  "equation" : "h + mi3456p + atp <=> mi13456p + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd6530" : "",
+      "icpd7909" : ""
+    },
+    "r" : {
+      "icpd6072" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.134; EC-2.7.1.134",
+  "otherNames" : [ ],
+  "alias" : "ITK1K",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MI3456PK"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03479"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ITK1K"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.7.1.134-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6365", "META:PWY-4661" ],
+      "orphan" : "NO",
+      "gibbs" : -24.801636,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00562" ],
+      "orthologs" : [ "K00913" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

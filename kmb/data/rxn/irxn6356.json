@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6356",
+  "equation" : "2.0 i + 2.0 nadp + tyr__L <=> 2.0 nadph + 35diotyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd160" : "2.0",
+      "icpd7576" : "",
+      "icpd5537" : "2.0"
+    },
+    "r" : {
+      "icpd5432" : "2.0",
+      "icpd2547" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.21.1.1; EC-1.21.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13402"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10059"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 37.79126,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7544",
+  "formula" : "C6H8NO4",
+  "name" : "n-methyl-2-oxoglutaramate",
+  "synonyms" : [ ],
+  "alias" : "icpd7544",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-579"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03623"
+  } ],
+  "inchi" : "InChI=1S/C6H9NO4/c1-7-5(9)3-2-4(8)6(10)11/h2-3H2,1H3,(H,7,9)(H,10,11)/p-1",
+  "inchikey" : "MOIJYNHJLPUMNX-UHFFFAOYSA-M",
+  "smiles" : "CN=C(CCC(=O)C(=O)O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Oxo-carboxylates" ],
+      "reactions" : [ "META:N-METHYL-2-OXOGLUTARAMATE-HYDROLASE-RXN", "META:RXN-12906" ],
+      "gibbs" : -59.793087,
+      "cmlMolWeight" : 158.133,
+      "molWeight" : 158.133,
+      "parents" : [ "META:2-Oxo-carboxylates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   27.1600  -14.9800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9000  -15.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7100  -14.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5200  -15.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2600  -14.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0700  -15.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8800  -14.9800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6200  -15.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9000  -17.0800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7100  -13.5800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0700  -17.0800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  2  9  2  0     0  0\n  3 10  2  0     0  0\n  6 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03623\n\n$$$$",
+  "reactions" : [ "irxn5405" ]
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn60",
+  "equation" : "phe__L <=> cinnm + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2269" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd719" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.3.1.25; EC-4.3.1.24; 4.3.1.24; 4.3.1.25",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENYLALANINE-AMMONIA-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00697"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13484" ],
+      "orphan" : "NO",
+      "gibbs" : -2.3541145,
+      "uniprot" : [ "Q42858", "O23865", "O49835", "O49836", "P27991", "P53443", "Q08063", "O04869", "P27990", "P24481", "P11544", "Q42851", "Q43664", "P35510", "P52777", "P35513", "P35512", "P14166", "Q01861", "Q39796", "P45733", "P31425", "P31426", "P07218", "P19142", "O04875", "Q42960", "P19143", "O04058", "P10248", "Q43210", "Q7M1Q5", "Q43211", "O04876", "P45724", "P45729", "P45728", "P25872", "Q39545" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00360", "rn00940" ],
+      "orthologs" : [ "K13064", "K10775" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

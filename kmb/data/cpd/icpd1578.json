@@ -1,0 +1,32 @@
+{
+  "id" : "icpd1578",
+  "formula" : "C3H2O5",
+  "name" : "2-hydroxymalonate",
+  "synonyms" : [ "hydroxymalonate", "tartronate" ],
+  "alias" : "icpd1578",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYMALONATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02287"
+  } ],
+  "inchi" : "InChI=1S/C3H4O5/c4-1(2(5)6)3(7)8/h1,4H,(H,5,6)(H,7,8)/p-2",
+  "inchikey" : "ROBFUDYVXSDBQM-UHFFFAOYSA-L",
+  "smiles" : "C(C(=O)[O-])(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ISOCIT-CLEAV-RXN" ],
+      "reactions" : [ "META:2.3.1.106-RXN", "META:HYDROXYMALONATE-DEHYDROGENASE-RXN" ],
+      "gibbs" : -183.32602,
+      "cmlMolWeight" : 118.046,
+      "molWeight" : 118.046
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   17.2200  -19.1100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4324  -19.8100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6449  -19.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8573  -19.8100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0697  -19.1100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4324  -21.2098    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8573  -21.2100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6449  -17.7102    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  6  2  0     0  0\n  4  7  2  0     0  0\n  3  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02287\n\n$$$$",
+  "reactions" : [ "irxn6169", "irxn5628" ]
+}

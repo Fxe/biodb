@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1823",
+  "equation" : "o2 + nadh + icpd6035 + h <=> nad + h2o + icpd3090",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd6035" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd3090" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.-; EC-1.14.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07665"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-5-XYLENOL-METHYLHYDROXYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HCN" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:M-CRESOL-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -89.89879,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01220", "rn00623" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

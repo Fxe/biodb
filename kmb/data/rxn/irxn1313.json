@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1313",
+  "equation" : "pppg9 + 3.0 mqn8 <=> 3.0 mql8 + ppp9",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4178" : "3.0",
+      "icpd2144" : ""
+    },
+    "r" : {
+      "icpd5213" : "",
+      "icpd8176" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.5.3; EC-1.3.5.3",
+  "otherNames" : [ ],
+  "alias" : "PPPGO2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09489"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-6259"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPPGO2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5531", "META:HEMESYN2-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 150.27673,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ "K00230" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

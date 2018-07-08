@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6386",
+  "equation" : "5.0 nad + 2.0 o2 + 5.0 h2o + 5.0 coa + lnlncgcoa <=> 5.0 nadh + 5.0 accoa + 5.0 h + occoa + 2.0 h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "2.0",
+      "icpd8188" : "",
+      "icpd4016" : "5.0",
+      "icpd2377" : "5.0",
+      "icpd5131" : "5.0"
+    },
+    "r" : {
+      "icpd2494" : "2.0",
+      "icpd5377" : "5.0",
+      "icpd5825" : "5.0",
+      "icpd1851" : "5.0",
+      "icpd808" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FAOXC183806x",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FAOXC183806x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FAOXC183806m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

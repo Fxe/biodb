@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6151",
+  "equation" : "2.0 glucys + nadp <=> nadph + icpd772 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6004" : "2.0",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd772" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.8.1.13; EC-1.8.1.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.6.4.9-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02742"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -1.640625,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00480" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

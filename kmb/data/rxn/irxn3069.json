@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3069",
+  "equation" : "13dpg + g1p <=> icpd3145 + 3pg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd402" : "",
+      "icpd3088" : ""
+    },
+    "r" : {
+      "icpd6074" : "",
+      "icpd3145" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.106; EC-2.7.1.106",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01660"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCOSE-16-BISPHOSPHATE-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "YES-CONFIRMED",
+      "gibbs" : -9.802368,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00500" ],
+      "orthologs" : [ "K11809" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

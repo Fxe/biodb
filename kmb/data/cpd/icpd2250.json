@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2250",
+  "formula" : "C6H6N2O2",
+  "name" : "p-nitroaniline",
+  "synonyms" : [ "4-nitroaniline", "4-nitrobenzeneamine" ],
+  "alias" : "icpd2250",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-NITROANILINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02126"
+  } ],
+  "inchi" : "InChI=1S/C6H6N2O2/c7-5-1-3-6(4-2-5)8(9)10/h1-4H,7H2",
+  "inchikey" : "TYMLOMAKGOJONV-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=CC(=C1)N(=O)=O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C-nitro-compounds" ],
+      "reactions" : [ "META:3.5.1.72-RXN", "META:3-KETOVALIDOXYLAMINE-C-N-LYASE-RXN", "META:RXN-18093" ],
+      "gibbs" : 33.35578,
+      "cmlMolWeight" : 139.133,
+      "molWeight" : 139.133,
+      "parents" : [ "META:C-nitro-compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   18.4100  -15.8310    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4037  -17.2208    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   17.2058  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6333  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6014  -18.2119    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1995  -18.2054    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   17.2058  -13.7109    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6333  -13.7109    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4100  -13.0127    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4037  -11.6227    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  7  9  2  0     0  0\n  9 10  1  0     0  0\n  8  9  1  0     0  0\nM  CHG  2   2   1   6  -1\nM  END\n\n> <ENTRY>\ncpd:C02126\n\n$$$$",
+  "reactions" : [ "irxn1458", "irxn4391" ]
+}

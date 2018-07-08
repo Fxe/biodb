@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3476",
+  "equation" : "13ppd + nadp <=> nadph + 3hppnl + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2918" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd192" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1",
+  "otherNames" : [ ],
+  "alias" : "13PPDH2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-6487"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "13PPDH2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7385" ],
+      "orphan" : "NO",
+      "gibbs" : 1.2935181,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

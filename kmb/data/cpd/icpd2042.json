@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2042",
+  "formula" : "C5H6N2O4",
+  "name" : "n-formimino-l-aspartate",
+  "synonyms" : [ "n-formimidoyl-l-aspartate" ],
+  "alias" : "icpd2042",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1126"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03409"
+  } ],
+  "inchi" : "InChI=1S/C5H8N2O4/c6-2-7-3(5(10)11)1-4(8)9/h2-3H,1H2,(H2,6,7)(H,8,9)(H,10,11)/p-2/t3-/m0/s1",
+  "inchikey" : "XTPIFIMCFHNJOH-VKHMYHEASA-L",
+  "smiles" : "C([C@@]([H])(C(=O)[O-])NC=N)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-Substituted-Amino-Acids" ],
+      "reactions" : [ "META:FORMIMINOASPARTATE-DEIMINASE-RXN" ],
+      "gibbs" : -87.31422,
+      "cmlMolWeight" : 159.121,
+      "molWeight" : 159.121,
+      "parents" : [ "META:N-Substituted-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   22.1197  -16.5247    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3323  -15.8246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5451  -16.5247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7578  -15.8246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9704  -16.5247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5451  -17.9248    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3513  -18.6143    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3513  -20.0146    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2040  -15.8128    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9705  -17.8992    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3319  -14.4036    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  3  6  1  6     0  0\n  6  7  1  0     0  0\n  7  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\n  2 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03409\n\n$$$$",
+  "reactions" : [ "irxn1577" ]
+}

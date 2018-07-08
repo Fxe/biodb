@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5824",
+  "formula" : "C4H8NO2",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd5824",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19777"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15554"
+  } ],
+  "inchi" : "InChI=1S/C4H7NO2/c5-3-1-2-7-4(3)6/h3H,1-2,5H2/p+1",
+  "inchikey" : "QJPWUUJVYOJNMH-UHFFFAOYSA-O",
+  "smiles" : "C1COC(=O)C1[N+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:HOMOSERINE-LACTONE" ],
+      "reactions" : [ "META:3.5.1.97-RXN", "META:RXN-10042", "META:RXN-10041", "META:RXN-10044", "META:RXN-10043", "META:RXN-10046", "META:RXN-10045", "META:ADENOSYLMETHIONINE-CYCLOTRANSFERASE-RXN" ],
+      "gibbs" : 13.856909,
+      "cmlMolWeight" : 102.113,
+      "molWeight" : 102.113,
+      "parents" : [ "META:HOMOSERINE-LACTONE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  7  0  0  1  0  0  0  0  0999 V2000\n   19.0528  -16.8597    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4602  -18.2003    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8611  -18.2270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3193  -16.9030    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2018  -16.0579    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6507  -16.4981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6639  -19.3775    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  4  6  2  0     0  0\n  3  7  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C19777\n\n$$$$",
+  "reactions" : [ ]
+}

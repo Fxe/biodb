@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2558",
+  "equation" : "icpd7243 <=> icpd7734 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7243" : ""
+    },
+    "r" : {
+      "icpd7734" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.85; EC-4.2.1.85",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03069"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIMETHYLMALEATE-HYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:DITHIO-NITROBENZOATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5055" ],
+      "orphan" : "NO",
+      "gibbs" : 0.91300964,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00760", "rn01120" ],
+      "orthologs" : [ "K20452", "K20453" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

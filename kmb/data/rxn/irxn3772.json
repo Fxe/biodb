@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3772",
+  "equation" : "galur + atp <=> icpd4851 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd610" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd4851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.44; EC-2.7.1.44",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GALACTURONOKINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01980"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4" ],
+      "orphan" : "NO",
+      "gibbs" : -16.064148,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "K18677" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

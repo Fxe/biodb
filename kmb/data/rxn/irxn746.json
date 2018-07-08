@@ -1,0 +1,50 @@
+{
+  "id" : "irxn746",
+  "equation" : "h2o + forglu + 2.0 h <=> Nforglu + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd951" : "",
+      "icpd1851" : "2.0",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6412" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.3.13; EC-3.5.3.13",
+  "otherNames" : [ ],
+  "alias" : "FORGLUIH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FORMIMINOGLUTAMATE-DEIMINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FORGLUIH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02286"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:TETRANITROMETHANE" ],
+      "activators" : [ "META:UROCANATE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5028" ],
+      "orphan" : "NO",
+      "gibbs" : 1.6787415,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00340" ],
+      "orthologs" : [ "K05603" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3738",
+  "formula" : "C9H10O",
+  "name" : "(e)-4-propenylphenol",
+  "synonyms" : [ ],
+  "alias" : "icpd3738",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20464"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9933"
+  } ],
+  "inchi" : "InChI=1S/C9H10O/c1-2-3-8-4-6-9(10)7-5-8/h2-7,10H,1H3/b3-2+",
+  "inchikey" : "UMFCIIBZHQXRCJ-NSCUHMNNSA-N",
+  "smiles" : "C/C=C/C1=CC=C(C=C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:RXN-11264", "META:RXN-9312" ],
+      "gibbs" : 111.961205,
+      "cmlMolWeight" : 134.177,
+      "molWeight" : 134.177,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   16.1954  -15.4974    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1954  -16.8995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4097  -17.6006    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6241  -16.8995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6241  -15.4974    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4097  -14.7963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9812  -17.6006    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8570  -14.7853    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0641  -15.4820    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2482  -14.7982    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  5  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20464\n\n$$$$",
+  "reactions" : [ "irxn2209", "irxn6370" ]
+}

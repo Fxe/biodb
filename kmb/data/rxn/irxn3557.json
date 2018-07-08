@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3557",
+  "equation" : "icpd8107 + nadh + h <=> nad + icpd8139",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.6.5.11; 1.6.99.3; EC-1.6.99.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NADH-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00281"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ "Q35322", "P00393", "P80861", "P52504", "P74614", "O75380", "P44856", "O05267", "P73739", "Q7M2G3", "P23934", "Q7M2G2", "Q7M2G1", "Q7M2G0", "Q7M2G7", "P04394", "Q7M2G4", "Q7M2F9", "P21301", "Q7M2F8", "P42116", "Q7M2F7", "Q7M2G8" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

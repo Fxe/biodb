@@ -1,0 +1,39 @@
+{
+  "id" : "icpd271",
+  "formula" : "C2H4",
+  "name" : "ethylene",
+  "synonyms" : [ "ethene", "ethene (9ci)", "ethene, 9ci", "ethylene (8ci)" ],
+  "alias" : "ethe",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06547"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ETHYLENE-CMPD"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ethe"
+  } ],
+  "inchi" : "InChI=1S/C2H4/c1-2/h1-2H2",
+  "inchikey" : "VGGSQFUCUMXWEO-UHFFFAOYSA-N",
+  "smiles" : "C=C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:RXN-7405", "META:RXN-600" ],
+      "instances" : [ "META:1-Alkenes", "META:Plant-Hormones" ],
+      "reactions" : [ "META:VCREDCHLOR-RXN", "META:RXN-12539", "META:RXN-17580", "META:ETHYL-RXN", "META:RXN-12538", "META:RXN-12535" ],
+      "gibbs" : 60.584484,
+      "cmlMolWeight" : 28.054,
+      "molWeight" : 28.054,
+      "parents" : [ "META:1-Alkenes", "META:Plant-Hormones" ]
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   28.1400  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5400  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06547\n\n$$$$",
+  "reactions" : [ "irxn4394", "irxn1513" ]
+}

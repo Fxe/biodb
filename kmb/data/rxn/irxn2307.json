@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2307",
+  "equation" : "octa + coa + atp <=> amp + ppi + occoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7363" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd808" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.3",
+  "otherNames" : [ ],
+  "alias" : "FACOAL80",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL80"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL80p"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:R223-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P221-PWY", "META:PWY-6920" ],
+      "orphan" : "NO",
+      "gibbs" : -12.711792,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iNJ661", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

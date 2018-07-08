@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2474",
+  "equation" : "icpd8107 + icpd1439 <=> icpd8139 + icpd6232",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd1439" : ""
+    },
+    "r" : {
+      "icpd6232" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.99.20; 1.1.99.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALKAN-1-OL-DEHYDROGENASE-ACCEPTOR-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00639"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00071" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

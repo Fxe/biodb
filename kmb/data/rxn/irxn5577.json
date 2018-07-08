@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5577",
+  "equation" : "udpg <=> icpd4214 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd4214" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.76; 4.2.1.76",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:UDP-GLUCOSE-46-DEHYDRATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00293"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:UDP", "META:UTP", "META:UDP-D-XYLOSE", "META:UDP-L-RHAMNOSE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-5482" ],
+      "orphan" : "NO",
+      "gibbs" : -13.897034,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "K12450" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

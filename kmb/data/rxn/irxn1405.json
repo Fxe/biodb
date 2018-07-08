@@ -1,0 +1,56 @@
+{
+  "id" : "irxn1405",
+  "equation" : "341407 + atp <=> 341263 + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "341407" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "341263" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RE2972G",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PI5P4K_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2972G"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PI5P4Kn_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2972M"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2972R"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

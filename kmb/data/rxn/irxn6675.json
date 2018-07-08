@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6675",
+  "equation" : "ncam + amet <=> ahcys + 1mncam",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd8178" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd6098" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.1; 2.1.1.1",
+  "otherNames" : [ ],
+  "alias" : "NNMT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NICOTINAMIDE-N-METHYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01269"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NNMT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 4.8,
+      "uniprot" : [ "P40261" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00760" ],
+      "orthologs" : [ "K00541" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4684",
+  "equation" : "23dpg + atp <=> cdpg + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7274" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd909" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.6.1.-",
+  "otherNames" : [ ],
+  "alias" : "CDPGS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03298"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CDPGS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K05716" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

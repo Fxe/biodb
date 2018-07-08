@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2783",
+  "equation" : "344850 + nadp <=> nadph + 344793 + h",
+  "stoichiometry" : {
+    "l" : {
+      "344850" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "344793" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RDH3a",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CRETINOLOR2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RDH3a"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

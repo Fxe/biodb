@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2699",
+  "equation" : "4hoxpacd + dopa <=> icpd1075 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4793" : "",
+      "icpd3480" : ""
+    },
+    "r" : {
+      "icpd1075" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.78; 4.2.1.78",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:S-NORLAUDANOSOLINE-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04305"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:O-PHENANTHROLINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3581" ],
+      "orphan" : "NO",
+      "gibbs" : -10.417,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00950" ],
+      "orthologs" : [ "K13382" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

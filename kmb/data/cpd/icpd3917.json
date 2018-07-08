@@ -1,0 +1,40 @@
+{
+  "id" : "icpd3917",
+  "formula" : "H",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "h2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROGEN-MOLECULE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "h2"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00282"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "h2"
+  } ],
+  "inchi" : "InChI=1S/H2/h1H",
+  "inchikey" : "UFHFLCQGNIYNRP-UHFFFAOYSA-N",
+  "smiles" : "[HH]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:NITROGENASE-RXN" ],
+      "reactions" : [ "META:1.12.1.3-RXN", "META:H2SOXIREDPYRO-RXN", "META:H2-METHYLENE-THMPT-DEHYDRO-RXN", "META:FHLMULTI-RXN", "META:NITROGENASE-RXN", "META:CYTOCHROME-C3-HYDROGENASE-RXN", "META:RXN-18521", "META:RXN-16420", "META:RXN-12275", "META:RXN-12215", "META:1.12.5.1-RXN", "META:COENZYME-F420-HYDROGENASE-RXN", "META:HYDROGEN-DEHYDROGENASE-RXN", "META:RXN0-4141", "META:RXN-13947", "META:RXN0-5256", "META:RXN-7733", "META:NITROGENASE-FLAVODOXIN-RXN", "META:RXN-12907", "META:RXN0-5255", "META:RXN-8269", "META:HYDROG-RXN", "META:MVHMETH-RXN" ],
+      "gibbs" : 24.752243,
+      "cmlMolWeight" : 2.016,
+      "molWeight" : 2.016
+    },
+    "bigg" : {
+      "models" : [ "iEKO11_1354", "ic_1306", "iETEC_1333", "iECD_1391", "iECIAI1_1343", "iWFL_1372", "iECED1_1282", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECO26_1355", "iECP_1309", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iECW_1372", "iECO111_1330", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iJB785", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iECDH10B_1368", "iSF_1195", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   19.8100  -19.5300    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2100  -19.5300    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00282\n\n$$$$",
+  "reactions" : [ "irxn4719", "irxn5309", "irxn3308", "irxn5418", "irxn3841", "irxn3004", "irxn3677", "irxn1198", "irxn3156", "irxn5245", "irxn6165", "irxn2130", "irxn3091" ]
+}

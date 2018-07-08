@@ -1,0 +1,50 @@
+{
+  "id" : "irxn556",
+  "equation" : "gly + succoa <=> coa + 5aop + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd855" : "",
+      "icpd5739" : ""
+    },
+    "r" : {
+      "icpd805" : "",
+      "icpd2377" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.37; 2.3.1.37",
+  "otherNames" : [ ],
+  "alias" : "ALASm",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00830"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALASm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-AMINOLEVULINIC-ACID-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Heme-b", "META:AMINOMALONATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5189", "META:PWY-7536" ],
+      "orphan" : "NO",
+      "gibbs" : 6.150635,
+      "uniprot" : [ "P07997", "Q9ZCB8", "O94069", "Q28255", "P18079", "O14092", "P30752", "P08080", "P13196", "P08680", "P08262", "P61320", "P13195", "Q06965", "P38092", "P09950", "P26505", "P22557" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110", "rn00260" ],
+      "orthologs" : [ "K00643" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

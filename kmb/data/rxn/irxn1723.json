@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1723",
+  "equation" : "tre + pi <=> g1p + Glc_aD",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6246" : "",
+      "icpd7485" : ""
+    },
+    "r" : {
+      "icpd1683" : "",
+      "icpd402" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.231; EC-2.4.1.231",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07265"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-4441"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:CO+2", "META:ATP", "META:ADP", "META:ZN+2", "META:VALIDAMYCIN-A" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2723" ],
+      "orphan" : "NO",
+      "gibbs" : -10.330017,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

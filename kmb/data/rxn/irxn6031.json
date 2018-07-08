@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6031",
+  "equation" : "ferulcoa + h2o <=> icpd4200",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2601" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4200" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.101; 4.2.1.101",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05772"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4.2.1.101-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6343", "META:PWY-5710" ],
+      "orphan" : "NO",
+      "gibbs" : 2.6570435,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00360" ],
+      "orthologs" : [ "K18383" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

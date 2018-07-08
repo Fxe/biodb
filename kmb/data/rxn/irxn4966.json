@@ -1,0 +1,52 @@
+{
+  "id" : "irxn4966",
+  "equation" : "h2o + malm <=> n2 + male",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4567" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd3385" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.107; 3.5.1.107",
+  "otherNames" : [ ],
+  "alias" : "MALMDA",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03540"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYRZAM"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-646"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MALMDA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5033", "META:PWY-722", "META:PWY-6993", "META:PWY-7128" ],
+      "orphan" : "NO",
+      "gibbs" : -6.671257,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00760", "rn01120" ],
+      "orthologs" : [ "K13995" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iSB619", "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn11",
+  "equation" : "tdcoa + glp <=> tglp + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4574" : "",
+      "icpd2373" : ""
+    },
+    "r" : {
+      "icpd3809" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.97; 2.3.1.97",
+  "otherNames" : [ ],
+  "alias" : "GLPT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.97-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03992"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLPT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -261.79913,
+      "uniprot" : [ "O43010", "P31717", "P30418", "P30419", "P34763", "P34809", "P14743" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

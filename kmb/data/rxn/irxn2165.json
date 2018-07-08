@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2165",
+  "equation" : "h + ser__L <=> co2 + etha",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4818" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd353" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1",
+  "otherNames" : [ ],
+  "alias" : "SERDC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SERDC_m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-5641"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SERDC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7782", "META:PWY-3385", "META:PWY4FS-6" ],
+      "orphan" : "NO",
+      "gibbs" : -5.1399994,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

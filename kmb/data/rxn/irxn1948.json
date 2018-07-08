@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1948",
+  "equation" : "h2o + egme <=> meoh + ecgon",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8239" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6257" : "",
+      "icpd6448" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "EGMESTr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EGMESTr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06729"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4863",
+  "equation" : "h2o + 4ogm <=> n2 + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7866" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "HYNE",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00270"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7594"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HYNE"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:HISHP-PWY" ],
+      "orphan" : null,
+      "gibbs" : -6.6612244,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00340" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

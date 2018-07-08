@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6689",
+  "formula" : "C5H11NOS2",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd6689",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C17243"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-METHYLTHIOPROPYLHYDROXAMIC-ACID"
+  } ],
+  "inchi" : "InChI=1S/C5H11NOS2/c1-9-4-2-3-5(8)6-7/h7H,2-4H2,1H3,(H,6,8)",
+  "inchikey" : "LQVOUPXXRIMQIM-UHFFFAOYSA-N",
+  "smiles" : "CSCCC/C(=N/O)/S",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:n-methylthioalkylhydroximate", "META:Aliphatic-Aldoximes" ],
+      "reactions" : [ "META:RXN-8052", "META:RXN-11438", "META:RXN-2208" ],
+      "gibbs" : 96.42232,
+      "cmlMolWeight" : 165.268,
+      "molWeight" : 165.268,
+      "parents" : [ "META:n-methylthioalkylhydroximate", "META:Aliphatic-Aldoximes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n    9.0300  -17.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.2424  -16.3100    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   11.4549  -17.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.6673  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8797  -17.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0922  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3046  -17.0100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5170  -16.3100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0922  -14.9103    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  2  0     0  0\n  7  8  1  0     0  0\n  6  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17243\n\n$$$$",
+  "reactions" : [ "irxn3951", "irxn3126" ]
+}

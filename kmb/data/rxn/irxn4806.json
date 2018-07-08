@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4806",
+  "equation" : "nad + octp + h2o <=> nadh + pyr + h + arg__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7973" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd5377" : "",
+      "icpd90" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.11; EC-1.5.1.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.5.1.11-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00562"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-884", "META:N-ETHYLMALEIMIDE", "META:CPD-5401", "META:CPD-6942", "META:NADP", "META:CPD-15790", "META:DITHIO-NITROBENZOATE", "META:AGMATHINE", "META:PYRUVATE", "META:ARG", "META:PROPIONATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7351" ],
+      "orphan" : "NO",
+      "gibbs" : 5.6946106,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

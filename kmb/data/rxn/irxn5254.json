@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5254",
+  "equation" : "h2o + lnlncgcoa <=> lnlncg + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8188" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd4445" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.2.2",
+  "otherNames" : [ ],
+  "alias" : "FACOAE1836Z9Z12Z",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAE1836Z9Z12Z"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08181"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01040" ],
+      "orthologs" : [ "K01068", "K17360" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

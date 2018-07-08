@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1153",
+  "formula" : "C10H16",
+  "name" : "(4r)-1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene",
+  "synonyms" : [ ],
+  "alias" : "icpd1153",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8785"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06099"
+  } ],
+  "inchi" : "InChI=1S/C10H16/c1-8(2)10-6-4-9(3)5-7-10/h4,10H,1,5-7H2,2-3H3/t10-/m0/s1",
+  "inchikey" : "XMGQYMWWDOXHJM-JTQLQIEISA-N",
+  "smiles" : "C=C(C)[C@H]1CC=C(C)CC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Limonenes" ],
+      "reactions" : [ "META:4.2.3.20-RXN", "META:RXN-10746", "META:RXN-9407", "META:RXN-11493" ],
+      "gibbs" : 206.12794,
+      "cmlMolWeight" : 136.236,
+      "molWeight" : 136.236,
+      "parents" : [ "META:Limonenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   30.9045  -16.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9045  -17.5199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.1209  -18.2235    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   33.3301  -17.5199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3301  -16.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.1209  -15.4234    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.1226  -14.0232    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.1226  -19.6236    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9100  -20.3217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3370  -20.3186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  6  1  1  0     0  0\n  6  7  1  0     0  0\n  1  2  1  0     0  0\n  3  8  1  6     0  0\n  2  3  1  0     0  0\n  8  9  2  0     0  0\n  3  4  1  0     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06099\n\n$$$$",
+  "reactions" : [ "irxn2715", "irxn5723", "irxn6877" ]
+}

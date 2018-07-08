@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6499",
+  "equation" : "4mhetz + atp <=> icpd7460 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5882" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd7460" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.50; EC-2.7.1.50",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:THIAZOLSYN3-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04448"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-15755", "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7357", "META:PWY-7356", "META:PWY-6897" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815918,
+      "uniprot" : [ "P76423", "Q57233", "P40386", "P39593", "Q9CG46", "O28204", "P41835" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00730" ],
+      "orthologs" : [ "K14154", "K00878" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

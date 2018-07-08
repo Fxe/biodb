@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1138",
+  "equation" : "glutcoa + icpd4396 <=> icpd5312 + icpd4975",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5127" : "",
+      "icpd4396" : ""
+    },
+    "r" : {
+      "icpd5312" : "",
+      "icpd4975" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.8.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTARYL-COA-DEHYDROG-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10074"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GLUTARYL-COA-DEHYDROGENASE-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : 21.239807,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00252" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

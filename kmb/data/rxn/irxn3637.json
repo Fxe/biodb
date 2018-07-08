@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3637",
+  "equation" : "prostgh2 <=> prostgi2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6781" : ""
+    },
+    "r" : {
+      "icpd1103" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.99.4",
+  "otherNames" : [ ],
+  "alias" : "PGISr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PGISr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02267"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "K01831" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

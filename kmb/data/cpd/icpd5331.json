@@ -1,0 +1,32 @@
+{
+  "id" : "icpd5331",
+  "formula" : "C5H6N2O3",
+  "name" : "5-methylbarbiturate",
+  "synonyms" : [ "5-methyl-barbiturate", "5-methylbarbituric acid" ],
+  "alias" : "icpd5331",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05281"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-METHYL-BARBITURATE"
+  } ],
+  "inchi" : "InChI=1S/C5H6N2O3/c1-2-3(8)6-5(10)7-4(2)9/h2H,1H3,(H2,6,7,8,9,10)",
+  "inchikey" : "GOMAEJQBTWAPAN-UHFFFAOYSA-N",
+  "smiles" : "CC1C(=NC(=O)N=C1O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:URACIL-DEHYDROGENASE-RXN" ],
+      "reactions" : [ "META:RXN-8646" ],
+      "gibbs" : -47.446457,
+      "cmlMolWeight" : 141.106,
+      "molWeight" : 141.106
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   27.1661  -20.6790    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3682  -21.3793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9524  -21.3734    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1661  -19.2785    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3682  -22.7856    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5819  -20.6848    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9524  -22.7798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1545  -23.4858    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7327  -23.4742    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5806  -23.4856    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  7  9  2  0     0  0\n  7  8  1  0     0  0\n  5 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05281\n\n$$$$",
+  "reactions" : [ "irxn4491" ]
+}

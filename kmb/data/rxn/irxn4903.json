@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4903",
+  "equation" : "h2o + icpd551 <=> phenol + icpd857",
+  "stoichiometry" : {
+    "l" : {
+      "icpd551" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd771" : "",
+      "icpd857" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.8.1; EC-3.1.8.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ARYLDIALKYLPHOSPHATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03979"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -36.95526,
+      "uniprot" : [ "P27169", "P52430", "P27170" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

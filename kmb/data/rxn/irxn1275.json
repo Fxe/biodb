@@ -1,0 +1,43 @@
+{
+  "id" : "irxn1275",
+  "equation" : "tagur <=> fruur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2035" : ""
+    },
+    "r" : {
+      "icpd5761" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.2.7; EC-5.1.2.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14362"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11624"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7241", "META:PWY-7248" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ "K21619" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

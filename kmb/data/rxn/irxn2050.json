@@ -1,0 +1,42 @@
+{
+  "id" : "irxn2050",
+  "equation" : "dctp <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd327" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DM_dctp_m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DM_dctp_n"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_dctp_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

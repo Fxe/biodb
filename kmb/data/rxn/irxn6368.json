@@ -1,0 +1,53 @@
+{
+  "id" : "irxn6368",
+  "equation" : "tststerone + nadp <=> nadph + h + andrstndn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3080" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2346" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.64; 1.1.1.51; EC-1.1.1.64",
+  "otherNames" : [ ],
+  "alias" : "RE2766C",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE2766C"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01838"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HSD17B3r"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.1.1.64-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-378" ],
+      "orphan" : "NO",
+      "gibbs" : -1.6264648,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00140", "rn00984" ],
+      "orthologs" : [ "C3", "K04119", "K05296", "K10207" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

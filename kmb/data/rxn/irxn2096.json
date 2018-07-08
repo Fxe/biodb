@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2096",
+  "equation" : "icpd8107 + h2o + icpd3955 <=> icpd8139 + glu__L + fald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd3955" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd8139" : "",
+      "icpd514" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.99.5; EC-1.5.99.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00609"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLGUTAMATE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:FORMALDEHYDE", "META:2-KETOGLUTARATE", "META:IODOACETAMIDE", "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6965" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00680" ],
+      "orthologs" : [ "K22086", "K22085", "K22084", "K22087" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

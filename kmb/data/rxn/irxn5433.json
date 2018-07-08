@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5433",
+  "equation" : "f6p_B + atp <=> h + fdp_B + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd3606" : ""
+    },
+    "r" : {
+      "icpd1130" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.11; EC-2.7.1.11",
+  "otherNames" : [ ],
+  "alias" : "PFKh",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04779"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PFKh"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6PFRUCTPHOS-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:G3P", "META:FRUCTOSE-16-DIPHOSPHATE", "META:Pi", "META:2-PG", "META:ATP", "META:ADP", "META:PHOSPHO-ENOL-PYRUVATE", "META:CPD-67", "META:DPG", "META:K+", "META:NA2SO4" ],
+      "activators" : [ "META:GDP", "META:Pi", "META:ADP", "META:CIT", "META:FRUCTOSE-6P" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5484", "META:PWY-7385", "META:PWY-1042", "META:GLYCOLYSIS", "META:PWY-1861", "META:ANAGLYCOLYSIS-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -14.492371,
+      "uniprot" : [ "Q9TWY0", "P52034", "P06999", "P75476", "Q27665", "P16862", "P12382", "P16861", "O08333", "P70927", "Q55988", "P0A796", "Q7M4J2", "P20275", "Q7M3F5", "P47457", "Q7M3F7", "P30835", "P72830", "Q27705", "Q03215", "Q07636", "Q03216", "Q7M4K9", "P00512", "Q49084", "P00511", "Q01813", "P08237", "P43863", "Q59214", "P80019" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01230", "rn01120", "rn00010", "rn01110", "rn00051", "rn01130", "rn00030" ],
+      "orthologs" : [ "K21071", "K16370", "K00850" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

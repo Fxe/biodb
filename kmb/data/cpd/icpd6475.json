@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6475",
+  "formula" : "C6H6O6",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd6475",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05422"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-DEHYDRO-ASCORBATE"
+  } ],
+  "inchi" : "InChI=1S/C6H6O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2,5,7-8H,1H2",
+  "inchikey" : "SBJKKFFYIZUCET-UHFFFAOYSA-N",
+  "smiles" : "C(C(C1C(=O)C(=O)C(=O)O1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:F16ALDOLASE-RXN" ],
+      "activators" : [ "META:RXN-1403" ],
+      "reactions" : [ "META:RXN-13185", "META:RXN-13183", "META:RXN4FS-11", "META:DOPAMINE-BETA-MONOOXYGENASE-RXN", "META:RXN-12440", "META:RXN-14645", "META:RXN-10980", "META:RXN-12862", "META:ETHYL-RXN", "META:RXN-12876", "META:1.8.5.1-RXN", "META:RXN-3523", "META:RXN-12869", "META:RXN-7984", "META:RXN-7985", "META:RXN-8488", "META:PEPTIDYLGLYCINE-MONOOXYGENASE-RXN" ],
+      "gibbs" : -136.1133,
+      "cmlMolWeight" : 174.11,
+      "molWeight" : 174.11
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  1  0  0  0  0  0999 V2000\n   38.4409  -17.5007    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   38.8887  -18.8209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   39.5750  -16.6863    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   40.2904  -18.8209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   40.7092  -17.5181    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   41.1221  -19.9493    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   41.6921  -16.5235    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   37.2342  -16.8040    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   36.0273  -17.5007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.0734  -19.9586    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   37.2339  -15.3938    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   34.7946  -16.7891    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3489  -18.3971    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  2  0     0  0\n  5  7  2  0     0  0\n  4  5  1  0     0  0\n  1  8  1  0     0  0\n  8  9  1  0     0  0\n  2 10  2  0     0  0\n  8 11  1  6     0  0\n  9 12  1  0     0  0\n  1 13  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C05422\n\n$$$$",
+  "reactions" : [ "irxn1342", "irxn1232", "irxn2281", "irxn309", "irxn5836", "irxn1344", "irxn228" ]
+}

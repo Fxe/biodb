@@ -1,0 +1,42 @@
+{
+  "id" : "icpd7710",
+  "formula" : "NO2",
+  "name" : "nitrite",
+  "synonyms" : [ ],
+  "alias" : "no2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NITRITE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "no2"
+  }, {
+    "source" : "BiGG",
+    "entry" : "no2"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00088"
+  } ],
+  "inchi" : "InChI=1S/HNO2/c2-1-3/h(H,2,3)/p-1",
+  "inchikey" : "IOVCWXUNBOPUCH-UHFFFAOYSA-M",
+  "smiles" : "N(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:RXN0-3281", "META:1.2.1.2-RXN", "META:PYRUFLAVREDUCT-RXN", "META:NITROGENASE-RXN", "META:R524-RXN" ],
+      "instances" : [ "META:Inorganic-Anions" ],
+      "reactions" : [ "META:HAONITRO-RXN", "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:RXN-11045", "META:3-ACI-NITROPROPANOATE-OXIDASE-RXN", "META:RXN-13583", "META:RXN0-3501", "META:RXN-11965", "META:RXN-8819", "META:2-NITROPHENOL-2-MONOOXYGENASE-RXN", "META:RXN0-5242", "META:RXN-8825", "META:R203-RXN", "META:RXN-8821", "META:RXN-8820", "META:RXN0-6377", "META:NITRATE-REDUCTASE-NADH-RXN", "META:R204-RXN", "META:RXN0-6370", "META:R247-RXN", "META:R202-RXN", "META:RXN-15256", "META:RXN-15257", "META:RXN-15252", "META:RXN-13595", "META:NITRATE-REDUCTASE-CYTOCHROME-RXN", "META:RXN0-6369", "META:NITRATE-REDUCTASE-NADPORNOPH-RXN", "META:RXN-16306", "META:RXN-16307", "META:RXN-13558", "META:RXN-18605", "META:RXN-8739", "META:1.7.7.2-RXN", "META:FERREDOXIN--NITRITE-REDUCTASE-RXN", "META:RXN-8814", "META:R201-RXN", "META:TRANS-RXN-137", "META:RXN-3483", "META:RXN-16795", "META:RXN-16796", "META:RXN-16797", "META:RXN-16798", "META:RXN-16792", "META:RXN-14254", "META:RXN-16794", "META:RXN-16319", "META:RXN0-6954", "META:RXN-16799", "META:RXN-12316", "META:NITROETHANE-OXIDASE-RXN", "META:NITRITE-REDUCTASE-CYTOCHROME-RXN", "META:RXN0-7124", "META:RXN-16471", "META:RXN-16322", "META:RXN-16564", "META:RXN-13370", "META:RXN-16803", "META:RXN-13854", "META:RXN-13578", "META:TRANS-RXN0-239", "META:RXN-11236", "META:RXN-16805", "META:NITRATE-REDUCTASE-NADPH-RXN", "META:RXN-13576", "META:RXN-15838", "META:RXN-16800", "META:RXN-16801", "META:RXN-16802", "META:RXN-3661", "META:1.7.2.2-RXN", "META:TRANS-RXN-26", "META:RXN-3462" ],
+      "gibbs" : -65.91206,
+      "cmlMolWeight" : 46.005,
+      "molWeight" : 46.005,
+      "parents" : [ "META:Inorganic-Anions" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   22.0183  -16.5631    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7469  -15.8076    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3848  -15.7838    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00088\n\n$$$$",
+  "reactions" : [ "irxn1615", "irxn1705", "irxn2205", "irxn4648", "irxn2921", "irxn1436", "irxn3998", "irxn1766", "irxn4605", "irxn5767", "irxn1794", "irxn5975", "irxn6402", "irxn6883", "irxn6202", "irxn1364", "irxn660", "irxn5276", "irxn5185", "irxn5065", "irxn926", "irxn414", "irxn714" ]
+}

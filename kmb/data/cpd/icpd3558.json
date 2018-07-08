@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3558",
+  "formula" : "C10H19O3",
+  "name" : "10-hydroxydecanoate",
+  "synonyms" : [ ],
+  "alias" : "icpd3558",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:10-HYDROXYDECANOATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02774"
+  } ],
+  "inchi" : "InChI=1S/C10H20O3/c11-9-7-5-3-1-2-4-6-8-10(12)13/h11H,1-9H2,(H,12,13)/p-1",
+  "inchikey" : "YJCJVMMDTBEITC-UHFFFAOYSA-M",
+  "smiles" : "C(CCCCC(=O)[O-])CCCCO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Omega-Hydroxy-Medium-Chain-Fatty-Acid" ],
+      "reactions" : [ "META:OMEGA-HYDROXYDECANOATE-DEHYDROGENASE-RXN", "META:RXN-11325" ],
+      "gibbs" : 84.81924,
+      "cmlMolWeight" : 187.258,
+      "molWeight" : 187.258,
+      "parents" : [ "META:Omega-Hydroxy-Medium-Chain-Fatty-Acid" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  0  0  0  0  0  0999 V2000\n   19.0169  -15.1173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8051  -15.8134    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2288  -15.8134    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5869  -15.1173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4469  -15.1173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3751  -15.8134    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6588  -15.8134    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1633  -15.1173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8706  -15.1173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9451  -15.8134    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0888  -15.8134    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8706  -13.7122    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.7332  -15.1173    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n  9 11  1  0     0  0\n  9 12  2  0     0  0\n 10 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02774\n\n$$$$",
+  "reactions" : [ "irxn4266" ]
+}

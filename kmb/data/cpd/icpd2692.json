@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2692",
+  "formula" : "C8H5O5",
+  "name" : "3,5-dihydroxyphenylglyoxylate",
+  "synonyms" : [ "(3,5-dihydroxyphenyl)(oxo)acetate", "(3,5-dihydroxyphenyl)glyoxylate", "2-(3,5-dihydroxyphenyl)-2-oxoacetate" ],
+  "alias" : "icpd2692",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15753"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C12325"
+  } ],
+  "inchi" : "InChI=1S/C8H6O5/c9-5-1-4(2-6(10)3-5)7(11)8(12)13/h1-3,9-10H,(H,12,13)/p-1",
+  "inchikey" : "IXVSXZQERGYQTA-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=C(C=C1C(=O)C(=O)[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Oxo-carboxylates", "META:Aromatics" ],
+      "reactions" : [ "META:RXN-16269", "META:RXN-14845" ],
+      "gibbs" : -105.35645,
+      "cmlMolWeight" : 181.124,
+      "molWeight" : 181.124,
+      "parents" : [ "META:2-Oxo-carboxylates", "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   27.5699  -17.9015    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3592  -18.6080    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1430  -17.9074    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1387  -16.5163    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3494  -15.8098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5645  -16.4945    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9313  -18.6125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7149  -17.9228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9333  -20.0170    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5033  -18.6278    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7128  -16.5183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7806  -18.5938    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3389  -14.4152    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  3  7  1  0     0  0\n  1  2  2  0     0  0\n  7  8  1  0     0  0\n  2  3  1  0     0  0\n  7  9  2  0     0  0\n  3  4  2  0     0  0\n  8 10  1  0     0  0\n  4  5  1  0     0  0\n  8 11  2  0     0  0\n  5  6  2  0     0  0\n  1 12  1  0     0  0\n  6  1  1  0     0  0\n  5 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12325\n\n$$$$",
+  "reactions" : [ "irxn4861", "irxn1852" ]
+}

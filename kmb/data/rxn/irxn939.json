@@ -1,0 +1,43 @@
+{
+  "id" : "irxn939",
+  "equation" : "icpd4181 <=> icpd964",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4181" : ""
+    },
+    "r" : {
+      "icpd964" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.99.6; 5.3.99.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALLENE-OXIDE-CYCLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03402"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Vernolates" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-735" ],
+      "orphan" : "NO",
+      "gibbs" : -32.97,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00592", "rn01110" ],
+      "orthologs" : [ "K10525" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

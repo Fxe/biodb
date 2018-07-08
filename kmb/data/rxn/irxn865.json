@@ -1,0 +1,46 @@
+{
+  "id" : "irxn865",
+  "equation" : "pc_EC + h2o <=> icpd2480 + icpd1807 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1676" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2480" : "",
+      "icpd1807" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.32; EC-3.1.1.32",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01316"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHOLIPASE-A1-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LIPASYN-PWY", "META:PWY-6803" ],
+      "orphan" : "NO",
+      "gibbs" : -13.03833,
+      "uniprot" : [ "P53357", "P0A921", "Q9PMU8", "P51528", "P18952" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564" ],
+      "orthologs" : [ "A1", "K01058", "K16818", "K16817" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

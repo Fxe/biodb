@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6044",
+  "formula" : "C6H4Cl2O",
+  "name" : "2,4-dichlorophenol",
+  "synonyms" : [ "1,3-dichloro-4-hydroxybenzene", "2,4-dichloro-phenol", "4,6-dichlorophenol" ],
+  "alias" : "icpd6044",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02625"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:24-DICHLOROPHENOL"
+  } ],
+  "inchi" : "InChI=1S/C6H4Cl2O/c7-4-1-2-6(9)5(8)3-4/h1-3,9H",
+  "inchikey" : "HFZWRUODUSTPEG-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)O)Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds" ],
+      "reactions" : [ "META:RXN-9863", "META:RXN-14821", "META:RXN-10116", "META:24-DICHLOROPHENOL-6-MONOOXYGENASE-RXN", "META:RXN-14823" ],
+      "gibbs" : 20.884483,
+      "cmlMolWeight" : 163.003,
+      "molWeight" : 163.003,
+      "parents" : [ "META:Chloroaromatic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   25.5176  -16.1092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2946  -15.4114    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5176  -17.5181    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7214  -15.4114    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   23.0908  -16.1092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2946  -14.0219    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2946  -18.2287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0908  -17.5181    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2946  -19.6182    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  7  9  1  0     0  0\n  7  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02625\n\n$$$$",
+  "reactions" : [ "irxn3099", "irxn5451", "irxn5142", "irxn847" ]
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2840",
+  "equation" : "icpd5444 + h2o + phaccoa <=> coa + h + icpd4946 + L2aadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5444" : "",
+      "icpd6491" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4946" : "",
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd1991" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.164; 2.3.1.164",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.164-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04868"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:ZN+2", "META:CPD-29", "META:PB+2" ],
+      "activators" : [ "META:DITHIOERYTHRITOL", "META:CO-A" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -20.397125,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

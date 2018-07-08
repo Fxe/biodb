@@ -1,0 +1,39 @@
+{
+  "id" : "icpd7058",
+  "formula" : "C5H9O8P2",
+  "name" : "(e)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate",
+  "synonyms" : [ "(2e)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate", "(e)-4-hydroxy-3-methyl-but-2-enyl diphosphate", "(e)-4-hydroxy-3-methylbut 2-en-1-yl diphosphate", "(e)-4-hydroxy-3-methylbut-2-enyl diphosphate" ],
+  "alias" : "h2mb4p",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "h2mb4p"
+  }, {
+    "source" : "BiGG",
+    "entry" : "h2mb4p"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXY-METHYL-BUTENYL-DIP"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11811"
+  } ],
+  "inchi" : "InChI=1S/C5H12O8P2/c1-5(4-6)2-3-12-15(10,11)13-14(7,8)9/h2,6H,3-4H2,1H3,(H,10,11)(H2,7,8,9)/p-3/b5-2+",
+  "inchikey" : "MDSIZRKJVDMQOQ-GORDUTHDSA-K",
+  "smiles" : "C/C(=C(/[H])\\COP(=O)([O-])OP(=O)([O-])[O-])/CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN0-884", "META:RXN0-882", "META:ISPH2-RXN", "META:RXN-15878" ],
+      "gibbs" : -385.77847,
+      "cmlMolWeight" : 259.069,
+      "molWeight" : 259.069
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 15 14  0  0  0  0  0  0  0  0999 V2000\n   30.4846  -19.8794    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.8788  -19.8725    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   31.8717  -21.2729    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2792  -19.8725    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.8717  -18.4720    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8325  -19.8794    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0453  -19.1792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0453  -17.7788    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2580  -19.8794    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4709  -19.1792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6838  -19.8794    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0779  -19.8725    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   29.0708  -21.2729    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0708  -18.4720    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6110  -19.1741    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  7  9  2  0     0  0\n  2  5  2  0     0  0\n  9 10  1  0     0  0\n  2  3  1  0     0  0\n 10 11  1  0     0  0\n  1  2  1  0     0  0\n  6  7  1  0     0  0\n 11 12  1  0     0  0\n  2  4  1  0     0  0\n 12 13  1  0     0  0\n 12  1  1  0     0  0\n  7  8  1  0     0  0\n 12 14  2  0     0  0\n  6 15  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11811\n\n$$$$",
+  "reactions" : [ "irxn1384", "irxn2393", "irxn3801", "irxn1820", "irxn3566", "irxn4976" ]
+}

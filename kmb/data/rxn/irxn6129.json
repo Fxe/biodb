@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6129",
+  "equation" : "cdpea + ser__L <=> cmp + icpd4183",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6037" : "",
+      "icpd4818" : ""
+    },
+    "r" : {
+      "icpd3421" : "",
+      "icpd4183" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.8.4; 2.7.8.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SERINE-PHOSPHOETHANOLAMINE-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02563"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -17.328308,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

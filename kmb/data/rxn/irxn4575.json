@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4575",
+  "equation" : "ala_B + akg <=> glu__L + msa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd7989" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd206" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.19; EC-2.6.1.19; 2.6.1.55",
+  "otherNames" : [ ],
+  "alias" : "APAT2rm",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2901"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00908"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "APAT2rm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:4-AMINO-BUTYRATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:BETA-ALA-DEGRADATION-I-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.32411194,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn00410", "rn01100" ],
+      "orthologs" : [ "K07250", "K00823", "K15372", "K13524" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

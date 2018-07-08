@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3405",
+  "equation" : "nad + dh4mchc <=> 4mcat + nadh + co2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd6893" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd6526" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.67",
+  "otherNames" : [ ],
+  "alias" : "DH4MCHCDH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05292"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DH4MCHCDH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K05783" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3105",
+  "equation" : "xoltriol + nadp <=> nadph + xoldioloneh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2902" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd2838" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.50",
+  "otherNames" : [ ],
+  "alias" : "r0750",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04825"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0750"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K00037" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

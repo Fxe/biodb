@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5080",
+  "equation" : "317735 + palmACP <=> 340779 + ACP",
+  "stoichiometry" : {
+    "l" : {
+      "317735" : "",
+      "icpd8032" : ""
+    },
+    "r" : {
+      "340779" : "",
+      "icpd4069" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AGPAT1819Z160h",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AGPATACP_OLE_PALM"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AGPAT1819Z160h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

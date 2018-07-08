@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6631",
+  "equation" : "o2 + arachd <=> 5HPET",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1270" : ""
+    },
+    "r" : {
+      "icpd7915" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.34",
+  "otherNames" : [ ],
+  "alias" : "ALOX5",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ARACHIDONATE-5-LIPOXYGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALOX5"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01595"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13395" ],
+      "orphan" : "NO",
+      "gibbs" : -69.979996,
+      "uniprot" : [ "Q7M0C1", "P12527", "P09917" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "K00461" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

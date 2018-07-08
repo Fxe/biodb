@@ -1,0 +1,42 @@
+{
+  "id" : "icpd3761",
+  "formula" : "C10H15N4O14P3",
+  "name" : "inosine triphosphate",
+  "synonyms" : [ "({[(2r,3s,4r,5r)-3,4-dihydroxy-5-(6-hydroxypurin-9-yl)oxolan-2-yl]methoxy(hydroxy)phosphoryl}oxy(hydroxy)phosphoryl)oxyphosphonic acid", "({[({[(2r,3s,4r,5r)-3,4-dihydroxy-5-(6-hydroxy-9h-purin-9-yl)oxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)phosphonic acid", "inosine 5'-(tetrahydrogen triphosphate)", "inosine 5'-triphosphate" ],
+  "alias" : "itp",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "itp"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "itp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ITP"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00081"
+  } ],
+  "inchi" : "InChI=1S/C10H15N4O14P3/c15-6-4(1-25-30(21,22)28-31(23,24)27-29(18,19)20)26-10(7(6)16)14-3-13-5-8(14)11-2-12-9(5)17/h2-4,6-7,10,15-16H,1H2,(H,21,22)(H,23,24)(H,11,12,17)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1",
+  "inchikey" : "HAEJPQIATWHALX-KQYNXXCUSA-N",
+  "smiles" : "C([C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C(N=CN=C32)O)O1)O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-12481", "META:PRPPAMIDOTRANS-RXN", "META:4.1.1.32-RXN" ],
+      "instances" : [ "META:Purine-ribonucleosides-5-PPP", "META:All-Nucleosides" ],
+      "reactions" : [ "META:RXN-12481", "META:RXN-14120", "META:RXN-12511", "META:RXN0-6382", "META:RXN0-5073", "META:ATP-DEAMINASE-RXN" ],
+      "gibbs" : -567.64966,
+      "cmlMolWeight" : 504.137,
+      "molWeight" : 504.137,
+      "parents" : [ "META:Purine-ribonucleosides-5-PPP", "META:All-Nucleosides" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iHN637", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 31 33  0  0  1  0  0  0  0  0999 V2000\n   28.6360  -15.8923    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   27.3157  -15.4691    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5998  -17.9139    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   29.4444  -14.7869    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3157  -14.0794    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1153  -16.1766    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4691  -17.0800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1830  -19.1963    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.6422  -13.6560    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1153  -13.3971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9214  -15.4691    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3510  -17.8822    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.7869  -19.1963    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.9979  -20.3082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9214  -14.0794    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1091  -12.1599    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0560  -17.4779    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0035  -20.3208    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0325  -18.0845    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6554  -18.0845    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   20.2783  -18.0845    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6554  -16.5674    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6491  -19.4554    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9074  -18.0845    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   17.5303  -18.0845    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9074  -16.5674    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9074  -19.4554    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1594  -18.0845    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   14.7823  -18.0845    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1594  -16.5674    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1594  -19.4554    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  3  1  1  1     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  6 11  2  0     0  0\n  7 12  1  0     0  0\n  8 13  1  0     0  0\n  8 14  1  6     0  0\n 10 15  1  0     0  0\n 10 16  2  0     0  0\n 12 17  1  1     0  0\n 13 18  1  6     0  0\n 17 19  1  0     0  0\n 19 20  1  0     0  0\n 20 21  1  0     0  0\n 20 22  1  0     0  0\n 20 23  2  0     0  0\n 21 24  1  0     0  0\n 24 25  1  0     0  0\n 24 26  1  0     0  0\n 24 27  2  0     0  0\n 25 28  1  0     0  0\n 28 29  1  0     0  0\n 28 30  1  0     0  0\n 28 31  2  0     0  0\n  5  9  1  0     0  0\n 11 15  1  0     0  0\n 12 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00081\n\n$$$$",
+  "reactions" : [ "irxn2518", "irxn3525", "irxn6528", "irxn5746", "irxn3468", "irxn664", "irxn741", "irxn2430", "irxn2079", "irxn3272", "irxn6640", "irxn3180", "irxn777", "irxn426" ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2914",
+  "equation" : "mi145p + atp <=> h + adp + mi1456p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd710" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd51" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AMITP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MI145P6Kn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMITP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

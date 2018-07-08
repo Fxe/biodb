@@ -1,0 +1,45 @@
+{
+  "id" : "irxn727",
+  "equation" : "h2o + 5g2oxpt <=> 5a2opntn + urea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4196" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd269" : "",
+      "icpd5034" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03250"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7565"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:THIOGLYCOLATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5024" ],
+      "orphan" : null,
+      "gibbs" : -3.572998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00472" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

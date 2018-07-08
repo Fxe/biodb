@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6692",
+  "equation" : "nad + dh3mchc <=> nadh + co2 + 3mcat",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5730" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd2454" : "",
+      "icpd1736" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.-",
+  "otherNames" : [ ],
+  "alias" : "DH3MCHCDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DH3MCHCDH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05309"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K05783" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

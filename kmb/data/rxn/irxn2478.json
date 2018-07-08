@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2478",
+  "equation" : "h2o + oxptn + nadp <=> nadph + 2.0 h + glutar",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4398" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "2.0",
+      "icpd4864" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.-; EC-1.2.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8182"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10982"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6328", "META:PWY-5280" ],
+      "orphan" : "NO",
+      "gibbs" : -14.977722,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

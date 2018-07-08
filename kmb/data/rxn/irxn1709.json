@@ -1,0 +1,55 @@
+{
+  "id" : "irxn1709",
+  "equation" : "dcyt + atp <=> dcmp + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3223" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd6810" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.145; 2.7.1.213; EC-2.7.1.74; 2.7.1.74",
+  "otherNames" : [ ],
+  "alias" : "DCK1m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DCK1m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14093"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DCK1n"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ADADir"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01666"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -14.815796,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00240" ],
+      "orthologs" : [ "K00893", "K15519", "K21057" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNF517", "iMM1415", "RECON1", "iYO844" ]
+    }
+  }
+}

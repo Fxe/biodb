@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1995",
+  "equation" : "o2 + lnlc <=> CE6415",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd8204" : ""
+    },
+    "r" : {
+      "icpd6445" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.61",
+  "otherNames" : [ ],
+  "alias" : "RE3409C",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE3409C"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12760"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -69.979996,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

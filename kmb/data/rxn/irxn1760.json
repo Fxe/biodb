@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1760",
+  "equation" : "nad + glc__D <=> icpd5302 + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd2392" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd5302" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.118; EC-1.1.1.118; 1.1.1.121",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCOSE-1-DEHYDROGENASE-NAD+-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00300"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -4.6782227,
+      "uniprot" : [ "P12378" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

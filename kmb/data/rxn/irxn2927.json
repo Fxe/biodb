@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2927",
+  "equation" : "icpd4332 + h2o + amet <=> met__L + hco3 + icpd4944",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd4332" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1484" : "",
+      "icpd5870" : "",
+      "icpd4944" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.120; 2.5.1.120",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15264"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10667"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7374", "META:PWY-7371" ],
+      "orphan" : "NO",
+      "gibbs" : -29.569897,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00130", "rn01110" ],
+      "orthologs" : [ "K18285" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5027",
+  "equation" : "o2 + 34dhphe <=> icpd4796",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5924" : ""
+    },
+    "r" : {
+      "icpd4796" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.30; EC-1.13.11.30",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02076"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:STIZOLOBINATE-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6955" ],
+      "orphan" : "NO",
+      "gibbs" : -72.63414,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00350" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

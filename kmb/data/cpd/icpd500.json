@@ -1,0 +1,31 @@
+{
+  "id" : "icpd500",
+  "formula" : "C6H8O",
+  "name" : "cyclohex-2-enone",
+  "synonyms" : [ "2-cyclohexen-1-one" ],
+  "alias" : "icpd500",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-282"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02395"
+  } ],
+  "inchi" : "InChI=1S/C6H8O/c7-6-4-2-1-3-5-6/h2,4H,1,3,5H2",
+  "inchikey" : "FWFSEYBSWVRWGL-UHFFFAOYSA-N",
+  "smiles" : "C1C=CC(=O)CC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:CYCLOHEXANONE-DEHYDROGENASE-RXN" ],
+      "gibbs" : 76.978966,
+      "cmlMolWeight" : 96.129,
+      "molWeight" : 96.129
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  7  0  0  0  0  0  0  0  0999 V2000\n   18.4037  -14.0466    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2022  -14.7433    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6243  -14.7433    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4037  -12.6598    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2022  -16.1492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6243  -16.1492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4037  -16.8586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  5  7  1  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02395\n\n$$$$",
+  "reactions" : [ "irxn3719" ]
+}

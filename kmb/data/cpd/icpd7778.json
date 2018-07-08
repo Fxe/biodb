@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7778",
+  "formula" : "C5H9NO3",
+  "name" : "(2s,3s)-3-hydroxypyrrolidine-2-carboxylic acid",
+  "synonyms" : [ "(3s)-3-hydroxy-l-proline", "trans-3-hydroxy-l-proline" ],
+  "alias" : "icpd7778",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05147"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-664"
+  } ],
+  "inchi" : "InChI=1S/C5H9NO3/c7-3-1-2-6-4(3)5(8)9/h3-4,6-7H,1-2H2,(H,8,9)/t3-,4-/m0/s1",
+  "inchikey" : "BJBUEDPLEOHJGE-IMJSIDKUSA-N",
+  "smiles" : "C1CN[C@@H]([C@H]1O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Hydroxy-L-Amino-Acids" ],
+      "reactions" : [ "META:TRANS-L-3-HYDROXYPROLINE-DEHYDRATASE-RXN" ],
+      "gibbs" : -18.06991,
+      "cmlMolWeight" : 131.131,
+      "molWeight" : 131.131,
+      "parents" : [ "META:Hydroxy-L-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  1  0  0  0  0  0999 V2000\n   20.7029  -21.3667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1478  -22.6941    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5477  -22.6812    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9680  -21.3458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8278  -20.5334    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3778  -23.8017    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1724  -20.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3849  -21.3500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1723  -19.2502    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  1  1     0  0\n  4  7  1  6     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05147\n\n$$$$",
+  "reactions" : [ "irxn5529" ]
+}

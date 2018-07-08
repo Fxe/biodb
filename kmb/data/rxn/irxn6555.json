@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6555",
+  "equation" : "icpd5074 + nadp <=> nadph + h + icpd1984",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5074" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1984" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.27; EC-1.5.1.27",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04695"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.5.1.27-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:S-RETICULINE", "META:R-RETICULINE", "META:SALUTARIDINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5270" ],
+      "orphan" : "NO",
+      "gibbs" : 0.48446655,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00950" ],
+      "orthologs" : [ "K22093" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

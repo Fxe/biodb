@@ -1,0 +1,55 @@
+{
+  "id" : "irxn428",
+  "equation" : "suchms + s <=> hcys__L + succ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5284" : "",
+      "icpd5063" : ""
+    },
+    "r" : {
+      "icpd2606" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.48; 2.5.1.-; 2.5.1.48",
+  "otherNames" : [ ],
+  "alias" : "SHSL2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SHSL2r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SHSL2h"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01288"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SHSL2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9384"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -14.698212,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270", "rn00920" ],
+      "orthologs" : [ "K01739", "K10764" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iRC1080", "iIT341", "iHN637", "iYO844", "iJN746" ]
+    }
+  }
+}

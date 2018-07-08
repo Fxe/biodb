@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5286",
+  "formula" : "C3H4ClO2",
+  "name" : "(s)-2-chloropropanoate",
+  "synonyms" : [ ],
+  "alias" : "icpd5286",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15409"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20608"
+  } ],
+  "inchi" : "InChI=1S/C3H5ClO2/c1-2(4)3(5)6/h2H,1H3,(H,5,6)/p-1/t2-/m0/s1",
+  "inchikey" : "GAWAYYRQGQZKCR-REOHCLBHSA-M",
+  "smiles" : "C[C@@]([H])(C(=O)[O-])Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chlorides" ],
+      "reactions" : [ "META:RXN-14536", "META:RXN-15138" ],
+      "gibbs" : -51.09758,
+      "cmlMolWeight" : 107.516,
+      "molWeight" : 107.516,
+      "parents" : [ "META:Chlorides" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  1  0  0  0  0  0999 V2000\n   16.8005  -15.8210    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0129  -16.5210    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2255  -15.8210    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4380  -16.5210    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0129  -17.9209    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   19.2255  -14.4211    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  1  1     0  0\n  3  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20608\n\n$$$$",
+  "reactions" : [ "irxn1683" ]
+}

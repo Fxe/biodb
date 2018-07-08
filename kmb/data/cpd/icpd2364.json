@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2364",
+  "formula" : "C3H6O",
+  "name" : "(2r)-1,2-epoxypropane",
+  "synonyms" : [ "(r)-1,2-epoxypropane" ],
+  "alias" : "icpd2364",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11506"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:R-12-EPOXYPROPANE"
+  } ],
+  "inchi" : "InChI=1S/C3H6O/c1-3-2-4-3/h3H,2H2,1H3/t3-/m1/s1",
+  "inchikey" : "GOOHAUXETOMSMM-GSVOUGTGSA-N",
+  "smiles" : "C[C@]1([H])CO1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:12-EPOXYPROPANE" ],
+      "reactions" : [ "META:4.2.99.19-RXN", "META:1.14.13.69-RXN" ],
+      "gibbs" : 43.796722,
+      "cmlMolWeight" : 58.08,
+      "molWeight" : 58.08,
+      "parents" : [ "META:12-EPOXYPROPANE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  4  0  0  1  0  0  0  0  0999 V2000\n   23.5618  -17.8022    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9601  -17.8022    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.2538  -16.5874    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1722  -18.4995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  3  2  1  0     0  0\n  2  4  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C11506\n\n$$$$",
+  "reactions" : [ "irxn1659", "irxn856" ]
+}

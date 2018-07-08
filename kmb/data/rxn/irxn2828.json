@@ -1,0 +1,43 @@
+{
+  "id" : "irxn2828",
+  "equation" : "icpd1725 <=> icpd3717",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1725" : ""
+    },
+    "r" : {
+      "icpd3717" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.2.6; EC-5.4.2.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02728"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BETA-PHOSPHOGLUCOMUTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:F-", "META:ARSENATE", "META:CA+2" ],
+      "activators" : [ "META:MG+2", "META:CO+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:MALTOSECAT-PWY", "META:PWY-7459", "META:PWY-2722", "META:PWY-2721" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ "Q9JSX3", "P77366", "P71447", "Q9JSW9" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K01838" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

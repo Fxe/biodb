@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1869",
+  "equation" : "bilirub + 2.0 udpglcur <=> 2.0 udp + bildglcur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5767" : "",
+      "icpd886" : "2.0"
+    },
+    "r" : {
+      "icpd6115" : "",
+      "icpd6858" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.17",
+  "otherNames" : [ ],
+  "alias" : "UGT1A2r",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02389"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UGT1A2r"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ "K00699" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "RECON1" ]
+    }
+  }
+}

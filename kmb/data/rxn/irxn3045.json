@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3045",
+  "equation" : "udpg + icpd7906 <=> udp + h + icpd10",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd7906" : ""
+    },
+    "r" : {
+      "icpd10" : "",
+      "icpd1851" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.66; EC-2.4.1.66",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PROCOLLAGEN-GLUCOSYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04491"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7894" ],
+      "orphan" : "YES-PUTATIVE",
+      "gibbs" : -95.81366,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00514" ],
+      "orthologs" : [ "K13646" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

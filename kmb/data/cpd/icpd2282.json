@@ -1,0 +1,39 @@
+{
+  "id" : "icpd2282",
+  "formula" : "C6H11NO2",
+  "name" : "4-acetamidobutanal",
+  "synonyms" : [ "n-(4-oxobutyl)acetamide" ],
+  "alias" : "n4abutn",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05936"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "n4abutn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-30"
+  }, {
+    "source" : "BiGG",
+    "entry" : "n4abutn"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO2/c1-6(9)7-4-2-3-5-8/h5H,2-4H2,1H3,(H,7,9)",
+  "inchikey" : "DDSLGZOYEPKPSJ-UHFFFAOYSA-N",
+  "smiles" : "CC(=NCCCC=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-1", "META:RXN-37", "META:RXN-10463" ],
+      "gibbs" : 51.592323,
+      "cmlMolWeight" : 129.158,
+      "molWeight" : 129.158
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iJN678", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   28.5929  -19.2085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8544  -19.9093    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4016  -19.9093    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0457  -19.2085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2103  -19.2085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.2370  -19.9093    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0457  -17.8069    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0189  -19.9093    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7663  -19.1999    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05936\n\n$$$$",
+  "reactions" : [ "irxn4640", "irxn3034", "irxn5481" ]
+}

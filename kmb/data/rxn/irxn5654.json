@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5654",
+  "equation" : "HC01254 + nadp <=> nadph + h + 6pthp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5533" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4177" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.184; 1.1.1.21; 1.1.1.220",
+  "otherNames" : [ ],
+  "alias" : "r0673",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0673"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04285"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00790" ],
+      "orthologs" : [ "K00079", "K00011" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

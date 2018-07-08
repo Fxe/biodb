@@ -1,0 +1,47 @@
+{
+  "id" : "irxn850",
+  "equation" : "icpd2903 + coa + nadp <=> nadph + h + icpd3846",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2903" : "",
+      "icpd2377" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd3846" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.50; EC-1.2.1.50",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02620"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LONG-CHAIN-FATTY-ACYL-COA-REDUCTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -316.11,
+      "uniprot" : [ "Q7M1E9" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00073" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

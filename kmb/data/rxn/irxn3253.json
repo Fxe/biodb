@@ -1,0 +1,53 @@
+{
+  "id" : "irxn3253",
+  "equation" : "nad + dhlam <=> lpam + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd832" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd1945" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.8.1.4",
+  "otherNames" : [ ],
+  "alias" : "PDHcr",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01698"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PDHe3hr"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PDHcr"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GCC2cm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00382" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iCHOv1", "iND750", "iECED1_1282", "iECSF_1327", "iUMN146_1321", "iLF82_1304", "iECABU_c1320", "iJN746", "iRC1080", "iUTI89_1310", "iAPECO1_1312", "iECP_1309", "iMM904", "iECNA114_1301", "iECS88_1305", "RECON1", "iE2348C_1286", "iNRG857_1313", "iJN678", "iNJ661", "iLB1027_lipid", "iMM1415", "iSB619", "iECOK1_1307" ]
+    }
+  }
+}

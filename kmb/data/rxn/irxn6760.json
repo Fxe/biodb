@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6760",
+  "equation" : "utp + 2.0 h2o <=> 2.0 h + 2.0 pi + ump",
+  "stoichiometry" : {
+    "l" : {
+      "icpd115" : "",
+      "icpd4016" : "2.0"
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd290" : "",
+      "icpd7485" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1.5",
+  "otherNames" : [ ],
+  "alias" : "UTPH1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UTPH1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12199"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7177", "META:PWY-7185" ],
+      "orphan" : "NO",
+      "gibbs" : -109.401794,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM904" ]
+    }
+  }
+}

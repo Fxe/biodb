@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3295",
+  "equation" : "icpd2155 + icpd1521 <=> icpd5926 + icpd5516",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2155" : "",
+      "icpd1521" : ""
+    },
+    "r" : {
+      "icpd5516" : "",
+      "icpd5926" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.196; 2.7.1.196",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-RXN-155B"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11170"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -33.69113,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K02761", "K02760", "K02759" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

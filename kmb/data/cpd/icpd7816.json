@@ -1,0 +1,41 @@
+{
+  "id" : "icpd7816",
+  "formula" : "C3H7NOS2",
+  "name" : "thiocysteine",
+  "synonyms" : [ ],
+  "alias" : "thcys",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "thcys"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01962"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "thcys"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THIOCYSTEINE"
+  } ],
+  "inchi" : "InChI=1S/C3H7NOS2/c4-2(1-6)3(5)7/h2,6H,1,4H2,(H,5,7)/t2-/m0/s1",
+  "inchikey" : "BUTXNGJCCCGNMV-REOHCLBHSA-N",
+  "smiles" : "C([C@@]([H])(C(=O)S)N)S",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Modified-Amino-Acids" ],
+      "reactions" : [ "META:CYSTHIOCYS-RXN", "META:RXN-15128" ],
+      "gibbs" : -5.06216,
+      "cmlMolWeight" : 153.214,
+      "molWeight" : 153.214,
+      "parents" : [ "META:Modified-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  8  7  0  0  1  0  0  0  0  0999 V2000\n   12.5062  -12.3202    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2995  -13.0198    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   10.0812  -12.3202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.8687  -13.0198    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n    7.6562  -12.3202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.8687  -14.4189    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.4379  -13.0198    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    7.6562  -10.9211    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  4  6  1  6     0  0\n  5  7  1  0     0  0\n  5  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01962\n\n$$$$",
+  "reactions" : [ "irxn5575", "irxn231" ]
+}

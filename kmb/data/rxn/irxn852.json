@@ -1,0 +1,50 @@
+{
+  "id" : "irxn852",
+  "equation" : "h2o + Lkynr <=> ala__L + h + anth",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7803" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd268" : "",
+      "icpd1851" : "",
+      "icpd7336" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.7.1.3; 3.7.1.3",
+  "otherNames" : [ ],
+  "alias" : "KYN",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "KYN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00987"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:KYNURENINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TRPCAT-PWY", "META:PWY-6309" ],
+      "orphan" : "NO",
+      "gibbs" : -14.187123,
+      "uniprot" : [ "Q16719", "P70712" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K01556" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

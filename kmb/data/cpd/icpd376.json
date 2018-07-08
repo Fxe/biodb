@@ -1,0 +1,40 @@
+{
+  "id" : "icpd376",
+  "formula" : "CH5N",
+  "name" : "methylamine",
+  "synonyms" : [ "aminomethane", "methanamine", "monomethylamine", "n-methylamine" ],
+  "alias" : "mma",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "mma"
+  }, {
+    "source" : "BiGG",
+    "entry" : "mma"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLAMINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00218"
+  } ],
+  "inchi" : "InChI=1S/CH5N/c1-2/h2H2,1H3",
+  "inchikey" : "BAVYZALUXZFZLV-UHFFFAOYSA-N",
+  "smiles" : "CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GCVP-RXN", "META:RXN-8100" ],
+      "reactions" : [ "META:1.5.8.1-RXN", "META:RXN-13065", "META:RXN-17574", "META:RXN-13088", "META:RXN-16529", "META:RXN-12901", "META:N-METHYL-2-OXOGLUTARAMATE-HYDROLASE-RXN", "META:N-METHYLALANINE-DEHYDROGENASE-RXN", "META:RXN-2841", "META:RXN-10913", "META:METHYLGUANIDINASE-RXN", "META:GLUTAMATE--METHYLAMINE-LIGASE-RXN", "META:1.21.4.3-RXN", "META:RXN-10908", "META:RXN-15194", "META:2.1.1.21-RXN", "META:RXN-8673", "META:RXN-8100", "META:RXN-8098", "META:SYNEPHRINE-DEHYDRATASE-RXN", "META:ALKYLAMIDASE-RXN", "META:RXN-7262" ],
+      "gibbs" : 70.25467,
+      "cmlMolWeight" : 32.065,
+      "molWeight" : 32.065
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   21.5130  -16.5187    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7270  -15.8213    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00218\n\n$$$$",
+  "reactions" : [ "irxn1934", "irxn3515", "irxn5629", "irxn2604", "irxn6923", "irxn5405", "irxn2489", "irxn3513", "irxn5810", "irxn2885", "irxn534", "irxn4174", "irxn5298", "irxn2020", "irxn957", "irxn6371" ]
+}

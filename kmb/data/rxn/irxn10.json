@@ -1,0 +1,46 @@
+{
+  "id" : "irxn10",
+  "equation" : "4.0 h2o + 5thf <=> thf + 4.0 glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "4.0",
+      "icpd7017" : ""
+    },
+    "r" : {
+      "icpd514" : "4.0",
+      "icpd6900" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GGH_5THFe",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GGH_5THFe"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GGH_5THFl"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

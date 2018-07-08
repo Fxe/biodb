@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2448",
+  "formula" : "C10H16O2",
+  "name" : "4-isopropenyl-7-methyloxepan-2-one",
+  "synonyms" : [ ],
+  "alias" : "icpd2448",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11414"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10064"
+  } ],
+  "inchi" : "InChI=1S/C10H16O2/c1-7(2)9-5-4-8(3)12-10(11)6-9/h8-9H,1,4-6H2,2-3H3",
+  "inchikey" : "DNWZWUWUDAGNJB-UHFFFAOYSA-N",
+  "smiles" : "C=C(C)C1CCC(C)OC(=O)C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:4-isopropenyl-7-methyloxepan-2-one" ],
+      "reactions" : [ "META:RXN-9421", "META:RXN-9420" ],
+      "gibbs" : 127.82794,
+      "cmlMolWeight" : 168.235,
+      "molWeight" : 168.235,
+      "parents" : [ "META:4-isopropenyl-7-methyloxepan-2-one" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   26.9893  -16.2488    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.3835  -16.2478    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2659  -17.3364    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1217  -17.3436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9669  -18.7025    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4381  -18.7103    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7064  -19.3140    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.3822  -14.9873    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6298  -17.0183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7116  -20.7147    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5003  -21.4161    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9282  -21.4070    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  5  7  1  0     0  0\n  6  7  1  0     0  0\n  1  4  1  0     0  0\n  1  8  1  1     0  0\n  3  9  2  0     0  0\n  3  5  1  0     0  0\n  7 10  1  1     0  0\n  2  3  1  0     0  0\n 10 11  1  0     0  0\n  4  6  1  0     0  0\n 10 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11414\n\n$$$$",
+  "reactions" : [ "irxn440", "irxn437" ]
+}

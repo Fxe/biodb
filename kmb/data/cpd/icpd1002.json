@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1002",
+  "formula" : "C3H7O6P",
+  "name" : "glyceryl phosphate",
+  "synonyms" : [ ],
+  "alias" : "icpd1002",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SN-GLYCEROL-1-PHOSPHATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00623"
+  } ],
+  "inchi" : "InChI=1S/C3H9O6P/c4-1-3(5)2-9-10(6,7)8/h3-5H,1-2H2,(H2,6,7,8)/p-2",
+  "inchikey" : "AWUCVROLDVIAJX-UHFFFAOYSA-L",
+  "smiles" : "C(C(COP(=O)([O-])[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Glycerol-1-phosphate" ],
+      "reactions" : [ "META:2.5.1.41-RXN", "META:1.1.1.261-RXN", "META:RXN0-20", "META:RXN-14964", "META:RXN-16515" ],
+      "gibbs" : -258.0304,
+      "cmlMolWeight" : 170.058,
+      "molWeight" : 170.058,
+      "parents" : [ "META:Glycerol-1-phosphate" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   20.2300  -22.4000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4424  -23.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6549  -22.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8673  -23.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0797  -22.4000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6549  -21.0002    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8300  -22.4000    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4300  -22.4000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8300  -21.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8300  -23.8000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  3  6  1  1     0  0\n  1  7  1  0     0  0\n  7  8  2  0     0  0\n  7  9  1  0     0  0\n  7 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00623\n\n$$$$",
+  "reactions" : [ "irxn5059", "irxn3194" ]
+}

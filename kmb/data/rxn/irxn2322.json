@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2322",
+  "equation" : "324798 + nadph + o2 + h <=> 349413 + h2o + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "324798" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "349413" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "BCAROHX2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BCRPTXANH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BCAROHX2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iJN678", "iJB785" ]
+    }
+  }
+}

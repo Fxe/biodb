@@ -1,0 +1,40 @@
+{
+  "id" : "icpd8229",
+  "formula" : "C6H13N2O2",
+  "name" : "(3s)-3,6-diaminohexanoate",
+  "synonyms" : [ ],
+  "alias" : "36dahx",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-233"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01142"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "36dahx"
+  }, {
+    "source" : "BiGG",
+    "entry" : "36dahx"
+  } ],
+  "inchi" : "InChI=1S/C6H14N2O2/c7-3-1-2-5(8)4-6(9)10/h5H,1-4,7-8H2,(H,9,10)/p-1/t5-/m0/s1",
+  "inchikey" : "QKEWQOJCHPFEAF-YFKPBYRVSA-M",
+  "smiles" : "C(C[C@@]([H])(CC(=O)[O-])N)CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ORNMUTST-RXN" ],
+      "reactions" : [ "META:BETA-LYSINE-56-AMINOMUTASE-RXN", "META:RXN-18530", "META:LYSINE-23-AMINOMUTASE-RXN" ],
+      "gibbs" : 69.714745,
+      "cmlMolWeight" : 147.197,
+      "molWeight" : 147.197
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iSbBS512_1146", "iECIAI39_1322", "iWFL_1372", "iY75_1357", "iECW_1372", "iECO111_1330", "iNRG857_1313", "iML1515", "iLF82_1304", "iYO844", "iECH74115_1262", "iS_1188", "iECS88_1305" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   26.9291  -16.1015    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7594  -16.7797    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.0988  -16.7797    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5836  -16.1015    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7594  -18.3393    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0988  -18.3393    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2748  -16.1015    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4137  -16.7797    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2442  -16.1015    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0682  -16.7797    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  1     0  0\n  3  6  2  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01142\n\n$$$$",
+  "reactions" : [ "irxn5762", "irxn2789", "irxn1069" ]
+}

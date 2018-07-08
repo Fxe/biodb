@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3190",
+  "formula" : "C4H10",
+  "name" : "butane",
+  "synonyms" : [ "butan" ],
+  "alias" : "icpd3190",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C21390"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-18985"
+  } ],
+  "inchi" : "InChI=1S/C4H10/c1-3-4-2/h3-4H2,1-2H3",
+  "inchikey" : "IJDNQMDRQITEOD-UHFFFAOYSA-N",
+  "smiles" : "CCCC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Short-Chain-Alkanes" ],
+      "reactions" : [ "META:RXN-17664", "META:RXN-17638" ],
+      "gibbs" : 102.33121,
+      "cmlMolWeight" : 58.123,
+      "molWeight" : 58.123,
+      "parents" : [ "META:Short-Chain-Alkanes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n    8.2600  -11.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.4724  -11.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.6849  -11.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8973  -11.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21390\n\n$$$$",
+  "reactions" : [ "irxn1403" ]
+}

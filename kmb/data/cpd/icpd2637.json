@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2637",
+  "formula" : "C6H10O3",
+  "name" : "6-oxohexanoic acid",
+  "synonyms" : [ "6-ketohexanoic acid" ],
+  "alias" : "icpd2637",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:6-OXO-HEXANOATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06102"
+  } ],
+  "inchi" : "InChI=1S/C6H10O3/c7-5-3-1-2-4-6(8)9/h5H,1-4H2,(H,8,9)",
+  "inchikey" : "PNPPVRALIYXJBW-UHFFFAOYSA-N",
+  "smiles" : "C(CCC(=O)O)CC=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-11050", "META:6-HYDROXYHEXANOATE-OXIDATION-RXN", "META:RXN-14101", "META:R562-RXN", "META:6-OXOHEXANOATE-OXIDATION-RXN" ],
+      "gibbs" : -14.891966,
+      "cmlMolWeight" : 129.135,
+      "molWeight" : 129.135
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   28.6621  -19.1642    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8783  -19.8575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4461  -19.8634    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0887  -19.1584    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2359  -19.1702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.3045  -19.8516    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0887  -17.7484    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0197  -19.8752    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7861  -19.1654    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06102\n\n$$$$",
+  "reactions" : [ "irxn6235", "irxn3412", "irxn1576", "irxn945", "irxn4601" ]
+}

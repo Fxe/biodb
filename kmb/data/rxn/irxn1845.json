@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1845",
+  "equation" : "asp__L + accoa <=> Nacasp + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd95" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd6173" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.17; EC-2.3.1.17",
+  "otherNames" : [ ],
+  "alias" : "ASPNATm",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ASPARTATE-N-ACETYLTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPNATm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00487"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -5.1882324,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00250" ],
+      "orthologs" : [ "K18309" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

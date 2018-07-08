@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6812",
+  "equation" : "3.0 ipdp + frdp <=> 3.0 ppi + hexdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4227" : "3.0",
+      "icpd3179" : ""
+    },
+    "r" : {
+      "icpd7940" : "",
+      "icpd1231" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.83; 2.5.1.83",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09245"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-PENTAPRENYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:HEXPPSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -39.0,
+      "uniprot" : [ "P18900" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00900" ],
+      "orthologs" : [ "K21275", "K21274", "K05355" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

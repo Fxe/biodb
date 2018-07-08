@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5289",
+  "equation" : "h + acac <=> acetone + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd267" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd8124" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.4; 4.1.1.4",
+  "otherNames" : [ ],
+  "alias" : "ADCim",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01366"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETOACETATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ADCim"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HCN", "META:CPD-8877", "META:CPD-8876", "META:CPD-5401", "META:CPD-8874", "META:CPD-612", "META:CPD-8879", "META:BOROHYDRIDE", "META:CPD-8878", "META:CPD-8880", "META:CPD-8873" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5451", "META:PWY-6588", "META:PWY-7466", "META:PWY66-367", "META:PWY-6876" ],
+      "orphan" : "NO",
+      "gibbs" : -2.2758713,
+      "uniprot" : [ "P23670" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn01100", "rn00072" ],
+      "orthologs" : [ "K01574" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

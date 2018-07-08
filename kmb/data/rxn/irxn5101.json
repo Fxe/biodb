@@ -1,0 +1,51 @@
+{
+  "id" : "irxn5101",
+  "equation" : "nad + retinal + h2o <=> nadh + retn + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7129" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd1715" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.36; EC-1.2.1.36",
+  "otherNames" : [ ],
+  "alias" : "RADH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RETINAL-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RADH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02123"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -13.105335,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00830" ],
+      "orthologs" : [ "K07249" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

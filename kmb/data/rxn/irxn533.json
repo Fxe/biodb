@@ -1,0 +1,54 @@
+{
+  "id" : "irxn533",
+  "equation" : "mmcoa__S <=> co2 + ppcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3283" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd3011" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.41; EC-4.1.1.41",
+  "otherNames" : [ ],
+  "alias" : "MMCD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MMCD"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLMALONYL-COA-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MMCDp"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MMCDm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00923"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 0.030639648,
+      "uniprot" : [ "Q57286", "O54031", "Q57079", "O86517", "Q57111", "Q57490", "O52601", "O54028", "O54029", "Q56724", "O54030" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640" ],
+      "orthologs" : [ "K11264", "K18426" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iEKO11_1354", "iETEC_1333", "iECD_1391", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF1260b", "iEcDH1_1363", "iEcHS_1320", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iEcSMS35_1347", "iECW_1372", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iSbBS512_1146", "iECBD_1354", "iCHOv1", "iECUMN_1333", "iSDY_1059", "iECDH1ME8569_1439", "iZ_1308", "iECO103_1326", "iUMNK88_1353", "iEcE24377_1341", "iS_1188", "iSF_1195", "iECDH10B_1368", "iSFxv_1172", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJO1366", "iNJ661", "iMM1415", "iSFV_1184", "iECSE_1348" ]
+    }
+  }
+}

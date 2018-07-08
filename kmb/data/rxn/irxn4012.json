@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4012",
+  "equation" : "ppa + accoa <=> ac + ppcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3637" : "",
+      "icpd5825" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd3011" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.3.1; EC-2.8.3.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00928"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PROPIONATE-COA-TRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5494", "META:PWY-5109" ],
+      "orphan" : "NO",
+      "gibbs" : -0.34991455,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn01100", "rn00620" ],
+      "orthologs" : [ "K01026" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

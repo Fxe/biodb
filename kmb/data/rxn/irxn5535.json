@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5535",
+  "equation" : "h2o + icpd7702 <=> icpd5357 + urea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7702" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd269" : "",
+      "icpd5357" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.3.10; 3.5.3.10",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-ARGINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02458"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -3.572998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00472" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

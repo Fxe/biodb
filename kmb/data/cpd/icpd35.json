@@ -1,0 +1,39 @@
+{
+  "id" : "icpd35",
+  "formula" : "C7H5O3",
+  "name" : "3-hydroxybenzoate",
+  "synonyms" : [ "m-hydroxybenzoate", "meta-hydroxybenzoate" ],
+  "alias" : "3hbz",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "3hbz"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXYBENZOATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00587"
+  } ],
+  "inchi" : "InChI=1S/C7H6O3/c8-6-3-1-2-5(4-6)7(9)10/h1-4,8H,(H,9,10)/p-1",
+  "inchikey" : "IJFXRHURBJZNAO-UHFFFAOYSA-M",
+  "smiles" : "C1=CC(=CC(=C1)C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN", "META:1.13.11.6-RXN" ],
+      "instances" : [ "META:Benzoates" ],
+      "reactions" : [ "META:3-HYDROXYBENZOATE-2-MONOOXYGENASE-RXN", "META:RXN0-7046", "META:3-OH-BENZALDEHYDE-DEHYDROG-NADP+-RXN", "META:3-HYDROXYBENZOATE-4-MONOOXYGENASE-RXN", "META:RXN-7488", "META:3-HYDROXYBENZOATE-6-MONOOXYGENASE-RXN", "META:RXN-14940", "META:RXN-10448" ],
+      "gibbs" : -41.486458,
+      "cmlMolWeight" : 137.115,
+      "molWeight" : 137.115,
+      "parents" : [ "META:Benzoates" ]
+    },
+    "bigg" : {
+      "models" : [ "iML1515" ]
+    }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   29.3027  -23.4498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0973  -22.7476    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3027  -24.8482    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5196  -22.7536    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8804  -23.4498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0973  -25.5504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7308  -23.4498    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5196  -21.3493    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8804  -24.8482    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6692  -22.7476    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\n  5 10  1  0     0  0\n  6  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00587\n\n$$$$",
+  "reactions" : [ "irxn22", "irxn6042", "irxn1900", "irxn2687", "irxn3524", "irxn5249", "irxn5337" ]
+}

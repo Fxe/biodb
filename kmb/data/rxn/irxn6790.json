@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6790",
+  "equation" : "atp + dha <=> h + adp + dhap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2191" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd6046" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.29; 2.7.1.29",
+  "otherNames" : [ ],
+  "alias" : "DHAK",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01011"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHAK"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCERONE-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2", "META:CA+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P185-PWY", "META:PWY-6131" ],
+      "orphan" : "NO",
+      "gibbs" : -13.505859,
+      "uniprot" : [ "O13902", "P43550" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00561", "rn01100", "rn01200", "rn00680", "rn01120" ],
+      "orthologs" : [ "K05878", "K05879", "K00863" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iCHOv1", "iND750", "iMM904", "iSB619", "iHN637" ]
+    }
+  }
+}

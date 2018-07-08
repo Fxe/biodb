@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5073",
+  "equation" : "h2o + adpman <=> man1p + amp + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5445" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1284" : "",
+      "icpd1851" : "2.0",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.21",
+  "otherNames" : [ ],
+  "alias" : "ADPMAN",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02677"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ADPMAN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00051" ],
+      "orthologs" : [ "K18447" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

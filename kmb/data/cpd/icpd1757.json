@@ -1,0 +1,40 @@
+{
+  "id" : "icpd1757",
+  "formula" : "C2H7N",
+  "name" : "dimethylamine",
+  "synonyms" : [ "n,n-dimethylamine", "n-methyl-methanamine", "n-methylmethanamine" ],
+  "alias" : "dma",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00543"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dma"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIMETHYLAMINE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "dma"
+  } ],
+  "inchi" : "InChI=1S/C2H7N/c1-3-2/h3H,1-2H3",
+  "inchikey" : "ROSDSFDQCJNGOL-UHFFFAOYSA-N",
+  "smiles" : "CNC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-12530" ],
+      "reactions" : [ "META:1.5.8.1-RXN", "META:NN-DIMETHYLFORMAMIDASE-RXN", "META:1.5.8.2-RXN", "META:RXN-8102", "META:TRIMETHYLAMINE-OXIDE-ALDOLASE-RXN", "META:RXN-8100", "META:RXN-12901", "META:DIMETHYLARGININASE-RXN" ],
+      "gibbs" : 81.05691,
+      "cmlMolWeight" : 46.092,
+      "molWeight" : 46.092
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iCHOv1", "iRC1080" ]
+    }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   28.8186  -23.0322    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5651  -23.8543    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8723  -23.7952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00543\n\n$$$$",
+  "reactions" : [ "irxn534", "irxn2407", "irxn2629", "irxn496", "irxn5629", "irxn4877", "irxn2237" ]
+}

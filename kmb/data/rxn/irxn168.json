@@ -1,0 +1,47 @@
+{
+  "id" : "irxn168",
+  "equation" : "h2o + accoa + 3pop <=> coa + h + icpd3590",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd1698" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd3590" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.3.19; EC-2.3.3.19",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15074"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11708"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7419" ],
+      "orphan" : "NO",
+      "gibbs" : -10.795288,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00440" ],
+      "orthologs" : [ "K21934" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

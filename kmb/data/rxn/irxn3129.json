@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3129",
+  "equation" : "catechol + o2 <=> 2.0 h + ccmuac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd2941" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd5254" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.1; EC-1.13.11.1",
+  "otherNames" : [ ],
+  "alias" : "CATDOX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CATDOX"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CATECHOL-12-DIOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00817"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CATECHOL-ORTHO-CLEAVAGE-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -98.39235,
+      "uniprot" : [ "O33950", "P31019", "P27098", "P96984", "Q43984", "Q7M0Q0", "O33948", "Q9Z9Y0", "O31247", "Q51433" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00362" ],
+      "orthologs" : [ "K03381" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iJN746" ]
+    }
+  }
+}

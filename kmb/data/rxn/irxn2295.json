@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2295",
+  "equation" : "6a2ohxnt <=> h2o + 1pipdn2c",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2120" : ""
+    },
+    "r" : {
+      "icpd1505" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PPD2CSPp",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PPD2CSPp"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04175"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8172"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AOXHEXCYCL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LYSINE-DEHYDROGENASE-RXN" ],
+      "orphan" : null,
+      "gibbs" : 22.261118,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310", "rn00960", "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iJN746" ]
+    }
+  }
+}

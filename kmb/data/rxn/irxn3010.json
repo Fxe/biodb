@@ -1,0 +1,51 @@
+{
+  "id" : "irxn3010",
+  "equation" : "h2o + 3mgcoa <=> hmgcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd278" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5434" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.18; EC-4.2.1.18",
+  "otherNames" : [ ],
+  "alias" : "MGCH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MGCHrm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02085"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLGLUTACONYL-COA-HYDRATASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MGCH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7571", "META:LEU-DEG2-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 3.0229492,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00280" ],
+      "orthologs" : [ "K05607", "K13766" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid", "iMM1415", "iAT_PLT_636", "RECON1", "iAF987", "iJN746" ]
+    }
+  }
+}

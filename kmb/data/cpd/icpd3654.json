@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3654",
+  "formula" : "C8H7O4",
+  "name" : "(r)-4-hydroxymandelate",
+  "synonyms" : [ "d-4-hydroxymandelate", "d-p-hydroxymandelate" ],
+  "alias" : "icpd3654",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05343"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-105"
+  } ],
+  "inchi" : "InChI=1S/C8H8O4/c9-6-3-1-5(2-4-6)7(10)8(11)12/h1-4,7,9-10H,(H,11,12)/p-1/t7-/m1/s1",
+  "inchikey" : "YHXHKYRQLYQUIH-SSDOTTSWSA-M",
+  "smiles" : "C1=C(C=CC(=C1)[O-])[C@]([H])(C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:4-HYDROXYMANDELATE" ],
+      "reactions" : [ "META:HYDROXY-MANDELATE-RACEMASE-RXN" ],
+      "gibbs" : -55.814228,
+      "cmlMolWeight" : 167.141,
+      "molWeight" : 167.141,
+      "parents" : [ "META:4-HYDROXYMANDELATE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   29.3506  -18.2697    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.1464  -18.9677    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5613  -18.9614    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3506  -16.8735    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1464  -20.3770    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9231  -18.2697    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5613  -20.3577    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7653  -18.2569    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9231  -21.0878    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7189  -18.9677    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7189  -20.3770    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5084  -21.0687    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  5  9  1  0     0  0\n  6 10  2  0     0  0\n  9 11  2  0     0  0\n 11 12  1  0     0  0\n 10 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05343\n\n$$$$",
+  "reactions" : [ "irxn3497" ]
+}

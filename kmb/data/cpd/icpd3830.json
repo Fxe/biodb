@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3830",
+  "formula" : "C6H4Cl2O2",
+  "name" : "3,6-dichlorocatechol",
+  "synonyms" : [ "3,6-dichloro-1,2-benzenediol", "3,6-dichloro-1,2-dihydroxybenzene", "3,6-dichloropyrocatechol" ],
+  "alias" : "icpd3830",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07094"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:36-DICHLOROCATECHOL"
+  } ],
+  "inchi" : "InChI=1S/C6H4Cl2O2/c7-3-1-2-4(8)6(10)5(3)9/h1-2,9-10H",
+  "inchikey" : "OLCABUKQCUOXNU-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C(=C(C(=C1)Cl)O)O)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds", "META:Catechols" ],
+      "reactions" : [ "META:CHLOROCATDIOXY-RXN", "META:CHLOROBENDDH-RXN" ],
+      "gibbs" : -19.015514,
+      "cmlMolWeight" : 179.002,
+      "molWeight" : 179.002,
+      "parents" : [ "META:Chloroaromatic-Compounds", "META:Catechols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   29.4256  -17.6422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4256  -16.2378    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2143  -18.3384    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6368  -18.3384    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2143  -15.5416    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6368  -15.5416    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0031  -17.6422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2201  -19.7428    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   27.0031  -16.2378    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2201  -14.1372    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  5  9  2  0     0  0\n  5 10  1  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07094\n\n$$$$",
+  "reactions" : [ "irxn1592", "irxn2057" ]
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "icpd2117",
+  "formula" : "F",
+  "name" : "fluoride",
+  "synonyms" : [ ],
+  "alias" : "f",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C16487"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "f"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:F-"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00742"
+  } ],
+  "inchi" : "InChI=1S/FH/h1H/p-1",
+  "inchikey" : "KRHYYFGTRYWZRS-UHFFFAOYSA-M",
+  "smiles" : "[F-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2PGADEHYDRAT-RXN", "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:GUANINE-DEAMINASE-RXN", "META:SORBITOL-6-PHOSPHATASE-RXN", "META:BETA-PHOSPHOGLUCOMUTASE-RXN", "META:TREHALOSEPHOSPHA-RXN", "META:MANNITOL-1-PHOSPHATASE-RXN", "META:RXN0-1001", "META:RXN-12531", "META:PROTOCATECHUATE-34-DIOXYGENASE-RXN", "META:ARYLFORMAMIDASE-RXN", "META:PEPSYNTH-RXN", "META:RXN0-5114", "META:HYDROXY-MANDELATE-RACEMASE-RXN", "META:RXN-10819", "META:INORGPYROPHOSPHAT-RXN", "META:RXN-7241", "META:RXN-8166", "META:KDGALDOL-RXN" ],
+      "activators" : [ "META:GLYCOPHOSPHORYL-RXN" ],
+      "instances" : [ "META:Halide-Anions" ],
+      "reactions" : [ "META:RXN-10442", "META:RXN-11761", "META:2.5.1.63-RXN", "META:RXN-10124", "META:TRANS-RXN0-498", "META:DIISOPROPYL-FLUOROPHOSPHATASE-RXN" ],
+      "gibbs" : -0.3120594,
+      "cmlMolWeight" : 18.998,
+      "molWeight" : 18.998,
+      "parents" : [ "META:Halide-Anions" ]
+    },
+    "bigg" : {
+      "models" : [ "iML1515" ]
+    }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   16.1000  -18.1300    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\nM  END\n\n> <ENTRY>\ncpd:C16487\n\n$$$$",
+  "reactions" : [ "irxn1173", "irxn6929", "irxn1229" ]
+}

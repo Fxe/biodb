@@ -1,0 +1,42 @@
+{
+  "id" : "icpd7672",
+  "formula" : "C4H4N2O4",
+  "name" : "iminoaspartate",
+  "synonyms" : [ ],
+  "alias" : "iasp",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "iasp"
+  }, {
+    "source" : "BiGG",
+    "entry" : "iasp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:IMINOASPARTATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05840"
+  } ],
+  "inchi" : "InChI=1S/C4H6N2O4/c5-6-2(4(9)10)1-3(7)8/h2,5H,1H2,(H,7,8)(H,9,10)/p-2/t2-/m0/s1",
+  "inchikey" : "ILDQXXTYUGCSCS-REOHCLBHSA-L",
+  "smiles" : "C([C@@]([H])(C(=O)[O-])N=N)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:L-ASPARTATE-OXID-RXN" ],
+      "instances" : [ "META:Imines" ],
+      "reactions" : [ "META:QUINOLINATE-SYNTHA-RXN", "META:L-ASPARTATE-OXID-RXN", "META:RXN-9772", "META:RXN-9771" ],
+      "gibbs" : -144.0349,
+      "cmlMolWeight" : 129.072,
+      "molWeight" : 129.072,
+      "parents" : [ "META:Imines" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iWFL_1372", "iECIAI1_1343", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   27.0716  -15.6652    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8660  -16.3616    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2770  -16.3616    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0650  -14.2599    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6476  -15.6718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4890  -15.6523    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2705  -17.7669    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4422  -16.3745    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6413  -14.2665    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  1  0     0  0\n  5  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05840\n\n$$$$",
+  "reactions" : [ "irxn6005", "irxn2341", "irxn456", "irxn952", "irxn3393", "irxn4374", "irxn5928", "irxn3979", "irxn5479" ]
+}

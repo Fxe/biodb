@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7535",
+  "formula" : "C7H9N5O",
+  "name" : "7-aminomethyl-7-carbaguanine",
+  "synonyms" : [ ],
+  "alias" : "icpd7535",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:7-AMINOMETHYL-7-DEAZAGUANINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16675"
+  } ],
+  "inchi" : "InChI=1S/C7H9N5O/c8-1-3-2-10-5-4(3)6(13)12-7(9)11-5/h2-3H,1,8H2,(H3,9,11,12,13)",
+  "inchikey" : "YOOCQXHZDKMDJM-UHFFFAOYSA-N",
+  "smiles" : "C(C1C=NC2=C1C(=NC(=N)N2)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:7-Deazapurine-Bases" ],
+      "reactions" : [ "META:RXN0-4022", "META:RXN0-1321" ],
+      "gibbs" : 85.27015,
+      "cmlMolWeight" : 180.189,
+      "molWeight" : 180.189,
+      "parents" : [ "META:7-Deazapurine-Bases" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   26.8782  -23.6708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8782  -25.0812    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6793  -25.7864    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4099  -25.0812    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4099  -23.6708    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6793  -22.9656    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2181  -25.5043    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0643  -24.3760    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2181  -23.2476    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2110  -25.7864    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6793  -21.5551    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5831  -21.8853    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9455  -21.5203    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  1  9  1  0     0  0\n  4 10  1  0     0  0\n  6 11  2  0     0  0\n  9 12  1  0     0  0\n 12 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16675\n\n$$$$",
+  "reactions" : [ "irxn3248" ]
+}

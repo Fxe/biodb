@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2532",
+  "equation" : "udpg + crm_hs <=> udp + h + gluside_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd6184" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7050" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.80",
+  "otherNames" : [ ],
+  "alias" : "UGCG",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18272"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UGCG"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -95.8136,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

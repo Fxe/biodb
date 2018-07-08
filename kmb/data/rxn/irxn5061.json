@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5061",
+  "equation" : "ferulcoa + icpd7339 <=> coa + icpd2679",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2601" : "",
+      "icpd7339" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd2679" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.188; 2.3.1.188",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09106"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10749"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:MG+2", "META:NI+2", "META:BA+2", "META:ZN+2", "META:MN+2" ],
+      "activators" : [ "META:CA+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7120" ],
+      "orphan" : "NO",
+      "gibbs" : -3.6099854,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00073" ],
+      "orthologs" : [ "K15400" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

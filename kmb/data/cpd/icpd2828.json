@@ -1,0 +1,42 @@
+{
+  "id" : "icpd2828",
+  "formula" : "C3H9N",
+  "name" : "trimethylamine",
+  "synonyms" : [ "n,n-dimethyl-methanamine", "n,n-dimethylmethanamine" ],
+  "alias" : "tma",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "tma"
+  }, {
+    "source" : "BiGG",
+    "entry" : "tma"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRIMETHYLAMINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00565"
+  } ],
+  "inchi" : "InChI=1S/C3H9N/c1-4(2)3/h1-3H3",
+  "inchikey" : "GETQZCLCWQTVFV-UHFFFAOYSA-N",
+  "smiles" : "CN(C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:1.5.8.1-RXN", "META:CARNITINE-3-DEHYDROGENASE-RXN" ],
+      "instances" : [ "META:Tertiary-Amines" ],
+      "reactions" : [ "META:RXN-18258", "META:TMAOREDUCT-RXN", "META:1.7.2.3-RXN", "META:1.21.4.4-RXN", "META:RXN-18376", "META:RXN-13946", "META:RXN-12900", "META:RXN0-5263", "META:RXN-5921", "META:RXN0-5264", "META:1.5.8.2-RXN", "META:RXN-8102", "META:RXN-8132" ],
+      "gibbs" : 111.29915,
+      "cmlMolWeight" : 60.119,
+      "molWeight" : 60.119,
+      "parents" : [ "META:Tertiary-Amines" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -15.8200    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   23.3299  -15.1185    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9101  -15.1185    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1200  -17.2929    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00565\n\n$$$$",
+  "reactions" : [ "irxn6266", "irxn496", "irxn2729", "irxn5382", "irxn2703", "irxn4511", "irxn2237" ]
+}

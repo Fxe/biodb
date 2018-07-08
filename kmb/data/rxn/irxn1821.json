@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1821",
+  "equation" : "o2 + icpd3481 <=> icpd5671",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd3481" : ""
+    },
+    "r" : {
+      "icpd5671" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.39; 1.13.11.39",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BIPHENYL-23-DIOL-12-DIOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03462"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7008", "META:PWY5F9-12" ],
+      "orphan" : "NO",
+      "gibbs" : -73.53411,
+      "uniprot" : [ "P47232", "P17297", "P47233", "Q7M183", "P47231", "O85990", "Q52031", "Q52035", "P47228" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00621" ],
+      "orthologs" : [ "K00462" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

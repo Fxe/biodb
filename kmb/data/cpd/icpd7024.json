@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7024",
+  "formula" : "C10H14N2O",
+  "name" : "5-[(2s)-1-methylpyrrolidin-2-yl]pyridin-2-ol",
+  "synonyms" : [ ],
+  "alias" : "icpd7024",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01056"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-125"
+  } ],
+  "inchi" : "InChI=1S/C10H14N2O/c1-12-6-2-3-9(12)8-4-5-10(13)11-7-8/h4-5,7,9H,2-3,6H2,1H3,(H,11,13)/t9-/m0/s1",
+  "inchikey" : "ATRCOGLZUCICIV-VIFPVBQESA-N",
+  "smiles" : "CN1CCC[C@H]1C2=CC=C(N=C2)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-16528" ],
+      "reactions" : [ "META:S-6-HYDROXYNICOTINE-OXIDASE-RXN", "META:RXN-16526", "META:NICOTINE-DEHYDROGENASE-RXN" ],
+      "gibbs" : 153.89474,
+      "cmlMolWeight" : 179.241,
+      "molWeight" : 179.241
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  1  0  0  0  0  0999 V2000\n   23.4084  -15.6545    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   22.2400  -16.3381    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6512  -16.2076    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   23.4643  -14.2625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0531  -15.6608    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2400  -17.7054    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5462  -15.1946    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2263  -17.8512    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8750  -14.0325    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8847  -16.3381    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0531  -18.3951    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8847  -17.7054    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7103  -18.3766    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  6     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  1  0     0  0\n  5 10  2  0     0  0\n  6 11  1  0     0  0\n 10 12  1  0     0  0\n 12 13  1  0     0  0\n  7  9  1  0     0  0\n 11 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01056\n\n$$$$",
+  "reactions" : [ "irxn1663", "irxn405" ]
+}

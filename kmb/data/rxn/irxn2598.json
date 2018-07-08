@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2598",
+  "equation" : "4.0 nad + hdcoa + 4.0 h2o + 4.0 coa + 3.0 fad <=> 4.0 nadh + 4.0 accoa + 4.0 h + 3.0 fadh2 + occoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "3.0",
+      "icpd3641" : "",
+      "icpd4016" : "4.0",
+      "icpd2377" : "4.0",
+      "icpd5131" : "4.0"
+    },
+    "r" : {
+      "icpd5377" : "4.0",
+      "icpd5825" : "4.0",
+      "icpd1851" : "4.0",
+      "icpd808" : "",
+      "icpd5625" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FAOXC16180m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FAOXC16180m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FAOXC161802m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

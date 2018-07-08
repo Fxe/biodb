@@ -1,0 +1,55 @@
+{
+  "id" : "irxn5600",
+  "equation" : "ala__L + akg <=> glu__L + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd7336" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd514" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.2; EC-2.6.1.2",
+  "otherNames" : [ ],
+  "alias" : "ALATA_L",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALANINE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13698"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALATA_L"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00258"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALATA_Lm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:HYDROXYLAMINE", "META:CARBOXYMETHOXYLAMINE", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ALANINE-DEG3-PWY", "META:PWY-7115", "META:ALANINE-SYN2-PWY", "META:PWY-7117", "META:PWY-7383", "META:ALACAT2-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 1.8641052,
+      "uniprot" : [ "P52894", "P24298", "P25409", "Q42685", "P13191", "P34106", "Q9UR81" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00220", "rn01100", "rn01210", "rn01200", "rn01120", "rn01230", "rn00250", "rn00710" ],
+      "orthologs" : [ "K00814", "K14260", "K14272" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iNF517", "iEKO11_1354", "iETEC_1333", "iECD_1391", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcDH1_1363", "iEcHS_1320", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECO111_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iAT_PLT_636", "iYO844", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iHN637", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

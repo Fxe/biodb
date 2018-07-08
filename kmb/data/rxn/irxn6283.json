@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6283",
+  "equation" : "itacon + coa + atp <=> pi + adp + itaccoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4387" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd7485" : "",
+      "icpd7746" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.5",
+  "otherNames" : [ ],
+  "alias" : "ITCOALm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ITCOALm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02404"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00660", "C5" ],
+      "orthologs" : [ "K01903", "K01902" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1309",
+  "formula" : "C7H8O2",
+  "name" : "orcinol",
+  "synonyms" : [ "3,5-dihydroxytoluene", "3,5-toluenediol", "5-methyl-1,3-benzenediol", "5-methylresorcinol" ],
+  "alias" : "icpd1309",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00727"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ORCINOL-CPD"
+  } ],
+  "inchi" : "InChI=1S/C7H8O2/c1-5-2-6(8)4-7(9)3-5/h2-4,8-9H,1H3",
+  "inchikey" : "OIPPWFOQEKKFEE-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC(=CC(=C1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aryl-Alcohol" ],
+      "reactions" : [ "META:ORSELLINATE-DECARBOXYLASE-RXN", "META:RXN-9017", "META:ORCINOL-2-MONOOXYGENASE-RXN" ],
+      "gibbs" : 31.15897,
+      "cmlMolWeight" : 124.139,
+      "molWeight" : 124.139,
+      "parents" : [ "META:Aryl-Alcohol" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   20.9105  -17.5739    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9105  -16.1661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -18.2844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7008  -18.2651    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -15.4684    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3360  -17.5739    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3360  -16.1661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -14.0796    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5455  -18.2651    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  5  8  1  0     0  0\n  6  9  1  0     0  0\n  6  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00727\n\n$$$$",
+  "reactions" : [ "irxn2011", "irxn4983" ]
+}

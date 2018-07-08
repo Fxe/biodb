@@ -1,0 +1,35 @@
+{
+  "id" : "icpd2299",
+  "formula" : "C42H41N4O16",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "shcl",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "shcl"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIHYDROSIROHYDROCHLORIN"
+  } ],
+  "inchi" : "InChI=1S/C42H48N4O16/c1-41(17-39(59)60)23(5-9-35(51)52)29-14-27-21(11-37(55)56)19(3-7-33(47)48)25(43-27)13-26-20(4-8-34(49)50)22(12-38(57)58)28(44-26)15-31-42(2,18-40(61)62)24(6-10-36(53)54)30(46-31)16-32(41)45-29/h14-16,23-24,43-45H,3-13,17-18H2,1-2H3,(H,47,48)(H,49,50)(H,51,52)(H,53,54)(H,55,56)(H,57,58)(H,59,60)(H,61,62)/p-7",
+  "inchikey" : "OQIIYZQTTMKFAU-UHFFFAOYSA-G",
+  "smiles" : "CC1(CC(=O)[O-])C(CCC(=O)[O-])C2=CC3=C(CC(=O)[O-])C(=C(CC4=C(CCC(=O)[O-])C(=C(C=C5C(C)(CC(=O)[O-])C(CCC(=O)[O-])C(=N5)C=C1[N+]2)N4)CC(=O)[O-])N3)CCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Precorrins" ],
+      "reactions" : [ "META:RXN-8759", "META:DIMETHUROPORDEHYDROG-RXN", "META:2.1.1.130-RXN", "META:RXN-13403", "META:RXN-8675" ],
+      "gibbs" : -94.39494,
+      "cmlMolWeight" : 857.803,
+      "molWeight" : 857.803,
+      "parents" : [ "META:Precorrins" ]
+    },
+    "bigg" : {
+      "models" : [ "iYO844" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn2126" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5923",
+  "formula" : "C6H3ClN2O4",
+  "name" : "1-chloro-2,4-dinitrobenzene",
+  "synonyms" : [ ],
+  "alias" : "icpd5923",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C14397"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1-CHLORO-24-DINITROBENZENE"
+  } ],
+  "inchi" : "InChI=1S/C6H3ClN2O4/c7-5-2-1-4(8(10)11)3-6(5)9(12)13/h1-3H",
+  "inchikey" : "VYZAHLCBVHPDDF-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)Cl)N(=O)=O)N(=O)=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C-nitro-compounds" ],
+      "reactions" : [ "META:GST-RXN" ],
+      "gibbs" : -72.12664,
+      "cmlMolWeight" : 202.554,
+      "molWeight" : 202.554,
+      "parents" : [ "META:C-nitro-compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   22.1603  -15.1210    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9395  -14.4206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7226  -15.1278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7266  -16.5353    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9475  -17.2355    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1644  -16.5283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3501  -14.4294    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   20.9512  -18.6205    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   20.9353  -13.0234    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   23.3458  -13.0359    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5689  -15.1283    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   19.7423  -19.3227    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1661  -19.3175    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  5  8  1  0     0  0\n  2  9  1  0     0  0\n  7 10  2  0     0  0\n  7 11  1  0     0  0\n  8 12  2  0     0  0\n  8 13  1  0     0  0\nM  CHG  4   7   1   8   1  11  -1  13  -1\nM  END\n\n> <ENTRY>\ncpd:C14397\n\n$$$$",
+  "reactions" : [ ]
+}

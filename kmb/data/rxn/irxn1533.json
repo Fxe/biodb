@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1533",
+  "equation" : "Rtotalcoa + glyc1p <=> alpa_hs + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2196" : "",
+      "icpd3391" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd6480" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GPAM_hs",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GPAMm_hs"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GPAM_hs"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1946",
+  "equation" : "datp + ump <=> udp + dadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5507" : "",
+      "icpd290" : ""
+    },
+    "r" : {
+      "icpd6858" : "",
+      "icpd6200" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "UMPK5",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UMPK5"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UMPK5n"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

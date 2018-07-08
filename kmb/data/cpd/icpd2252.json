@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2252",
+  "formula" : "ClNa",
+  "name" : "sodium chloride",
+  "synonyms" : [ ],
+  "alias" : "icpd2252",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NACL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C13563"
+  } ],
+  "inchi" : "InChI=1S/ClH.Na/h1H;/q;+1/p-1",
+  "inchikey" : "FAPWRFPIFSIZLT-UHFFFAOYSA-M",
+  "smiles" : "[Cl-].[Na+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PEPCARBOX-RXN", "META:GLUCOSYLOXYDOCOSANOATE-TRANS-RXN", "META:HYDROXYDOCOSANOATE-TRANS-RXN", "META:UROGENIIISYN-RXN", "META:UDP-GLUCURONATE-4-EPIMERASE-RXN", "META:RXN0-3461", "META:RXN-8810", "META:R302-RXN", "META:HYDROGEN-DEHYDROGENASE-RXN", "META:RXN-9991" ],
+      "activators" : [ "META:RXN-15442", "META:RXN-15443", "META:RXN-15400", "META:DIACYLGLYKIN-RXN", "META:D-XYLOSE-1-DEHYDROGENASE-NADP+-RXN", "META:2.4.1.213-RXN" ],
+      "instances" : [ "META:Inorganic-Salts" ],
+      "parents" : [ "META:Inorganic-Salts" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  0  0  0  0  0  0  0  0  0999 V2000\n   25.6200  -18.1067    0.0000 Na  0  3  0  0  0  0  0  0  0  0  0  0\n   28.5133  -18.1067    0.0000 Cl  0  5  0  0  0  0  0  0  0  0  0  0\nM  CHG  2   1   1   2  -1\nM  END\n\n> <ENTRY>\ncpd:C13563\n\n$$$$",
+  "reactions" : [ ]
+}

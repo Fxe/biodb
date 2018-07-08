@@ -1,0 +1,51 @@
+{
+  "id" : "icpd5833",
+  "formula" : "O3S",
+  "name" : "sulfite",
+  "synonyms" : [ "sulphite" ],
+  "alias" : "so3",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "so3"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:H2SO3"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SO3"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "so3"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11481"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HSO3"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00094"
+  } ],
+  "inchi" : "InChI=1S/H2O3S/c1-4(2)3/h(H2,1,2,3)/p-2",
+  "inchikey" : "LSNNMFCWUKXFEE-UHFFFAOYSA-L",
+  "smiles" : "O=S([O-])[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:RXN-8162", "META:PHOSPHOENOLPYRUVATE-MUTASE-RXN", "META:ARYLFORMAMIDASE-RXN", "META:RXN-18056", "META:1.97.1.8-RXN", "META:RXN-13854", "META:1.8.5.2-RXN", "META:RXN-8156", "META:THIOSULFATE-SULFURTRANSFERASE-RXN" ],
+      "instances" : [ "META:Inorganic-Anions" ],
+      "reactions" : [ "META:RXN-16015", "META:RXN-15362", "META:TSDOSALCAL-RXN", "META:3-SULFINYL-PYRUVATE-SPON-RXN", "META:RXN-16574", "META:SULFFEOXIDO-RXN", "META:RXN-13704", "META:RXN0-280", "META:RXN-12019", "META:RXN0-279", "META:RXN-2364", "META:RXN0-6973", "META:RXN-14908", "META:CYSTEINE-LYASE-RXN", "META:FESO3OXI-RXN", "META:RXN-18002", "META:RXN-701", "META:RXN-624", "META:RXN-18001", "META:SULFITE-DEHYDROGENASE-RXN", "META:RXN-11691", "META:R164-RXN", "META:BSDOSALCAL-RXN", "META:4-SULFOBENZOATE-34-DIOXYGENASE-RXN", "META:RXN-15618", "META:RXN-8339", "META:RXN-1223", "META:RXN-18086", "META:RXN-13161", "META:RXN-15583", "META:RXN-15341", "META:RXN-17805", "META:THIOSULFATE-SULFURTRANSFERASE-RXN", "META:RXN-15347", "META:HYDROGENSULFITE-REDUCTASE-RXN", "META:RXN-11944", "META:RXN-11108", "META:RXN-17803", "META:RXN-15349", "META:RXN-17802", "META:SULFITE-OXIDASE-RXN", "META:4.4.1.19-RXN", "META:3SC23OSPON-RXN", "META:RXN-9734", "META:RXN0-299", "META:RXN-9733", "META:RXN-8202", "META:ADENYLYLSULFATE-REDUCTASE-RXN", "META:1.13.11.55-RXN", "META:RXN-9770", "META:1.8.4.9-RXN", "META:RXN-16446", "META:2.8.1.5-RXN", "META:R186-RXN", "META:RXN-18586", "META:RXN-13418", "META:THIOSULFATE--THIOL-SULFURTRANSFERASE-RXN", "META:RXN0-6385", "META:4.4.1.25-RXN", "META:1.8.4.8-RXN", "META:RXN-8315", "META:SULFITE-REDUCT-RXN", "META:SULFITE-REDUCTASE-FERREDOXIN-RXN" ],
+      "gibbs" : -127.39823,
+      "cmlMolWeight" : 80.058,
+      "molWeight" : 80.058,
+      "parents" : [ "META:Inorganic-Anions" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   27.0009  -18.8482    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   26.9937  -17.4482    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6009  -18.8482    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   28.4009  -18.8482    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  4  1  0     0  0\n  1  3  1  0     0  0\nM  CHG  1   3  -1\nM  END\n\n> <ENTRY>\ncpd:C11481\n\n$$$$",
+  "reactions" : [ "irxn3928", "irxn3625", "irxn5804", "irxn1645", "irxn6218", "irxn2652", "irxn3302", "irxn6515", "irxn2213", "irxn6536", "irxn5007", "irxn3870", "irxn213", "irxn2342", "irxn6123", "irxn6442", "irxn5210", "irxn1073", "irxn4340", "irxn6361", "irxn417", "irxn3819", "irxn3958", "irxn3957", "irxn5336", "irxn3974", "irxn2028", "irxn2198", "irxn6633", "irxn6014", "irxn1242", "irxn6279", "irxn6133", "irxn4074", "irxn6373", "irxn6351", "irxn6550", "irxn6171" ]
+}

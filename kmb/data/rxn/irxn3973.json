@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3973",
+  "equation" : "icpd2611 <=> h2o + icpd7697",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2611" : ""
+    },
+    "r" : {
+      "icpd7697" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.68; 4.2.1.68",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-FUCONATE-HYDRATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03688"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -8.166977,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00051" ],
+      "orthologs" : [ "K18334" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

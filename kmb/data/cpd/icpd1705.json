@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1705",
+  "formula" : "C6H12N2O",
+  "name" : "(r)-2-aminohexano-6-lactam",
+  "synonyms" : [ "d-2-amino-hexano-6-lactam", "d-2-aminohexano-6-lactam" ],
+  "alias" : "icpd1705",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05328"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-2-AMINO-HEXANO-6-LACTAM"
+  } ],
+  "inchi" : "InChI=1S/C6H12N2O/c7-5-3-1-2-4-8-6(5)9/h5H,1-4,7H2,(H,8,9)/t5-/m1/s1",
+  "inchikey" : "BOWUOGIPSRVRSJ-RXMQYKEDSA-N",
+  "smiles" : "C1CCNC(=O)[C@@H](C1)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:5.1.1.15-RXN" ],
+      "gibbs" : 104.35251,
+      "cmlMolWeight" : 129.181,
+      "molWeight" : 129.181
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  1  0  0  0  0  0999 V2000\n   26.0428  -17.7932    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.7386  -16.4300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1594  -18.8054    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4059  -18.1208    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4808  -15.8100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8442  -15.5643    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7554  -18.8637    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2172  -16.3949    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8954  -17.7581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  7  9  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05328\n\n$$$$",
+  "reactions" : [ "irxn6191" ]
+}

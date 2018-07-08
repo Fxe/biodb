@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1090",
+  "equation" : "icpd5564 + h2o <=> icpd2585 + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5564" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2585" : "",
+      "icpd5748" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.6.11; 3.1.6.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DISULFOGLUCOSAMINE-6-SULFATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03216"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7644" ],
+      "orphan" : null,
+      "gibbs" : -51.367126,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

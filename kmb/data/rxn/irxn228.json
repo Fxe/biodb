@@ -1,0 +1,47 @@
+{
+  "id" : "irxn228",
+  "equation" : "ascb__L + o2 + dopa <=> h2o + icpd6475 + nrpphr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd285" : "",
+      "icpd4793" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd3478" : "",
+      "icpd6475" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.17.1; 1.14.17.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DOPAMINE-BETA-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02535"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GLUTATHIONE", "META:CYS" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-301" ],
+      "orphan" : "NO",
+      "gibbs" : -67.922905,
+      "uniprot" : [ "P09172", "Q64237" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350" ],
+      "orthologs" : [ "K00503" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

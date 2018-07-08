@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2531",
+  "equation" : "h2o + glyald + nadp <=> nadph + glyc__R + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5552" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd3290" : "",
+      "icpd5432" : "",
+      "icpd1851" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.89; 1.2.1.89",
+  "otherNames" : [ ],
+  "alias" : "GLYALDDy",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GLYALDDy"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10615"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15115"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -14.353638,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00030" ],
+      "orthologs" : [ "K18128" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

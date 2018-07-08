@@ -1,0 +1,34 @@
+{
+  "id" : "icpd2724",
+  "formula" : "C6H10O6",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd2724",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-365"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20251"
+  } ],
+  "inchi" : "InChI=1S/C6H10O6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-5,7-11H/t1-,2-,3+,4-,5-/m1/s1",
+  "inchikey" : "VYEGBDHSGHXOGT-QFYCRYKCSA-N",
+  "smiles" : "[C@@]1([H])([C@]([H])([C@]([H])(C(=O)[C@@]([H])([C@@]1([H])O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:MYO-INOSITOL-2-DEHYDROGENASE-RXN" ],
+      "instances" : [ "META:Modified-Inositols" ],
+      "reactions" : [ "META:RXN-14178", "META:RXN-14128", "META:RXN-14148" ],
+      "gibbs" : -110.688805,
+      "cmlMolWeight" : 178.141,
+      "molWeight" : 178.141,
+      "parents" : [ "META:Modified-Inositols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   10.8500  -12.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.8500  -14.1400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.0624  -14.8400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2749  -14.1400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2749  -12.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.0624  -12.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.0624  -10.6402    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.6376  -12.0400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.0624  -16.2398    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.5060  -12.0290    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.6376  -14.8400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.5060  -14.8510    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  6  7  1  1     0  0\n  1  8  1  1     0  0\n  3  9  1  1     0  0\n  5 10  2  0     0  0\n  2 11  1  6     0  0\n  4 12  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C20251\n\n$$$$",
+  "reactions" : [ "irxn127", "irxn35" ]
+}

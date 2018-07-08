@@ -1,0 +1,53 @@
+{
+  "id" : "irxn1834",
+  "equation" : "nadph + glcur + h <=> guln__L + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1947" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd7686" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.2; EC-1.1.1.19; 1.1.1.19",
+  "otherNames" : [ ],
+  "alias" : "GULND",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GULND"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01481"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GULNDer"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCURONATE-REDUCTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:2-DEOXY-D-GLUCOSE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY3DJ-35471", "META:PWY-5525" ],
+      "orphan" : "NO",
+      "gibbs" : 1.2935791,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053", "rn00040" ],
+      "orthologs" : [ "K00002" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

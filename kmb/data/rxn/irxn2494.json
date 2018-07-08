@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2494",
+  "equation" : "nad + mmtsa + coa <=> nadh + co2 + h + ppcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd5131" : "",
+      "icpd3756" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd3011" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.27",
+  "otherNames" : [ ],
+  "alias" : "MMSDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MMTSAO"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MMSDH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00935"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn01100" ],
+      "orthologs" : [ "K00140" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iECED1_1282", "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5673",
+  "equation" : "atp + icpd7747 <=> h + icpd6947 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd7747" : ""
+    },
+    "r" : {
+      "icpd6947" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.66; EC-2.7.1.66",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05626"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:UNDECAPRENOL-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -14.815979,
+      "uniprot" : [ "Q9CDM7" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00550" ],
+      "orthologs" : [ "K00887" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

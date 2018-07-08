@@ -1,0 +1,45 @@
+{
+  "id" : "irxn568",
+  "equation" : "icpd7896 + h2o <=> asp__L + icpd7112",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7896" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd95" : "",
+      "icpd7112" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.26; 3.5.1.26",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03421"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.5.1.26-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ASPARAGINE-DEG1-PWY-1" ],
+      "orphan" : "NO",
+      "gibbs" : -3.6771011,
+      "uniprot" : [ "P20933", "Q47898" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

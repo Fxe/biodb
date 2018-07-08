@@ -1,0 +1,38 @@
+{
+  "id" : "icpd4860",
+  "formula" : "C7H5N5O",
+  "name" : "7-cyano-7-carbaguanine",
+  "synonyms" : [ ],
+  "alias" : "preq0",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15996"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "preq0"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:7-CYANO-7-DEAZAGUANINE"
+  } ],
+  "inchi" : "InChI=1S/C7H5N5O/c8-1-3-2-10-5-4(3)6(13)12-7(9)11-5/h2-3H,(H3,9,11,12,13)",
+  "inchikey" : "RZYUJHLZOCXMDO-UHFFFAOYSA-N",
+  "smiles" : "C(#N)C1C=NC2=C1C(=NC(=N)N2)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Nitriles" ],
+      "reactions" : [ "META:RXN-12150", "META:RXN-12144", "META:RXN0-4022", "META:RXN-12093" ],
+      "gibbs" : 48.356598,
+      "cmlMolWeight" : 175.149,
+      "molWeight" : 175.149,
+      "parents" : [ "META:Nitriles" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iAF987", "iECABU_c1320", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   22.8301  -21.3752    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8243  -19.8669    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0229  -22.1002    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6258  -21.7904    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9935  -19.1828    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6316  -19.4402    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2623  -21.3986    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7898  -20.5802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2740  -19.9254    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9935  -17.8498    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4725  -22.1061    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2291  -18.1186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8498  -17.7985    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\n  7 11  1  0     0  0\n  6  8  2  0     0  0\n  7  9  1  0     0  0\n  6 12  1  0     0  0\n 12 13  3  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15996\n\n$$$$",
+  "reactions" : [ "irxn6610", "irxn3248" ]
+}

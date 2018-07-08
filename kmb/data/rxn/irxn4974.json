@@ -1,0 +1,53 @@
+{
+  "id" : "irxn4974",
+  "equation" : "lpro + gly + h <=> co2 + alpro",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1848" : "",
+      "icpd1851" : "",
+      "icpd855" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7080" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.4.2",
+  "otherNames" : [ ],
+  "alias" : "GCCa",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GCCam"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GCCa"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLYDHD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03425"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00260" ],
+      "orthologs" : [ "K00283", "K00281", "K00282" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iNJ661", "iMM1415", "iMM904", "RECON1", "iAF987", "iSB619", "iHN637" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2413",
+  "equation" : "nad + S2hglut <=> nadh + h + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd352" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.399",
+  "otherNames" : [ ],
+  "alias" : "AHGDx",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AHGDx"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16701"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:G3P", "META:GLY", "META:2-KETOGLUTARATE", "META:2-HYDROXYGLUTARIC_ACID", "META:SER", "META:3-P-HYDROXYPYRUVATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 2.8417969,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iML1515" ]
+    }
+  }
+}

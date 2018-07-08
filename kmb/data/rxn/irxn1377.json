@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1377",
+  "equation" : "o2 + icpd8139 + icpd2403 <=> icpd8107 + 2.0 h2o + icpd3230",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd2403" : "",
+      "icpd8139" : ""
+    },
+    "r" : {
+      "icpd8107" : "",
+      "icpd4016" : "2.0",
+      "icpd3230" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.99.19; 1.14.99.19",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PLASMANYLETHANOLAMINE-DESATURASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04571"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00565" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1244",
+  "equation" : "succoa + oxa <=> oxalcoa + succ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1429" : "",
+      "icpd5739" : ""
+    },
+    "r" : {
+      "icpd2306" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.3.2; EC-2.8.3.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OXALATE-COA-TRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01559"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6696", "META:PWY-6695" ],
+      "orphan" : null,
+      "gibbs" : -4.6800537,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

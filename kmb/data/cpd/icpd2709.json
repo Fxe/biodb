@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2709",
+  "formula" : "C4H9O7P",
+  "name" : "erythrulose 1-phosphate",
+  "synonyms" : [ "d-erythrulose 1-phosphate", "d-glycero-2-tetrulose 1-phosphate", "glycerotetrulose 1-phosphate" ],
+  "alias" : "icpd2709",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19135"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21285"
+  } ],
+  "inchi" : "InChI=1S/C4H9O7P/c5-1-3(6)4(7)2-11-12(8,9)10/h3,5-6H,1-2H2,(H2,8,9,10)/t3-/m1/s1",
+  "inchikey" : "TZCZUVPSFJZERP-GSVOUGTGSA-N",
+  "smiles" : "C([C@H](C(=O)COP(=O)(O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ERYTHRULOSE-1P" ],
+      "reactions" : [ "META:RXN-17771", "META:RXN-17768" ],
+      "gibbs" : -286.43042,
+      "cmlMolWeight" : 198.069,
+      "molWeight" : 198.069,
+      "parents" : [ "META:ERYTHRULOSE-1P" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   20.2707  -16.4956    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0826  -15.7968    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8246  -16.4956    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6365  -15.7968    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4484  -16.4956    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1904  -15.7968    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6365  -14.3990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8246  -17.8934    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7904  -15.7968    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7904  -14.3968    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7904  -17.1968    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.3904  -15.7968    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  4  7  2  0     0  0\n  3  8  1  1     0  0\n  6  9  1  0     0  0\n  9 10  2  0     0  0\n  9 11  1  0     0  0\n  9 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21285\n\n$$$$",
+  "reactions" : [ "irxn4878", "irxn4921" ]
+}

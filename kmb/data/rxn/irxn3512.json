@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3512",
+  "equation" : "2.0 nad + 2.0 ham <=> 2.0 nadh + 2.0 h + icpd1515",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2414" : "2.0",
+      "icpd5131" : "2.0"
+    },
+    "r" : {
+      "icpd5377" : "2.0",
+      "icpd1851" : "2.0",
+      "icpd1515" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.7.1.5; 1.7.1.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYPONITRITE-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00023"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -17.95636,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2568",
+  "equation" : "nad + h2o + pylald <=> nadh + peracd + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8165" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd7982" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PYLALDOX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PYLALDOX"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYLALDOXm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

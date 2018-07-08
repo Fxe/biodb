@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1482",
+  "equation" : "ru5p__D + atp <=> rb15bp + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5906" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd1029" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.19; 2.7.1.19",
+  "otherNames" : [ ],
+  "alias" : "PRUK",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PRUK_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PRUK"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHORIBULOKINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01523"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5723", "META:CALVIN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -17.312378,
+      "uniprot" : [ "P27774", "P23010", "P12033", "P19923", "P09559", "P19824", "P19924", "P0AEX5", "Q8GRU9", "P93681", "P25697", "P23015" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00710" ],
+      "orthologs" : [ "K00855" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJN678", "iJB785" ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6556",
+  "equation" : "o2 + h2o + lys__L <=> n2 + 6a2ohxnt + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd4807" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd2120" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.14; EC-1.4.3.14",
+  "otherNames" : [ ],
+  "alias" : "LYSOXp",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LYSOXp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-LYSINE-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00447"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-884", "META:CU+2", "META:CO+2", "META:ZN+2", "META:CPD-29", "META:HG+2", "META:CPD-7992", "META:CADAVERINE", "META:PUTRESCINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5311" ],
+      "orphan" : "NO",
+      "gibbs" : -22.962997,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310", "rn00960", "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

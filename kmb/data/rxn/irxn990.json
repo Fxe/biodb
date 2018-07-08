@@ -1,0 +1,53 @@
+{
+  "id" : "irxn990",
+  "equation" : "nadph + 2.0 o2 + 2.0 nwharg + h <=> 2.0 no + 2.0 h2o + 2.0 citr__L + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "2.0",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd6388" : "2.0"
+    },
+    "r" : {
+      "icpd4016" : "2.0",
+      "icpd5920" : "2.0",
+      "icpd4286" : "2.0",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.39",
+  "otherNames" : [ ],
+  "alias" : "NOS2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NOS2_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NOS2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00111"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ "K13240", "K13242", "K13241", "K13427" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5677",
+  "formula" : "C4H8FNO3",
+  "name" : "4-fluoro-l-threonine",
+  "synonyms" : [ "4-fluorothreonine" ],
+  "alias" : "icpd5677",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15533"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12710"
+  } ],
+  "inchi" : "InChI=1S/C4H8FNO3/c5-1-2(7)3(6)4(8)9/h2-3,7H,1,6H2,(H,8,9)/t2-,3+/m1/s1",
+  "inchikey" : "GTFWIYJIEXNAOL-GBXIJSLDSA-N",
+  "smiles" : "C([C@H]([C@@H](C(=O)O)N)O)F",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Fluorides", "META:Amino-Acid-Derivatives" ],
+      "reactions" : [ "META:RXN-11747" ],
+      "gibbs" : -36.901035,
+      "cmlMolWeight" : 137.11,
+      "molWeight" : 137.11,
+      "parents" : [ "META:Fluorides", "META:Amino-Acid-Derivatives" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   28.1616  -20.6431    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   29.4049  -19.9836    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.9941  -19.9018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1090  -22.0383    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5898  -20.7365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4575  -18.5886    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7508  -20.5556    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9883  -18.5068    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.8416  -20.0826    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  5  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15533\n\n$$$$",
+  "reactions" : [ "irxn4538" ]
+}

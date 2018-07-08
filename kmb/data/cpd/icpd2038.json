@@ -1,0 +1,37 @@
+{
+  "id" : "icpd2038",
+  "formula" : "C39H70N7O18P3S",
+  "name" : "(s)-3-hydroxyoctadecanoyl-coa",
+  "synonyms" : [ "(s)-3-hydroxy-stearoyl-coa", "(s)-3-hydroxystearoyl-coa" ],
+  "alias" : "3hodcoa",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "3hodcoa"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-2253"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3hodcoa"
+  } ],
+  "inchi" : "InChI=1S/C39H70N7O18P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-27(47)22-30(49)68-21-20-41-29(48)18-19-42-37(52)34(51)39(2,3)24-61-67(58,59)64-66(56,57)60-23-28-33(63-65(53,54)55)32(50)38(62-28)46-26-45-31-35(40)43-25-44-36(31)46/h25-28,32-34,38,47,50-51H,4-24H2,1-3H3,(H,41,48)(H,42,52)(H,56,57)(H,58,59)(H2,40,43,44)(H2,53,54,55)/t27-,28+,32+,33+,34-,38+/m0/s1",
+  "inchikey" : "WZMAIEGYXCOYSH-SFKGBVSGSA-N",
+  "smiles" : "CCCCCCCCCCCCCCC[C@@]([H])(CC(=O)SCCN=C(CCN=C([C@@]([H])(C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Long-Chain-3S-Hydroxyacyl-CoAs" ],
+      "gibbs" : -190.308,
+      "cmlMolWeight" : 1045.968,
+      "molWeight" : 1045.968,
+      "parents" : [ "META:Long-Chain-3S-Hydroxyacyl-CoAs" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iAF987", "iECABU_c1320", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn1560", "irxn889" ]
+}

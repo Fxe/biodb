@@ -1,0 +1,53 @@
+{
+  "id" : "irxn244",
+  "equation" : "h2o + hgbam + cobalt2 + atp <=> 2.0 h + pi + adp + co2dam",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd6111" : "",
+      "icpd4939" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd2820" : "",
+      "icpd1851" : "2.0",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.6.1.2",
+  "otherNames" : [ ],
+  "alias" : "COCHL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "COCHL_1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05227"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "COCHL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K09882", "K02230", "K09883" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNJ661", "iJN678", "iJB785", "iJN746" ]
+    }
+  }
+}

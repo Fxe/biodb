@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5714",
+  "equation" : "nad + h2o + coa + 325354 <=> 325349 + nadh + accoa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd2377" : "",
+      "325354" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd5825" : "",
+      "325349" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FAOXC185_3Z_6Z_9Z_12Z_15Zx",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FAOXC185_3Z_6Z_9Z_12Z_15Zm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FAOXC185_3Z_6Z_9Z_12Z_15Zx"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1380",
+  "equation" : "psuri + atp <=> h + adp + psd5p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8057" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd4629" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.83; EC-2.7.1.83",
+  "otherNames" : [ ],
+  "alias" : "PSURIK",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PSEUDOURIDINE-KINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PSURIK"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03315"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6019" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815857,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00240" ],
+      "orthologs" : [ "K16330", "K16328" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

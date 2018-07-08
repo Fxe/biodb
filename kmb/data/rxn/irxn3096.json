@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3096",
+  "equation" : "tre + pi <=> glc__D + icpd1725",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6246" : "",
+      "icpd7485" : ""
+    },
+    "r" : {
+      "icpd1725" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.64; EC-2.4.1.64",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02727"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALPHAALPHA-TREHALOSE-PHOSPHORYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-9669", "META:PYRIDOXAL_PHOSPHATE", "META:CU+2", "META:NI+2", "META:ZN+2", "META:1-DEOXYNOJIRIMYCIN", "META:CPD-29", "META:VALIDAMYCIN-A" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2722" ],
+      "orphan" : "NO",
+      "gibbs" : -10.329956,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00500" ],
+      "orthologs" : [ "K05342" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

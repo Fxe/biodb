@@ -1,0 +1,42 @@
+{
+  "id" : "irxn6463",
+  "equation" : "sprm <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2495" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "EX_sprm_e",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EX_sprm_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_sprm_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iLJ478", "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

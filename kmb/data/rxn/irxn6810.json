@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6810",
+  "equation" : "nad + icpd3321 <=> nadh + icpd4693 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3321" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd4693" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.173; EC-1.1.1.173",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-RHAMNOSE-1-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03942"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:MG+2", "META:CO+2", "META:ZN+2", "META:IODOACETATE", "META:CPD-7388", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6713", "META:PWY-6714" ],
+      "orphan" : "NO",
+      "gibbs" : -4.6782227,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00051" ],
+      "orthologs" : [ "K18337" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

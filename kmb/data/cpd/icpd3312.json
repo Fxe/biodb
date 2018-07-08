@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3312",
+  "formula" : "C5H6O5",
+  "name" : "methyloxaloacetate",
+  "synonyms" : [ "methyloxalo-acetate" ],
+  "alias" : "icpd3312",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03716"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-521"
+  } ],
+  "inchi" : "InChI=1S/C5H6O5/c1-10-4(7)2-3(6)5(8)9/h2H2,1H3,(H,8,9)",
+  "inchikey" : "MAIRDOOJJIGWBJ-UHFFFAOYSA-N",
+  "smiles" : "COC(=O)CC(=O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:4-METHYLOXALOACETATE-ESTERASE-RXN" ],
+      "gibbs" : -135.32645,
+      "cmlMolWeight" : 145.091,
+      "molWeight" : 145.091
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   25.1300  -18.2700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3200  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8700  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5100  -18.2700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3200  -20.3700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6800  -18.2700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8700  -20.3700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7000  -18.9700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5100  -16.8700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4900  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  4  9  2  0     0  0\n  6 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03716\n\n$$$$",
+  "reactions" : [ "irxn3352" ]
+}

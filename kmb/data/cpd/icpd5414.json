@@ -1,0 +1,47 @@
+{
+  "id" : "icpd5414",
+  "formula" : "C6H8O5",
+  "name" : "2-oxohexanedioic acid",
+  "synonyms" : [ "2-ketoadipic acid", "2-oxo-hexanedioic acid", "2-oxoadipic acid", "alpha-ketoadipic acid", "alpha-oxoadipic acid", "oxoadipic acid" ],
+  "alias" : "ohexa",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "2oxoadp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2K-ADIPATE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ohexa"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2oxoadp"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ohexa"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00322"
+  } ],
+  "inchi" : "InChI=1S/C6H8O5/c7-4(6(10)11)2-1-3-5(8)9/h1-3H2,(H,8,9)(H,10,11)",
+  "inchikey" : "FGSBNBBHOZHUBO-UHFFFAOYSA-N",
+  "smiles" : "C(CC(=O)C(=O)O)CC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Oxo-carboxylates" ],
+      "reactions" : [ "META:2-AMINOADIPATE-AMINOTRANSFERASE-RXN", "META:2-AMINOMUCONATE-REDUCTASE-RXN", "META:2-KETO-ADIPATE-DEHYDROG-RXN", "META:R211-RXN", "META:RXN-7970", "META:RXN-8167", "META:2-OXOADIPATE-REDUCTASE-RXN" ],
+      "gibbs" : -126.90152,
+      "cmlMolWeight" : 158.11,
+      "molWeight" : 158.11,
+      "parents" : [ "META:2-Oxo-carboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iCHOv1", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   22.7740  -15.8016    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9839  -16.5030    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5577  -16.5030    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1939  -15.8016    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9839  -17.8995    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3478  -15.8016    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4038  -16.5030    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1873  -14.5387    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1315  -16.5030    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9216  -15.7951    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1380  -17.8995    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  6  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00322\n\n$$$$",
+  "reactions" : [ "irxn6881", "irxn354", "irxn3009", "irxn2712", "irxn1634", "irxn5547", "irxn4866" ]
+}

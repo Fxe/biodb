@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3700",
+  "equation" : "hcys__L + glyb <=> met__L + dmgly",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6485" : "",
+      "icpd2606" : ""
+    },
+    "r" : {
+      "icpd5167" : "",
+      "icpd5870" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.5; EC-2.1.1.5",
+  "otherNames" : [ ],
+  "alias" : "BHMT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BHMT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02821"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.1.1.5-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CHOLINE", "META:CPD-19598", "META:BETAINE_ALDEHYDE", "META:DIMETHYL-GLYCINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3661", "META:ADENOSYLHOMOCYSCAT-PWY", "META:PWY-3661-1" ],
+      "orphan" : "NO",
+      "gibbs" : 25.01,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00260", "rn00270" ],
+      "orthologs" : [ "K00544" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  }
+}

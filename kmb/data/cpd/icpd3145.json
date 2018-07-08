@@ -1,0 +1,35 @@
+{
+  "id" : "icpd3145",
+  "formula" : "C6H14O12P2",
+  "name" : "alpha-d-glucose 1,6-bisphosphate",
+  "synonyms" : [ "[(2r,3r,4s,5s,6r)-3,4,5-trihydroxy-6-[(phosphonooxy)methyl]oxan-2-yl]oxyphosphonic acid", "alpha-d-glucose 1,6-bis(dihydrogen phosphate)", "alpha-d-glucose 1,6-diphosphate", "alphal-d-gpucohyrlnose 1,6-bishaoshalte", "alphal-gpucose 1,6-bishaoshalte", "{[(2r,3r,4s,5s,6r)-3,4,5-trihydroxy-6-[(phosphonooxy)methyl]oxan-2-yl]oxy}phosphonic acid" ],
+  "alias" : "icpd3145",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALPHA-GLUCOSE-16-BISPHOSPHATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01231"
+  } ],
+  "inchi" : "InChI=1S/C6H14O12P2/c7-3-2(1-16-19(10,11)12)17-6(5(9)4(3)8)18-20(13,14)15/h2-9H,1H2,(H2,10,11,12)(H2,13,14,15)/t2-,3-,4+,5-,6-/m1/s1",
+  "inchikey" : "RWHOZGRAXYWRNX-VFUOTHLCSA-N",
+  "smiles" : "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)OP(=O)(O)O)O)O)O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PHOSPHOGLUCMUT-RXN" ],
+      "activators" : [ "META:PHOSPHOGLUCMUT-RXN", "META:PHOSMANMUT-RXN", "META:PHOSACETYLGLUCOSAMINEMUT-RXN" ],
+      "instances" : [ "META:GLUCOSE-16-DIPHOSPHATE" ],
+      "reactions" : [ "META:GLUCOSE-1-PHOSPHATE-PHOSPHODISMUTASE-RXN", "META:PHOSPHOGLUCOKINASE-RXN", "META:GLUCOSE-16-BISPHOSPHATE-SYNTHASE-RXN", "META:RXN-16997", "META:RXN-16998" ],
+      "gibbs" : -545.5618,
+      "cmlMolWeight" : 336.085,
+      "molWeight" : 336.085,
+      "parents" : [ "META:GLUCOSE-16-DIPHOSPHATE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 20 20  0  0  1  0  0  0  0  0999 V2000\n   26.5747  -14.7790    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   25.1812  -14.8047    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9683  -14.7790    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6319  -13.3091    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5876  -16.1725    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9740  -15.5047    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.9740  -16.9174    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   22.7473  -14.8112    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7473  -17.6303    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.1877  -17.6175    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5402  -15.5047    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   21.5402  -16.9174    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   22.7473  -19.0302    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3329  -14.8112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3264  -17.6110    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1192  -15.5047    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7256  -15.5047    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   16.3258  -15.5047    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7256  -14.0411    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7191  -16.9046    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  6  2  1  6     0  0\n  6  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  7 10  1  6     0  0\n  8 11  1  0     0  0\n  9 12  1  0     0  0\n  9 13  1  1     0  0\n 11 14  1  1     0  0\n 12 15  1  6     0  0\n 14 16  1  0     0  0\n 16 17  1  0     0  0\n 17 18  1  0     0  0\n 17 19  1  0     0  0\n 17 20  2  0     0  0\n 11 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01231\n\n$$$$",
+  "reactions" : [ "irxn4991", "irxn4752", "irxn3069" ]
+}

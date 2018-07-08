@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1558",
+  "equation" : "3oacoa + coa <=> accoa + acoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd3244" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd7980" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.16",
+  "otherNames" : [ ],
+  "alias" : "KATp",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "KATp"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00391"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00062" ],
+      "orthologs" : [ "K07508", "K07509" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750" ]
+    }
+  }
+}

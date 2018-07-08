@@ -1,0 +1,40 @@
+{
+  "id" : "icpd5048",
+  "formula" : "C8H8O",
+  "name" : "3-methylbenzaldehyde",
+  "synonyms" : [ "3-tolualdehyde", "m-tolualdehyde" ],
+  "alias" : "3mbzald",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07209"
+  }, {
+    "source" : "BiGG",
+    "entry" : "3mbzald"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8774"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3mbzald"
+  } ],
+  "inchi" : "InChI=1S/C8H8O/c1-7-3-2-4-8(5-7)6-9/h2-6H,1H3",
+  "inchikey" : "OVWYEQOVUDKZNU-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=CC(=C1)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:SUCCSEMIALDDEHYDROG-RXN" ],
+      "reactions" : [ "META:RXN-8580", "META:RXN-8583" ],
+      "gibbs" : 80.188965,
+      "cmlMolWeight" : 120.151,
+      "molWeight" : 120.151
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   27.3708  -19.1540    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5805  -19.8493    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1552  -19.8493    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3708  -17.7571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5805  -21.2520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1552  -21.2520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5863  -17.0558    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3708  -21.9474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7903  -21.9474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  2  0     0  0\n  5  8  2  0     0  0\n  5  9  1  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07209\n\n$$$$",
+  "reactions" : [ "irxn4032", "irxn5759" ]
+}

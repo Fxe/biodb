@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5968",
+  "equation" : "dtgcl + 2.0 gthrd <=> gthox + 2.0 mercpeth",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1977" : "2.0",
+      "icpd3814" : ""
+    },
+    "r" : {
+      "icpd1840" : "2.0",
+      "icpd2309" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "2HESR",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-6256"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "2HESR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -0.62416077,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

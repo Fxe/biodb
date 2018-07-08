@@ -1,0 +1,53 @@
+{
+  "id" : "irxn1134",
+  "equation" : "nadp + glyc <=> nadph + glyald + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1727" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5552" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.372; 1.1.1.21; 1.1.1.2; EC-1.1.1.372; 1.1.1.72; EC-1.1.1.72",
+  "otherNames" : [ ],
+  "alias" : "r0246",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0246"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCEROL-DEHYDROGENASE-NADP+-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALCD19y"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01041"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 6.1135254,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00561" ],
+      "orthologs" : [ "K00002", "K00011" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM904", "iYO844" ]
+    }
+  }
+}

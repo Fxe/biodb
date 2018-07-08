@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1618",
+  "formula" : "C10H12O2",
+  "name" : "phenethyl acetate",
+  "synonyms" : [ "2-phenylethyl acetate", "2-phenylethyl acetate, 9ci", "acetic acid beta -phenylethyl ester", "acetic acid beta-phenylethyl ester", "acetic acid, 2-phenylethyl ester", "acetic acid, phenethyl ester", "beta -phenylethyl acetate", "beta-phenylethyl acetate", "beta-phtnyltahyl ctaat", "ethanol, 2-phenyl-, acetate", "phenethyl alcohol, acetate", "phenylethyl acetate" ],
+  "alias" : "icpd1618",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14529"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C12303"
+  } ],
+  "inchi" : "InChI=1S/C10H12O2/c1-9(11)12-8-7-10-5-3-2-4-6-10/h2-6H,7-8H2,1H3",
+  "inchikey" : "MDHYEMXUFSJLGV-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)OCCC1=CC=CC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Carboxylic-esters" ],
+      "reactions" : [ "META:RXN-13542", "META:RXN-13543" ],
+      "gibbs" : 79.14345,
+      "cmlMolWeight" : 164.204,
+      "molWeight" : 164.204,
+      "parents" : [ "META:Carboxylic-esters" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   26.2500  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4400  -18.1300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6300  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8900  -18.1300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0800  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0600  -18.1300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2500  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9900  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8000  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8000  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0800  -20.2300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.2700  -18.1300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  6  1  1  0     0  0\n  1  7  2  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n 10  6  2  0     0  0\n  2  3  1  0     0  0\n  5 11  2  0     0  0\n  1  2  1  0     0  0\n  5 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12303\n\n$$$$",
+  "reactions" : [ ]
+}

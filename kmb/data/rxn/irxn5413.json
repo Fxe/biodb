@@ -1,0 +1,52 @@
+{
+  "id" : "irxn5413",
+  "equation" : "s + ser__L <=> cys__L + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4818" : "",
+      "icpd5284" : ""
+    },
+    "r" : {
+      "icpd4873" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.22",
+  "otherNames" : [ ],
+  "alias" : "CYS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYS"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0210"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00891"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SHL_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00260", "rn01130" ],
+      "orthologs" : [ "K10150", "K01697" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iCHOv1", "iLB1027_lipid" ]
+    }
+  }
+}

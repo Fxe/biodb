@@ -1,0 +1,42 @@
+{
+  "id" : "irxn1280",
+  "equation" : "5mta <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7119" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SK_5mta_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SK_5mta_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EX_5mta_e"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iLJ478", "iCHOv1" ]
+    }
+  }
+}

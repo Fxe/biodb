@@ -1,0 +1,37 @@
+{
+  "id" : "icpd174",
+  "formula" : "C6H13O9P",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd174",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "mi3p-D"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1-L-MYO-INOSITOL-1-P"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04006"
+  } ],
+  "inchi" : "InChI=1S/C6H13O9P/c7-1-2(8)4(10)6(5(11)3(1)9)15-16(12,13)14/h1-11H,(H2,12,13,14)/t1-,2-,3+,4-,5-,6-/m0/s1",
+  "inchikey" : "INAPMGSXUVUWAF-PTQMNWPWSA-N",
+  "smiles" : "[C@@H]1([C@@H]([C@@H]([C@@H]([C@H]([C@@H]1O)O)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:MYO-INOSITOL-1-KINASE-RXN" ],
+      "instances" : [ "META:Myo-inositol-monophosphates" ],
+      "reactions" : [ "META:RXN-14403", "META:RXN-10960", "META:RXN-10982", "META:RXN-11877", "META:MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN", "META:RXN66-579", "META:RXN-11639", "META:RXN-10933", "META:RXN-11879", "META:MYO-INOSITOL-1-KINASE-RXN", "META:MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN", "META:RXN-6501", "META:RXN-7202" ],
+      "gibbs" : -320.7259,
+      "cmlMolWeight" : 258.121,
+      "molWeight" : 258.121,
+      "parents" : [ "META:Myo-inositol-monophosphates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 16 16  0  0  1  0  0  0  0  0999 V2000\n   18.4037  -17.6097    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   18.3972  -16.2252    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8136  -17.6097    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0192  -17.6732    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4037  -19.0005    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3972  -14.8407    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   17.1977  -14.1326    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   19.6158  -14.1326    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   17.1977  -12.7289    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   15.9920  -14.8216    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6158  -12.7289    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   20.8090  -14.8216    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3972  -12.0398    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   15.9920  -12.0463    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9174  -11.9634    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3972  -10.6490    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  6  2  1  1     0  0\n  6  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  7 10  1  1     0  0\n  8 11  1  0     0  0\n  8 12  1  6     0  0\n  9 13  1  0     0  0\n  9 14  1  1     0  0\n 11 15  1  1     0  0\n 13 16  1  6     0  0\n 11 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04006\n\n$$$$",
+  "reactions" : [ "irxn5355", "irxn6430", "irxn5912", "irxn3380", "irxn1860", "irxn6678", "irxn6535" ]
+}

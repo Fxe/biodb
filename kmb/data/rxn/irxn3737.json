@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3737",
+  "equation" : "o2 + nadh + h + phenol <=> nad + catechol + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd771" : ""
+    },
+    "r" : {
+      "icpd2941" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.-; EC-1.14.13.M20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10043"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-17503"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -90.598816,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00361", "rn01220", "rn00362" ],
+      "orthologs" : [ "K16249", "P0", "P1", "P2", "P3", "K16246", "K16245", "P4", "K16244", "P5", "K16243", "K16242" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

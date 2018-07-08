@@ -1,0 +1,36 @@
+{
+  "id" : "icpd7368",
+  "formula" : "C8H5NO",
+  "name" : "indol-2-one",
+  "synonyms" : [ "2-oxoindole" ],
+  "alias" : "icpd7368",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C12312"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-18137"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-6361"
+  } ],
+  "inchi" : "InChI=1S/C8H5NO/c10-8-5-6-3-1-2-4-7(6)9-8/h1-5H",
+  "inchikey" : "QNLOWBMKUIXCOW-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=CC(=O)N=C2C=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Indole-Derivatives" ],
+      "reactions" : [ "META:RXN-6682", "META:RXN-6681", "META:RXN-16823" ],
+      "gibbs" : 70.11784,
+      "cmlMolWeight" : 133.149,
+      "molWeight" : 133.149,
+      "parents" : [ "META:Indole-Derivatives" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 11  0  0  0  0  0  0  0  0999 V2000\n   23.7066  -18.4026    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7066  -19.8012    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0367  -20.2334    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8588  -19.1019    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0367  -17.9705    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4954  -17.7033    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2841  -18.4026    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2841  -19.8012    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4954  -20.5005    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2729  -19.1019    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  1  6  1  0     0  0\n  6  7  2  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  2  9  1  0     0  0\n  4 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12312\n\n$$$$",
+  "reactions" : [ ]
+}

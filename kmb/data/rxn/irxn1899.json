@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1899",
+  "equation" : "nadh + h + 25drapp <=> nad + icpd2300",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd134" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2300" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.302; 1.1.1.302",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10057"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09375"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6167", "META:PWY-6168" ],
+      "orphan" : "NO",
+      "gibbs" : 0.461792,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00740", "rn01100" ],
+      "orthologs" : [ "K14654" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

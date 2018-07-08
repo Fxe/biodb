@@ -1,0 +1,60 @@
+{
+  "id" : "irxn4970",
+  "equation" : "trnahis + atp + his__L <=> amp + ppi + histrna",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6455" : "",
+      "icpd6530" : "",
+      "icpd3297" : ""
+    },
+    "r" : {
+      "icpd7347" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.1.1.21; EC-6.1.1.21",
+  "otherNames" : [ ],
+  "alias" : "HISTRS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HISTRS"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HISTIDINE--TRNA-LIGASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HISTRS_1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03655"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HISTL_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HISTRSm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HISTIDINOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TRNA-CHARGING-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -97.24243,
+      "uniprot" : [ "O67223", "P47281", "Q9Z7P1", "P56455", "Q9X0H5", "Q9JUZ9", "Q61035", "P51348", "O83647", "P12081", "O82413", "O58028", "Q9ZDL9", "O32039", "O34459", "P75069", "P60906", "O66522", "P30053", "O51160", "Q9CE78", "Q49027", "O84547", "P43823", "P93422", "Q9PPF4", "P46696", "P07263", "Q9ZK27", "Q58406", "Q55653" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00970" ],
+      "orthologs" : [ "K01892" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iEKO11_1354", "ic_1306", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECO26_1355", "iECP_1309", "iMM904", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECW_1372", "iECO111_1330", "iJB785", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iECO103_1326", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iSFxv_1172", "iECNA114_1301", "iECS88_1305", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

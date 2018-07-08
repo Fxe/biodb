@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2398",
+  "equation" : "o2 + trp__L <=> Lfmkynr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7287" : ""
+    },
+    "r" : {
+      "icpd1344" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.11; 1.13.11.11; 1.13.11.52; EC-1.13.11.52",
+  "otherNames" : [ ],
+  "alias" : "TRPO2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TRPO2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00678"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8665"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HCN", "META:INDOLE", "META:3-HYDROXY-ANTHRANILATE", "META:5-HYDROXY-TRYPTOPHAN", "META:HYDROXYLAMINE", "META:TRYPTAMINE", "META:ACTINOMYCIN-D", "META:CARBON-MONOXIDE", "META:3-HYDROXY-L-KYNURENINE", "META:INDOLE-PROPIONATE" ],
+      "activators" : [ "META:ASCORBATE", "META:ALPHA-METHYLTRYPTOPHAN" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7765", "META:PWY-5651", "META:TRPCAT-PWY", "META:PWY-6309", "META:PWY-7717" ],
+      "orphan" : "NO",
+      "gibbs" : -89.69,
+      "uniprot" : [ "P21643" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K00463", "K00453" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

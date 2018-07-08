@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2452",
+  "equation" : "icpd2123 + nadp <=> nadph + h + icpd2226",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2123" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd2226" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.183; EC-1.1.1.183",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GERANIOL-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03581"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ZN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5829" ],
+      "orphan" : "NO",
+      "gibbs" : -0.25653076,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01130", "rn00281" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

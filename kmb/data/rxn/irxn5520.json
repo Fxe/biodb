@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5520",
+  "equation" : "icpd7011 + atp <=> icpd541 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7011" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd541" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.3.7; 2.7.3.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OPHELINE-KINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04388"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 1.144165,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

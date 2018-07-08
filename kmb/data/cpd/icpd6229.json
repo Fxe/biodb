@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6229",
+  "formula" : "C3H9NO",
+  "name" : "trimethylamine n-oxide",
+  "synonyms" : [ "n,n-dimethylmethanamine n-oxide", "n,n-dimethylmethanamine oxide", "trimethylamine oxide", "trimethylamine-n-oxide" ],
+  "alias" : "tmao",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "tmao"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "tmao"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01104"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRIMETHYLAMINE-N-O"
+  } ],
+  "inchi" : "InChI=1S/C3H9NO/c1-4(2,3)5/h1-3H3",
+  "inchikey" : "UYPYRKYUKCHHIB-UHFFFAOYSA-N",
+  "smiles" : "C[N+](C)(C)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Tertiary-Amines" ],
+      "reactions" : [ "META:RXN0-5263", "META:RXN0-5264", "META:TMAOREDUCT-RXN", "META:1.7.2.3-RXN", "META:TRIMETHYLAMINE-OXIDE-ALDOLASE-RXN", "META:RXN-12900" ],
+      "gibbs" : 48.69009,
+      "cmlMolWeight" : 75.11,
+      "molWeight" : 75.11,
+      "parents" : [ "META:Tertiary-Amines" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iETEC_1333", "iECD_1391", "iECIAI1_1343", "iWFL_1372", "iECED1_1282", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECO111_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iSDY_1059", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iECO103_1326", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   28.6419  -17.1500    0.0000 N   0  3  3  0  0  0  0  0  0  0  0  0\n   27.3450  -16.3615    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4905  -18.3012    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6419  -15.7237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1207  -18.1379    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\nM  CHG  2   1   1   5  -1\nM  END\n\n> <ENTRY>\ncpd:C01104\n\n$$$$",
+  "reactions" : [ "irxn2407", "irxn6266", "irxn2729", "irxn5382", "irxn4511" ]
+}

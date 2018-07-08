@@ -1,0 +1,46 @@
+{
+  "id" : "irxn241",
+  "equation" : "pcreat <=> crtn + h + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8153" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1774" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CRTNsyn",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CRTNsyn_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CRTNsyn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3524",
+  "equation" : "o2 + nadh + 3hbz + h <=> nad + HC00460 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd35" : ""
+    },
+    "r" : {
+      "icpd7607" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.24; EC-1.14.13.24",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02589"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXYBENZOATE-6-MONOOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6228", "META:M-CRESOL-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -93.14877,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00362" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

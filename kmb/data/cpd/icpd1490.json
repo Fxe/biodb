@@ -1,0 +1,40 @@
+{
+  "id" : "icpd1490",
+  "formula" : "C7H6O2",
+  "name" : "4-hydroxybenzaldehyde",
+  "synonyms" : [ "4-formylphenol", "4-hydroxy-benzaldehyde", "p-hydroxy-benzaldehyde", "p-hydroxybenzaldehyde", "parahydroxybenzaldehyde" ],
+  "alias" : "4hbald",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "4hbald"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXYBENZALDEHYDE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4hbald"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00633"
+  } ],
+  "inchi" : "InChI=1S/C7H6O2/c8-5-6-1-3-7(9)4-2-6/h1-5,9H",
+  "inchikey" : "RGHHSNMVTDWUBI-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=CC(=C1)O)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN", "META:SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN", "META:CHORPYRLY-RXN", "META:RXN-14116", "META:O-AMINOPHENOL-OXIDASE-RXN" ],
+      "reactions" : [ "META:HYDROXYBENZOYLFORMATE-DECARBOXYLASE-RXN", "META:RXN-13394", "META:RXN-13392", "META:RXN-13600", "META:HYDROXYBENZALDEHYDE-OXIDATION-NADP-RXN", "META:RXN-11899", "META:4-HYDROXYMANDELATE-OXIDASE-RXN", "META:RXN-16205", "META:HYDROXYBENZALDEHYDE-OXIDATION-NAD-RXN", "META:1.17.99.1-RXN", "META:RXN-8872", "META:RXN-8871", "META:HYDROXYMANDELONITRILE-LYASE-RXN" ],
+      "gibbs" : 21.79672,
+      "cmlMolWeight" : 122.123,
+      "molWeight" : 122.123
+    },
+    "bigg" : {
+      "models" : [ "iAF987", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   28.0314  -18.4596    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8219  -19.1573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2539  -19.1573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0250  -17.0706    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8219  -20.5653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2539  -20.5653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2283  -16.3732    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0314  -21.2759    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0250  -22.6711    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00633\n\n$$$$",
+  "reactions" : [ "irxn1605", "irxn6131", "irxn6063", "irxn1688", "irxn569", "irxn6736" ]
+}

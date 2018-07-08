@@ -1,0 +1,32 @@
+{
+  "id" : "icpd4901",
+  "formula" : "C7H15NO3",
+  "name" : "carnitine",
+  "synonyms" : [ "(-)-carnitine", "3-hydroxy-4-trimethylammoniobutanoate" ],
+  "alias" : "icpd4901",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DL-CARNITINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00487"
+  } ],
+  "inchi" : "InChI=1S/C7H15NO3/c1-8(2,3)5-6(9)4-7(10)11/h6,9H,4-5H2,1-3H3",
+  "inchikey" : "PHIQHXFUZVPYII-UHFFFAOYSA-N",
+  "smiles" : "C[N+](C)(C)CC(CC(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CARNITINE", "META:D-CARNITINE" ],
+      "gibbs" : 26.8368,
+      "cmlMolWeight" : 161.2,
+      "molWeight" : 161.2,
+      "parents" : [ "META:CARNITINE", "META:D-CARNITINE", "META:Vitamins" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   25.0600  -26.0400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2500  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4400  -26.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7000  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8900  -26.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2500  -23.9400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7000  -23.9400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0800  -25.2700    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   32.4100  -26.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0800  -23.6600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.7600  -24.7800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  6  2  0     0  0\n  4  7  1  4     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  1  0     0  0\n  8 11  1  0     0  0\nM  CHG  1   8   1\nM  END\n\n> <ENTRY>\ncpd:C00487\n\n$$$$",
+  "reactions" : [ ]
+}

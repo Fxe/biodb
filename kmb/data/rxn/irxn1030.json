@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1030",
+  "equation" : "nad + h2o + ile__L <=> 3mop + nadh + n2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6461" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7085" : "",
+      "icpd1057" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.4.9; 1.4.1.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ILEDEAMINE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02196"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 2.7246704,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00290" ],
+      "orthologs" : [ "K00263" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id" : "icpd3544",
+  "formula" : "C5H8O5",
+  "name" : "d-arabinono-1,4-lactone",
+  "synonyms" : [ ],
+  "alias" : "Dara14lac",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "Dara14lac"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00652"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "Dara14lac"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-356"
+  } ],
+  "inchi" : "InChI=1S/C5H8O5/c6-1-2-3(7)4(8)5(9)10-2/h2-4,6-8H,1H2/t2-,3-,4+/m1/s1",
+  "inchikey" : "CUOKHACJLGPRHD-JJYYJPOSSA-N",
+  "smiles" : "C([C@]1([H])[C@]([H])([C@@]([H])(C(=O)O1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:D-ARABINOSE-1-DEHYDROGENASE-RXN", "META:1.1.3.37-RXN", "META:RXN-8776", "META:1.1.1.117-RXN", "META:D-ARABINONOLACTONASE-RXN" ],
+      "gibbs" : -97.19104,
+      "cmlMolWeight" : 148.115,
+      "molWeight" : 148.115
+    },
+    "bigg" : {
+      "models" : [ "iND750", "iMM904" ]
+    }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   26.9523  -17.7632    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.3731  -19.0981    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.0734  -16.9496    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6160  -17.3236    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7795  -19.0981    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.5418  -20.2321    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2133  -17.7632    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5779  -18.2554    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6048  -20.2321    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5365  -17.3236    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  1     0  0\n  7 10  2  0     0  0\n  5  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00652\n\n$$$$",
+  "reactions" : [ "irxn4365", "irxn1024" ]
+}

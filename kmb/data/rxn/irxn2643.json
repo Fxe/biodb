@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2643",
+  "equation" : "h + val__L <=> icpd4620 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1379" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4620" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.14; 4.1.1.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01437"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:VALINE-DECARBOXYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-630", "META:ISOVALERATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -3.8600006,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

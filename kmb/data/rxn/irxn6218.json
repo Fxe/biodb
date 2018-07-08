@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6218",
+  "equation" : "icpd8107 + amp + so3 + 2.0 h <=> icpd8139 + aps",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd1851" : "2.0",
+      "icpd5833" : "",
+      "icpd7180" : ""
+    },
+    "r" : {
+      "icpd1665" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.8.99.2; 1.8.99.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00860"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ADENYLYLSULFATE-REDUCTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5278", "META:PWY-5279", "META:DISSULFRED-PWY", "META:P224-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "O28604", "O28603" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00395", "K00394" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

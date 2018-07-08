@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3850",
+  "equation" : "occoa + nadp <=> nadph + oc3coa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd808" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd7409" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.38; 1.3.1.8",
+  "otherNames" : [ ],
+  "alias" : "ACOAR3m",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03776"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACOAR3m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01212", "rn01100", "rn00062" ],
+      "orthologs" : [ "K07512" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4613",
+  "equation" : "3.0 nadph + lanost + 3.0 o2 + 2.0 h <=> 4.0 h2o + for + 3.0 nadp + 44mctr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "3.0",
+      "icpd5432" : "3.0",
+      "icpd1851" : "2.0",
+      "icpd4174" : ""
+    },
+    "r" : {
+      "icpd4016" : "4.0",
+      "icpd1650" : "",
+      "icpd4987" : "",
+      "icpd5537" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "LNS14DM",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LNS14DMr"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LNS14DM"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

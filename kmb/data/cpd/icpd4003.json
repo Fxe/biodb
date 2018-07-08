@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4003",
+  "formula" : "C6H13O9P",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4003",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01171"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Alpha-Hexose-1-Phosphates"
+  } ],
+  "inchi" : "InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/t2?,3?,4?,5?,6-/m1/s1",
+  "inchikey" : "HXXFSFRBOHSIMQ-SQHQMROCSA-N",
+  "smiles" : "C(C1C(C(C([C@H](O1)OP(=O)(O)O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:GLC-1-P", "META:GALACTOSE-1P", "META:MANNOSE-1P" ],
+      "reactions" : [ "META:2.7.1.62-RXN" ],
+      "gibbs" : -319.04593,
+      "cmlMolWeight" : 258.121,
+      "molWeight" : 258.121,
+      "parents" : [ "META:GLC-1-P", "META:GALACTOSE-1P", "META:N-acetyl-a-D-hexosamine-1-phosphates", "META:Hexose-1-Phosphate", "META:MANNOSE-1P" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 16 16  0  0  1  0  0  0  0  0999 V2000\n   22.5941  -15.4723    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   21.3687  -14.7794    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5941  -16.8840    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   23.8004  -14.7731    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1624  -15.4723    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   21.3687  -17.6026    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   23.8069  -17.5833    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1928  -14.7665    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   20.1624  -16.8840    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   18.9563  -14.7794    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3687  -18.9948    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5915  -14.7665    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1928  -13.3742    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1928  -16.1652    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9498  -17.5769    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7435  -15.4723    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  5 10  1  0     0  0\n  6 11  1  0     0  0\n  8 12  1  0     0  0\n  8 13  1  0     0  0\n  8 14  2  0     0  0\n  9 15  1  0     0  0\n 10 16  1  0     0  0\n  6  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01171\n\n$$$$",
+  "reactions" : [ "irxn6521" ]
+}

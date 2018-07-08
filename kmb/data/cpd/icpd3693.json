@@ -1,0 +1,34 @@
+{
+  "id" : "icpd3693",
+  "formula" : "H4N2",
+  "name" : "hydrazine",
+  "synonyms" : [ "diazane", "hydrazin" ],
+  "alias" : "icpd3693",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDRAZINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05361"
+  } ],
+  "inchi" : "InChI=1S/H4N2/c1-2/h1-2H2",
+  "inchikey" : "OAKJQQAXSVQMHS-UHFFFAOYSA-N",
+  "smiles" : "NN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:HAONITRO-RXN", "META:RXN-2841", "META:ARG-OXIDATION-RXN", "META:RXN-12902", "META:ARALKYLAMINE-DEHYDROGENASE-RXN", "META:PHOSPHASERDECARB-RXN", "META:ASPDECARBOX-RXN", "META:2.1.1.21-RXN", "META:HISTIDINE-DECARBOXYLASE-RXN", "META:4-HYDROXYPROLINE-EPIMERASE-RXN", "META:METHYLASPARTATE-MUTASE-RXN" ],
+      "instances" : [ "META:Hydrazines" ],
+      "reactions" : [ "META:RXN-13580", "META:RXN-13584", "META:RXN-11175", "META:RXN-3461", "META:1.7.99.8-RXN" ],
+      "gibbs" : 71.68449,
+      "cmlMolWeight" : 32.045,
+      "molWeight" : 32.045,
+      "parents" : [ "META:Hydrazines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   29.4700  -20.2300    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0700  -20.2300    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05361\n\n$$$$",
+  "reactions" : [ ]
+}

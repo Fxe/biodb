@@ -1,0 +1,54 @@
+{
+  "id" : "icpd2151",
+  "formula" : "C6H12O6",
+  "name" : "d-fructose",
+  "synonyms" : [ "arabino-hexulose", "d-(-)-fructose", "d-arabino-hexulose", "fructose" ],
+  "alias" : "fru",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01496"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C10906"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Fructose"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15382"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FRU"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "fru"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00095"
+  }, {
+    "source" : "BiGG",
+    "entry" : "fru"
+  } ],
+  "inchi" : "InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3,5-9,11-12H,1-2H2/t3-,5-,6-/m1/s1",
+  "inchikey" : "BJHIKXHVCXFQLS-UYFOZJQFSA-N",
+  "smiles" : "C([C@H]([C@H]([C@@H](C(=O)CO)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TRE6PHYDRO-RXN", "META:FRUCTOKINASE-RXN", "META:SUCROSE-SYNTHASE-RXN" ],
+      "instances" : [ "META:FRU", "META:Ketohexoses" ],
+      "reactions" : [ "META:1.1.99.28-RXN", "META:FRUCTOSE-5-DEHYDROGENASE-RXN", "META:GLUCISOM-RXN", "META:FRUCTOSE-5-DEHYDROGENASE-NADP+-RXN", "META:MANNOSE-ISOMERASE-RXN", "META:MANNITOL-2-DEHYDROGENASE-NADP+-RXN", "META:RXN-14365", "META:RXN-7644", "META:MANNITOL-DEHYDROGENASE-CYTOCHROME-RXN", "META:MANNITOL-2-DEHYDROGENASE-RXN", "META:RXN-15150", "META:RXN-14515" ],
+      "gibbs" : -94.166565,
+      "cmlMolWeight" : 180.157,
+      "molWeight" : 180.157,
+      "parents" : [ "META:FRU", "META:Ketohexoses" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "e_coli_core", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iHN637", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   23.3627  -14.9099    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   22.9367  -16.2051    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   22.2017  -14.0699    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3427  -13.9064    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6461  -15.3767    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5250  -16.2051    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   23.7592  -17.3485    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0699  -14.8808    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.6204  -14.4957    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7082  -17.3544    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7338  -14.4607    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8938  -15.5866    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  4     0  0\n  1  5  1  0     0  0\n  2  6  1  0     0  0\n  2  7  1  1     0  0\n  3  8  1  0     0  0\n  4  9  1  0     0  0\n  6 10  1  6     0  0\n  8 11  1  1     0  0\n 11 12  1  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00095\n\n$$$$",
+  "reactions" : [ "irxn4709", "irxn36", "irxn5924", "irxn3018", "irxn4305", "irxn6711", "irxn4612", "irxn1775", "irxn3374", "irxn1441", "irxn1320", "irxn5036", "irxn2084", "irxn6585", "irxn6640", "irxn4396", "irxn464", "irxn6292", "irxn923" ]
+}

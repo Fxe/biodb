@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1417",
+  "formula" : "C12H10",
+  "name" : "biphenyl",
+  "synonyms" : [ "1,1'-biphenyl", "1,1'-biphenyl, 9ci", "1,1-biphenyl", "bibenzene", "phenylbenzene" ],
+  "alias" : "icpd1417",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BIPHENYL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06588"
+  } ],
+  "inchi" : "InChI=1S/C12H10/c1-3-7-11(8-4-1)12-9-5-2-6-10-12/h1-10H",
+  "inchikey" : "ZUOUZKKEUPVFJK-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)C2=CC=CC=C2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:1.14.12.18-RXN" ],
+      "gibbs" : 169.5912,
+      "cmlMolWeight" : 154.211,
+      "molWeight" : 154.211,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 13  0  0  0  0  0  0  0  0999 V2000\n   16.0514  -17.7514    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3760  -19.0477    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1003  -20.2458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5000  -20.2176    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1754  -18.9913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4511  -17.7932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5754  -18.9913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2723  -20.1980    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6723  -20.1979    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3721  -18.9854    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6753  -17.7786    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2753  -17.7788    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\n 10 11  1  0     0  0\n 11 12  2  0     0  0\n  7 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06588\n\n$$$$",
+  "reactions" : [ "irxn1962" ]
+}

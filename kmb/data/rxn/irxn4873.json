@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4873",
+  "equation" : "tag6p__D + atp <=> adp + icpd4070",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3517" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd4070" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.144; 2.7.1.56; 2.7.1.11; EC-2.7.1.144",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TAGAKIN-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03236"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:LI+", "META:NA+" ],
+      "activators" : [ "META:CPD-2", "META:K+", "META:RB+", "META:AMMONIUM" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7077", "META:PWY-7395", "META:LACTOSECAT-PWY", "META:GALACTITOLCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -17.312317,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00052" ],
+      "orthologs" : [ "K00917", "K21071", "K16370", "K00850" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

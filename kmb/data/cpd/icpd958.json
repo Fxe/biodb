@@ -1,0 +1,33 @@
+{
+  "id" : "icpd958",
+  "formula" : "C8H9NO2",
+  "name" : "2-(methylamino)benzoic acid",
+  "synonyms" : [ "2-(methylamino)-benzoic acid", "n-methyl-2-aminobenzoic acid", "n-methyl-anthranilic acid", "n-methylanthranilic acid", "n-methylanthranilic acid, 8ci" ],
+  "alias" : "icpd958",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03005"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-402"
+  } ],
+  "inchi" : "InChI=1S/C8H9NO2/c1-9-7-5-3-2-4-6(7)8(10)11/h2-5,9H,1H3,(H,10,11)",
+  "inchikey" : "WVMBPWMAQDVZCM-UHFFFAOYSA-N",
+  "smiles" : "CNC1=C(C=CC=C1)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatic-Amino-Acids" ],
+      "reactions" : [ "META:RXN-9504", "META:RXN-15371", "META:ANTHRANILATE-N-METHYLTRANSFERASE-RXN" ],
+      "gibbs" : 37.67691,
+      "cmlMolWeight" : 150.157,
+      "molWeight" : 150.157,
+      "parents" : [ "META:Aromatic-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   24.9596  -17.5439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7666  -16.8629    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9596  -18.9180    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2051  -16.7856    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5922  -17.5439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8314  -15.5724    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7666  -19.6113    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6271  -17.7361    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5922  -18.9180    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0119  -14.8979    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6509  -14.9040    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  6 10  1  0     0  0\n  6 11  2  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03005\n\n$$$$",
+  "reactions" : [ "irxn4096", "irxn956" ]
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3875",
+  "equation" : "icpd2421 <=> accoa + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2421" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd5825" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.3.25; 4.1.3.25",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00237"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CITRAMALYL-COA-LYASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5744", "META:PWY-5749" ],
+      "orphan" : "NO",
+      "gibbs" : 5.456482,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00660", "C5", "rn01100", "rn01200", "rn01120", "rn00720" ],
+      "orthologs" : [ "K08691", "K18292" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3469",
+  "formula" : "C8H8NO4",
+  "name" : "3-hydroxy-5-(hydroxymethyl)-2-methylisonicotinate",
+  "synonyms" : [ "3-hydroxy-5-(hydroxymethyl)-2-methyl-4-pyridinecarboxylate", "3-hydroxy-5-(hydroxymethyl)-2-methyl-isonicotinate", "3-hydroxy-5-hydroxymethyl-2-methyl-isonicotinate" ],
+  "alias" : "4pyrdx",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00847"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "4pyrdx"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1112"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4pyrdx"
+  } ],
+  "inchi" : "InChI=1S/C8H9NO4/c1-4-7(11)6(8(12)13)5(3-10)2-9-4/h2,10-11H,3H2,1H3,(H,12,13)/p-1",
+  "inchikey" : "HXACOUQIXZGNBF-UHFFFAOYSA-M",
+  "smiles" : "CC1=C(C(=C(C=N1)CO)C(=O)O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Vitamins-B6" ],
+      "reactions" : [ "META:RXN-8757", "META:PYRIDOXAL-OXIDASE-RXN", "META:4-PYRIDOXOLACTONASE-RXN" ],
+      "gibbs" : -52.873096,
+      "cmlMolWeight" : 182.155,
+      "molWeight" : 182.155,
+      "parents" : [ "META:Vitamins-B6" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   26.8800  -18.2000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0700  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8800  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0700  -20.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2600  -18.2000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -20.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4300  -18.2000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0700  -16.1000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6900  -16.1000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8800  -21.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5900  -18.7600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4300  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  4 10  1  0     0  0\n  5 11  1  0     0  0\n  6 12  1  0     0  0\n  7 13  1  0     0  0\n  7 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00847\n\n$$$$",
+  "reactions" : [ "irxn1286", "irxn1238" ]
+}

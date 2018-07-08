@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1131",
+  "equation" : "h2o + sl26da <=> succ + icpd3559",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6114" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3559" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.18; EC-3.5.1.18",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02734"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SUCCDIAMINOPIMDESUCC-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:MESO-DIAMINOPIMELATE", "META:LL-DIAMINOPIMELATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:DAPLYSINESYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -2.5029907,
+      "uniprot" : [ "P44514", "P0AED7", "Q59284", "Q9PNP3", "Q57899", "Q9JTL0" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01230", "rn01120" ],
+      "orthologs" : [ "K01439" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

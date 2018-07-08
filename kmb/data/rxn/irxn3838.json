@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3838",
+  "equation" : "n2 + atp <=> icpd2235 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7085" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd2235" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.3.8; 2.7.3.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00141"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AMMONIA-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 4.154114,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

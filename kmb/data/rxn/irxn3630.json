@@ -1,0 +1,51 @@
+{
+  "id" : "irxn3630",
+  "equation" : "o2 + nadh + bz + h <=> nad + bz12diol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7278" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd7991" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.12.10; 1.14.12.10",
+  "otherNames" : [ ],
+  "alias" : "BZ12DOX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BZ12DOX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05621"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BENZOATE-12-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2503" ],
+      "orphan" : "NO",
+      "gibbs" : -64.18179,
+      "uniprot" : [ "O85988", "P23099", "P07770", "P07771", "P23100", "P23101" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00362", "rn01220" ],
+      "orthologs" : [ "K05549", "K05550", "K05784" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iJN746" ]
+    }
+  }
+}

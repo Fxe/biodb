@@ -1,0 +1,38 @@
+{
+  "id" : "icpd4868",
+  "formula" : "C7H13O2",
+  "name" : "heptanoate",
+  "synonyms" : [ "1-hexanecarboxylate", "enanthate" ],
+  "alias" : "hpta",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "hpta"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7619"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C17714"
+  } ],
+  "inchi" : "InChI=1S/C7H14O2/c1-2-3-4-5-6-7(8)9/h2-6H2,1H3,(H,8,9)/p-1",
+  "inchikey" : "MNWFXJYAOYHMED-UHFFFAOYSA-M",
+  "smiles" : "CCCCCCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Saturated-Fatty-Acids", "META:Medium-chain-fatty-acids" ],
+      "reactions" : [ "META:RXN-8094" ],
+      "gibbs" : 54.562508,
+      "cmlMolWeight" : 129.178,
+      "molWeight" : 129.178,
+      "parents" : [ "META:Saturated-Fatty-Acids", "META:Medium-chain-fatty-acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   35.0700  -29.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   36.3300  -29.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.8800  -29.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.6900  -29.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.5700  -29.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3100  -29.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1200  -29.1900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8600  -29.8200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1200  -27.7900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17714\n\n$$$$",
+  "reactions" : [ ]
+}

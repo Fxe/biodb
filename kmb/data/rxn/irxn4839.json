@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4839",
+  "equation" : "ru5p__D + fald <=> ah6p__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7455" : "",
+      "icpd5906" : ""
+    },
+    "r" : {
+      "icpd2830" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.43; EC-4.1.2.43",
+  "otherNames" : [ ],
+  "alias" : "RU5PS",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R10-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RU5PS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05338"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GLYCOLALDEHYDE", "META:CU+2", "META:HG+2", "META:TIRON", "META:O-PHENANTHROLINE", "META:PB+2", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RUMP-PWY", "META:PWY-7796", "META:PWY-1861" ],
+      "orphan" : "NO",
+      "gibbs" : 5.220001,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01230", "rn00680", "rn01120", "rn00030" ],
+      "orthologs" : [ "K13812", "K13831", "K08093" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iECUMN_1333" ]
+    }
+  }
+}

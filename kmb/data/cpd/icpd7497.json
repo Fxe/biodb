@@ -1,0 +1,40 @@
+{
+  "id" : "icpd7497",
+  "formula" : "C3H10N2",
+  "name" : "1,3-propanediamine",
+  "synonyms" : [ "1,3-diaminopropane", "1,3-propylenediamine", "3-aminopropylamine", "propane-1,3-diamine", "trimethylenediamine" ],
+  "alias" : "13dampp",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00986"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-313"
+  }, {
+    "source" : "BiGG",
+    "entry" : "13dampp"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "13dampp"
+  } ],
+  "inchi" : "InChI=1S/C3H10N2/c4-2-1-3-5/h1-5H2",
+  "inchikey" : "XFNJVJPLKCPIBV-UHFFFAOYSA-N",
+  "smiles" : "C(CN)CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-9757" ],
+      "reactions" : [ "META:2.5.1.45-RXN", "META:4.1.1.86-RXN", "META:RXN-11565", "META:RXN-10463", "META:RXN-10465", "META:RXN-682", "META:RXN-13415", "META:RXN-10747", "META:2.5.1.46-RXN", "META:SYM-NORSPERMIDINE-SYNTHASE-RXN", "META:RXN-7443", "META:RXN-6421", "META:SPERMIDINE-DEHYDROGENASE-RXN", "META:RXN-6381" ],
+      "gibbs" : 114.36521,
+      "cmlMolWeight" : 76.141,
+      "molWeight" : 76.141
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -16.5229    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9112  -15.8221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3288  -15.8221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6960  -16.5229    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5440  -16.5229    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00986\n\n$$$$",
+  "reactions" : [ "irxn3034", "irxn1274", "irxn6831", "irxn3322", "irxn4279", "irxn611", "irxn2926", "irxn6735", "irxn1620" ]
+}

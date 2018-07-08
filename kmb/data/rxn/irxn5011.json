@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5011",
+  "equation" : "3.0 malcoa + coucoa <=> 4.0 coa + icpd3284 + 3.0 co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "3.0",
+      "icpd5815" : ""
+    },
+    "r" : {
+      "icpd2377" : "4.0",
+      "icpd2454" : "3.0",
+      "icpd3284" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.74; 2.3.1.74",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NARINGENIN-CHALCONE-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01613"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7397", "META:PWY-5135", "META:PWY-7897", "META:PWY-6316", "META:PWY1F-FLAVSYN", "META:PWY-6787" ],
+      "orphan" : "NO",
+      "gibbs" : 11.131836,
+      "uniprot" : [ "Q9S9B9", "Q01288", "Q9S9C0", "P48406", "P26018", "P48405", "P51078", "P51077", "O22047", "P51079", "Q40005", "P51075", "P30074", "P30075", "P30076", "P30077", "P13114", "P16107", "P30078", "Q01287", "Q01286", "P30079", "P30080", "P30081", "P17957", "Q96562", "P51081", "P51080", "P08894", "P51082", "Q96568", "P51089", "P06515", "O04969", "O04968", "P48398", "P48399", "P48397", "Q43188", "P48390", "O04967", "O04966", "Q41292", "O04970", "P30073", "P48389", "P23569", "P13417", "P13416", "P19168", "O04971", "O04934", "P22924", "P24824", "P22928", "P22927", "P24825", "P24826", "P22926", "P22925", "P23419", "P17818" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00941" ],
+      "orthologs" : [ "K00660" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

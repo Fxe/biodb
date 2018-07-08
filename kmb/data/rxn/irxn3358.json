@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3358",
+  "equation" : "sucsal + nadph + h <=> ghb + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7343" : ""
+    },
+    "r" : {
+      "icpd540" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.co; 1.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "GHBDHy",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GHBDHy"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11002"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09281"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:ZN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4321", "META:PWY-5789", "META:PWY-7854" ],
+      "orphan" : "NO",
+      "gibbs" : 1.2935181,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn00650", "rn01120", "rn00720" ],
+      "orthologs" : [ "K14465", "K18121" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

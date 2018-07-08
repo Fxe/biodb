@@ -1,0 +1,47 @@
+{
+  "id" : "irxn772",
+  "equation" : "2pg + atp <=> 23dpg + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7768" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7274" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.2.-",
+  "otherNames" : [ ],
+  "alias" : "2PGK",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02664"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "2PGK"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K05715" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

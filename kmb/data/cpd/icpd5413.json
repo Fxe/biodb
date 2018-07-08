@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5413",
+  "formula" : "C3H8O4P",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd5413",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9465"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06452"
+  } ],
+  "inchi" : "InChI=1S/C3H9O4P/c1-3(4)2-8(5,6)7/h3-4H,2H2,1H3,(H2,5,6,7)/p-1",
+  "inchikey" : "ZFVCONUOLQASEW-UHFFFAOYSA-M",
+  "smiles" : "CC(CP(=O)(O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Organophosphonates" ],
+      "reactions" : [ "META:RXN-9011", "META:RXN-9010" ],
+      "gibbs" : -164.59311,
+      "cmlMolWeight" : 139.068,
+      "molWeight" : 139.068,
+      "parents" : [ "META:Organophosphonates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  1  0  0  0  0  0999 V2000\n   25.2247  -21.2273    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   26.4246  -20.5169    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7801  -21.2156    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2247  -22.6136    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2247  -19.8296    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6362  -21.1982    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.8361  -20.4877    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6536  -22.5903    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C06452\n\n$$$$",
+  "reactions" : [ "irxn5325" ]
+}

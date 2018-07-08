@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7428",
+  "formula" : "C6H5NO3",
+  "name" : "3-nitrophenol",
+  "synonyms" : [ "m-hydroxynitrobenzene" ],
+  "alias" : "icpd7428",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C14418"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9127"
+  } ],
+  "inchi" : "InChI=1S/C6H5NO3/c8-6-3-1-2-5(4-6)7(9)10/h1-4,8H",
+  "inchikey" : "RTZZCYNQPHTPPL-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=CC(=C1)[N+](=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C-nitro-compounds", "META:Aromatics" ],
+      "gibbs" : -22.124405,
+      "cmlMolWeight" : 139.11,
+      "molWeight" : 139.11,
+      "parents" : [ "META:C-nitro-compounds", "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   26.4571  -16.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4571  -17.6373    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6694  -18.3372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8817  -17.6373    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8817  -16.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6694  -15.5376    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6694  -14.1380    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1126  -18.3482    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   31.6676  -17.5126    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   30.1123  -19.7369    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  4  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\nM  CHG  2   8   1   9  -1\nM  END\n\n> <ENTRY>\ncpd:C14418\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6748",
+  "equation" : "accoa + icpd6141 <=> coa + icpd4996",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd6141" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd4996" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.87; 2.3.1.87",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03760"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ARALKYLAMINE-N-ACETYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -15.561127,
+      "uniprot" : [ "Q64666" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

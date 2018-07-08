@@ -1,0 +1,42 @@
+{
+  "id" : "irxn1507",
+  "equation" : "datp <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5507" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DM_datp_n",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DM_datp_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_datp_n"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

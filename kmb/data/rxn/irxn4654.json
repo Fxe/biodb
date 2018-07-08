@@ -1,0 +1,51 @@
+{
+  "id" : "irxn4654",
+  "equation" : "glutcoa + fad + h <=> co2 + b2coa + fadh2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd5127" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd6997" : "",
+      "icpd2454" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.8.6",
+  "otherNames" : [ ],
+  "alias" : "GLUTCOADHc",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GLUTCOADHc"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02487"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUTCOADHm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00071" ],
+      "orthologs" : [ "K00252" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1", "iAF987", "iJN746" ]
+    }
+  }
+}

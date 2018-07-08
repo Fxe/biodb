@@ -1,0 +1,34 @@
+{
+  "id" : "icpd3672",
+  "formula" : "C8H9NO",
+  "name" : "(z)-phenylacetaldehyde oxime",
+  "synonyms" : [ "z-phenylacetaldoxime" ],
+  "alias" : "icpd3672",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C16075"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENYLACETALDOXIME"
+  } ],
+  "inchi" : "InChI=1S/C8H9NO/c10-9-7-6-8-4-2-1-3-5-8/h1-5,7,10H,6H2/b9-7-",
+  "inchikey" : "CXISHLWVCSLKOJ-CLFYSBASSA-N",
+  "smiles" : "C1=CC=C(C=C1)C/C=N\\O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-1403" ],
+      "instances" : [ "META:Aldoxime" ],
+      "reactions" : [ "META:RXN-4603", "META:RXN-12065", "META:4.99.1.7-RXN" ],
+      "gibbs" : 96.9601,
+      "cmlMolWeight" : 135.165,
+      "molWeight" : 135.165,
+      "parents" : [ "META:Aldoxime" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   22.8788  -20.0165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7236  -20.6864    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0525  -20.6864    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8788  -18.6832    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7236  -22.0382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0525  -22.0382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0339  -18.0133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8788  -22.7203    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0278  -16.6738    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5776  -15.9179    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  2  0     0  0\n  7  9  2  0     0  0\n  9 10  1  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16075\n\n$$$$",
+  "reactions" : [ "irxn5984", "irxn5903", "irxn6747" ]
+}

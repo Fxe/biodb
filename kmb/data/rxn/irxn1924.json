@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1924",
+  "equation" : "o2 + icpd3037 + h2o <=> lys__L + fald + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd3037" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd4807" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.3.4; EC-1.5.3.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00612"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N6-METHYL-LYSINE-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -18.983017,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

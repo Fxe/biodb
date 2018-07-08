@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4929",
+  "formula" : "C10H18O2",
+  "name" : "(4r,7s)-7-isopropyl-4-methyloxepan-2-one",
+  "synonyms" : [ "(4r,7s)-4-methyl-7-(1-methylethyl)-2-oxepanone", "(4r,7s)-4-methyl-7-(1-methylethyl)oxepan-2-one", "(4r,7s)-4-methyl-7-(propan-2-yl)oxepan-2-one", "(4r-trans)-4-methyl-7-(1-methylethyl)-2-oxepanone", "(4r-trans)-7-isopropyl-4-methyloxepan-2-one", "4-methyl-7-(1-methylethyl)-(4r,7s)-2-oxepanone" ],
+  "alias" : "icpd4929",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10107"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18027"
+  } ],
+  "inchi" : "InChI=1S/C10H18O2/c1-7(2)9-5-4-8(3)6-10(11)12-9/h7-9H,4-6H2,1-3H3/t8-,9+/m1/s1",
+  "inchikey" : "GGAXPLCKKANQED-BDAKNGLRSA-N",
+  "smiles" : "CC(C)[C@]1([H])CC[C@@]([H])(C)CC(=O)O1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:7-isopropyl-4-methyloxepan-2-ones" ],
+      "reactions" : [ "META:RXN-14247", "META:RXN-9441" ],
+      "gibbs" : 127.23018,
+      "cmlMolWeight" : 170.251,
+      "molWeight" : 170.251,
+      "parents" : [ "META:7-isopropyl-4-methyloxepan-2-ones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   26.9600  -23.5747    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0567  -22.7110    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4221  -23.0224    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0240  -24.2756    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9600  -24.9837    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4230  -25.5429    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0567  -25.8545    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.4299  -24.2721    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7428  -21.3188    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3948  -20.8986    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7440  -20.3953    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0567  -27.2545    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  4  1  0     0  0\n  1  5  1  0     0  0\n  4  6  1  0     0  0\n  2  3  1  0     0  0\n  5  7  1  0     0  0\n  1  2  1  0     0  0\n  6  7  1  0     0  0\n  4  8  2  0     0  0\n  2  9  1  1     0  0\n  9 10  1  0     0  0\n  9 11  1  0     0  0\n  7 12  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C18027\n\n$$$$",
+  "reactions" : [ "irxn296" ]
+}

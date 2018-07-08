@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5139",
+  "equation" : "nadph + prostge2 + h <=> prostgf2 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7762" : ""
+    },
+    "r" : {
+      "icpd8130" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.189; 1.1.1.184; 1.1.1.189",
+  "otherNames" : [ ],
+  "alias" : "CBR2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PROSTAGLANDIN-E2-9-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02581"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CBR2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.6265259,
+      "uniprot" : [ "P80508" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "K00079", "K00084", "K00081" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

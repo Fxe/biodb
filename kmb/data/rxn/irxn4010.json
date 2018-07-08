@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4010",
+  "equation" : "nad + am6sa + h2o <=> nadh + 2.0 h + amuco",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd1673" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd3204" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.32",
+  "otherNames" : [ ],
+  "alias" : "AM6SAD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AM6SAD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03889"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K10217" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "RECON1" ]
+    }
+  }
+}

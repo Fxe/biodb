@@ -1,0 +1,42 @@
+{
+  "id" : "icpd7989",
+  "formula" : "C3H7NO2",
+  "name" : "beta-alanine",
+  "synonyms" : [ "2-carboxyethylamine", "3-amino-propanoic acid", "3-aminopropanoic acid", "3-aminopropionic acid", "3-ammoniopropanoate", "3-azaniumylpropanoate", "beta-aminopropanoic acid", "beta-aminopropionic acid", "beta-lnint", "β-alanine" ],
+  "alias" : "ala_B",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "ala_B"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:B-ALANINE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ala-B"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00099"
+  } ],
+  "inchi" : "InChI=1S/C3H7NO2/c4-2-1-3(5)6/h1-2,4H2,(H,5,6)",
+  "inchikey" : "UCMIRNVEIXFBKS-UHFFFAOYSA-N",
+  "smiles" : "C(CN)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GLYRIBONUCSYN-RXN" ],
+      "instances" : [ "META:Beta-amino-acids" ],
+      "reactions" : [ "META:RXN-14175", "META:N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN", "META:HOMOGLUTATHIONE-SYNTHASE-RXN", "META:RXN-11781", "META:BETA-UREIDOPROPIONASE-RXN", "META:RXN-12332", "META:ASPDECARBOX-RXN", "META:RXN-10760", "META:CARNOSINE-SYNTHASE-RXN", "META:RXN-2901", "META:X-METHYL-HIS-DIPEPTIDASE-RXN", "META:BETA-ALANOPINE-DEHYDROGENASE-RXN", "META:2.6.1.18-RXN", "META:RXN0-5201", "META:PANTOATE-BETA-ALANINE-LIG-RXN", "META:RXN-6401", "META:PANTOTHENASE-RXN", "META:RXN-6461", "META:GUANIDINOPROPIONASE-RXN", "META:RXN-6382" ],
+      "gibbs" : -14.21216,
+      "cmlMolWeight" : 89.094,
+      "molWeight" : 89.094,
+      "parents" : [ "META:Beta-amino-acids" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   25.6778  -16.8919    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4732  -16.1936    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8940  -16.1936    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2571  -16.8978    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4732  -14.7912    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1045  -16.8919    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00099\n\n$$$$",
+  "reactions" : [ "irxn4809", "irxn2623", "irxn4736", "irxn3802", "irxn4655", "irxn4347", "irxn6898", "irxn6843", "irxn6546", "irxn245", "irxn5511", "irxn6853", "irxn4575", "irxn5685", "irxn5267", "irxn6554", "irxn266" ]
+}

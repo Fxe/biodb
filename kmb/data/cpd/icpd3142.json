@@ -1,0 +1,34 @@
+{
+  "id" : "icpd3142",
+  "formula" : "C45H82N7O18P3S",
+  "name" : "3-hydroxytetracosanoyl-coa",
+  "synonyms" : [ "3-hydroxytetracosanoyl-coenzyme a" ],
+  "alias" : "3httccoa",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-16348"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3httccoa"
+  } ],
+  "inchi" : "InChI=1S/C45H82N7O18P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-33(53)28-36(55)74-27-26-47-35(54)24-25-48-43(58)40(57)45(2,3)30-67-73(64,65)70-72(62,63)66-29-34-39(69-71(59,60)61)38(56)44(68-34)52-32-51-37-41(46)49-31-50-42(37)52/h31-34,38-40,44,53,56-57H,4-30H2,1-3H3,(H,47,54)(H,48,58)(H,62,63)(H,64,65)(H2,46,49,50)(H2,59,60,61)/t33?,34-,38-,39-,40+,44-/m1/s1",
+  "inchikey" : "QIBKBVRVOFIKLN-SBPVGHMXSA-N",
+  "smiles" : "CCCCCCCCCCCCCCCCCCCCCC([H])(CC(=O)SCCN=C(CCN=C([C@@]([H])(C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-14277", "META:CPD-15039" ],
+      "gibbs" : -57.33459,
+      "cmlMolWeight" : 1130.129,
+      "molWeight" : 1130.129,
+      "parents" : [ "META:Very-Long-Chain-3S-Hydroxyacyl-CoAs", "META:CPD-14277", "META:CPD-15039" ]
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn800" ]
+}

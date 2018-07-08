@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6554",
+  "equation" : "ala_B + glucys + atp <=> icpd6883 + h + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6004" : "",
+      "icpd6530" : "",
+      "icpd7989" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd6883" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.2.23; EC-6.3.2.23",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02741"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOGLUTATHIONE-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6840" ],
+      "orphan" : "NO",
+      "gibbs" : -7.1359253,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

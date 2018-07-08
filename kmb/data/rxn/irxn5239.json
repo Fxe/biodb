@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5239",
+  "equation" : "pre6b + nadp <=> pre6a + nadph + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1522" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1335" : "",
+      "icpd1851" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.54",
+  "otherNames" : [ ],
+  "alias" : "PC6AR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05150"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PC6AR"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PC6AR_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K05895" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661", "iJN678", "iHN637", "iJB785", "iJN746" ]
+    }
+  }
+}

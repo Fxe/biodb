@@ -1,0 +1,48 @@
+{
+  "id" : "irxn61",
+  "equation" : "h2o + nadp + val__L <=> nadph + n2 + 3mob + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1379" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7085" : "",
+      "icpd5052" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.1.8; EC-1.4.1.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:VALINE-DEHYDROGENASE-NADP+-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01212"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 3.3764038,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00271" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

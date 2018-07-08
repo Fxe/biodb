@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5685",
+  "equation" : "ala__L + msa <=> ala_B + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd206" : "",
+      "icpd7336" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7989" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.18; 2.6.1.18",
+  "otherNames" : [ ],
+  "alias" : "APATr",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00907"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "APATr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.6.1.18-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1781", "META:PWY-3941" ],
+      "orphan" : "NO",
+      "gibbs" : 1.539978,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn00410", "rn01100" ],
+      "orthologs" : [ "K00822" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661" ]
+    }
+  }
+}

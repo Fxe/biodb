@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2502",
+  "equation" : "5HPET <=> h2o + leuktrA4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7915" : ""
+    },
+    "r" : {
+      "icpd2842" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.34",
+  "otherNames" : [ ],
+  "alias" : "ALOX52",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03058"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALOX52"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8647"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13395" ],
+      "orphan" : "NO",
+      "gibbs" : -16.027,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "K00461" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

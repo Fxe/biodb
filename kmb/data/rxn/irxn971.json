@@ -1,0 +1,45 @@
+{
+  "id" : "irxn971",
+  "equation" : "7.0 ipdp + grdp <=> icpd6466 + 7.0 ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4227" : "7.0",
+      "icpd4136" : ""
+    },
+    "r" : {
+      "icpd6466" : "",
+      "icpd1231" : "7.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.84; 2.5.1.84",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09250"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-OCTAPRENYLTRANSTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5805" ],
+      "orphan" : "NO",
+      "gibbs" : -91.000244,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00900" ],
+      "orthologs" : [ "K05356" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

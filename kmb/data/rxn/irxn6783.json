@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6783",
+  "equation" : "icpd7273 + nadp <=> nadph + h + ru5p__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7273" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5906" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.405; 1.1.1.137; EC-1.1.1.405",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01525"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RIBITOL-5-PHOSPHATE-2-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7818", "META:PWY-7816", "META:PWY-7815" ],
+      "orphan" : "NO",
+      "gibbs" : -0.1665039,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ "K21681", "K21680", "K05352" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

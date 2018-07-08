@@ -1,0 +1,47 @@
+{
+  "id" : "irxn842",
+  "equation" : "phom + h + selcys <=> selcyst + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd137" : "",
+      "icpd1851" : "",
+      "icpd1693" : ""
+    },
+    "r" : {
+      "icpd1394" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PHOMSELCYSL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PHOMSELCYSLh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PHOMSELCYSL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

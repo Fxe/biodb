@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5671",
+  "equation" : "paps + icpd3707 <=> h + digalsgalside_hs + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd3707" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6729" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.2.11; 2.8.2.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18303"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05105"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7840" ],
+      "orphan" : "NO",
+      "gibbs" : 18.416992,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00600" ],
+      "orthologs" : [ "K01019" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

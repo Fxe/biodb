@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4525",
+  "equation" : "crtsl + nadp <=> nadph + h + cortsn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1382" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1390" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.146; EC-1.1.1",
+  "otherNames" : [ ],
+  "alias" : "HSD11B1r",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02836"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HSD11B1r"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12085"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -1.6264954,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00140" ],
+      "orthologs" : [ "K15680" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

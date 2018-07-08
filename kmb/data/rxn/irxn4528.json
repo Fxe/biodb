@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4528",
+  "equation" : "glx + 4abut <=> sucsal + gly",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7403" : "",
+      "icpd941" : ""
+    },
+    "r" : {
+      "icpd855" : "",
+      "icpd7343" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.96; EC-2.6.1.96",
+  "otherNames" : [ ],
+  "alias" : "ABGTA_m",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10179"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13328"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ABGTA_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -2.3700104,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

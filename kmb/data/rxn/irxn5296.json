@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5296",
+  "equation" : "gtp + cmp <=> gdp + cdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1365" : "",
+      "icpd3421" : ""
+    },
+    "r" : {
+      "icpd1985" : "",
+      "icpd166" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CYTK3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYTK3"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYTK5n"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

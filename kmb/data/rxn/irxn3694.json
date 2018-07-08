@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3694",
+  "equation" : "o2 + pydxn <=> pydx + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd6185" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd5696" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.5; 1.1.3.12; EC-1.1.3.12",
+  "otherNames" : [ ],
+  "alias" : "PYDXNO",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01711"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRIDOXINE-4-OXIDASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYDXNO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5499" ],
+      "orphan" : "NO",
+      "gibbs" : -27.989998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00750", "rn01100", "rn01120", "B6" ],
+      "orthologs" : [ "K18607", "K00275" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iNJ661", "iLB1027_lipid", "iMM904", "iJN678" ]
+    }
+  }
+}

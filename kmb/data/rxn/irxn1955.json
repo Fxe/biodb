@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1955",
+  "equation" : "o2 + arachd <=> h2o + leuktrA4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1270" : ""
+    },
+    "r" : {
+      "icpd2842" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.34; 1.13.11.34",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13395"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08527"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-392" ],
+      "orphan" : "NO",
+      "gibbs" : -86.007,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00461" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

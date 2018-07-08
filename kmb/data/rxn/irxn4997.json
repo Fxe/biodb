@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4997",
+  "equation" : "icpd7205 + coa + atp <=> amp + ppi + icpd7518",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7205" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7518" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.31; EC-6.2.1.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-FUROATE--COA-LIGASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02986"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6995", "META:PWY-6997" ],
+      "orphan" : "NO",
+      "gibbs" : -12.711792,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00365", "rn01120" ],
+      "orthologs" : [ "K16876" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

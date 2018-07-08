@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6291",
+  "formula" : "C4H9NO3",
+  "name" : "4-amino-3-hydroxybutanoic acid",
+  "synonyms" : [ "gamma-amino-beta-hydroxybutyric acid" ],
+  "alias" : "icpd6291",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03678"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AMINOBUT-CPD"
+  } ],
+  "inchi" : "InChI=1S/C4H9NO3/c5-2-3(6)1-4(7)8/h3,6H,1-2,5H2,(H,7,8)",
+  "inchikey" : "YQGDEPYYFWUPGO-UHFFFAOYSA-N",
+  "smiles" : "C(C(C[N+])O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:HYDROXYGLUTAMATE-DECARBOXYLASE-RXN" ],
+      "gibbs" : -30.089912,
+      "cmlMolWeight" : 119.12,
+      "molWeight" : 119.12
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   17.7899  -15.1402    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   19.0073  -15.8359    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5789  -15.8359    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7899  -13.7361    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2183  -15.1402    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3679  -15.1402    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4293  -15.8422    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2119  -13.7361    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  5  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03678\n\n$$$$",
+  "reactions" : [ "irxn31" ]
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn749",
+  "equation" : "icpd3463 <=> h2o + co2 + phe__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3463" : ""
+    },
+    "r" : {
+      "icpd2269" : "",
+      "icpd4016" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.51; 4.2.1.91; EC-4.2.1.91",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00691"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CARBOXYCYCLOHEXADIENYL-DEHYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:CO+2", "META:PHE", "META:ZN+2" ],
+      "activators" : [ "META:TYR" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3462" ],
+      "orphan" : "NO",
+      "gibbs" : -26.892883,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00400" ],
+      "orthologs" : [ "K04518", "K14170", "K01713", "K05359" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

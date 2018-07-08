@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4494",
+  "equation" : "accoa + lys__L <=> icpd7676 + coa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4807" : "",
+      "icpd5825" : ""
+    },
+    "r" : {
+      "icpd7676" : "",
+      "icpd1851" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.-; EC-2.3.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LYSACET-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00454"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:FE+2", "META:MG+2", "META:CO+2", "META:ZN+2", "META:HG+2", "META:5-AMINOPENTANOATE", "META:CPD-1490", "META:MN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LYSDEGII-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -5.2900085,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

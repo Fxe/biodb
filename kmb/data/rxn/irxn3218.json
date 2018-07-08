@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3218",
+  "equation" : "nad + abt <=> nadh + h + xylu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd2220" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2961" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.12; EC-1.1.1.12",
+  "otherNames" : [ ],
+  "alias" : "ABTD",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01903"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ABTD"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-ARABINITOL-4-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5515" ],
+      "orphan" : "NO",
+      "gibbs" : 1.0817566,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

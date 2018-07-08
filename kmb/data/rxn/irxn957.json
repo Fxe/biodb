@@ -1,0 +1,48 @@
+{
+  "id" : "irxn957",
+  "equation" : "icpd1748 + h2o + nadp <=> mma + nadph + pyr + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1748" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd5432" : "",
+      "icpd376" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.1.17; EC-1.4.1.17",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:N-METHYLALANINE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01584"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "YES-CONFIRMED",
+      "gibbs" : 23.286377,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

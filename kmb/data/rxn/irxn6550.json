@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6550",
+  "equation" : "o2 + nadh + icpd5661 <=> nad + 4mcat + so3",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd5661" : ""
+    },
+    "r" : {
+      "icpd6526" : "",
+      "icpd5833" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.14; EC-1.14.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05294"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TSDOSALCAL-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5165" ],
+      "orphan" : null,
+      "gibbs" : -116.49005,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00623" ],
+      "orthologs" : [ "K15766", "K15767" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

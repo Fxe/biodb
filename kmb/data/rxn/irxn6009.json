@@ -1,0 +1,65 @@
+{
+  "id" : "irxn6009",
+  "equation" : "cbp + orn <=> citr__L + h + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4560" : "",
+      "icpd2511" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5920" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.3.3; EC-2.1.3.3",
+  "otherNames" : [ ],
+  "alias" : "OCT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OCBT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OCT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OCTm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OCTh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OCBTm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13482"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01398"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ORNCARBAMTRANSFER-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GTP", "META:AMP", "META:CPD-19529", "META:CTP", "META:ATP", "META:ZN+2", "META:L-ORNITHINE", "META:2-Aminobutyrate", "META:Pi", "META:UTP", "META:Sulfhydryl-Reagents", "META:ADP", "META:DITHIOTHREITOL", "META:L-2-AMINOPENTANOIC-ACID", "META:N-DELTA-PHOSPHONOACETYL-L-ORNITHINE" ],
+      "activators" : [ "META:2-MERCAPTOETHANOL", "META:ARG" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CITRULBIO-PWY", "META:ARGSYNBSUB-PWY", "META:PWY-4981", "META:ARGSYN-PWY", "META:PWY-7400", "META:CITRULLINE-DEG-PWY", "META:PWY-4984" ],
+      "orphan" : "NO",
+      "gibbs" : -15.049988,
+      "uniprot" : [ "P11727", "P75473", "P31317", "P11724", "Q9PNU6", "P11803", "P0A5M9", "P11725", "P18186", "P14995", "P11066", "Q01324", "Q01323", "Q9YHY9", "Q01322", "Q01327", "Q01326", "P05150", "Q01325", "P06960", "P21302", "Q9CEY4", "Q9TRC9", "Q9JYI3", "Q9CHD1", "P08308", "P00480", "Q9JTI4", "P00481", "Q43814", "Q7M182", "Q58291", "Q02047", "O53089", "Q48296", "Q9CE14", "P04391", "P44770", "O50039", "Q49080", "P68747" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00220", "rn01100", "rn01230", "rn01110", "rn01130" ],
+      "orthologs" : [ "K00611" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iEKO11_1354", "ic_1306", "iETEC_1333", "iECD_1391", "iWFL_1372", "iECED1_1282", "iECIAI1_1343", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcDH1_1363", "iEcHS_1320", "iECO26_1355", "iECP_1309", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iEcSMS35_1347", "iE2348C_1286", "iNRG857_1313", "iECO111_1330", "iECW_1372", "iAT_PLT_636", "iJB785", "iECH74115_1262", "iECB_1328", "iSB619", "iSbBS512_1146", "iECBD_1354", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iECO103_1326", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iSF_1195", "iECDH10B_1368", "iECNA114_1301", "iSFxv_1172", "iECS88_1305", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1724",
+  "formula" : "C5H8N4O2",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd1724",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19543"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11345"
+  } ],
+  "inchi" : "InChI=1S/C5H8N4O2/c6-3(5(10)11)1-4-7-2-8-9-4/h2-3H,1,6H2,(H,10,11)(H,7,8,9)",
+  "inchikey" : "CAPORZWUTKSILW-UHFFFAOYSA-N",
+  "smiles" : "C(C(C(=O)O)N)C1=NN=CN1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:IMIDPHOSDEHYD-RXN", "META:ATPPHOSPHORIBOSYLTRANS-RXN" ],
+      "instances" : [ "META:Modified-Amino-Acids" ],
+      "gibbs" : 23.968966,
+      "cmlMolWeight" : 156.144,
+      "molWeight" : 156.144,
+      "parents" : [ "META:Modified-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   16.2278  -20.9212    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6488  -22.2565    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0487  -22.2687    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4930  -20.9411    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3676  -20.1083    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6924  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9049  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1173  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3297  -20.9300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9049  -22.3298    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1173  -18.8300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  1  5  1  0     0  0\n  4  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  7 10  1  0     0  0\n  8 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11345\n\n$$$$",
+  "reactions" : [ ]
+}

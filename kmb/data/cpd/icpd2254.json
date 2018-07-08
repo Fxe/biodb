@@ -1,0 +1,39 @@
+{
+  "id" : "icpd2254",
+  "formula" : "C9H19N3O3",
+  "name" : "gamma-glutamyl-putrescine",
+  "synonyms" : [ "&gamma;-glutamylputrescine", "(2s)-2-amino-4-[(4-aminobutyl)carbamoyl]butanoic acid", "gamma-glutamylputrescine", "gamma-l-glutamylputrescine" ],
+  "alias" : "ggptrc",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "ggptrc"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C15699"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GAMMA-GLUTAMYL-PUTRESCINE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ggptrc"
+  } ],
+  "inchi" : "InChI=1S/C9H19N3O3/c10-5-1-2-6-12-8(13)4-3-7(11)9(14)15/h7H,1-6,10-11H2,(H,12,13)(H,14,15)/t7-/m0/s1",
+  "inchikey" : "WKGTVHGVLRCTCF-ZETCQYMHSA-N",
+  "smiles" : "C(CCN=C(CC[C@@]([H])(C(=O)O)N)O)CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN0-3921", "META:RXN0-3901" ],
+      "gibbs" : 92.110344,
+      "cmlMolWeight" : 218.275,
+      "molWeight" : 218.275
+    },
+    "bigg" : {
+      "models" : [ "iECBD_1354", "iSbBS512_1146", "iEKO11_1354", "iECUMN_1333", "iECD_1391", "iETEC_1333", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iSDY_1059", "iML1515", "iECDH1ME8569_1439", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iAF1260b", "iEcE24377_1341", "iS_1188", "iEcHS_1320", "iEcDH1_1363", "iECO26_1355", "iSF_1195", "iECDH10B_1368", "iSFxv_1172", "iSSON_1240", "iEcolC_1368", "iG2583_1286", "iEC042_1314", "iB21_1397", "iAF1260", "iECIAI39_1322", "iECSP_1301", "iEC55989_1330", "iECs_1301", "iY75_1357", "iECW_1372", "iEcSMS35_1347", "iECO111_1330", "iSBO_1134", "iYL1228", "iECH74115_1262", "iJO1366", "iSFV_1184", "iECB_1328", "iECSE_1348" ]
+    }
+  },
+  "mol" : " \n \n \n 15 14  0  0  1  0  0  0  0  0999 V2000\n   19.0904  -26.0035    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3030  -26.7108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5156  -26.0035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3030  -28.1255    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7282  -26.7108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5156  -24.5888    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9408  -26.0035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0523  -26.7108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2649  -26.0035    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0523  -28.1255    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4775  -26.7108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6901  -26.0035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9027  -26.7108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1154  -26.0035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.3280  -26.7108    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  2  0     0  0\n  3  5  1  1     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\n  9 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 14 15  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15699\n\n$$$$",
+  "reactions" : [ "irxn1108", "irxn1048" ]
+}

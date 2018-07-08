@@ -1,0 +1,48 @@
+{
+  "id" : "irxn344",
+  "equation" : "o2 + icpd2136 + akg <=> h2o + succ + co2 + icpd635",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : "",
+      "icpd2136" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd2454" : "",
+      "icpd635" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.11.22; EC-1.14.11.22",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7687"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03590"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:CPD-7050", "META:ZN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6787", "META:PWY-5060" ],
+      "orphan" : "NO",
+      "gibbs" : -124.40701,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00941" ],
+      "orthologs" : [ "K13077" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4643",
+  "equation" : "atp + pail_hs <=> pail3p_hs + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd605" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd3493" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PIK3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PIK3n"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PIK3er"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PIK3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

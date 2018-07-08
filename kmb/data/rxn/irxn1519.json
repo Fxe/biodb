@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1519",
+  "equation" : "nad + C04295 + h <=> nadh + 5adtststerone",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd5131" : "",
+      "icpd7452" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd4587" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RE3111M",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE3111C"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE3111M"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE3111R"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

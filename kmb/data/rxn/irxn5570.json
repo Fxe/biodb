@@ -1,0 +1,52 @@
+{
+  "id" : "irxn5570",
+  "equation" : "h2o + 56dura <=> h + cala",
+  "stoichiometry" : {
+    "l" : {
+      "icpd720" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5819" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.2.2; 3.5.2.2",
+  "otherNames" : [ ],
+  "alias" : "DHPD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHPD"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHPM1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02269"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIHYDROPYRIMIDINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:DI-H-URACIL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3982" ],
+      "orphan" : "NO",
+      "gibbs" : -7.7071304,
+      "uniprot" : [ "Q14117", "Q45515" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410", "rn01100", "rn00770", "rn00240" ],
+      "orthologs" : [ "K01464" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iRC1080", "iMM1415", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  }
+}

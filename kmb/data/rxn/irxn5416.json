@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5416",
+  "equation" : "icpd8107 + h2o + n2 <=> icpd8139 + ham",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd7085" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2414" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.7.99.1; EC-1.7.99.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYLAMINE-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00284"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:OXYGEN-MOLECULE" ],
+      "activators" : [ "META:HCN" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

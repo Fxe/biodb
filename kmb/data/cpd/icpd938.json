@@ -1,0 +1,39 @@
+{
+  "id" : "icpd938",
+  "formula" : "C6H10O6",
+  "name" : "l-gulono-1,4-lactone",
+  "synonyms" : [ "(3s,4r,5r)-5-[(1s)-1,2-dihydroxyethyl]-3,4-dihydroxyoxolan-2-one", "l-(+)-gulono-1,4-lactone" ],
+  "alias" : "gullac",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01040"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "gullac"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-GULONO-1-4-LACTONE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "gullac"
+  } ],
+  "inchi" : "InChI=1S/C6H10O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2-5,7-10H,1H2/t2-,3+,4-,5+/m0/s1",
+  "inchikey" : "SXZYCXMUPBBULW-SKNVOMKLSA-N",
+  "smiles" : "C([C@@H]([C@]1([H])[C@@H]([C@@H](C(=O)O1)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-14395", "META:RXN4FS-11", "META:GLUCURONOLACTONE-REDUCTASE-RXN", "META:RXN4FS-10", "META:RXN-13689", "META:RXN-8783", "META:L-GULONOLACTONE-OXIDASE-RXN" ],
+      "gibbs" : -113.06881,
+      "cmlMolWeight" : 178.141,
+      "molWeight" : 178.141
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 13 13  0  0  1  0  0  0  0  0999 V2000\n   27.1164  -16.3625    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.5779  -17.6710    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.2433  -15.5344    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8138  -15.9693    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.9701  -17.6710    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.7443  -18.8234    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3692  -16.3684    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4905  -14.5819    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7728  -16.8778    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8437  -18.8084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7253  -15.9053    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1448  -14.1620    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1269  -17.3420    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  4  9  1  1     0  0\n  5 10  1  1     0  0\n  7 11  2  0     0  0\n  8 12  1  0     0  0\n  5  7  1  0     0  0\n  1 13  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C01040\n\n$$$$",
+  "reactions" : [ "irxn25", "irxn1321", "irxn2774", "irxn1378" ]
+}

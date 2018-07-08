@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4760",
+  "equation" : "icpd4040 + nadp <=> nadph + h + icpd964",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4040" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd964" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.42; 1.3.1.42",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:12-OXOPHYTODIENOATE-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03401"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-735" ],
+      "orphan" : "NO",
+      "gibbs" : 0.82351685,
+      "uniprot" : [ "O23777", "Q39612", "P93699" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00592", "rn01110" ],
+      "orthologs" : [ "K05894" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

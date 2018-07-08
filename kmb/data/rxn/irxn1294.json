@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1294",
+  "equation" : "h2o + nfmalm <=> malm + for + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3030" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd4567" : "",
+      "icpd1650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.106; 3.5.1.106",
+  "otherNames" : [ ],
+  "alias" : "NFMLDF",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09126"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11318"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NFMLDF"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-722", "META:PWY-6993", "META:PWY-7128" ],
+      "orphan" : "NO",
+      "gibbs" : -15.4171295,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00760", "rn01120" ],
+      "orthologs" : [ "K15357" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

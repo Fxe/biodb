@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5909",
+  "equation" : "icpd4035 + o2 + nadh + h <=> nad + icpd4526",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4035" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd4526" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.-; EC-1.14.12.M3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05429"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIOXYXANFL-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:14DICHLORBENZDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -86.8418,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00361", "rn01120", "rn01220" ],
+      "orthologs" : [ "K03268", "K16268", "K18089", "K18090" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

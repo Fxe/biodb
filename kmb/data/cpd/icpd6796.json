@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6796",
+  "formula" : "C10H12O2",
+  "name" : "4-isopropylbenzoic acid",
+  "synonyms" : [ "4-(1-methylethyl)-benzoic acid", "4-(1-methylethyl)benzoic acid", "4-(1-methylethyl)benzoic acid, 9ci", "4-(propan-2-yl)benzoic acid", "benzoic acid, p-isopropyl- (8ci)", "cumic acid", "cuminic acid", "p-isopropyl-benzoic acid" ],
+  "alias" : "icpd6796",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06578"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1004"
+  } ],
+  "inchi" : "InChI=1S/C10H12O2/c1-7(2)8-3-5-9(6-4-8)10(11)12/h3-7H,1-2H3,(H,11,12)",
+  "inchikey" : "CKMXAIVXVKGGFM-UHFFFAOYSA-N",
+  "smiles" : "CC(C)C1=CC=C(C=C1)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-664", "META:RXN-663" ],
+      "gibbs" : 59.42026,
+      "cmlMolWeight" : 163.196,
+      "molWeight" : 163.196
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   28.8400  -18.3381    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -19.7421    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.6233  -17.6420    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0450  -17.6420    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6291  -20.4383    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0567  -20.4383    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6233  -16.2380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0450  -16.2380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -15.5419    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -14.1379    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0567  -13.4417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6291  -13.4417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  7  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06578\n\n$$$$",
+  "reactions" : [ "irxn3739", "irxn3768" ]
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "irxn2627",
+  "equation" : "icpd431 <=> icpd436",
+  "stoichiometry" : {
+    "l" : {
+      "icpd431" : ""
+    },
+    "r" : {
+      "icpd436" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.99.3; EC-5.1.99.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03925"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALLANTOIN-RACEMASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00230" ],
+      "orthologs" : [ "K16841" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

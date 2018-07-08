@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2827",
+  "equation" : "mi13456p + atp <=> ppmi1346p + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6072" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd4004" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1",
+  "otherNames" : [ ],
+  "alias" : "PMI1346PS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PMI1346PS"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-4941"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6369" ],
+      "orphan" : "NO",
+      "gibbs" : -5.7788086,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM904" ]
+    }
+  }
+}

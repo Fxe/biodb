@@ -1,0 +1,55 @@
+{
+  "id" : "irxn6372",
+  "equation" : "3.0 nadph + 3.0 o2 + 3.0 h + 44mzym <=> 4.0 h2o + 4mzym_int1 + 3.0 nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "3.0",
+      "icpd5432" : "3.0",
+      "icpd1851" : "3.0",
+      "icpd4304" : ""
+    },
+    "r" : {
+      "icpd4016" : "4.0",
+      "icpd1761" : "",
+      "icpd5537" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.72",
+  "otherNames" : [ ],
+  "alias" : "C4STMO1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "44MZYMMO"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C4STMO1r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C4STMO1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07509"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100", "rn01130" ],
+      "orthologs" : [ "K07750" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

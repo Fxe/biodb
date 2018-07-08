@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6673",
+  "equation" : "coa + arach + atp <=> arachcoa + amp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7880" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd7180" : "",
+      "icpd5474" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FACOAL200",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL200"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL_C200_x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARACHFATPc"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNJ661", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  }
+}

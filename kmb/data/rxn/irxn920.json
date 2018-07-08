@@ -1,0 +1,48 @@
+{
+  "id" : "irxn920",
+  "equation" : "o2 + nadh + h + icpd546 <=> nad + 2.0 h2o + icpd4009",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd546" : ""
+    },
+    "r" : {
+      "icpd4016" : "2.0",
+      "icpd5131" : "",
+      "icpd4009" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.141",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11355"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12850"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-17644" ],
+      "orphan" : "NO",
+      "gibbs" : -100.875755,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6874",
+  "equation" : "o2 + nadh + h + icpd1525 <=> nad + icpd4635",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd1525" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd4635" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.12.3; 1.14.12.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BENZENE-12-DIOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03543"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:FAD" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5450" ],
+      "orphan" : "NO",
+      "gibbs" : -66.2218,
+      "uniprot" : [ "P13452", "Q07947", "Q07945", "Q07946", "P08084", "Q07944" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00361", "rn01220", "rn00362" ],
+      "orthologs" : [ "K03268", "K16268", "K18089", "K18090" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

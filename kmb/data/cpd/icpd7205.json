@@ -1,0 +1,35 @@
+{
+  "id" : "icpd7205",
+  "formula" : "C5H3O3",
+  "name" : "2-furoate",
+  "synonyms" : [ "2-furanoate", "furancarboxylate", "furoate" ],
+  "alias" : "icpd7205",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1572"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-FUROATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01546"
+  } ],
+  "inchi" : "InChI=1S/C5H4O3/c6-5(7)4-2-1-3-8-4/h1-3H,(H,6,7)/p-1",
+  "inchikey" : "SMNDYUVBFMFKNZ-UHFFFAOYSA-M",
+  "smiles" : "C1=COC(=C1)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN0-7008" ],
+      "reactions" : [ "META:2-FUROATE--COA-LIGASE-RXN", "META:RXN-13100", "META:RXN-13094", "META:RXN-13093" ],
+      "gibbs" : -70.958694,
+      "cmlMolWeight" : 111.077,
+      "molWeight" : 111.077
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   25.1262  -17.5830    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2425  -16.9392    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3529  -17.5830    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2425  -15.6574    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9896  -16.7578    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8555  -17.5816    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2885  -18.9148    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6902  -18.9150    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  2  0     0  0\n  1  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  2  0     0  0\n  7  8  1  0     0  0\n  1  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01546\n\n$$$$",
+  "reactions" : [ "irxn2029", "irxn4997" ]
+}

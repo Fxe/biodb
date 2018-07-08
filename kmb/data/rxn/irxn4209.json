@@ -1,0 +1,53 @@
+{
+  "id" : "irxn4209",
+  "equation" : "cytd + atp <=> cmp + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd78" : ""
+    },
+    "r" : {
+      "icpd3421" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.213; 2.7.1.213; 2.7.1.48",
+  "otherNames" : [ ],
+  "alias" : "CYTDK1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYTDK1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00513"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CYTIKIN-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYTDK2m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5532", "META:PWY-7193" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815857,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K22026", "K00876", "K21057" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNF517", "iRC1080", "iMM1415", "iLB1027_lipid", "iML1515", "RECON1", "iYO844" ]
+    }
+  }
+}

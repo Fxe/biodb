@@ -1,0 +1,38 @@
+{
+  "id" : "icpd4112",
+  "formula" : "C7H9N5O3",
+  "name" : "6-carboxy-5,6,7,8-tetrahydropterin",
+  "synonyms" : [ "4-hydroxy-2-imino-1,2,5,6,7,8-hexahydropteridine-6-carboxylic acid", "4-hydroxy-2-imino-5,6,7,8-tetrahydro-1h-pteridine-6-carboxylic acid", "6-carboxytetrahydropterin" ],
+  "alias" : "cph4",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1699"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "cph4"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20239"
+  } ],
+  "inchi" : "InChI=1S/C7H9N5O3/c8-7-11-4-3(5(13)12-7)10-2(1-9-4)6(14)15/h2,10H,1H2,(H,14,15)(H4,8,9,11,12,13)",
+  "inchikey" : "QSIYONWVWDSRRO-UHFFFAOYSA-N",
+  "smiles" : "C1C(C(=O)O)NC2=C(N1)NC(=N)N=C2O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Tetrahydropterins" ],
+      "reactions" : [ "META:RXN0-6575", "META:RXN0-5507" ],
+      "gibbs" : 4.1169066,
+      "cmlMolWeight" : 210.172,
+      "molWeight" : 210.172,
+      "parents" : [ "META:Tetrahydropterins" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iAF987", "iECABU_c1320", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 15 16  0  0  0  0  0  0  0  0999 V2000\n   13.5226  -18.2152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5285  -16.8171    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7343  -18.9259    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3167  -18.9200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7460  -16.1240    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3167  -16.1181    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9519  -18.2269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.0994  -18.2152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9576  -16.8228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.0994  -16.8171    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3167  -14.7142    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.8876  -18.9200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1518  -16.1240    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   18.3636  -16.8171    0.0000 O   0  0  1  0  0  0  0  0  0  0  0  0\n   17.1460  -14.7259    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  6 10  1  0     0  0\n  6 11  2  0     0  0\n  8 12  1  0     0  0\n  9 13  1  0     0  0\n 13 14  1  0     0  0\n 13 15  2  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20239\n\n$$$$",
+  "reactions" : [ "irxn2817", "irxn5776" ]
+}

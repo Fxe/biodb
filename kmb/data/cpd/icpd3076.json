@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3076",
+  "formula" : "C6H13O9P",
+  "name" : "d-galactose 6-phosphate",
+  "synonyms" : [ "6-phospho-d-galactose" ],
+  "alias" : "dgal6p",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01113"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dgal6p"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-galactopyranose-6-phosphate"
+  }, {
+    "source" : "BiGG",
+    "entry" : "dgal6p"
+  } ],
+  "inchi" : "InChI=1S/C6H13O9P/c7-1-3(8)5(10)6(11)4(9)2-15-16(12,13)14/h1,3-6,8-11H,2H2,(H2,12,13,14)/t3-,4+,5+,6-/m0/s1",
+  "inchikey" : "VFRROHXSMXFLSN-KCDKBNATSA-N",
+  "smiles" : "C(=O)[C@@]([H])([C@]([H])([C@]([H])([C@@]([H])(COP(=O)(O)O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-15712", "META:CPD-1241" ],
+      "reactions" : [ "META:RXN-15169", "META:LACTOSE-6-PHOSPHATE-ISOMERASE-RXN", "META:LACTOSE6P-HYDROXY-RXN", "META:6-PHOSPHO-BETA-GALACTOSIDASE-RXN" ],
+      "gibbs" : -319.04593,
+      "cmlMolWeight" : 258.121,
+      "molWeight" : 258.121,
+      "parents" : [ "META:CPD-15712", "META:CPD-1241", "META:D-galactose-6-phosphate" ]
+    },
+    "bigg" : {
+      "models" : [ "iSB619" ]
+    }
+  },
+  "mol" : " \n \n \n 16 16  0  0  1  0  0  0  0  0999 V2000\n   25.9015  -16.0011    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   27.3009  -16.0070    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8898  -17.4005    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5021  -16.0011    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8898  -14.6076    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3679  -15.0973    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5748  -15.8029    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   29.5748  -17.2021    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   30.7818  -15.0973    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7818  -17.9018    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.3679  -17.9018    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.0005  -15.8029    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   32.0005  -17.1964    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   30.7876  -19.3012    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2191  -15.0973    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2132  -17.9018    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  7  6  1  1     0  0\n  7  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n  8 11  1  1     0  0\n  9 12  1  0     0  0\n 10 13  1  0     0  0\n 10 14  1  1     0  0\n 12 15  1  4     0  0\n 13 16  1  6     0  0\n 12 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01113\n\n$$$$",
+  "reactions" : [ "irxn4993", "irxn6587", "irxn5717" ]
+}

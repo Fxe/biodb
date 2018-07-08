@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6379",
+  "equation" : "nadph + o2 + h + icpd4955 <=> 2.0 h2o + icpd4648 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4955" : ""
+    },
+    "r" : {
+      "icpd4648" : "",
+      "icpd4016" : "2.0",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.21.-; EC-1.14.21",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9206"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08448"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CARBON-MONOXIDE", "META:CPD-14540", "META:HYDROXYNAPHTHOQUINONE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5846" ],
+      "orphan" : "NO",
+      "gibbs" : -103.50845,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00950" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

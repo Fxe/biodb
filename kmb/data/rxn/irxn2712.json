@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2712",
+  "equation" : "nad + hicit <=> nadh + co2 + h + ohexa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7788" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd5414" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.87; EC-1.1.1.286; EC-1.1.1.87; 1.1.1.286",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01934"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7970"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LYSINE-AMINOAD-PWY", "META:P241-PWY", "META:PWY-3081" ],
+      "orphan" : "NO",
+      "gibbs" : 2.3240967,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01210", "rn01100", "rn01230", "rn01120", "rn01130" ],
+      "orthologs" : [ "K05824", "K17753", "K10978" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

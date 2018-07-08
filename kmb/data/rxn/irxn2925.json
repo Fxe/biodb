@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2925",
+  "equation" : "forcoa + h2o <=> coa + for",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6732" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd1650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.2.10; EC-3.1.2.10",
+  "otherNames" : [ ],
+  "alias" : "FCOAH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FCOAH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00521"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FORMYL-COA-HYDROLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FCOAH2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6696", "META:PWY66-388", "META:PWY66-387" ],
+      "orphan" : null,
+      "gibbs" : -5.167053,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNJ661", "iMM1415", "RECON1" ]
+    }
+  }
+}

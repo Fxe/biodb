@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6419",
+  "equation" : "ap4a + h2o <=> amp + 2.0 h + atp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd6868" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd7180" : "",
+      "icpd6530" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.61; 3.6.1.17; EC-3.6.1.61",
+  "otherNames" : [ ],
+  "alias" : "AP4AH1",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00184"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AP4AH1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12820"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -14.2873535,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230" ],
+      "orthologs" : [ "K01518", "K18445" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

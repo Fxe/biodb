@@ -1,0 +1,53 @@
+{
+  "id" : "irxn1622",
+  "equation" : "h2o + 341865 <=> 340937 + h + chol",
+  "stoichiometry" : {
+    "l" : {
+      "341865" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3647" : "",
+      "icpd1851" : "",
+      "340937" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PCHOLP_cho",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PCHOLPm_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PCHOLPr_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PCHOLPg_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PCHOLP_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

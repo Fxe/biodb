@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1744",
+  "equation" : "gal14lac + 2.0 ficytc <=> ascb__L + 2.0 focytc + 3.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3508" : "",
+      "icpd7807" : "2.0"
+    },
+    "r" : {
+      "icpd1851" : "3.0",
+      "icpd6262" : "2.0",
+      "icpd285" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.2.3",
+  "otherNames" : [ ],
+  "alias" : "GLACDH_m",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00640"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLACDH_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053", "rn01110" ],
+      "orthologs" : [ "K00225" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

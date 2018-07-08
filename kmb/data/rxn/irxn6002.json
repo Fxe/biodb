@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6002",
+  "equation" : "h + tyr__L <=> co2 + tym",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7576" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd2865" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.28; EC-4.1.1.25; 4.1.1.25",
+  "otherNames" : [ ],
+  "alias" : "TYRCBOX",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TYROSINE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TYRCBOX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00736"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDROXYLAMINE", "META:CPD-7648" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6133", "META:PWY-7297", "META:PWY-3581", "META:PWY-5254", "META:PWY-5474", "META:PWY-7826", "META:PWY-6802" ],
+      "orphan" : "NO",
+      "gibbs" : -5.0200043,
+      "uniprot" : [ "Q06086", "P54771", "P54770", "O82417", "P54769", "P54768" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00680", "rn00350", "rn01110", "rn00950" ],
+      "orthologs" : [ "K01592", "K01593", "K18933" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1393",
+  "equation" : "nad + dhf <=> fol + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd824" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd3460" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.3",
+  "otherNames" : [ ],
+  "alias" : "r0512",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02235"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHFOR"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0512"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00790", "rn00670" ],
+      "orthologs" : [ "K00287", "K18590", "K18591", "K19643", "K19644", "K18589", "K13998" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

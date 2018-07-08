@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2946",
+  "equation" : "malcoa + icpd5527 <=> icpd5264 + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "",
+      "icpd5527" : ""
+    },
+    "r" : {
+      "icpd5264" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.214; EC-2.3.1.214",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R06800"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8139"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:N-ETHYLMALEIMIDE", "META:CU+2", "META:DIETHYLPYROCARBONATE", "META:CO-A", "META:ZN+2", "META:CPD-7140", "META:HG+2", "META:CAFFEATE", "META:ACETYL-COA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5268" ],
+      "orphan" : "NO",
+      "gibbs" : -1.7376099,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00942" ],
+      "orthologs" : [ "K12935" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3068",
+  "equation" : "nac + prpp + h <=> ppi + nicrnt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd825" : "",
+      "icpd3930" : ""
+    },
+    "r" : {
+      "icpd4249" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "NAPRT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NAPRTm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NAPRT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNF517", "iND750", "iNJ661", "iMM904", "iSB619", "iHN637", "iYO844" ]
+    }
+  }
+}

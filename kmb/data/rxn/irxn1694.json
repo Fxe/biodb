@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1694",
+  "equation" : "3.0 o2 + pppg9 <=> 3.0 h2o2 + ppp9",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "3.0",
+      "icpd2144" : ""
+    },
+    "r" : {
+      "icpd2494" : "3.0",
+      "icpd5213" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.3.4; EC-1.3.3.4",
+  "otherNames" : [ ],
+  "alias" : "PPPGO_1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PPPGO2_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPPGO_1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PROTOPORGENOXI-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03222"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ACIFLUORFEN" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY0-1415", "META:PWY-7159", "META:CHLOROPHYLL-SYN", "META:HEME-BIOSYNTHESIS-II" ],
+      "orphan" : "NO",
+      "gibbs" : -137.31001,
+      "uniprot" : [ "Q49404", "P0ACB4", "O64384", "O64385", "P51175", "O24164", "O24163", "Q7M1R6", "P50336", "Q9CHX0" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ "K00231" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

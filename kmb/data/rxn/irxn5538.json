@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5538",
+  "equation" : "icpd8107 + h2o + glyald <=> icpd8139 + glyc__R + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd4016" : "",
+      "icpd5552" : ""
+    },
+    "r" : {
+      "icpd3290" : "",
+      "icpd1851" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.99.8; 1.2.99.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10324"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCERALDEHYDE-DEHYDRO-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:NPGLUCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00030" ],
+      "orthologs" : [ "K18020", "K18021", "K18022" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

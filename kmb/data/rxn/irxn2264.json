@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2264",
+  "equation" : "sucsal + pyr <=> icpd3316",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd7343" : ""
+    },
+    "r" : {
+      "icpd3316" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2; 4.1.2.52",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14146"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01647"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -8.605911,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00350" ],
+      "orthologs" : [ "K02510" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

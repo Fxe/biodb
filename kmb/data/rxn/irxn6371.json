@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6371",
+  "equation" : "icpd6297 <=> mma + 4hoxpacd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6297" : ""
+    },
+    "r" : {
+      "icpd376" : "",
+      "icpd3480" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.88; 4.2.1.88",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SYNEPHRINE-DEHYDRATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03359"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:CO+2", "META:CYS", "META:ZN+2", "META:CPD-8819", "META:CPD-29", "META:HG+2", "META:O-PHENANTHROLINE", "META:IODOACETATE", "META:8-HYDROXYQUINOLINE", "META:AG+", "META:EDTA" ],
+      "activators" : [ "META:FE+2", "META:MG+2", "META:CA+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7431" ],
+      "orphan" : null,
+      "gibbs" : 12.660011,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

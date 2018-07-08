@@ -1,0 +1,45 @@
+{
+  "id" : "icpd19",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "dag_hs",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "12dgr_EC"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dag_hs"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "12dgr_HP"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00641"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIACYLGLYCEROL"
+  }, {
+    "source" : "BiGG",
+    "entry" : "12dgr_EC"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:DIACYLGLYKIN-RXN", "META:PHOSPHATIDATE-PHOSPHATASE-RXN" ],
+      "instances" : [ "META:CPD-17271", "META:CPD66-34", "META:CPD-17272", "META:CPD-13040" ],
+      "reactions" : [ "META:RXN-18035", "META:RXN3O-680", "META:RXN-18037", "META:3.1.4.10-RXN", "META:DIACYLGLYCEROL-O-ACYLTRANSFERASE-RXN", "META:2.3.1.158-RXN", "META:3.1.4.11-RXN", "META:RXN-15211", "META:RXN-14363", "META:RXN-12383", "META:RXN-12386", "META:DIACYLGLYKIN-RXN", "META:RXN-15210", "META:RXN-12347", "META:2.3.1.77-RXN", "META:RXN4FS-1", "META:RXN4FS-4", "META:RXN0-4581", "META:RXN-1226", "META:RXN-1224", "META:3.1.4.47-RXN", "META:RXN-5781", "META:RXN-16261", "META:3.1.1.--RXN", "META:RXN3O-581", "META:PHOSPHATIDATE-PHOSPHATASE-RXN", "META:RXN-12434", "META:2.7.8.27-RXN", "META:RXN-14379", "META:PHOSPHOLIPASE-C-RXN", "META:RXN-16634", "META:RXN-16635", "META:2.4.1.46-RXN", "META:RXN-9977", "META:RXN-10807", "META:PGLYCEROLTRANSI-RXN", "META:RXN-7795", "META:RXN-16286", "META:RXN-13334", "META:ETHANOLAMINEPHOSPHOTRANSFERASE-RXN", "META:RXN-16648", "META:RXN-1641", "META:RXN-12959", "META:2.4.1.157-RXN", "META:2.3.1.73-RXN", "META:RXN-9721", "META:RXN-16282", "META:RXN-16283", "META:RXN-16284", "META:LIPOPROTEIN-LIPASE-RXN" ],
+      "parents" : [ "META:1-2-Diglycerides", "META:CPD-17271", "META:CPD66-34", "META:CPD-17272", "META:CPD-13040" ]
+    },
+    "bigg" : {
+      "models" : [ "iIT341", "iMM1415", "iJR904", "iSB619", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 12 11  0  0  0  0  0  0  0  0999 V2000\n   25.3981  -16.5616    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   25.3922  -15.1132    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9615  -16.5556    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3922  -17.9980    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8289  -15.1132    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9337  -16.5616    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8289  -17.9980    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2772  -15.1132    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9454  -15.1540    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4913  -16.5616    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2713  -13.6766    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7196  -15.1132    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  6  9  2  0     0  0\n  6 10  1  0     0  0\n  8 11  2  0     0  0\n  8 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00641\n\n$$$$",
+  "reactions" : [ "irxn2", "irxn1" ]
+}

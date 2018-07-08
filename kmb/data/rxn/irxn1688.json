@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1688",
+  "equation" : "h2o + 4hbald + nadp <=> nadph + 4hbz + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1490" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5989" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.7; 1.2.1.96; EC-1.2.1.96",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYBENZALDEHYDE-OXIDATION-NADP-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01294"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:N-ETHYLMALEIMIDE" ],
+      "activators" : [ "META:K+", "META:RB+", "META:AMMONIUM" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:4-HYDROXYMANDELATE-DEGRADATION-PWY", "META:PWY-7700" ],
+      "orphan" : "NO",
+      "gibbs" : -14.353577,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627", "rn00623" ],
+      "orthologs" : [ "K20199" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6273",
+  "equation" : "cytd + pi <=> r1p + csn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7485" : "",
+      "icpd78" : ""
+    },
+    "r" : {
+      "icpd7382" : "",
+      "icpd96" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.2.2",
+  "otherNames" : [ ],
+  "alias" : "PYNP1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PYNP1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02296"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K00756" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNF517", "iSB619", "iHN637", "iYO844" ]
+    }
+  }
+}

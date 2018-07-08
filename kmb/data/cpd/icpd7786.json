@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7786",
+  "formula" : "C6H9O6PS",
+  "name" : "2-hydroxy-5-(methylthio)-3-oxopent-1-enyl phosphate",
+  "synonyms" : [ "2-hydroxy-5-(methylsulfanyl)-3-oxopent-1-enyl 1-phosphate", "2-hydroxy-5-(methylthio)-3-oxopent-1-enyl 1-phosphate" ],
+  "alias" : "icpd7786",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15651"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-HYDROXY-3-KETO-5-METHYLTHIO-1-PHOSPHOP"
+  } ],
+  "inchi" : "InChI=1S/C6H11O6PS/c1-14-3-2-5(7)6(8)4-12-13(9,10)11/h4,8H,2-3H2,1H3,(H2,9,10,11)/p-2",
+  "inchikey" : "YIEMFVNCENFBSD-UHFFFAOYSA-L",
+  "smiles" : "CSCCC(=O)C(=COP(=O)(O)[O-])[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:R83-RXN", "META:R82-RXN" ],
+      "gibbs" : -200.52959,
+      "cmlMolWeight" : 239.159,
+      "molWeight" : 239.159
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 13  0  0  0  0  0  0  0  0999 V2000\n   23.8659  -39.1252    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0779  -39.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2899  -39.1252    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5019  -39.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7139  -39.1252    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9259  -39.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1379  -39.1252    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2899  -37.7259    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5019  -41.2245    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.3540  -39.8273    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4659  -39.1252    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4659  -37.7252    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0659  -39.1252    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4659  -40.5252    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  7 10  1  0     0  0\n  1 11  1  0     0  0\n 11 12  1  0     0  0\n 11 13  1  0     0  0\n 11 14  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15651\n\n$$$$",
+  "reactions" : [ "irxn3653", "irxn3656" ]
+}

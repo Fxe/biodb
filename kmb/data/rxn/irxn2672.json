@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2672",
+  "equation" : "xyl__D + nadp <=> nadph + icpd5495 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2019" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5495" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.179; 1.1.1.179",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-XYLOSE-1-DEHYDROGENASE-NADP+-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01430"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:KCL", "META:NACL", "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6760" ],
+      "orphan" : "NO",
+      "gibbs" : -5.9264526,
+      "uniprot" : [ "P31867", "P49378" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00040" ],
+      "orthologs" : [ "K00078", "K14273" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

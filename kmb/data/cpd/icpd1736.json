@@ -1,0 +1,42 @@
+{
+  "id" : "icpd1736",
+  "formula" : "C7H8O2",
+  "name" : "3-methylcatechol",
+  "synonyms" : [ "2,3-dihydroxytoluene", "methylcatechol" ],
+  "alias" : "3mcat",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "3mcat"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3mcat"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-111"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02923"
+  } ],
+  "inchi" : "InChI=1S/C7H8O2/c1-5-3-2-4-6(8)7(5)9/h2-4,8-9H,1H3",
+  "inchikey" : "PGSWEKYNAOWQDF-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=CC(=C1O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-8612" ],
+      "instances" : [ "META:Catechols" ],
+      "reactions" : [ "META:TOLUENE-DIOL-DEHYDROGENASE-RXN", "META:1.3.1.68-RXN", "META:O-CRESOL-METHYLCATECHOL-RXN", "META:CATECHOL-2-3-DIOXYGENASE-RXN", "META:RXN-8819", "META:RXN-11218" ],
+      "gibbs" : 31.15897,
+      "cmlMolWeight" : 124.139,
+      "molWeight" : 124.139,
+      "parents" : [ "META:Catechols" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   29.4483  -16.8932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2261  -16.2021    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4483  -18.3010    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6514  -16.1956    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0229  -16.8932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2261  -14.8071    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2261  -19.0114    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6577  -18.9986    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0229  -18.3010    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  5  9  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02923\n\n$$$$",
+  "reactions" : [ "irxn1490", "irxn6692", "irxn5095", "irxn5934" ]
+}

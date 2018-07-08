@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5894",
+  "formula" : "C8H7O4",
+  "name" : "l-p-hydroxymandelate",
+  "synonyms" : [ "(s)-2-hydroxy-2-(4-hydroxyphenyl)acetate", "(s)-4-hydroxymandelate", "l-4-hydroxymandelate" ],
+  "alias" : "icpd5894",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-106"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03198"
+  } ],
+  "inchi" : "InChI=1S/C8H8O4/c9-6-3-1-5(2-4-6)7(10)8(11)12/h1-4,7,9-10H,(H,11,12)/p-1/t7-/m0/s1",
+  "inchikey" : "YHXHKYRQLYQUIH-ZETCQYMHSA-M",
+  "smiles" : "C1=C(C=CC(=C1)[O-])[C@@]([H])(C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:4-HYDROXYMANDELATE" ],
+      "reactions" : [ "META:4-HYDROXYMANDELATE-OXY-RXN", "META:RXN-15300", "META:HYDROXY-MANDELATE-RACEMASE-RXN", "META:MANDELATE-4-MONOOXYGENASE-RXN", "META:4-HYDROXYMANDELATE-OXIDASE-RXN" ],
+      "gibbs" : -55.814228,
+      "cmlMolWeight" : 167.141,
+      "molWeight" : 167.141,
+      "parents" : [ "META:4-HYDROXYMANDELATE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   27.6827  -15.2485    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.4734  -15.9495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8984  -15.9431    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6827  -13.9871    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4734  -17.3647    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2450  -15.2485    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8984  -17.4156    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1075  -15.2357    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2450  -18.0784    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0358  -15.9495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0358  -17.3647    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8202  -18.0592    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  5  9  1  0     0  0\n  6 10  2  0     0  0\n  9 11  2  0     0  0\n 11 12  1  0     0  0\n 10 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03198\n\n$$$$",
+  "reactions" : [ "irxn3497", "irxn1605", "irxn327" ]
+}

@@ -1,0 +1,32 @@
+{
+  "id" : "icpd1651",
+  "formula" : "C4H4O",
+  "name" : "furan",
+  "synonyms" : [ "1,4-epoxy-1,3-butadiene", "furane", "oxacyclopentadiene", "oxole" ],
+  "alias" : "icpd1651",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C14275"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15491"
+  } ],
+  "inchi" : "InChI=1S/C4H4O/c1-2-4-5-3-1/h1-4H",
+  "inchikey" : "YLQBMQCUIZJEEH-UHFFFAOYSA-N",
+  "smiles" : "C1=COC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Furans", "META:Organic-heteromonocyclic-compounds" ],
+      "gibbs" : 22.254484,
+      "cmlMolWeight" : 68.075,
+      "molWeight" : 68.075,
+      "parents" : [ "META:Furans", "META:Organic-heteromonocyclic-compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  5  0  0  0  0  0  0  0  0999 V2000\n   27.1361  -16.4416    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2687  -15.6185    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5681  -17.7725    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4013  -16.4416    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9692  -17.7725    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C14275\n\n$$$$",
+  "reactions" : [ ]
+}

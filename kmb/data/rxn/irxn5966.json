@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5966",
+  "equation" : "h2o + iad <=> n2 + ind3ac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd54" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd1296" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.-; EC-3.5.1.4; 3.5.1.4",
+  "otherNames" : [ ],
+  "alias" : "AMID3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AMID3"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXNN-404"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03096"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3161", "META:PWY-5025", "META:PWY-581" ],
+      "orphan" : "NO",
+      "gibbs" : -5.3371162,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ "K21478", "K01426" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iJN678", "iMM904" ]
+    }
+  }
+}

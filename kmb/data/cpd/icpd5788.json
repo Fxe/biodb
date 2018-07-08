@@ -1,0 +1,39 @@
+{
+  "id" : "icpd5788",
+  "formula" : "C3H5NO",
+  "name" : "acrylamide",
+  "synonyms" : [ "2-propenamide", "2-propeneamide", "acrylic acid amide", "acrylic amide", "prop-2-enamide", "propenamide", "propeneamide", "propenoic acid amide" ],
+  "alias" : "aa",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01659"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "aa"
+  }, {
+    "source" : "BiGG",
+    "entry" : "aa"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACRYLAMIDE"
+  } ],
+  "inchi" : "InChI=1S/C3H5NO/c1-2-3(4)5/h2H,1H2,(H2,4,5)",
+  "inchikey" : "HRPVXLWXLXDGHG-UHFFFAOYSA-N",
+  "smiles" : "C=CC(=O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:R310-RXN", "META:R311-RXN" ],
+      "gibbs" : 28.815601,
+      "cmlMolWeight" : 71.079,
+      "molWeight" : 71.079
+    },
+    "bigg" : {
+      "models" : [ "iIT341" ]
+    }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   20.7200  -20.3700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9324  -21.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1449  -20.3700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3573  -21.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9324  -22.4698    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  2  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01659\n\n$$$$",
+  "reactions" : [ "irxn3901", "irxn2553" ]
+}

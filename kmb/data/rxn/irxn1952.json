@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1952",
+  "equation" : "h2o + icpd3349 <=> n2 + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd3349" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.99.10; EC-3.5.99.10",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15127"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11099"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:S-ALKYLCYSTEINE-LYASE-RXN", "META:TYROSINE-PHENOL-LYASE-RXN", "META:CYSTHIOCYS-RXN", "META:TRYPTOPHAN-RXN", "META:CYSTATHIONINE-BETA-LYASE-RXN", "META:3-CHLORO-D-ALANINE-DEHYDROCHLORINASE-RXN", "META:RXN-12729", "META:4.4.1.25-RXN", "META:CARBAMOYL-SERINE-AMMONIA-LYASE-RXN", "META:DSERDEAM-RXN", "META:RXN-6763", "META:4.3.1.17-RXN", "META:LCYSDESULF-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : 30.126984,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K09022" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

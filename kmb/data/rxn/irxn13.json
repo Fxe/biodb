@@ -1,0 +1,45 @@
+{
+  "id" : "irxn13",
+  "equation" : "o2 + icpd3903 <=> icpd1214 + co",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd3903" : ""
+    },
+    "r" : {
+      "icpd1214" : "",
+      "icpd4891" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.24; EC-1.13.11.24",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:QUERCETIN-23-DIOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02156"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DIETHYLDITHIOCARBAMATE", "META:KOJIC-ACID", "META:O-PHENANTHROLINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6848" ],
+      "orphan" : "NO",
+      "gibbs" : -95.171,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

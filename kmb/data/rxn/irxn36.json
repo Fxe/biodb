@@ -1,0 +1,50 @@
+{
+  "id" : "irxn36",
+  "equation" : "nad + sbt__D <=> nadh + fru + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd2287" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd2151" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.14; 1.1.1.14; 1.1.1.15",
+  "otherNames" : [ ],
+  "alias" : "SBTD_D2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00875"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7644"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SBTD_D2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:MG+2", "META:CA+2", "META:ZN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4101" ],
+      "orphan" : "NO",
+      "gibbs" : 0.9517822,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00051" ],
+      "orthologs" : [ "K00008" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "iAT_PLT_636", "iSB619", "RECON1", "iYO844", "iAB_RBC_283" ]
+    }
+  }
+}

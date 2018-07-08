@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6873",
+  "equation" : "akg + C02356 <=> 2obut + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd5904" : ""
+    },
+    "r" : {
+      "icpd3298" : "",
+      "icpd514" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.42",
+  "otherNames" : [ ],
+  "alias" : "RE2034C",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10991"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2034C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ "K00826" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

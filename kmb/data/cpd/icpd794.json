@@ -1,0 +1,37 @@
+{
+  "id" : "icpd794",
+  "formula" : "C5H9NO2",
+  "name" : "d-proline",
+  "synonyms" : [ "(2r)-pyrrolidine-2-carboxylic acid", "(r)-pyrrolidine-2-carboxylic acid", "d-prolin", "r-proline" ],
+  "alias" : "icpd794",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-PROLINE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "pro-D"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00763"
+  } ],
+  "inchi" : "InChI=1S/C5H9NO2/c7-5(8)4-2-1-3-6-4/h4,6H,1-3H2,(H,7,8)/t4-/m1/s1",
+  "inchikey" : "ONIBWKKTOPOVIA-SCSAIBSYSA-N",
+  "smiles" : "C1C[C@H](C(=O)O)NC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDROXYPYRROLINEDEH-RXN" ],
+      "instances" : [ "META:D-Amino-Acids" ],
+      "reactions" : [ "META:PRDABST-RXN", "META:PROLINE-RACEMASE-RXN", "META:RXN-11185", "META:RXN-11196", "META:1.21.4.1-RXN" ],
+      "gibbs" : 23.720093,
+      "cmlMolWeight" : 115.132,
+      "molWeight" : 115.132,
+      "parents" : [ "META:D-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  1  0  0  0  0  0999 V2000\n   22.5400  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9600  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7800  -17.9200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6600  -17.0800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9700  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2300  -17.9200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9700  -15.8200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  4  6  1  1     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00763\n\n$$$$",
+  "reactions" : [ "irxn50", "irxn4915" ]
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "irxn4227",
+  "equation" : "arg__L <=> icpd7702",
+  "stoichiometry" : {
+    "l" : {
+      "icpd90" : ""
+    },
+    "r" : {
+      "icpd7702" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.1.9; EC-5.1.1.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00567"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ARGININE-RACEMASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:L-PENICILLAMINE", "META:HYDROXYLAMINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00472" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3419",
+  "equation" : "icpd4657 <=> h + icpd303 + 2amac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4657" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd303" : "",
+      "icpd4735" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.4.1.4; EC-4.4.1.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALLIIN-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03901"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 129.01149,
+      "uniprot" : [ "P31757", "P31756", "Q7M1T5", "Q01594" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id" : "icpd1774",
+  "formula" : "C4H7N3O",
+  "name" : "2-imino-1-methyl-4-imidazolidinone",
+  "synonyms" : [ "1-methyl-2-amino-imidazol-4-one", "2-amino-1-methyl-1,5-dihydroimidazol-4-one", "2-amino-1-methylimidazolin-4-one", "2-imino-1-methylimidazolidin-4-one" ],
+  "alias" : "crtn",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "crtn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CREATININE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00791"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "crtn"
+  } ],
+  "inchi" : "InChI=1S/C4H7N3O/c1-7-2-3(8)6-4(7)5/h2H2,1H3,(H2,5,6,8)",
+  "inchikey" : "DDRJAANPRJIHGJ-UHFFFAOYSA-N",
+  "smiles" : "CN1CC(=NC1=N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:CREATININASE-RXN", "META:CREATININE-DEAMINASE-RXN", "META:RXN-7261" ],
+      "gibbs" : 64.98784,
+      "cmlMolWeight" : 113.119,
+      "molWeight" : 113.119
+    },
+    "bigg" : {
+      "models" : [ "iLJ478", "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   21.2772  -19.9464    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6768  -19.9464    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1093  -18.6152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9770  -17.7926    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8447  -18.6152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4545  -21.0787    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4286  -18.1866    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9770  -16.3774    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  1  6  2  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00791\n\n$$$$",
+  "reactions" : [ "irxn5752", "irxn241", "irxn3986" ]
+}

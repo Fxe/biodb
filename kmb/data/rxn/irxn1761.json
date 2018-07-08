@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1761",
+  "equation" : "atp + 5mtr <=> 5mdr1p + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd1311" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd6078" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.100; EC-2.7.1.100",
+  "otherNames" : [ ],
+  "alias" : "MTRK",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04143"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MTRK"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-METHYLTHIORIBOSE-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ADENINE", "META:PHMB", "META:CPD-479", "META:ADP", "META:ADENOSYL-HOMO-CYS" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6754" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815857,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ "K00899" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iPC815", "iRC1080", "iAF1260", "iIT341", "iAF1260b", "iLB1027_lipid", "iJR904", "iSB619", "STM_v1_0", "iYO844" ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id" : "icpd6007",
+  "formula" : "C2H4O3",
+  "name" : "hydroxyacetic acid",
+  "synonyms" : [ "2-hydroxyacetic acid", "alpha-hydroxyacetic acid", "glycolic acid", "hydroxyethanoic acid" ],
+  "alias" : "icpd6007",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OMEGA-HYDROXY-FATTY-ACID"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03547"
+  } ],
+  "inchi" : "InChI=1S/C2H4O3/c3-1-2(4)5/h3H,1H2,(H,4,5)",
+  "inchikey" : "AEMRFAOFKBGASW-UHFFFAOYSA-N",
+  "smiles" : "C(C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-18172", "META:CPD-102", "META:CPD-18176", "META:4-HYDROXY-BUTYRATE" ],
+      "reactions" : [ "META:RXN-4465", "META:RXN-4464" ],
+      "parents" : [ "META:Omega-Hydroxy-long-Chain-Fatty-Acid", "META:CPD-18172", "META:CPD-102", "META:Omega-Hydroxy-Medium-Chain-Fatty-Acid", "META:CPD-18176", "META:Omega-Hydroxy-Me-Branched-Lipids", "META:Omega-Hydroxy-Short-Chain-Fatty-Acid", "META:4-HYDROXY-BUTYRATE", "META:Hydroxy-fatty-acids", "META:Omega-Hydroxy-Very-Long-Chain-Fatty-Acid" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   16.6600  -19.1800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5024  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8549  -19.1800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0673  -19.8800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8549  -17.7802    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1  1   2\nM  SDI   1  4   17.9200  -20.3700   17.9200  -19.1100\nM  SDI   1  4   18.9000  -19.1100   18.9000  -20.3700\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C03547\n\n$$$$",
+  "reactions" : [ ]
+}

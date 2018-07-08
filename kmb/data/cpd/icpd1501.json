@@ -1,0 +1,32 @@
+{
+  "id" : "icpd1501",
+  "formula" : "C4H6O8P",
+  "name" : "3-dehydro-4-phospho-l-erythronate",
+  "synonyms" : [ "3-dehydro-4-phospho-d-threonate" ],
+  "alias" : "icpd1501",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19880"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21611"
+  } ],
+  "inchi" : "InChI=1S/C4H7O8P/c5-2(3(6)4(7)8)1-12-13(9,10)11/h3,6H,1H2,(H,7,8)(H2,9,10,11)/p-1/t3-/m0/s1",
+  "inchikey" : "SMTGVDDLBJESIT-VKHMYHEASA-M",
+  "smiles" : "C(C(=O)[C@@]([H])(C(=O)[O-])O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aldonic-acid-phosphates" ],
+      "reactions" : [ "META:RXN-18599", "META:RXN-18588", "META:RXN-18595" ],
+      "cmlMolWeight" : 211.045,
+      "molWeight" : 211.045,
+      "parents" : [ "META:Aldonic-acid-phosphates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   16.6258  -16.5556    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   17.8885  -15.8541    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4332  -15.8541    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6258  -17.9586    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0811  -16.5556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8885  -14.4511    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2406  -16.5556    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4332  -14.4511    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2736  -15.8541    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6766  -15.8541    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6766  -14.4511    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0797  -15.8541    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6766  -17.2571    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  5  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  2  0     0  0\n 10 12  1  0     0  0\n 10 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21611\n\n$$$$",
+  "reactions" : [ "irxn4827", "irxn321" ]
+}

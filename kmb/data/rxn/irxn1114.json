@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1114",
+  "equation" : "nad + h2o + icpd372 <=> nadh + 2.0 h + 5cmhm",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd372" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd4135" : "",
+      "icpd1851" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.60; 1.2.1.60; 1.1.1.312",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04418"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHMS-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:3-HYDROXYPHENYLACETATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -14.353577,
+      "uniprot" : [ "O85980", "O30983" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00350", "rn01220" ],
+      "orthologs" : [ "K10219", "K00151" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

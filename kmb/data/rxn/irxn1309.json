@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1309",
+  "equation" : "ac + phenol <=> h2o + icpd8137",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5921" : "",
+      "icpd771" : ""
+    },
+    "r" : {
+      "icpd8137" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.1.2; 3.1.1.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07342"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01241"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ARYLESTERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 16.255127,
+      "uniprot" : [ "Q07792", "P22862" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

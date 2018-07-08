@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6124",
+  "equation" : "utp + n2 + atp <=> 2.0 h + pi + adp + ctp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd115" : "",
+      "icpd7085" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd5753" : "",
+      "icpd4369" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.4.2",
+  "otherNames" : [ ],
+  "alias" : "CTPS1",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00571"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14325"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CTPS1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CTPSYN-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -16.225708,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K01937" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNF517", "iND750", "iIT341", "iJN678", "iAF987", "iHN637", "iYO844", "iRC1080", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iSB619" ]
+    }
+  }
+}

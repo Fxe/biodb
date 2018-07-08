@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3279",
+  "equation" : "mepn + atp <=> ade + rpntp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2064" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd8006" : "",
+      "icpd5742" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.8.37; 2.7.8.37",
+  "otherNames" : [ ],
+  "alias" : "ARMEPNS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10185"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARMEPNS"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-6732"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7399", "META:PWY0-1533" ],
+      "orphan" : "NO",
+      "gibbs" : 71.49347,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00440" ],
+      "orthologs" : [ "K06165", "K06164", "K05780", "K06166" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

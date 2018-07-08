@@ -1,0 +1,39 @@
+{
+  "id" : "icpd7089",
+  "formula" : "C6H11N3",
+  "name" : "n-methylhistamine",
+  "synonyms" : [ "methylhistamine" ],
+  "alias" : "mhista",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05127"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "mhista"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-METHYL-HISTAMINE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "mhista"
+  } ],
+  "inchi" : "InChI=1S/C6H11N3/c1-7-3-2-6-4-8-5-9-6/h4-5,7H,2-3H2,1H3,(H,8,9)",
+  "inchikey" : "PHSPJQZRQAJPPF-UHFFFAOYSA-N",
+  "smiles" : "CNCCC1=CN=CN1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:HISTAMINE-N-METHYLTRANSFERASE-RXN" ],
+      "gibbs" : 157.41139,
+      "cmlMolWeight" : 126.181,
+      "molWeight" : 126.181
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   14.8999  -18.1815    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3116  -19.5196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7114  -19.5415    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1648  -18.2170    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0452  -17.3764    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5901  -17.7333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9424  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1549  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3673  -20.2300    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  1  5  1  0     0  0\n  1  6  1  0     0  0\n  3  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05127\n\n$$$$",
+  "reactions" : [ "irxn3744", "irxn934" ]
+}

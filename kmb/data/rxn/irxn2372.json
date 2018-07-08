@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2372",
+  "equation" : "icpd7243 <=> ppa + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7243" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd3637" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.3.32; EC-4.1.3.32",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:23-DIMETHYLMALATE-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01355"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5055" ],
+      "orphan" : "NO",
+      "gibbs" : 4.2241135,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00760", "rn01120" ],
+      "orthologs" : [ "K20454" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

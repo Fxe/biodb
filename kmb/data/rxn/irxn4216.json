@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4216",
+  "equation" : "ac + succoa <=> succ + accoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5921" : "",
+      "icpd5739" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.3.18; EC-2.8.3.18",
+  "otherNames" : [ ],
+  "alias" : "SUCOAACTr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SUCOAACTr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8807"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10343"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7254", "META:PWY-7384", "META:PWY-5536", "META:PWY-5677" ],
+      "orphan" : "NO",
+      "gibbs" : 1.3522949,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650", "rn01200", "rn00020", "rn01120", "rn01110", "rn01130", "rn00620" ],
+      "orthologs" : [ "K18118" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

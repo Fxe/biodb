@@ -1,0 +1,47 @@
+{
+  "id" : "icpd2461",
+  "formula" : "CH4",
+  "name" : "methane",
+  "synonyms" : [ "methan", "methyl hydride" ],
+  "alias" : "ch4",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06265"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01438"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ch4"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYL-GROUP"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ch4"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CH4"
+  } ],
+  "inchi" : "InChI=1S/CH4/h1H4",
+  "inchikey" : "VNWKTOKETHGBQD-UHFFFAOYSA-N",
+  "smiles" : "C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Simple-Groups" ],
+      "reactions" : [ "META:RXN0-6734", "META:METHYL-COM-HTP-RXN", "META:TRANS-RXN0-526", "META:RXN-8410", "META:RXN-12219", "META:METHANE-MONOOXYGENASE-RXN" ],
+      "gibbs" : 44.764484,
+      "cmlMolWeight" : 16.043,
+      "molWeight" : 16.043,
+      "parents" : [ "META:Simple-Groups" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iML1515" ]
+    }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   26.4600  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\nM  END\n\n> <ENTRY>\ncpd:C01438\n\n$$$$",
+  "reactions" : [ "irxn4241", "irxn4418" ]
+}

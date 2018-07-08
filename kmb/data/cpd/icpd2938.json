@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2938",
+  "formula" : "C5H9O3",
+  "name" : "5-hydroxypentanoate",
+  "synonyms" : [ "5-hydroxyvalerate" ],
+  "alias" : "icpd2938",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:5-HYDROXYPENTANOATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02804"
+  } ],
+  "inchi" : "InChI=1S/C5H10O3/c6-4-2-1-3-5(7)8/h6H,1-4H2,(H,7,8)/p-1",
+  "inchikey" : "PHOJOSOUIAQEDH-UHFFFAOYSA-M",
+  "smiles" : "C(CCO)CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:5-HYDROXYPENTANOATE-COA-TRANSFERASE-RXN" ],
+      "gibbs" : -25.99197,
+      "cmlMolWeight" : 117.124,
+      "molWeight" : 117.124
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   26.2500  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0600  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4400  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8000  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4400  -17.5700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7000  -19.7400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6100  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4200  -19.6700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02804\n\n$$$$",
+  "reactions" : [ "irxn2932" ]
+}

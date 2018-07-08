@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4616",
+  "equation" : "arab__L + atp <=> B_ara1p + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7503" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd6452" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.46",
+  "otherNames" : [ ],
+  "alias" : "AAPT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AAPT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01754"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100" ],
+      "orthologs" : [ "K12446" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

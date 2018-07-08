@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6328",
+  "equation" : "atp + mi1345p <=> h + mi13456p + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7331" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd6072" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.151; 2.7.1.151",
+  "otherNames" : [ ],
+  "alias" : "MI1345PKn",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MI1345PKn"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10953"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7184"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6361", "META:PWY-6554" ],
+      "orphan" : "NO",
+      "gibbs" : -24.801636,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00915" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

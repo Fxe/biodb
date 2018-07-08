@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6929",
+  "formula" : "C6H8O3",
+  "name" : "2,5-di(hydroxymethyl)furan",
+  "synonyms" : [ "2,5-bis(hydroxymethyl)furan", "2,5-bis-hydroxymethylfuran", "2,5-furandimethanol", "5-(hydroxymethyl)-furfuryl alcohol", "5-hydroxymethylfurfuryl alcohol", "[5-(hydroxymethyl)furan-2-yl]methanol" ],
+  "alias" : "icpd6929",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11573"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20443"
+  } ],
+  "inchi" : "InChI=1S/C6H8O3/c7-3-5-1-2-6(4-8)9-5/h1-2,7-8H,3-4H2",
+  "inchikey" : "DSLRVRBSNLHVBH-UHFFFAOYSA-N",
+  "smiles" : "C1=C(CO)OC(=C1)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-10738", "META:RXN-10739" ],
+      "gibbs" : -12.381042,
+      "cmlMolWeight" : 128.127,
+      "molWeight" : 128.127
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   19.3548  -17.2872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7905  -15.9568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6549  -15.1308    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5194  -15.9568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9549  -17.2872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3077  -15.2511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0988  -15.9510    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9950  -15.2511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2039  -15.9510    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  4  5  2  0     0  0\n  5  1  1  0     0  0\n  4  6  1  0     0  0\n  1  2  2  0     0  0\n  6  7  1  0     0  0\n  2  3  1  0     0  0\n  2  8  1  0     0  0\n  3  4  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20443\n\n$$$$",
+  "reactions" : [ "irxn4530" ]
+}

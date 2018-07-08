@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2685",
+  "equation" : "5dh4dglc + h <=> h2o + co2 + icpd3744",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd2507" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd2454" : "",
+      "icpd3744" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.41; EC-4.2.1.41",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02279"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4.2.1.41-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-5401", "META:IODOACETAMIDE", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6499", "META:PWY-6486", "META:PWY-6497", "META:PWY-6501" ],
+      "orphan" : "NO",
+      "gibbs" : -11.008774,
+      "uniprot" : [ "P42233" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053" ],
+      "orthologs" : [ "K01707" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

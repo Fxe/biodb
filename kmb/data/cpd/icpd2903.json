@@ -1,0 +1,30 @@
+{
+  "id" : "icpd2903",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd2903",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Long-Chain-Aldehydes"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00609"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-7886", "META:CPD-12667", "META:CPD-7879", "META:CPD-14926", "META:CPD-7882" ],
+      "reactions" : [ "META:RXN-13262", "META:RXN-13273", "META:RXN-11706", "META:RXN-13293", "META:RXN-4444", "META:LONG-CHAIN-FATTY-ACYL-COA-REDUCTASE-RXN", "META:ALKANAL-MONOOXYGENASE-FMN-LINKED-RXN", "META:LONG-CHAIN-ALDEHYDE-DEHYDROGENASE-RXN", "META:RXN-13281", "META:RXN-17107" ],
+      "parents" : [ "META:CPD-7886", "META:CPD-12667", "META:CPD-7879", "META:Fatty-Aldehydes", "META:CPD-14926", "META:CPD-7882" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   27.9873  -20.5453    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1938  -19.8458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7744  -19.8458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5679  -20.5453    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4193  -20.5500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00609\n\n$$$$",
+  "reactions" : [ "irxn850", "irxn1670", "irxn546" ]
+}

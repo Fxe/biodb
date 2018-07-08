@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7811",
+  "formula" : "C4H11N",
+  "name" : "2-aminobutane",
+  "synonyms" : [ "(+-)-sec-butylamine", "(+/-)-2-aminobutane", "(+/-)-sec-butylamine", "(rs)-2-aminobutane", "(rs)-sec-butylamine", "1-methyl-propylamine", "1-methylpropanamine", "1-methylpropylamine", "2-butanamine", "2-butylamine", "3-methyl-2-propylamine", "butan-2-amine", "sec-butanamine", "sec-butylamine", "secondary butylamine" ],
+  "alias" : "icpd7811",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C18706"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-3627"
+  } ],
+  "inchi" : "InChI=1S/C4H11N/c1-3-4(2)5/h4H,3,5H2,1-2H3",
+  "inchikey" : "BHRZNVHARXXAHW-UHFFFAOYSA-N",
+  "smiles" : "CCC(C)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:All-Amines" ],
+      "gibbs" : 116.091385,
+      "cmlMolWeight" : 74.145,
+      "molWeight" : 74.145,
+      "parents" : [ "META:All-Amines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   15.2600  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4500  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7100  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9000  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7100  -17.5700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18706\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5986",
+  "equation" : "coa + HC01672 <=> amp + accoa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd2441" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd1851" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.1",
+  "otherNames" : [ ],
+  "alias" : "r0068",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00236"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0068"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00620" ],
+      "orthologs" : [ "K01895" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

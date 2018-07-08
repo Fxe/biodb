@@ -1,0 +1,36 @@
+{
+  "id" : "icpd1414",
+  "formula" : "C5H11NO5S2",
+  "name" : "sulfoethylcysteine",
+  "synonyms" : [ ],
+  "alias" : "sec",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "sec"
+  }, {
+    "source" : "BiGG",
+    "entry" : "sec"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-467"
+  } ],
+  "inchi" : "InChI=1S/C5H11NO5S2/c7-5(8)4(3-12)6-1-2-13(9,10)11/h4,6,12H,1-3H2,(H,7,8)(H,9,10,11)/t4-/m0/s1",
+  "inchikey" : "YWWSRRVBUMDUJX-BYPYZUCNSA-N",
+  "smiles" : "C(CS(=O)(=O)O)N[C@@]([H])(CS)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:R234-RXN", "META:R233-RXN" ],
+      "gibbs" : -66.64085,
+      "cmlMolWeight" : 228.258,
+      "molWeight" : 228.258
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn4672" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1226",
+  "equation" : "amet + copre3 <=> ahcys + copre4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd1600" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd1623" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.131",
+  "otherNames" : [ ],
+  "alias" : "CPC3MT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CPC3MT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05809"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K13541", "C20", "K13540", "K05934", "C17" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iAF692", "iNJ661", "iAF987", "iHN637", "STM_v1_0" ]
+    }
+  }
+}

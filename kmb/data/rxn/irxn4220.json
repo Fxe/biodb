@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4220",
+  "equation" : "athr__L + nadp <=> nadph + co2 + aact",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3165" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd7275" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.381; EC-1.1.1.381",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10852"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16001"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -3.2564697,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K16066" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

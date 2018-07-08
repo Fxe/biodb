@@ -1,0 +1,61 @@
+{
+  "id" : "irxn3931",
+  "equation" : "asp__L + akg <=> glu__L + oaa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd95" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd7306" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.1; EC-2.6.1.1",
+  "otherNames" : [ ],
+  "alias" : "ASPTA",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13697"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ASPAMINOTRANS-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPTAm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPATh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPTA"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPTAp"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00355"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:BH4NA", "META:SUC", "META:GLUTARATE", "META:CPD0-1614", "META:MALEATE", "META:ADIPATE", "META:CPD-12132" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ASPARAGINE-DEG1-PWY-1", "META:MALATE-ASPARTATE-SHUTTLE-PWY", "META:ASPARTATE-DEG1-PWY", "META:PWY-7115", "META:ASPARTATESYN-PWY", "META:GLUTDEG-PWY", "META:PWY-7117", "META:PWY-7383", "META:PWY-5913" ],
+      "orphan" : "NO",
+      "gibbs" : 2.9700012,
+      "uniprot" : [ "Q59197", "P53001", "P37833", "Q9K0P5", "Q9ZLG5", "O05237", "Q42991", "O54170", "Q42794", "P00509", "Q22067", "P00507", "P00508", "P00505", "P00506", "P00503", "P00504", "O33822", "Q01802", "Q9X224", "Q40325", "Q42425", "P28011", "Q60317", "O01804", "Q9L0L5", "P12343", "P12345", "P12344", "Q7LZ21", "Q42391", "Q9YE99", "O28151", "Q9PPF7", "Q55453", "Q53951", "O30304", "O67781", "O48548", "P26563", "Q43305", "O96142", "Q9CEK7", "O66737", "O94320", "Q02635", "P17174", "P36692", "Q17983", "Q55128", "P28734", "Q59569", "Q9X0Y2", "P46248", "P46644", "P44425", "Q42803", "P14909", "O27916", "Q06191", "O48598", "P08906", "O42652", "O48599", "Q9JVS3", "P08907", "Q9Y9P0", "O27638", "P96847", "Q60013", "Q22066", "Q43057", "Q9RWP3", "P72859", "O25383", "P33097", "O28650", "Q17994", "Q55679", "P05201", "P05202" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00220", "rn01210", "rn01200", "rn01120", "rn01230", "rn01110", "rn00250", "rn01130", "rn00710" ],
+      "orthologs" : [ "K14455", "K14454", "K00812", "K00813", "K00811", "K11358" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iETEC_1333", "iECD_1391", "iECIAI1_1343", "iECED1_1282", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iECO111_1330", "iEcSMS35_1347", "iE2348C_1286", "iNRG857_1313", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iHN637", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iSF_1195", "iECDH10B_1368", "iECNA114_1301", "iSFxv_1172", "iECS88_1305", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

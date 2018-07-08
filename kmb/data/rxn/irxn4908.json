@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4908",
+  "equation" : "h2o + 2.0 g1p <=> 2.0 pi + malt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd402" : "2.0",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7037" : "",
+      "icpd7485" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.139; 2.4.1.139",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00957"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MALTOSE-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 17.546936,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

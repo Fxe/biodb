@@ -1,0 +1,54 @@
+{
+  "id" : "irxn155",
+  "equation" : "nad + h2o + betald <=> nadh + 2.0 h + glyb",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4924" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd6485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.8; EC-1.2.1.8",
+  "otherNames" : [ ],
+  "alias" : "BETALDHx",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02565"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BETALDHxm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BADH-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BETALDHx"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CHOLINE", "META:GLYCERALD", "META:BENZALDEHYDE", "META:ZN+2", "META:CPD-29", "META:HG+2", "META:CPD0-1678", "META:CPD0-1675", "META:PHENYLACETALDEHYDE", "META:CPD-5601", "META:CPD-7679", "META:CPD-5602", "META:CPD-7031", "META:ACETALD" ],
+      "activators" : [ "META:BETAINE", "META:PRO", "META:K+" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY1F-353", "META:PWY-7494", "META:CHOLINE-BETAINE-ANA-PWY", "META:BETSYN-PWY", "META:PWY-3722" ],
+      "orphan" : "NO",
+      "gibbs" : -12.481232,
+      "uniprot" : [ "P17445", "P17202", "Q43829", "O22477", "Q43828", "P42757", "O24174", "Q40024", "P28237" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00260" ],
+      "orthologs" : [ "A1", "K00130", "K14085" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECIAI1_1343", "iWFL_1372", "iML1515", "iJR904", "iECABU_c1320", "iJN746", "iAF1260b", "iEcDH1_1363", "iEcHS_1320", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iECW_1372", "iNRG857_1313", "iEcSMS35_1347", "iE2348C_1286", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iECDH10B_1368", "iECNA114_1301", "iECS88_1305", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

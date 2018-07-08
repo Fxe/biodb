@@ -1,0 +1,31 @@
+{
+  "id" : "icpd8055",
+  "formula" : "C7H8N4O2",
+  "name" : "paraxanthine",
+  "synonyms" : [ "1,7-dimethyl-2,3,6,7-tetrahydro-1h-purine-2,6-dione", "1,7-dimethyl-xanthine", "1,7-dimethylxanthine" ],
+  "alias" : "icpd8055",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1-7-DIMETHYLXANTHINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C13747"
+  } ],
+  "inchi" : "InChI=1S/C7H8N4O2/c1-10-3-8-5-4(10)6(12)11(2)7(13)9-5/h3H,1-2H3,(H,9,13)",
+  "inchikey" : "QUNWUDVFRNGTCO-UHFFFAOYSA-N",
+  "smiles" : "CN1C=NC2=C1C(=O)N(C)C(=N2)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-11517", "META:RXN-7601", "META:RXN-7600", "META:RXN-13106", "META:RXN-11520" ],
+      "gibbs" : 40.04997,
+      "cmlMolWeight" : 180.166,
+      "molWeight" : 180.166
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   25.9535  -17.7237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9535  -19.1518    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1591  -17.0157    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6485  -17.2906    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   27.1591  -19.8362    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6485  -19.5847    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3822  -17.7531    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   27.1591  -15.6346    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8294  -18.4494    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3822  -19.0992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6346  -17.0741    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6346  -19.8012    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2194  -15.9845    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  4  9  1  0     0  0\n  5 10  1  0     0  0\n  7 11  1  0     0  0\n 10 12  2  0     0  0\n  6  9  2  0     0  0\n  7 10  1  0     0  0\n  4 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C13747\n\n$$$$",
+  "reactions" : [ "irxn5597", "irxn2003", "irxn5655" ]
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6259",
+  "equation" : "o2 + icpd4229 <=> icpd355 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4229" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd355" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.21.3.3; 1.21.3.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03831"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RETICULINE-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DIETHYLDITHIOCARBAMATE", "META:CPD-15799", "META:S-SCOULERINE", "META:BERBERINE", "META:CPD-19604", "META:O-PHENANTHROLINE", "META:CPD-19603", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7138", "META:PWY-5287", "META:PWY-6337", "META:PWY-3901" ],
+      "orphan" : "NO",
+      "gibbs" : -25.240005,
+      "uniprot" : [ "P93479", "P30986" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00950" ],
+      "orthologs" : [ "K00307" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

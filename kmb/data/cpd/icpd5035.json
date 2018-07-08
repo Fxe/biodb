@@ -1,0 +1,36 @@
+{
+  "id" : "icpd5035",
+  "formula" : "C5H10O2S",
+  "name" : "3-(dimethylsulfonio)propanoate",
+  "synonyms" : [ ],
+  "alias" : "dmsp",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SS-DIMETHYL-BETA-PROPIOTHETIN"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04022"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dmsp"
+  } ],
+  "inchi" : "InChI=1S/C5H10O2S/c1-8(2)4-3-5(6)7/h3-4H2,1-2H3",
+  "inchikey" : "DFPOZTRSOAQFIK-UHFFFAOYSA-N",
+  "smiles" : "C[S+](C)CCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:DIMETHYLPROPIOTHETIN-DETHIOMETHYLASE-RXN", "META:RXN-9736", "META:RXN-9758", "META:RXN-10937", "META:RXN-9755", "META:RXN-9760" ],
+      "gibbs" : 37.4512,
+      "cmlMolWeight" : 134.193,
+      "molWeight" : 134.193
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   22.1140  -17.5912    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   23.3270  -16.8929    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5403  -17.5912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7464  -16.8929    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9597  -17.5912    0.0000 S   0  3  3  0  0  0  0  0  0  0  0  0\n   28.5227  -16.6129    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9597  -18.9947    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3270  -15.4892    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  4  5  1  0     0  0\n  2  3  1  0     0  0\n  5  6  1  0     0  0\n  1  2  1  0     0  0\n  5  7  1  0     0  0\n  3  4  1  0     0  0\n  2  8  2  0     0  0\nM  CHG  2   1  -1   5   1\nM  END\n\n> <ENTRY>\ncpd:C04022\n\n$$$$",
+  "reactions" : [ "irxn2456" ]
+}

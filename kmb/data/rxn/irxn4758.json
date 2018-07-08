@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4758",
+  "equation" : "nad + 34dhoxpeg <=> 34dhmald + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd6093" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd6088" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.1; EC-1.1.1.1",
+  "otherNames" : [ ],
+  "alias" : "34DHOXPEGOX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04880"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "34DHOXPEGOX"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10911"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6342" ],
+      "orphan" : "NO",
+      "gibbs" : 2.5417786,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350" ],
+      "orthologs" : [ "K18857", "K00001", "K13980", "K00121", "K04072", "K13953", "K13954", "K13951", "K13952" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iJN678", "RECON1" ]
+    }
+  }
+}

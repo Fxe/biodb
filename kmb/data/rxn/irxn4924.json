@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4924",
+  "equation" : "icpd7651 + h + ctp <=> ppi + cdpdddecg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd4369" : "",
+      "icpd7651" : ""
+    },
+    "r" : {
+      "icpd1341" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.41",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CDPDIGLYSYN-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-5515"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CTP", "META:DCTP", "META:EDTA" ],
+      "activators" : [ "META:AMP", "META:BRIJ97", "META:CPD0-1629", "META:Phospholipids" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5981", "META:PWY0-1319", "META:PWY-5667", "META:PWY-7817" ],
+      "orphan" : "NO",
+      "gibbs" : -226.557,
+      "uniprot" : [ "Q9PMV2", "Q59640", "Q9JX34", "O04940", "P0ABG1", "Q49433", "P73548" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

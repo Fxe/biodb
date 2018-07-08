@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4491",
+  "equation" : "icpd8107 + h2o + thym <=> icpd8139 + icpd5331",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd4016" : "",
+      "icpd7944" : ""
+    },
+    "r" : {
+      "icpd8139" : "",
+      "icpd5331" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.17.99.4; 1.17.99.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01413"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8646"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00240" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

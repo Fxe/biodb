@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5272",
+  "formula" : "C3H6",
+  "name" : "propene",
+  "synonyms" : [ "1-propene", "methylethene", "methylethylene", "propylene" ],
+  "alias" : "icpd5272",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PROPENE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11505"
+  } ],
+  "inchi" : "InChI=1S/C3H6/c1-3-2/h3H,1H2,2H3",
+  "inchikey" : "QQONPFPTGQHPMA-UHFFFAOYSA-N",
+  "smiles" : "C=CC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:1-Alkenes" ],
+      "reactions" : [ "META:RXN-9957", "META:1.14.13.69-RXN", "META:RXN-8806" ],
+      "gibbs" : 81.32673,
+      "cmlMolWeight" : 42.08,
+      "molWeight" : 42.08,
+      "parents" : [ "META:1-Alkenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   27.0781  -16.9881    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2905  -16.2881    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5030  -16.9881    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11505\n\n$$$$",
+  "reactions" : [ "irxn2032", "irxn1494", "irxn1659" ]
+}

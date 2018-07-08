@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3676",
+  "formula" : "C9H13N5O3",
+  "name" : "2-amino-6-(1-hydroxy-2-oxopropyl)-3,4,5,6,7,8-hexahydropteridin-4-one",
+  "synonyms" : [ "2-amino-6-(1-hydroxy-2-oxopropyl)-5,6,7,8-tetrahydro-3h-pteridin-4-one", "6-(1'-hydroxy-2'-oxopropyl)-tetrahydropterin" ],
+  "alias" : "icpd3676",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C21640"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6-LACTOYL-5678-TETRAHYDROPTERIN"
+  } ],
+  "inchi" : "InChI=1S/C9H13N5O3/c1-3(15)6(16)4-2-11-7-5(12-4)8(17)14-9(10)13-7/h4,6,12,16H,2H2,1H3,(H4,10,11,13,14,17)",
+  "inchikey" : "PSNIIJBQEZDDMR-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)C(C1CNC2=C(C(=O)NC(=N2)N)N1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Tetrahydropterins" ],
+      "reactions" : [ "META:RXN-13223", "META:RXN-8854", "META:1.1.1.220-RXN" ],
+      "gibbs" : 70.414566,
+      "cmlMolWeight" : 239.233,
+      "molWeight" : 239.233,
+      "parents" : [ "META:Tetrahydropterins" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 17 18  0  0  1  0  0  0  0  0999 V2000\n    6.7200   -9.5900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7200  -10.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9324  -11.6900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    9.1449  -10.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.1449   -9.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9324   -8.8900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.3573  -11.6900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   11.5697  -10.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.5697   -9.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.3573   -8.8900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9324   -7.4902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5076  -11.6900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7673   -8.8985    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9556   -9.5845    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1464   -8.8969    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9557  -10.9898    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7674   -7.4903    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  5 10  1  0     0  0\n  6 11  2  0     0  0\n  2 12  1  0     0  0\n  9 13  1  0     0  0\n 13 14  1  0     0  0\n 14 15  1  0     0  0\n 14 16  2  0     0  0\n 13 17  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C21640\n\n$$$$",
+  "reactions" : [ "irxn237", "irxn4286" ]
+}

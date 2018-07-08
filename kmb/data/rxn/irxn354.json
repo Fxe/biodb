@@ -1,0 +1,46 @@
+{
+  "id" : "irxn354",
+  "equation" : "h + oxag <=> co2 + ohexa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4707" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd5414" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.87; 1.1.1.286",
+  "otherNames" : [ ],
+  "alias" : "OXAGm",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01936"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OXAGm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210" ],
+      "orthologs" : [ "K05824", "K17753", "K10978" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

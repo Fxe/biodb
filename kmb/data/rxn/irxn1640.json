@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1640",
+  "equation" : "h2o + nadp <=> ncam + adprbp + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5586" : "",
+      "icpd1851" : "",
+      "icpd8178" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "NADPN",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NADPNe"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NADPN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

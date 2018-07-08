@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5677",
+  "equation" : "adsel + atp <=> 3padsel + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2708" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd3521" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.25",
+  "otherNames" : [ ],
+  "alias" : "ADSELK",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ADSELK"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04928"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00860", "K00955", "K13811" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

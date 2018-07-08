@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3222",
+  "equation" : "dgtp + uri <=> dgdp + ump",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7693" : "",
+      "icpd2329" : ""
+    },
+    "r" : {
+      "icpd8166" : "",
+      "icpd290" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.48",
+  "otherNames" : [ ],
+  "alias" : "DGTUP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DGTUP"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01880"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K00876" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

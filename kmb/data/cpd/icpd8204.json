@@ -1,0 +1,41 @@
+{
+  "id" : "icpd8204",
+  "formula" : "C18H31O2",
+  "name" : "linoleate",
+  "synonyms" : [ "(9z,12z)-9,12-octadecadienoate", "(9z,12z)-octadeca-9,12-dienoate", "(z,z)-9,12-octadecadienoate", "9-cis,12-cis-linoleate", "9z,12z-linoleate", "cis,cis-9,12-octadecadienoate", "cis,cis-linoleate" ],
+  "alias" : "lnlc",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "lnlc"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01595"
+  }, {
+    "source" : "BiGG",
+    "entry" : "lnlc"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LINOLEIC_ACID"
+  } ],
+  "inchi" : "InChI=1S/C18H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10H,2-5,8,11-17H2,1H3,(H,19,20)/p-1/b7-6-,10-9-",
+  "inchikey" : "OYHQOLUKZRVURQ-HZJYTTRNSA-M",
+  "smiles" : "CCCCC/C(/[H])=C(/[H])\\C/C(/[H])=C(/[H])\\CCCCCCCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Omega-6-Fatty-Acids", "META:Long-Chain-Fatty-Acids" ],
+      "reactions" : [ "META:RXN-16498", "META:RXN-16523", "META:LINOLEOYL-RXN", "META:RXN-12760", "META:RXN-13256", "META:RXN-12761", "META:LINOLEATE-ISOMERASE-RXN", "META:RXN-14925", "META:RXN-12659", "META:1.13.11.45-RXN", "META:RXN-12756", "META:RXN-16219", "META:LIPOXYGENASE-RXN", "META:RXN-9673", "META:RXN-8495" ],
+      "gibbs" : 301.98264,
+      "cmlMolWeight" : 279.442,
+      "molWeight" : 279.442,
+      "parents" : [ "META:Omega-6-Fatty-Acids", "META:Long-Chain-Fatty-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  },
+  "mol" : " \n \n \n 20 19  0  0  0  0  0  0  0  0999 V2000\n   22.9712  -16.1736    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1843  -16.8679    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7516  -16.8741    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4041  -16.1674    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5383  -16.1799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8050  -16.1674    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3249  -16.8804    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0370  -16.8303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1117  -16.1861    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2502  -16.1299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8922  -16.8866    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6513  -16.1299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6788  -16.1925    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.8833  -16.7990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4593  -16.8929    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6725  -14.7977    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.0715  -16.0673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.3037  -16.7241    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.4919  -15.9922    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   36.7239  -16.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  2  0     0  0\n  5  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n  9 11  1  0     0  0\n 10 12  2  0     0  0\n 11 13  1  0     0  0\n 12 14  1  0     0  0\n 13 15  1  0     0  0\n 13 16  2  0     0  0\n 14 17  1  0     0  0\n 17 18  1  0     0  0\n 18 19  1  0     0  0\n 19 20  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01595\n\n$$$$",
+  "reactions" : [ "irxn863", "irxn5795", "irxn3483", "irxn4077", "irxn844", "irxn3975", "irxn4987", "irxn669", "irxn1346", "irxn2677", "irxn1995" ]
+}

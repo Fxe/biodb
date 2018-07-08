@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2024",
+  "equation" : "nadp + icpd897 <=> nadph + icpd6116 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd897" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd6116" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.312; 1.1.1.312",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04279"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.2.1.45-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:DITHIO-NITROBENZOATE", "META:CPD-29", "META:HG+2", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P184-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -7.4765015,
+      "uniprot" : [ "O85980", "O30983" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00362", "rn00627" ],
+      "orthologs" : [ "K10219" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id" : "irxn1483",
+  "equation" : "seln + acser <=> ac + selcys",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5848" : "",
+      "icpd3498" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd137" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.47; 2.5.1.47",
+  "otherNames" : [ ],
+  "alias" : "ACSERL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACSERL_c"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12726"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACSERLm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACSERL"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACSERL_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACSERLh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACSERL_h"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03601"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6936" ],
+      "orphan" : "NO",
+      "gibbs" : -19.474129,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K13034", "K10150", "K01738", "K12339" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

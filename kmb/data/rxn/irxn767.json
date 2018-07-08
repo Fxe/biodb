@@ -1,0 +1,52 @@
+{
+  "id" : "irxn767",
+  "equation" : "h2o + 0.01 331311 <=> 0.03 ocdca + 0.27 ocdcea + 0.01 hexc + h + 0.015 ttdca + 0.02 hdca + 0.655 hdcea + 0.01 ergst",
+  "stoichiometry" : {
+    "l" : {
+      "331311" : "0.01",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6488" : "0.03",
+      "icpd4751" : "0.01",
+      "icpd6458" : "0.015",
+      "icpd6870" : "0.655",
+      "icpd3274" : "0.27",
+      "icpd6804" : "0.01",
+      "icpd1851" : "",
+      "icpd4207" : "0.02"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ERGSTESTH_SC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ERGSTESTH_SCe"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ERGSTESTH_SC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM904" ]
+    }
+  }
+}

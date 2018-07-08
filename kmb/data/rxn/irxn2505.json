@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2505",
+  "equation" : "icpd6125 + h2o <=> icpd2480 + sphings",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6125" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7636" : "",
+      "icpd2480" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.23; EC-3.5.1.23",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CERAMIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01494"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY3DJ-11470" ],
+      "orphan" : "NO",
+      "gibbs" : 368.67322,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00600" ],
+      "orthologs" : [ "K01441", "K12349", "K12348" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

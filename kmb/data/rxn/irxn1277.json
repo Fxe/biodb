@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1277",
+  "equation" : "atp + icpd3258 <=> icpd3271 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3258" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd3271" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.92; EC-2.7.1.92",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:5-DEHYDRO-2-DEOXYGLUCONOKINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05661"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P562-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -16.064087,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562", "rn01120" ],
+      "orthologs" : [ "K03338" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

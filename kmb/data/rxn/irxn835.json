@@ -1,0 +1,49 @@
+{
+  "id" : "irxn835",
+  "equation" : "accoa + oxa <=> ac + oxalcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd1429" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd2306" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.3.19; 2.8.3.19",
+  "otherNames" : [ ],
+  "alias" : "ACOXT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10614"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-7075"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACOXT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -6.0322876,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

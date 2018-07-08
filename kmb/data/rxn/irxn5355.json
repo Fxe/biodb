@@ -1,0 +1,43 @@
+{
+  "id" : "irxn5355",
+  "equation" : "g6p <=> icpd174",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1569" : ""
+    },
+    "r" : {
+      "icpd174" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.5.1.4; 5.5.1.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07324"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:2-DEOXYGLUCOSE-6-PHOSPHATE", "META:NADH" ],
+      "activators" : [ "META:ZN+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY1G-0", "META:PWY-6372", "META:PWY-6664", "META:PWY-4661", "META:PWY-2301", "META:PWY-6580" ],
+      "orphan" : "NO",
+      "gibbs" : -1.6799622,
+      "uniprot" : [ "P42800", "Q9FPK7", "P42801", "Q40271", "P42802", "P42803", "Q41107", "Q18664", "Q9LX12", "Q96348", "O65195" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562", "rn01130", "rn00521" ],
+      "orthologs" : [ "K01858" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

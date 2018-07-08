@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5725",
+  "formula" : "C6H7NO4",
+  "name" : "4-methylene-l-glutamate",
+  "synonyms" : [ ],
+  "alias" : "icpd5725",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00651"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1774"
+  } ],
+  "inchi" : "InChI=1S/C6H9NO4/c1-3(5(8)9)2-4(7)6(10)11/h4H,1-2,7H2,(H,8,9)(H,10,11)/p-2/t4-/m0/s1",
+  "inchikey" : "RCCMXKJGURLWPB-BYPYZUCNSA-L",
+  "smiles" : "C=C(C[C@@]([H])(C(=O)[O-])N)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:4-METHYLENEGLUTAMATE--AMMONIA-LIGASE-RXN", "META:4-METHYLENEGLUTAMINASE-RXN" ],
+      "gibbs" : -62.873093,
+      "cmlMolWeight" : 158.133,
+      "molWeight" : 158.133
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   13.7200  -21.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9324  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1449  -21.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3573  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5697  -21.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7822  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9946  -21.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9324  -19.6002    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7822  -19.6003    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5697  -23.0999    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1449  -23.0998    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  6  9  2  0     0  0\n  5 10  2  0     0  0\n  3 11  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C00651\n\n$$$$",
+  "reactions" : [ "irxn5858", "irxn1643" ]
+}

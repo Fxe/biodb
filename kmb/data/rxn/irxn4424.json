@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4424",
+  "equation" : "fad + 2mbcoa <=> fadh2 + 2mb2coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd1818" : ""
+    },
+    "r" : {
+      "icpd7434" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ACOADH1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACOAD10m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACOADH1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  }
+}

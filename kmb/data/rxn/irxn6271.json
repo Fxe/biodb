@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6271",
+  "equation" : "mnt + h2o <=> melib + gal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2773" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2605" : "",
+      "icpd1558" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.22",
+  "otherNames" : [ ],
+  "alias" : "MTGH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05549"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MTGH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K07407", "K01189", "K07406" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

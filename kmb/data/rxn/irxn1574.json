@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1574",
+  "equation" : "indpyr + h <=> co2 + id3acald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6456" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd810" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.74; 4.1.1.43; EC-4.1.1.74",
+  "otherNames" : [ ],
+  "alias" : "INDPYRD",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.1.74-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "INDPYRD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01974"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:2-KETOGLUTARATE", "META:PHENYL-PYRUVATE", "META:PYRUVATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TRPIAACAT-PWY", "META:PWY-5081" ],
+      "orphan" : "NO",
+      "gibbs" : -3.4658756,
+      "uniprot" : [ "Q9CG07" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K04103" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iNJ661", "iMM904", "iSB619" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn849",
+  "equation" : "nadph + tststerone + h <=> nadp + 5adtststerone",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd3080" : ""
+    },
+    "r" : {
+      "icpd4587" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.22; 1.3.1.22",
+  "otherNames" : [ ],
+  "alias" : "SR5ARr",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN66-343"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SR5ARr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02497"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-378" ],
+      "orphan" : "NO",
+      "gibbs" : -3.8164673,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00140" ],
+      "orthologs" : [ "K12344", "K12343", "K12345" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

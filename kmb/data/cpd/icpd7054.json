@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7054",
+  "formula" : "C6H10O",
+  "name" : "(3z)-hexenal",
+  "synonyms" : [ "(2z)-hex-2-enal", "(z)-2-hexenal", "3z-hexenal", "cis-2-hexenal" ],
+  "alias" : "icpd7054",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CIS-3-HEXENAL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16310"
+  } ],
+  "inchi" : "InChI=1S/C6H10O/c1-2-3-4-5-6-7/h4-6H,2-3H2,1H3/b5-4-",
+  "inchikey" : "MBDOYVRWFFCFHM-PLNGDYQASA-N",
+  "smiles" : "CCC/C=C\\C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aldehydes" ],
+      "reactions" : [ "META:RXN-1347", "META:RXN-1346", "META:RXN-1345", "META:RXN-12300" ],
+      "gibbs" : 97.5012,
+      "cmlMolWeight" : 98.144,
+      "molWeight" : 98.144,
+      "parents" : [ "META:Aldehydes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   25.5051  -19.9140    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7673  -20.6152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9593  -19.9140    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3617  -19.9140    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5538  -20.6152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7458  -19.9140    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3024  -20.6351    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16310\n\n$$$$",
+  "reactions" : [ "irxn2819", "irxn4303" ]
+}

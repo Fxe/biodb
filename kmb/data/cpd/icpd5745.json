@@ -1,0 +1,40 @@
+{
+  "id" : "icpd5745",
+  "formula" : "C5H4O4",
+  "name" : "mesaconate",
+  "synonyms" : [ "(2e)-2-methyl-2-butenedioate", "(e)-citraconate", "2-methylfumarate", "methylfumarate" ],
+  "alias" : "mescon",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "mescon"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MESACONATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01732"
+  }, {
+    "source" : "BiGG",
+    "entry" : "mescon"
+  } ],
+  "inchi" : "InChI=1S/C5H6O4/c1-3(5(8)9)2-4(6)7/h2H,1H3,(H,6,7)(H,8,9)/p-2/b3-2+",
+  "inchikey" : "HNEGQIOMVPPMNR-NSCUHMNNSA-L",
+  "smiles" : "C/C(=C(/[H])\\C(=O)[O-])/C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-METHYLENEGLUTARATE-MUTASE-RXN" ],
+      "reactions" : [ "META:METHYLASPARTATE-AMMONIA-LYASE-RXN", "META:S-2-METHYLMALATE-DEHYDRATASE-RXN", "META:RXN-12168" ],
+      "gibbs" : -104.613754,
+      "cmlMolWeight" : 128.084,
+      "molWeight" : 128.084
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   20.3000  -20.1600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5124  -20.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7249  -20.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9373  -20.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1497  -20.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3622  -20.8600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5124  -22.2598    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9373  -22.2600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1497  -18.7601    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  2  7  2  0     0  0\n  4  8  1  0     0  0\n  5  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01732\n\n$$$$",
+  "reactions" : [ "irxn6665", "irxn3140", "irxn1943" ]
+}

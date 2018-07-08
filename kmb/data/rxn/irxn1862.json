@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1862",
+  "equation" : "icpd7553 + nadp <=> nadph + icpd650 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7553" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.216; EC-1.1.1.216",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FARNESOL-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03264"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6650", "META:PWY-6577", "META:PWY-6575" ],
+      "orphan" : "NO",
+      "gibbs" : -0.25646973,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00981", "rn00909", "rn00900" ],
+      "orthologs" : [ "K15890" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

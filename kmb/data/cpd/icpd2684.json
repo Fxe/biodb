@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2684",
+  "formula" : "C8H10O",
+  "name" : "2,4-dimethylphenol",
+  "synonyms" : [ "1-hydroxy-2,4-dimethylbenzene", "2,4-xylenol", "methyl p-cresol", "methyl-para-cresol" ],
+  "alias" : "icpd2684",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-18280"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C14582"
+  } ],
+  "inchi" : "InChI=1S/C8H10O/c1-6-3-4-8(9)7(2)5-6/h3-5,9H,1-2H3",
+  "inchikey" : "KUFFULVDNCHOFZ-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=C(C(=C1)C)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aryl-Alcohol" ],
+      "reactions" : [ "META:RXN-16969", "META:RXN-16967" ],
+      "gibbs" : 89.55121,
+      "cmlMolWeight" : 122.166,
+      "molWeight" : 122.166,
+      "parents" : [ "META:Aryl-Alcohol" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   16.8000  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8000  -15.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9900  -14.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1800  -15.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1800  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9900  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9900  -18.9700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4400  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9900  -13.3700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  5  8  1  0     0  0\n  3  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C14582\n\n$$$$",
+  "reactions" : [ "irxn5775" ]
+}

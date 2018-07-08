@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4933",
+  "equation" : "o2 + 4hphac + fadh2 <=> h2o + fad + h + 34dhpha",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1660" : "",
+      "icpd5625" : ""
+    },
+    "r" : {
+      "icpd6481" : "",
+      "icpd8210" : "",
+      "icpd1851" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.14.9",
+  "otherNames" : [ ],
+  "alias" : "4HOXPACMOF",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "4HOXPACMOF"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8505"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7431", "META:3-HYDROXYPHENYLACETATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -68.05142,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iSbBS512_1146", "iECBD_1354", "iEKO11_1354", "iB21_1397", "iECUMN_1333", "iECD_1391", "iECIAI1_1343", "iWFL_1372", "iECO111_1330", "iECW_1372", "iSBO_1134", "iECO103_1326", "iEcHS_1320", "iECO26_1355", "iECSE_1348", "iECB_1328", "iSF_1195", "iSFxv_1172", "iSSON_1240", "iEcolC_1368" ]
+    }
+  }
+}

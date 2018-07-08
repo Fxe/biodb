@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4769",
+  "formula" : "C4H5O5",
+  "name" : "3-dehydro-l-threonate",
+  "synonyms" : [ "(2r)-2,4-dihydroxy-3-oxobutanoate", "3-dehydro-d-erythronate" ],
+  "alias" : "icpd4769",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-363"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03064"
+  } ],
+  "inchi" : "InChI=1S/C4H6O5/c5-1-2(6)3(7)4(8)9/h3,5,7H,1H2,(H,8,9)/p-1/t3-/m1/s1",
+  "inchikey" : "SCSGVVIUUUPOOJ-GSVOUGTGSA-M",
+  "smiles" : "C(C(=O)[C@]([H])(C(=O)[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-12642", "META:Hydroxy-fatty-acids" ],
+      "reactions" : [ "META:L-THREONATE-3-DEHYDROGENASE-RXN", "META:RXN-18594", "META:RXN-18593" ],
+      "gibbs" : -136.75645,
+      "cmlMolWeight" : 133.08,
+      "molWeight" : 133.08,
+      "parents" : [ "META:CPD-12642", "META:Hydroxy-fatty-acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   25.8463  -20.9142    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.0575  -20.2120    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6351  -20.2120    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8463  -22.3125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2687  -20.9142    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0575  -18.8137    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4240  -20.9142    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6351  -18.8137    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4857  -20.2120    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  5  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03064\n\n$$$$",
+  "reactions" : [ "irxn235", "irxn644", "irxn315" ]
+}

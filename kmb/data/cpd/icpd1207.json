@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1207",
+  "formula" : "C7H6O5",
+  "name" : "2-hydroxyhepta-2,4-dienedioate",
+  "synonyms" : [ "2-hydroxyhepta-2,4-diene-1,7-dioate" ],
+  "alias" : "icpd1207",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05600"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-787"
+  } ],
+  "inchi" : "InChI=1S/C7H8O5/c8-5(7(11)12)3-1-2-4-6(9)10/h1-3,8H,4H2,(H,9,10)(H,11,12)/p-2",
+  "inchikey" : "ZBCBETMBSDTINL-UHFFFAOYSA-L",
+  "smiles" : "C(=CCC(=O)[O-])C=C(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:CARBOXY-OXOHEPT-ENEDIOATE-DECARBOXY-RXN", "META:RXN1K-87" ],
+      "gibbs" : -97.97153,
+      "cmlMolWeight" : 170.121,
+      "molWeight" : 170.121
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  0  0  0  0  0  0999 V2000\n   25.7215  -23.5438    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4996  -22.8422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9374  -22.8365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2894  -23.5497    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1534  -23.5321    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9374  -21.4391    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0792  -22.8539    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3578  -22.8305    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1534  -24.9294    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8691  -23.5555    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6530  -22.8599    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8748  -24.9528    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  2  4  2  0     0  0\n  3  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  5  9  2  0     0  0\n  7 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05600\n\n$$$$",
+  "reactions" : [ "irxn2877", "irxn607" ]
+}

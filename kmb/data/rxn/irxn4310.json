@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4310",
+  "equation" : "h2o + icpd3790 <=> h + phenol + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3790" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5748" : "",
+      "icpd1851" : "",
+      "icpd771" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.6.1; EC-3.1.6.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ARYLSULFAT-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01243"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -62.26236,
+      "uniprot" : [ "P50473", "P20713", "P50474", "P14000", "O43113", "P28607", "Q10723", "P25549", "P14217", "Q9X759" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

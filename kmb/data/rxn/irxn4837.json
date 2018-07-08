@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4837",
+  "equation" : "coa + icpd3823 + 2.0 nadp <=> 2.0 nadph + 2.0 h + hmgcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3823" : "",
+      "icpd2377" : "",
+      "icpd5537" : "2.0"
+    },
+    "r" : {
+      "icpd5432" : "2.0",
+      "icpd1851" : "2.0",
+      "icpd5434" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.34; EC-1.1.1.34",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02082"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.1.1.34-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CHOLESTEROL", "META:CPD-15877", "META:ERGOSTEROL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6174", "META:PWY-7524", "META:PWY-922", "META:PWY-7391" ],
+      "orphan" : "NO",
+      "gibbs" : -9.179321,
+      "uniprot" : [ "O48624", "Q43826", "P29058", "Q39628", "P29057", "Q43825", "Q12649", "Q61671", "Q00583", "P16237", "P14773", "P93514", "P20715", "P00347", "Q944T9", "Q59468", "Q9S9C2", "P48020", "Q42506", "Q12577", "Q7M4W1", "Q41458", "P48022", "Q41438", "Q42466", "Q41454", "Q7M4W4", "Q9FS01", "Q41455", "Q7M4W3", "Q41456", "Q7M4W2", "Q9S999", "O64966", "O64967", "Q9S997", "Q03163", "Q9S998", "O08424", "P14891", "Q01559", "O04188", "Q01237", "P16393", "O24594", "P04035", "P48019" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn01130", "rn00900" ],
+      "orthologs" : [ "K00021" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

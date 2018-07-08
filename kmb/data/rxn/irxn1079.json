@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1079",
+  "equation" : "icpd3287 + nad <=> Sfglutth + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3287" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd3092" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.284; EC-1.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-276"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06983"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -8.758209,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01200", "rn00680", "rn01120" ],
+      "orthologs" : [ "K00121" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

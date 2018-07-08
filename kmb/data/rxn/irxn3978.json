@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3978",
+  "equation" : "tartr__L <=> co2 + glyc__R",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4469" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd3290" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.73; 4.1.1.73",
+  "otherNames" : [ ],
+  "alias" : "TARTDC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TARTDC"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TARTRATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01751"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 0.25823975,
+      "uniprot" : [ "P42958", "Q51945" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K07246" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYO844" ]
+    }
+  }
+}

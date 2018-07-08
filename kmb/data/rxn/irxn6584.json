@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6584",
+  "equation" : "h2o + estrones <=> estrone + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3124" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5748" : "",
+      "icpd2533" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.6.1; EC-3.1.6.2",
+  "otherNames" : [ ],
+  "alias" : "STS2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03980"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14263"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "STS2r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "STS2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -38.402252,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00140" ],
+      "orthologs" : [ "K01130" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

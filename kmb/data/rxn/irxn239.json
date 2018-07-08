@@ -1,0 +1,46 @@
+{
+  "id" : "irxn239",
+  "equation" : "icpd355 + amet <=> ahcys + icpd5572 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd355" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6782" : "",
+      "icpd5572" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.117; 2.1.1.117",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.1.1.117-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03835"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:ADENOSYL-HOMO-CYS", "META:CA+2", "META:BERBERINE", "META:PALMATINE", "META:CPD-29", "META:MN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7138", "META:PWY-3901" ],
+      "orphan" : "NO",
+      "gibbs" : -4.3600006,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00950" ],
+      "orthologs" : [ "K13397" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

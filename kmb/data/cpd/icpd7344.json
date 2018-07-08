@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7344",
+  "formula" : "C8H10O2",
+  "name" : "4-hydroxyphenylethanol",
+  "synonyms" : [ "1-(4'-hydroxyphenyl)ethanol", "4-(1-hydroxyethyl)phenol", "4-hydroxy-alpha-methyl-benzenemethanol", "p-hydroxyphenylethanol" ],
+  "alias" : "icpd7344",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10597"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C13638"
+  } ],
+  "inchi" : "InChI=1S/C8H10O2/c1-6(9)7-2-4-8(10)5-3-7/h2-6,9-10H,1H3",
+  "inchikey" : "PMRFBLQVGJNGLU-UHFFFAOYSA-N",
+  "smiles" : "CC(C1=CC=C(C=C1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aryl-Alcohol" ],
+      "reactions" : [ "META:RXN-17423", "META:RXN-9832", "META:RXN-9831" ],
+      "gibbs" : 54.761204,
+      "cmlMolWeight" : 138.166,
+      "molWeight" : 138.166,
+      "parents" : [ "META:Aryl-Alcohol" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   27.0463  -16.8986    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0463  -18.3010    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2647  -19.0058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4689  -18.3010    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4689  -16.8986    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2647  -16.2010    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8313  -19.0063    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6848  -16.2020    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   31.8908  -16.9035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6893  -14.8067    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  6  1  1  0     0  0\n  2  7  1  0     0  0\n  1  2  2  0     0  0\n  5  8  1  0     0  0\n  2  3  1  0     0  0\n  8  9  1  0     0  0\n  3  4  2  0     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C13638\n\n$$$$",
+  "reactions" : [ "irxn4738" ]
+}

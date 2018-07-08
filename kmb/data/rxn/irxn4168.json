@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4168",
+  "equation" : "h2o + 341215 <=> pi + 341412",
+  "stoichiometry" : {
+    "l" : {
+      "341215" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "341412" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PI3PP_cho",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PI3P3Pn_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PI3PP_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

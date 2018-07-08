@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5951",
+  "equation" : "2.0 h2o + acetone + co2 + atp <=> amp + 3.0 h + acac + 2.0 pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "2.0",
+      "icpd2454" : "",
+      "icpd6530" : "",
+      "icpd8124" : ""
+    },
+    "r" : {
+      "icpd1851" : "3.0",
+      "icpd267" : "",
+      "icpd7485" : "2.0",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.4.1.6; 6.4.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05735"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6.4.1.6-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:K+" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5533" ],
+      "orphan" : "NO",
+      "gibbs" : -12.666077,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

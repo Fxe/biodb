@@ -1,0 +1,33 @@
+{
+  "id" : "icpd8137",
+  "formula" : "C8H8O2",
+  "name" : "phenyl acetate",
+  "synonyms" : [ "acetic acid phenyl ester", "acetic acid, phenyl ester", "acetoxybenzene", "o-acetylphenol", "phenol acetate" ],
+  "alias" : "icpd8137",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15583"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Phenyl-Acetates"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00548"
+  } ],
+  "inchi" : "InChI=1S/C8H8O2/c1-7(9)10-8-5-3-2-4-6-8/h2-6H,1H3",
+  "inchikey" : "IPBVNPXQWQGGJP-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)OC1=CC=CC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:PHENYLACETATE" ],
+      "reactions" : [ "META:ARYLESTERASE-RXN" ],
+      "parents" : [ "META:PHENYLACETATE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   15.8200  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8200  -20.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0324  -21.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2449  -20.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2449  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0324  -18.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0324  -17.2202    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2280  -16.5298    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4152  -17.2152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2282  -15.1203    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15583\n\n$$$$",
+  "reactions" : [ "irxn1309" ]
+}

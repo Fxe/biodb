@@ -1,0 +1,30 @@
+{
+  "id" : "icpd451",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd451",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Secondary-Alcohols"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01612"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-19062", "META:CPD-15061", "META:CPD-12749", "META:CPD-18995", "META:CPD-18994", "META:CPD-18993" ],
+      "reactions" : [ "META:RXN-1023", "META:RXN-15037", "META:RXN-1022", "META:SECONDARY-ALCOHOL-OXIDASE-RXN", "META:CARBONYL-REDUCTASE-NADPH-RXN", "META:RXN-12448" ],
+      "parents" : [ "META:CPD-19062", "META:CPD-18991", "META:CPD-15061", "META:S-Secondary-Alcohols", "META:CPD-326", "META:CPD-12749", "META:CPD-18995", "META:CPD-18994", "META:CPD-18993", "META:Alcohols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   24.8500  -17.8500    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   24.8500  -16.4471    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0600  -18.5514    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6400  -18.5514    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01612\n\n$$$$",
+  "reactions" : [ "irxn432", "irxn5497", "irxn5784", "irxn5342" ]
+}

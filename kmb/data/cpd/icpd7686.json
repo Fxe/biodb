@@ -1,0 +1,41 @@
+{
+  "id" : "icpd7686",
+  "formula" : "C6H11O7",
+  "name" : "l-gulonate",
+  "synonyms" : [ ],
+  "alias" : "guln__L",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "guln"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-GULONATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00800"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "guln__L"
+  } ],
+  "inchi" : "InChI=1S/C6H12O7/c7-1-2(8)3(9)4(10)5(11)6(12)13/h2-5,7-11H,1H2,(H,12,13)/p-1/t2-,3+,4-,5-/m0/s1",
+  "inchikey" : "RGHNJXZEOKUKBD-QTBDOELSSA-M",
+  "smiles" : "C([C@@]([H])([C@]([H])([C@@]([H])([C@@]([H])(C(=O)[O-])O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aldonic-Acids" ],
+      "reactions" : [ "META:GLUCURONATE-REDUCTASE-RXN", "META:RXN-8783", "META:L-GULONATE-3-DEHYDROGENASE-RXN", "META:RXN-15920" ],
+      "gibbs" : -155.98975,
+      "cmlMolWeight" : 195.149,
+      "molWeight" : 195.149,
+      "parents" : [ "META:Aldonic-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iECABU_c1320", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iAB_RBC_283", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   14.3694  -16.5457    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5833  -15.8448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7972  -16.5457    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0111  -15.8448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2249  -16.5457    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4388  -15.8448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6527  -16.5457    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8666  -15.8448    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7972  -17.9472    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0111  -14.4431    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4388  -14.4434    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2249  -17.9473    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6525  -17.9277    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  3  9  1  1     0  0\n  4 10  1  1     0  0\n  6 11  1  6     0  0\n  5 12  1  1     0  0\n  7 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00800\n\n$$$$",
+  "reactions" : [ "irxn3150", "irxn25", "irxn1834", "irxn2059" ]
+}

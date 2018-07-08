@@ -1,0 +1,37 @@
+{
+  "id" : "icpd5234",
+  "formula" : "H5NO",
+  "name" : "ammonium hydroxide",
+  "synonyms" : [ "ammonia water" ],
+  "alias" : "nh4oh",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01358"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "nh4oh"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NH4OH"
+  }, {
+    "source" : "BiGG",
+    "entry" : "nh4oh"
+  } ],
+  "inchi" : "InChI=1S/H3N.H2O/h1H3;1H2",
+  "inchikey" : "VHUUQVKOLVNVRT-UHFFFAOYSA-N",
+  "smiles" : "[NH4+].[OH-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Inorganic-Salts" ],
+      "parents" : [ "META:Inorganic-Salts" ]
+    },
+    "bigg" : {
+      "models" : [ "iNJ661", "iSB619" ]
+    }
+  },
+  "mol" : " \n \n \n  2  0  0  0  0  0  0  0  0  0999 V2000\n   20.0900  -16.9400    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   24.0100  -16.9400    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\nM  CHG  2   1   1   2  -1\nM  END\n\n> <ENTRY>\ncpd:C01358\n\n$$$$",
+  "reactions" : [ ]
+}

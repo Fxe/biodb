@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3780",
+  "formula" : "C10H14N2",
+  "name" : "nicotine",
+  "synonyms" : [ "(+)-nicotine", "(+-)-3-(1-methyl-2-pyrrolidinyl)pyridine", "(-)-3-(1-methyl-2-pyrrolidyl)pyridine", "(-)-nicotine", "1-methyl-2-(3-pyridyl)pyrrolidine", "3-(1-methyl-2-pyrrolidinyl)-pyridine", "3-(1-methyl-2-pyrrolidinyl)pyridine", "3-(1-methylpyrrolidin-2-yl)pyridine" ],
+  "alias" : "icpd3780",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NICOTINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00745"
+  } ],
+  "inchi" : "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3",
+  "inchikey" : "SNICXCGAKADSCV-UHFFFAOYSA-N",
+  "smiles" : "CN1CCCC1C2=CC=CN=C2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ALKALOID" ],
+      "reactions" : [ "META:RXN-13076", "META:RXN-8248", "META:RXN66-82", "META:RXN66-61", "META:RXN66-83", "META:RXN66-101", "META:RXN66-146", "META:RXN-13060", "META:NICOTINE-DEHYDROGENASE-RXN", "META:RXN66-81" ],
+      "gibbs" : 193.37474,
+      "cmlMolWeight" : 163.242,
+      "molWeight" : 163.242,
+      "parents" : [ "META:ALKALOID" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 13  0  0  1  0  0  0  0  0999 V2000\n   29.1900  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1900  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3800  -19.6700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6400  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6400  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3800  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8300  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.1600  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.0000  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.0900  -14.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8300  -15.4700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6400  -14.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  7  5  1  1     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n  7 11  1  0     0  0\n 11 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00745\n\n$$$$",
+  "reactions" : [ ]
+}

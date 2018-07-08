@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5202",
+  "equation" : "h2o + icpd6878 <=> icpd5452",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6878" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5452" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.83; EC-3.1.1; 3.1.1.17",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03751"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6-HEXANOLIDE-HYDROLYSIS-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CYCLOHEXANOL-OXIDATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -14.867129,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01220", "rn00930" ],
+      "orthologs" : [ "K14731", "K01053" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

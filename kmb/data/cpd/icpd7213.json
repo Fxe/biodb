@@ -1,0 +1,34 @@
+{
+  "id" : "icpd7213",
+  "formula" : "Rb",
+  "name" : "rubidium(1+)",
+  "synonyms" : [ ],
+  "alias" : "icpd7213",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RB+"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C17061"
+  } ],
+  "inchi" : "InChI=1S/Rb/q+1",
+  "inchikey" : "NCCSSGKUIKYAJD-UHFFFAOYSA-N",
+  "smiles" : "[Rb+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:DIHYDROFOLATEREDUCT-RXN" ],
+      "activators" : [ "META:TARTRATE-DEHYDROGENASE-RXN", "META:TAGAKIN-RXN", "META:ASPARAGHYD-RXN", "META:IMP-DEHYDROG-RXN", "META:2.5.1.19-RXN", "META:GLYCDEH-RXN", "META:HYDROXYBENZALDEHYDE-OXIDATION-NADP-RXN", "META:PORPHOBILSYNTH-RXN", "META:RXN-10821", "META:3.5.2.14-RXN", "META:THI-P-KIN-RXN" ],
+      "instances" : [ "META:Monovalent-Inorganic-Cations" ],
+      "gibbs" : -0.3120594,
+      "cmlMolWeight" : 85.47,
+      "molWeight" : 85.47,
+      "parents" : [ "META:Monovalent-Inorganic-Cations" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   22.2600  -15.6800    0.0000 Rb  0  3  0  0  0  0  0  0  0  0  0  0\nM  CHG  1   1   1\nM  END\n\n> <ENTRY>\ncpd:C17061\n\n$$$$",
+  "reactions" : [ ]
+}

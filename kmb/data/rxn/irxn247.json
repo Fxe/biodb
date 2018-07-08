@@ -1,0 +1,47 @@
+{
+  "id" : "irxn247",
+  "equation" : "o2 + h2o + icpd4228 <=> n2 + icpd209 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd4228" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd209" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.13; EC-1.4.3.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PROTEIN-LYSINE-6-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04239"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 17.121479,
+      "uniprot" : [ "P28301", "P33072", "Q05063", "P28300", "Q7M3F0", "P16636", "Q08397" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

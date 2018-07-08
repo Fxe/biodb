@@ -1,0 +1,39 @@
+{
+  "id" : "icpd3675",
+  "formula" : "C3H8O",
+  "name" : "2-propanol",
+  "synonyms" : [ "2-hydroxypropane", "2-propyl alcohol", "iso-propylalcohol", "isopropanol", "isopropyl alcohol", "propan-2-ol" ],
+  "alias" : "2ppoh",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "2ppoh"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2ppoh"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01845"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ISO-PROPANOL"
+  } ],
+  "inchi" : "InChI=1S/C3H8O/c1-3(2)4/h3-4H,1-2H3",
+  "inchikey" : "KFZMGEQAYNKOFK-UHFFFAOYSA-N",
+  "smiles" : "CC(C)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-17620", "META:RXN-17568", "META:ISOPROPANOL-DEHYDROGENASE-NADP+-RXN", "META:RXN-17571" ],
+      "gibbs" : 37.72897,
+      "cmlMolWeight" : 60.096,
+      "molWeight" : 60.096
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -16.5200    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   20.9083  -17.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1200  -15.1214    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3317  -17.2926    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01845\n\n$$$$",
+  "reactions" : [ "irxn6710", "irxn1437", "irxn6700" ]
+}

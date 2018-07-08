@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4138",
+  "equation" : "o2 + icpd1415 <=> h2o + icpd4395 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1415" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd4395" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15586"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9930"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ZN+2", "META:CPD-10679", "META:O-PHENANTHROLINE", "META:8-HYDROXYQUINOLINE" ],
+      "activators" : [ "META:FE+3", "META:CU+2", "META:FE+2", "META:NI+2", "META:CO+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7513" ],
+      "orphan" : "NO",
+      "gibbs" : -92.321106,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

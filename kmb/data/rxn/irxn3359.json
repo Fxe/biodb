@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3359",
+  "equation" : "estriol + udpglcur <=> udp + estriolglc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd886" : "",
+      "icpd8164" : ""
+    },
+    "r" : {
+      "icpd8073" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.17",
+  "otherNames" : [ ],
+  "alias" : "UGT1A8r",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UGT1A8r"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04683"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00140" ],
+      "orthologs" : [ "K00699" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "RECON1" ]
+    }
+  }
+}

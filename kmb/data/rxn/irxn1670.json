@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1670",
+  "equation" : "icpd2903 <=> icpd4054 + co",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2903" : ""
+    },
+    "r" : {
+      "icpd4054" : "",
+      "icpd4891" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.99; 4.1.99.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09466"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13281"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:OXYGEN-MOLECULE", "META:DITHIOERYTHRITOL", "META:NADPH", "META:O-PHENANTHROLINE" ],
+      "activators" : [ "META:PHOSPHATIDYLCHOLINE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7033" ],
+      "orphan" : "NO",
+      "gibbs" : -6.050001,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00073" ],
+      "orthologs" : [ "K15404" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

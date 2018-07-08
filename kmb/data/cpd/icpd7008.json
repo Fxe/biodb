@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7008",
+  "formula" : "CH3I",
+  "name" : "methyl iodide",
+  "synonyms" : [ ],
+  "alias" : "icpd7008",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C18448"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7676"
+  } ],
+  "inchi" : "InChI=1S/CH3I/c1-2/h1H3",
+  "inchikey" : "INQOMBQAUSQDDS-UHFFFAOYSA-N",
+  "smiles" : "CI",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Iodoalkanes" ],
+      "reactions" : [ "META:RXN-11241" ],
+      "gibbs" : 27.163363,
+      "cmlMolWeight" : 141.939,
+      "molWeight" : 141.939,
+      "parents" : [ "META:Iodoalkanes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   22.1900  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5900  -18.3400    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18448\n\n$$$$",
+  "reactions" : [ "irxn3134" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7273",
+  "formula" : "C5H13O8P",
+  "name" : "ribitol 5-phosphate",
+  "synonyms" : [ "d-ribitol 5-phosphate", "l-ribitol 1-phosphate" ],
+  "alias" : "icpd7273",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-372"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01068"
+  } ],
+  "inchi" : "InChI=1S/C5H13O8P/c6-1-3(7)5(9)4(8)2-13-14(10,11)12/h3-9H,1-2H2,(H2,10,11,12)/t3-,4+,5-/m0/s1",
+  "inchikey" : "VJDOAZKNBQCAGE-LMVFSUKVSA-N",
+  "smiles" : "C([C@@]([H])([C@@]([H])([C@@]([H])(COP(=O)(O)O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Sugar-Phosphate", "META:Alditol-phosphates" ],
+      "reactions" : [ "META:RXN-18411", "META:2.7.7.40-RXN", "META:RIBITOL-5-PHOSPHATE-2-DEHYDROGENASE-RXN" ],
+      "gibbs" : -289.7859,
+      "cmlMolWeight" : 230.111,
+      "molWeight" : 230.111,
+      "parents" : [ "META:Sugar-Phosphate", "META:Alditol-phosphates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 13  0  0  1  0  0  0  0  0999 V2000\n   25.9427  -20.9756    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.1536  -21.6718    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.7317  -21.6718    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.9427  -19.5716    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3645  -20.9756    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1536  -23.0758    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5208  -20.9756    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7317  -23.0758    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5814  -21.6718    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3040  -21.6718    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7924  -20.9756    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   32.0033  -21.6718    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7924  -19.5716    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1551  -22.3270    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  3  8  1  1     0  0\n  5  9  1  0     0  0\n  7 10  1  0     0  0\n  9 11  1  0     0  0\n 11 12  1  0     0  0\n 11 13  1  0     0  0\n 11 14  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01068\n\n$$$$",
+  "reactions" : [ "irxn6892", "irxn6783" ]
+}

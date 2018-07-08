@@ -1,0 +1,39 @@
+{
+  "id" : "icpd5149",
+  "formula" : "C11H22NO7PS",
+  "name" : "n-(7-mercaptoheptanoyl)threonine 3-o-phosphate",
+  "synonyms" : [ "7-mercaptoheptanoyl threonine phosphate", "n-(7-mercaptoheptanoyl)-3-o-phosphono-l-threonine", "n-(7-mercaptoheptanoyl)-3-phospho-l-threonine", "n-(7-mercaptoheptanoyl)-l-threonine 3-o-phosphate", "n-(7-mercaptoheptanoyl)threonine o3-phosphate", "n-(7-sulfanylheptanoyl)-3-o-phosphono-l-threonine", "n-(7-sulfanylheptanoyl)-3-phospho-l-threonine", "n-(7-sulfanylheptanoyl)-l-threonine 3-o-phosphate" ],
+  "alias" : "cob",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04628"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1281"
+  }, {
+    "source" : "BiGG",
+    "entry" : "cob"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "cob"
+  } ],
+  "inchi" : "InChI=1S/C11H22NO7PS/c1-8(19-20(16,17)18)10(11(14)15)12-9(13)6-4-2-3-5-7-21/h8,10,21H,2-7H2,1H3,(H,12,13)(H,14,15)(H2,16,17,18)/t8-,10+/m1/s1",
+  "inchikey" : "JBJSVEVEEGOEBZ-SCZZXKLOSA-N",
+  "smiles" : "C[C@H]([C@@H](C(=O)O)NC(=O)CCCCCCS)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-15295", "META:R227-RXN", "META:1.8.98.1-RXN", "META:RXN-18521", "META:RXN-18520", "META:METHYL-COM-HTP-RXN", "META:RXN-18529", "META:RXN-18528" ],
+      "gibbs" : -161.46725,
+      "cmlMolWeight" : 340.307,
+      "molWeight" : 340.307
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : " \n \n \n 21 20  0  0  1  0  0  0  0  0999 V2000\n   12.0604  -16.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2518  -16.1963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4432  -16.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7047  -16.1963    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8960  -16.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0874  -16.1963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3489  -16.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5403  -16.1963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7317  -16.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9231  -16.1963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1846  -16.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3760  -16.1963    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8960  -18.2987    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4260  -18.2986    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2166  -18.9771    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6438  -19.0220    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2522  -14.7702    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2518  -13.3947    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6534  -13.3947    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8501  -13.3947    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2518  -11.9930    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n  5 13  2  0     0  0\n  3 14  1  6     0  0\n 14 15  1  0     0  0\n 14 16  2  0     0  0\n  2 17  1  1     0  0\n 18 19  1  0     0  0\n 18 20  1  0     0  0\n 18 21  2  0     0  0\n 17 18  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04628\n\n$$$$",
+  "reactions" : [ "irxn2693", "irxn4418", "irxn19", "irxn2985" ]
+}

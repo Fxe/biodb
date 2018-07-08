@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2777",
+  "equation" : "pyr + taur <=> ala__L + 2saa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd7999" : ""
+    },
+    "r" : {
+      "icpd5831" : "",
+      "icpd7336" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.77; 2.6.1.77",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TAURINE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05652"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1263" ],
+      "orphan" : "NO",
+      "gibbs" : 18.809998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00430" ],
+      "orthologs" : [ "K03851" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

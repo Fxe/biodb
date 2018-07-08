@@ -11,40 +11,73 @@
       #cpd-model .modal-dialog  {width:1200px;}
 
     }
+    .database-card {
+      max-width: 20rem;
+      text-align: center !important;
+      margin-right: auto !important;
+      margin-left: auto !important;
+    }
+
+    .btn-card {
+      width: 200px;
+      /*width: 200px;
+      height: 100px;
+      */
+      vertical-align: middle;
+    }
   </style>
 </head>
 <body>
-<!-- Trigger the modal with a button -->
-
-
-<!-- Metabolite Modal -->
-<div id="cpd-model" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <!--
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      -->
-      <div class="modal-body">
-        <div id="cpd-view-container">
-          <div class="container"></div>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">BioDB</a>
     </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="demo/index.html">Example Database</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Docker</a></li>
+        <li><a href="#">Docs</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="jumbotron">
+  <div class="container">
+    <h1>BioDB</h1>
+    <p>Metabolic Database Integration Pipeline</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
   </div>
 </div>
-
-<div class="container-fluid">
+<div class="container">
   <div class="row">
-    <div class="col-md-12">
-      <h1>Compounds</h1>
+    <div class="col-md-4">
+      <div class="database-card mx-auto">
+        <a href="demo/index.html" class="btn btn-info btn-card"><h3>DEMO</h3></a>
+        dasdsadad
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="database-card">
+        <a href="kmb/index.html" class="btn btn-success btn-card">KMB DISABLE</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="database-card">
+        <a href="full/index.html" class="btn btn-danger btn-card">FULL DISABLE</a>
+      </div>
     </div>
   </div>
   <div class="row">
@@ -54,7 +87,21 @@
   </div>
   <div class="row">
     <div class="col-md-12">
-      <h1>Reactions</h1>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum risus et risus ornare, a ornare lectus hendrerit. Nulla gravida ante in velit scelerisque, ut porttitor quam iaculis. Aenean dui est,
+      blandit eu vestibulum at, vestibulum et sem. Quisque vitae pretium nunc. Aenean eu elit leo. Duis sit amet magna odio. Vivamus sit amet augue dapibus, fringilla augue sit amet, luctus lectus. Morbi elementum,
+      velit ac auctor lobortis, elit magna sodales nulla, at pretium augue purus vitae nibh. <br>
+      In pellentesque blandit sapien ut aliquet. Ut id ante consectetur, iaculis nunc quis, condimentum ligula. Proin sit amet efficitur sapien. Sed vitae aliquet odio, non hendrerit nunc. Donec in tortor sed eros
+      dapibus ultrices. Etiam fermentum felis vel massa luctus congue. Duis id vehicula urna, sit amet semper massa. Proin tristique vestibulum suscipit. Nulla facilisi. Vestibulum ut nisl gravida, scelerisque magna
+      vel, auctor lectus.<br>
+      Pellentesque facilisis fermentum ullamcorper. Sed consectetur mattis urna, vitae rhoncus dolor efficitur at. Praesent at nisi sed ligula molestie porta quis et nunc. Integer sed elit nec magna imperdiet malesuada
+      at at ante. Donec eget nulla in nulla varius lacinia. Vivamus non quam leo. Integer ultricies ac enim at pharetra. Duis dignissim viverra felis, ac efficitur mi tempor ut. Aliquam porttitor dictum dictum. Sed ex
+      purus, vehicula vitae massa nec, maximus ornare ante.<br>
+      Fusce semper arcu ac purus volutpat semper. Donec vel auctor lacus. Morbi pharetra nibh lectus, blandit hendrerit turpis tempus lacinia. Donec vel leo imperdiet, faucibus nisi nec, vulputate massa. Class aptent
+      taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sagittis orci ut risus porttitor, ac pulvinar arcu bibendum. Pellentesque eget sapien mattis, pellentesque libero non,
+      imperdiet lorem. Sed sit amet aliquet mi. Ut luctus feugiat turpis, in dignissim dui. Nulla vitae venenatis est. Nulla metus velit, tincidunt at efficitur mollis, pretium at ex. Aenean et condimentum neque.
+      Mauris nec eleifend nisl, ac sollicitudin orci. Phasellus ac sem mi. <br>
+      Donec porttitor libero vitae iaculis accumsan. In feugiat justo quis urna vehicula, vel consequat mauris hendrerit. Duis congue erat odio, nec convallis elit rhoncus sit amet. Cras nulla ante, consequat id
+      libero nec, varius pellentesque elit. Morbi sed placerat lectus. Fusce in leo erat. Sed augue tortor, tempor eget pulvinar nec, hendrerit vitae leo.
     </div>
   </div>
   <div class="row">
@@ -70,377 +117,4 @@
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/scroller/1.4.2/js/dataTables.scroller.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/idatabase.js"></script>
-<script type="text/javascript" src="js/render-hmdb.js"></script>
-<script type="text/javascript" src="js/render-bigg.js"></script>
-<script type="text/javascript" src="js/render-kegg.js"></script>
-
-<script id="cpd-view-template-hmdb" type="text/template">
-  <% //console.log(cpdData) %>
-  <h4>Human Metabolome:</h4>
-  <dl class="dl-horizontal">
-    <% if (cpdData.cellularLocation) { %>
-      <dt>Cellular</dt>
-      <dd><%-cpdData.cellularLocation %></dd>
-    <%} %>
-    <% if (cpdData.biofluids) { %>
-      <dt>Biofluids</dt>
-      <dd><%-cpdData.biofluids %></dd>
-    <%} %>
-  </dl>
-  <dl class="dl-horizontal">
-    <% if (cpdData.applications) { %>
-      <dt>Applications</dt>
-      <dd><%-cpdData.applications %></dd>
-    <%} %>
-    <% if (cpdData.origins) { %>
-      <dt>Origins</dt>
-      <dd><%-cpdData.origins %></dd>
-    <%} %>
-    <% if (cpdData.biofuncions) { %>
-      <dt>Biofunctions</dt>
-      <dd><%-cpdData.biofuncions %></dd>
-    <%} %>
-  </dl>
-</script>
-<script id="cpd-view-template-bigg" type="text/template">
-  <dl class="dl-horizontal">
-    <dt>Models</dt>
-    <dd>
-      <ul class="list-inline">
-        <% _.each(cpdData.models, function(s) { %>
-        <li><a href="http://bigg.ucsd.edu/models/<%- s %>" target="_blank"><%- s %></a></li>
-        <%} );%>
-      </ul>
-    </dd>
-  </dl>
-</script>
-<script id="cpd-view-template-modelseed" type="text/template">
-  <dl class="dl-horizontal">
-    <dt>ModelSEED</dt>
-    <dd>
-      <ul class="list-inline">
-        Core: <%-cpdData.core %>
-        Cofactor: <%-cpdData.cofactor %>
-        deltag: <%-cpdData.deltag %>
-        deltagerr: <%-cpdData.deltagerr %>
-      </ul>
-    </dd>
-  </dl>
-</script>
-<script id="cpd-view-template-metacyc" type="text/template">
-  <% console.log(cpdData); %>
-  <h4>MetaCyc:</h4>
-  <dl class="dl-horizontal">
-    <% if (cpdData.parents) { %>
-    <dt>Is a:</dt>
-    <dd><%-cpdData.parents %></dd>
-    <%} %>
-    <% if (cpdData.instances) { %>
-    <dt>Instances: </dt>
-    <dd><%-cpdData.instances %></dd>
-    <%} %>
-
-    <% if (cpdData.activators) { %>
-    <dt>Reactions activated by this compound: </dt>
-    <dd><%-cpdData.activators %></dd>
-    <%} %>
-
-    <% if (cpdData.inhibitors) { %>
-    <dt>Reactions inhibited by this compound: </dt>
-    <dd>
-      <% _.each(cpdData.inhibitors, function(e) { %>
-        <%- e%>
-      <%}); %>
-    </dd>
-    <%} %>
-  </dl>
-</script>
-
-<script id="cpd-view-template" type="text/template">
-  <% //console.log(cpdData) %>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="page-header">
-          <h1><%-cpdData.id %>: <small><%-cpdData.name %></small>
-            <% if (cpdData.alias) { %>
-              <small>(<%- cpdData.alias%>)</small>
-            <%} %>
-          </h1>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-9">
-        <dl class="dl-horizontal">
-          <dt>Names</dt>
-          <dd>
-            <ul class="list-inline">
-              <% _.each(cpdData.synonyms, function(s) { %>
-                <li><%- s %></li>
-              <%} );%>
-            </ul>
-          </dd>
-          <% if (cpdData.formula) { %>
-            <dt>Formula</dt>
-            <dd><%-cpdData.formula %></dd>
-          <%} %>
-          <dt>Charge</dt>
-          <dd>0</dd>
-          <% if (cpdData.smiles) { %>
-            <dt>Universal SMILES</dt>
-            <dd>
-              <div style="word-wrap: break-word">
-                <%-cpdData.smiles %>
-              </div>
-            </dd>
-          <%} %>
-          <% if (cpdData.inchi) { %>
-            <dt>InChI</dt>
-            <dd>
-              <div style="word-wrap: break-word">
-                <%-cpdData.inchi %>
-              </div>
-            </dd>
-          <%} %>
-          <% if (cpdData.inchikey) { %>
-            <dt>InChIKey</dt>
-            <dd><%-cpdData.inchikey %></dd>
-          <%} %>
-        </dl>
-        <h4>Lipid Data:</h4>
-
-        <% _.each(cpdData.extra, function(v, k) { %>
-          <%
-             if (renderFunctions[k] && _.size(v)) { %>
-             <div style="background-color: #e1fcf4; border-radius: 10px; padding-left: 10px">
-             <%= renderFunctions[k]({cpdData: v}) %>
-             </div>
-          <%
-             };
-             console.log(k, v);
-          %>
-        <%})%>
-      </div>
-      <div class="col-md-3">
-        <% if (cpdData.mol) { %>
-          <%="<img src='data/structure/" + cpdData.id + ".svg'>"%>
-        <%} %>
-
-        <h4>Database Links:</h4>
-        <% _.each(cpdData.references, function(s) { %>
-          <%-s.entry %> @ <%-s.source %><br>
-        <%} );%>
-      </div>
-    </div>
-  </div>
-</script>
-<script>
-  var renderFunctions = {
-    "bigg" : _.template($("#cpd-view-template-bigg").html()),
-    "ms" : _.template($("#cpd-view-template-modelseed").html()),
-    "metacyc" : _.template($("#cpd-view-template-metacyc").html())
-  };
-  var cpdViewTemplate = _.template($("#cpd-view-template").html());
-
-  var tsize = 300;
-
-  var table_rxn_sets_config = {
-    scrollY: tsize,
-    scroller: true,
-    "dom": '<"top"f>rt<"bottom"i><"clear">',
-    "aaData" : [],
-    "aoColumns" : [
-      {
-        sTitle: 'Reaction',
-        mDataProp: 'id',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: 'Alias',
-        mDataProp: 'alias',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: 'Enzyme',
-        mDataProp: 'ecn',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: 'Name',
-        mDataProp: 'name',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: 'Equation',
-        mDataProp: 'equation',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: 'References',
-        mDataProp: 'refs',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: '',
-        mDataProp: 'details',
-        bSearchable: false,
-        bVisible: true
-      }
-    ]
-  };
-
-  var table_cpd_sets_config = {
-    scrollY: tsize,
-    scroller: true,
-    "dom": '<"top"f>rt<"bottom"i><"clear">',
-    "aaData" : [],
-    "aoColumns" : [
-      {
-        sTitle: 'Compound',
-        mDataProp: 'id',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: 'Name',
-        mDataProp: 'name',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: 'Alias',
-        mDataProp: 'alias',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: 'Formula',
-        mDataProp: 'formula',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: 'Reactions',
-        mDataProp: 'reactions',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: 'References',
-        mDataProp: 'refs',
-        bSearchable: true,
-        bVisible: true
-      },
-      {
-        sTitle: '',
-        mDataProp: 'details',
-        bSearchable: false,
-        bVisible: true
-      }
-    ]
-  };
-
-  var show = function(id) {
-//    console.log('data/cpd/' + id + '.json');
-    $.getJSON('data/cpd/' + id + '.json', function(data) {
-//      console.log(data);
-      var html = cpdViewTemplate({cpdData: data});
-      $('#cpd-view-container').html(html);
-    });
-  };
-
-
-
-  var index;
-
-  $(function () {
-    init();
-    index = new BiodbIndex();
-    var cpdData = {
-      "id" : "icpd2369",
-      "formula" : "C3H3O3",
-      "name" : "pyruvate",
-      "synonyms" : [ "2-oxopropanoate", "2-oxopropionate", "acetylformate", "alpha-ketopropionate" ],
-      "alias" : "pyr",
-      "references" : [ {
-        "source" : "MetaCyc",
-        "entry" : "META:PYRUVATE"
-      }, {
-        "source" : "BiGGMetabolite",
-        "entry" : "pyr"
-      }, {
-        "source" : "LigandCompound",
-        "entry" : "C00022"
-      }]
-    };
-
-    var tableCpd = $("#cpd-table");
-    tableCpd.dataTable(table_cpd_sets_config);
-    $.getJSON('cpds.json', function(data) {
-      var tableData = [];
-      _.each(data.records, function(cpdData) {
-        var reflinks = "";
-        index.setMetaboliteAlias(cpdData.id, cpdData.alias);
-        _.each(cpdData.references, function(ref) {
-          //console.log(cpdData.id, "database", ref.source, "entry", ref.entry);
-          index.addMetabolite(cpdData.id, ref.entry, ref.source);
-          reflinks += getCpdLink(ref.entry, ref.source) + ', ';
-        });
-        var rowData = {
-          "id" : cpdData.id,
-          "name" : cpdData.name,
-          "alias" : cpdData.alias,
-          "formula" : cpdData.formula,
-          "refs" : reflinks,
-          "reactions" : 0,
-          "details" : '<button type="button" ' +
-            'onclick="show(\'' + cpdData.id + '\');"' +
-            'class=\'btn btn-info btn-xs\'' +
-            'data-toggle="modal" data-target="#cpd-model">Show</button>'
-        };
-        tableData.push(rowData);
-      });
-      tableCpd.DataTable().rows.add(tableData).draw();
-    });
-
-    var tableRxn = $("#rxn-table");
-    tableRxn.dataTable(table_rxn_sets_config);
-    $.getJSON('reactionTable.json', function(data) {
-      console.log('loading reactions...');
-      var tableData = [];
-      _.each(data.records, function(rxnData) {
-        console.log(rxnData);
-        var reflinks = "";
-        _.each(rxnData.references, function(ref) {
-          index.addReaction(rxnData.id, ref.entry, ref.source);
-          reflinks += getRxnLink(ref.entry, ref.source) + ', ';
-        });
-        var rowData = {
-          "id" : rxnData.id,
-          "name" : rxnData.name,
-          "alias" : rxnData.alias,
-          "equation" : renderEquationHtml(rxnData, index),
-          "ecn" : rxnData.ecn,
-          "refs" : reflinks,
-          "reactions" : 0,
-          "details" : '<button type="button" ' +
-          'onclick="show(\'' + rxnData.id + '\');"' +
-          'class=\'btn btn-info btn-xs\'' +
-          'data-toggle="modal" data-target="#cpd-model">Show</button>'
-        };
-        tableData.push(rowData);
-      });
-      tableRxn.DataTable().rows.add(tableData).draw();
-    });
-  });
-</script>
 </html>

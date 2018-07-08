@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4042",
+  "equation" : "3pop + h <=> co2 + Pald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1698" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4711" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.82; 4.1.1.82",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04053"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.1.82-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6682", "META:PWY-6839", "META:PWY-7510", "META:PWY-6322", "META:PWY-7769", "META:PWY-5757" ],
+      "orphan" : "NO",
+      "gibbs" : -2.8417358,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00440", "rn01120", "rn01130" ],
+      "orthologs" : [ "K09459" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

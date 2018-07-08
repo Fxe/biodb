@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6449",
+  "formula" : "C6H15N4O3",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd6449",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20330"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15413"
+  } ],
+  "inchi" : "InChI=1S/C6H14N4O3/c7-4(5(12)13)3(11)1-2-10-6(8)9/h3-4,11H,1-2,7H2,(H,12,13)(H4,8,9,10)/p+1",
+  "inchikey" : "VIDUVSPOWYVZIC-UHFFFAOYSA-O",
+  "smiles" : "C(CNC(=[N+])N)C(C(C(=O)[O-])[N+])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Basic-Amino-Acids", "META:L-Amino-Acids", "META:Positively-charged-polar-amino-acids" ],
+      "reactions" : [ "META:RXN-14542", "META:RXN-12536", "META:RXN-14636" ],
+      "gibbs" : 41.844738,
+      "cmlMolWeight" : 191.209,
+      "molWeight" : 191.209,
+      "parents" : [ "META:Basic-Amino-Acids", "META:L-Amino-Acids", "META:Positively-charged-polar-amino-acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   24.0800  -16.5200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8900  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6300  -16.5200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4400  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2500  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9900  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8000  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8900  -14.4200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6100  -15.8900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4200  -16.5200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8000  -17.9200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6100  -14.4200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4400  -14.4200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  7  9  1  0     0  0\n  9 10  1  0     0  0\n  7 11  1  6     0  0\n  9 12  2  0     0  0\n  4 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20330\n\n$$$$",
+  "reactions" : [ "irxn5599", "irxn5902" ]
+}

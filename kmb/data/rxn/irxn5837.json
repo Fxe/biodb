@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5837",
+  "equation" : "nadph + o2 + h <=> nadp + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.6.3.1",
+  "otherNames" : [ ],
+  "alias" : "H2O2syn",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "H2O2syn"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07172"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

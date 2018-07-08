@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2213",
+  "equation" : "h2o + Lcyst <=> n2 + so3 + pyr + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd44" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd1851" : "",
+      "icpd7085" : "",
+      "icpd5833" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.4.1.25; EC-4.4.1.25",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.4.1.25-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07634"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6638" ],
+      "orphan" : "NO",
+      "gibbs" : -31.675339,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00270" ],
+      "orthologs" : [ "K17950" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

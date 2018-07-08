@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2115",
+  "equation" : "o2 + icpd2344 <=> 2.0 vanln",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd2344" : ""
+    },
+    "r" : {
+      "icpd5699" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.43; 1.13.11.43",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00043"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LIGNOSTILBENE-ALPHA-BETA-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -83.78001,
+      "uniprot" : [ "Q52008", "Q53353" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

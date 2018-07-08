@@ -1,0 +1,51 @@
+{
+  "id" : "irxn150",
+  "equation" : "thf + glu__L + atp <=> thfglu + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd514" : "",
+      "icpd6900" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd368" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.2.17",
+  "otherNames" : [ ],
+  "alias" : "THFGLUS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "THFGLUS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00942"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "THFGLUS_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00790" ],
+      "orthologs" : [ "K22099", "K01930", "K11754" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iRC1080", "iND750", "iNJ661", "iJN678", "iMM904", "iSB619", "iHN637" ]
+    }
+  }
+}

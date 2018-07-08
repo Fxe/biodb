@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6267",
+  "equation" : "cit <=> icpd4368 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4436" : ""
+    },
+    "r" : {
+      "icpd4368" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACONITATEDEHYDR-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01325"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-14047" ],
+      "orphan" : "NO",
+      "gibbs" : 3.3529968,
+      "uniprot" : [ "O04916", "Q9JTI5", "P74582", "P09339", "Q42669", "P28271", "Q9JT05", "Q9PP88", "Q9CHQ5", "Q42560", "P81291", "P19414", "Q9SZ36", "P49609", "Q01059", "Q99798", "P16276", "Q9TSA1", "O53166", "P36683", "P37032", "P25516", "P20004", "P21399" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01210", "rn01100", "rn01120", "rn00020", "rn01110", "rn01130", "rn00720" ],
+      "orthologs" : [ "K01682", "K01681" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

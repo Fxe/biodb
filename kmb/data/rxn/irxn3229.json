@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3229",
+  "equation" : "pphn + nadp <=> 34hpp + nadph + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4697" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd3343" : "",
+      "icpd5432" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.13; 1.3.1.13",
+  "otherNames" : [ ],
+  "alias" : "PPND2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PPND2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PREPHENATE-DEHYDROGENASE-NADP+-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01730"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -18.798279,
+      "uniprot" : [ "P20049" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn01130", "rn00400" ],
+      "orthologs" : [ "K00211" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

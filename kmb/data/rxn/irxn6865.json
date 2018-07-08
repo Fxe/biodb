@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6865",
+  "equation" : "coa + dhcholestanate + atp <=> amp + dhcholestancoa + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6265" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd6833" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.7; 6.2.1.28",
+  "otherNames" : [ ],
+  "alias" : "VLCS2p",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "VLCS2p"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04507"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "VLCS2r"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K08748" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

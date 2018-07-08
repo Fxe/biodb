@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1456",
+  "equation" : "gtp + 3pg <=> gdp + 13dpg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1365" : "",
+      "icpd6074" : ""
+    },
+    "r" : {
+      "icpd166" : "",
+      "icpd3088" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.2.10; 2.7.2.10",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01517"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHOGLYCERATE-KINASE-GTP-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -102.5,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

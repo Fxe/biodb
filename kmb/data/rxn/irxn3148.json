@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3148",
+  "equation" : "hpyr + h <=> gcald + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3951" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd2538" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.40; 4.1.1.40",
+  "otherNames" : [ ],
+  "alias" : "HPYRDC",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYPYRUVATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HPYRDCm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HPYRDC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01393"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -3.4658737,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

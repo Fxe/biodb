@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6442",
+  "equation" : "o2 + 4.0 h2o <=> 2.0 s + 2.0 so3 + 4.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "4.0"
+    },
+    "r" : {
+      "icpd1851" : "4.0",
+      "icpd5284" : "2.0",
+      "icpd5833" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.55; 1.13.11.55",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07365"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.13.11.55-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:FE+3", "META:FE+2", "META:CPD-29", "META:FAD", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5302" ],
+      "orphan" : "NO",
+      "gibbs" : -119.73671,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00920" ],
+      "orthologs" : [ "K16952" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

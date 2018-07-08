@@ -1,0 +1,30 @@
+{
+  "id" : "icpd2040",
+  "formula" : "C2H6O2",
+  "name" : "1,2-ethanediol",
+  "synonyms" : [ "2-hydroxyethanol", "ethane-1,2-diol", "ethylene alcohol", "ethylene glycol", "monoethylene glycol" ],
+  "alias" : "icpd2040",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15588"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:glycols"
+  } ],
+  "inchi" : "InChI=1S/C2H6O2/c3-1-2-4/h3-4H,1-2H2",
+  "inchikey" : "LYCAIKOWRPUZTN-UHFFFAOYSA-N",
+  "smiles" : "C(CO)O[H]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:GLYCOL", "META:CPD-19231", "META:CPD-13560", "META:CPD-12275", "META:CPD-12276" ],
+      "reactions" : [ "META:3.3.2.10-RXN" ],
+      "parents" : [ "META:A-L-GLYCOL", "META:GLYCOL", "META:Diols", "META:2-3-Butanediols", "META:CPD-19231", "META:DL-12-Propanediol", "META:CPD-13560", "META:CPD-12275", "META:CPD-12276" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   24.9892  -16.2627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3908  -16.2627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2944  -17.4773    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0856  -17.4773    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15588\n\n$$$$",
+  "reactions" : [ "irxn5963" ]
+}

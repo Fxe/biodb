@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5285",
+  "equation" : "ser__L <=> ser__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4818" : ""
+    },
+    "r" : {
+      "icpd2056" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.1.18; EC-5.1.1.18; 5.1.1.10",
+  "otherNames" : [ ],
+  "alias" : "SERR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00589"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SERR"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5.1.1.18-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-2482" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6196", "META:PWY-6455" ],
+      "orphan" : "NO",
+      "gibbs" : -2.050003,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00260" ],
+      "orthologs" : [ "K12235" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3939",
+  "equation" : "gsn + h2o <=> n2 + xtsn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4824" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd714" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.4.15; 3.5.4.15",
+  "otherNames" : [ ],
+  "alias" : "r1384",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r1384"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GUANOSINE-DEAMINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02145"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:CU+2", "META:ZN+2", "META:CPD-29", "META:PB+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6607" ],
+      "orphan" : null,
+      "gibbs" : -4.1229897,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

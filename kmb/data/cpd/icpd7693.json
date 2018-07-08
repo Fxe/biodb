@@ -1,0 +1,43 @@
+{
+  "id" : "icpd7693",
+  "formula" : "C10H16N5O13P3",
+  "name" : "2'-deoxyguanosine 5'-triphosphate",
+  "synonyms" : [ "({[(2r,3s,5r)-5-(2-amino-6-oxo-1h-purin-9-yl)-3-hydroxyoxolan-2-yl]methoxy(hydroxy)phosphoryl}oxy(hydroxy)phosphoryl)oxyphosphonic acid", "({[({[(2r,3s,5r)-5-(2-amino-6-oxo-6,9-dihydro-1h-purin-9-yl)-3-hydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)phosphonic acid", "2'-deoxyguanosine triphosphate", "2'-deoxyguanosine-5'-triphosphate", "deoxyguanosine 5'-triphosphate", "deoxyguanosine triphosphate", "deoxyguanosine-triphosphate" ],
+  "alias" : "dgtp",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "dgtp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DGTP"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00286"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dgtp"
+  } ],
+  "inchi" : "InChI=1S/C10H16N5O13P3/c11-10-13-8-7(9(17)14-10)12-3-15(8)6-1-4(16)5(26-6)2-25-30(21,22)28-31(23,24)27-29(18,19)20/h3-6,16H,1-2H2,(H,21,22)(H,23,24)(H2,18,19,20)(H3,11,13,14,17)/t4-,5+,6+/m0/s1",
+  "inchikey" : "HAAZLUGHYHWQIW-KVQBGUIXSA-N",
+  "smiles" : "C1[C@@]([H])([C@@]([H])(COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O[C@@]1([H])N2C=NC3=C2NC(=N)N=C3O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:DEOXYADENOSINE-KINASE-RXN", "META:GTP-CYCLOHYDRO-I-RXN", "META:RXN0-3741", "META:DEOXYGUANOSINE-KINASE-RXN", "META:GUANYL-KIN-RXN" ],
+      "activators" : [ "META:THYKI-RXN", "META:RXN0-745" ],
+      "instances" : [ "META:Purine-deoxyribonucleosides-5-PPP", "META:All-Nucleosides" ],
+      "reactions" : [ "META:RXN0-385", "META:RXN-7910", "META:DGTPTRIPHYDRO-RXN", "META:RXN-14217", "META:DGDPKIN-RXN", "META:RXN-11410", "META:RXN0-746", "META:RXN-14208", "META:RXN-14207" ],
+      "gibbs" : -513.4785,
+      "cmlMolWeight" : 503.152,
+      "molWeight" : 503.152,
+      "parents" : [ "META:Purine-deoxyribonucleosides-5-PPP", "META:All-Nucleosides" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 31 33  0  0  1  0  0  0  0  0999 V2000\n   30.3772  -22.5748    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3194  -21.8270    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   31.6101  -21.6575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5116  -23.9948    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0282  -22.2535    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   29.7987  -20.4363    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2419  -20.4420    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8663  -22.2184    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.8379  -24.5731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8945  -21.3945    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5957  -23.5039    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.0241  -23.7025    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   33.9766  -21.3886    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.9899  -25.9581    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7843  -22.1950    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.2167  -23.5039    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.4637  -21.7568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7668  -24.8187    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4178  -22.6917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0212  -22.6917    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   20.6247  -22.6917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0154  -24.0882    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0154  -21.2952    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2282  -22.6858    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   17.8258  -22.6858    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2166  -24.0824    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2166  -21.2835    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4292  -22.6742    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   16.4234  -24.0765    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0327  -22.6683    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4234  -21.2776    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  5  2  1  1     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  1  0     0  0\n  8 12  1  0     0  0\n  8 13  2  0     0  0\n  9 14  1  0     0  0\n 10 15  1  0     0  0\n 11 16  1  0     0  0\n 15 17  1  1     0  0\n 16 18  1  6     0  0\n 17 19  1  0     0  0\n 19 20  1  0     0  0\n 20 21  1  0     0  0\n 20 22  1  0     0  0\n 20 23  2  0     0  0\n 21 24  1  0     0  0\n 24 25  1  0     0  0\n 24 26  1  0     0  0\n 24 27  2  0     0  0\n 25 28  1  0     0  0\n 28 29  1  0     0  0\n 28 30  1  0     0  0\n 28 31  2  0     0  0\n  6  7  2  0     0  0\n  9 12  1  0     0  0\n 15 16  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00286\n\n$$$$",
+  "reactions" : [ "irxn708", "irxn1714", "irxn3999", "irxn5848", "irxn1898", "irxn6742", "irxn2397", "irxn4872", "irxn3222", "irxn4075", "irxn132", "irxn2360", "irxn6163", "irxn821" ]
+}

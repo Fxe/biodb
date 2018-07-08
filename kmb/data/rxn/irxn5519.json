@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5519",
+  "equation" : "glu__L + 4met2obut <=> met__L + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd514" : "",
+      "icpd2259" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd5870" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.57; 2.6.1.5; 2.6.1.57",
+  "otherNames" : [ ],
+  "alias" : "ARAT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07396"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARAT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14147"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 1.3241272,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ "K08969", "K00815", "K00832" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iNF517" ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id" : "irxn4154",
+  "equation" : "mercppyr + glu__L <=> cys__L + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd514" : "",
+      "icpd4519" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd4873" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.1; 2.6.1.3; EC-2.6.1.3",
+  "otherNames" : [ ],
+  "alias" : "CYSAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYSTAm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00895"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CYSTEINE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPTA4"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSATm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSTA"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSAT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:L-ASPARTATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY0-1534", "META:PWY-5329" ],
+      "orphan" : "NO",
+      "gibbs" : -0.85591125,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iNF517", "iRC1080", "iMM1415", "iLB1027_lipid", "iJN678", "iML1515", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4312",
+  "equation" : "catechol + o2 <=> h + 2hmcnsad",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd2941" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7688" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.2; EC-1.13.11.2",
+  "otherNames" : [ ],
+  "alias" : "CAT23DOX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00816"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CAT23DOX"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CATECHOL-23-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P183-PWY", "META:PWY-5419" ],
+      "orphan" : "NO",
+      "gibbs" : -73.51412,
+      "uniprot" : [ "P06622", "Q59770", "P31003", "Q7M0R7", "Q7M0R6", "Q59708", "Q59709", "P17296", "P17262", "P17295", "Q52264", "O85982", "P08127", "P27887" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00362", "rn01220" ],
+      "orthologs" : [ "K07104", "K00446" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

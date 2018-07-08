@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5701",
+  "equation" : "icpd2913 <=> h2o + icpd111",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2913" : ""
+    },
+    "r" : {
+      "icpd111" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.105; 4.2.1.105",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07317"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-3284"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-5401", "META:BUTANEDIOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2055", "META:PWY-2321", "META:PWY-2002" ],
+      "orphan" : "NO",
+      "gibbs" : -28.526001,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00943" ],
+      "orthologs" : [ "K13258" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

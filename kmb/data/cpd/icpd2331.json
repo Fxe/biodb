@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2331",
+  "formula" : "C10H18O2",
+  "name" : "menth-8-ene-1,2-diol",
+  "synonyms" : [ "1-methyl-4-(1-methylethenyl)-1,2-cyclohexanediol", "p-menth-8-ene-1,2-diol" ],
+  "alias" : "icpd2331",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Limonene-1-2-diols"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18020"
+  } ],
+  "inchi" : "InChI=1S/C10H18O2/c1-7(2)8-4-5-10(3,12)9(11)6-8/h8-9,11-12H,1,4-6H2,2-3H3",
+  "inchikey" : "WKZWTZTZWGWEGE-UHFFFAOYSA-N",
+  "smiles" : "C=C(C)C1CCC(C)(C(C1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-10055", "META:CPD-8222" ],
+      "reactions" : [ "META:RXN-9412" ],
+      "gibbs" : 143.54019,
+      "cmlMolWeight" : 170.251,
+      "molWeight" : 170.251,
+      "parents" : [ "META:CPD-10055", "META:Monoterpenes", "META:Diols", "META:CPD-8222" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   26.6564  -22.9736    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6564  -24.3776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8762  -25.0829    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   29.0886  -24.3776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0886  -22.9736    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.8762  -22.2752    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   30.2988  -22.2760    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8779  -26.4870    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6620  -27.1869    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0955  -27.1839    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8013  -21.4332    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8685  -21.2829    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  1  0     0  0\n  6  1  1  0     0  0\n  1  2  1  0     0  0\n  5  7  1  0     0  0\n  2  3  1  0     0  0\n  3  8  1  0     0  0\n  3  4  1  0     0  0\n  8  9  1  0     0  0\n  4  5  1  0     0  0\n  8 10  2  0     0  0\n  6 11  1  0     0  0\n  6 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18020\n\n$$$$",
+  "reactions" : [ ]
+}

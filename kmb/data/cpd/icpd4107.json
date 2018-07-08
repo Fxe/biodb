@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4107",
+  "formula" : "C6H12O5",
+  "name" : "beta-l-fucopyranose",
+  "synonyms" : [ "(2s,3s,4r,5s,6s)-6-methyloxane-2,3,4,5-tetrol", "beta-l-fucopyrnost", "beta-l-fucose", "beta-l-fucost", "β-l-fucose" ],
+  "alias" : "icpd4107",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20836"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1107"
+  } ],
+  "inchi" : "InChI=1S/C6H12O5/c1-2-3(7)4(8)5(9)6(10)11-2/h2-10H,1H3/t2-,3+,4+,5-,6-/m0/s1",
+  "inchikey" : "SHZGCJCMOBCMKK-KGJVWPDLSA-N",
+  "smiles" : "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O)O1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:L-Fucopyranoses" ],
+      "reactions" : [ "META:RXN0-5298" ],
+      "gibbs" : -58.79656,
+      "cmlMolWeight" : 164.158,
+      "molWeight" : 164.158,
+      "parents" : [ "META:L-Fucopyranoses" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   17.4587  -14.7922    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4587  -16.1883    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6677  -16.8864    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8768  -16.1883    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8768  -14.7922    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6677  -14.0942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1045  -14.0832    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1045  -16.8973    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6677  -18.2822    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2496  -16.8864    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2496  -14.0942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  5  7  1  6     0  0\n  4  8  1  1     0  0\n  3  9  1  6     0  0\n  2 10  1  6     0  0\n  1 11  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C20836\n\n$$$$",
+  "reactions" : [ "irxn1805" ]
+}

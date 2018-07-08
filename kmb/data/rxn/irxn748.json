@@ -1,0 +1,49 @@
+{
+  "id" : "irxn748",
+  "equation" : "Nforglu + h2o <=> glu__L + for",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6412" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd1650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.68; EC-3.5.1.68",
+  "otherNames" : [ ],
+  "alias" : "NFORGLUAH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00525"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NFORGLUAH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-FORMYLGLUTAMATE-DEFORMYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ACETYL-GLU", "META:CPD-583" ],
+      "activators" : [ "META:CPD-600", "META:UROCANATE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5028" ],
+      "orphan" : "NO",
+      "gibbs" : 1.371109,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn00340" ],
+      "orthologs" : [ "K01458" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iHN637", "iJN746" ]
+    }
+  }
+}

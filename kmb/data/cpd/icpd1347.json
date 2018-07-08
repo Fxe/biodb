@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1347",
+  "formula" : "C10H6Cl2N2O2",
+  "name" : "3-chloro-4-(3-chloro-2-nitrophenyl)pyrrole",
+  "synonyms" : [ ],
+  "alias" : "icpd1347",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C12491"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12776"
+  } ],
+  "inchi" : "InChI=1S/C10H6Cl2N2O2/c11-8-3-1-2-6(10(8)14(15)16)7-4-13-5-9(7)12/h1-5,13H",
+  "inchikey" : "QJBZDBLBQWFTPZ-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C(=C1)Cl)[N+](=O)[O-])C2=CNC=C2Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds", "META:C-nitro-compounds" ],
+      "reactions" : [ "META:RXN-15034", "META:RXN-11794" ],
+      "gibbs" : 44.896725,
+      "cmlMolWeight" : 257.076,
+      "molWeight" : 257.076,
+      "parents" : [ "META:Chloroaromatic-Compounds", "META:C-nitro-compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 16 17  0  0  0  0  0  0  0  0999 V2000\n   26.5938  -18.9056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2274  -20.2543    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3970  -21.0195    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4859  -20.1436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9897  -18.9073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1743  -16.5077    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1743  -17.9124    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3938  -18.6148    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6061  -17.9124    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6061  -16.5077    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3938  -15.8053    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7588  -17.6618    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   24.3255  -20.0195    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   21.9581  -18.6155    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   23.1098  -20.7234    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   25.4011  -20.8622    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  5  1  1  0     0  0\n  6  7  2  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n 10 11  2  0     0  0\n 11  6  1  0     0  0\n  9  1  1  0     0  0\n  5 12  1  0     0  0\n  1  2  2  0     0  0\n  8 13  1  0     0  0\n  2  3  1  0     0  0\n  7 14  1  0     0  0\n  3  4  1  0     0  0\n 13 15  1  0     0  0\n 13 16  2  0     0  0\n  4  5  2  0     0  0\nM  CHG  2  13   1  15  -1\nM  END\n\n> <ENTRY>\ncpd:C12491\n\n$$$$",
+  "reactions" : [ ]
+}

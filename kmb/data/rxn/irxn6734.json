@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6734",
+  "equation" : "icpd5028 + amet <=> ahcys + icpd3021",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd5028" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd3021" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.50; EC-2.1.1.50",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03554"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LOGANATE-O-METHYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:LOGANIN", "META:CPD-7082", "META:ADENOSYL-HOMO-CYS", "META:IODOACETAMIDE", "META:CPD-29", "META:CPD-28" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5290" ],
+      "orphan" : "NO",
+      "gibbs" : -4.705921,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00902" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

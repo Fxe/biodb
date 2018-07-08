@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5556",
+  "equation" : "nad + h2o + conialdh <=> fer + nadh + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd430" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd6170" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.68",
+  "otherNames" : [ ],
+  "alias" : "COALDDH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05700"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "COALDDH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00940" ],
+      "orthologs" : [ "K12355" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id" : "icpd1130",
+  "formula" : "C6H14O12P2",
+  "name" : "beta-d-fructose 1,6-bisphosphate",
+  "synonyms" : [ "[(2r,3s,4s,5r)-3,4,5-trihydroxy-5-[(phosphonooxy)methyl]oxolan-2-yl]methoxyphosphonic acid", "beta-d-frucaost 1,6-eisphosphat", "{[(2r,3s,4s,5r)-3,4,5-trihydroxy-5-[(phosphonooxy)methyl]oxolan-2-yl]methoxy}phosphonic acid" ],
+  "alias" : "fdp_B",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "fdp_B"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05378"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FRUCTOSE-16-DIPHOSPHATE"
+  } ],
+  "inchi" : "InChI=1S/C6H14O12P2/c7-4-3(1-16-19(10,11)12)18-6(9,5(4)8)2-17-20(13,14)15/h3-5,7-9H,1-2H2,(H2,10,11,12)(H2,13,14,15)/t3-,4-,5+,6-/m1/s1",
+  "inchikey" : "RNBGYGVWRKECFJ-ARQDHWQXSA-N",
+  "smiles" : "C([C@]1([H])[C@]([H])([C@@]([H])([C@](COP(=O)(O)O)(O)O1)O)O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PGLUCISOM-RXN", "META:GAPOXNPHOSPHN-RXN", "META:QUINOPRIBOTRANS-RXN", "META:1.1.1.8-RXN", "META:1PFRUCTPHOSN-RXN", "META:RXN-9952", "META:GLYCEROL-KIN-RXN", "META:TRIOSEPISOMERIZATION-RXN", "META:6PFRUCTPHOS-RXN", "META:RXN-3341", "META:PEPDEPHOS-RXN", "META:GSADENYLATION-RXN" ],
+      "activators" : [ "META:PEPCARBOX-RXN", "META:SUCROSE-PHOSPHATE-SYNTHASE-RXN", "META:SUCROSE-PHOSPHATASE-RXN", "META:METHYL-GLYOXAL-DEHYDROG-RXN", "META:GLUC1PADENYLTRANS-RXN", "META:L-LACTATE-DEHYDROGENASE-RXN", "META:PEPDEPHOS-RXN" ],
+      "instances" : [ "META:Sugar-bisphosphates", "META:HEXOSE-6-PHOSPHATES" ],
+      "reactions" : [ "META:F16ALDOLASE-RXN", "META:RXN-18820", "META:RXN-10053", "META:1PFRUCTPHOSN-RXN", "META:R302-RXN", "META:F16BDEPHOS-RXN", "META:6PFRUCTPHOS-RXN", "META:2.7.1.90-RXN" ],
+      "gibbs" : -541.3618,
+      "cmlMolWeight" : 336.085,
+      "molWeight" : 336.085,
+      "parents" : [ "META:Sugar-bisphosphates", "META:HEXOSE-6-PHOSPHATES" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080" ]
+    }
+  },
+  "mol" : " \n \n \n 20 20  0  0  1  0  0  0  0  0999 V2000\n   27.5517  -20.3056    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.3898  -19.4648    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1314  -21.6017    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.5327  -19.3012    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8363  -20.8426    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2630  -20.2763    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.7125  -21.6017    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.9546  -22.7460    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8112  -19.8909    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9201  -19.8559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8952  -22.7519    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2067  -19.8909    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   23.0852  -20.9829    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1950  -21.2865    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.6021  -19.8909    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1950  -18.4897    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6782  -20.9770    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   20.2827  -20.9653    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6723  -22.3723    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6723  -19.5757    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  1  5  1  1     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  1     0  0\n  4  9  1  0     0  0\n  6 10  1  1     0  0\n  7 11  1  6     0  0\n  9 12  1  0     0  0\n 10 13  1  0     0  0\n 12 14  1  0     0  0\n 12 15  1  0     0  0\n 12 16  2  0     0  0\n 13 17  1  0     0  0\n 17 18  1  0     0  0\n 17 19  1  0     0  0\n 17 20  2  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05378\n\n$$$$",
+  "reactions" : [ "irxn5433", "irxn6663", "irxn6851", "irxn6393", "irxn6527" ]
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1821",
+  "formula" : "C9H8NO3",
+  "name" : "4-oxo-4-(3-pyridyl)-butanoate",
+  "synonyms" : [ "&gamma;-oxo-3-pyridinebutanoate", "4-oxo-4-(pyridin-3-yl)butanoate", "gamma-oxo-3-pyridinebutanoate" ],
+  "alias" : "icpd1821",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14094"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19569"
+  } ],
+  "inchi" : "InChI=1S/C9H9NO3/c11-8(3-4-9(12)13)7-2-1-5-10-6-7/h1-2,5-6H,3-4H2,(H,12,13)/p-1",
+  "inchikey" : "JGSUNMCABQUBOY-UHFFFAOYSA-M",
+  "smiles" : "C1=CN=CC(=C1)C(=O)CCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN66-165", "META:RXN66-141", "META:RXN-13089", "META:RXN-13082", "META:RXN66-105" ],
+      "gibbs" : 0.93690777,
+      "cmlMolWeight" : 178.167,
+      "molWeight" : 178.167
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   19.2739  -19.3932    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2739  -20.7935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4865  -21.4937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6993  -20.7935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6993  -19.3932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4865  -18.6932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9370  -18.6932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1497  -19.3932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3622  -18.6932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5748  -19.3932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9432  -17.2932    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5751  -20.7691    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8073  -18.6813    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  7 11  2  0     0  0\n 10 12  2  0     0  0\n 10 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19569\n\n$$$$",
+  "reactions" : [ "irxn6363", "irxn2613" ]
+}

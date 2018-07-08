@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4133",
+  "equation" : "h + so4 + adp <=> aps + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5748" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    },
+    "r" : {
+      "icpd1665" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.5; 2.7.7.5",
+  "otherNames" : [ ],
+  "alias" : "SLFAT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00530"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SULFATE-ADENYLYLTRANSFERASE-ADP-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SLFAT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5279" ],
+      "orphan" : "NO",
+      "gibbs" : -8.706665,
+      "uniprot" : [ "P16550" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00920" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3293",
+  "equation" : "5htrp <=> co2 + srtn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3193" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd2870" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.28; EC-4.1.1.28",
+  "otherNames" : [ ],
+  "alias" : "5HLTDL",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN3DJ-170"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "5HLTDL"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02701"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6030" ],
+      "orphan" : "NO",
+      "gibbs" : -3.090004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K01593" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

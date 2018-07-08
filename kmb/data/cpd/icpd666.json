@@ -1,0 +1,32 @@
+{
+  "id" : "icpd666",
+  "formula" : "C10H8O",
+  "name" : "2-naphthol",
+  "synonyms" : [ "2-hydroxynaphthalene", "2-naphthalenol", "beta-hydroxynaphthalene", "beta-naphthol", "beta-naphthyl alcohol", "beta-nphahol", "betanaphthol", "naphthalen-2-ol" ],
+  "alias" : "icpd666",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8131"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11713"
+  } ],
+  "inchi" : "InChI=1S/C10H8O/c11-10-6-5-8-3-1-2-4-9(8)7-10/h1-7,11H",
+  "inchikey" : "JWAZRIHNYRIHIV-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C1)C=C(C=C2)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN" ],
+      "reactions" : [ "META:RXN-12696" ],
+      "gibbs" : 99.308975,
+      "cmlMolWeight" : 144.173,
+      "molWeight" : 144.173
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   25.8511  -16.2160    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8511  -17.6171    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0613  -18.3141    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0613  -15.5120    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2714  -16.2160    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2655  -17.6171    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4766  -18.3191    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7639  -17.6274    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7000  -16.2263    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4886  -15.5172    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.9059  -15.5120    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  6  1  0     0  0\n  5  4  1  0     0  0\n  4  1  2  0     0  0\n  5  6  2  0     0  0\n  6  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\n 10  5  1  0     0  0\n  9 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11713\n\n$$$$",
+  "reactions" : [ ]
+}

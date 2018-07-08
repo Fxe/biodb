@@ -1,0 +1,33 @@
+{
+  "id" : "icpd624",
+  "formula" : "C15H24",
+  "name" : "1,2,3,5,6,8a-hexahydro-4,7-dimethyl-1-(1-methylethyl)-(1s,8ar)-naphthalene",
+  "synonyms" : [ "(1s,8ar)-1-isopropyl-4,7-di-methyl-1,2,3,5,6,8a-hexahydronaphthalene", "(1s,8ar)-4,7-dimethyl-1-(propan-2-yl)-1,2,3,5,6,8a-hexahydronaphthalene" ],
+  "alias" : "icpd624",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06394"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1722"
+  } ],
+  "inchi" : "InChI=1S/C15H24/c1-10(2)13-8-6-12(4)14-7-5-11(3)9-15(13)14/h9-10,13,15H,5-8H2,1-4H3/t13-,15-/m0/s1",
+  "inchikey" : "FUCYIEXQVQJBKY-ZFWWWQNUSA-N",
+  "smiles" : "CC(C)[C@@H]1CCC(=C2CCC(=C[C@@]12[H])C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Sesquiterpenes" ],
+      "reactions" : [ "META:4.6.1.11-RXN", "META:RXN-9045", "META:RXN-9186" ],
+      "gibbs" : 279.63242,
+      "cmlMolWeight" : 204.355,
+      "molWeight" : 204.355,
+      "parents" : [ "META:Sesquiterpenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 16 17  0  0  1  0  0  0  0  0999 V2000\n   27.7900  -17.9200    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.7900  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5300  -17.1500    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.9800  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5300  -19.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9800  -19.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3400  -17.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5300  -15.7500    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   30.1700  -17.9200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3400  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5300  -21.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1700  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7900  -15.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3400  -15.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.3600  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7900  -16.5200    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  1     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  1  0     0  0\n  6 12  1  0     0  0\n  8 13  1  0     0  0\n  8 14  1  0     0  0\n  9 15  1  0     0  0\n  7 10  1  0     0  0\n  9 12  1  0     0  0\n  1 16  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C06394\n\n$$$$",
+  "reactions" : [ "irxn2748" ]
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7393",
+  "formula" : "C4H4O2",
+  "name" : "4-hydroxy-2-butynal",
+  "synonyms" : [ "4-hydroxybut-2-ynal" ],
+  "alias" : "icpd7393",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXY-2-BUTYNAL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02648"
+  } ],
+  "inchi" : "InChI=1S/C4H4O2/c5-3-1-2-4-6/h3,6H,4H2",
+  "inchikey" : "QAPQYLWHUDXNHY-UHFFFAOYSA-N",
+  "smiles" : "C(#CCO)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:2-ALKYN-1-OL-DEHYDROGENASE-RXN" ],
+      "gibbs" : 54.004486,
+      "cmlMolWeight" : 84.074,
+      "molWeight" : 84.074
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   25.8520  -16.0530    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0680  -16.7546    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6416  -15.3514    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2784  -16.0530    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4313  -16.0530    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4887  -16.7546    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  3  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02648\n\n$$$$",
+  "reactions" : [ "irxn5230" ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1814",
+  "equation" : "lac__L <=> lac__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5544" : ""
+    },
+    "r" : {
+      "icpd6203" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.1.2.1; 5.1.2.1",
+  "otherNames" : [ ],
+  "alias" : "LacR",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LACTATE-RACEMASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LacR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01450"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 0.4300003,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00620" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iIT341", "iAF987" ]
+    }
+  }
+}

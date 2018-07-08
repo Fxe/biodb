@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4200",
+  "equation" : "atp + icpd7924 <=> g6p + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7924" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd1569" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.1; EC-2.7.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HEXOKINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02848"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "P27881", "Q42525", "Q09756", "Q64596", "Q02155", "P04806", "P04807", "P05708", "P50521", "P19367", "P52789", "P78848", "P35557", "P17712", "P33284", "P27926", "O64390" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

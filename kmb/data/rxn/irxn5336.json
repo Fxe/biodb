@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5336",
+  "equation" : "o2 + nadh + h + mso3 <=> nad + h2o + so3 + fald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2672" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd5833" : "",
+      "icpd5131" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.111; EC-1.14.13.111",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09513"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9770"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6044" ],
+      "orphan" : "NO",
+      "gibbs" : -119.74704,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00920" ],
+      "orthologs" : [ "K15765", "K15762", "K16969", "K16968" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

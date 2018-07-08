@@ -1,0 +1,47 @@
+{
+  "id" : "irxn222",
+  "equation" : "h2o + 316959 <=> Rtotal2 + h + 344850",
+  "stoichiometry" : {
+    "l" : {
+      "316959" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd585" : "",
+      "icpd1851" : "",
+      "344850" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RETH2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RETH2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RETH2e"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

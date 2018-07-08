@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6424",
+  "equation" : "icpd632 + o2 + nadh + h <=> nad + icpd2752",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd632" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd2752" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.7; EC-1.14.12.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03630"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHTHALATE-45-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -87.0018,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00624" ],
+      "orthologs" : [ "K18068", "K18069" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

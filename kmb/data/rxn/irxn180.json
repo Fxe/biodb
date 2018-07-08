@@ -1,0 +1,49 @@
+{
+  "id" : "irxn180",
+  "equation" : "h2o + phenol + atp <=> pphos + amp + 2.0 h + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd771" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd7485" : "",
+      "icpd7180" : "",
+      "icpd5180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.9.-",
+  "otherNames" : [ ],
+  "alias" : "PHEPS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05625"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PHEPS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

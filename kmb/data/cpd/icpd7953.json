@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7953",
+  "formula" : "C8H10O2",
+  "name" : "4-hydroxyphenylethanol",
+  "synonyms" : [ "1-(4'-hydroxyphenyl)ethanol", "4-(1-hydroxyethyl)phenol", "4-hydroxy-alpha-methyl-benzenemethanol", "p-hydroxyphenylethanol" ],
+  "alias" : "icpd7953",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD3O-4151"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06044"
+  } ],
+  "inchi" : "InChI=1S/C8H10O2/c1-6(9)7-2-4-8(10)5-3-7/h2-6,9-10H,1H3",
+  "inchikey" : "PMRFBLQVGJNGLU-UHFFFAOYSA-N",
+  "smiles" : "CC(C1=CC=C(C=C1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:RXN-12370", "META:RXN3O-4113", "META:RXN-14989" ],
+      "gibbs" : 56.571205,
+      "cmlMolWeight" : 138.166,
+      "molWeight" : 138.166,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   16.7300  -25.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7300  -27.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9424  -27.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1549  -27.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1549  -25.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9424  -25.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3860  -25.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5176  -27.8600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5912  -25.7447    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7735  -25.0619    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  2  8  1  0     0  0\n  7  9  1  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06044\n\n$$$$",
+  "reactions" : [ "irxn6244", "irxn1288" ]
+}

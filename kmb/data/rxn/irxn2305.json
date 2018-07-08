@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2305",
+  "equation" : "nad + 3hacoa <=> nadh + h + 320357",
+  "stoichiometry" : {
+    "l" : {
+      "icpd158" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "320357" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.35",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OHACYL-COA-DEHYDROG-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16133"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5136", "META:PWY66-391", "META:FAO-PWY", "META:PWY-7007" ],
+      "orphan" : "NO",
+      "gibbs" : 21.624023,
+      "uniprot" : [ "Q16836", "Q39659", "P34439", "Q61425", "P28793", "P55100", "Q08426", "Q01373", "Q7M0E0", "Q53924", "P00348", "P21177", "P22414", "P07896" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

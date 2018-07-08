@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5277",
+  "equation" : "o2 + icpd4636 <=> icpd7365 + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4636" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd7365" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.36; EC-1.13.11.36",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04602"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHLORIDAZON-CATECHOL-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -75.61236,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

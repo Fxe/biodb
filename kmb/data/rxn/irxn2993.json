@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2993",
+  "equation" : "thm + atp <=> amp + h + thmpp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1280" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6523" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.6.2; 2.7.6.2",
+  "otherNames" : [ ],
+  "alias" : "TMDPK",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TMDPK"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THIAMIN-PYROPHOSPHOKINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00619"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6908", "META:PWY-6907", "META:PWY-7356", "META:PWY-6898" ],
+      "orphan" : "NO",
+      "gibbs" : -13.473511,
+      "uniprot" : [ "P35202", "P41888" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00730" ],
+      "orthologs" : [ "K00949" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iCHOv1", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

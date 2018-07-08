@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1287",
+  "equation" : "o2 + xol7aone + 2.0 h + 2.0 icpd1857 <=> h2o + xoldiolone + 2.0 icpd1812",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1851" : "2.0",
+      "icpd1857" : "2.0",
+      "icpd2845" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd1812" : "2.0",
+      "icpd7207" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.18.8; 1.14.18.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.14.13.95-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04826"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6061" ],
+      "orphan" : "NO",
+      "gibbs" : -78.89053,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K07431" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

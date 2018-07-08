@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2841",
+  "equation" : "ser__L <=> h2o + h + 2amac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4818" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd4735" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.3.1.17",
+  "otherNames" : [ ],
+  "alias" : "SERHL",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15125"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SERHL"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00590"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:4.3.1.17-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -4.7811127,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00270" ],
+      "orthologs" : [ "K17989", "K01752" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

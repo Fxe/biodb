@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4937",
+  "equation" : "4.0 h2o + adcobdam + 4.0 gln__L + 4.0 atp <=> adcobhex + 4.0 glu__L + 4.0 pi + 4.0 adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "4.0",
+      "icpd929" : "4.0",
+      "icpd5967" : "",
+      "icpd6530" : "4.0"
+    },
+    "r" : {
+      "icpd5753" : "4.0",
+      "icpd68" : "",
+      "icpd514" : "4.0",
+      "icpd7485" : "4.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.5.10",
+  "otherNames" : [ ],
+  "alias" : "ADCYRS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ADCYRS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05225"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K02232" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iAF692", "iNJ661", "iJN678", "iAF987", "iSB619", "iHN637", "iJB785", "iJN746" ]
+    }
+  }
+}

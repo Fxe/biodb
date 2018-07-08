@@ -1,0 +1,33 @@
+{
+  "id" : "icpd237",
+  "formula" : "C5H6O2",
+  "name" : "2-methylenebutanolactone",
+  "synonyms" : [ ],
+  "alias" : "icpd237",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15228"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20578"
+  } ],
+  "inchi" : "InChI=1S/C5H6O2/c1-4-2-3-7-5(4)6/h1-3H2",
+  "inchikey" : "GSLDEZOOOSBFGP-UHFFFAOYSA-N",
+  "smiles" : "C=C1CCOC1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Lactones" ],
+      "reactions" : [ "META:RXN-14343" ],
+      "gibbs" : 0.35672548,
+      "cmlMolWeight" : 98.101,
+      "molWeight" : 98.101,
+      "parents" : [ "META:Lactones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  7  0  0  0  0  0  0  0  0999 V2000\n   17.7100  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1100  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5426  -17.9885    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4100  -17.1656    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2774  -17.9885    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8622  -17.5597    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9329  -20.4526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  2  0     0  0\n  2  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20578\n\n$$$$",
+  "reactions" : [ "irxn6809" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd783",
+  "formula" : "C8H9NO2",
+  "name" : "(e)-(4-hydroxyphenyl)acetaldehyde oxime",
+  "synonyms" : [ "(e)-4-hydroxyphenylacetaldehyde oxime", "(e)-4-hydroxyphenylacetaldehyde-oxime", "(e)-4-hydroxyphenylacetaldoxime", "(e)-p-hydroxyphenylacetaldehyde oxime" ],
+  "alias" : "icpd783",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04350"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-2205"
+  } ],
+  "inchi" : "InChI=1S/C8H9NO2/c10-8-3-1-7(2-4-8)5-6-9-11/h1-4,6,10-11H,5H2/b9-6+",
+  "inchikey" : "TVXJJNJGTDWFLD-RMKNXTFCSA-N",
+  "smiles" : "C1=C(C=CC(=C1)O)C/C(/[H])=N/O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aldoxime" ],
+      "reactions" : [ "META:RXN-7749", "META:RXN-18756", "META:RXN-18101", "META:RXN-18144", "META:RXN-13187", "META:1.14.13.68-RXN", "META:RXN-18758" ],
+      "gibbs" : 57.480095,
+      "cmlMolWeight" : 151.165,
+      "molWeight" : 151.165,
+      "parents" : [ "META:Aldoxime" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   17.3342  -17.2326    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1371  -17.9267    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5504  -17.9267    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3342  -15.8510    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1371  -19.3275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5504  -19.3275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5314  -15.1504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3342  -20.0344    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5249  -13.7688    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3342  -21.4162    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7985  -13.0047    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9581  -15.9843    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  2  0     0  0\n  7  9  2  0     0  0\n  8 10  1  0     0  0\n  9 11  1  0     0  0\n  6  8  1  0     0  0\n  7 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04350\n\n$$$$",
+  "reactions" : [ "irxn1193", "irxn1348" ]
+}

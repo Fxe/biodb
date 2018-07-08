@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2536",
+  "equation" : "h2o + icpd4602 <=> ac + icpd4732",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4602" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd4732" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.6; EC-3.1.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00628"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETYLESTERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 16.255127,
+      "uniprot" : [ "P23553" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

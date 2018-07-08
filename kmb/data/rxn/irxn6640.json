@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6640",
+  "equation" : "itp + fru <=> f6p + idp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3761" : "",
+      "icpd2151" : ""
+    },
+    "r" : {
+      "icpd3658" : "",
+      "icpd7592" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.1",
+  "otherNames" : [ ],
+  "alias" : "r0357",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0357"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00876"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

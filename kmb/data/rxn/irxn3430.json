@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3430",
+  "equation" : "mal__D <=> h2o + male",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1027" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd3385" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.31; 4.2.1.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MALEATE-HYDRATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02419"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -0.09700012,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00650" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

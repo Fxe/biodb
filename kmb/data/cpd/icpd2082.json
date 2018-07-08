@@ -1,0 +1,30 @@
+{
+  "id" : "icpd2082",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd2082",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:N-ACETYL-D-AMINO-ACID"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03135"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-ACETYL-D-TRYPTOPHAN" ],
+      "reactions" : [ "META:D-AMINO-ACID-N-ACETYLTRANSFERASE-RXN" ],
+      "parents" : [ "META:N-Acetylated-Amino-Acids", "META:N-ACYL-D-AMINO-ACID", "META:N-ACETYL-D-TRYPTOPHAN" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   24.9322  -18.1173    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   23.6702  -18.8099    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9322  -16.8013    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1479  -18.8426    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1241  -18.1403    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1270  -16.1087    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7374  -16.1087    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9812  -18.8041    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1241  -16.8801    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  1     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  1  0     0  0\n  5  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03135\n\n$$$$",
+  "reactions" : [ "irxn1230" ]
+}

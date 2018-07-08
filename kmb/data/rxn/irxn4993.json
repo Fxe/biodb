@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4993",
+  "equation" : "dgal6p <=> tag6p__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3076" : ""
+    },
+    "r" : {
+      "icpd3517" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.1.26; 5.3.1.26",
+  "otherNames" : [ ],
+  "alias" : "GAL6PI",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LACTOSE-6-PHOSPHATE-ISOMERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03240"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GAL6PI"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LACTOSECAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -0.88998413,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00052" ],
+      "orthologs" : [ "K01819" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iSB619" ]
+    }
+  }
+}

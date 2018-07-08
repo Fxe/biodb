@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2603",
+  "equation" : "coa + c226crn <=> c226coa + crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd7577" : ""
+    },
+    "r" : {
+      "icpd7504" : "",
+      "icpd6570" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "C226CPT2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "C226CPT2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C226CPT1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

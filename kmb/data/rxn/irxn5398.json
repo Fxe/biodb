@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5398",
+  "equation" : "nadh + h + xol7ah <=> nad + xol7ah2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2745" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd2765" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.50",
+  "otherNames" : [ ],
+  "alias" : "AKR1C41",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AKR1C41"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04818"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K00037" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

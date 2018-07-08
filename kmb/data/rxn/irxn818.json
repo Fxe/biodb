@@ -1,0 +1,44 @@
+{
+  "id" : "irxn818",
+  "equation" : "icpd3918 <=> icpd4142 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3918" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4142" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.56; 4.1.1.56",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03747"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-OXOLAURATE-DECARBOXYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6585" ],
+      "orphan" : "NO",
+      "gibbs" : -4.275902,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

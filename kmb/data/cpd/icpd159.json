@@ -1,0 +1,33 @@
+{
+  "id" : "icpd159",
+  "formula" : "C6H13NO5",
+  "name" : "3-amino-3-deoxy-d-glucose",
+  "synonyms" : [ "3-amino-3-deoxyglucose" ],
+  "alias" : "icpd159",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10224"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C12212"
+  } ],
+  "inchi" : "InChI=1S/C6H13NO5/c7-5(3(10)1-8)6(12)4(11)2-9/h1,3-6,9-12H,2,7H2/t3-,4+,5+,6+/m0/s1",
+  "inchikey" : "FOEXHEVNPRRHDY-SLPGGIOYSA-N",
+  "smiles" : "C(=O)[C@@]([H])([C@]([H])([C@@]([H])([C@@]([H])(CO)O)O)N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Amino-Sugars" ],
+      "reactions" : [ "META:RXN-9581", "META:RXN-9580", "META:RXN8J2-138" ],
+      "gibbs" : -39.546383,
+      "cmlMolWeight" : 180.18,
+      "molWeight" : 180.18,
+      "parents" : [ "META:Amino-Sugars" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   31.0684  -17.4472    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8539  -18.1424    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.6454  -17.4472    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8539  -19.5453    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.4312  -18.1424    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.6454  -20.2476    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   31.0684  -20.2476    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4312  -19.5453    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.2167  -17.4472    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6454  -21.6506    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2167  -20.2476    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0097  -18.1424    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0     0  0\n  2  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  4  7  1  6     0  0\n  5  8  1  0     0  0\n  5  9  1  1     0  0\n  6 10  1  1     0  0\n  8 11  1  6     0  0\n  9 12  1  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12212\n\n$$$$",
+  "reactions" : [ "irxn1032", "irxn3489" ]
+}

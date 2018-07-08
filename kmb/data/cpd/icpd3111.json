@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3111",
+  "formula" : "C9H6O4",
+  "name" : "6,7-dihydroxycoumarin",
+  "synonyms" : [ "2h-1-benzopyran-2-one, 6,7-dihydroxy- (9ci)", "6, 7-dihydroxycoumarin", "6,7-dihydroxy-1-benzopyran-2-one", "6,7-dihydroxy-2-benzopyrone", "6,7-dihydroxy-2-chromenone", "6,7-dihydroxy-2h-1-benzopyran-2-one", "6,7-dihydroxy-2h-chromen-2-one", "6,7-dihydroxy-coumarin", "6,7-dihydroxycoumarin, 8ci" ],
+  "alias" : "icpd3111",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C09263"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8097"
+  } ],
+  "inchi" : "InChI=1S/C9H6O4/c10-6-3-5-1-2-9(12)13-8(5)4-7(6)11/h1-4,10-11H",
+  "inchikey" : "ILEDWLMCKZNDJK-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=O)OC2=C1C=C(C(=C2)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Simple-Coumarins" ],
+      "reactions" : [ "META:RXN-14165", "META:RXN-13472", "META:RXN-16763", "META:RXN-13471", "META:RXN-13470", "META:RXN-18496", "META:RXN-13464", "META:RXN-13474", "META:RXN-13473", "META:RXN-13466", "META:RXN-14182" ],
+      "gibbs" : -62.302273,
+      "cmlMolWeight" : 178.144,
+      "molWeight" : 178.144,
+      "parents" : [ "META:Simple-Coumarins" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   28.3325  -17.3890    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3849  -16.0011    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1020  -18.0655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5162  -18.1355    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1894  -15.2606    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6153  -15.3480    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9765  -17.3248    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8167  -17.4064    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9532  -15.9194    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7991  -16.0828    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6703  -17.9895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.9362  -18.2229    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7578  -15.1846    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  5  9  2  0     0  0\n  6 10  2  0     0  0\n  7 11  1  0     0  0\n  8 12  2  0     0  0\n  9 13  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C09263\n\n$$$$",
+  "reactions" : [ "irxn449" ]
+}

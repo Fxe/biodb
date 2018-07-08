@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4128",
+  "equation" : "h2o + sbt6p <=> sbt__D + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4063" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd2287" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.3.50; 3.1.3.50",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SORBITOL-6-PHOSPHATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02866"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:F-", "META:CPD-4584", "META:Pi", "META:SORBITOL", "META:CPD-3" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5054" ],
+      "orphan" : "NO",
+      "gibbs" : 7.3470154,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

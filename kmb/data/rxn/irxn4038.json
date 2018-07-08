@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4038",
+  "equation" : "epm + h2o <=> gal + man",
+  "stoichiometry" : {
+    "l" : {
+      "icpd622" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7498" : "",
+      "icpd1558" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.22",
+  "otherNames" : [ ],
+  "alias" : "EMGH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EPMGH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EMGH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01329"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K01189", "K07407", "K07406" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iMM904" ]
+    }
+  }
+}

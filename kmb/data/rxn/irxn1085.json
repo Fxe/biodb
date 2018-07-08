@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1085",
+  "equation" : "nadh + 3hppnl + h <=> nad + 13ppd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd192" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd2918" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.202; 1.1.1.202",
+  "otherNames" : [ ],
+  "alias" : "13PPDH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03119"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:13-PROPANEDIOL-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "13PPDH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:FE+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6130" ],
+      "orphan" : "NO",
+      "gibbs" : 2.5417786,
+      "uniprot" : [ "P45513" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00561" ],
+      "orthologs" : [ "K00086" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iAF987" ]
+    }
+  }
+}

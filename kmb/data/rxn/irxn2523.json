@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2523",
+  "equation" : "g3p + s7p <=> icpd7674 + xu5p__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4806" : "",
+      "icpd7589" : ""
+    },
+    "r" : {
+      "icpd7674" : "",
+      "icpd2245" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.2.1.1; EC-2.2.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01641"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1TRANSKETO-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-2022", "META:Arabinose-5P", "META:ARABINOSE-5P" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P21-PWY", "META:P185-PWY", "META:PWY-5723", "META:NONOXIPENT-PWY", "META:PWY-1861", "META:CALVIN-PWY", "META:P124-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 1.2300415,
+      "uniprot" : [ "P29277", "Q9Z475", "O20250", "Q42675", "Q42676", "P75611", "Q42677", "P33315", "Q9JTR1", "P21725", "P43757", "P22976", "P46708", "P21726", "P45694", "P47312", "P27302", "P29401", "Q9PM31", "P73282", "P34736", "Q58092", "Q9URM2", "Q58094", "Q52723", "Q49047", "Q9RFB7", "P33570", "Q9CF56", "O78327", "P23254" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01230", "rn01120", "rn01110", "rn01130", "rn00030", "rn00710" ],
+      "orthologs" : [ "K00615" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

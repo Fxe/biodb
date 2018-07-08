@@ -1,0 +1,39 @@
+{
+  "id" : "icpd3132",
+  "formula" : "C6H7N2O3",
+  "name" : "4,5-dihydro-4-oxo-5-imidazolepropanoate",
+  "synonyms" : [ "3-(4-oxo-4,5-dihydro-1h-imidazol-5-yl)propanoate", "3-(5-oxo-4,5-dihydro-3h-imidazol-4-yl)propanoate", "4,5-dihydro-5-oxo-1h-imidazole-4-propanoate" ],
+  "alias" : "4izp",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "4izp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-IMIDAZOLONE-5-PROPIONATE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4izp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03680"
+  } ],
+  "inchi" : "InChI=1S/C6H8N2O3/c9-5(10)2-1-4-6(11)8-3-7-4/h3-4H,1-2H2,(H,9,10)(H,7,8,11)/p-1",
+  "inchikey" : "HEXMLHKQVUFYME-UHFFFAOYSA-M",
+  "smiles" : "C(CC(=O)[O-])C1C(=NC=N1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-7587", "META:IMIDHYD-RXN", "META:UROCANATE-HYDRATASE-RXN", "META:IMIDAZOLONEPROPIONASE-RXN", "META:RXN-7593" ],
+      "gibbs" : -29.02422,
+      "cmlMolWeight" : 155.133,
+      "molWeight" : 155.133
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iECABU_c1320", "iJN746", "iRC1080", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iHN637", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   27.2468  -17.5755    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.3620  -18.2161    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4831  -17.5755    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5984  -18.2161    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5984  -19.6469    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7137  -17.5755    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6588  -16.2373    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5086  -15.4266    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3822  -16.2700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8362  -17.6019    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0449  -18.7291    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  4  6  1  0     0  0\n  1  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n  1 10  1  0     0  0\n 10 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03680\n\n$$$$",
+  "reactions" : [ "irxn2826", "irxn6022", "irxn1816", "irxn2887" ]
+}

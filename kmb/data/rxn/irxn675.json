@@ -1,0 +1,45 @@
+{
+  "id" : "irxn675",
+  "equation" : "dmpp + icpd1424 <=> icpd5232 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1424" : "",
+      "icpd1756" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd5232" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.36; 2.5.1.36",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-4510"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07271"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DELTA3-ISOPENTENYL-PP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2762" ],
+      "orphan" : "NO",
+      "gibbs" : -16.909973,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00943" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

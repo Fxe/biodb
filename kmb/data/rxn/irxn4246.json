@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4246",
+  "equation" : "icpd4122 <=> co2 + btcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4122" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd1529" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.94; 4.1.1.94",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09958"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13029"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ATP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 0.030639648,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

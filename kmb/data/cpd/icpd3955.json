@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3955",
+  "formula" : "C6H10NO4",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd3955",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01046"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-404"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO4/c1-7-4(6(10)11)2-3-5(8)9/h4,7H,2-3H2,1H3,(H,8,9)(H,10,11)/p-1/t4-/m0/s1",
+  "inchikey" : "XLBVNMSMFQMKEY-BYPYZUCNSA-M",
+  "smiles" : "CN[C@@]([H])(CCC(=O)[O-])C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-Alpha-Methyl-L-Amino-Acids" ],
+      "reactions" : [ "META:RXN-12902", "META:METHYLGUTAMATE-DEHYDROGENASE-RXN", "META:2.1.1.21-RXN" ],
+      "gibbs" : -53.18086,
+      "cmlMolWeight" : 160.149,
+      "molWeight" : 160.149,
+      "parents" : [ "META:N-Alpha-Methyl-L-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   21.5600  -20.4400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3700  -19.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1100  -20.4400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9200  -19.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7300  -20.4400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4700  -19.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2800  -20.4400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3700  -18.3400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4700  -18.3400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7300  -21.8400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9200  -22.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  6  9  2  0     0  0\n  5 10  1  6     0  0\n 10 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01046\n\n$$$$",
+  "reactions" : [ "irxn1934", "irxn2096" ]
+}

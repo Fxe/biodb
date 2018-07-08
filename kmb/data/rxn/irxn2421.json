@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2421",
+  "equation" : "Ssq23epx <=> lanost",
+  "stoichiometry" : {
+    "l" : {
+      "icpd839" : ""
+    },
+    "r" : {
+      "icpd4174" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.99.7; EC-5.4.99.7",
+  "otherNames" : [ ],
+  "alias" : "LNSTLS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03199"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LNSTLSr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LANOSTEROL-SYNTHASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LNSTLS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-19610" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6132" ],
+      "orphan" : "NO",
+      "gibbs" : -120.019,
+      "uniprot" : [ "Q10231", "Q04782", "P38604", "Q59080", "P48449" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100", "rn01110", "rn01130" ],
+      "orthologs" : [ "K01852" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

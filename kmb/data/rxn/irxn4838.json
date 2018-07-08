@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4838",
+  "equation" : "thbpt + o2 + tyr__L <=> 34dhphe + icpd23",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd276" : "",
+      "icpd7576" : ""
+    },
+    "r" : {
+      "icpd5924" : "",
+      "icpd23" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.16.2; 1.14.16.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07212"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TYROSINE-3-MONOOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:NI+2", "META:CO+2", "META:ZN+2", "META:CPD-7024", "META:Catechloamines", "META:ALPHA-METHYL-TYROSINE" ],
+      "activators" : [ "META:FE+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5394", "META:PWY66-301", "META:PWY-5049" ],
+      "orphan" : "NO",
+      "gibbs" : -104.9,
+      "uniprot" : [ "Q7M350", "Q9PU40", "Q7M343", "Q7M354", "Q7M342", "Q7M353", "Q7M341", "Q7M352", "Q7M340", "Q7M351", "Q7M347", "Q7M346", "Q7M345", "P11982", "Q7M344", "Q7M339", "P18459", "Q7M349", "P17289", "Q7M348", "P24529", "P07101", "P04177" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00790", "rn00950" ],
+      "orthologs" : [ "K00501" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

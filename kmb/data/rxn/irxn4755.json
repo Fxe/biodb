@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4755",
+  "equation" : "succoa + 3oxoadp <=> succ + oxadpcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2623" : "",
+      "icpd5739" : ""
+    },
+    "r" : {
+      "icpd2381" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.3.6; 2.8.3.6",
+  "otherNames" : [ ],
+  "alias" : "3OADPCOAT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-OXOADIPATE-COA-TRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3OADPCOAT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02990"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2361" ],
+      "orphan" : "NO",
+      "gibbs" : -2.040039,
+      "uniprot" : [ "Q01103", "P0A102", "Q43973", "Q9XD82", "Q9XD83", "Q59091" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00362" ],
+      "orthologs" : [ "K01031", "K01032" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iJN746" ]
+    }
+  }
+}

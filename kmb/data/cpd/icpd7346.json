@@ -1,0 +1,42 @@
+{
+  "id" : "icpd7346",
+  "formula" : "C9H13NO2",
+  "name" : "3-methoxytyramine",
+  "synonyms" : [ "3-methoxy-4-hydroxyphenylethyl amine", "3-o-methyldopamine", "4-(2-amino-ethyl)-2-methoxy-phenol", "4-(2-aminoethyl)-2-methoxy-phenol", "4-(2-aminoethyl)-2-methoxyphenol", "5-(2-aminoethyl)guaiacol", "o-methyldopamine" ],
+  "alias" : "3moxtyr",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05587"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3moxtyr"
+  }, {
+    "source" : "BiGG",
+    "entry" : "3moxtyr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7650"
+  } ],
+  "inchi" : "InChI=1S/C9H13NO2/c1-12-9-6-7(4-5-10)2-3-8(9)11/h2-3,6,11H,4-5,10H2,1H3",
+  "inchikey" : "DIVQKHQLANKJQO-UHFFFAOYSA-N",
+  "smiles" : "COC1=CC(=CC=C1O)CCN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN6666-7" ],
+      "instances" : [ "META:Guaiacols" ],
+      "reactions" : [ "META:RXN-8567", "META:RXN6666-7" ],
+      "gibbs" : 107.763626,
+      "cmlMolWeight" : 168.215,
+      "molWeight" : 168.215,
+      "parents" : [ "META:Guaiacols" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   24.1582  -17.6274    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3542  -16.9412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1624  -19.0344    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6240  -17.6548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3626  -19.7552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6282  -19.0618    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8124  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0249  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2373  -16.9400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9450  -16.9272    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9332  -19.7325    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7385  -17.6241    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  2  0     0  0\n  4  6  2  0     0  0\n  5  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  1 10  1  0     0  0\n  3 11  1  0     0  0\n 10 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05587\n\n$$$$",
+  "reactions" : [ "irxn1340", "irxn5819", "irxn5725" ]
+}

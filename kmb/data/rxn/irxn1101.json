@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1101",
+  "equation" : "icpd2529 + h2o <=> icpd6477 + meoh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2529" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6477" : "",
+      "icpd1851" : "",
+      "icpd6448" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.1.61; 3.1.1.61",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02624"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MCPMETEST-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Sulfhydryl-Reagents" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 31.276237,
+      "uniprot" : [ "Q9PP09", "O29221", "P07330", "P04042", "Q05522", "O33558", "Q9HQW6", "Q52883" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

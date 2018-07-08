@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5100",
+  "equation" : "amet + h <=> ametam + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4565" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.50; 4.1.1.50",
+  "otherNames" : [ ],
+  "alias" : "ADMDC",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00178"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ADMDC"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SAMDECARB-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:S-ADENOSYLMETHIONINAMINE", "META:SEMICARBAZIDE", "META:CPD0-1406", "META:CPD0-1404", "META:ZN+2", "META:CPD0-1405", "META:CPD-15233", "META:CPD0-1402", "META:SPERMIDINE", "META:CPD0-1403", "META:PHENYLHYDRAZINE", "META:CPD0-1401", "META:CPD0-1398", "META:CPD0-1399", "META:CPD0-1396", "META:CPD0-1397", "META:BOROHYDRIDE" ],
+      "activators" : [ "META:CPD-1484", "META:FE+3", "META:FE+2", "META:CO+2", "META:LI+", "META:CA+2", "META:PUTRESCINE", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6834", "META:ARGSPECAT-PWY", "META:BSUBPOLYAMSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 15.354881,
+      "uniprot" : [ "P0A7F6", "P50243", "P79888", "O65354", "Q42679", "O24575", "O49972", "P21182", "Q04694", "Q43820", "O04009", "O02655", "P82184", "P28918", "P17707", "P17708", "P46255", "Q42829", "Q39677", "Q39676" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100", "rn00270" ],
+      "orthologs" : [ "K01611" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECIAI1_1343", "iECED1_1282", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iECABU_c1320", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iEcSMS35_1347", "iECO111_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iHN637", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

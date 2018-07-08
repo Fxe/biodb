@@ -1,0 +1,33 @@
+{
+  "id" : "icpd505",
+  "formula" : "C5H12O",
+  "name" : "pentan-1-ol",
+  "synonyms" : [ "1-pentanol", "1-pentyl alcohol", "amyl alcohol", "butyl carbinol", "butylcarbinol", "n-pentanol", "n-pentyl-alcohol", "pentanol", "pentyl alcohol", "pentyl-alcohol" ],
+  "alias" : "icpd505",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PENTANOL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16834"
+  } ],
+  "inchi" : "InChI=1S/C5H12O/c1-2-3-4-5-6/h6H,2-5H2,1H3",
+  "inchikey" : "AMQJEAYHLZJPGS-UHFFFAOYSA-N",
+  "smiles" : "CCCCCO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Short-Chain-Primary-Alcohols" ],
+      "reactions" : [ "META:RXN-17640" ],
+      "gibbs" : 84.58344,
+      "cmlMolWeight" : 88.149,
+      "molWeight" : 88.149,
+      "parents" : [ "META:Short-Chain-Primary-Alcohols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   17.5000  -16.1000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7124  -15.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9249  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1373  -15.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3497  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5622  -15.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16834\n\n$$$$",
+  "reactions" : [ ]
+}

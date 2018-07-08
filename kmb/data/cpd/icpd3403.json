@@ -1,0 +1,39 @@
+{
+  "id" : "icpd3403",
+  "formula" : "C8H6O6",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "4mlacac",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "4mlacac"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01036"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "4mlacac"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-MALEYL-ACETOACETATE"
+  } ],
+  "inchi" : "InChI=1S/C8H8O6/c9-5(1-2-7(11)12)3-6(10)4-8(13)14/h1-2H,3-4H2,(H,11,12)(H,13,14)/p-2",
+  "inchikey" : "GACSIVHAIFQKTC-UHFFFAOYSA-L",
+  "smiles" : "C(=CC(=O)[O-])C(=O)CC(=O)CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:HOMOGENTISATE-12-DIOXYGENASE-RXN", "META:MALEYLACETOACETATE-ISOMERASE-RXN" ],
+      "gibbs" : -136.88152,
+      "cmlMolWeight" : 198.132,
+      "molWeight" : 198.132
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 14 13  0  0  0  0  0  0  0  0999 V2000\n   23.8966  -21.7895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1073  -22.4913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8966  -20.3917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6859  -22.4913    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1073  -23.8893    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1073  -19.6898    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8966  -24.5911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3239  -24.5911    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3239  -20.3917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1073  -18.2920    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8966  -25.9889    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1073  -26.6908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3239  -25.9889    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1073  -28.0886    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  5  8  2  0     0  0\n  6  9  1  0     0  0\n  6 10  2  0     0  0\n  7 11  2  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 12 14  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01036\n\n$$$$",
+  "reactions" : [ "irxn831", "irxn2108" ]
+}

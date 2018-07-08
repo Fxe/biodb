@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4001",
+  "equation" : "h2o + dctp <=> dcdp + h + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd327" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7485" : "",
+      "icpd1043" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "NTP6",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14216"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NTP6"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-14198" ],
+      "orphan" : "NO",
+      "gibbs" : -102.58893,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "irxn2647",
+  "equation" : "icpd7905 <=> 56dihindlcrbxlt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7905" : ""
+    },
+    "r" : {
+      "icpd5574" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.3.12; EC-5.3.3.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DOPACHROME-DELTA-ISOMERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03673"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6498" ],
+      "orphan" : "NO",
+      "gibbs" : -45.949,
+      "uniprot" : [ "P30046", "P40126" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350" ],
+      "orthologs" : [ "K01827", "K22203" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

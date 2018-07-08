@@ -1,0 +1,47 @@
+{
+  "id" : "irxn789",
+  "equation" : "paps + dopa <=> h + dopasf + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd4793" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1107" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.2.1",
+  "otherNames" : [ ],
+  "alias" : "DOPASULT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN6666-9"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DOPASULT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ATP", "META:3-5-ADP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY6666-2" ],
+      "orphan" : "NO",
+      "gibbs" : 8.7699585,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

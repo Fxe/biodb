@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5868",
+  "formula" : "C6H10O4",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd5868",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-376"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01053"
+  } ],
+  "inchi" : "InChI=1S/C6H10O4/c1-6(2,3-7)4(8)5(9)10/h3-4,8H,1-2H3,(H,9,10)/t4-/m0/s1",
+  "inchikey" : "HVMPYIKTQSOMHA-BYPYZUCNSA-N",
+  "smiles" : "CC(C)(C=O)[C@H](C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monocarboxylates" ],
+      "reactions" : [ "META:PANTOATE-4-DEHYDROGENASE-RXN", "META:R-DEHYDROPANTOATE-DEHYDROGENASE-RXN" ],
+      "gibbs" : -57.971977,
+      "cmlMolWeight" : 145.135,
+      "molWeight" : 145.135,
+      "parents" : [ "META:Monocarboxylates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   21.7084  -15.8246    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5180  -16.5248    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2577  -15.8246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0674  -16.5248    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8769  -15.8246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6166  -16.5248    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5180  -17.9253    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2577  -14.4242    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0870  -17.5051    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0476  -17.5051    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  2  7  2  0     0  0\n  3  8  1  1     0  0\n  4  9  1  0     0  0\n  4 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01053\n\n$$$$",
+  "reactions" : [ "irxn993", "irxn1323" ]
+}

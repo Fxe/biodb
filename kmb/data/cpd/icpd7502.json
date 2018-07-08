@@ -1,0 +1,30 @@
+{
+  "id" : "icpd7502",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd7502",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05167"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Alpha-Amino-Acids"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:L-CITRULLINE", "META:CPD0-1562", "META:D-PHENYLGLYCINE" ],
+      "reactions" : [ "META:ALPHA-AMINO-ACID-ESTERASE-RXN", "META:3.4.11.24-RXN", "META:3.4.17.12-RXN" ],
+      "parents" : [ "META:Branched-Amino-Acids", "META:L-CITRULLINE", "META:CPD0-1562", "META:D-PHENYLGLYCINE", "META:Amino-Acids", "META:Amino-Acids-20", "META:Non-standard-amino-acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   21.9800  -24.0100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1924  -24.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4049  -24.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6173  -24.7100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4049  -22.6102    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1924  -26.1098    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\n  2  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05167\n\n$$$$",
+  "reactions" : [ "irxn1599" ]
+}

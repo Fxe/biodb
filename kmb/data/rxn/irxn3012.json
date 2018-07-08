@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3012",
+  "equation" : "icpd8107 + chol <=> icpd8139 + betald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd3647" : ""
+    },
+    "r" : {
+      "icpd4924" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.99.1; 1.1.99.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01025"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHD-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:CPD-29", "META:HG+2", "META:IODOACETATE", "META:AG+", "META:MN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CHOLINE-BETAINE-ANA-PWY", "META:BETSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "P17444" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00260" ],
+      "orthologs" : [ "K00108" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn558",
+  "equation" : "nad + 3mox4hpac + h2o <=> nadh + h + homoval",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd2725" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd5732" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.5",
+  "otherNames" : [ ],
+  "alias" : "r0754",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04888"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3M4HDXPAC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0754"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350" ],
+      "orthologs" : [ "K00129" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

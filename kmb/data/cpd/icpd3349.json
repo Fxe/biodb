@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3349",
+  "formula" : "C3H4NO2",
+  "name" : "2-iminopropanoate",
+  "synonyms" : [ ],
+  "alias" : "icpd3349",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-16015"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20904"
+  } ],
+  "inchi" : "InChI=1S/C3H5NO2/c1-2(4)3(5)6/h4H,1H3,(H,5,6)/p-1",
+  "inchikey" : "DUAWRLXHCUAWMK-UHFFFAOYSA-M",
+  "smiles" : "CC(=N)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Imines", "META:Enamines" ],
+      "reactions" : [ "META:RXN-15124", "META:RXN-15127" ],
+      "gibbs" : -54.99757,
+      "cmlMolWeight" : 86.07,
+      "molWeight" : 86.07,
+      "parents" : [ "META:Imines", "META:Enamines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   16.8002  -16.5207    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0126  -15.8206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2252  -16.5207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4377  -15.8206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0126  -14.4208    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2252  -17.9206    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20904\n\n$$$$",
+  "reactions" : [ "irxn1952", "irxn1541" ]
+}

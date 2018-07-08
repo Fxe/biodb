@@ -1,0 +1,42 @@
+{
+  "id" : "icpd1187",
+  "formula" : "C10H12N2O4",
+  "name" : "3-(3-hydroxyanthraniloyl)-l-alanine",
+  "synonyms" : [ "(2s)-2-amino-4-(2-amino-3-hydroxyphenyl)-4-oxobutanoic acid", "(alphas)-alpha,2-diamino-3-hydroxy-gamma-oxo-benzenebutanoic acid", "(s)-alpha,2-diamino-3-hydroxy-gamma-oxo-benzenebutanoic acid", "3-(2-amino-3-hydroxybenzoyl)-l-alanine", "3-(3-hydroxyanthraniloyl)-alanine" ],
+  "alias" : "hLkynr",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "hLkynr"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "hLkynr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXY-L-KYNURENINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03227"
+  } ],
+  "inchi" : "InChI=1S/C10H12N2O4/c11-6(10(15)16)4-8(14)5-2-1-3-7(13)9(5)12/h1-3,6,13H,4,11-12H2,(H,15,16)/t6-/m0/s1",
+  "inchikey" : "VCKPUUFAIGNJHC-LURJTMIESA-N",
+  "smiles" : "C1=CC(=C(C(=C1)C(=O)C[C@@]([H])(C(=O)O)N)N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-8665" ],
+      "instances" : [ "META:Hydroxy-L-Amino-Acids" ],
+      "reactions" : [ "META:RXN-17499", "META:KYNURENINE-3-MONOOXYGENASE-RXN", "META:3-HYDROXY-KYNURENINASE-RXN", "META:RXN-10721", "META:RXN-17072" ],
+      "gibbs" : 6.8334436,
+      "cmlMolWeight" : 224.216,
+      "molWeight" : 224.216,
+      "parents" : [ "META:Hydroxy-L-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 16 16  0  0  1  0  0  0  0  0999 V2000\n   18.4800  -17.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6924  -17.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9049  -17.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1173  -17.0100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6924  -15.6102    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9049  -19.1098    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2676  -17.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0721  -17.7004    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2675  -15.6102    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8847  -17.0149    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.6723  -17.7150    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.6724  -19.1150    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8597  -19.8004    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0721  -19.1004    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8846  -15.6102    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.4410  -17.0040    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  1  6     0  0\n  3  6  2  0     0  0\n  1  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  8 10  2  0     0  0\n 10 11  1  0     0  0\n 11 12  2  0     0  0\n 12 13  1  0     0  0\n 13 14  2  0     0  0\n  8 14  1  0     0  0\n 10 15  1  0     0  0\n 11 16  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03227\n\n$$$$",
+  "reactions" : [ "irxn2662", "irxn1417", "irxn3536", "irxn4316" ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5310",
+  "equation" : "nadph + h + 44mctr <=> nadp + 44mzym",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4987" : ""
+    },
+    "r" : {
+      "icpd4304" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "C14STR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "C14STR"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C14STRr"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

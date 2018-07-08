@@ -1,0 +1,52 @@
+{
+  "id" : "irxn4540",
+  "equation" : "h2o + dhap <=> pi + dha",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd6046" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd2191" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.1; 3.1.3.2; EC-3.1.3",
+  "otherNames" : [ ],
+  "alias" : "ALKP",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01010"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0242"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALKP"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-7249"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 5.906952,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iAF692", "iNF517", "iCHOv1", "iMM1415", "iML1515", "RECON1", "iSB619", "iYO844" ]
+    }
+  }
+}

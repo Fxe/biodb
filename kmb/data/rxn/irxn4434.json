@@ -1,0 +1,51 @@
+{
+  "id" : "irxn4434",
+  "equation" : "nadh + ham + 2.0 h <=> nad + h2o + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2414" : "",
+      "icpd5377" : "",
+      "icpd1851" : "2.0"
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.7.1.10; 1.7.99.1; EC-1.7.1.10",
+  "otherNames" : [ ],
+  "alias" : "HAMR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HAMR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00143"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYLAMINE-REDUCTASE-NADH-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7798" ],
+      "orphan" : null,
+      "gibbs" : 19.718811,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00910" ],
+      "orthologs" : [ "K15864", "K05601" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iHN637" ]
+    }
+  }
+}

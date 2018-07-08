@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6821",
+  "equation" : "nad + lys__L <=> nadh + n2 + 2.0 h + 1pipdn2c",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4807" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd7085" : "",
+      "icpd1505" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.4.1.15; 1.4.1.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LYSINE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00445"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -16.24231,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

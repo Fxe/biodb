@@ -1,0 +1,43 @@
+{
+  "id" : "icpd686",
+  "formula" : "C6H12O10P",
+  "name" : "6-phospho-d-gluconate",
+  "synonyms" : [ "6-phosphogluconate", "d-gluconate 6-phosphate" ],
+  "alias" : "6pgc",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00345"
+  }, {
+    "source" : "BiGG",
+    "entry" : "6pgc"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-2961"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "6pgc"
+  } ],
+  "inchi" : "InChI=1S/C6H13O10P/c7-2(1-16-17(13,14)15)3(8)4(9)5(10)6(11)12/h2-5,7-10H,1H2,(H,11,12)(H2,13,14,15)/p-1/t2-,3-,4+,5-/m1/s1",
+  "inchikey" : "BIRSGZKFKXLSJQ-SQOUGZDYSA-M",
+  "smiles" : "C([C@]([H])([C@]([H])([C@@]([H])([C@]([H])(C(=O)[O-])O)O)O)O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:F16ALDOLASE-RXN", "META:PGLUCISOM-RXN", "META:KDPGALDOL-RXN", "META:L-LACTATE-DEHYDROGENASE-RXN" ],
+      "activators" : [ "META:PEPDEPHOS-RXN" ],
+      "instances" : [ "META:Carbohydrate-acid-derivatives" ],
+      "reactions" : [ "META:GLUCONOKIN-RXN", "META:6PGLUCONDEHYDROG-RXN", "META:PGLUCONDEHYDRAT-RXN", "META:RXN0-5185", "META:1.1.1.43-RXN", "META:RXN-9952", "META:RXN-3341", "META:6PGLUCONOLACT-RXN" ],
+      "gibbs" : -381.25735,
+      "cmlMolWeight" : 273.113,
+      "molWeight" : 273.113,
+      "parents" : [ "META:Carbohydrate-acid-derivatives" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "e_coli_core", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 17 16  0  0  1  0  0  0  0  0999 V2000\n   27.2968  -17.4960    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4865  -16.7961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7463  -17.4960    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9360  -16.7961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.1258  -17.4960    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3855  -16.7961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.5752  -17.4960    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.4027  -15.3965    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.1086  -18.8956    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9360  -15.3964    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7635  -18.8956    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0789  -16.8060    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6792  -16.8060    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2795  -16.8060    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6790  -15.3967    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6794  -18.1955    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4693  -15.3965    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  5  9  1  6     0  0\n  4 10  1  6     0  0\n  3 11  1  6     0  0\n  1 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 13 15  2  0     0  0\n 13 16  1  0     0  0\n  2 17  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C00345\n\n$$$$",
+  "reactions" : [ "irxn2054", "irxn299", "irxn6295", "irxn3767", "irxn1552", "irxn3477", "irxn2335" ]
+}

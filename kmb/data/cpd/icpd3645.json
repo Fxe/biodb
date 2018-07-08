@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3645",
+  "formula" : "C18H40NO5P",
+  "name" : "sphinganine 1-phosphate",
+  "synonyms" : [ "[(2s,3r)-2-amino-3-hydroxyoctadecyl]oxyphosphonic acid", "sphinganine-1-phosphate", "{[(2s,3r)-2-amino-3-hydroxyoctadecyl]oxy}phosphonic acid" ],
+  "alias" : "sph1p",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-649"
+  }, {
+    "source" : "BiGG",
+    "entry" : "sph1p"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01120"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "sph1p"
+  } ],
+  "inchi" : "InChI=1S/C18H40NO5P/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-18(20)17(19)16-24-25(21,22)23/h17-18,20H,2-16,19H2,1H3,(H2,21,22,23)/t17-,18+/m0/s1",
+  "inchikey" : "YHEDRJPUIRMZMP-ZWKOTPCHSA-N",
+  "smiles" : "CCCCCCCCCCCCCCC[C@H]([C@H](COP(=O)(O)O)N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Sphingoid-1-phosphates" ],
+      "reactions" : [ "META:SPHINGANINE-1-PHOSPHATE-ALDOLASE-RXN", "META:SPHINGANINE-KINASE-RXN", "META:DHS-PHOSPHATASE-RXN" ],
+      "gibbs" : 129.32164,
+      "cmlMolWeight" : 380.484,
+      "molWeight" : 380.484,
+      "parents" : [ "META:Sphingoid-1-phosphates" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 25 24  0  0  1  0  0  0  0  0999 V2000\n   18.2886   -9.1161    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   19.5161   -9.7973    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   18.2763   -7.7166    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0855   -9.8281    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7253   -9.0916    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5283  -11.2029    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8701   -9.1407    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9406   -9.7727    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1497   -9.0670    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3712   -9.7483    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5804   -9.0424    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7957   -9.7238    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0110   -9.0178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2263   -9.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4354   -8.9872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6569   -9.6747    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8661   -8.9627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.0875   -9.6501    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.2906   -8.9381    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   36.5181   -9.6255    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.7212   -8.9136    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4701   -9.1407    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4701   -7.7407    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.0701   -9.1407    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4701  -10.5407    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  6     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 14 15  1  0     0  0\n 15 16  1  0     0  0\n 16 17  1  0     0  0\n 17 18  1  0     0  0\n 18 19  1  0     0  0\n 19 20  1  0     0  0\n 20 21  1  0     0  0\n  7 22  1  0     0  0\n 22 23  1  0     0  0\n 22 24  1  0     0  0\n 22 25  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01120\n\n$$$$",
+  "reactions" : [ "irxn840", "irxn313", "irxn2271" ]
+}

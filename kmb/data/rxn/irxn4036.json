@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4036",
+  "equation" : "trp__L <=> trypta + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7287" : ""
+    },
+    "r" : {
+      "icpd2036" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.28; EC-4.1.1.28",
+  "otherNames" : [ ],
+  "alias" : "LTDCL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LTDCL"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AROMATIC-L-AMINO-ACID-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00685"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HCN", "META:D-TRYPTOPHAN", "META:TRYPTAMINE", "META:BOROHYDRIDE", "META:CPD-29", "META:HG+2", "META:PHENYLHYDRAZINE", "META:IODOACETATE", "META:CPD-11550" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5473", "META:PWY-5877", "META:PWY-6326", "META:PWY-581", "META:PWY-5290", "META:PWY-6307", "META:PWY-3181" ],
+      "orphan" : "NO",
+      "gibbs" : -22.549004,
+      "uniprot" : [ "P20711", "P14173", "P54771", "O82414", "P54770", "P27718", "P34751", "P05031", "P17770", "P22781" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00901", "rn00380" ],
+      "orthologs" : [ "K01593" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

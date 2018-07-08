@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3415",
+  "equation" : "icpd9 <=> acetone + cyan",
+  "stoichiometry" : {
+    "l" : {
+      "icpd9" : ""
+    },
+    "r" : {
+      "icpd8124" : "",
+      "icpd2921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2.46; 4.1.2.46",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETONE-CYANHYDRIN-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01553"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:CPD-14535", "META:CPD-29" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3121", "META:PWY-7091" ],
+      "orphan" : "NO",
+      "gibbs" : 22.620003,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00460", "rn01110" ],
+      "orthologs" : [ "K13033" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

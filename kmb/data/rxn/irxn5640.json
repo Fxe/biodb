@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5640",
+  "equation" : "h2o + 25dhpp <=> n2 + 5apru",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3504" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd3066" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DHPAH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHPPDA"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHPAH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNF517", "iRC1080", "iND750", "iIT341", "iNJ661", "iJN678", "iSB619", "iHN637", "iJB785", "iYO844", "iJN746" ]
+    }
+  }
+}

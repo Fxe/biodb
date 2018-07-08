@@ -1,0 +1,55 @@
+{
+  "id" : "irxn3723",
+  "equation" : "atp + didp <=> adp + ditp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3774" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd3848" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.4.6; 2.7.4.6",
+  "otherNames" : [ ],
+  "alias" : "NDPK10",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NDPK10m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14228"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NDPK10"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03530"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NDPK10n"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 94.98999,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230" ],
+      "orthologs" : [ "K18533", "K00940" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iJN678", "RECON1" ]
+    }
+  }
+}

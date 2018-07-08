@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4",
+  "equation" : "dtdp + datp <=> dttp + dadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5507" : "",
+      "icpd1190" : ""
+    },
+    "r" : {
+      "icpd2032" : "",
+      "icpd6200" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RE0453C",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE0453N"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE0453M"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE0453C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

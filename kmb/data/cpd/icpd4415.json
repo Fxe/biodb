@@ -1,0 +1,34 @@
+{
+  "id" : "icpd4415",
+  "formula" : "C6H12N2O3",
+  "name" : "n5-methyl-l-glutamine",
+  "synonyms" : [ ],
+  "alias" : "icpd4415",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:N5-METHYLGLUTAMINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03153"
+  } ],
+  "inchi" : "InChI=1S/C6H12N2O3/c1-8-5(9)3-2-4(7)6(10)11/h4H,2-3,7H2,1H3,(H,8,9)(H,10,11)/t4-/m0/s1",
+  "inchikey" : "ONXPDKGXOOORHB-BYPYZUCNSA-N",
+  "smiles" : "CNC(=O)CC[C@@H](C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GLUTAMIN-RXN" ],
+      "instances" : [ "META:N-Methyl-L-Amino-Acids" ],
+      "reactions" : [ "META:RXN-12902", "META:GLUTAMATE--METHYLAMINE-LIGASE-RXN" ],
+      "gibbs" : 6.373448,
+      "cmlMolWeight" : 160.172,
+      "molWeight" : 160.172,
+      "parents" : [ "META:N-Methyl-L-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   12.1800  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3924  -17.2900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6049  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8173  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0297  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2422  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4546  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6670  -17.2900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6049  -15.1902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4546  -15.1900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2422  -18.6897    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  3  9  2  0     0  0\n  7 10  2  0     0  0\n  6 11  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C03153\n\n$$$$",
+  "reactions" : [ "irxn2020" ]
+}

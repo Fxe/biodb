@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4108",
+  "equation" : "3.0 o2 + cpppg3 <=> icpd6905 + 3.0 h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "3.0",
+      "icpd286" : ""
+    },
+    "r" : {
+      "icpd2494" : "3.0",
+      "icpd6905" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.3.15; 1.3.3.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04178"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-17517"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:BILIVERDINE", "META:CPD-11678", "META:BILIRUBIN" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7766" ],
+      "orphan" : "NO",
+      "gibbs" : -137.30998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ "K00231" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2076",
+  "equation" : "h2o + nadp + icpd3744 <=> nadph + h + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd3744" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.26; EC-1.2.1.26; 1.2.1.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:25-DIOXOVALERATE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00264"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6760", "META:PWY-5519", "META:PWY-6499", "META:PWY-6497", "META:PWY-6486", "META:PWY-5159", "META:PWY-6501" ],
+      "orphan" : "NO",
+      "gibbs" : -15.677734,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00053", "rn00040" ],
+      "orthologs" : [ "K19588", "K00128", "K13877" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4325",
+  "equation" : "h2o + 325051 <=> biocyt + apoC",
+  "stoichiometry" : {
+    "l" : {
+      "325051" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6731" : "",
+      "icpd4902" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "BTNCCPP_m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BTNCCPP_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTNCCPP_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTNCCPP_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

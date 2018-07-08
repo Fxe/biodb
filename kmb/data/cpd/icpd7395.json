@@ -1,0 +1,36 @@
+{
+  "id" : "icpd7395",
+  "formula" : "C4H7O5P",
+  "name" : "2-methylpropionyl phosphate",
+  "synonyms" : [ "2-methylpropanoyl phosphate", "isobutyryl phosphate" ],
+  "alias" : "ib_p",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03754"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ib_p"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ISOBUTANOATE-P"
+  } ],
+  "inchi" : "InChI=1S/C4H9O5P/c1-3(2)4(5)9-10(6,7)8/h3H,1-2H3,(H2,6,7,8)/p-2",
+  "inchikey" : "NFNSOHPYYIZPLS-UHFFFAOYSA-L",
+  "smiles" : "CC(C)C(=O)OP(=O)([O-])[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:BRANCHED-CHAIN-FATTY-ACID-KINASE-RXN" ],
+      "gibbs" : -213.9704,
+      "cmlMolWeight" : 166.07,
+      "molWeight" : 166.07
+    },
+    "bigg" : {
+      "models" : [ "iNF517" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   20.2000  -14.4175    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   18.8027  -14.4175    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5973  -14.4175    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2000  -13.0202    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2637  -15.8212    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5923  -15.1194    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3752  -14.4175    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   17.5923  -16.5231    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1648  -15.1194    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3752  -13.0202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  7  9  1  0     0  0\n  7 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03754\n\n$$$$",
+  "reactions" : [ "irxn2441" ]
+}

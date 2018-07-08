@@ -1,0 +1,51 @@
+{
+  "id" : "irxn3506",
+  "equation" : "6.0 fdxrd + 3.0 o2 + 6.0 h + pheme <=> fe2 + 3.0 h2o + co + biliverd + 6.0 fdxox",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "3.0",
+      "icpd1690" : "",
+      "icpd1851" : "6.0",
+      "icpd930" : "6.0"
+    },
+    "r" : {
+      "icpd321" : "6.0",
+      "icpd5423" : "",
+      "icpd4016" : "3.0",
+      "icpd5876" : "",
+      "icpd4891" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.15.20",
+  "otherNames" : [ ],
+  "alias" : "HOXGfx",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HOXGfx"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11579"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ "K21480" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

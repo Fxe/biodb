@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4627",
+  "formula" : "C6H10N2O3",
+  "name" : "4-methylene-l-glutamine",
+  "synonyms" : [ ],
+  "alias" : "icpd4627",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01109"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-74"
+  } ],
+  "inchi" : "InChI=1S/C6H10N2O3/c1-3(5(8)9)2-4(7)6(10)11/h4H,1-2,7H2,(H2,8,9)(H,10,11)/t4-/m0/s1",
+  "inchikey" : "CEVQXWMPODOBRM-BYPYZUCNSA-N",
+  "smiles" : "C=C(C[C@@H](C(=O)O)N)C(=O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:4-METHYLENEGLUTAMATE--AMMONIA-LIGASE-RXN", "META:4-METHYLENEGLUTAMINASE-RXN" ],
+      "gibbs" : 0.42120314,
+      "cmlMolWeight" : 158.157,
+      "molWeight" : 158.157
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   22.8900  -19.0400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7000  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4400  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2500  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0600  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8000  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6100  -19.0400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8000  -16.9400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4400  -20.4400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7000  -16.9400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0600  -20.4400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  3  9  2  0     0  0\n  2 10  2  0     0  0\n  5 11  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C01109\n\n$$$$",
+  "reactions" : [ "irxn5858", "irxn1643" ]
+}

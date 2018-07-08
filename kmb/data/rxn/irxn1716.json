@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1716",
+  "equation" : "h2o + icpd3314 <=> icpd2562 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3314" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2562" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.4.16; 3.1.4.16",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CYCPHOSDIESTER-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03423"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:CPD-7082", "META:ZN+2", "META:EDTA" ],
+      "activators" : [ "META:CO+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -121.06239,
+      "uniprot" : [ "O34313", "O24930", "Q44060", "Q8XCG7", "Q9KPF2", "P53052", "P08331", "Q9KP17", "P44764" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

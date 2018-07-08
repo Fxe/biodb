@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6825",
+  "equation" : "h + 2ood <=> co2 + 7ohp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3307" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd3351" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AKSDC",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R224-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AKSDC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08328"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P241-PWY" ],
+      "orphan" : null,
+      "gibbs" : -2.8417816,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00680" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

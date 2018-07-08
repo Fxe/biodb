@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2998",
+  "equation" : "h + atp + mi1456p <=> mi13456p + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd51" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd6072" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AMITKP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MI1456PKn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMITKP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMITKPn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

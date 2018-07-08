@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3209",
+  "equation" : "coa + elaidcrn <=> od2coa + crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2333" : "",
+      "icpd2377" : ""
+    },
+    "r" : {
+      "icpd3671" : "",
+      "icpd6570" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ELAIDCPT2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ELAIDCPT1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ELAIDCPT2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

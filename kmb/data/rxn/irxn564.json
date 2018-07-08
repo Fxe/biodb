@@ -1,0 +1,45 @@
+{
+  "id" : "irxn564",
+  "equation" : "g1p + ribflv <=> glc__D + fmn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6271" : "",
+      "icpd402" : ""
+    },
+    "r" : {
+      "icpd7712" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.42; 2.7.1.42",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RIBOFLAVIN-PHOSPHOTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00550"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -36.647247,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00740", "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1872",
+  "equation" : "h2o + tdchola <=> icpd5682 + taur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd536" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5682" : "",
+      "icpd7999" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.74; 3.5.1.74; 3.5.1.24",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CHENODEOXYCHOLOYLTAURINE-HYDROLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03977"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7754" ],
+      "orphan" : "NO",
+      "gibbs" : -20.813004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00120" ],
+      "orthologs" : [ "K01442" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

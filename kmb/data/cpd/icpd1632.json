@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1632",
+  "formula" : "C14H12O2",
+  "name" : "benzoin",
+  "synonyms" : [ "(+-)-benzoin", "(rs)-benzoin", "2-hydroxy-1,2-diphenylethan-1-one", "2-hydroxy-1,2-diphenylethanone", "2-hydroxy-1,2-diphenylethanone, 9ci", "2-hydroxy-2-phenyl-acetophenone", "2-hydroxy-2-phenylacetophenone", "alpha -hydroxy-alpha -phenylacetophenone", "alpha -hydroxybenzyl phenyl ketone", "alpha-hydroxy-alpha-phenylacetophenone", "alpha-hydroxybenzyl phenyl ketone", "benzoylphenylcarbinol", "phenylbenzoyl carbinol" ],
+  "alias" : "icpd1632",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01408"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Benzoin"
+  } ],
+  "inchi" : "InChI=1S/C14H12O2/c15-13(11-7-3-1-4-8-11)14(16)12-9-5-2-6-10-12/h1-10,13,15H",
+  "inchikey" : "ISAOCJYIOMOJEB-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)C(C(=O)C2=CC=CC=C2)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-13932", "META:CPD-13933" ],
+      "reactions" : [ "META:BENZOIN-ALDOLASE-RXN" ],
+      "gibbs" : 120.08345,
+      "cmlMolWeight" : 212.248,
+      "molWeight" : 212.248,
+      "parents" : [ "META:CPD-13932", "META:CPD-13933" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 16 17  0  0  0  0  0  0  0  0999 V2000\n   29.1900  -17.8489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9786  -18.5511    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   30.3957  -18.5511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1843  -16.4502    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7672  -17.8489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9786  -19.9498    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6072  -17.8489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3957  -15.7479    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5557  -18.5511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7672  -16.4502    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6072  -16.4502    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3385  -17.8489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5557  -19.9498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1271  -18.5511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3385  -20.6521    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1271  -19.9498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\n  7 11  2  0     0  0\n  9 12  2  0     0  0\n  9 13  1  0     0  0\n 12 14  1  0     0  0\n 13 15  2  0     0  0\n 14 16  2  0     0  0\n  8 11  1  0     0  0\n 15 16  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01408\n\n$$$$",
+  "reactions" : [ "irxn6438" ]
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5037",
+  "equation" : "nadph + h + lys__L + akg <=> 345167 + h2o + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4807" : ""
+    },
+    "r" : {
+      "345167" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SACCD3m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SACCD_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SACCD3m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

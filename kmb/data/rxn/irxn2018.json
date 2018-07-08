@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2018",
+  "equation" : "nadph + h + pydx <=> pydxn + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd5696" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd6185" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.65; EC-1.1.1.65",
+  "otherNames" : [ ],
+  "alias" : "PYDXOR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01708"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRIDOXINE-4-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYDXOR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7204", "META:PWY-7282" ],
+      "orphan" : "NO",
+      "gibbs" : -0.25646973,
+      "uniprot" : [ "O14295" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00750", "rn01100", "rn01120", "B6" ],
+      "orthologs" : [ "K05275" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

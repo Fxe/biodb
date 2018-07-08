@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3355",
+  "equation" : "o2 + nadh + h <=> nad + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.6.3.3; 1.6.3.3; 1.6.3.1",
+  "otherNames" : [ ],
+  "alias" : "NOX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NOX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07171"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14691"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -28.981812,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNF517" ]
+    }
+  }
+}

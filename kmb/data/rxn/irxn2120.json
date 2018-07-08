@@ -1,0 +1,53 @@
+{
+  "id" : "irxn2120",
+  "equation" : "btal + nadh + h <=> nad + btoh",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7157" : ""
+    },
+    "r" : {
+      "icpd4794" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1; 1.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "BTS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ALCD4"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-161"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03544"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-653", "META:BUTANOL", "META:CU+2", "META:NI+2", "META:ATP", "META:BUTYRYL-COA", "META:CO-A", "META:ZN+2", "META:ACETYL-COA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6583", "META:PWY-7396", "META:PWY-6883" ],
+      "orphan" : "NO",
+      "gibbs" : 5.5317993,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00650", "rn01120" ],
+      "orthologs" : [ "K00100" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iAF987", "iHN637" ]
+    }
+  }
+}

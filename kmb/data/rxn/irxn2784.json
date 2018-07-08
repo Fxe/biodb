@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2784",
+  "equation" : "0.01 336751 + h2o <=> 0.01 lanost + 0.03 ocdca + 0.27 ocdcea + 0.01 hexc + h + 0.015 ttdca + 0.02 hdca + 0.655 hdcea",
+  "stoichiometry" : {
+    "l" : {
+      "336751" : "0.01",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6488" : "0.03",
+      "icpd4751" : "0.01",
+      "icpd6458" : "0.015",
+      "icpd4174" : "0.01",
+      "icpd6870" : "0.655",
+      "icpd3274" : "0.27",
+      "icpd1851" : "",
+      "icpd4207" : "0.02"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "LANOSTESTH_SC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LANOSTESTH_SC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LANOSTESTH_SCe"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM904" ]
+    }
+  }
+}

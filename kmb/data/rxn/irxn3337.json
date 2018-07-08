@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3337",
+  "equation" : "h2o + icpd2094 <=> met__L + for",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2094" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1650" : "",
+      "icpd5870" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.31; 3.5.1.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00653"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FORMYLMETHIONINE-DEFORMYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 0.746994,
+      "uniprot" : [ "Q9PIT8", "P63916" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn00270" ],
+      "orthologs" : [ "K01450" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

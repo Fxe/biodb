@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2772",
+  "equation" : "gam + icpd1521 <=> gam6p + icpd5516",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2920" : "",
+      "icpd1521" : ""
+    },
+    "r" : {
+      "icpd5516" : "",
+      "icpd3136" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.191; 2.7.1.-",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02631"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-RXN-167A"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -32.442856,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "K02763", "K02765", "K02764" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

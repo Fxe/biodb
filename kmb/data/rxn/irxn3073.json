@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3073",
+  "equation" : "h2o + urea <=> 2.0 n2 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd269" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7085" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.5; 3.5.1.5",
+  "otherNames" : [ ],
+  "alias" : "UREA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UREA"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:UREASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00131"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UREASE_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:UREA" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5704" ],
+      "orphan" : "NO",
+      "gibbs" : -5.9629974,
+      "uniprot" : [ "P14916", "Q9R2X6", "P31494", "P31496", "Q07398", "Q07399", "Q07397", "P18316", "Q08716", "Q08715", "P17274", "P17273", "P17272", "Q9R5F4", "Q9R5F6", "Q9R5F5", "Q9R5F8", "P73061", "Q41214", "O86508", "P69997", "P69996", "O00084", "P17088", "P17087", "P17086", "P08298", "P44391", "P44392", "P44393", "Q9R5X1", "P73796", "P42886", "P42887", "P16124", "P16123", "P16122", "P07374", "P42885", "Q9RFF4", "Q9RFF5", "Q9RFF2", "Q03282", "P17339", "P17338", "P17337", "P42875", "P41022", "P41021", "P41020", "P42873", "P42874" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00220", "rn01100", "rn01120", "rn00230", "rn00791" ],
+      "orthologs" : [ "K14048", "K01430", "K01428", "K01429", "K01427" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iECSP_1301", "iIT341", "iECs_1301", "iECO111_1330", "iJN678", "iZ_1308", "iECO103_1326", "iYO844", "iJN746", "iYL1228", "iECH74115_1262", "iUMNK88_1353", "iNJ661", "iLB1027_lipid", "iECO26_1355", "iSB619" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3987",
+  "equation" : "4mop + h + thmpp <=> co2 + 3mhtpp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd6523" : "",
+      "icpd7101" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd1419" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.4.4",
+  "otherNames" : [ ],
+  "alias" : "MOD_4mop",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MOD_4mop"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07601"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00280" ],
+      "orthologs" : [ "K00166", "K00167", "K11381", "E1" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

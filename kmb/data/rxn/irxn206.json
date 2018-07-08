@@ -1,0 +1,50 @@
+{
+  "id" : "irxn206",
+  "equation" : "2.0 h2o + hgbyr + 2.0 gln__L + 2.0 atp <=> hgbam + 2.0 glu__L + 2.0 pi + 2.0 adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "2.0",
+      "icpd929" : "2.0",
+      "icpd5700" : "",
+      "icpd6530" : "2.0"
+    },
+    "r" : {
+      "icpd5753" : "2.0",
+      "icpd6111" : "",
+      "icpd514" : "2.0",
+      "icpd7485" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.5.9",
+  "otherNames" : [ ],
+  "alias" : "HGYDAS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05224"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HGYDAS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K02224" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

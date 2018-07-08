@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6657",
+  "equation" : "nadh + mercppyr + h <=> nad + mercplac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd4519" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd4843" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.27",
+  "otherNames" : [ ],
+  "alias" : "MCLORi",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MCLORi"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03104"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00270" ],
+      "orthologs" : [ "K00016" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "RECON1" ]
+    }
+  }
+}

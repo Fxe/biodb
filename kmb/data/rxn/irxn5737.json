@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5737",
+  "equation" : "paps + icpd4501 <=> icpd6258 + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd4501" : ""
+    },
+    "r" : {
+      "icpd6258" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.2.8; 2.8.2.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02122"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HEPARITIN-SULFOTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6558" ],
+      "orphan" : "NO",
+      "gibbs" : 8.147949,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

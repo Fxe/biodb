@@ -1,0 +1,39 @@
+{
+  "id" : "icpd7392",
+  "formula" : "C7H15N2O8P",
+  "name" : "n1-(5-phospho-d-ribosyl)glycinamide",
+  "synonyms" : [ "n(1)-(5-phospho-d-ribosyl)glycinamide", "n-glycyl-5-o-phosphono-d-ribofuranosylamine" ],
+  "alias" : "gar",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03838"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "gar"
+  }, {
+    "source" : "BiGG",
+    "entry" : "gar"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-PHOSPHO-RIBOSYL-GLYCINEAMIDE"
+  } ],
+  "inchi" : "InChI=1S/C7H15N2O8P/c8-1-4(10)9-7-6(12)5(11)3(17-7)2-16-18(13,14)15/h3,5-7,11-12H,1-2,8H2,(H,9,10)(H2,13,14,15)/t3-,5-,6-,7?/m1/s1",
+  "inchikey" : "OBQMLSFOUZUIOB-HJZCUYRDSA-N",
+  "smiles" : "C(C(=NC1([H])[C@@]([H])([C@@]([H])([C@@]([H])(COP(=O)(O)O)O1)O)O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:GARTRANSFORMYL2-RXN", "META:GART-RXN", "META:GLYRIBONUCSYN-RXN" ],
+      "gibbs" : -245.9664,
+      "cmlMolWeight" : 285.17,
+      "molWeight" : 285.17
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 18 18  0  0  1  0  0  0  0  0999 V2000\n   25.0910  -21.0224    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.2234  -20.2035    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5248  -22.3552    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   23.8708  -20.3159    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3473  -21.0224    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.9219  -22.3552    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   24.8021  -23.5597    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5014  -18.9589    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5518  -20.3078    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5963  -23.5597    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1044  -18.9510    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   20.7073  -18.9429    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0962  -17.5537    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0962  -20.3480    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7868  -21.0315    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9971  -20.3327    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.2073  -21.0315    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8523  -22.4288    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  1  6     0  0\n  4  8  1  0     0  0\n  5  9  1  1     0  0\n  6 10  1  6     0  0\n  8 11  1  0     0  0\n 11 12  1  0     0  0\n 11 13  1  0     0  0\n 11 14  2  0     0  0\n  5  6  1  0     0  0\n  9 15  1  0     0  0\n 15 16  1  0     0  0\n 16 17  1  0     0  0\n 15 18  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03838\n\n$$$$",
+  "reactions" : [ "irxn576", "irxn4718", "irxn4759", "irxn2983" ]
+}

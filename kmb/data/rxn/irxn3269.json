@@ -1,0 +1,54 @@
+{
+  "id" : "irxn3269",
+  "equation" : "o2 + tmlys + akg <=> succ + co2 + 3htmelys",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : "",
+      "icpd5314" : ""
+    },
+    "r" : {
+      "icpd1455" : "",
+      "icpd2454" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.11.8; EC-1.14.11.8",
+  "otherNames" : [ ],
+  "alias" : "TMLYSOX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TMLYSOX"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRIMETHYLLYSINE-DIOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03451"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TMLOX_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:MG+2", "META:ZN+2", "META:MN+2", "META:EDTA" ],
+      "activators" : [ "META:CA+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6100" ],
+      "orphan" : "NO",
+      "gibbs" : -109.620026,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ "K00474" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "RECON1" ]
+    }
+  }
+}

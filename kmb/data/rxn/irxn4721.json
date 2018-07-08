@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4721",
+  "equation" : "codscl8x <=> cobya",
+  "stoichiometry" : {
+    "l" : {
+      "icpd422" : ""
+    },
+    "r" : {
+      "icpd1212" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.4.99.60",
+  "otherNames" : [ ],
+  "alias" : "CODSCL8XI",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CODSCL8XI"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8768"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7377" ],
+      "orphan" : "NO",
+      "gibbs" : 2.3252869,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "STM_v1_0" ]
+    }
+  }
+}

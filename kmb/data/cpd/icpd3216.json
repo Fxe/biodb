@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3216",
+  "formula" : "C10H16O",
+  "name" : "(1r,5s)-2-methyl-5-(prop-1-en-2-yl)cyclohex-2-en-1-ol",
+  "synonyms" : [ ],
+  "alias" : "icpd3216",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-260"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11409"
+  } ],
+  "inchi" : "InChI=1S/C10H16O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9-11H,1,5-6H2,2-3H3/t9-,10+/m0/s1",
+  "inchikey" : "BAVONGHXFVOKBV-VHSXEESVSA-N",
+  "smiles" : "C=C(C)[C@H]1CC=C(C)[C@@H](C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Carveols" ],
+      "reactions" : [ "META:RXN-10746", "META:RXN-9947", "META:RXN-9388", "META:RXN-9397" ],
+      "gibbs" : 166.02794,
+      "cmlMolWeight" : 152.236,
+      "molWeight" : 152.236,
+      "parents" : [ "META:Carveols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   26.5420  -17.1304    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5420  -18.5311    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7590  -19.2351    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.9689  -18.5311    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9689  -17.1304    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.7590  -16.4335    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7607  -15.0329    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1762  -16.4345    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7607  -20.6357    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5476  -21.3340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9756  -21.3310    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  1  0     0  0\n  6  1  2  0     0  0\n  6  7  1  0     0  0\n  1  2  1  0     0  0\n  5  8  1  6     0  0\n  2  3  1  0     0  0\n  3  9  1  1     0  0\n  3  4  1  0     0  0\n  9 10  1  0     0  0\n  4  5  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11409\n\n$$$$",
+  "reactions" : [ "irxn2387", "irxn6877" ]
+}

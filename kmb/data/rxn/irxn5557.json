@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5557",
+  "equation" : "nadph + gal + h <=> galt + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1558" : ""
+    },
+    "r" : {
+      "icpd84" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.21; EC-1.1.1.21",
+  "otherNames" : [ ],
+  "alias" : "GALOR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01095"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GALOR"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12078"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6693" ],
+      "orphan" : "NO",
+      "gibbs" : -1.0264893,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00052" ],
+      "orthologs" : [ "K00011" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

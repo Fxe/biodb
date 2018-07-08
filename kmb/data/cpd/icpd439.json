@@ -1,0 +1,42 @@
+{
+  "id" : "icpd439",
+  "formula" : "C5H14N4",
+  "name" : "agmatine",
+  "synonyms" : [ "(4-aminobutyl) guanidine", "(4-aminobutyl)-guanidine", "(4-aminobutyl)guanidine", "1-(4-aminobutyl)guanidine", "1-amino-4-guanidinobutane", "4-guanidino-1-butanamine", "n-(4-aminobutyl)guanidine", "n-4-aminobutylguanidine" ],
+  "alias" : "agm",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "agm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AGMATHINE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "agm"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00179"
+  } ],
+  "inchi" : "InChI=1S/C5H14N4/c6-3-1-2-4-9-5(7)8/h1-4,6H2,(H4,7,8,9)",
+  "inchikey" : "QYPPJABKJHAVHS-UHFFFAOYSA-N",
+  "smiles" : "C(CCNC(=N)N)CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-10747", "META:ARGINASE-RXN", "META:ARGININE-N-SUCCINYLTRANSFERASE-RXN", "META:1.5.1.11-RXN", "META:RXN-7561" ],
+      "instances" : [ "META:Aliphatic-Amines" ],
+      "reactions" : [ "META:ACYLAGMATINE-AMIDASE-RXN", "META:RXN0-2162", "META:RXN-14344", "META:AGMATINE-DEIMINASE-RXN", "META:AGMATINE-N4-COUMAROYLTRANSFERASE-RXN", "META:ARGDECARBOX-RXN", "META:AGMATIN-RXN", "META:DIGUANIDINOBUTANASE-RXN", "META:AGMATINE-KINASE-RXN", "META:RXN-16944", "META:RXN-12514" ],
+      "gibbs" : 168.8597,
+      "cmlMolWeight" : 132.208,
+      "molWeight" : 132.208,
+      "parents" : [ "META:Aliphatic-Amines" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   26.2736  -25.9937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6683  -25.3048    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0856  -25.3048    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7939  -25.9937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8910  -25.9937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9821  -25.3048    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7939  -27.4402    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7028  -25.3048    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5083  -25.9937    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00179\n\n$$$$",
+  "reactions" : [ "irxn6287", "irxn1748", "irxn1585", "irxn6208", "irxn2147", "irxn603", "irxn3699", "irxn3369" ]
+}

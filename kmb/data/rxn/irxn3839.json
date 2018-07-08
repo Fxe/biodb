@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3839",
+  "equation" : "h2o + alltt <=> urdglyc + urea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3345" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd269" : "",
+      "icpd820" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.3.4; 3.5.3.4",
+  "otherNames" : [ ],
+  "alias" : "ATAH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ALLTAHr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02422"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALLANTOICASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ATAH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:CPD-1091", "META:HG+2", "META:GLYOX" ],
+      "activators" : [ "META:CPD-578" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5697" ],
+      "orphan" : "NO",
+      "gibbs" : 11.177002,
+      "uniprot" : [ "P18407", "Q09913", "P25335" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00230" ],
+      "orthologs" : [ "K01477" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iLB1027_lipid", "iJR904", "iMM904", "iYO844" ]
+    }
+  }
+}

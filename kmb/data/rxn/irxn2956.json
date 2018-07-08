@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2956",
+  "equation" : "h2o + nadp + icpd3754 <=> nadph + pyr + h + lys__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd3754" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4807" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.16; EC-1.5.1.16",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-LYSOPINE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00452"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 4.446411,
+      "uniprot" : [ "P0A395", "P0A394" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

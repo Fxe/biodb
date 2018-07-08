@@ -1,0 +1,33 @@
+{
+  "id" : "icpd304",
+  "formula" : "C4H4O8P",
+  "name" : "carboxyphosphonopyruvate",
+  "synonyms" : [ ],
+  "alias" : "icpd304",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11740"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C17946"
+  } ],
+  "inchi" : "InChI=1S/C4H5O8P/c5-2(3(6)7)1-13(10,11)12-4(8)9/h1H2,(H,6,7)(H,8,9)(H,10,11)/p-1",
+  "inchikey" : "DMRWZGGQXUIKJV-UHFFFAOYSA-M",
+  "smiles" : "C(C(=O)C(=O)[O-])P(=O)(O)OC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Organophosphorus-Compounds" ],
+      "reactions" : [ "META:RXN-10828", "META:RXN-10827" ],
+      "gibbs" : -238.3863,
+      "cmlMolWeight" : 193.029,
+      "molWeight" : 193.029,
+      "parents" : [ "META:Organophosphorus-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  0  0  0  0  0  0999 V2000\n   25.6200  -23.2400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8324  -22.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0449  -23.2400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2573  -22.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4697  -23.2400    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6822  -22.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8946  -23.2400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8324  -21.1400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0449  -24.6400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4697  -24.6400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6822  -21.1400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4697  -21.8400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  3  9  2  0     0  0\n  5 10  2  0     0  0\n  6 11  2  0     0  0\n  5 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17946\n\n$$$$",
+  "reactions" : [ "irxn6840", "irxn6846" ]
+}

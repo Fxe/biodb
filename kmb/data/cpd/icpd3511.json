@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3511",
+  "formula" : "C6H5NO3",
+  "name" : "4-nitrophenol",
+  "synonyms" : [ "1-hydroxy-4-nitrobenzene", "4-hydroxynitrobenzene", "mononitrophenol", "p-hydroxynitrobenzene", "p-nitro-phenol", "p-nitrophenol", "paranitrophenol" ],
+  "alias" : "4nph",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "4nph"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:P-NITROPHENOL"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4nph"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00870"
+  } ],
+  "inchi" : "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
+  "inchikey" : "BTJIUGUIPKRLHP-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=CC(=C1)O)[N+](=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aryl-Alcohol", "META:C-nitro-compounds" ],
+      "reactions" : [ "META:RXN-17830", "META:RXN-14162", "META:RXN-14722", "META:RXN-18818", "META:3.6.1.24-RXN", "META:RXN-16307", "META:RXN-8739", "META:RXN0-1261", "META:ARYLDIALKYL-PHOSPHATASE-RXN", "META:RXN-8746", "META:RXN-8743", "META:RXN-16250", "META:RXN-14370", "META:4-NITROPHENYLPHOSPHATASE-RXN", "META:4-NITROPHENOL-2-MONOOXYGENASE-RXN" ],
+      "gibbs" : -24.007578,
+      "cmlMolWeight" : 138.102,
+      "molWeight" : 138.102,
+      "parents" : [ "META:Aryl-Alcohol", "META:C-nitro-compounds" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   27.5100  -19.6110    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5037  -21.0008    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   26.3058  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7333  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7014  -21.7119    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   26.3058  -17.4909    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7333  -17.4909    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5100  -16.7927    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5037  -15.4027    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2906  -21.6878    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  6  8  2  0     0  0\n  8  9  1  0     0  0\n  7  8  1  0     0  0\n  2 10  2  0     0  0\nM  CHG  2   2   1   5  -1\nM  END\n\n> <ENTRY>\ncpd:C00870\n\n$$$$",
+  "reactions" : [ "irxn3364", "irxn6178", "irxn623", "irxn2511" ]
+}

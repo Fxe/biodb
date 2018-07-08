@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2087",
+  "equation" : "h2o + retfa <=> retinol + Rtotal2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd901" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1247" : "",
+      "icpd585" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RETH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RETH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RETHe"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

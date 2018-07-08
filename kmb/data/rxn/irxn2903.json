@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2903",
+  "equation" : "icpd7556 + h2o + nadp <=> nadph + h + lys__L + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7556" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4807" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.8; EC-1.5.1.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.5.1.8-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00716"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:SACCHAROPINE", "META:CU+2", "META:MG+2", "META:CO+2", "META:CPD-161", "META:L-ORNITHINE", "META:HG+2", "META:CADAVERINE", "META:MN+2", "META:S-2-AMINOETHYL-L-CYSTEINE", "META:CARBAMOYL-P", "META:HYDROXYLAMINE", "META:GLT", "META:CA+2", "META:L-PIPECOLATE", "META:CPD-7684" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LYSINE-DEG1-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 3.3322754,
+      "uniprot" : [ "Q9SMZ4" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310", "rn01100", "rn01110", "rn01130" ],
+      "orthologs" : [ "K14157" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

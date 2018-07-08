@@ -1,0 +1,47 @@
+{
+  "id" : "irxn351",
+  "equation" : "icpd8139 + icpd5626 <=> icpd8107 + triodthy + h + i",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5626" : "",
+      "icpd8139" : ""
+    },
+    "r" : {
+      "icpd8107" : "",
+      "icpd1851" : "",
+      "icpd2411" : "",
+      "icpd160" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.21.99.4; 1.21.99.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:THYROXINE-DEIODINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03734"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-11429" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6260", "META:PWY-6261" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "P04785", "P05307", "P21195", "P09102", "P49898", "P49897", "Q922C8", "P07237", "P24389" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

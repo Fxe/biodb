@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1505",
+  "equation" : "nadph + 2.0 o2 + arachd + h <=> h2o + nadp + prostgh2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "2.0",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1270" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd6781" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PGS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PGSr"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PGS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

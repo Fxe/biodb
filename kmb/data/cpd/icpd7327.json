@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7327",
+  "formula" : "C3H4N2O2",
+  "name" : "hydantoin",
+  "synonyms" : [ "2,4-imidazolidinedione" ],
+  "alias" : "icpd7327",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDANTOIN"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05146"
+  } ],
+  "inchi" : "InChI=1S/C3H4N2O2/c6-2-1-4-3(7)5-2/h1H2,(H2,4,5,6,7)",
+  "inchikey" : "WJRBRSLFGCUECM-UHFFFAOYSA-N",
+  "smiles" : "C1C(=O)NC(=O)N1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Imidazolidines" ],
+      "reactions" : [ "META:RXN-11217" ],
+      "gibbs" : -34.125523,
+      "cmlMolWeight" : 100.077,
+      "molWeight" : 100.077,
+      "parents" : [ "META:Imidazolidines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  7  0  0  0  0  0  0  0  0999 V2000\n   16.2384  -17.5700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1203  -18.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5761  -19.7363    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9759  -19.7119    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3852  -18.3731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6972  -17.9214    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.7815  -18.0031    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  5  6  2  0     0  0\n  2  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05146\n\n$$$$",
+  "reactions" : [ ]
+}

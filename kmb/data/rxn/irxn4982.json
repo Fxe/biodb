@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4982",
+  "equation" : "2.0 h + 24dab + akg <=> aspsa + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd1851" : "2.0",
+      "icpd6361" : ""
+    },
+    "r" : {
+      "icpd3805" : "",
+      "icpd514" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.76; 2.6.1.76",
+  "otherNames" : [ ],
+  "alias" : "DABAAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DABAAT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:R101-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06977"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:K+" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P101-PWY", "META:PWY-6562", "META:PWY-761", "META:PWY-7855", "META:PWY-6409" ],
+      "orphan" : "NO",
+      "gibbs" : 0.9482193,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210", "rn01100", "rn01230", "rn01120", "rn00260" ],
+      "orthologs" : [ "K15785", "K00836" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

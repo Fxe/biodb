@@ -1,0 +1,29 @@
+{
+  "id" : "icpd3623",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd3623",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15645"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1-Alkenyl-glycerol"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-17738", "META:RXN-17737" ],
+      "parents" : [ "META:Ether-Lipids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   15.6257  -16.5119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8378  -17.2116    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0497  -16.5119    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2616  -17.2116    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4737  -16.5119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6856  -17.2116    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9016  -16.5096    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4737  -15.1127    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6256  -15.1201    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  5  8  1  1     0  0\n  1  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15645\n\n$$$$",
+  "reactions" : [ "irxn4442" ]
+}

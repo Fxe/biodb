@@ -1,0 +1,38 @@
+{
+  "id" : "icpd6913",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "dna",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "dna"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00039"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dna"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DNA-N"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-19185" ],
+      "reactions" : [ "META:DNA-LIGASE-ATP-RXN", "META:3.1.21.3-RXN", "META:RXN-15047", "META:DNA-DIRECTED-DNA-POLYMERASE-RXN", "META:DNA-LIGASE-NAD+-RXN", "META:3.1.11.1-RXN", "META:RXN0-4961", "META:RXN-15712", "META:RXN-17923", "META:RXN-15713", "META:RXN-17307", "META:DATPDGTP--DNA-PURINE-TRANSFERASE-RXN", "META:3.1.11.2-RXN", "META:RNA-DIRECTED-DNA-POLYMERASE-RXN", "META:RXN-17919", "META:RXN-17908", "META:RXN-17907", "META:RXN-7910", "META:DNA-NUCLEOTIDYLEXOTRANSFERASE-RXN" ],
+      "parents" : [ "META:DNA-with-3-prime-pp-5-prime-G-cap", "META:Damaged-DNA", "META:DNA-With-Cyclobutane-Pyrimidine-Dimers", "META:DNA-With-Pyrimidine-Dimers", "META:A-5-prime-PP-5-prime-DNA", "META:3-Hydroxy-Terminated-DNAs", "META:G-5-prime-PP-5-prime-DNA", "META:5Prime-OH-Terminated-DNAs", "META:5-Phospho-terminated-DNAs", "META:CPD-19185", "META:DNA-containing-abasic-Sites", "META:Polynucleotide-Enzyme-Substrates", "META:3-Prime-Phosphate-Terminated-DNAs", "META:DNA-Adjacent-Pyrimidines", "META:DNA-Containing-Cytosine", "META:Alkylated-DNAs", "META:DNA-With-Hypoxanthines", "META:Depurinated-DNA", "META:DNA-with-Uracils", "META:DNA-46-Diamino-5-Formamidopyrimidine", "META:a-DNA-phosphotriester", "META:DNA-with-3-prime-pp-5-prime-A-cap" ]
+    },
+    "bigg" : {
+      "models" : [ "iYL1228", "iCHOv1", "iMM1415", "iJN678", "RECON1", "iJB785", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 33 35  0  0  1  0  0  0  0  0999 V2000\n   29.6100  -21.4900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0300  -22.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.4300  -22.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.8500  -21.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7300  -20.5800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.1800  -20.9300    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2600  -23.9400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7600  -16.6600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1800  -17.9200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5800  -17.9200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0000  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8800  -15.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3300  -16.1000    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4100  -19.1100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4100  -20.5100    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0100  -20.5100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4100  -21.9100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3500  -11.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7700  -13.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1700  -13.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5900  -11.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4700  -10.8500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9200  -11.2000    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0200  -11.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0400  -12.3200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0000  -14.2100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0000  -15.6100    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6000  -15.6100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0000  -17.0100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4000  -15.6100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6400  -15.6324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8100  -20.5100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2100  -20.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  4  6  1  1     0  0\n  2  7  1  6     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n  8 12  1  0     0  0\n 11 13  1  1     0  0\n  9 14  1  6     0  0\n 14 15  1  0     0  0\n 15 16  1  0     0  0\n 15 17  2  0     0  0\n 18 19  1  0     0  0\n 19 20  1  0     0  0\n 20 21  1  0     0  0\n 21 22  1  0     0  0\n 18 22  1  0     0  0\n 21 23  1  1     0  0\n 18 24  1  1     0  0\n 24 25  1  0     0  0\n 19 26  1  6     0  0\n 26 27  1  0     0  0\n 27 28  1  0     0  0\n 27 29  2  0     0  0\n 27 30  1  0     0  0\n 30 31  1  0     0  0\n  8 31  1  1     0  0\n 15 32  1  0     0  0\n 32 33  1  0     0  0\n  1 33  1  1     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1 12   8   9  10  11  12  13  14  15  16  17  31  32\nM  SDI   1  4   24.0100  -16.4500   24.0100  -14.8400\nM  SDI   1  4   27.2300  -19.7400   27.2300  -21.3500\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C00039\n\n$$$$",
+  "reactions" : [ "irxn203" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd776",
+  "formula" : "C3H8O2",
+  "name" : "1,2-propanediol",
+  "synonyms" : [ "(rs)-1,2-propanediol", "1,2-(rs)-propanediol", "1,2-dihydroxypropane", "1,2-propylene glycol", "2,3-propanediol", "2-hydroxypropanol", "methylethylene glycol", "monopropylene glycol", "propane-1,2-diol", "propylene glycol", "propylenglycol" ],
+  "alias" : "icpd776",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DL-12-Propanediol"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00583"
+  } ],
+  "inchi" : "InChI=1S/C3H8O2/c1-3(5)2-4/h3-5H,2H2,1H3",
+  "inchikey" : "DNIAPMSPPWPWGF-UHFFFAOYSA-N",
+  "smiles" : "CC(CO)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-8891", "META:PROPANE-1-2-DIOL" ],
+      "reactions" : [ "META:RXN-17620", "META:RXN-17622", "META:RXN-17617" ],
+      "gibbs" : 2.218965,
+      "cmlMolWeight" : 76.095,
+      "molWeight" : 76.095,
+      "parents" : [ "META:glycols", "META:CPD-8891", "META:PROPANE-1-2-DIOL" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   21.4977  -15.8200    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   22.7068  -15.1190    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2823  -15.1190    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4977  -17.3619    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9156  -15.8200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00583\n\n$$$$",
+  "reactions" : [ "irxn1491" ]
+}

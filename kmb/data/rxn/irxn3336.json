@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3336",
+  "equation" : "o2 + icpd8139 + n2 <=> icpd8107 + h2o + ham",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7085" : "",
+      "icpd8139" : ""
+    },
+    "r" : {
+      "icpd8107" : "",
+      "icpd2414" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.99.39; EC-1.14.99.39",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:AMONITRO-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09519"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HCN", "META:DIETHYLDITHIOCARBAMATE", "META:ACETYLENE", "META:ALLYLTHIOUREA", "META:CPD-844", "META:NITRAPYRIN", "META:XANTHATE" ],
+      "activators" : [ "META:CU+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:AMMOXID-PWY", "META:PWY-2242" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

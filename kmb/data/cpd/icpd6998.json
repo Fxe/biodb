@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6998",
+  "formula" : "C9H8NO3",
+  "name" : "2-aminobenzoylacetate",
+  "synonyms" : [ "(2-aminobenzoyl)acetate" ],
+  "alias" : "icpd6998",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C21453"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19114"
+  } ],
+  "inchi" : "InChI=1S/C9H9NO3/c10-7-4-2-1-3-6(7)8(11)5-9(12)13/h1-4H,5,10H2,(H,12,13)/p-1",
+  "inchikey" : "POAXUNDIOGWQOC-UHFFFAOYSA-M",
+  "smiles" : "C1=CC(=C(C=C1)N)C(=O)CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:RXN-17711", "META:RXN-17706", "META:RXN-17707", "META:RXN-17712", "META:RXN-17703" ],
+      "gibbs" : 6.0869093,
+      "cmlMolWeight" : 178.167,
+      "molWeight" : 178.167,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   11.1300  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3900  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5800  -20.2300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3900  -18.1300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.9400  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.7500  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.9400  -18.1300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.7500  -21.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.5600  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.5600  -22.3300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3000  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3000  -21.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.9653  -22.3251    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  2  0     0  0\n  5  6  1  0     0  0\n  5  7  2  0     0  0\n  6  8  2  0     0  0\n  6  9  1  0     0  0\n  8 10  1  0     0  0\n  9 11  2  0     0  0\n 10 12  2  0     0  0\n 11 12  1  0     0  0\n  5  1  1  0     0  0\n  8 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21453\n\n$$$$",
+  "reactions" : [ "irxn1449" ]
+}

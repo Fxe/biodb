@@ -1,0 +1,46 @@
+{
+  "id" : "irxn300",
+  "equation" : "h2o + 340693 <=> pi + 317079",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "340693" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "317079" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PAPA_HDE_OLE_h",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PAPA_HDE_OLE_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PAPA_HDE_OLE_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

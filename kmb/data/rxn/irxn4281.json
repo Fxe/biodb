@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4281",
+  "equation" : "h2o + icpd363 + 2.0 fdxox <=> 2.0 fdxrd + icpd608 + co2 + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd321" : "2.0",
+      "icpd4016" : "",
+      "icpd363" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd2454" : "",
+      "icpd608" : "",
+      "icpd930" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.7.12; 1.2.7.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FORMYLMETHANOFURAN-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03015"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HCN" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7784", "META:METHANOGENESIS-PWY", "META:PWY-5209" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "O69449", "Q59580", "Q58571", "O27599", "O27598", "Q48945", "O27601", "O28349", "O27600", "Q48943", "Q48942", "Q7M539", "Q58569", "P95295", "Q59577", "Q59578" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn00680", "rn01120" ],
+      "orthologs" : [ "K00200", "K11260", "K11261", "K00205", "K00203", "K00204", "K00201", "K00202" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

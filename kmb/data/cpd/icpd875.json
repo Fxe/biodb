@@ -1,0 +1,33 @@
+{
+  "id" : "icpd875",
+  "formula" : "C7H13NO2",
+  "name" : "(2r)-1,1-dimethylpyrrolidin-1-ium-2-carboxylate",
+  "synonyms" : [ ],
+  "alias" : "icpd875",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C21514"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-17175"
+  } ],
+  "inchi" : "InChI=1S/C7H13NO2/c1-8(2)5-3-4-6(8)7(9)10/h6H,3-5H2,1-2H3/t6-/m1/s1",
+  "inchikey" : "CMUNUTVVOOHQPW-ZCFIWIBFSA-N",
+  "smiles" : "C[N+]1(C)CCC[C@]1([H])C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Amino-Acid-Derivatives" ],
+      "reactions" : [ "META:RXN-15941" ],
+      "gibbs" : 55.55456,
+      "cmlMolWeight" : 143.185,
+      "molWeight" : 143.185,
+      "parents" : [ "META:Amino-Acid-Derivatives" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   16.3725  -16.6420    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7750  -17.9769    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1690  -18.0063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6279  -16.6898    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5175  -15.8467    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   19.8190  -15.9712    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0264  -16.6682    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   19.8055  -14.5770    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4786  -14.4283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2570  -15.1703    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  4  6  1  1     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  1  0     0  0\nM  CHG  2   5   1   7  -1\nM  END\n\n> <ENTRY>\ncpd:C21514\n\n$$$$",
+  "reactions" : [ "irxn3152" ]
+}

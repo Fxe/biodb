@@ -1,0 +1,53 @@
+{
+  "id" : "irxn5198",
+  "equation" : "dtdp + h2o <=> h + pi + dtmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1190" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1288" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1; 3.6.1.5",
+  "otherNames" : [ ],
+  "alias" : "DTPH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DTPH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0494"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14213"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02092"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-14200" ],
+      "orphan" : "NO",
+      "gibbs" : -6.8130493,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00240" ],
+      "orthologs" : [ "K14642", "K14641", "K01510" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

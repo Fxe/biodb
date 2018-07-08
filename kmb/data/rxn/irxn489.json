@@ -1,0 +1,51 @@
+{
+  "id" : "irxn489",
+  "equation" : "o2 + h2o + srtn <=> n2 + 5hoxindact + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd2870" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd889" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.4; EC-1.4.3.4",
+  "otherNames" : [ ],
+  "alias" : "5HOXINOXDA",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02908"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10778"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "5HOXINOXDA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6313" ],
+      "orphan" : "NO",
+      "gibbs" : -11.844002,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K00274" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

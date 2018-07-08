@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2330",
+  "equation" : "2.0 h + 2.0 i + h2o2 <=> 2.0 h2o + iodine",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2494" : "",
+      "icpd1851" : "2.0",
+      "icpd160" : "2.0"
+    },
+    "r" : {
+      "icpd4016" : "2.0",
+      "icpd7538" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.11.1.8; EC-1.11.1.8",
+  "otherNames" : [ ],
+  "alias" : "THYPX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02810"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:IODIDE-PEROXIDASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "THYPX"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -61.065758,
+      "uniprot" : [ "P14650", "P35419", "P09933", "P07202" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

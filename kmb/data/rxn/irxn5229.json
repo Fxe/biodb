@@ -1,0 +1,53 @@
+{
+  "id" : "irxn5229",
+  "equation" : "ppcoa + nadp <=> nadph + pp2coa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3011" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd989" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.84; 1.3.1.-; 1.3.1.84",
+  "otherNames" : [ ],
+  "alias" : "PCNO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PCNO"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00919"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9087"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PCNOn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-8968" ],
+      "orphan" : "NO",
+      "gibbs" : 11.963501,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn01100", "rn01200", "rn01120", "rn00720" ],
+      "orthologs" : [ "K15020", "K19745", "K14469" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iML1515" ]
+    }
+  }
+}

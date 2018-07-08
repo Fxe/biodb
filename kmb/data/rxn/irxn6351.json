@@ -1,0 +1,57 @@
+{
+  "id" : "irxn6351",
+  "equation" : "gthox + amp + so3 + h <=> aps + 2.0 gthrd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd2309" : "",
+      "icpd5833" : "",
+      "icpd7180" : ""
+    },
+    "r" : {
+      "icpd1665" : "",
+      "icpd1977" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.8.4.9; EC-1.8.4.9",
+  "otherNames" : [ ],
+  "alias" : "GTHAMPOR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GTHAMPOR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05717"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.8.4.9-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GTHAMPORm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GTHAMPORh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:SULFMETII-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -3.0724792,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00920" ],
+      "orthologs" : [ "K05907" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

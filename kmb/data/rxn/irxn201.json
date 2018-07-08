@@ -1,0 +1,46 @@
+{
+  "id" : "irxn201",
+  "equation" : "tetpent6coa + crn <=> coa + tetpent3crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4036" : "",
+      "icpd6570" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd4154" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "TETPENT6CPT1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TETPENT6CPT2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TETPENT6CPT1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

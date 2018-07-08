@@ -1,0 +1,40 @@
+{
+  "id" : "icpd1613",
+  "formula" : "C11H22N2O4S",
+  "name" : "pantetheine",
+  "synonyms" : [ "(r)-pantetheine" ],
+  "alias" : "ptth",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-511"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ptth"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00831"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ptth"
+  } ],
+  "inchi" : "InChI=1S/C11H22N2O4S/c1-11(2,7-14)9(16)10(17)13-4-3-8(15)12-5-6-18/h9,14,16,18H,3-7H2,1-2H3,(H,12,15)(H,13,17)/t9-/m0/s1",
+  "inchikey" : "ZNXZGRMVNNHPCA-VIFPVBQESA-N",
+  "smiles" : "CC(C)(CO)[C@H](C(=O)NCCC(=O)NCCS)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ACP-S-ACETYLTRANSFER-RXN" ],
+      "reactions" : [ "META:PANTOTHENOYLCYSTEINE-DECARBOXYLASE-RXN", "META:3.5.1.92-RXN", "META:PANTETHEINE-KINASE-RXN" ],
+      "gibbs" : 90.82463,
+      "cmlMolWeight" : 278.366,
+      "molWeight" : 278.366
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iNJ661", "iMM1415", "RECON1", "iYO844" ]
+    }
+  },
+  "mol" : " \n \n \n 18 17  0  0  1  0  0  0  0  0999 V2000\n   17.5000  -20.5800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7124  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9249  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1373  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3497  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5622  -19.8800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7746  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9870  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1995  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4119  -19.8800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6244  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8368  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.0492  -20.5800    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1373  -18.4800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3497  -21.9799    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1995  -21.9797    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9349  -21.5699    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9148  -21.5699    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n  4 14  1  1     0  0\n  5 15  2  0     0  0\n  9 16  2  0     0  0\n  3 17  1  0     0  0\n  3 18  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00831\n\n$$$$",
+  "reactions" : [ "irxn4268", "irxn2602", "irxn5505", "irxn5757" ]
+}

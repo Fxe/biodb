@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4479",
+  "formula" : "C8H8O2",
+  "name" : "methyl benzoate",
+  "synonyms" : [ "benzoic acid methyl ester", "benzoic acid, methyl ester", "methyl benzenecarboxylate", "methylbenzoate", "o-methylbenzoic acid" ],
+  "alias" : "icpd4479",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-6441"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20645"
+  } ],
+  "inchi" : "InChI=1S/C8H8O2/c1-10-8(9)7-5-3-2-4-6-7/h2-6H,1H3",
+  "inchikey" : "QPJVMBTYPHYUOC-UHFFFAOYSA-N",
+  "smiles" : "COC(=O)C1=CC=CC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:RXN-6722" ],
+      "gibbs" : 33.268963,
+      "cmlMolWeight" : 136.15,
+      "molWeight" : 136.15,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   15.1200  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3100  -17.9200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5000  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5000  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3100  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1200  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3100  -13.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5700  -13.0200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1200  -13.0200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7600  -13.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  2  0     0  0\n  6  1  1  0     0  0\n  5  7  1  0     0  0\n  1  2  2  0     0  0\n  7  8  1  0     0  0\n  2  3  1  0     0  0\n  7  9  2  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20645\n\n$$$$",
+  "reactions" : [ "irxn3711" ]
+}

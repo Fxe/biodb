@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6120",
+  "equation" : "pail345p_hs + h2o <=> pi + pail34p_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7103" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6647" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PI345P5P",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PI345P5P"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PI345P5Pn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

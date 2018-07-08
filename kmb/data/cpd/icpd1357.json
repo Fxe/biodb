@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1357",
+  "formula" : "C4H5N2O3",
+  "name" : "(z)-3-ureidoacrylate",
+  "synonyms" : [ "(2z)-3-(carbamoylamino)prop-2-enoate" ],
+  "alias" : "icpd1357",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-2331"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20254"
+  } ],
+  "inchi" : "InChI=1S/C4H6N2O3/c5-4(9)6-2-1-3(7)8/h1-2H,(H,7,8)(H3,5,6,9)/p-1/b2-1-",
+  "inchikey" : "JDSSVQWHYUVDDF-UPHRSURJSA-M",
+  "smiles" : "C(\\[H])(=C(\\[H])/NC(=N)O)/C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Ureido-Compounds" ],
+      "reactions" : [ "META:RXN0-6451", "META:RXN0-6450" ],
+      "gibbs" : -52.46646,
+      "cmlMolWeight" : 129.095,
+      "molWeight" : 129.095,
+      "parents" : [ "META:Ureido-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   18.0646  -17.2128    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8460  -16.5097    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0644  -18.6501    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8589  -19.3460    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2962  -19.3616    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8460  -15.1026    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0290  -14.4199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2382  -15.1185    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0293  -13.0218    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  3  4  2  0     0  0\n  3  5  1  0     0  0\n  2  6  2  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20254\n\n$$$$",
+  "reactions" : [ "irxn1046", "irxn1049" ]
+}

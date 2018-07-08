@@ -1,0 +1,45 @@
+{
+  "id" : "irxn153",
+  "equation" : "icpd8107 + Lpipecol <=> icpd8139 + icpd6948",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd8172" : ""
+    },
+    "r" : {
+      "icpd6948" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.99.3; EC-1.5.99.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02206"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-PIPECOLATE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

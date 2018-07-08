@@ -1,0 +1,46 @@
+{
+  "id" : "irxn373",
+  "equation" : "h2o + icpd1325 <=> icpd4399 + 2.0 h + ump",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1325" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4399" : "",
+      "icpd1851" : "2.0",
+      "icpd290" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1.45; 3.6.1.45",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:UDPSUGARHYDRO-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03986"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CDP-D-GLUCOSE", "META:GDP-D-GLUCOSE", "META:ADP-D-GLUCOSE" ],
+      "activators" : [ "META:CO+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "P06196", "P07024" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

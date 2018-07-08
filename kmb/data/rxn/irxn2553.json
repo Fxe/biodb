@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2553",
+  "equation" : "aa + h2o <=> n2 + acryl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5788" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2731" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.4; 3.5.1.4",
+  "otherNames" : [ ],
+  "alias" : "AMID5",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AMID5"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:R311-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05551"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:NI+2", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7308" ],
+      "orphan" : "NO",
+      "gibbs" : -8.75712,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00643" ],
+      "orthologs" : [ "K01426" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iIT341" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn307",
+  "equation" : "btcoa + pi <=> butpi + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1529" : "",
+      "icpd7485" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd2686" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.19; EC-2.3.1.19",
+  "otherNames" : [ ],
+  "alias" : "PBUTT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01174"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PBUTT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHATE-BUTYRYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMP", "META:Pi", "META:ATP", "META:ADP", "META:NADP", "META:BUTYRYL-COA", "META:NADPH", "META:BUTYRYL-P" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CENTFERM-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 9.76001,
+      "uniprot" : [ "P54530" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650" ],
+      "orthologs" : [ "K00634" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iAF987", "iHN637", "iYO844" ]
+    }
+  }
+}

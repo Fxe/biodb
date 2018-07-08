@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3874",
+  "equation" : "ahcys + h2o <=> hcys__L + adn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6782" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd602" : "",
+      "icpd2606" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.3.1.1; 3.3.1.1",
+  "otherNames" : [ ],
+  "alias" : "AHCi",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ADENOSYLHOMOCYSTEINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AHCi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ADSHm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00192"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:N-ETHYLMALEIMIDE", "META:INOSINE", "META:ADENOSINE", "META:HOMO-CYS" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5041", "META:METHIONINE-DEG1-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 49.796005,
+      "uniprot" : [ "P50252", "P51893", "Q58783", "O23255", "P50250", "P74008", "P28183", "P50249", "Q01781", "P32112", "P50245", "P35007", "P10760", "P39954", "P23526", "Q9UG84", "P60176", "O28279", "O29376", "O27673", "P27604", "P10819", "P26799" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ "K01251" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iND750", "iJN678", "iJR904", "iAT_PLT_636", "iAF987", "iJB785", "iAB_RBC_283", "iYL1228", "iLJ478", "iRC1080", "iNJ661", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "irxn3303",
+  "equation" : "icpd5130 <=> icpd2629",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5130" : ""
+    },
+    "r" : {
+      "icpd2629" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.1.8; EC-5.1.1.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03296"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXYPROLINE-EPIMERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CUSO4", "META:DIETHYLDITHIOCARBAMATE", "META:N-ETHYLMALEIMIDE", "META:CPD-7082", "META:ARSENATE", "META:SEMICARBAZIDE", "META:PYRROLE-2-CARBOXYLATE", "META:ZN+2", "META:CPD-8819", "META:CPD-29", "META:HG+2", "META:O-PHENANTHROLINE", "META:IODOACETATE", "META:CD+2", "META:ATABRINE", "META:HYDRAZINE", "META:HYDROXYLAMINE", "META:CPD-7387", "META:SARCOSINE", "META:AG+" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5159" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ "K12658" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

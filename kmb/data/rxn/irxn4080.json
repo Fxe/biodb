@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4080",
+  "equation" : "hcys__L + amet <=> ahcys + met__L + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd2606" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6782" : "",
+      "icpd5870" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.10; EC-2.1.1",
+  "otherNames" : [ ],
+  "alias" : "HCYSMT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HCYSMT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOCYSTEINE-S-METHYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00650"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MET" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-702" ],
+      "orphan" : "NO",
+      "gibbs" : -13.150009,
+      "uniprot" : [ "Q9SDL7", "Q9M1W4" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00270" ],
+      "orthologs" : [ "K00547" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iAF1260", "iND750", "iY75_1357", "iML1515", "iECDH1ME8569_1439", "iYL1228", "iAF1260b", "iJO1366", "iNJ661", "iEcDH1_1363", "iMM904", "iECDH10B_1368", "iSB619" ]
+    }
+  }
+}

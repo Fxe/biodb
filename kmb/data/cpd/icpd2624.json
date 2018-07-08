@@ -1,0 +1,43 @@
+{
+  "id" : "icpd2624",
+  "formula" : "C2H6O",
+  "name" : "ethanol",
+  "synonyms" : [ "1-hydroxyethane", "ethyl alcohol", "hydroxyethane", "methylcarbinol" ],
+  "alias" : "etoh",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "etoh"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ETOH"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00469"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "etoh"
+  } ],
+  "inchi" : "InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3",
+  "inchikey" : "LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+  "smiles" : "CCO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-16819" ],
+      "activators" : [ "META:TYRAMINE-N-FERULOYLTRANSFERASE-RXN", "META:ACID-PHOSPHATASE-RXN" ],
+      "instances" : [ "META:Short-Chain-Primary-Alcohols", "META:Short-Chain-Alcohols" ],
+      "reactions" : [ "META:RXN-17577", "META:RXN-12491", "META:RXN66-2", "META:RXN-12363", "META:RXN-12484", "META:URETHANASE-RXN", "META:RXN-13425", "META:TRANS-RXN0-546", "META:FATTY-ACYL-ETHYL-ESTER-SYNTHASE-RXN", "META:RXN66-1", "META:RXN-13423", "META:RXN-11234", "META:RXN-11454", "META:RXN-11039", "META:RXN-8748", "META:RXN-8747", "META:RXN-12639", "META:RXN-18670", "META:ALCOHOL-DEHYDROG-RXN" ],
+      "gibbs" : 18.186724,
+      "cmlMolWeight" : 46.069,
+      "molWeight" : 46.069,
+      "parents" : [ "META:Short-Chain-Primary-Alcohols", "META:Short-Chain-Alcohols" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "e_coli_core", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iPC815", "iJO1366", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -15.8397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9088  -16.5419    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3312  -16.5419    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00469\n\n$$$$",
+  "reactions" : [ "irxn3992", "irxn5025", "irxn4272", "irxn716", "irxn492", "irxn3401" ]
+}

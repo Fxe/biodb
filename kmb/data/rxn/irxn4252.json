@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4252",
+  "equation" : "lac__L <=> acald + for",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5544" : ""
+    },
+    "r" : {
+      "icpd6658" : "",
+      "icpd1650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2.36; 4.1.2.36",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LACTATE-ALDOLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00753"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 6.3099976,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00620" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

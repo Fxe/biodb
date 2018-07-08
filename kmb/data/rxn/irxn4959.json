@@ -1,0 +1,53 @@
+{
+  "id" : "irxn4959",
+  "equation" : "aspsa + nadh + h <=> nad + hom__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd3805" : ""
+    },
+    "r" : {
+      "icpd4798" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.3",
+  "otherNames" : [ ],
+  "alias" : "HSDxi",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HSDxi"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01773"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HSDH_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HSDH_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01120", "rn01230", "rn01110", "rn00260", "rn01130", "rn00270" ],
+      "orthologs" : [ "K12525", "K12524", "K00003" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iNJ661", "iLB1027_lipid", "iJN678", "iMM904", "iJN746" ]
+    }
+  }
+}

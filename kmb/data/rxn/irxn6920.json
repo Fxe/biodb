@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6920",
+  "equation" : "h2o + 6thf <=> 5thf + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7177" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd7017" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GGH_6THFe",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GGH_6THFe"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GGH_6THFl"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1941",
+  "equation" : "icpd3840 + nadp <=> nadph + icpd5222 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3840" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5222" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.33; 1.3.1.33",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03845"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN1F-10"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -17.866516,
+      "uniprot" : [ "P51188", "P51187", "O22597", "O48741", "Q41249", "P48099", "P48110", "P26164", "P15904", "P26163", "P26180", "P36208", "Q9ZGE9", "P17652", "Q55607", "Q3J1A0", "Q02432", "Q9ZGF0", "Q9Z5D9", "P26238", "P26237", "P26177", "P26179", "P51278", "P73480", "P56303", "P56302", "P26178", "P26156", "Q39617", "Q41578", "P29683", "P28372", "O66148", "P48100", "Q7M189", "Q02431", "Q9RFD6", "P13653", "P36437", "Q9RFD4", "P21218", "Q00864", "P41646", "Q04607", "P56291" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ "K00218" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

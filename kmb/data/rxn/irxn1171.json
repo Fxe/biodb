@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1171",
+  "equation" : "h2o + icpd2585 <=> gam + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2585" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2920" : "",
+      "icpd5748" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.10.1.1; EC-3.10.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:N-SULFOGLUCOSAMINE-SULFOHYDROLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01963"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7651", "META:PWY-7644" ],
+      "orphan" : "NO",
+      "gibbs" : -40.911255,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

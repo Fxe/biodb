@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5396",
+  "equation" : "nad + 3hib <=> mmtsa + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd7862" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd3756" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.31; 1.1.1.35; EC-1.1.1.31",
+  "otherNames" : [ ],
+  "alias" : "HMNO",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXYISOBUTYRATE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05066"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMNO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29", "META:HG+2", "META:AG+" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:VALDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 2.541809,
+      "uniprot" : [ "Q55702", "P29266", "Q8XAE4", "P28811", "Q9XTI0" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00280" ],
+      "orthologs" : [ "K01782", "K00022", "K00020", "K01825", "K07514" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

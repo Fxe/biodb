@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2577",
+  "equation" : "icpd5512 + h <=> hg2 + icpd4054",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5512" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd4054" : "",
+      "icpd7709" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.99.1.2; EC-4.99.1.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALKYLMERCURY-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03529"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -6.6352406,
+      "uniprot" : [ "P30342", "P08653", "P08664" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

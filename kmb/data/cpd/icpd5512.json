@@ -1,0 +1,30 @@
+{
+  "id" : "icpd5512",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd5512",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01343"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RHg"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:BETAGALACTOSID-RXN" ],
+      "reactions" : [ "META:ALKYLMERCURY-LYASE-RXN" ],
+      "parents" : [ "META:Organometallics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   26.4599  -17.2317    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4301  -17.2083    0.0000 Hg  0  3  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  CHG  1   2   1\nM  END\n\n> <ENTRY>\ncpd:C01343\n\n$$$$",
+  "reactions" : [ "irxn2577" ]
+}

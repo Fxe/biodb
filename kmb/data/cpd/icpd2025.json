@@ -1,0 +1,38 @@
+{
+  "id" : "icpd2025",
+  "formula" : "C12H24O",
+  "name" : "dodecanal",
+  "synonyms" : [ "1-dodecanal", "dodecanaldehyde", "lauraldehyde", "lauraldehyde (8ci)" ],
+  "alias" : "ddcal",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7880"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02278"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ddcal"
+  } ],
+  "inchi" : "InChI=1S/C12H24O/c1-2-3-4-5-6-7-8-9-10-11-12-13/h12H,2-11H2,1H3",
+  "inchikey" : "HFJRKMMYBMWEAD-UHFFFAOYSA-N",
+  "smiles" : "CCCCCCCCCCCC=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Medium-Chain-Aldehydes" ],
+      "reactions" : [ "META:RXN-16654" ],
+      "gibbs" : 228.6569,
+      "cmlMolWeight" : 184.321,
+      "molWeight" : 184.321,
+      "parents" : [ "META:Medium-Chain-Aldehydes" ]
+    },
+    "bigg" : {
+      "models" : [ "iYO844" ]
+    }
+  },
+  "mol" : " \n \n \n 13 12  0  0  0  0  0  0  0  0999 V2000\n   28.0397  -20.5826    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8277  -19.8799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2518  -19.8799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6092  -20.5826    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4702  -20.5826    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3973  -19.8799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6821  -19.8799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1852  -20.5826    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8943  -20.5826    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9667  -19.8799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.1127  -19.8799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7547  -20.5826    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.3077  -20.5708    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n  9 11  1  0     0  0\n 10 12  1  0     0  0\n 11 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02278\n\n$$$$",
+  "reactions" : [ "irxn101" ]
+}

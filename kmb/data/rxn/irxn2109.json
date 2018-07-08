@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2109",
+  "equation" : "12ppd__S + nadp <=> nadph + lald__L + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7071" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7673" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1; EC-1.1.1.55",
+  "otherNames" : [ ],
+  "alias" : "LCARSyi",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15744"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LCARSyi"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LACTALDEHYDE-REDUCTASE-NADPH-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7541" ],
+      "orphan" : "NO",
+      "gibbs" : 1.2935181,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

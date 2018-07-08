@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4201",
+  "equation" : "ecgon <=> pecgon",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6257" : ""
+    },
+    "r" : {
+      "icpd2573" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.-.-",
+  "otherNames" : [ ],
+  "alias" : "ECGISOr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ECGISOr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06730"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

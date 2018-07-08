@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7240",
+  "formula" : "Hg",
+  "name" : "mercury",
+  "synonyms" : [ "hydrargyrum" ],
+  "alias" : "icpd7240",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01319"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HG0"
+  } ],
+  "inchi" : "InChI=1S/Hg",
+  "inchikey" : "QSHDDOUJBYECFT-UHFFFAOYSA-N",
+  "smiles" : "[Hg]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Inorganic-Compounds" ],
+      "reactions" : [ "META:MERCURY-II-REDUCTASE-RXN" ],
+      "gibbs" : 0.0,
+      "cmlMolWeight" : 200.59,
+      "molWeight" : 200.59,
+      "parents" : [ "META:Inorganic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   28.2800  -16.6600    0.0000 Hg  0  0  0  0  0  0  0  0  0  0  0  0\nM  END\n\n> <ENTRY>\ncpd:C01319\n\n$$$$",
+  "reactions" : [ "irxn6524" ]
+}

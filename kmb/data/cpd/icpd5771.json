@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5771",
+  "formula" : "C7H8Cl2O2",
+  "name" : "4,6-dichloro-3-methyl-cis-1,2-dihydroxycyclohexa-3,5-diene",
+  "synonyms" : [ ],
+  "alias" : "icpd5771",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C18301"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10856"
+  } ],
+  "inchi" : "InChI=1S/C7H8Cl2O2/c1-3-4(8)2-5(9)7(11)6(3)10/h2,6-7,10-11H,1H3/t6-,7+/m0/s1",
+  "inchikey" : "VDFGOHREQMFVSY-NKWVEPMBSA-N",
+  "smiles" : "CC1=C(C=C([C@]([H])([C@@]1([H])O)O)Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds" ],
+      "reactions" : [ "META:RXN-10093", "META:RXN-10090" ],
+      "gibbs" : -1.1010325,
+      "cmlMolWeight" : 195.045,
+      "molWeight" : 195.045,
+      "parents" : [ "META:Chloroaromatic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   23.2136  -16.8477    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0023  -17.5498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0047  -18.9498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2183  -19.6477    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4296  -18.9457    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4272  -17.5457    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6299  -16.8487    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6540  -19.6496    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   20.7661  -19.6675    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   20.7810  -16.8472    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2116  -15.4703    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  5  8  1  0     0  0\n  3  9  1  0     0  0\n  2 10  1  6     0  0\n  1 11  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C18301\n\n$$$$",
+  "reactions" : [ "irxn3195", "irxn2801" ]
+}

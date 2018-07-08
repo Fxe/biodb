@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5463",
+  "equation" : "gly + amet <=> ahcys + sarcs + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd855" : ""
+    },
+    "r" : {
+      "icpd6194" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.156; 2.1.1.20; EC-2.1.1.20; 2.1.1.162",
+  "otherNames" : [ ],
+  "alias" : "GNMT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GNMT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00367"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCINE-N-METHYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CL-", "META:ADENOSYL-HOMO-CYS", "META:CPD-29", "META:ACET", "META:DIMETHYL-GLYCINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13406", "META:RXN-13404" ],
+      "orphan" : "NO",
+      "gibbs" : -9.590012,
+      "uniprot" : [ "P13255" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00260" ],
+      "orthologs" : [ "K00552" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

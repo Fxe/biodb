@@ -1,0 +1,43 @@
+{
+  "id" : "irxn1486",
+  "equation" : "icpd7170 <=> icpd2664",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7170" : ""
+    },
+    "r" : {
+      "icpd2664" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.3.1; 5.3.3.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02644"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:STEROID-DELTA-ISOMERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -5.08,
+      "uniprot" : [ "P22072", "P22071", "P27364", "P21097", "Q61767", "Q62878", "P26670", "Q67477", "P77816", "Q61694", "Q53604", "Q91381", "P14893", "P00947", "P24815", "P14060", "P26439", "Q98318", "Q91997", "P07445" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

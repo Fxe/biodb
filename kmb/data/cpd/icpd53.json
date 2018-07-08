@@ -1,0 +1,32 @@
+{
+  "id" : "icpd53",
+  "formula" : "C6H5N2O3",
+  "name" : "imidazol-5-yl-pyruvate",
+  "synonyms" : [ "3-(imidazol-5-yl)-pyruvate", "3-(imidazol-5-yl)pyruvate" ],
+  "alias" : "icpd53",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:IMIDAZOLE-PYRUVATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03277"
+  } ],
+  "inchi" : "InChI=1S/C6H6N2O3/c9-5(6(10)11)1-4-2-7-3-8-4/h2-3H,1H2,(H,7,8)(H,10,11)/p-1",
+  "inchikey" : "JEJNWEREQWMOHB-UHFFFAOYSA-M",
+  "smiles" : "C(C1=CN=CN1)C(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:IMILACTDEHYDROG-RXN" ],
+      "reactions" : [ "META:IMILACTDEHYDROG-RXN", "META:HISTTRANSAM-RXN", "META:RXN-7571", "META:RXN-7572" ],
+      "gibbs" : -31.16646,
+      "cmlMolWeight" : 153.117,
+      "molWeight" : 153.117
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   17.0324  -13.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2449  -14.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4573  -13.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6697  -14.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8822  -13.7200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6697  -15.8199    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4573  -12.3200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4990  -12.4082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3871  -11.5540    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2311  -12.3476    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6286  -13.6922    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  4  6  2  0     0  0\n  3  7  2  0     0  0\n  1  8  2  0     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\n 10 11  1  0     0  0\n  1 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03277\n\n$$$$",
+  "reactions" : [ "irxn4563", "irxn1472" ]
+}

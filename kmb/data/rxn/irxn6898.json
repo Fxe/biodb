@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6898",
+  "equation" : "ala_B + atp + his__L <=> carn + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd3297" : "",
+      "icpd7989" : ""
+    },
+    "r" : {
+      "icpd2707" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.3.2.11; 6.3.2.11",
+  "otherNames" : [ ],
+  "alias" : "CARNS1",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CARNOSINE-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01164"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CARNS1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-420" ],
+      "orphan" : "NO",
+      "gibbs" : -7.1359253,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410", "rn00340" ],
+      "orthologs" : [ "K14755" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn1125",
+  "equation" : "nadh + btcoa + h <=> nad + btal + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1529" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd7157" : "",
+      "icpd2377" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.57; 1.2.1.10; 1.2.1.87",
+  "otherNames" : [ ],
+  "alias" : "BNORh",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BTCOARx"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01172"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BNORh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00650", "rn01120" ],
+      "orthologs" : [ "K00132", "K04072", "K04073", "K18366" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iHN637" ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3382",
+  "formula" : "C12H31N4O",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "N1sprm",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "N1sprm"
+  }, {
+    "source" : "BiGG",
+    "entry" : "N1sprm"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02567"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N1-ACETYLSPERMINE"
+  } ],
+  "inchi" : "InChI=1S/C12H28N4O/c1-12(17)16-11-5-10-15-8-3-2-7-14-9-4-6-13/h14-15H,2-11,13H2,1H3,(H,16,17)/p+3",
+  "inchikey" : "GUNURVWAJRRUAV-UHFFFAOYSA-Q",
+  "smiles" : "CC(=O)NCCC[N+]CCCC[N+]CCC[N+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aliphatic-N-Acetyl-Diamines" ],
+      "reactions" : [ "META:POLYAMINE-OXIDASE-RXN", "META:RXN-9940", "META:RXN-10465", "META:RXN-12090", "META:RXN-9939" ],
+      "gibbs" : 301.5962,
+      "cmlMolWeight" : 247.403,
+      "molWeight" : 247.403,
+      "parents" : [ "META:Aliphatic-N-Acetyl-Diamines" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iMM904" ]
+    }
+  },
+  "mol" : " \n \n \n 17 16  0  0  0  0  0  0  0  0999 V2000\n   15.0500  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2624  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4749  -18.6900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6873  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8997  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1122  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3246  -18.6900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5370  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7495  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9619  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1744  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3868  -17.9900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5992  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8117  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2624  -16.5902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.0153  -18.6850    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2065  -17.9971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n  2 15  2  0     0  0\n 14 16  1  0     0  0\n 16 17  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02567\n\n$$$$",
+  "reactions" : [ "irxn1484", "irxn3516", "irxn3655" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn646",
+  "equation" : "h2o + sucr <=> glc__D + fru_B",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5746" : ""
+    },
+    "r" : {
+      "icpd2392" : "",
+      "icpd1050" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.2.1.26; EC-3.2.1.48",
+  "otherNames" : [ ],
+  "alias" : "SGHB",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3.2.1.48-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SGHB"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-373", "META:PWY-621" ],
+      "orphan" : "NO",
+      "gibbs" : -6.7929993,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

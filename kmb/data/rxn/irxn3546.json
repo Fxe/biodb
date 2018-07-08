@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3546",
+  "equation" : "h + 0.01 pa_SC + ctp <=> 0.01 cdpdag_SC + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd4369" : "",
+      "icpd680" : "0.01"
+    },
+    "r" : {
+      "icpd1062" : "0.01",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DASYN_SC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DASYN_SC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DASYNm_SC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1296",
+  "equation" : "ga <=> icpd7844 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6591" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7844" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.59; EC-4.1.1.59",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GALLATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03247"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P3-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.5241089,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

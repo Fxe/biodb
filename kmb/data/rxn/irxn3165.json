@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3165",
+  "equation" : "f6p_B + atp <=> h + adp + f26bp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd3606" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd6187" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.105; 2.7.1.105",
+  "otherNames" : [ ],
+  "alias" : "PFK26_1",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02732"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PFK26_1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6-PHOSPHOFRUCTO-2-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-423" ],
+      "orphan" : "NO",
+      "gibbs" : -19.582275,
+      "uniprot" : [ "P07953", "Q16875", "P49872", "P26285", "O64983", "P70266", "P70265", "Q9JJH5", "P16118", "Q28830", "O24559", "O81398", "Q7M3I3", "P25114", "Q91348", "Q12471", "P40433" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00051" ],
+      "orthologs" : [ "K00900" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

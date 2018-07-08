@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2794",
+  "equation" : "e4hglu + akg <=> glu__L + 4h2oglt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd3404" : ""
+    },
+    "r" : {
+      "icpd1530" : "",
+      "icpd514" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.23",
+  "otherNames" : [ ],
+  "alias" : "EHGLAT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXYGLUTAMATE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EHGLATm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EHGLAT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EHGLATp"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:L-ASPARTATE", "META:HYDROXYLAMINE", "META:GLT", "META:GLUTARATE", "META:CPD-29", "META:MALEATE", "META:PHENYLHYDRAZINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:HYDROXYPRODEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.6999817,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iND750", "iIT341", "iMM1415", "iMM904", "iJN678", "RECON1", "iJB785" ]
+    }
+  }
+}

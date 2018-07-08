@@ -1,0 +1,33 @@
+{
+  "id" : "icpd76",
+  "formula" : "C8H10O2",
+  "name" : "(2e,4e,6e)-7-hydroxy-4-methylhepta-2,4,6-trienal",
+  "synonyms" : [ ],
+  "alias" : "icpd76",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14650"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20694"
+  } ],
+  "inchi" : "InChI=1S/C8H10O2/c1-8(4-2-6-9)5-3-7-10/h2-7,9H,1H3/b5-3+,6-2+,8-4+",
+  "inchikey" : "TYQZWSFEJJSSQR-YUHMVAQCSA-N",
+  "smiles" : "C/C(=C(/[H])\\C(\\[H])=C(/[H])\\O)/C(/[H])=C(\\[H])/C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Apocarotenoids", "META:Aldehydes" ],
+      "reactions" : [ "META:RXN-13643" ],
+      "gibbs" : 95.67121,
+      "cmlMolWeight" : 138.166,
+      "molWeight" : 138.166,
+      "parents" : [ "META:Apocarotenoids", "META:Aldehydes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   10.5000  -23.3800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.7124  -22.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9249  -23.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1373  -22.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3497  -23.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5622  -22.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7746  -23.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9870  -22.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1995  -23.3800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3497  -24.7799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  5  6  1  0     0  0\n  6  7  2  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  5 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20694\n\n$$$$",
+  "reactions" : [ "irxn5343" ]
+}

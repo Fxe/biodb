@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6216",
+  "equation" : "icpd5521 + o2 <=> retinal + icpd2016",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5521" : ""
+    },
+    "r" : {
+      "icpd7129" : "",
+      "icpd2016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.75; 1.13.11.75",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09601"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11783"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -83.78,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00464" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

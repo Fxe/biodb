@@ -1,0 +1,49 @@
+{
+  "id" : "irxn891",
+  "equation" : "com + meoh <=> h2o + mcom",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2216" : "",
+      "icpd6448" : ""
+    },
+    "r" : {
+      "icpd4941" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.246; 2.1.1.90",
+  "otherNames" : [ ],
+  "alias" : "MCMMT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MCMMT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MTAMBARKMULTI-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09098"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -8.906998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01200", "rn00680", "rn01120" ],
+      "orthologs" : [ "K04480", "K14080", "K14081" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

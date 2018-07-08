@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3016",
+  "equation" : "L2aadp6sa <=> h2o + icpd6948 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4839" : ""
+    },
+    "r" : {
+      "icpd6948" : "",
+      "icpd1851" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.1.18; 1.2.1.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8173"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02317"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LYSINE-6-DEHYDROGENASE-RXN", "META:ALLYSINE-DEHYDROG-RXN", "META:1.2.1.31-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -13.121107,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960", "rn01100", "rn01110" ],
+      "orthologs" : [ "K19064" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

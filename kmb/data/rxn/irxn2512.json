@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2512",
+  "equation" : "glcn + nadp <=> 2dhglcn + nadph + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2898" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd1680" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.215; EC-1.1.1.215",
+  "otherNames" : [ ],
+  "alias" : "2DGLCNRy",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.1.1.215-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "2DGLCNRy"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01739"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:KETOGLUCONMET-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 3.3335571,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00030" ],
+      "orthologs" : [ "K00090" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iPC815", "iAF1260", "iAF1260b", "iJR904", "STM_v1_0" ]
+    }
+  }
+}

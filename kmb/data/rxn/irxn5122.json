@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5122",
+  "equation" : "C11695 + h2o <=> arachd + etha",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2388" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd353" : "",
+      "icpd1270" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.99; EC-3.5.1.99",
+  "otherNames" : [ ],
+  "alias" : "RE1978C",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE1978C"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN6666-2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09536"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD6666-4", "META:CPD-19611" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY6666-1" ],
+      "orphan" : "NO",
+      "gibbs" : -1.0870972,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

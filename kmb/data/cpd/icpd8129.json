@@ -1,0 +1,31 @@
+{
+  "id" : "icpd8129",
+  "formula" : "C3H5N3",
+  "name" : "4-aminoimidazole",
+  "synonyms" : [ "1h-imidazol-5-amine", "3h-imidazol-4-amine", "5-aminoimidazole" ],
+  "alias" : "icpd8129",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05239"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-54"
+  } ],
+  "inchi" : "InChI=1S/C3H5N3/c4-3-1-5-2-6-3/h1-2H,4H2,(H,5,6)",
+  "inchikey" : "QRZMXADUXZADTF-UHFFFAOYSA-N",
+  "smiles" : "C1=C(N)N=CN1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:R13-RXN", "META:R62-RXN" ],
+      "gibbs" : 78.605606,
+      "cmlMolWeight" : 83.093,
+      "molWeight" : 83.093
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  0  0  0  0  0  0999 V2000\n   19.6000  -19.8100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6000  -21.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9315  -21.6426    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7544  -20.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9315  -19.3774    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4674  -22.0329    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  1  5  1  0     0  0\n  2  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05239\n\n$$$$",
+  "reactions" : [ "irxn2425", "irxn151" ]
+}

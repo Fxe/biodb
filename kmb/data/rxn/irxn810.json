@@ -1,0 +1,44 @@
+{
+  "id" : "irxn810",
+  "equation" : "2.0 o2 + arachd <=> icpd4829",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "2.0",
+      "icpd1270" : ""
+    },
+    "r" : {
+      "icpd4829" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.99.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01590"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16678"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PROSTAGLANDIN-ENDOPEROXIDE-SYNTHASE-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -181.52,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "K00509", "K11987" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

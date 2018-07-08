@@ -1,0 +1,37 @@
+{
+  "id" : "icpd6831",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "chitin",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "chitin"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00461"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "chitin"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHITIN"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-18080", "META:3.2.1.14-RXN", "META:CHITIN-DEACETYLASE-RXN", "META:CHITIN-SYNTHASE-RXN", "META:RXN-18082" ],
+      "parents" : [ "META:Chitodextrins", "META:Structural-Polysaccharides", "META:Chitin-NAc-D-glucono-1-5-lactone", "META:4-dehydro-NacGlc-Chitin", "META:Chitin-NAc-2-deoxy-2-amino-D-gluconate" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "iND750", "iMM904" ]
+    }
+  },
+  "mol" : " \n \n \n 16 16  0  0  1  0  0  0  0  0999 V2000\n   17.7100  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7100  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9224  -17.9200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1349  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1349  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9224  -15.1200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4976  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3021  -15.8104    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4976  -17.9200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3660  -17.9310    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9224  -19.3198    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4660  -13.7090    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5576  -17.9200    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5712  -17.2353    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7535  -17.9181    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5717  -15.8204    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  1  7  1  1     0  0\n  7  8  1  0     0  0\n  2  9  1  6     0  0\n  4 10  1  6     0  0\n  3 11  1  1     0  0\n  5 12  1  1     0  0\n  9 13  1  0     0  0\n 10 14  1  0     0  0\n 14 15  1  0     0  0\n 14 16  2  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1 14   1   2   3   4   5   6   7   8   9  10  11  14  15  16\nM  SDI   1  4   15.4700  -19.0400   15.4700  -17.1500\nM  SDI   1  4   22.2600  -13.0900   22.2600  -15.0500\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C00461\n\n$$$$",
+  "reactions" : [ ]
+}

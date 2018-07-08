@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4304",
+  "equation" : "icpd3546 <=> h2o + icpd880",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3546" : ""
+    },
+    "r" : {
+      "icpd880" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.57; 4.2.1.57",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ISOHEXENYLGLUTACONYL-COA-HYDRATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03493"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6672" ],
+      "orphan" : "NO",
+      "gibbs" : 3.0230103,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00281" ],
+      "orthologs" : [ "K13779" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

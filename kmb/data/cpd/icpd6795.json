@@ -1,0 +1,34 @@
+{
+  "id" : "icpd6795",
+  "formula" : "ClO2",
+  "name" : "chlorite",
+  "synonyms" : [ ],
+  "alias" : "icpd6795",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CHLORITE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01486"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18368"
+  } ],
+  "inchi" : "InChI=1S/ClHO2/c2-1-3/h(H,2,3)/p-1",
+  "inchikey" : "QBWCMBCROVPCKQ-UHFFFAOYSA-M",
+  "smiles" : "Cl(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.13.11.49-RXN", "META:RXN-11498", "META:1.97.1.1-RXN" ],
+      "gibbs" : -65.91206,
+      "cmlMolWeight" : 67.452,
+      "molWeight" : 67.452
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   22.7360  -15.9164    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   22.7360  -17.4746    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5229  -15.1190    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01486\n\n$$$$",
+  "reactions" : [ "irxn1053", "irxn5822" ]
+}

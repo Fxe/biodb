@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2347",
+  "equation" : "coa + 4hphac + atp <=> hphaccoa + amp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd1660" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd4752" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.-",
+  "otherNames" : [ ],
+  "alias" : "PACCOAL2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02699"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PACCOAL2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00350" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iAF987" ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3199",
+  "equation" : "sphs1p <=> ethamp + icpd1636",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3035" : ""
+    },
+    "r" : {
+      "icpd2046" : "",
+      "icpd1636" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.27; EC-4.3.2; 4.1.2.-",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN3DJ-11230"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06516"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY3DJ-11470" ],
+      "orphan" : "NO",
+      "gibbs" : 1.01,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00600" ],
+      "orthologs" : [ "K01634" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

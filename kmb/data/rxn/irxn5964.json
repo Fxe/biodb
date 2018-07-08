@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5964",
+  "equation" : "icpd4038 + h2o <=> fuc__L + icpd4732",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4038" : ""
+    },
+    "r" : {
+      "icpd4732" : "",
+      "icpd7660" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.51; EC-3.2.1.51",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALPHA-L-FUCOSIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03162"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 99.598206,
+      "uniprot" : [ "P17164", "P10901", "P04066" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

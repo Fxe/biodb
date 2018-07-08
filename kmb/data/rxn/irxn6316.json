@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6316",
+  "equation" : "h2o + 10fthf6glu <=> glu__L + 10fthf5glu",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4490" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd4480" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GGH_10FTHF6GLUe",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GGH_10FTHF6GLUl"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GGH_10FTHF6GLUe"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

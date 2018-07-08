@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7243",
+  "formula" : "C6H8O5",
+  "name" : "(2r,3s)-2,3-dimethylmalate",
+  "synonyms" : [ ],
+  "alias" : "icpd7243",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-61"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03652"
+  } ],
+  "inchi" : "InChI=1S/C6H10O5/c1-3(4(7)8)6(2,11)5(9)10/h3,11H,1-2H3,(H,7,8)(H,9,10)/p-2/t3-,6-/m1/s1",
+  "inchikey" : "WTIIULQJLZEHGZ-AWFVSMACSA-L",
+  "smiles" : "C[C@]([H])(C(=O)[O-])[C@](C)(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:DIMETHYLMALEATE-HYDRATASE-RXN", "META:23-DIMETHYLMALATE-LYASE-RXN" ],
+      "gibbs" : -121.87928,
+      "cmlMolWeight" : 160.126,
+      "molWeight" : 160.126
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   19.8800  -15.4000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0924  -14.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3049  -15.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5173  -14.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7297  -15.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9422  -14.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7297  -16.7999    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0924  -13.3002    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5173  -13.3000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5173  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3049  -16.7998    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  5  7  2  0     0  0\n  2  8  2  0     0  0\n  4  9  1  1     0  0\n  4 10  1  6     0  0\n  3 11  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C03652\n\n$$$$",
+  "reactions" : [ "irxn2372", "irxn2558" ]
+}

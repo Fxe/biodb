@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6608",
+  "equation" : "nad + cholate <=> nadh + icpd2399 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd108" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2399" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.159; 1.1.1.159",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02792"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:7-ALPHA-HYDROXYSTEROID-DEH-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1693", "META:CPD0-1694", "META:PHMB", "META:N-BROMOSUCCINIMIDE", "META:CU+2", "META:DIETHYLPYROCARBONATE", "META:ZN+2", "META:HG+2", "META:CPD0-1695", "META:CPD0-1696" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6518" ],
+      "orphan" : "NO",
+      "gibbs" : -0.3782196,
+      "uniprot" : [ "Q45807", "P0AET8", "Q03906" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

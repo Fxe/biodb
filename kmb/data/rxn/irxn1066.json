@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1066",
+  "equation" : "pydam + pyr <=> ala__L + pydx",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7920" : "",
+      "icpd3122" : ""
+    },
+    "r" : {
+      "icpd5696" : "",
+      "icpd7336" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.30; EC-2.6.1.30",
+  "otherNames" : [ ],
+  "alias" : "PDYXPT_c",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.6.1.30-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PDYXPT_c"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01712"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:PYRIDOXAL_PHOSPHATE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5499" ],
+      "orphan" : "NO",
+      "gibbs" : -2.465867,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00750", "rn01120", "B6" ],
+      "orthologs" : [ "K18608" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

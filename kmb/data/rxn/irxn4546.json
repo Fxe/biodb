@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4546",
+  "equation" : "Rtotalcoa + dhap <=> adhap_hs + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2196" : "",
+      "icpd6046" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd6143" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DHAPA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHAPAx"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHAPA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

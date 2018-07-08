@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5207",
+  "equation" : "utp + cmp <=> udp + cdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd115" : "",
+      "icpd3421" : ""
+    },
+    "r" : {
+      "icpd1985" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CYTK7",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYTK7"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYTK7n"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

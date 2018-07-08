@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7939",
+  "formula" : "C9H11NO2",
+  "name" : "d-beta-phenylalanine",
+  "synonyms" : [ "d-beta-phtnyllnint" ],
+  "alias" : "icpd7939",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14668"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20488"
+  } ],
+  "inchi" : "InChI=1S/C9H11NO2/c10-8(6-9(11)12)7-4-2-1-3-5-7/h1-5,8H,6,10H2,(H,11,12)/t8-/m0/s1",
+  "inchikey" : "UJOYFRCOTPUKAK-QMMMGPOBSA-N",
+  "smiles" : "C1=CC=C(C=C1)[C@H](CC(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Beta-amino-acids", "META:Aromatic-D-Amino-Acids" ],
+      "reactions" : [ "META:RXN-13649" ],
+      "gibbs" : 61.93232,
+      "cmlMolWeight" : 165.191,
+      "molWeight" : 165.191,
+      "parents" : [ "META:Beta-amino-acids", "META:Aromatic-D-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   17.4539  -16.1449    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4539  -17.6060    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2014  -18.3018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0186  -17.6060    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0186  -16.1449    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2014  -15.4490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6367  -15.4490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8195  -16.1449    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0024  -15.4490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1852  -16.1449    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0024  -14.0575    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6367  -14.0623    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  2  0     0  0\n  7 12  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C20488\n\n$$$$",
+  "reactions" : [ "irxn5263" ]
+}

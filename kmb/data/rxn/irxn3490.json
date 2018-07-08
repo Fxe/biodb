@@ -1,0 +1,58 @@
+{
+  "id" : "irxn3490",
+  "equation" : "h2o + fmn <=> pi + ribflv",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7712" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6271" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.3.102; 3.1.3.2; 3.1.3.102",
+  "otherNames" : [ ],
+  "alias" : "ACP1p",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-5187"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FMNACP_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACP1_FMN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00548"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACP1p"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACP1e"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 43.864212,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00740", "rn01100" ],
+      "orthologs" : [ "K14379", "K01078", "K14410", "K14394", "K09474", "K20861", "K01093", "K20884", "K20862", "K20860", "K03788" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iIT341", "iND750", "iML1515", "iJN678", "iAB_RBC_283", "iRC1080", "iNJ661", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  }
+}

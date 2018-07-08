@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2496",
+  "equation" : "icpd5930 + o2 + h2o <=> fald + h2o2 + 4abut",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5930" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7403" : "",
+      "icpd2494" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.3.19; EC-1.5.3.19",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13067"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10102"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P181-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -18.983002,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00760", "rn01120" ],
+      "orthologs" : [ "K19191" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5147",
+  "equation" : "icpd2928 + h2o <=> meoh + icpd4681 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2928" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd4681" : "",
+      "icpd6448" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.1.59; 3.1.1.59",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08149"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:JUVENILE-HORMONE-ESTERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 0.46292114,
+      "uniprot" : [ "Q7M4I4", "P12992", "P30809", "P19985" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00981" ],
+      "orthologs" : [ "K01063" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

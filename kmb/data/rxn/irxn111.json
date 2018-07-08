@@ -1,0 +1,45 @@
+{
+  "id" : "irxn111",
+  "equation" : "2.0 ggdp <=> 343045 + 2.0 ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3373" : "2.0"
+    },
+    "r" : {
+      "343045" : "",
+      "icpd1231" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PSY",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PSY_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PSY"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

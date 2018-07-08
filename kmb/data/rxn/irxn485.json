@@ -1,0 +1,47 @@
+{
+  "id" : "irxn485",
+  "equation" : "sbt__D + nadp <=> nadph + h + Glc_aD",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2287" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1683" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.21",
+  "otherNames" : [ ],
+  "alias" : "SBTRh",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SBTRh"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01787"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00051" ],
+      "orthologs" : [ "K00011" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

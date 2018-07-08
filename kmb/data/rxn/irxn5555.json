@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5555",
+  "equation" : "o2 + h + nmptrc <=> n2 + 1mpyr + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1851" : "",
+      "icpd4118" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd8112" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.21",
+  "otherNames" : [ ],
+  "alias" : "NMPTRCOX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04027"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NMPTRCOX"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960", "rn01100", "rn01110" ],
+      "orthologs" : [ "K00276" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

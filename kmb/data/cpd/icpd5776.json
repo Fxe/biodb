@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5776",
+  "formula" : "C2H3NO2",
+  "name" : "iminoacetic acid",
+  "synonyms" : [ ],
+  "alias" : "icpd5776",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12279"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C15809"
+  } ],
+  "inchi" : "InChI=1S/C2H3NO2/c3-1-2(4)5/h1,3H,(H,4,5)",
+  "inchikey" : "TVMUHOAONWHJBV-UHFFFAOYSA-N",
+  "smiles" : "C(=N)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:THIAZOLSYN2-RXN", "META:RXN-11319", "META:RXN-8079", "META:RXN-12614", "META:RXN-13329" ],
+      "gibbs" : -74.78981,
+      "cmlMolWeight" : 72.043,
+      "molWeight" : 72.043
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   21.9784  -18.6704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1307  -19.4270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7503  -19.3631    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0018  -17.2679    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1014  -20.8355    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15809\n\n$$$$",
+  "reactions" : [ "irxn2065", "irxn4898" ]
+}

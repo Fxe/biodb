@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6615",
+  "equation" : "f6p + ppi <=> fdp + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1231" : "",
+      "icpd7592" : ""
+    },
+    "r" : {
+      "icpd8235" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.90",
+  "otherNames" : [ ],
+  "alias" : "PFK_ppi",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PFK_ppi"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00764"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K21071", "K00895" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iLB1027_lipid" ]
+    }
+  }
+}

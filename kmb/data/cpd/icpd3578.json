@@ -1,0 +1,39 @@
+{
+  "id" : "icpd3578",
+  "formula" : "C11H7O4",
+  "name" : "1,4-dihydroxy-2-naphthoate",
+  "synonyms" : [ ],
+  "alias" : "dhna",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "dhna"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dhna"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIHYDROXYNAPHTHOATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03657"
+  } ],
+  "inchi" : "InChI=1S/C11H8O4/c12-9-5-8(11(14)15)10(13)7-4-2-1-3-6(7)9/h1-5,12-13H,(H,14,15)/p-1",
+  "inchikey" : "VOJUXHHACRXLTD-UHFFFAOYSA-M",
+  "smiles" : "C1=CC2=C(C=C(C(=C2C=C1)O)C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9360", "META:RXN-17066", "META:RXN-9190", "META:RXN-11047", "META:RXN-9217", "META:RXN-9359", "META:RXN-9204", "META:RXN-9358", "META:RXN-9105", "META:RXN-9103", "META:DMK-RXN", "META:RXN-9311", "META:RXN-9365", "META:RXN-9098" ],
+      "gibbs" : -50.61322,
+      "cmlMolWeight" : 203.174,
+      "molWeight" : 203.174
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 15 16  0  0  0  0  0  0  0  0999 V2000\n   17.2239  -14.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2239  -15.4471    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4424  -13.3355    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0118  -13.3546    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4488  -16.1552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0118  -16.1616    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6673  -14.0372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4361  -11.9448    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8061  -14.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6800  -15.4534    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4488  -17.5395    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8061  -15.4471    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8666  -13.3418    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0660  -14.0309    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8539  -11.9511    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  1  0     0  0\n  6 12  2  0     0  0\n  7 13  1  0     0  0\n 13 14  1  0     0  0\n 13 15  2  0     0  0\n  7 10  2  0     0  0\n  9 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03657\n\n$$$$",
+  "reactions" : [ "irxn2045", "irxn974", "irxn4132", "irxn3844", "irxn4191" ]
+}

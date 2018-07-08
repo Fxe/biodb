@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3679",
+  "equation" : "o2 + nadh + h + p_xyl <=> nad + h2o + 4mbzalc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd5177" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd6735" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.-; EC-1.14.13.dw",
+  "otherNames" : [ ],
+  "alias" : "PXMO",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05288"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8579"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PXMO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5429" ],
+      "orphan" : "NO",
+      "gibbs" : -93.5788,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K15757", "K15758" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn20",
+  "equation" : "coa + ttdca + atp <=> tdcoa + amp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6458" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd2373" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FACOAL140",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL140p"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TTDCAFATPc"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL140"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iNJ661", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1", "iHN637", "iYO844" ]
+    }
+  }
+}

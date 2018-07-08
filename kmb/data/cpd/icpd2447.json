@@ -1,0 +1,45 @@
+{
+  "id" : "icpd2447",
+  "formula" : "C5H5O3",
+  "name" : "2-oxopent-4-enoate",
+  "synonyms" : [ "2-keto-4-pentenoate", "2-oxo-4-pentenoate", "oxopent-4-enoate" ],
+  "alias" : "op4en",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OXOPENTENOATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00596"
+  }, {
+    "source" : "BiGG",
+    "entry" : "op4en"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-6761"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "op4en"
+  } ],
+  "inchi" : "InChI=1S/C5H6O3/c1-2-3-4(6)5(7)8/h2H,1,3H2,(H,7,8)/p-1",
+  "inchikey" : "NOXRYJAWRSNUJD-UHFFFAOYSA-M",
+  "smiles" : "C=CCC(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-8529" ],
+      "instances" : [ "META:2-Oxo-carboxylates" ],
+      "reactions" : [ "META:RXN-7282", "META:RXN-13458", "META:RXN-11543", "META:RXN-2506" ],
+      "gibbs" : -31.756462,
+      "cmlMolWeight" : 113.093,
+      "molWeight" : 113.093,
+      "parents" : [ "META:2-Oxo-carboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iJN746", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iECUMN_1333", "iECSF_1327", "iECDH1ME8569_1439", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iEcE24377_1341", "iS_1188", "iSF_1195", "iECDH10B_1368", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348" ]
+    }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   12.1800  -22.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1959  -21.3501    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4162  -20.6639    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.9797  -20.6293    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6318  -21.3845    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4321  -19.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6318  -22.7845    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8278  -23.4748    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  2  0     0  0\n  3  5  2  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00596\n\n$$$$",
+  "reactions" : [ "irxn1692", "irxn2243", "irxn3442", "irxn1881", "irxn4360", "irxn1759", "irxn6461", "irxn2987", "irxn4889", "irxn2344", "irxn4886", "irxn3090" ]
+}

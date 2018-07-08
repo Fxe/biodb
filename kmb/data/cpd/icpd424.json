@@ -1,0 +1,38 @@
+{
+  "id" : "icpd424",
+  "formula" : "C19H38O",
+  "name" : "2,6,10,14-tetramethylpentadecanal",
+  "synonyms" : [ ],
+  "alias" : "pristanal",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14674"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "pristanal"
+  }, {
+    "source" : "BiGG",
+    "entry" : "pristanal"
+  } ],
+  "inchi" : "InChI=1S/C19H38O/c1-16(2)9-6-10-17(3)11-7-12-18(4)13-8-14-19(5)15-20/h15-19H,6-14H2,1-5H3",
+  "inchikey" : "IZJRIIWUSIGEAJ-UHFFFAOYSA-N",
+  "smiles" : "CC(C)CCCC(C)CCCC(C)CCCC(C)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Me-Branched-234-Sat-FALD" ],
+      "reactions" : [ "META:RXN-14104" ],
+      "gibbs" : 376.55258,
+      "cmlMolWeight" : 282.509,
+      "molWeight" : 282.509,
+      "parents" : [ "META:2-Me-Branched-234-Sat-FALD" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn4188", "irxn5773" ]
+}

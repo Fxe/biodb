@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1811",
+  "equation" : "accoa + gd3_hs <=> coa + oagd3_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd3631" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd6215" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GAO1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GAO1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GAO1g"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

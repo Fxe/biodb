@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5626",
+  "equation" : "glx + h + akg <=> icpd6881 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd1851" : "",
+      "icpd941" : ""
+    },
+    "r" : {
+      "icpd6881" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.2.1.5; 2.2.1.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-HYDROXY-3-OXOADIPATE-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00474"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -8.285858,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.eqs-box {
+    border: 1px solid #d8d8d8;
+'background-color: #d8d8d8;
+margin: 2px;
+
+    float: left;
+}
+.floating-box {
+    float: left;
+    margin: 2px;
+    border: 1px solid #FFFFFF;
+}
+.eqs-dipiction {
+    height: 150px;
+    width: 150px;
+    vertical-align: bottom;
+    text-align: center;
+}
+.eqs-label {
+    height: 30px;
+'border: 0px solid #0f0f0f;
+alignment: center;
+    text-align: center;
+}
+.eqs-sum {
+    vertical-align: bottom;
+    height: 180px;
+    float: left;
+    display: inline-block;
+}
+.eqs-empty {
+    height: 150px;
+}
+.eqs {
+    clear: both;
+}
+@media screen and (min-width: 768px) {
+
+    #cpd-model .modal-dialog  {width:1200px;}
+
+}

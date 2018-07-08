@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2063",
+  "equation" : "nad + h2o + 2hmcnsad <=> nadh + 2hmc + 3.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7688" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "3.0",
+      "icpd6463" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.85; EC-1.2.1.85",
+  "otherNames" : [ ],
+  "alias" : "HMSD",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02762"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8527"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMSD"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CU+2", "META:ZN+2", "META:CPD-29", "META:HG+2", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7006", "META:PWY-6336", "META:PWY-5419", "META:PWY-7480" ],
+      "orphan" : "NO",
+      "gibbs" : -13.729431,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00362" ],
+      "orthologs" : [ "K10217" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

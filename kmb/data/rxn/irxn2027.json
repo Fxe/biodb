@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2027",
+  "equation" : "thf + alpam <=> mlthf + n2 + dhlam",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6900" : "",
+      "icpd7929" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd4966" : "",
+      "icpd832" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GCC2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GCC2bim"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GCC2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iNJ661", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

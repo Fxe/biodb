@@ -1,0 +1,45 @@
+{
+  "id" : "icpd7538",
+  "formula" : "HI",
+  "name" : "hydrogen iodide",
+  "synonyms" : [ "hydroiodic acid" ],
+  "alias" : "iodine",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01382"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:IODINE-MOLECULE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "iodine"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05590"
+  }, {
+    "source" : "BiGG",
+    "entry" : "iodine"
+  } ],
+  "inchi" : "InChI=1S/HI/h1H",
+  "inchikey" : "XMBWDFGMSWQBCA-UHFFFAOYSA-N",
+  "smiles" : "I[H]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:OHMETHYLBILANESYN-RXN", "META:N-ACETYLNEURAMINATE-SYNTHASE-RXN" ],
+      "instances" : [ "META:Inorganic-Compounds" ],
+      "reactions" : [ "META:IODIDE-PEROXIDASE-RXN" ],
+      "gibbs" : 0.0,
+      "cmlMolWeight" : 253.809,
+      "molWeight" : 253.809,
+      "parents" : [ "META:Inorganic-Compounds" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   26.7400  -17.2900    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1400  -17.2900    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01382\n\n$$$$",
+  "reactions" : [ "irxn2330" ]
+}

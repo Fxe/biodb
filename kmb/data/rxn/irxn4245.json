@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4245",
+  "equation" : "h2o + leuktrC4 <=> glu__L + leuktrD4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4722" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4967" : "",
+      "icpd514" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GGT5r",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0641"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GGT5r"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

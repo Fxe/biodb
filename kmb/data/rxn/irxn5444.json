@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5444",
+  "equation" : "cys__L + 335998 <=> ala__L + 336001 + h",
+  "stoichiometry" : {
+    "l" : {
+      "335998" : "",
+      "icpd4873" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7336" : "",
+      "336001" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CYSDES",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYSDES"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSDS_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

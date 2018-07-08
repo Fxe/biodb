@@ -1,0 +1,45 @@
+{
+  "id" : "irxn382",
+  "equation" : "icpd6466 + 4hbz <=> ppi + icpd3946",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6466" : "",
+      "icpd5989" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd3946" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.39; EC-2.5.1.39",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.5.1.39-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07273"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Long-Chain-Acyl-CoAs", "META:Fatty-Acids", "META:DELTA3-ISOPENTENYL-PP" ],
+      "activators" : [ "META:2-LYSOPHOSPHATIDYLETHANOLAMINES" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5871", "META:PWY-5856", "META:PWY-6978" ],
+      "orphan" : "NO",
+      "gibbs" : -16.910004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00130", "rn01110" ],
+      "orthologs" : [ "K06125" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

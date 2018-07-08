@@ -1,0 +1,29 @@
+{
+  "id" : "icpd6040",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd6040",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03649"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Gamma-Glutamylated-Glutamyl-acceptors"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:AGARITINE-GAMMA-GLUTAMYLTRANSFERASE-RXN" ],
+      "parents" : [ "META:Glutamyl-Acceptors" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   15.7500  -14.4900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9624  -13.7900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1749  -14.4900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3873  -13.7900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5997  -14.4900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8122  -13.7900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0246  -14.4900    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5997  -15.8899    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.5376  -13.7900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7500  -15.8900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9624  -12.3902    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  5  8  2  0     0  0\n  1  9  1  0     0  0\n  1 10  2  0     0  0\n  2 11  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C03649\n\n$$$$",
+  "reactions" : [ "irxn4407" ]
+}

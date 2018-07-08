@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7062",
+  "formula" : "C6H13O9P",
+  "name" : "l-xylo-hexulose 1-phosphate",
+  "synonyms" : [ "[(3s,4r,5s)-3,4,5,6-tetrahydroxy-2-oxohexyl]oxyphosphonic acid", "l-sorbose 1-phosphate", "{[(3s,4r,5s)-3,4,5,6-tetrahydroxy-2-oxohexyl]oxy}phosphonic acid" ],
+  "alias" : "icpd7062",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-531"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02888"
+  } ],
+  "inchi" : "InChI=1S/C6H13O9P/c7-1-3(8)5(10)6(11)4(9)2-15-16(12,13)14/h3,5-8,10-11H,1-2H2,(H2,12,13,14)/t3-,5+,6+/m0/s1",
+  "inchikey" : "ZKLLSNQJRLJIGT-OTWZMJIISA-N",
+  "smiles" : "C([C@@H]([C@H]([C@@H](C(=O)COP(=O)(O)O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:L-sorbose-1-phosphate" ],
+      "reactions" : [ "META:R262-RXN", "META:RXN-15172" ],
+      "gibbs" : -318.18594,
+      "cmlMolWeight" : 258.121,
+      "molWeight" : 258.121,
+      "parents" : [ "META:L-sorbose-1-phosphate" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 16 15  0  0  1  0  0  0  0  0999 V2000\n   27.0601  -20.2069    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.2725  -20.9064    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.8479  -20.9064    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0601  -18.8081    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4905  -20.2069    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.2725  -22.3052    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6355  -20.2069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8479  -22.3052    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7029  -20.9064    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4905  -18.8081    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4233  -20.9064    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.9151  -20.2069    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0233  -20.9064    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6233  -20.9064    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0233  -19.5064    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0233  -22.3064    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  1  1     0  0\n  7 11  1  0     0  0\n  9 12  1  0     0  0\n 11 13  1  0     0  0\n 13 14  1  0     0  0\n 13 15  2  0     0  0\n 13 16  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02888\n\n$$$$",
+  "reactions" : [ "irxn6357" ]
+}

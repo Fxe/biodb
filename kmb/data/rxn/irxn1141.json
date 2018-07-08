@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1141",
+  "equation" : "2.0 h2o + m2mn <=> mn + 2.0 man",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7072" : "",
+      "icpd4016" : "2.0"
+    },
+    "r" : {
+      "icpd7498" : "2.0",
+      "icpd7784" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "A_MANASE",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "A_MANASEly"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "A_MANASE"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

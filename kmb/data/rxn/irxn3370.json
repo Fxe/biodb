@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3370",
+  "equation" : "hmbil <=> h2o + uppg1",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1716" : ""
+    },
+    "r" : {
+      "icpd3881" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "UPP1S",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03166"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UPP1S"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14396"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -13.166992,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id" : "irxn2365",
+  "equation" : "nad + h2o + glu__L <=> nadh + n2 + h + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd514" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.4.1.2; 1.4.1.2; 1.4.1.3",
+  "otherNames" : [ ],
+  "alias" : "GDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GDH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTAMATE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GDH1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUDxi"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00243"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GDHm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:SUC", "META:HYDROXYLAMINE", "META:2-KETOGLUTARATE", "META:GLUTARATE", "META:GLT", "META:NADP", "META:OXALACETIC_ACID", "META:FUM", "META:ADIPATE", "META:MAL", "META:NADH" ],
+      "activators" : [ "META:VAL", "META:ILE", "META:SER", "META:THR", "META:CYS", "META:MET", "META:LEU", "META:ASN", "META:ARG", "META:GLY", "META:L-ASPARTATE", "META:TRP", "META:HIS", "META:TYR", "META:PHE", "META:L-ALPHA-ALANINE", "META:GLN", "META:LYS" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P162-PWY", "META:PWY-5022", "META:PWY-7126", "META:GLUTAMATE-DEG1-PWY", "META:PWY-6728", "META:ALACAT2-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 4.070526,
+      "uniprot" : [ "P24295", "O04937", "P33327", "Q9JTP6", "O74024", "O59650", "Q43260", "P93541", "Q25415", "P80319", "P00365", "P41755", "P20016", "P27346", "P28997" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00220", "rn01100", "rn00430", "rn00471", "rn00250", "rn00910" ],
+      "orthologs" : [ "K00261", "K00260", "K15371" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iND750", "iAT_PLT_636", "iYO844", "iLJ478", "iYL1228", "iRC1080", "iNJ661", "iLB1027_lipid", "iMM904", "iSB619", "RECON1" ]
+    }
+  }
+}

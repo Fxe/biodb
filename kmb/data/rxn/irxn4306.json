@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4306",
+  "equation" : "amet + his__L <=> ahcys + NPmehis + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd3297" : ""
+    },
+    "r" : {
+      "icpd6140" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "ARMT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01159"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARMT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00340" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

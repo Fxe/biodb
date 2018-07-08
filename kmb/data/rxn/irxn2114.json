@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2114",
+  "equation" : "h2o + aprut <=> ptrc + ac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5151" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd4511" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.62; 3.5.1.62",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETYLPUTRESCINE-DEACETYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01156"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:8-HYDROXYQUINOLINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -3.2312317,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

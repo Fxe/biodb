@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1503",
+  "formula" : "C10H18O",
+  "name" : "menth-8-en-2-ol",
+  "synonyms" : [ "6-methyl-3-isopropenylcyclohexanol", "8-p-menthen-2-ol" ],
+  "alias" : "icpd1503",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C18017"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Dihydrocarveols"
+  } ],
+  "inchi" : "InChI=1S/C10H18O/c1-7(2)9-5-4-8(3)10(11)6-9/h8-11H,1,4-6H2,2-3H3",
+  "inchikey" : "KRCZYMFUWVJCLI-UHFFFAOYSA-N",
+  "smiles" : "C=C(C)C1CCC(C)C(C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-10034", "META:CPD-10033", "META:CPD-10032", "META:CPD-10031", "META:CPD-10030", "META:CPD-10029", "META:CPD-10027", "META:CPD-10026" ],
+      "reactions" : [ "META:RXN-9389" ],
+      "gibbs" : 182.71019,
+      "cmlMolWeight" : 154.252,
+      "molWeight" : 154.252,
+      "parents" : [ "META:CPD-10034", "META:CPD-10033", "META:CPD-10032", "META:CPD-10031", "META:CPD-10030", "META:CPD-10029", "META:CPD-10027", "META:CPD-10026", "META:Monoterpenols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   26.6649  -23.2001    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6649  -24.6009    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8819  -25.3046    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   29.0916  -24.6009    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0916  -23.2001    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.8819  -22.5033    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.8836  -21.1025    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2991  -22.5041    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8836  -26.7054    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6705  -27.4037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0985  -27.4007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  1  0     0  0\n  6  1  1  0     0  0\n  6  7  1  0     0  0\n  1  2  1  0     0  0\n  5  8  1  0     0  0\n  2  3  1  0     0  0\n  3  9  1  0     0  0\n  3  4  1  0     0  0\n  9 10  1  0     0  0\n  4  5  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18017\n\n$$$$",
+  "reactions" : [ "irxn1159" ]
+}

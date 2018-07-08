@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7552",
+  "formula" : "C8H5O4",
+  "name" : "4-hydroxybenzoylformate",
+  "synonyms" : [ "2-(4-hydroxyphenyl)-2-oxoacetate", "4-hydroxyphenylglyoxylate", "p-hydroxybenzoylformate" ],
+  "alias" : "icpd7552",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03590"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-142"
+  } ],
+  "inchi" : "InChI=1S/C8H6O4/c9-6-3-1-5(2-4-6)7(10)8(11)12/h1-4,9H,(H,11,12)/p-1",
+  "inchikey" : "KXFJZKUFXHWWAJ-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=CC(=C1)[O-])C(=O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Oxo-carboxylates" ],
+      "reactions" : [ "META:HYDROXYBENZOYLFORMATE-DECARBOXYLASE-RXN", "META:4-HYDROXYMANDELATE-OXY-RXN", "META:RXN-15300", "META:2.6.1.72-RXN" ],
+      "gibbs" : -69.88646,
+      "cmlMolWeight" : 165.125,
+      "molWeight" : 165.125,
+      "parents" : [ "META:2-Oxo-carboxylates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   26.4009  -16.5136    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2054  -17.2067    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5966  -17.2132    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4136  -15.1274    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2054  -18.6059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9907  -16.5136    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5456  -18.7075    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8048  -16.5264    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9907  -19.3117    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7889  -17.2067    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7889  -18.6059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5934  -19.2927    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  5  9  1  0     0  0\n  6 10  2  0     0  0\n  9 11  2  0     0  0\n 11 12  1  0     0  0\n 10 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03590\n\n$$$$",
+  "reactions" : [ "irxn1791", "irxn6063", "irxn327" ]
+}

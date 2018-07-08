@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5824",
+  "equation" : "nadph + o2 + h + icpd3217 <=> 2.0 h2o + acetone + icpd3350 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd3217" : ""
+    },
+    "r" : {
+      "icpd4016" : "2.0",
+      "icpd3350" : "",
+      "icpd8124" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.102; EC-1.14.13.102",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08207"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8386"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CARBON-MONOXIDE", "META:CPD-4503", "META:TETCYCLACIS" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5365" ],
+      "orphan" : "NO",
+      "gibbs" : -96.69751,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

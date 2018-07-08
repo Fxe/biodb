@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2271",
+  "equation" : "sph1p <=> ethamp + hxdcal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3645" : ""
+    },
+    "r" : {
+      "icpd2046" : "",
+      "icpd7097" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.27; EC-4.1.2.27",
+  "otherNames" : [ ],
+  "alias" : "SPHPL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SGPL11r"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SPHINGANINE-1-PHOSPHATE-ALDOLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SPHPL"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02464"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7119" ],
+      "orphan" : "NO",
+      "gibbs" : 2.56,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00600" ],
+      "orthologs" : [ "K01634" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  }
+}

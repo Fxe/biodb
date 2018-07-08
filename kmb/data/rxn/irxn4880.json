@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4880",
+  "equation" : "nad + 1710266 <=> nadh + h + 1730580",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "1710266" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "1730580" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.M3; EC-1.3.1.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-17126"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ENOYL-ACP-REDUCT-NADH-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:CPD-14618", "META:CPD0-1228", "META:CPD-14619", "META:CPD0-1227", "META:IODOACETATE", "META:CPD-14620" ],
+      "activators" : [ "META:N-ETHYLMALEIMIDE", "META:AMMONIUM" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:FASYN-ELONG-PWY", "META:PWY-7096" ],
+      "orphan" : "NO",
+      "gibbs" : 34.414062,
+      "uniprot" : [ "O04946", "Q9JSS8", "Q9PMQ7", "P0AEK4", "P16657", "O04945", "O24207", "O84106", "P0A5Y6", "O24990", "Q51891", "P93062", "P07149" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

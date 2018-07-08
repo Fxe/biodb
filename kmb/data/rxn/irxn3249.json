@@ -1,0 +1,51 @@
+{
+  "id" : "irxn3249",
+  "equation" : "2.0 nadph + 3.0 h + palmACP + malACP <=> ocdcaACP + h2o + co2 + 2.0 nadp + ACP",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "2.0",
+      "icpd1851" : "3.0",
+      "icpd8032" : "",
+      "icpd3534" : ""
+    },
+    "r" : {
+      "icpd4069" : "",
+      "icpd4016" : "",
+      "icpd2454" : "",
+      "icpd1561" : "",
+      "icpd5537" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FAS180ACPm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FAS180ACPm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FASC180ACP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iND750", "iMM904" ]
+    }
+  }
+}

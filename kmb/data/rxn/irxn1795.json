@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1795",
+  "equation" : "dolichol + ctp <=> dolp + h + cdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4369" : "",
+      "icpd1157" : ""
+    },
+    "r" : {
+      "icpd1985" : "",
+      "icpd1851" : "",
+      "icpd7026" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.108; EC-2.7.1.108",
+  "otherNames" : [ ],
+  "alias" : "DOLK",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01018"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DOLK"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DOLICHOL-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6129" ],
+      "orphan" : "NO",
+      "gibbs" : -109.80615,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00510" ],
+      "orthologs" : [ "K00902" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iLB1027_lipid", "iMM904" ]
+    }
+  }
+}

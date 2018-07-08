@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2893",
+  "equation" : "icpd3467 <=> n2 + b2coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3467" : ""
+    },
+    "r" : {
+      "icpd6997" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.3.1.14; 4.3.1.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03030"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4.3.1.14-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:MG+2", "META:CPD-7704", "META:CA+2", "META:IODOACETAMIDE", "META:CPD-29" ],
+      "activators" : [ "META:DITHIOTHREITOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P163-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 2.1435242,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ "K18014" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

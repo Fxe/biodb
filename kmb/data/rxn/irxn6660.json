@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6660",
+  "equation" : "h2o + f26bp <=> f6p + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6187" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd7592" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.46",
+  "otherNames" : [ ],
+  "alias" : "FBP26",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FBP26"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00763"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

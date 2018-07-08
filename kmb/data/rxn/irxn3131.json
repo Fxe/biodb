@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3131",
+  "equation" : "nadph + o2 + h + ergtrol <=> 2.0 h2o + ergtetrol + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd6761" : ""
+    },
+    "r" : {
+      "icpd4182" : "",
+      "icpd4016" : "2.0",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.19.41",
+  "otherNames" : [ ],
+  "alias" : "C22STDS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07506"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C22STDS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100", "rn01130" ],
+      "orthologs" : [ "K09831" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd4941",
+  "formula" : "C3H7O3S2",
+  "name" : "2-(methylsulfanyl)ethane-1-sulfonate",
+  "synonyms" : [ "2-(methylthio)ethane-1-sulfonate", "2-(methylthio)ethanesulfonate" ],
+  "alias" : "mcom",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Me-CoM"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03920"
+  }, {
+    "source" : "BiGG",
+    "entry" : "mcom"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "mcom"
+  } ],
+  "inchi" : "InChI=1S/C3H8O3S2/c1-7-2-3-8(4,5)6/h2-3H2,1H3,(H,4,5,6)/p-1",
+  "inchikey" : "FGMRHOCVEPGURB-UHFFFAOYSA-M",
+  "smiles" : "CSCCS(=O)(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Coenzymes" ],
+      "reactions" : [ "META:RXN-8096", "META:2.1.1.86-RXN", "META:MTRMBARK-RXN", "META:RXN-8126", "META:METHYL-COM-HTP-RXN", "META:RXN-8103", "META:RXN-8101", "META:RXN-8133", "META:RXN-8099", "META:MTAMBARKMULTI-RXN", "META:RXN-13229" ],
+      "gibbs" : -18.454218,
+      "cmlMolWeight" : 155.206,
+      "molWeight" : 155.206,
+      "parents" : [ "META:Coenzymes" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   18.7857  -14.8106    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1476  -14.8169    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   17.6614  -13.9625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1412  -16.2110    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5288  -14.8741    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1284  -13.3522    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4344  -14.6306    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2460  -13.9048    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03920\n\n$$$$",
+  "reactions" : [ "irxn5664", "irxn534", "irxn891", "irxn4418", "irxn2237", "irxn5810" ]
+}

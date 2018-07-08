@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4147",
+  "equation" : "aflburppa + h2o <=> aflbala + n2 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5355" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5366" : "",
+      "icpd7085" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.6",
+  "otherNames" : [ ],
+  "alias" : "AFLBURPPAAMH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08228"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AFLBURPPAAMH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00983" ],
+      "orthologs" : [ "K01431" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

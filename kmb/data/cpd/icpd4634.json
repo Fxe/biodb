@@ -1,0 +1,30 @@
+{
+  "id" : "icpd4634",
+  "formula" : "FNa",
+  "name" : "sodium fluoride",
+  "synonyms" : [ ],
+  "alias" : "icpd4634",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NaF"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C08142"
+  } ],
+  "inchi" : "InChI=1S/FH.Na/h1H;/q;+1/p-1",
+  "inchikey" : "PUZPDOWCWNUUKD-UHFFFAOYSA-M",
+  "smiles" : "[F-].[Na+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-12195", "META:RXN0-5462", "META:DIHYDROXYMETVALDEHYDRAT-RXN", "META:DIHYDROXYISOVALDEHYDRAT-RXN", "META:ACETYLORNDEACET-RXN", "META:PGPPHOSPHA-RXN", "META:PPPGPPHYDRO-RXN" ],
+      "instances" : [ "META:Inorganic-Salts" ],
+      "parents" : [ "META:Inorganic-Salts" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  0  0  0  0  0  0  0  0  0999 V2000\n   25.7938  -18.1586    0.0000 Na  0  3  0  0  0  0  0  0  0  0  0  0\n   28.1062  -18.1714    0.0000 F   0  5  0  0  0  0  0  0  0  0  0  0\nM  CHG  2   1   1   2  -1\nM  END\n\n> <ENTRY>\ncpd:C08142\n\n$$$$",
+  "reactions" : [ ]
+}

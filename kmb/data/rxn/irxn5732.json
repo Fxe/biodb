@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5732",
+  "equation" : "xylt + nadp <=> nadph + h + xyl__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3485" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2019" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.21; 1.1.1.307; EC-1.1.1.21",
+  "otherNames" : [ ],
+  "alias" : "XYLR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "XYLR"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8773"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01431"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5516" ],
+      "orphan" : "NO",
+      "gibbs" : 0.77349854,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ "K17743", "K00011" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM904" ]
+    }
+  }
+}

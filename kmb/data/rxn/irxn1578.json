@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1578",
+  "equation" : "chtn + 2.0 h2o <=> 3.0 acgam",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1063" : "",
+      "icpd4016" : "2.0"
+    },
+    "r" : {
+      "icpd1710" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CHTNASE",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CHTNASE"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHTNASEe"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

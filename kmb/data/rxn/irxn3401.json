@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3401",
+  "equation" : "2.0 nadh + accoa + 2.0 h <=> 2.0 nad + coa + etoh",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "2.0",
+      "icpd5825" : "",
+      "icpd1851" : "2.0"
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd5131" : "2.0",
+      "icpd2624" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ADHEr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACDHmi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ADHEr"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iJR904" ]
+    }
+  }
+}

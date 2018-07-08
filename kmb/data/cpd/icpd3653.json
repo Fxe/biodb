@@ -1,0 +1,37 @@
+{
+  "id" : "icpd3653",
+  "formula" : "C7H14N2O4",
+  "name" : "(2r,6s)-2,6-diamino-heptanedioic acid",
+  "synonyms" : [ "(r*,s*)-2,6-diamino-heptanedioic acid", "diaminopimelic acid" ],
+  "alias" : "icpd3653",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "26dap-M"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00680"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MESO-DIAMINOPIMELATE"
+  } ],
+  "inchi" : "InChI=1S/C7H14N2O4/c8-4(6(10)11)2-1-3-5(9)7(12)13/h4-5H,1-3,8-9H2,(H,10,11)(H,12,13)/t4-,5+",
+  "inchikey" : "GMKMEZVLHJARHF-SYDPRGILSA-N",
+  "smiles" : "C(C[C@@H](C(=O)O)N)C[C@H](C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TRANS-RXN0-593", "META:SUCCDIAMINOPIMDESUCC-RXN" ],
+      "instances" : [ "META:Lysine-or-DAP" ],
+      "reactions" : [ "META:RXN0-961", "META:UDP-NACMURALGLDAPLIG-RXN", "META:RXN-14246", "META:DIAMINOPIMDECARB-RXN", "META:DIAMINOPIMELATE-DEHYDROGENASE-RXN", "META:TRANS-RXN-291", "META:DIAMINOPIMEPIM-RXN" ],
+      "gibbs" : -19.884314,
+      "cmlMolWeight" : 190.199,
+      "molWeight" : 190.199,
+      "parents" : [ "META:Lysine-or-DAP" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   29.9357  -18.8708    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   31.1545  -18.1768    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7228  -18.1768    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9357  -20.2760    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   32.3615  -18.8708    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1545  -16.7716    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5100  -18.8708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2913  -18.1768    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0843  -18.8708    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   23.8655  -18.1768    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0843  -20.2760    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6585  -18.8708    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8655  -16.7716    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  1  6     0  0\n 10 12  1  0     0  0\n 10 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00680\n\n$$$$",
+  "reactions" : [ "irxn4431", "irxn2557", "irxn1469", "irxn3147" ]
+}

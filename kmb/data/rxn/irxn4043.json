@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4043",
+  "equation" : "malcoa + coucoa <=> coa + icpd5197 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "",
+      "icpd5815" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd2454" : "",
+      "icpd5197" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.218; 2.3.1.218",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08805"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11220"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6432", "META:PWY-6438" ],
+      "orphan" : "NO",
+      "gibbs" : 5.2806396,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00945" ],
+      "orthologs" : [ "K13233" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

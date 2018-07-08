@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6688",
+  "equation" : "icpd8107 + h2o + ura <=> icpd8139 + icpd4386",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd393" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd8139" : "",
+      "icpd4386" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.17.99.4; 1.17.99.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00976"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:URACIL-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:BARBITURATE", "META:5-METHYL-BARBITURATE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6426" ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00240" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

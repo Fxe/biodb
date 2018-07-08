@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3698",
+  "equation" : "lpam + 2ahethmpp <=> thmpp + adhlam",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1945" : "",
+      "icpd7992" : ""
+    },
+    "r" : {
+      "icpd6523" : "",
+      "icpd3778" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PDHam2hi",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PDHam2mi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PDHam2hi"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3886",
+  "equation" : "gdpmann + icpd7737 <=> icpd7995 + gdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7737" : "",
+      "icpd1993" : ""
+    },
+    "r" : {
+      "icpd166" : "",
+      "icpd7995" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.-; EC-2.4.1.142",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.4.1.142-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04331"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GDP", "META:GMP" ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:MANNOSYL-CHITO-DOLICHOL-BIOSYNTHESIS" ],
+      "orphan" : "NO",
+      "gibbs" : 6.897827,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

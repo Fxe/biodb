@@ -1,0 +1,42 @@
+{
+  "id" : "icpd3193",
+  "formula" : "C11H12N2O3",
+  "name" : "5-hydroxy-l-tryptophan",
+  "synonyms" : [ "(+-)-5-hydroxytryptophan", "(2s)-2-amino-3-(5-hydroxy-1h-indol-3-yl)propanoic acid", "(s)-5-hydroxytryptophan", "5-hydroxy-tryptophan", "5-hydroxyl-l-tryptophan", "5-hydroxytryptophan", "l-5-hydroxytryptophan" ],
+  "alias" : "5htrp",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "5htrp"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "5htrp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00643"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-HYDROXY-TRYPTOPHAN"
+  } ],
+  "inchi" : "InChI=1S/C11H12N2O3/c12-9(11(15)16)3-6-5-13-10-2-1-7(14)4-8(6)10/h1-2,4-5,9,13-14H,3,12H2,(H,15,16)/t9-/m0/s1",
+  "inchikey" : "LDCYZAJDBXYCGN-VIFPVBQESA-N",
+  "smiles" : "C1=CC2=C(C=C1O)C(=CN2)C[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:RXN-8665" ],
+      "instances" : [ "META:Hydroxy-L-Amino-Acids" ],
+      "reactions" : [ "META:RXN3DJ-170", "META:TRYPTOPHAN-5-MONOOXYGENASE-RXN" ],
+      "gibbs" : 36.904446,
+      "cmlMolWeight" : 220.227,
+      "molWeight" : 220.227,
+      "parents" : [ "META:Hydroxy-L-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 16 17  0  0  1  0  0  0  0  0999 V2000\n   25.4100  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4100  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7400  -15.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1500  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6700  -17.6400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1500  -17.9200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5100  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9600  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9600  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7700  -15.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2300  -14.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5600  -13.7900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5400  -14.9100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9800  -12.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3800  -12.1800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0700  -11.4100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  2  0     0  0\n  6  9  2  0     0  0\n  8 10  1  0     0  0\n  5  7  1  0     0  0\n  8  9  1  0     0  0\n  3 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  1     0  0\n 12 14  1  0     0  0\n 14 15  1  0     0  0\n 14 16  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00643\n\n$$$$",
+  "reactions" : [ "irxn5907", "irxn3293", "irxn5705" ]
+}

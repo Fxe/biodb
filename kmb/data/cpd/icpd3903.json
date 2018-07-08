@@ -1,0 +1,34 @@
+{
+  "id" : "icpd3903",
+  "formula" : "C15H10O7",
+  "name" : "3,5,7,3',4'-pentahydroxyflavone",
+  "synonyms" : [ "2-(3,4-dihydroxy-phenyl)-3,5,7-trihydroxy-chromen-4-one", "2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-4h-chromen-4-one", "3',4',5,7-tetrahydroxyflavon-3-ol", "3,3',4',5,7-pentahydroxyflavone", "3,4',5,5',7-pentahydroxy-flavone", "3,5,7-trihydroxy-2-(3,4-dihydroxyphenyl)-4h-chromen-4-on" ],
+  "alias" : "icpd3903",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00389"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-520"
+  } ],
+  "inchi" : "InChI=1S/C15H10O7/c16-7-4-10(19)12-11(5-7)22-15(14(21)13(12)20)6-1-2-8(17)9(18)3-6/h1-5,16-19,21H",
+  "inchikey" : "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O)O)O2)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-8480", "META:RXN-3221", "META:ATPSYN-RXN", "META:RXN-8479", "META:RXN-7782", "META:PEPDEPHOS-RXN", "META:RXN-18737" ],
+      "instances" : [ "META:Flavonols", "META:Pentahydroxyflavones", "META:3prime-Hydroxy-Flavones" ],
+      "reactions" : [ "META:RXN1F-462", "META:QUERCETIN-3-O-METHYLTRANSFERASE-RXN", "META:RXN-15522", "META:RXN-12530", "META:RXN-13898", "META:QUERCITRINASE-RXN", "META:RXN-13785", "META:RXN-12510", "META:RXN-14109", "META:RXN-13789", "META:RXN-10788", "META:RXN-13906", "META:FLAVONOL-3-SULFOTRANSFERASE-RXN", "META:QUERCETIN-23-DIOXYGENASE-RXN", "META:RXN-527", "META:RXN-8267", "META:RXN-8264", "META:RXN-8262" ],
+      "gibbs" : -103.620964,
+      "cmlMolWeight" : 301.232,
+      "molWeight" : 301.232,
+      "parents" : [ "META:Flavonols", "META:Pentahydroxyflavones", "META:3prime-Hydroxy-Flavones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 22 24  0  0  0  0  0  0  0  0999 V2000\n   23.8117  -16.8649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8176  -15.4662    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0242  -17.5703    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6051  -17.5644    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0358  -14.7667    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6051  -14.7608    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2307  -16.8766    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0183  -18.9693    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3870  -16.8649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6110  -18.9633    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2365  -15.4719    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3870  -15.4662    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4373  -17.5761    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4547  -14.7724    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1745  -14.7608    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6613  -15.4895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4606  -13.3794    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8795  -14.7900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6789  -12.6857    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8853  -13.3852    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0861  -15.4895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1035  -12.6974    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  4  9  1  0     0  0\n  4 10  1  0     0  0\n  5 11  1  0     0  0\n  6 12  1  0     0  0\n  7 13  1  0     0  0\n 11 14  1  0     0  0\n 12 15  1  0     0  0\n 14 16  2  0     0  0\n 14 17  1  0     0  0\n 16 18  1  0     0  0\n 17 19  2  0     0  0\n 18 20  2  0     0  0\n 18 21  1  0     0  0\n 20 22  1  0     0  0\n  7 11  2  0     0  0\n  9 12  2  0     0  0\n 19 20  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00389\n\n$$$$",
+  "reactions" : [ "irxn6886", "irxn1573", "irxn1737", "irxn1194", "irxn13", "irxn1514", "irxn2432" ]
+}

@@ -1,0 +1,53 @@
+{
+  "id" : "irxn3695",
+  "equation" : "gtp + oaa <=> gdp + co2 + pep",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1365" : "",
+      "icpd7306" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd2454" : "",
+      "icpd166" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.32; EC-4.1.1.32",
+  "otherNames" : [ ],
+  "alias" : "PEPCKm",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.1.32-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00431"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PEPCKm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PEPCK_re"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ATP", "META:ITP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7383", "META:PWY66-399" ],
+      "orphan" : "NO",
+      "gibbs" : -102.00592,
+      "uniprot" : [ "P20007", "P22130", "Q16822", "P05153", "P35558", "P21642", "P07379", "P29190" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00020", "rn01120", "rn00010", "rn01110", "rn01130", "rn00620" ],
+      "orthologs" : [ "K01596" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNJ661", "iMM1415", "RECON1", "iAF987" ]
+    }
+  }
+}

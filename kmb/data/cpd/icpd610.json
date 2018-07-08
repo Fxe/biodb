@@ -1,0 +1,52 @@
+{
+  "id" : "icpd610",
+  "formula" : "C6H9O7",
+  "name" : "d-galacturonate",
+  "synonyms" : [ "galacturonate" ],
+  "alias" : "galur",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "galur"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Galacturonate"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-GALACTURONATE"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15633"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00333"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-Galactopyranuronate"
+  }, {
+    "source" : "BiGG",
+    "entry" : "galur"
+  } ],
+  "inchi" : "InChI=1S/C6H10O7/c7-1-2(8)3(9)4(10)5(11)6(12)13/h1-5,8-11H,(H,12,13)/p-1/t2-,3+,4+,5-/m0/s1",
+  "inchikey" : "IAJILQKETJEXLJ-RSJOWCBRSA-M",
+  "smiles" : "C(=O)[C@@]([H])([C@]([H])([C@]([H])([C@@]([H])(C(=O)[O-])O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-12268" ],
+      "activators" : [ "META:MANNONDEHYDRAT-RXN" ],
+      "instances" : [ "META:CPD-15633" ],
+      "reactions" : [ "META:TRANS-RXN-123" ],
+      "gibbs" : -167.05196,
+      "cmlMolWeight" : 193.133,
+      "molWeight" : 193.133,
+      "parents" : [ "META:D-Galactopyranuronate", "META:Galacturonate", "META:CPD-15633", "META:Glycans" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 13 13  0  0  1  0  0  0  0  0999 V2000\n   25.0081  -18.3696    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.0081  -19.7686    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.2088  -17.6643    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7956  -17.7343    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2088  -20.4623    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   23.7956  -20.4623    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4271  -18.3696    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   22.7289  -18.6436    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7839  -16.2770    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4271  -19.7686    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.2088  -21.8613    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6337  -17.6643    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6337  -20.4623    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  1  1     0  0\n  7 12  1  4     0  0\n 10 13  1  6     0  0\n  7 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00333\n\n$$$$",
+  "reactions" : [ "irxn2929", "irxn3772", "irxn5395", "irxn2735", "irxn5615" ]
+}

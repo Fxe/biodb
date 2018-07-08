@@ -1,0 +1,51 @@
+{
+  "id" : "irxn5817",
+  "equation" : "coa + bz + atp <=> amp + benzcoa + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7278" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd7180" : "",
+      "icpd2811" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.25; 6.2.1.25",
+  "otherNames" : [ ],
+  "alias" : "BCOALIG",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BENZOATE--COA-LIGASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01422"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BCOALIG"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:BENZOYLCOA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6763", "META:PWY-5001", "META:PWY-6443", "META:BENZCOA-PWY", "META:PWY-283" ],
+      "orphan" : "NO",
+      "gibbs" : -12.71167,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00362", "rn00627" ],
+      "orthologs" : [ "K04110", "K04105" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

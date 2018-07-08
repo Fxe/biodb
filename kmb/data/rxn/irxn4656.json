@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4656",
+  "equation" : "h2o + 5fthf + atp <=> h + pi + 10fthf + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8110" : "",
+      "icpd4016" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd2642" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FTHFI",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FTHFI_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FTHFI"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

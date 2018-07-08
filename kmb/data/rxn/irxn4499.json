@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4499",
+  "equation" : "thbpt + o2 + phe__L <=> icpd23 + tyr__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd2269" : "",
+      "icpd276" : ""
+    },
+    "r" : {
+      "icpd7576" : "",
+      "icpd23" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.16.1; 1.14.16.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN66-569"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07211"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:PHE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PHENYLALANINE-DEG1-PWY", "META:PWY-6134" ],
+      "orphan" : "NO",
+      "gibbs" : -102.59001,
+      "uniprot" : [ "P16331", "P30967", "P17276", "P00439", "P90925", "P04176" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00790" ],
+      "orthologs" : [ "K00500" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

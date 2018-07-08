@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4169",
+  "equation" : "icpd3584 + nad <=> indpyr + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3584" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd6456" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.110; 1.1.1.110",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01971"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:INDOLELACTATE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TRPKYNCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -8.577209,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

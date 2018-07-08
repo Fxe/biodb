@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2153",
+  "equation" : "udpg + icpd635 <=> udp + icpd409",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd635" : ""
+    },
+    "r" : {
+      "icpd409" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.81; 2.4.1.81",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FLAVONE-7-O-BETA-GLUCOSYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03588"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6239" ],
+      "orphan" : "NO",
+      "gibbs" : 8.351685,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00944" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

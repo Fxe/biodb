@@ -1,0 +1,43 @@
+{
+  "id" : "icpd6448",
+  "formula" : "CH4O",
+  "name" : "methanol",
+  "synonyms" : [ "carbinol", "hydroxymethane", "methyl alcohol", "monohydroxymethane" ],
+  "alias" : "meoh",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:METOH"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "meoh"
+  }, {
+    "source" : "BiGG",
+    "entry" : "meoh"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00132"
+  } ],
+  "inchi" : "InChI=1S/CH4O/c1-2/h2H,1H3",
+  "inchikey" : "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+  "smiles" : "CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-13989" ],
+      "activators" : [ "META:3-OCTAPRENYL-4-OHBENZOATE-DECARBOX-RXN" ],
+      "instances" : [ "META:Short-Chain-Alcohols" ],
+      "reactions" : [ "META:PECTINESTERASE-RXN", "META:3.1.1.82-RXN", "META:METHYLGALLATE-RXN", "META:4-METHYLOXALOACETATE-ESTERASE-RXN", "META:MCPMETEST-RXN", "META:RXN-11483", "META:RXN-13425", "META:RXN-10893", "META:RXN-13424", "META:RXN-12219", "META:RXN-17349", "META:RXN-14835", "META:RXN-17429", "META:RXN-10711", "META:METHANOL-OXIDASE-RXN", "META:RXN-14856", "META:RXN-8409", "META:RXN-13938", "META:RXN-16609", "META:RXN0-6994", "META:RXN-2861", "META:RXN-2102", "META:RXN-9497", "META:METHANOL-DEHYDROGENASE-RXN", "META:2.1.1.90-RXN", "META:RXN-8095", "META:RXN-16303", "META:RXN-11451", "META:RXN-17572", "META:RXN-14861", "META:RXN-14189", "META:JUVENILE-HORMONE-ESTERASE-RXN", "META:TRANS-RXN0-459", "META:METHTRANSBARK-RXN", "META:RXN-14865", "META:RXN-12322", "META:RXN-11453", "META:RXN-14863", "META:RXNQT-4366", "META:RXN-15776", "META:RXN-17539", "META:METHANE-MONOOXYGENASE-RXN", "META:RXN-14703", "META:RXN-10767", "META:RXN-9502", "META:MONOMETHYL-SULFATASE-RXN", "META:3.1.1.78-RXN", "META:MTAMBARKMULTI-RXN" ],
+      "gibbs" : -0.83551717,
+      "cmlMolWeight" : 32.042,
+      "molWeight" : 32.042,
+      "parents" : [ "META:Short-Chain-Alcohols" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iAF987", "iECABU_c1320", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJO1366", "iNJ661", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -14.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5200  -14.6300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00132\n\n$$$$",
+  "reactions" : [ "irxn1948", "irxn1101", "irxn3588", "irxn6614", "irxn1289", "irxn1301", "irxn5545", "irxn3743", "irxn3600", "irxn3352", "irxn891", "irxn4560", "irxn1838", "irxn5956", "irxn4847", "irxn6705", "irxn5974", "irxn5435", "irxn2743", "irxn3457", "irxn5147", "irxn2077", "irxn4890", "irxn4230", "irxn4073" ]
+}

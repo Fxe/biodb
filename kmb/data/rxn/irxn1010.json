@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1010",
+  "equation" : "icpd8107 + h2o + icpd7518 <=> icpd8139 + icpd1913",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd4016" : "",
+      "icpd7518" : ""
+    },
+    "r" : {
+      "icpd8139" : "",
+      "icpd1913" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.99.8; EC-1.3.99.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-FUROYL-COA-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02987"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6995", "META:PWY-6997" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00365", "rn01120" ],
+      "orthologs" : [ "K16879", "K16878", "K16877" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

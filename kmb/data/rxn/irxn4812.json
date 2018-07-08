@@ -1,0 +1,57 @@
+{
+  "id" : "irxn4812",
+  "equation" : "2.0 glu__L + 2.0 fdxox <=> 2.0 fdxrd + 2.0 h + gln__L + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd514" : "2.0",
+      "icpd321" : "2.0"
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd1851" : "2.0",
+      "icpd929" : "",
+      "icpd930" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.7.1; EC-1.4.7.1",
+  "otherNames" : [ ],
+  "alias" : "GLUSfx",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00021"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUSfx"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLTS_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUS_ferr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTAMATE-SYNTHASE-FERREDOXIN-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4341", "META:PWY-6964", "META:PWY-6549" ],
+      "orphan" : "NO",
+      "gibbs" : -5.9758606,
+      "uniprot" : [ "P51375", "P55038", "P55037", "O67512", "Q06434", "Q7M242", "Q9SLM4", "Q08258", "P96218", "Q43155", "Q43081", "O19906", "P23225", "O49154" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01120", "rn00910" ],
+      "orthologs" : [ "K00284" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

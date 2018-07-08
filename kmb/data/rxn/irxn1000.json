@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1000",
+  "equation" : "o2 + icpd6382 + fadh2 <=> h2o + fad + h + icpd2858",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd6382" : "",
+      "icpd5625" : ""
+    },
+    "r" : {
+      "icpd6481" : "",
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd2858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.14.11; 1.14.14.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05488"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12764"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6941" ],
+      "orphan" : "NO",
+      "gibbs" : -61.281418,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00643" ],
+      "orthologs" : [ "K14482", "K14481" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

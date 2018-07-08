@@ -1,0 +1,30 @@
+{
+  "id" : "icpd1514",
+  "formula" : "CH6N2",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd1514",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Aliphatic-Alpha-Omega-Diamines"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03687"
+  } ],
+  "inchi" : "InChI=1S/CH6N2/c2-1-3/h1-3H2",
+  "inchikey" : "RTWNYYOXLSILQN-UHFFFAOYSA-N",
+  "smiles" : "C(N)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-11476", "META:CPD-11477", "META:CPD-11479", "META:SPERMINE", "META:CPD-16925", "META:CPD0-1239", "META:CPD-11480", "META:CPD-11481", "META:SPERMIDINE", "META:CADAVERINE", "META:CPD-17107", "META:PUTRESCINE", "META:CPD-14378", "META:CPD0-1065", "META:CPD-20029" ],
+      "reactions" : [ "META:DIAMTRANSAM-RXN", "META:DIAMACTRANS-RXN" ],
+      "parents" : [ "META:CPD-11476", "META:CPD-11477", "META:CPD-11479", "META:SPERMINE", "META:CPD-16925", "META:CPD0-1239", "META:CPD-11480", "META:CPD-11481", "META:SPERMIDINE", "META:CADAVERINE", "META:CPD-17107", "META:Aliphatic-Diamines", "META:PUTRESCINE", "META:CPD-14378", "META:CPD0-1065", "META:CPD-20029" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   18.6200  -24.2900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8124  -23.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1449  -24.3600    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1  1   2\nM  SDI   1  4   20.0900  -24.8500   20.0900  -23.2400\nM  SDI   1  4   21.2800  -23.2400   21.2800  -24.8500\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C03687\n\n$$$$",
+  "reactions" : [ "irxn6153" ]
+}

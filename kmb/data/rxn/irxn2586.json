@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2586",
+  "equation" : "icpd4396 + ppcoa <=> icpd5312 + pp2coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4396" : "",
+      "icpd3011" : ""
+    },
+    "r" : {
+      "icpd5312" : "",
+      "icpd989" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.8.M1; 1.3.8.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PROPCOASYN-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04432"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3941" ],
+      "orphan" : null,
+      "gibbs" : 20.579773,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn01100", "rn01200" ],
+      "orthologs" : [ "K00249" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

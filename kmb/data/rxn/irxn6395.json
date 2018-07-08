@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6395",
+  "equation" : "icpd6963 + icpd559 <=> udp + icpd2603",
+  "stoichiometry" : {
+    "l" : {
+      "icpd559" : "",
+      "icpd6963" : ""
+    },
+    "r" : {
+      "icpd6858" : "",
+      "icpd2603" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.2.25; EC-2.4.2.25",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FLAVONE-APIOSYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04526"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6010" ],
+      "orphan" : null,
+      "gibbs" : 6.897583,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00944" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

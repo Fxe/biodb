@@ -1,0 +1,40 @@
+{
+  "id" : "icpd1461",
+  "formula" : "AsO3",
+  "name" : "arsenite",
+  "synonyms" : [ "arsorite" ],
+  "alias" : "aso3",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "aso3"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "aso3"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06697"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-763"
+  } ],
+  "inchi" : "InChI=1S/AsO3/c2-1(3)4/q-3",
+  "inchikey" : "OWTFKEBRIAXSMO-UHFFFAOYSA-N",
+  "smiles" : "[As]([O-])([O-])[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:5-AMINOPENTANAMIDASE-RXN", "META:HYDROXYMETHYLGLUTARYL-COA-SYNTHASE-RXN", "META:RXN-10737", "META:RXN-982", "META:RXN-8339", "META:SULFITE-DEHYDROGENASE-RXN", "META:RXN-13854", "META:HYDROXYPYRROLINEDEH-RXN", "META:THIOREDOXIN-REDUCT-NADPH-RXN", "META:SULFITE-REDUCT-RXN" ],
+      "reactions" : [ "META:TRANS-RXN0-264", "META:TRANS-RXN0-551", "META:RXN-982", "META:1.20.98.1-RXN", "META:R425-RXN", "META:RXN-11189", "META:RXN-15837", "META:RXN-12586", "META:3.6.3.16-RXN", "META:RXN-10737", "META:RXN-15817", "META:1.20.99.1-RXN", "META:2.1.1.137-RXN", "META:RXN-7002" ],
+      "gibbs" : -95.56982,
+      "cmlMolWeight" : 124.936,
+      "molWeight" : 124.936
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iAF987", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   27.9525  -18.6687    0.0000 As  0  0  0  0  0  0  0  0  0  0  0  0\n   26.5681  -17.9606    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   29.6027  -18.0099    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   27.9525  -20.0856    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\nM  CHG  3   2  -1   3  -1   4  -1\nM  END\n\n> <ENTRY>\ncpd:C06697\n\n$$$$",
+  "reactions" : [ "irxn72", "irxn450", "irxn2788" ]
+}

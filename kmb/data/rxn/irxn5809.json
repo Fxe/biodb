@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5809",
+  "equation" : "h2o + icpd5427 <=> glcur + icpd4732",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5427" : ""
+    },
+    "r" : {
+      "icpd4732" : "",
+      "icpd1947" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.2.1.31; 3.2.1.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01478"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BETA-GLUCURONID-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7247" ],
+      "orphan" : "NO",
+      "gibbs" : 68.784836,
+      "uniprot" : [ "P05804", "P06760", "P12265", "P08236" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ "K01195", "K14756" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

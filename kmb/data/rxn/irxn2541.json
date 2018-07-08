@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2541",
+  "equation" : "icpd5362 + nadp <=> nadph + h + icpd5394",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5362" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5394" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.142; 1.1.1.142",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03498"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-PINITOL-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6739" ],
+      "orphan" : "NO",
+      "gibbs" : -1.6264648,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

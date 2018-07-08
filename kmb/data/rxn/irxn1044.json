@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1044",
+  "equation" : "o2 + 2.0 34dhphe <=> 2.0 h2o + 2.0 dopaqn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5924" : "2.0"
+    },
+    "r" : {
+      "icpd4275" : "2.0",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.18.1; EC-1.10.3; 1.10.3.1",
+  "otherNames" : [ ],
+  "alias" : "TYRDOPO3",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13061"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TYRDOPO3"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00045"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-8766", "META:CPD-7024" ],
+      "activators" : [ "META:CPD-16983" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:MONOPHENOL-MONOOXYGENASE-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -98.413994,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350" ],
+      "orthologs" : [ "K00422" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

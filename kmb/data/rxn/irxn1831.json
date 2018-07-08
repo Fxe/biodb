@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1831",
+  "equation" : "o2 + 2.0 gthrd <=> gthox + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1977" : "2.0"
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd2309" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.8.3.3; 1.8.3.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTATHIONE-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00120"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -29.37416,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00480" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

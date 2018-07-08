@@ -1,0 +1,31 @@
+{
+  "id" : "icpd8183",
+  "formula" : "C6H10O3",
+  "name" : "(3r)-dihydro-3-hydroxy-4,4-dimethyl-2(3h)-furanone",
+  "synonyms" : [ ],
+  "alias" : "icpd8183",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01012"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PANTOYL-LACTONE"
+  } ],
+  "inchi" : "InChI=1S/C6H10O3/c1-6(2)3-9-5(8)4(6)7/h4,7H,3H2,1-2H3/t4-/m0/s1",
+  "inchikey" : "SERHXTVXHNVDKA-BYPYZUCNSA-N",
+  "smiles" : "CC1(C)COC(=O)[C@@H]1O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.1.1.168-RXN", "META:RXN-6401", "META:1.1.99.27-RXN" ],
+      "gibbs" : -1.8987967,
+      "cmlMolWeight" : 130.143,
+      "molWeight" : 130.143
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  1  0  0  0  0  0999 V2000\n   13.7900  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1900  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6226  -15.8885    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4900  -15.0656    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3574  -15.8885    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9422  -15.4597    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9671  -18.3526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.4072  -17.0010    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0129  -18.3526    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  2  0     0  0\n  1  7  1  0     0  0\n  1  8  1  0     0  0\n  2  9  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C01012\n\n$$$$",
+  "reactions" : [ "irxn1954", "irxn6757" ]
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn720",
+  "equation" : "coa + 3mob + 2.0 fdxox <=> 2.0 fdxrd + co2 + h + ibcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd321" : "2.0",
+      "icpd5052" : "",
+      "icpd2377" : ""
+    },
+    "r" : {
+      "icpd7932" : "",
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd930" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.7.7; EC-1.2.7.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07160"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.2.7.7-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -21.067627,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00280" ],
+      "orthologs" : [ "K00188", "K00189", "K00186", "K00187" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

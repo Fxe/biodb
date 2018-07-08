@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3518",
+  "formula" : "C4H10O",
+  "name" : "2-methyl-2-propanol",
+  "synonyms" : [ "1,1-dimethylethanol", "2-methylpropan-2-ol", "alcohol, tert-butyl", "dimethylethanol", "t-butanol", "t-butyl alcohol", "tert-butanol", "tert-butyl alcohol", "tert-butylalcohol", "tertiary butyl alcohol", "trimethyl carbinol", "trimethyl methanol", "trimethyl-methanol", "trimethylmethanol" ],
+  "alias" : "icpd3518",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19012"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21389"
+  } ],
+  "inchi" : "InChI=1S/C4H10O/c1-4(2,3)5/h5H,1-3H3",
+  "inchikey" : "DKGAVHZHDRPRBM-UHFFFAOYSA-N",
+  "smiles" : "CC(C)(C)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-17610", "META:RXN-17611", "META:RXN-17614", "META:RXN-17615" ],
+      "gibbs" : 57.381203,
+      "cmlMolWeight" : 74.122,
+      "molWeight" : 74.122
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   10.5000  -12.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.5000  -14.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8524  -12.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.2876  -11.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.5000  -11.2700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21389\n\n$$$$",
+  "reactions" : [ "irxn1461", "irxn1379" ]
+}

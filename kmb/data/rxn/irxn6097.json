@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6097",
+  "equation" : "icpd3177 + nad <=> icpd2472 + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3177" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd2472" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.227; EC-1.1.1.227",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:--BORNEOL-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02945"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6991" ],
+      "orphan" : null,
+      "gibbs" : -0.3781891,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

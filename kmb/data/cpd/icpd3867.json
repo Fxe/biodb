@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3867",
+  "formula" : "C8H8O2",
+  "name" : "(4-hydroxyphenyl)ethan-1-one",
+  "synonyms" : [ "4'-hydroxyacetophenone" ],
+  "alias" : "icpd3867",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10598"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C10700"
+  } ],
+  "inchi" : "InChI=1S/C8H8O2/c1-6(9)7-2-4-8(10)5-3-7/h2-5,10H,1H3",
+  "inchikey" : "TXFPEBPIARQUIG-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)C1=CC=C(C=C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics", "META:KETONE" ],
+      "reactions" : [ "META:1.14.13.84-RXN", "META:RXN-9833", "META:RXN-9832", "META:RXN-13129" ],
+      "gibbs" : 40.688965,
+      "cmlMolWeight" : 136.15,
+      "molWeight" : 136.15,
+      "parents" : [ "META:Aromatics", "META:KETONE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   27.6501  -16.5864    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6501  -17.9865    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8663  -18.6830    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0756  -17.9865    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0756  -16.5864    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8663  -15.8829    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8682  -14.4828    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0824  -13.7878    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6555  -13.7848    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8682  -20.0832    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  4  5  2  0     0  0\n  5  6  1  0     0  0\n  6  1  2  0     0  0\n  6  7  1  0     0  0\n  1  2  1  0     0  0\n  7  8  1  0     0  0\n  2  3  2  0     0  0\n  7  9  2  0     0  0\n  3  4  1  0     0  0\n  3 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C10700\n\n$$$$",
+  "reactions" : [ "irxn4738" ]
+}

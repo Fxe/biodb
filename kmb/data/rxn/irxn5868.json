@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5868",
+  "equation" : "icpd5335 + icpd69 + 2.0 nadp <=> 2.0 nadph + 2.0 h + icpd7615",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5335" : "",
+      "icpd69" : "",
+      "icpd5537" : "2.0"
+    },
+    "r" : {
+      "icpd5432" : "2.0",
+      "icpd1851" : "2.0",
+      "icpd7615" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.7.1.6; 1.7.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05711"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AZOBENZENE-REDUCTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -20.453003,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

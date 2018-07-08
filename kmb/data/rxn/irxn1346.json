@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1346",
+  "equation" : "o2 + lnlc <=> 13Shpocdcy1829Z11Ea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd8204" : ""
+    },
+    "r" : {
+      "icpd1460" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.12; 1.13.11.33; 1.13.11.12",
+  "otherNames" : [ ],
+  "alias" : "LLOX13",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03626"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LIPOXYGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LLOX13"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5409", "META:PWY-5410" ],
+      "orphan" : "NO",
+      "gibbs" : -69.979996,
+      "uniprot" : [ "Q43800", "P29250", "Q42873", "Q42710", "Q43446", "Q43440", "P37831", "Q96574", "P93698", "Q96573", "Q39875", "Q39874", "Q42705", "Q43438", "O04919", "P27481", "P24095", "P27480", "Q42780", "P08170", "Q06327", "O24470", "Q9S9D8", "P29114", "O49878", "Q41244", "P14856", "Q41245", "Q41520", "Q43501", "Q43191", "O49880", "Q39611", "Q42847", "P93190", "P09439", "Q43817", "P09918", "O24320", "Q42846", "Q9S8X5", "P38416", "P38417", "P38418", "Q41430", "O24295", "O24371", "O24370", "P93184" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00591" ],
+      "orthologs" : [ "K00460", "K00454" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

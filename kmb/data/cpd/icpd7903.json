@@ -1,0 +1,45 @@
+{
+  "id" : "icpd7903",
+  "formula" : "C10H13N5O3",
+  "name" : "5'-deoxyadenosine",
+  "synonyms" : [ "(2r,3r,4s,5r)-2-(6-amino-9h-purin-9-yl)-5-methyloxolane-3,4-diol", "5'-deoxy-adenosine" ],
+  "alias" : "dad_5",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15400"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CH33ADO"
+  }, {
+    "source" : "BiGG",
+    "entry" : "dad-5"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dad_5"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05198"
+  } ],
+  "inchi" : "InChI=1S/C10H13N5O3/c1-4-6(16)7(17)10(18-4)15-3-14-5-8(11)12-2-13-9(5)15/h2-4,6-7,10,16-17H,1H3,(H2,11,12,13)/t4-,6-,7-,10-/m1/s1",
+  "inchikey" : "XGYIMTFOTBMPFP-KQYNXXCUSA-N",
+  "smiles" : "[CH2][C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2.8.1.6-RXN" ],
+      "instances" : [ "META:Radicals" ],
+      "reactions" : [ "META:RXN-14950", "META:RXN-13221", "META:RXN-17025", "META:RXN0-6734", "META:RNTRACTIV-RXN", "META:RXN-18519", "META:HEMN-RXN", "META:RXN-18516", "META:RXN-14957", "META:RXN-15568", "META:RXN-18515", "META:RXN-18518", "META:RXN-14516", "META:RXN-18517", "META:RXN-11319", "META:TDCEACT-RXN", "META:RXN-8340", "META:RXN-17199", "META:RXN-17473", "META:RXN-17959", "META:RXN-12465", "META:RXN-15732", "META:RXN-17956", "META:RXN-14959", "META:RXN-15806", "META:RXN-10839", "META:RXN-15808", "META:RXN-15809", "META:RXN0-6366", "META:RXN-17472", "META:RXN-17197", "META:RXN-14480", "META:RXN-18413", "META:RXN-18412", "META:RXN-18415", "META:RXN-18414", "META:RXN-18337", "META:RXN-17122", "META:RXN-14531", "META:RXN-11586", "META:RXN0-7007", "META:RXN-18417", "META:RXN-18416", "META:RXN-15942", "META:RXN-18419", "META:RXN-18418", "META:RXN0-6550", "META:RXN0-5063", "META:RXN-16470", "META:RXN-9010", "META:RXN-17456", "META:RXN-18424", "META:RXN-18423", "META:RXN-17458", "META:RXN-17457", "META:RXN-18420", "META:RXN-17454", "META:RXN-18422", "META:RXN-18421", "META:RXN-13535", "META:RXN-13534", "META:RXN-14304", "META:RXN-13852", "META:RXN-10620", "META:RXN-13532", "META:RXN-17459", "META:RXN-12769", "META:2.8.1.6-RXN", "META:RXN-8799", "META:RXN-8798", "META:RXN-8797", "META:RXN0-949", "META:PYRIMSYN1-RXN", "META:RXN-8079" ],
+      "gibbs" : 68.87445,
+      "cmlMolWeight" : 250.236,
+      "molWeight" : 250.236,
+      "parents" : [ "META:Radicals" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iPC815", "iJO1366", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 18 20  0  0  1  0  0  0  0  0999 V2000\n   25.1812  -20.2189    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   23.8790  -20.7033    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   23.4480  -22.0721    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   22.7415  -19.9079    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0392  -22.0721    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.2524  -23.2274    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5993  -20.7033    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   21.2393  -23.2274    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2884  -20.2189    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3128  -21.0795    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4819  -20.2703    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0736  -18.9083    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6521  -18.8758    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4272  -22.4748    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6928  -23.0734    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8620  -22.2642    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7475  -20.8689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9180  -20.0586    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  1     0  0\n  2  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  3  6  1  6     0  0\n  4  7  1  0     0  0\n  5  8  1  6     0  0\n  7  9  1  1     0  0\n  5  7  1  0     0  0\n  1 10  1  0     0  0\n 10 11  2  0     0  0\n 11 12  1  0     0  0\n 12 13  2  0     0  0\n  1 13  1  0     0  0\n 10 14  1  0     0  0\n 14 15  2  0     0  0\n 15 16  1  0     0  0\n 16 17  2  0     0  0\n 11 17  1  0     0  0\n 17 18  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05198\n\n$$$$",
+  "reactions" : [ "irxn2139", "irxn491", "irxn2989", "irxn4017", "irxn4056", "irxn6212", "irxn3432", "irxn1594", "irxn4333", "irxn5573", "irxn5482", "irxn4055", "irxn4450", "irxn4241", "irxn4280" ]
+}

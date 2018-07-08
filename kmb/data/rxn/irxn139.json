@@ -1,0 +1,42 @@
+{
+  "id" : "irxn139",
+  "equation" : "4hba <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3829" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "EX_4hba_e",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EX_4hba_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_4hba_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iLJ478", "iAF1260", "iAF1260b", "iAF987", "STM_v1_0" ]
+    }
+  }
+}

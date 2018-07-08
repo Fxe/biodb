@@ -1,0 +1,53 @@
+{
+  "id" : "irxn1849",
+  "equation" : "nadh + 343494 + h <=> nad + 343496",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "343494" : ""
+    },
+    "r" : {
+      "343496" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "NDHPQRum",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NDHPQR_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NDH2_syn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NDHPQRcm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NDHPQRum"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJN678", "iJB785" ]
+    }
+  }
+}

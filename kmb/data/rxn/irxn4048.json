@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4048",
+  "equation" : "phpyr + tyr__L <=> 34hpp + phe__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7576" : "",
+      "icpd3407" : ""
+    },
+    "r" : {
+      "icpd3343" : "",
+      "icpd2269" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1",
+  "otherNames" : [ ],
+  "alias" : "aratyr3",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15200"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "aratyr3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7432" ],
+      "orphan" : "NO",
+      "gibbs" : -0.38000488,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517" ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6104",
+  "equation" : "dttp + h2o <=> dtdp + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2032" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd1190" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1.39; 3.6.1.39; 3.6.1.5",
+  "otherNames" : [ ],
+  "alias" : "NTP9",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NTP9"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THYMIDINE-TRIPHOSPHATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02095"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0497"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-14200" ],
+      "orphan" : "NO",
+      "gibbs" : -102.58893,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00240" ],
+      "orthologs" : [ "K14642", "K14641", "K01510" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

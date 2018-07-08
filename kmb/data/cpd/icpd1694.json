@@ -1,0 +1,36 @@
+{
+  "id" : "icpd1694",
+  "formula" : "C15H24",
+  "name" : "(s)-1-methyl-4-(5-methyl-1-methylene-4-hexenyl)cyclohexene",
+  "synonyms" : [ "(s)-(-)-6-methyl-2-(4-methyl-3-cyclohexen-1-yl)-1,5-heptadiene" ],
+  "alias" : "icpd1694",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C16775"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8246"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19751"
+  } ],
+  "inchi" : "InChI=1S/C15H24/c1-12(2)6-5-7-14(4)15-10-8-13(3)9-11-15/h6,8,15H,4-5,7,9-11H2,1-3H3/t15-/m1/s1",
+  "inchikey" : "XZRVRYFILCSYSP-OAHLLOKOSA-N",
+  "smiles" : "CC(=CCCC(=C)[C@]1([H])CC=C(C)CC1)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Sesquiterpenes" ],
+      "reactions" : [ "META:RXN-11903", "META:RXN-8429" ],
+      "gibbs" : 316.38693,
+      "cmlMolWeight" : 204.355,
+      "molWeight" : 204.355,
+      "parents" : [ "META:Sesquiterpenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 15  0  0  1  0  0  0  0  0999 V2000\n   22.8900  -15.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8900  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1024  -17.7800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3149  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3149  -15.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1024  -14.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5460  -17.7910    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6776  -14.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4821  -15.6704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2947  -14.9849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1035  -15.6729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9140  -14.9862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6775  -13.5802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7239  -15.6735    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9138  -13.5802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  1  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  2  0     0  0\n  8 13  2  0     0  0\n 12 14  1  0     0  0\n 12 15  1  0     0  0\n  1  2  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C19751\n\n$$$$",
+  "reactions" : [ "irxn4697", "irxn471" ]
+}

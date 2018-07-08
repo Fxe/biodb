@@ -1,0 +1,34 @@
+{
+  "id" : "icpd2892",
+  "formula" : "C10H14O",
+  "name" : "(r)-4,5,6,7-tetrahydro-3,6-dimethylbenzofuran",
+  "synonyms" : [ "(6r)-3,6-dimethyl-4,5,6,7-tetrahydro-1-benzofuran", "4,5,6,7-tetrahydro-3,6-dimethyl-(r)-benzofuran" ],
+  "alias" : "icpd2892",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C18025"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-4981"
+  } ],
+  "inchi" : "InChI=1S/C10H14O/c1-7-3-4-9-8(2)6-11-10(9)5-7/h6-7H,3-5H2,1-2H3/t7-/m1/s1",
+  "inchikey" : "YGWKXXYGDYYFJU-SSDOTTSWSA-N",
+  "smiles" : "C[C@]1([H])CCC2=C(C1)OC=C2C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:UNSPECIFIC-MONOOXYGENASE-RXN" ],
+      "instances" : [ "META:Monoterpenes" ],
+      "reactions" : [ "META:1.14.13.104-RXN" ],
+      "gibbs" : 137.74568,
+      "cmlMolWeight" : 150.22,
+      "molWeight" : 150.22,
+      "parents" : [ "META:Monoterpenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  1  0  0  0  0  0999 V2000\n   29.2407  -24.4415    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0237  -25.1403    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2712  -25.3848    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2407  -23.0441    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3091  -26.5086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8127  -24.4415    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7006  -26.6658    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0295  -22.3397    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.3716  -27.5508    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8127  -23.0441    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0295  -20.9423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  6 10  1  0     0  0\n  8 11  1  1     0  0\n  5  7  2  0     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18025\n\n$$$$",
+  "reactions" : [ "irxn5933" ]
+}

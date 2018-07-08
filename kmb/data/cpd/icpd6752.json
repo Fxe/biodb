@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6752",
+  "formula" : "C8H8O",
+  "name" : "p-methylbenzaldehyde",
+  "synonyms" : [ "4-methyl-benzaldehyde", "4-methylbenzaldehyde", "4-tolualdehyde", "p-formyltoluene", "p-tolualdehyde", "para-methylbenzaldehyde", "para-tolualdehyde", "paratolualdehyde" ],
+  "alias" : "4mbzald",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "4mbzald"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8773"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06758"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "4mbzald"
+  } ],
+  "inchi" : "InChI=1S/C8H8O/c1-7-2-4-8(6-9)5-3-7/h2-6H,1H3",
+  "inchikey" : "FXLOVSHXALFLKQ-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=C(C=C1)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aryl-Aldehyde" ],
+      "reactions" : [ "META:RXN-8582", "META:RXN-8581" ],
+      "gibbs" : 80.188965,
+      "cmlMolWeight" : 120.151,
+      "molWeight" : 120.151,
+      "parents" : [ "META:Aryl-Aldehyde" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   27.4202  -19.4950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4202  -20.9010    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6222  -18.8006    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2009  -18.7949    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6280  -21.6011    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8416  -19.4950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8416  -20.8953    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0610  -21.5952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9901  -19.4977    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  6  7  2  0     0  0\n  4  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06758\n\n$$$$",
+  "reactions" : [ "irxn554", "irxn5551" ]
+}

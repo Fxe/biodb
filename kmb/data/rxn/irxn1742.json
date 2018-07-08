@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1742",
+  "equation" : "tre + icpd1521 <=> tre6p + icpd5516",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6246" : "",
+      "icpd1521" : ""
+    },
+    "r" : {
+      "icpd5516" : "",
+      "icpd3792" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.201; 2.7.1.201",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-RXN-168"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02780"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -33.69107,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00500" ],
+      "orthologs" : [ "K02819", "K02818", "K02817", "K02777" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

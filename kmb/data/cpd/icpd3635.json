@@ -1,0 +1,34 @@
+{
+  "id" : "icpd3635",
+  "formula" : "C6H6O2",
+  "name" : "resorcinol",
+  "synonyms" : [ "1,3-benzenediol", "1,3-dihydroxy-benzene", "1,3-dihydroxybenzene", "3-hydroxyphenol", "benzene-1,3-diol", "m-benzenediol", "m-dihydroxybenzene", "m-hydroxy-phenol", "m-hydroxyphenol", "resorcin", "resorcinol, 8ci" ],
+  "alias" : "icpd3635",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01751"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-623"
+  } ],
+  "inchi" : "InChI=1S/C6H6O2/c7-5-2-1-3-6(8)4-5/h1-4,7-8H",
+  "inchikey" : "GHMLBKRAJCXXBS-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=CC(=C1)O)[O]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:RXN-10469" ],
+      "instances" : [ "META:Benzenediols" ],
+      "reactions" : [ "META:RXN-17555", "META:RXN-14163", "META:RXN-17557", "META:R307-RXN", "META:RXN-17558" ],
+      "gibbs" : 12.246721,
+      "cmlMolWeight" : 110.112,
+      "molWeight" : 110.112,
+      "parents" : [ "META:Benzenediols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   25.3451  -20.8189    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3451  -22.2266    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1229  -20.1213    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1229  -22.9370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5481  -22.9177    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9198  -20.8189    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1164  -18.7329    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9198  -22.2266    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01751\n\n$$$$",
+  "reactions" : [ "irxn5456", "irxn6100", "irxn3927", "irxn3873" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2089",
+  "equation" : "gtp + 2.0 h + icpd1202 <=> icpd4928 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "2.0",
+      "icpd1202" : "",
+      "icpd1365" : ""
+    },
+    "r" : {
+      "icpd4928" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.7.50; EC-2.7.7.50",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MRNA-GUANYLYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03828"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7375" ],
+      "orphan" : "NO",
+      "gibbs" : -129.39185,
+      "uniprot" : [ "P04318", "P33057", "Q84424", "P11079", "Q01159", "O60942", "Q98257", "Q98268", "P32094", "P20979", "P40997", "P25950", "P04298" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K13917", "K00987" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

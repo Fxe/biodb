@@ -1,0 +1,43 @@
+{
+  "id" : "irxn4926",
+  "equation" : "icpd6516 <=> glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6516" : ""
+    },
+    "r" : {
+      "icpd514" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.4.99.1; 5.4.99.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00262"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLASPARTATE-MUTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDRAZINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5087", "META:PWY-5103", "META:PWY-6728" ],
+      "orphan" : "NO",
+      "gibbs" : 1.81,
+      "uniprot" : [ "O66144", "P80078", "P80077", "Q05488", "Q05509" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn00660", "C5", "rn01100", "rn01200" ],
+      "orthologs" : [ "K01846", "K19268" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

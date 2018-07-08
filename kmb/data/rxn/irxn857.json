@@ -1,0 +1,49 @@
+{
+  "id" : "irxn857",
+  "equation" : "o2 + 2.0 h + 2.0 hyptaur <=> 2.0 taur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1851" : "2.0",
+      "icpd7136" : "2.0"
+    },
+    "r" : {
+      "icpd7999" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "HYPTROX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HYPTROXe"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HYPTROX"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HYPTROX_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

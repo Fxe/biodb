@@ -1,0 +1,43 @@
+{
+  "id" : "irxn2453",
+  "equation" : "icpd7553 <=> icpd6501",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7553" : ""
+    },
+    "r" : {
+      "icpd6501" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.2.1.9; 5.2.1.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03265"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FARNESOL-2-ISOMERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00909", "rn01110" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

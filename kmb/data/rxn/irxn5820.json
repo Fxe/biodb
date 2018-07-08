@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5820",
+  "equation" : "nad + h2o + hmccms <=> nadh + hmccm + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4145" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd1171" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.85",
+  "otherNames" : [ ],
+  "alias" : "HMSD2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HMSD2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05353"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K10217" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

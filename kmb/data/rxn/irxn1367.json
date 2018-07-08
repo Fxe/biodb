@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1367",
+  "equation" : "Glc_aD + atp <=> g6p_A + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1683" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3071" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.2; 2.7.1.1",
+  "otherNames" : [ ],
+  "alias" : "GLUKA",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01786"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUKA"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUKAh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100", "rn01200", "rn01120", "rn00010", "rn01110", "rn00052", "rn01130" ],
+      "orthologs" : [ "K00845", "K12407", "K00844" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

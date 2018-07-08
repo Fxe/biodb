@@ -1,0 +1,53 @@
+{
+  "id" : "irxn5501",
+  "equation" : "L2aadp6sa + amp + ppi + nadp <=> nadph + h + L2aadp + atp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4839" : "",
+      "icpd1231" : "",
+      "icpd7180" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1991" : "",
+      "icpd6530" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.95; EC-1.2.1.95",
+  "otherNames" : [ ],
+  "alias" : "AASAD1",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11679"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AASAD1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16756"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 4.7352295,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01230" ],
+      "orthologs" : [ "K00143" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

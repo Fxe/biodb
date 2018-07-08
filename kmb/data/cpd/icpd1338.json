@@ -1,0 +1,37 @@
+{
+  "id" : "icpd1338",
+  "formula" : "C17H33O2",
+  "name" : "heptadecanoate",
+  "synonyms" : [ "margarate", "margaroate", "normal-heptadecanoate" ],
+  "alias" : "hpdca",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7830"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "hpdca"
+  }, {
+    "source" : "BiGG",
+    "entry" : "hpdca"
+  } ],
+  "inchi" : "InChI=1S/C17H34O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17(18)19/h2-16H2,1H3,(H,18,19)/p-1",
+  "inchikey" : "KEMQGTRYUADPNZ-UHFFFAOYSA-M",
+  "smiles" : "CCCCCCCCCCCCCCCCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Saturated-Fatty-Acids", "META:Odd-Straight-Chain-234-Sat-FA", "META:Long-Chain-Fatty-Acids" ],
+      "gibbs" : 276.18494,
+      "cmlMolWeight" : 269.446,
+      "molWeight" : 269.446,
+      "parents" : [ "META:Saturated-Fatty-Acids", "META:Odd-Straight-Chain-234-Sat-FA", "META:Long-Chain-Fatty-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iYO844" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ ]
+}

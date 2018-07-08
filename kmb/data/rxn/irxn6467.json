@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6467",
+  "equation" : "oca <=> icpd277 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd466" : ""
+    },
+    "r" : {
+      "icpd277" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.-; EC-4.2.1.83",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2463"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04399"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CUSO4", "META:ZN+2", "META:CPD-29", "META:HG+2" ],
+      "activators" : [ "META:CYS" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GALLATE-DEGRADATION-I-PWY", "META:GALLATE-DEGRADATION-II-PWY", "META:P184-PWY", "META:METHYLGALLATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 6.423004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1724",
+  "equation" : "icpd4732 + nadp <=> nadph + icpd6232 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4732" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd6232" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.2; 1.1.1.71; EC-1.1.1.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07328"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALCOHOL-DEHYDROGENASE-NADPORNOP+-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 23.45575,
+      "uniprot" : [ "Q7M0Z4", "P75691", "P77990", "P75214", "P0A4X1", "P35630", "Q04894", "P0A4X0", "Q7M544", "P14941", "Q7M543", "O06007", "Q9PMC1", "P14550", "P25377" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

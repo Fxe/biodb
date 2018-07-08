@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2835",
+  "equation" : "icpd7313 + coa + 2.0 fdxox <=> 2.0 fdxrd + co2 + h + acoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7313" : "",
+      "icpd321" : "2.0",
+      "icpd2377" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd7980" : "",
+      "icpd930" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.7.11; EC-1.2.7.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10516"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14474"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -339.47235,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

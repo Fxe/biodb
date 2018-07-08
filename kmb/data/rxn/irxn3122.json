@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3122",
+  "equation" : "glc__D + adp <=> g6p + amp + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2392" : "",
+      "icpd5753" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1569" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.147; 2.7.1.147",
+  "otherNames" : [ ],
+  "alias" : "GK_adp",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GK_adp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-17001"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05804"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P341-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -14.560059,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K08074" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1" ]
+    }
+  }
+}

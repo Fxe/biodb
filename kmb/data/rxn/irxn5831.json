@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5831",
+  "equation" : "o2 + h2o + ile__L <=> 3mop + n2 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd6461" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd1057" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.2",
+  "otherNames" : [ ],
+  "alias" : "ILEOX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02197"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ILEOX"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00280" ],
+      "orthologs" : [ "K03334" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

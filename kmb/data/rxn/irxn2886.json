@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2886",
+  "equation" : "h2o + g3p + nadp <=> nadph + h + 3pg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4806" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd6074" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.90; 1.2.1.9; EC-1.2.1.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01058"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.2.1.9-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:D-SEDOHEPTULOSE-7-P", "META:ERYTHROSE-4P", "META:3-P-HYDROXYPYRUVATE" ],
+      "activators" : [ "META:K+", "META:NA+", "META:AMMONIUM" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1042" ],
+      "orphan" : "NO",
+      "gibbs" : -16.5318,
+      "uniprot" : [ "Q43272", "O57693", "Q59931" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00010", "rn00030" ],
+      "orthologs" : [ "K18978", "K00131" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

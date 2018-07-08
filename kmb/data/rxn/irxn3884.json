@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3884",
+  "equation" : "dxylnt <=> h2o + 2ddara",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3045" : ""
+    },
+    "r" : {
+      "icpd2958" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.82; EC-4.2.1.82",
+  "otherNames" : [ ],
+  "alias" : "DXYLTD",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02429"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DXYLTD"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:XYLONATE-DEHYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7178", "META:PWY-6760", "META:PWY-7294" ],
+      "orphan" : "NO",
+      "gibbs" : -8.166992,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00040" ],
+      "orthologs" : [ "K14275", "K22186" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

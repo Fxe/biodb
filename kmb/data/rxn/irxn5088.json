@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5088",
+  "equation" : "malcoa + h + lnlccoa <=> coa + co2 + CE4841",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "",
+      "icpd6969" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd1862" : "",
+      "icpd2377" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.199",
+  "otherNames" : [ ],
+  "alias" : "RE3161C",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16094"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE3161C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6598", "META:PWY-7725", "META:PWY-7601" ],
+      "orphan" : "NO",
+      "gibbs" : 5.2806396,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

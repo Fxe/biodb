@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6384",
+  "equation" : "L2aadp6sa + h2o + nadp <=> nadph + h + L2aadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4839" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1991" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.31",
+  "otherNames" : [ ],
+  "alias" : "AASDH1_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AASDH1_c"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03103"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310", "rn01100", "rn01110", "rn01130" ],
+      "orthologs" : [ "A1", "K14085" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

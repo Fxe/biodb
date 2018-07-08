@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6232",
+  "equation" : "nadph + h + ddsmsterol <=> dsmsterol + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5880" : ""
+    },
+    "r" : {
+      "icpd7046" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.21",
+  "otherNames" : [ ],
+  "alias" : "DHCR71r",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN66-27"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHCR71r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2410C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-4" ],
+      "orphan" : "NO",
+      "gibbs" : 11.193558,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

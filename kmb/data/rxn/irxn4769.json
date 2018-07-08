@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4769",
+  "equation" : "nadp + icpd3090 <=> nadph + h + icpd5536",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3090" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5536" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.97; EC-1.1.1.97",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04136"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.1.1.97-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DIETHYLPYROCARBONATE", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7490" ],
+      "orphan" : null,
+      "gibbs" : -0.25653076,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01220", "rn00623" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

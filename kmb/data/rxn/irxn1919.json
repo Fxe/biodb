@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1919",
+  "equation" : "icpd6588 + h2o <=> h + 2.0 ga",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6588" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6591" : "2.0",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.20; EC-3.1.1.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00053"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TANNASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -2.7671204,
+      "uniprot" : [ "P78581" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

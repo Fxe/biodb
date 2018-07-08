@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4855",
+  "equation" : "h2o + sphmyln_hs <=> crm_hs + h + cholp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1037" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6184" : "",
+      "icpd1851" : "",
+      "icpd7683" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SMPD3g",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SMPD3g"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SMPD3l"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4063",
+  "equation" : "g6p_A <=> f6p_B",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3071" : ""
+    },
+    "r" : {
+      "icpd3606" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.1.9",
+  "otherNames" : [ ],
+  "alias" : "PGIA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PGIA"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02740"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PGIAh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100", "rn01200", "rn01120", "rn01110", "rn00010", "rn01130", "rn00030" ],
+      "orthologs" : [ "K06859", "K15916", "K01810", "K13810" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

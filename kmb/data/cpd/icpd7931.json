@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7931",
+  "formula" : "C6H8N3O4P",
+  "name" : "(4-amino-2-methylpyrimidin-5-yl)methyl phosphate",
+  "synonyms" : [ ],
+  "alias" : "icpd7931",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:AMINO-HYDROXYMETHYL-METHYL-PYR-P"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04556"
+  } ],
+  "inchi" : "InChI=1S/C6H10N3O4P/c1-4-8-2-5(6(7)9-4)3-13-14(10,11)12/h2H,3H2,1H3,(H2,7,8,9)(H2,10,11,12)/p-2",
+  "inchikey" : "PKYFHKIYHBRTPI-UHFFFAOYSA-L",
+  "smiles" : "CC1=NC=C(COP(=O)([O-])[O-])C(=N)N1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PYRIMSYN1-RXN" ],
+      "reactions" : [ "META:OHMETPYRKIN-RXN", "META:RXN3O-3797", "META:RXN0-3543", "META:PYRIMSYN1-RXN", "META:PYRIMSYN3-RXN" ],
+      "gibbs" : -140.89928,
+      "cmlMolWeight" : 217.121,
+      "molWeight" : 217.121
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   25.7625  -17.6290    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   27.1698  -17.6290    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7567  -16.2219    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3612  -17.6231    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7567  -19.0304    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5712  -17.6407    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7799  -16.9517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9886  -17.6581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7799  -15.5445    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.2030  -16.9517    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9827  -19.0479    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9886  -14.8438    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   32.2030  -15.5445    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3941  -14.8438    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  8 10  2  0     0  0\n  8 11  1  0     0  0\n  9 12  1  0     0  0\n 10 13  1  0     0  0\n 13 14  1  0     0  0\n 12 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04556\n\n$$$$",
+  "reactions" : [ "irxn5255", "irxn3735", "irxn2139" ]
+}

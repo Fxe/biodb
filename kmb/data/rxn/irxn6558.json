@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6558",
+  "equation" : "salc + h <=> co2 + phenol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd2297" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd771" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.91; EC-4.1.1.91",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11736"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09539"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6636" ],
+      "orphan" : "NO",
+      "gibbs" : -2.0258827,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6325",
+  "equation" : "o2 + phenol + fadh2 <=> catechol + h2o + fad + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd771" : "",
+      "icpd5625" : ""
+    },
+    "r" : {
+      "icpd6481" : "",
+      "icpd2941" : "",
+      "icpd1851" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.14.20; EC-1.14.14.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11653"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-17504"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -65.501434,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

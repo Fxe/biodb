@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1258",
+  "equation" : "3.0 nadph + 4.0 o2 + h + 2.0 arg__L <=> 2.0 no + 4.0 h2o + 2.0 citr__L + 3.0 nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "4.0",
+      "icpd90" : "2.0",
+      "icpd5432" : "3.0",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd4016" : "4.0",
+      "icpd5920" : "2.0",
+      "icpd4286" : "2.0",
+      "icpd5537" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.39; 1.14.13.39",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00557"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NITRIC-OXIDE-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ADT", "META:N-METHYLARGININE", "META:N-NITROARGININE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4983" ],
+      "orphan" : "NO",
+      "gibbs" : -445.9287,
+      "uniprot" : [ "Q62600", "Q9R0W4", "P29476", "Q14961", "P29477", "P29474", "P29475", "P29473", "O77104", "O61608", "Q27571", "O61309", "Q27995", "P35228", "Q9Z0J4", "P70313", "Q06518" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00220", "rn01100", "rn01110", "rn01130" ],
+      "orthologs" : [ "K13240", "K13242", "K13241", "K13427" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

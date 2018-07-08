@@ -1,0 +1,42 @@
+{
+  "id" : "icpd441",
+  "formula" : "C11H8O2",
+  "name" : "2-methyl-1,4-naphthoquinone",
+  "synonyms" : [ "2-methyl-1,4-dihydronaphthalene-1,4-dione", "2-methyl-1,4-naphthalendione", "2-methyl-1,4-naphthalenedione", "2-methylnaphthoquinone", "3-methyl-1,4-naphthoquinone" ],
+  "alias" : "mndn",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "mndn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-3766"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05377"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "mndn"
+  } ],
+  "inchi" : "InChI=1S/C11H8O2/c1-7-6-10(12)8-4-2-3-5-9(8)11(7)13/h2-6H,1H3",
+  "inchikey" : "MJVAVZPDRWSRRC-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC(=O)C2=C(C=CC=C2)C1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:1.1.3.35-RXN" ],
+      "instances" : [ "META:CPD-11501", "META:Quinones" ],
+      "reactions" : [ "META:RXN0-3441", "META:NADH-DEHYDROGENASE-QUINONE-RXN" ],
+      "gibbs" : 56.93897,
+      "cmlMolWeight" : 172.183,
+      "molWeight" : 172.183,
+      "parents" : [ "META:CPD-11501", "META:Quinones" ]
+    },
+    "bigg" : {
+      "models" : [ "iNJ661" ]
+    }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   24.9900  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9900  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2500  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8000  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2500  -14.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8000  -14.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4400  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2500  -18.6200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6100  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4400  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2500  -13.0900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6100  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6300  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  2  0     0  0\n  6 12  2  0     0  0\n  7 13  1  0     0  0\n  7 10  2  0     0  0\n  9 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05377\n\n$$$$",
+  "reactions" : [ ]
+}

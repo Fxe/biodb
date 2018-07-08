@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5109",
+  "equation" : "h2o + 3opcoa <=> coa + h + msa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd251" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd206" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.155",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10947"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16012"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-12573" ],
+      "orphan" : "NO",
+      "gibbs" : -6.377014,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

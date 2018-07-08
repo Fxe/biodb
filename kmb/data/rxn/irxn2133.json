@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2133",
+  "equation" : "nad + icpd5172 <=> icpd433 + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5172" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd433" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.1; 1.1.1.73; EC-1.1.1.73",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OCTANOL-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02878"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 2.5417938,
+      "uniprot" : [ "P46415" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

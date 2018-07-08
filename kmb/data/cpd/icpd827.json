@@ -1,0 +1,29 @@
+{
+  "id" : "icpd827",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd827",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Fatty-acid-methyl-esters"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03395"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:FATTY-ACID-O-METHYLTRANSFERASE-RXN" ],
+      "parents" : [ "META:Short-OH-Long-FA-Esters" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   24.6711  -17.1037    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8826  -16.3992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0871  -17.1037    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2987  -16.3992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8826  -14.9975    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0     0  0\n  1  2  1  0     0  0\n  3  4  1  0     0  0\n  2  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03395\n\n$$$$",
+  "reactions" : [ "irxn5160" ]
+}

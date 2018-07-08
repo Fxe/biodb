@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3787",
+  "equation" : "icpd6237 + accoa <=> coa + icpd5800",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd6237" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd5800" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.82; EC-2.3.1.82",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:AMINOGLYCOSIDE-N6-ACETYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01889"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -2.793518,
+      "uniprot" : [ "Q03635", "P10051", "P20092", "P19650", "Q51409", "Q53289" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2869",
+  "equation" : "nad + h + 2.0 rbrdxRD <=> nadh + 2.0 rbrdxOX",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6777" : "2.0",
+      "icpd1851" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd7562" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.18.1.1; 1.18.1.3; EC-1.18.1.1; 1.18.1.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RUBREDOXIN--NAD+-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02000"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:N-ETHYLMALEIMIDE", "META:AG+" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P221-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 9.625336,
+      "uniprot" : [ "P37596", "P22076", "P20418", "O26851", "O29425" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00071" ],
+      "orthologs" : [ "K21738", "K00529", "K05297" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

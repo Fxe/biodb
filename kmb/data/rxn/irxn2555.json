@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2555",
+  "equation" : "nad + icpd623 <=> nadh + h + icpd2558",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd623" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2558" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.241; 1.1.1.241",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02994"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6-ENDO-HYDROXYCINEOLE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:6-HYDROXYCINEOLE-DEGRADATION-PWY" ],
+      "orphan" : null,
+      "gibbs" : 8.821793,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00902" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

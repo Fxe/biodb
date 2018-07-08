@@ -1,0 +1,41 @@
+{
+  "id" : "icpd2623",
+  "formula" : "C6H6O5",
+  "name" : "3-oxoadipate",
+  "synonyms" : [ "3-keto-adipate", "3-ketoadipate", "3-oxohexanedioate", "beta-ketoadipate", "beta-ktaodipat", "beta-oxoadipate" ],
+  "alias" : "3oxoadp",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "3oxoadp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00846"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-KETO-ADIPATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3oxoadp"
+  } ],
+  "inchi" : "InChI=1S/C6H8O5/c7-4(3-6(10)11)1-2-5(8)9/h1-3H2,(H,8,9)(H,10,11)/p-2",
+  "inchikey" : "RTGHRDFWYQHVFW-UHFFFAOYSA-L",
+  "smiles" : "C(CC(=O)[O-])C(=O)CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-12642" ],
+      "reactions" : [ "META:3-OXOADIPATE-COA-TRANSFERASE-RXN", "META:3-OXOADIPATE-ENOL-LACTONASE-RXN", "META:MALEYLACETATE-REDUCTASE-RXN" ],
+      "gibbs" : -129.36153,
+      "cmlMolWeight" : 158.11,
+      "molWeight" : 158.11,
+      "parents" : [ "META:CPD-12642" ]
+    },
+    "bigg" : {
+      "models" : [ "iYL1228", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   26.9562  -18.8831    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1732  -18.1814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7460  -18.1814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9562  -20.2802    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3836  -18.8831    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5356  -18.8831    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5939  -18.1814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3251  -18.1749    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5356  -20.2802    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.8043  -18.8831    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5939  -16.7779    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  1  0     0  0\n  6  9  2  0     0  0\n  7 10  1  0     0  0\n  7 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00846\n\n$$$$",
+  "reactions" : [ "irxn2424", "irxn4755" ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6447",
+  "equation" : "thf + 2.0 nadp <=> 2.0 nadph + fol + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6900" : "",
+      "icpd5537" : "2.0"
+    },
+    "r" : {
+      "icpd5432" : "2.0",
+      "icpd1851" : "2.0",
+      "icpd3460" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.3",
+  "otherNames" : [ ],
+  "alias" : "THFOR2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "THFOR2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00940"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00790", "rn00670" ],
+      "orthologs" : [ "K00287", "K18590", "K18591", "K19643", "K19644", "K18589", "K13998" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

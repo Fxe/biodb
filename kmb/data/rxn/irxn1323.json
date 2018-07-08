@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1323",
+  "equation" : "nad + h2o + icpd5868 <=> nadh + icpd6299 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd5868" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd6299" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.33; 1.2.1.33",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R-DEHYDROPANTOATE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03198"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "YES-CONFIRMED",
+      "gibbs" : -13.729431,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00770" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

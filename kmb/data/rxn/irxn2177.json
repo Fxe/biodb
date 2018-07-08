@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2177",
+  "equation" : "icpd4396 + icpd3417 <=> icpd5312 + icpd5369",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3417" : "",
+      "icpd4396" : ""
+    },
+    "r" : {
+      "icpd5312" : "",
+      "icpd5369" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.8.13; EC-1.3.8.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11600"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CROBETREDUCT-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CHOLINE", "META:CU+2", "META:GAMMA-BUTYROBETAINE", "META:HG+2", "META:D-CARNITINE", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CARNMET-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 21.239777,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

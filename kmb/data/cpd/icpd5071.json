@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5071",
+  "formula" : "C4H9NO4P",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd5071",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C17962"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10011"
+  } ],
+  "inchi" : "InChI=1S/C4H10NO4P/c5-3(4(6)7)1-2-10(8)9/h3,10H,1-2,5H2,(H,6,7)(H,8,9)/p-1",
+  "inchikey" : "IDBRULKICVRMNG-UHFFFAOYSA-M",
+  "smiles" : "C(CP(=O)[O-])C(C(=O)[O-])[N+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phosphinates" ],
+      "reactions" : [ "META:RXN-10837", "META:RXN-10832" ],
+      "gibbs" : -54.501976,
+      "cmlMolWeight" : 166.093,
+      "molWeight" : 166.093,
+      "parents" : [ "META:Phosphinates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   19.8844  -16.7728    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1315  -16.0529    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3786  -16.7728    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6257  -16.0529    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8728  -16.7728    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3128  -16.7728    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3128  -15.3328    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7528  -16.7728    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1315  -14.9728    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3786  -18.2128    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3128  -18.1728    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  2  0     0  0\n  6  8  1  0     0  0\n  3  4  1  0     0  0\n  2  9  2  0     0  0\n  3 10  1  6     0  0\n  6 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17962\n\n$$$$",
+  "reactions" : [ "irxn6930" ]
+}

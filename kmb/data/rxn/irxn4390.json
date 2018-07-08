@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4390",
+  "equation" : "melt + h2o <=> gal + sbt__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3962" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2287" : "",
+      "icpd1558" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.22",
+  "otherNames" : [ ],
+  "alias" : "MLGH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02926"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MLGH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MELTGH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K07407", "K01189", "K07406" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iMM904" ]
+    }
+  }
+}

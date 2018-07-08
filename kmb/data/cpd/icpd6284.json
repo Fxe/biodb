@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6284",
+  "formula" : "C7H8O",
+  "name" : "anisole",
+  "synonyms" : [ "anisol", "anisole, 8ci", "methoxy-benzene", "methoxybenzene", "methyl phenyl ether", "methyl phenyl-ether", "o-methylphenol", "phenol methyl ether", "phenoxymethane", "phenyl methyl ether" ],
+  "alias" : "icpd6284",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01542"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-109"
+  } ],
+  "inchi" : "InChI=1S/C7H8O/c1-8-7-5-3-2-4-6-7/h2-6H,1H3",
+  "inchikey" : "RDOXTESZEPMUJZ-UHFFFAOYSA-N",
+  "smiles" : "COC1=CC=CC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Methylphenols" ],
+      "reactions" : [ "META:TOLUENE-2-MONOOXYGENASE-RXN", "META:O-CRESOL-METHYLCATECHOL-RXN" ],
+      "gibbs" : 70.63897,
+      "cmlMolWeight" : 108.14,
+      "molWeight" : 108.14,
+      "parents" : [ "META:Methylphenols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   26.3240  -19.0009    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1032  -18.3044    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3240  -20.4073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5257  -18.2979    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9016  -19.0009    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1032  -16.9110    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1032  -21.1166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9016  -20.4073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  7  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01542\n\n$$$$",
+  "reactions" : [ ]
+}

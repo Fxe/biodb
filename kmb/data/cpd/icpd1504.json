@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1504",
+  "formula" : "C6H14NO2Se",
+  "name" : "se-methylselenomethionine",
+  "synonyms" : [ "se-methyl selenomethionine" ],
+  "alias" : "icpd1504",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05690"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12025"
+  } ],
+  "inchi" : "InChI=1S/C6H13NO2Se/c1-10(2)4-3-5(7)6(8)9/h5H,3-4,7H2,1-2H3/p+1/t5-/m0/s1",
+  "inchikey" : "QALHNGMTIIHGNI-YFKPBYRVSA-O",
+  "smiles" : "C[Se+](C)CC[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Modified-Amino-Acids" ],
+      "reactions" : [ "META:RXN-11062", "META:RXN-11064", "META:RXN-12731" ],
+      "gibbs" : 55.153625,
+      "cmlMolWeight" : 211.142,
+      "molWeight" : 211.142,
+      "parents" : [ "META:Modified-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   30.0300  -25.3400    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   31.2900  -24.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -24.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0300  -26.7400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4800  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6500  -25.3400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -23.2400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.6700  -24.6400    0.0000 Se  0  3  0  0  0  0  0  0  0  0  0  0\n   34.9300  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.6700  -23.2400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  1  0     0  0\nM  CHG  1   8   1\nM  END\n\n> <ENTRY>\ncpd:C05690\n\n$$$$",
+  "reactions" : [ "irxn5320" ]
+}

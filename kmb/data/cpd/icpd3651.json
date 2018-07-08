@@ -1,0 +1,32 @@
+{
+  "id" : "icpd3651",
+  "formula" : "C6H5NO2",
+  "name" : "picolinic acid",
+  "synonyms" : [ "2-carboxypyridine", "2-picolinic acid", "2-pyridine carboxylic acid", "2-pyridinecarboxylic acid", "alpha-picolinic acid", "pyridine-2-carboxylic acid" ],
+  "alias" : "icpd3651",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C10164"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PICOLINATE"
+  } ],
+  "inchi" : "InChI=1S/C6H5NO2/c8-6(9)5-3-1-2-4-7-5/h1-4H,(H,8,9)",
+  "inchikey" : "SIOXPEMLGUPBBT-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=NC=C1)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:QUINOPRIBOTRANS-RXN", "META:PPGPPSYN-RXN", "META:AMINO-CARBOXYMUCONATE-SEMIALDEHYDE-RXN" ],
+      "reactions" : [ "META:RXN-10723" ],
+      "gibbs" : -16.457577,
+      "cmlMolWeight" : 122.103,
+      "molWeight" : 122.103
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   26.6769  -17.7006    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6700  -19.1002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4671  -16.9948    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8876  -17.0125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4534  -19.7999    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2448  -17.6886    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0855  -17.7180    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8884  -15.6126    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2380  -19.0883    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  6  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C10164\n\n$$$$",
+  "reactions" : [ ]
+}

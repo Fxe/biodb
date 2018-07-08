@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4552",
+  "equation" : "ethamp + h + ctp <=> ppi + cdpea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd4369" : "",
+      "icpd2046" : ""
+    },
+    "r" : {
+      "icpd6037" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.14; 2.7.7.14",
+  "otherNames" : [ ],
+  "alias" : "PETHCT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.7.7.14-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02038"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PETHCT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7782", "META:PWY4FS-6" ],
+      "orphan" : "NO",
+      "gibbs" : -103.303406,
+      "uniprot" : [ "Q9UTI6", "P33412" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100" ],
+      "orthologs" : [ "K00967" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

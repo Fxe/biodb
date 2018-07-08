@@ -1,0 +1,32 @@
+{
+  "id" : "icpd5744",
+  "formula" : "C2H2",
+  "name" : "ethyne",
+  "synonyms" : [ "acetylene" ],
+  "alias" : "icpd5744",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01548"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETYLENE"
+  } ],
+  "inchi" : "InChI=1S/C2H2/c1-2/h1-2H",
+  "inchikey" : "HSFWRNGVRCDJHI-UHFFFAOYSA-N",
+  "smiles" : "C#C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:NITROGENASE-RXN", "META:AMONITRO-RXN" ],
+      "reactions" : [ "META:R141-RXN" ],
+      "gibbs" : 145.62224,
+      "cmlMolWeight" : 26.038,
+      "molWeight" : 26.038
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   28.1400  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5400  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  3  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01548\n\n$$$$",
+  "reactions" : [ "irxn6870" ]
+}

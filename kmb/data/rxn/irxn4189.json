@@ -1,0 +1,53 @@
+{
+  "id" : "irxn4189",
+  "equation" : "amet + HC01842 <=> ahcys + h + cholp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd3673" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6782" : "",
+      "icpd7683" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.103; EC-2.1.1.103",
+  "otherNames" : [ ],
+  "alias" : "r0789",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0789"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PETHTMT_c"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-5643"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06869"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3385", "META:PWY4FS-2" ],
+      "orphan" : "NO",
+      "gibbs" : -38.160004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564" ],
+      "orthologs" : [ "K05929" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid" ]
+    }
+  }
+}

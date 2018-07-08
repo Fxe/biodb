@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2090",
+  "equation" : "coa + pime + atp <=> pmcoa + amp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7197" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1794" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.14; 6.2.1.14",
+  "otherNames" : [ ],
+  "alias" : "CHCOAL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CHCOAL"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6-CARBOXYHEXANOATE--COA-LIGASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03209"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6578" ],
+      "orphan" : "NO",
+      "gibbs" : -14.584106,
+      "uniprot" : [ "Q58693" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00780" ],
+      "orthologs" : [ "K01906" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iIT341", "iSB619", "iYO844" ]
+    }
+  }
+}

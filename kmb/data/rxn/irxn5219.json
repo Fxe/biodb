@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5219",
+  "equation" : "nadh + 2.0 icpd1812 <=> nad + h + 2.0 icpd1857",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1812" : "2.0"
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1857" : "2.0",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.6.2.2; 1.6.2.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CYTOCHROME-B5-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00100"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-14535", "META:NAD", "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -14.618286,
+      "uniprot" : [ "P07514", "P20070", "P38626", "O13809", "P36060", "Q9ZNT1", "P00387" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "b5", "K00326" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

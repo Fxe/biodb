@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5534",
+  "equation" : "f6p + adp <=> fdp + amp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5753" : "",
+      "icpd7592" : ""
+    },
+    "r" : {
+      "icpd8235" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.146",
+  "otherNames" : [ ],
+  "alias" : "PFK_adp",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05805"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PFK_adp"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00680" ],
+      "orthologs" : [ "K00918" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

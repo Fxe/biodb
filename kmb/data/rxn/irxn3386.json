@@ -1,0 +1,43 @@
+{
+  "id" : "irxn3386",
+  "equation" : "grdp <=> icpd474",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4136" : ""
+    },
+    "r" : {
+      "icpd474" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.5.1.8; EC-5.5.1.22",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GERANYL-DIPHOSPHATE-CYCLASE-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13002"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:DIISOPROPYL-FLUOROPHOSPHATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6991", "META:PWY-6990", "META:PWY-5813" ],
+      "orphan" : "NO",
+      "gibbs" : -52.66,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

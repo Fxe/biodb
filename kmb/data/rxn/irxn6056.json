@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6056",
+  "equation" : "h2o + icpd5061 <=> chol + crmp_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5061" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3647" : "",
+      "icpd5670" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.4.41; 3.1.4.41",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SPHINGOMYELIN-PHOSPHODIESTERASE-D-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02542"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 137.30919,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00600" ],
+      "orthologs" : [ "K01123" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

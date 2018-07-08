@@ -1,0 +1,43 @@
+{
+  "id" : "icpd6046",
+  "formula" : "C3H9O7P",
+  "name" : "dihydroxyacetone phosphate",
+  "synonyms" : [ "dihydroxy-acetone phosphate", "dihydroxy-acetone-phosphate", "dihydroxyacetone monophosphate", "dihydroxyacetone-phosphate" ],
+  "alias" : "dhap",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "dhap"
+  }, {
+    "source" : "BiGG",
+    "entry" : "dhap"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIHYDROXY-ACETONE-PHOSPHATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00111"
+  } ],
+  "inchi" : "InChI=1S/C3H6O3.H3O4P/c1-2(4)3(5)6;1-5(2,3)4/h3,5-6H,1H3;(H3,1,2,3,4)",
+  "inchikey" : "CIEYFQRZEULHJV-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)C(O)O.OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:F16ALDOLASE-RXN", "META:PYRUVFORMLY-RXN", "META:L-LACTATE-DEHYDROGENASE-RXN", "META:RXN0-5260", "META:RXN-1381" ],
+      "activators" : [ "META:METHGLYSYN-RXN" ],
+      "instances" : [ "META:Sugar-Phosphate" ],
+      "reactions" : [ "META:F16ALDOLASE-RXN", "META:RXN-15740", "META:RXN-15044", "META:RXN-13865", "META:DARABALDOL-RXN", "META:2.7.1.121-RXN", "META:SEDOBISALDOL-RXN", "META:RXN1UA-66", "META:RXN0-7249", "META:RXN-11305", "META:RXN-11745", "META:RXN-18614", "META:RXN-15745", "META:RXN-15943", "META:RXN1UA-47", "META:RXN-18639", "META:QUINOLINATE-SYNTHA-RXN", "META:1.1.1.261-RXN", "META:RXN0-7169", "META:GLYCERONE-KINASE-RXN", "META:GLYCEROL-3-PHOSPHATE-OXIDASE-RXN", "META:1.1.1.8-RXN", "META:RXN0-5260", "META:RXN-18600", "META:RXN-18589", "META:RXN-18588", "META:RHAMNULPALDOL-RXN", "META:RXN-18601", "META:KETOTETROSE-PHOSPHATE-ALDOLASE-RXN", "META:RXN-15298", "META:TAGAALDOL-RXN", "META:QUINOLINATE-SYNTHE-MULTI-RXN", "META:TRIOSEPISOMERIZATION-RXN", "META:2.3.1.42-RXN", "META:RXN-18648", "META:FUCPALDOL-RXN", "META:RXN0-5257", "META:RXN-8631", "META:GLYC3PDEHYDROGBIOSYN-RXN", "META:METHGLYSYN-RXN", "META:4.1.2.29-RXN" ],
+      "gibbs" : -267.48264,
+      "cmlMolWeight" : 168.043,
+      "molWeight" : 168.043,
+      "parents" : [ "META:Sugar-Phosphate" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "e_coli_core", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   22.7000  -20.6089    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8915  -19.9080    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1532  -20.6089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3448  -19.9080    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5364  -20.6089    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9383  -20.6089    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3401  -20.6089    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9383  -22.0108    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1532  -22.0108    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9383  -19.2070    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  1  0     0  0\n  3  9  2  0     0  0\n  6 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00111\n\n$$$$",
+  "reactions" : [ "irxn1886", "irxn1567", "irxn2459", "irxn4834", "irxn4754", "irxn4611", "irxn4874", "irxn1224", "irxn1130", "irxn1097", "irxn4540", "irxn1154", "irxn3531", "irxn797", "irxn456", "irxn258", "irxn6441", "irxn1392", "irxn3738", "irxn4827", "irxn2201", "irxn3598", "irxn4742", "irxn5658", "irxn6527", "irxn1697", "irxn4546", "irxn2473", "irxn6256", "irxn6790", "irxn5041" ]
+}

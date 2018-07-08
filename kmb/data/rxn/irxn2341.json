@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2341",
+  "equation" : "h2o + iasp + h <=> n2 + oaa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd7672" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd7306" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ASPOb",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9771"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPOb"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 31.257004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

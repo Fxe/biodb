@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3997",
+  "formula" : "C8H7NO2",
+  "name" : "3-hydroxyindolin-2-one",
+  "synonyms" : [ "1,3-dihydro-3-hydroxy-2h-indol-2-one" ],
+  "alias" : "icpd3997",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11130"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-6362"
+  } ],
+  "inchi" : "InChI=1S/C8H7NO2/c10-7-5-3-1-2-4-6(5)9-8(7)11/h1-4,7,10H,(H,9,11)",
+  "inchikey" : "SGZFJWQQBHYNNF-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C1)NC(=O)C2O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Indole-Derivatives" ],
+      "reactions" : [ "META:RXN-3942", "META:RXN-3943", "META:RXN-6682", "META:RXN-6683" ],
+      "gibbs" : 30.277842,
+      "cmlMolWeight" : 149.149,
+      "molWeight" : 149.149,
+      "parents" : [ "META:Indole-Derivatives" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   21.9309  -16.6849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9309  -18.0842    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1457  -18.7839    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1457  -15.9852    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3533  -16.6849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3474  -18.0876    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6797  -18.5268    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5088  -17.3954    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6892  -16.2571    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.9082  -17.4012    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1272  -14.9280    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  6  1  0     0  0\n  5  4  1  0     0  0\n  5  6  2  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9  5  1  0     0  0\n  4  1  2  0     0  0\n  8 10  2  0     0  0\n  9 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11130\n\n$$$$",
+  "reactions" : [ ]
+}

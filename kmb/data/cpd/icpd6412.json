@@ -1,0 +1,42 @@
+{
+  "id" : "icpd6412",
+  "formula" : "C6H7NO5",
+  "name" : "n-formyl-l-glutamate",
+  "synonyms" : [ "(2s)-2-(formylamino)pentanedioate", "(2s)-2-formamidopentanedioate", "formylglutamate" ],
+  "alias" : "Nforglu",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01045"
+  }, {
+    "source" : "BiGG",
+    "entry" : "Nforglu"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "Nforglu"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-600"
+  } ],
+  "inchi" : "InChI=1S/C6H9NO5/c8-3-7-4(6(11)12)1-2-5(9)10/h3-4H,1-2H2,(H,7,8)(H,9,10)(H,11,12)/p-2/t4-/m0/s1",
+  "inchikey" : "ADZLWSMFHHHOBV-BYPYZUCNSA-L",
+  "smiles" : "C(CC(=O)[O-])[C@@]([H])(C(=O)O)N=C[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:N-FORMYLGLUTAMATE-DEFORMYLASE-RXN" ],
+      "instances" : [ "META:N-Acylated-Aliphatic-Amino-Acids", "META:N-alpha-Acylated-L-Amino-Acids" ],
+      "reactions" : [ "META:FORMIMINOGLUTAMATE-DEIMINASE-RXN", "META:N-FORMYLGLUTAMATE-DEFORMYLASE-RXN" ],
+      "gibbs" : -121.430405,
+      "cmlMolWeight" : 173.125,
+      "molWeight" : 173.125,
+      "parents" : [ "META:N-Acylated-Aliphatic-Amino-Acids", "META:N-alpha-Acylated-L-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iLJ478", "iHN637", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   23.7300  -15.4000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5400  -14.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2800  -15.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0900  -14.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9000  -15.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6400  -14.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4500  -15.4000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6400  -13.3000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5400  -13.3000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9000  -16.8000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0900  -17.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2800  -16.8000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0900  -18.9000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  2  9  2  0     0  0\n  5 10  1  6     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 11 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01045\n\n$$$$",
+  "reactions" : [ "irxn2111", "irxn748", "irxn746" ]
+}

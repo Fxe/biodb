@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6382",
+  "equation" : "icpd1706 + h2o <=> n2 + glu__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1706" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2704" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.35; 3.5.1.38; 3.5.1.2; EC-3.5.1.35",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-GLUTAMINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01579"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -7.907112,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00471" ],
+      "orthologs" : [ "K05597", "K01425" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

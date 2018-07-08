@@ -1,0 +1,42 @@
+{
+  "id" : "irxn3452",
+  "equation" : "mthgxl <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd302" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "EX_mthgxl_e",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10054"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EX_mthgxl_e"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5197", "META:PWY-6160" ],
+      "orphan" : null,
+      "gibbs" : -9.110001,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

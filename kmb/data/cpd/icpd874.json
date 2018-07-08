@@ -1,0 +1,30 @@
+{
+  "id" : "icpd874",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd874",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1-ALKYL-SN-GLYCEROL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02773"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Glycerides" ],
+      "reactions" : [ "META:ALKYLGLYCEROL-KINASE-RXN", "META:3.1.1.71-RXN", "META:GLYCERYL-ETHER-MONOOXYGENASE-RXN" ],
+      "parents" : [ "META:Glycerides" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  1  0  0  0  0  0999 V2000\n   21.0000  -21.4900    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2124  -20.7900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4249  -21.4900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6373  -20.7900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8497  -21.4900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0473  -20.7985    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6373  -19.3900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  4  7  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C02773\n\n$$$$",
+  "reactions" : [ "irxn6589", "irxn5684" ]
+}

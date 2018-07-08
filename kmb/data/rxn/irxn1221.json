@@ -1,0 +1,51 @@
+{
+  "id" : "irxn1221",
+  "equation" : "nadph <=> 334542 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : ""
+    },
+    "r" : {
+      "334542" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "r1325",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r1328"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r1325"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r1327"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r1326"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

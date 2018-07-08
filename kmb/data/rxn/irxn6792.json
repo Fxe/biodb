@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6792",
+  "equation" : "Stmyn + atp <=> icpd1751 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd253" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd1751" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.72; EC-2.7.1.72",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:STREPTOMYCIN-6-KINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02225"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMP", "META:ADP", "META:ADENOSINE", "META:PPI", "META:AG+", "META:EDTA" ],
+      "activators" : [ "META:CU+2", "META:FE+2", "META:MG+2", "META:CO+2", "META:ZN+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5940" ],
+      "orphan" : "NO",
+      "gibbs" : -11.071075,
+      "uniprot" : [ "P08077", "P18622" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01130", "rn00521" ],
+      "orthologs" : [ "K12570", "K04343" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

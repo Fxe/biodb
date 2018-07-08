@@ -1,0 +1,40 @@
+{
+  "id" : "icpd8172",
+  "formula" : "C6H10NO2",
+  "name" : "l-pipecolate",
+  "synonyms" : [ "(s)-(-)-2-piperidinecarboxylate", "(s)-(-)-pipecolate", "(s)-2-piperidinecarboxylate", "(s)-pipecolate", "(s)-pipecolinate", "(s)-piperidine-2-carboxylate", "l-(-)-pipecolate", "l-pipecolinate" ],
+  "alias" : "Lpipecol",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "Lpipecol"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00408"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "Lpipecol"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-PIPECOLATE"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO2/c8-6(9)5-3-1-2-4-7-5/h5,7H,1-4H2,(H,8,9)/p-1/t5-/m0/s1",
+  "inchikey" : "HXEACLLIILLPRG-YFKPBYRVSA-M",
+  "smiles" : "C1CCN[C@@]([H])(C1)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PROLINE-RACEMASE-RXN", "META:1.5.1.8-RXN" ],
+      "reactions" : [ "META:RXN-16267", "META:RXN-10757", "META:RXN-16682", "META:RXN-14210", "META:L-PIPECOLATE-OXIDASE-RXN", "META:L-PIPECOLATE-DEHYDROGENASE-RXN", "META:RXN-13654", "META:RXN-8166" ],
+      "gibbs" : 45.492325,
+      "cmlMolWeight" : 129.158,
+      "molWeight" : 129.158
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  1  0  0  0  0  0999 V2000\n   24.9200  -17.5700    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.9200  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6600  -16.8700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1100  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6600  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4700  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1100  -15.3300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2300  -17.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4700  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  6  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00408\n\n$$$$",
+  "reactions" : [ "irxn433", "irxn753", "irxn153", "irxn1429", "irxn5284", "irxn4533", "irxn4678" ]
+}

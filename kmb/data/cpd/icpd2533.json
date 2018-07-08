@@ -1,0 +1,41 @@
+{
+  "id" : "icpd2533",
+  "formula" : "C18H22O2",
+  "name" : "(1s,10r,11s,15s)-5-hydroxy-15-methyltetracyclo[8.7.0.0^{2,7}.0^{11,15}]heptadeca-2,4,6-trien-14-one",
+  "synonyms" : [ "1,3,5(10)-estratrien-3-ol-17-one", "3-hydroxy-1,3,5(10)-estratrien-17-one", "3-hydroxy-estra-1,3,5(10)-trien-17-one", "3-hydroxyestra-1,3,5(10)-trien-17-one", "3-hydroxyestra-1,3,5(10)-triene-17-one", "3-hydroxyoestra-1,3,5(10)-trien-17-one" ],
+  "alias" : "estrone",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "estrone"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00468"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ESTRONE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "estrone"
+  } ],
+  "inchi" : "InChI=1S/C18H22O2/c1-18-9-8-14-13-5-3-12(19)10-11(13)2-4-15(14)16(18)6-7-17(18)20/h3,5,10,14-16,19H,2,4,6-9H2,1H3/t14-,15-,16+,18+/m1/s1",
+  "inchikey" : "DNXHEGUUPJUMQT-CBZIJGRNSA-N",
+  "smiles" : "C[C@@]12CC[C@]3([H])C4=CC=C(C=C4CC[C@@]3([H])[C@]2([H])CCC1=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Estrogens" ],
+      "reactions" : [ "META:ESTRADIOL-17-BETA-DEHYDROGENASE-RXN", "META:RXN-14263", "META:ESTRONE-SULFOTRANSFERASE-RXN", "META:RXN66-346", "META:ESTRADIOL-17-ALPHA-DEHYDROGENASE-RXN", "META:RXN-14746" ],
+      "gibbs" : 208.98465,
+      "cmlMolWeight" : 270.371,
+      "molWeight" : 270.371,
+      "parents" : [ "META:Estrogens" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 23 26  0  0  1  0  0  0  0  0999 V2000\n   24.0876  -17.2937    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   22.9083  -17.9877    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.0937  -15.9241    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.4583  -17.3060    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7230  -17.3060    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   22.8837  -19.3390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8961  -15.2485    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2853  -15.2425    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0015  -14.4686    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4643  -15.9363    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5560  -17.9939    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7106  -15.9426    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7353  -20.0207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2853  -13.9732    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5560  -19.3451    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3829  -17.3244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3829  -20.0269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2282  -17.9939    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2282  -19.3451    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0675  -20.0084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0876  -18.6964    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9020  -16.6428    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7230  -18.7087    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  3  9  1  1     0  0\n  4 10  1  0     0  0\n  5 11  1  0     0  0\n  5 12  1  0     0  0\n  6 13  1  0     0  0\n  8 14  2  0     0  0\n 11 15  2  0     0  0\n 11 16  1  0     0  0\n 15 17  1  0     0  0\n 16 18  2  0     0  0\n 17 19  2  0     0  0\n 19 20  1  0     0  0\n  7 12  1  0     0  0\n  8 10  1  0     0  0\n 13 15  1  0     0  0\n 18 19  1  0     0  0\n  1 21  1  6     0  0\n  2 22  1  1     0  0\n  5 23  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C00468\n\n$$$$",
+  "reactions" : [ "irxn841", "irxn6584", "irxn3408", "irxn75", "irxn6086", "irxn4820", "irxn503" ]
+}

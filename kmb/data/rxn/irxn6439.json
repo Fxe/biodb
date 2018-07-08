@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6439",
+  "equation" : "ttccoa + sphgn <=> cer1_24 + coa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3085" : "",
+      "icpd4342" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd7836" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CERS124",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CERASE124er"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CERS124er"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CERS124"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

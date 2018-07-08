@@ -1,0 +1,47 @@
+{
+  "id" : "irxn15",
+  "equation" : "o2 + icpd135 + h2o <=> icpd5971 + fald + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd135" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd5971" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.3.2; EC-1.5.3.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01264"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-METHYL-L-AMINO-ACID-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 1.5592499,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

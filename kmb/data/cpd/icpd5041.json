@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5041",
+  "formula" : "C2HCl3",
+  "name" : "trichloroethene",
+  "synonyms" : [ "1,1,2-trichloro-ethene", "1,1,2-trichloroethene", "1,1,2-trichloroethylene", "1,1-dichloro-2-chloroethylene", "1,2,2-trichloroethylene", "1-chloro-2,2-dichloroethylene", "tric hloroethene", "trichloro-ethene", "trichloro-ethylene", "trichloroethene, 9ci", "trichloroethylene" ],
+  "alias" : "icpd5041",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TRICHLOROETHENE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06790"
+  } ],
+  "inchi" : "InChI=1S/C2HCl3/c3-1-2(4)5/h1H",
+  "inchikey" : "XSTXAVWGXDQKEL-UHFFFAOYSA-N",
+  "smiles" : "C(=C(Cl)Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9151", "META:1.97.1.8-RXN", "META:TCEREDCHLOR-RXN", "META:RXN-9149", "META:RXN-9153" ],
+      "gibbs" : 16.371122,
+      "cmlMolWeight" : 131.389,
+      "molWeight" : 131.389
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   28.1347  -16.9870    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5505  -16.9870    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4239  -18.1464    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   27.4296  -15.7634    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   30.2555  -18.2105    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06790\n\n$$$$",
+  "reactions" : [ "irxn6322" ]
+}

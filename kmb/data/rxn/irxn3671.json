@@ -1,0 +1,43 @@
+{
+  "id" : "irxn3671",
+  "equation" : "icpd4302 <=> icpd3435",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4302" : ""
+    },
+    "r" : {
+      "icpd3435" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.2.2; EC-5.1.2.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03791"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MANDELATE-RACEMASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-19557" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1501" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ "P11444" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627" ],
+      "orthologs" : [ "K01781" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

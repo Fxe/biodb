@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3862",
+  "formula" : "C3H9S",
+  "name" : "trimethylsulfonium",
+  "synonyms" : [ "trimethyl sulfonium", "trimethylsulfanium" ],
+  "alias" : "icpd3862",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01008"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRIMETHYLSULFONIUM"
+  } ],
+  "inchi" : "InChI=1S/C3H9S/c1-4(2)3/h1-3H3/q+1",
+  "inchikey" : "NRZWQKGABZFFKE-UHFFFAOYSA-N",
+  "smiles" : "C[S+](C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Organic-Cations" ],
+      "reactions" : [ "META:2.1.1.19-RXN", "META:THIOETHER-S-METHYLTRANSFERASE-RXN" ],
+      "gibbs" : 103.07803,
+      "cmlMolWeight" : 77.164,
+      "molWeight" : 77.164,
+      "parents" : [ "META:Organic-Cations" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   22.1995  -15.8663    0.0000 S   0  3  3  0  0  0  0  0  0  0  0  0\n   23.5438  -14.9136    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9571  -14.9355    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1995  -17.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\nM  CHG  1   1   1\nM  END\n\n> <ENTRY>\ncpd:C01008\n\n$$$$",
+  "reactions" : [ "irxn4869" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2950",
+  "formula" : "C5H9NO3",
+  "name" : "cis-4-hydroxy-l-proline",
+  "synonyms" : [ "(4s)-4-hydroxy-l-proline", "cis-4-hydroxyproline" ],
+  "alias" : "icpd2950",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15178"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01015"
+  } ],
+  "inchi" : "InChI=1S/C5H9NO3/c7-3-1-4(5(8)9)6-2-3/h3-4,6-7H,1-2H2,(H,8,9)/t3-,4-/m0/s1",
+  "inchikey" : "PMMYEEVYMWASQN-IMJSIDKUSA-N",
+  "smiles" : "C1[C@@]([H])(CN[C@]1([H])C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Hydroxy-L-Amino-Acids" ],
+      "reactions" : [ "META:RXN-14244" ],
+      "gibbs" : -18.06991,
+      "cmlMolWeight" : 131.131,
+      "molWeight" : 131.131,
+      "parents" : [ "META:Hydroxy-L-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  1  0  0  0  0  0999 V2000\n   24.3450  -19.1097    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.2070  -19.9403    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5026  -19.9403    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3450  -17.9039    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6385  -21.3007    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   25.0645  -21.3007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5745  -17.1908    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1022  -17.1975    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7948  -22.4518    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  1     0  0\n  5  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01015\n\n$$$$",
+  "reactions" : [ "irxn657" ]
+}

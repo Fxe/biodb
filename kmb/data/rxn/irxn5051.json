@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5051",
+  "equation" : "2.0 h2o + thmpp <=> h + thm + 2.0 pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6523" : "",
+      "icpd4016" : "2.0"
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1280" : "",
+      "icpd7485" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "THMDP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "THMDP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "THMDPe"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iNJ661", "iMM904" ]
+    }
+  }
+}

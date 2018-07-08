@@ -1,0 +1,76 @@
+{
+  "id" : "irxn3626",
+  "equation" : "h2o + ppi <=> h + 2.0 pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1231" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "2.0",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1.1; 3.6.1.1",
+  "otherNames" : [ ],
+  "alias" : "PPA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "IDPh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPAer"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPA_1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00004"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:INORGPYROPHOSPHAT-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPAn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPA_1pp"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPA"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "IDP_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPAm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0009"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "IDPm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:F-", "META:CA+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7807", "META:PWY-7805" ],
+      "orphan" : "NO",
+      "gibbs" : 4.1469727,
+      "uniprot" : [ "P31414", "Q43801", "P0A7A9", "Q9S940", "Q9S941", "Q9R5T3", "O22537", "Q9PHM9", "Q43187", "Q42650", "Q42651", "P19117", "Q974Y8", "P37980", "P37981", "O82793", "O26363", "P93410", "Q49071", "P28239", "Q9JVG3", "O65151", "O22124", "P47593", "O48556", "P13998", "Q43797", "O05724", "Q43796", "Q43798", "O23979", "O49949", "Q9UY24", "P93409", "O59570", "Q9S937", "P00817", "P19514", "Q9S938", "P84491", "P21216", "Q9S936", "Q8H616", "P50308", "Q9S939", "P21616", "P75250" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iETEC_1333", "iECD_1391", "iWFL_1372", "iECIAI1_1343", "iECED1_1282", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iECO111_1330", "iECW_1372", "iE2348C_1286", "iNRG857_1313", "iEcSMS35_1347", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iSDY_1059", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iHN637", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iECDH10B_1368", "iSF_1195", "iSFxv_1172", "iECS88_1305", "iECNA114_1301", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

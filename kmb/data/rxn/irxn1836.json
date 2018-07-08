@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1836",
+  "equation" : "o2 + arachd <=> icpd5075",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1270" : ""
+    },
+    "r" : {
+      "icpd5075" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.40; 1.13.11.-",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ARACHIDONATE-8-LIPOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07053"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -69.979996,
+      "uniprot" : [ "O16025" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "K08022" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

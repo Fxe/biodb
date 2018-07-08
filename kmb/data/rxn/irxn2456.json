@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2456",
+  "equation" : "dmsp <=> acryl + dms",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5035" : ""
+    },
+    "r" : {
+      "icpd7419" : "",
+      "icpd2731" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.4.1.3; EC-4.4.1.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DIMETHYLPROPIOTHETIN-DETHIOMETHYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02574"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HOMO-CYS", "META:CPD-7672" ],
+      "activators" : [ "META:GLUTATHIONE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6049", "META:PWY-6046" ],
+      "orphan" : "NO",
+      "gibbs" : -11.824108,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00920" ],
+      "orthologs" : [ "K16953" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

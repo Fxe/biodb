@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5361",
+  "equation" : "urea <=> h2o + icpd3174",
+  "stoichiometry" : {
+    "l" : {
+      "icpd269" : ""
+    },
+    "r" : {
+      "icpd3174" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.69; 4.2.1.69",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00778"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CYANAMIDE-HYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 3.3230019,
+      "uniprot" : [ "P22143" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00791" ],
+      "orthologs" : [ "K06035" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

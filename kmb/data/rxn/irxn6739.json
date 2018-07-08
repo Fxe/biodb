@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6739",
+  "equation" : "icpd1240 + nadph + o2 + h <=> h2o + nadp + icpd6426",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1240" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd6426" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.53; 1.14.13.53; 1.14.13.89",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R06560"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ISOFLAVONE-2-HYDROXYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2463" ],
+      "orphan" : "NO",
+      "gibbs" : -104.01953,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00943" ],
+      "orthologs" : [ "K13260" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5196",
+  "equation" : "h2o + minohp <=> icpd2695 + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3329" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2695" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.8; EC-3.1.3.62; 3.1.3.62; EC-3.1.3.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03371"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10943"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-1001"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:F-", "META:CPD-4584", "META:Pi", "META:FE+3", "META:CU+2", "META:FE+2", "META:TUNGSTATE", "META:CPD-3", "META:ZN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4702" ],
+      "orphan" : "NO",
+      "gibbs" : 19.699463,
+      "uniprot" : [ "P81440", "P34752", "P34753" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00562" ],
+      "orthologs" : [ "K01083" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

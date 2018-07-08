@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6819",
+  "equation" : "zymst + nadph + h <=> zymstnl + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2984" : ""
+    },
+    "r" : {
+      "icpd7642" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.72",
+  "otherNames" : [ ],
+  "alias" : "r1380",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r1380"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07498"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ZYMSTR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100" ],
+      "orthologs" : [ "K09828", "Delta24" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080" ]
+    }
+  }
+}

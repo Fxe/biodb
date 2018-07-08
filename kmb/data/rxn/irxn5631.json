@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5631",
+  "equation" : "hmccm <=> 2omcm",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1171" : ""
+    },
+    "r" : {
+      "icpd1263" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.2.6",
+  "otherNames" : [ ],
+  "alias" : "4OT2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05389"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "4OT2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K01821" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

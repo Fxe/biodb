@@ -1,0 +1,38 @@
+{
+  "id" : "icpd3607",
+  "formula" : "C10H19NO4",
+  "name" : "propionyl-carnitine",
+  "synonyms" : [ "propionyl carnitine", "propionylcarnitine" ],
+  "alias" : "pcrn",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "pcrn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19737"
+  }, {
+    "source" : "BiGG",
+    "entry" : "pcrn"
+  } ],
+  "inchi" : "InChI=1S/C10H19NO4/c1-5-8(12)10(15,6-9(13)14)7-11(2,3)4/h15H,5-7H2,1-4H3",
+  "inchikey" : "YCGRRHTUOIMIST-UHFFFAOYSA-N",
+  "smiles" : "CCC(=O)C(CC(=O)[O-])(C[N+](C)(C)C)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:O-Short-Chain-Acyl-L-Carnitines" ],
+      "reactions" : [ "META:RXN-18367" ],
+      "gibbs" : 32.091286,
+      "cmlMolWeight" : 217.264,
+      "molWeight" : 217.264,
+      "parents" : [ "META:O-Short-Chain-Acyl-L-Carnitines" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn6826" ]
+}

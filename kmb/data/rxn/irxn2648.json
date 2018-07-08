@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2648",
+  "equation" : "317142 + atp <=> 340779 + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "317142" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "340779" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DAGK_OLE_PALM",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DAGK1819Z160h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DAGK_OLE_PALM"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

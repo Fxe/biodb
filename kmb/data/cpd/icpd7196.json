@@ -1,0 +1,38 @@
+{
+  "id" : "icpd7196",
+  "formula" : "C4H4NO4",
+  "name" : "2-oxosuccinamate",
+  "synonyms" : [ "alphal-ketosuccinlmlte", "ketosuccinamate" ],
+  "alias" : "2oxosucc",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02362"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-OXOSUCCINAMATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2oxosucc"
+  } ],
+  "inchi" : "InChI=1S/C4H5NO4/c5-3(7)1-2(6)4(8)9/h1H2,(H2,5,7)(H,8,9)/p-1",
+  "inchikey" : "ONGPAWNLFDCRJE-UHFFFAOYSA-M",
+  "smiles" : "C(C(=O)C(=O)[O-])C(=O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Oxo-carboxylates" ],
+      "reactions" : [ "META:ASPAROXO-RXN", "META:2.6.1.14-RXN", "META:RXN-6561", "META:RXN-6562" ],
+      "gibbs" : -107.30758,
+      "cmlMolWeight" : 130.08,
+      "molWeight" : 130.08,
+      "parents" : [ "META:2-Oxo-carboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   16.5200  -21.9100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7324  -22.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9449  -21.9100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1573  -22.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3697  -21.9100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5822  -22.6100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1573  -24.0100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7324  -24.0098    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3697  -20.5101    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  4  7  2  0     0  0\n  2  8  2  0     0  0\n  5  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02362\n\n$$$$",
+  "reactions" : [ "irxn5420", "irxn6263" ]
+}

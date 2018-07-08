@@ -1,0 +1,47 @@
+{
+  "id" : "irxn29",
+  "equation" : "man6p <=> f6p_B",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6625" : ""
+    },
+    "r" : {
+      "icpd3606" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.1.8; EC-5.3.1.8",
+  "otherNames" : [ ],
+  "alias" : "MPAKI",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MANNPISOM-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01819"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MPAKI"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ERYTHROSE-4P", "META:MANNITOL-1P", "META:CPD-19600", "META:CPD-19599", "META:DITHIOTHREITOL", "META:CPD-15157" ],
+      "activators" : [ "META:MG+2", "META:NI+2", "META:CO+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-882", "META:PWY-7456", "META:MANNCAT-PWY", "META:PWY-3881", "META:PWY-7586", "META:PWY-6992", "META:PWY-3861", "META:PWY-5659" ],
+      "orphan" : "NO",
+      "gibbs" : 1.3800049,
+      "uniprot" : [ "Q52206", "P29952", "P29951", "P39841", "P00946", "P73377", "P34948", "P34949", "Q55183", "P25081", "P07874" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100", "rn01110", "rn00051", "rn01130" ],
+      "orthologs" : [ "K01809", "K16011", "K15916" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

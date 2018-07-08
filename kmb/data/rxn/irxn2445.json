@@ -1,0 +1,55 @@
+{
+  "id" : "irxn2445",
+  "equation" : "glx + ser__L <=> hpyr + gly",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4818" : "",
+      "icpd941" : ""
+    },
+    "r" : {
+      "icpd855" : "",
+      "icpd3951" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.45; 2.6.1.45",
+  "otherNames" : [ ],
+  "alias" : "SGAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SGAT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SERINE-GLYOXYLATE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SERINE--GLYOXYLATE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00588"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SPT_syn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-181", "META:PWY-1622" ],
+      "orphan" : "NO",
+      "gibbs" : -3.419983,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100", "rn01200", "rn01120", "rn00680", "rn01110", "rn00260", "rn01130" ],
+      "orthologs" : [ "K00830" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iJN678" ]
+    }
+  }
+}

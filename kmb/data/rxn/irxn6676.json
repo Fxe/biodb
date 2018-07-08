@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6676",
+  "equation" : "orn + akg <=> glu__L + glu5sa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd4560" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd6026" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.13; 2.6.1.13",
+  "otherNames" : [ ],
+  "alias" : "ORNTA",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ORNITHINE-GLU-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00667"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ORNTArm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ORNTA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ALPHA-ACETYLORNITHINE", "META:VAL", "META:N-ACETYL-L-LYSINE", "META:CPD-470", "META:CADAVERINE", "META:PUTRESCINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CITRULBIO-PWY", "META:PWY-4981", "META:PWY-3341", "META:ARG-PRO-PWY", "META:PWY-6344", "META:PWY-6922", "META:ARGASEDEG-PWY", "META:ARGININE-SYN4-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.9482422,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330", "rn01110", "rn01130" ],
+      "orthologs" : [ "K00819" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iIT341", "iJR904", "iJN678", "iAT_PLT_636", "iJB785", "iLJ478", "iRC1080", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iSB619" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2454",
+  "equation" : "bdg2hc + h2o <=> glc__D + h + 2coum",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4965" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6678" : "",
+      "icpd1851" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.2.1.21; 3.2.1.21",
+  "otherNames" : [ ],
+  "alias" : "BDG2HCGHD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BDG2HCGHD"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8036"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04998"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5176" ],
+      "orphan" : "NO",
+      "gibbs" : -3.1130066,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00940" ],
+      "orthologs" : [ "K05349", "K01188", "K05350" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "RECON1" ]
+    }
+  }
+}

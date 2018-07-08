@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6599",
+  "equation" : "icpd8107 + sucr <=> icpd8139 + icpd6234",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd5746" : ""
+    },
+    "r" : {
+      "icpd6234" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.99.13; 1.1.99.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCOSIDE-3-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00808"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CA+2" ],
+      "activators" : [ "META:ATABRINE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:SUCROSEUTIL2-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

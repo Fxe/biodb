@@ -1,0 +1,30 @@
+{
+  "id" : "icpd3314",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd3314",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Cyclic-2-3-Ribonucleoside-Monophosphates"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01240"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-3709", "META:CPD-3713", "META:CPD-3725", "META:CPD-3707" ],
+      "reactions" : [ "META:CYCPHOSDIESTER-RXN", "META:3.1.4.37-RXN" ],
+      "parents" : [ "META:CPD-3709", "META:Cyclic-Ribonucleoside-Monophosphates", "META:CPD-3713", "META:CPD-3725", "META:CPD-3707" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  1  0  0  0  0  0999 V2000\n   24.9074  -18.1062    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.3163  -18.1062    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.4807  -16.7852    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.4807  -19.4392    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7487  -19.4332    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7429  -16.8379    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.6031  -15.9844    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1362  -16.3410    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6206  -20.2574    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   28.0815  -16.4170    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0840  -17.2820    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8943  -21.2571    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4634  -21.2571    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  6     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  1     0  0\n  4  9  1  0     0  0\n  6 10  1  1     0  0\n  8 11  1  0     0  0\n  9 12  1  0     0  0\n  9 13  2  0     0  0\n  5  9  1  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01240\n\n$$$$",
+  "reactions" : [ "irxn1716", "irxn6" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3451",
+  "formula" : "C5H4O2",
+  "name" : "furfural",
+  "synonyms" : [ "2-formyl furan", "2-formylfuran", "2-furaldehyde", "2-furaldehyde, 8ci", "2-furanaldehyde", "2-furyl-methanal", "2-furylmethanal", "fural", "furaldehyde", "furan-2-aldehyde", "furan-2-carbaldehyde", "furan-2-carboxaldehyde", "furfuraldehyde", "furyl-methanal" ],
+  "alias" : "icpd3451",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C14279"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-2357"
+  } ],
+  "inchi" : "InChI=1S/C5H4O2/c6-4-5-2-1-3-7-5/h1-4H",
+  "inchikey" : "HYBBIBNJHNGZAN-UHFFFAOYSA-N",
+  "smiles" : "C1=COC(=C1)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Furans" ],
+      "reactions" : [ "META:RXN-13099", "META:RXN-13103", "META:RXN-15854" ],
+      "gibbs" : -7.6755176,
+      "cmlMolWeight" : 96.085,
+      "molWeight" : 96.085,
+      "parents" : [ "META:Furans" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  7  0  0  0  0  0  0  0  0999 V2000\n   28.3821  -18.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8178  -16.6995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6823  -15.8739    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5469  -16.6995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9825  -18.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0222  -15.9940    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2310  -16.6938    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  5  1  1  0     0  0\n  1  2  2  0     0  0\n  2  6  1  0     0  0\n  2  3  1  0     0  0\n  6  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C14279\n\n$$$$",
+  "reactions" : [ "irxn2002" ]
+}

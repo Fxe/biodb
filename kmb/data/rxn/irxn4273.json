@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4273",
+  "equation" : "paps + chol <=> chols + h + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3647" : "",
+      "icpd767" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1734" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.2.6; 2.8.2.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01027"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHOLINE-SULFOTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 8.77002,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2281",
+  "equation" : "ascb__L + o2 + icpd1464 <=> icpd6444 + h2o + icpd6475",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1464" : "",
+      "icpd285" : ""
+    },
+    "r" : {
+      "icpd6444" : "",
+      "icpd4016" : "",
+      "icpd6475" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.17.3; EC-1.14.17.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PEPTIDYLGLYCINE-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03912"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -63.25589,
+      "uniprot" : [ "P12890", "Q9GS29", "P14925", "P19021", "O44398", "Q91697", "P10731", "P08478" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd849",
+  "formula" : "ClH4N",
+  "name" : "ammonium chloride",
+  "synonyms" : [ ],
+  "alias" : "icpd849",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C12538"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NH4CL"
+  } ],
+  "inchi" : "InChI=1S/ClH.H3N/h1H;1H3",
+  "inchikey" : "NLXLAEXVIDQMFP-UHFFFAOYSA-N",
+  "smiles" : "Cl.N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:UROGENIIISYN-RXN", "META:UDP-GLUCURONATE-DECARBOXYLASE-RXN", "META:RXN-7770", "META:BETA-ALANYL-COA-AMMONIA-LYASE-RXN" ],
+      "activators" : [ "META:PHOSACETYLTRANS-RXN", "META:GLYOCARBOLIG-RXN" ],
+      "instances" : [ "META:Inorganic-Salts" ],
+      "parents" : [ "META:Inorganic-Salts" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  0  0  0  0  0  0  0  0  0999 V2000\n   20.6633  -16.9625    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   23.5342  -16.9625    0.0000 Cl  0  5  0  0  0  0  0  0  0  0  0  0\nM  CHG  2   1   1   2  -1\nM  END\n\n> <ENTRY>\ncpd:C12538\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5539",
+  "equation" : "hdcoa + nadph + h <=> pmtcoa + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd3641" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd3474" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.38; 1.3.1.8; EC-1.3.1.8",
+  "otherNames" : [ ],
+  "alias" : "ACOAR7m",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14194"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01278"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACOAR7m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 12.623535,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01212", "rn01100", "rn00062" ],
+      "orthologs" : [ "K07512" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

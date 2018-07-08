@@ -1,0 +1,32 @@
+{
+  "id" : "icpd3048",
+  "formula" : "C3H5ClO",
+  "name" : "epichlorohydrin",
+  "synonyms" : [ "(+/-)-2-(chloromethyl)oxirane", "(+/-)-epichlorohydrin", "(chloromethyl)-oxirane", "(chloromethyl)ethylene oxide", "(rs)-3-chloro-1,2-epoxypropane", "1,2-epoxy-3-chloropropane", "1-chloro-2,3-epoxy-propane", "1-chloro-2,3-epoxypropane", "2,3-epoxypropyl chloride", "2-(chloromethyl)-oxirane", "2-(chloromethyl)oxirane", "3-chloro-1,2-epoxypropane", "3-chloro-1,2-propylene oxide", "3-chloro-propylene oxide", "3-chloropropylene oxide", "chloro-2,3-epoxypropane", "chloromethyloxirane", "epoxy-3-chloropropane", "epoxypropyl chloride", "glycidyl chloride" ],
+  "alias" : "icpd3048",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C14449"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19052"
+  } ],
+  "inchi" : "InChI=1S/C3H5ClO/c4-1-3-2-5-3/h3H,1-2H2",
+  "inchikey" : "BRLQWZUYTZBJKN-UHFFFAOYSA-N",
+  "smiles" : "C(C1CO1)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:epoxides" ],
+      "gibbs" : 27.095602,
+      "cmlMolWeight" : 92.525,
+      "molWeight" : 92.525,
+      "parents" : [ "META:epoxides" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  5  0  0  0  0  0  0  0  0999 V2000\n   27.7599  -17.9804    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   26.5446  -18.6799    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5528  -17.2732    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9680  -17.2810    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1762  -17.9804    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  3  1  0     0  0\n  3  2  1  0     0  0\n  1  4  1  0     0  0\n  1  2  1  0     0  0\n  4  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C14449\n\n$$$$",
+  "reactions" : [ ]
+}

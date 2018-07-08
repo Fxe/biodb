@@ -1,0 +1,42 @@
+{
+  "id" : "icpd2538",
+  "formula" : "C2H4O2",
+  "name" : "glycolaldehyde",
+  "synonyms" : [ "2-hydroxyacetaldehyde", "2-hydroxyethanal", "2-oxoethanol", "hydroxyacetaldehyde", "hydroxyethanal", "methylol formaldehyde", "methylolformaldehyde", "monomethylolformaldehyde" ],
+  "alias" : "gcald",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCOLALDEHYDE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "gcald"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "gcald"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00266"
+  } ],
+  "inchi" : "InChI=1S/C2H4O2/c3-1-2-4/h1,4H,2H2",
+  "inchikey" : "WGCNASOHLSPBMP-UHFFFAOYSA-N",
+  "smiles" : "C(=O)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:R10-RXN", "META:GLYCOLALD-DEHYDROG-RXN", "META:PROPANEDIOL-DEHYDRATASE-RXN" ],
+      "instances" : [ "META:Aldodioses", "META:Aldehydes" ],
+      "reactions" : [ "META:RXN-17139", "META:RXN-17138", "META:RXN-14642", "META:RXN-18376", "META:RXN-14023", "META:HYDROXYPYRUVATE-DECARBOXYLASE-RXN", "META:DARABALDOL-RXN", "META:4.1.2.28-RXN", "META:RXN-13418", "META:RXN-12109", "META:RXN-10857", "META:RXN0-6563", "META:GLYCOLALD-DEHYDROG-RXN", "META:H2NEOPTERINALDOL-RXN", "META:RXN-16480", "META:4.1.2.18-RXN", "META:ETHANOLAMINE-OXIDASE-RXN", "META:GLYCOLALDREDUCT-RXN" ],
+      "gibbs" : -29.195517,
+      "cmlMolWeight" : 60.052,
+      "molWeight" : 60.052,
+      "parents" : [ "META:Aldodioses", "META:Aldehydes" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   21.5150  -15.8224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7250  -16.5241    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3047  -16.5241    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9353  -15.8159    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00266\n\n$$$$",
+  "reactions" : [ "irxn5804", "irxn4914", "irxn1889", "irxn1145", "irxn3148", "irxn4951", "irxn1137", "irxn5667", "irxn6888", "irxn311", "irxn2176", "irxn5594", "irxn4472", "irxn5041" ]
+}

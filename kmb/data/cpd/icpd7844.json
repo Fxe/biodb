@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7844",
+  "formula" : "C6H6O3",
+  "name" : "pyrogallol",
+  "synonyms" : [ "1,2,3-benzenetriol", "1,2,3-trihydroxy-benzene", "1,2,3-trihydroxybenzen", "1,2,3-trihydroxybenzene", "2,3-dihydroxyphenol", "benzene-1,2,3-triol" ],
+  "alias" : "icpd7844",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PYROGALLOL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01108"
+  } ],
+  "inchi" : "InChI=1S/C6H6O3/c7-4-2-1-3-5(8)6(4)9/h1-3,7-9H",
+  "inchikey" : "WQGWDDDVZFFDIG-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C(=C1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN" ],
+      "reactions" : [ "META:GALLATE-DECARBOXYLASE-RXN", "META:RXN-13172", "META:PYROGALLOL-12-OXYGENASE-RXN", "META:1.97.1.2-RXN" ],
+      "gibbs" : -27.233282,
+      "cmlMolWeight" : 126.112,
+      "molWeight" : 126.112
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   22.7283  -16.1232    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7283  -17.5310    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5061  -15.4321    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9314  -15.4256    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5061  -18.2414    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9377  -18.2286    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3029  -16.1232    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5061  -14.0371    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3029  -17.5310    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  5  9  2  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01108\n\n$$$$",
+  "reactions" : [ "irxn1296" ]
+}

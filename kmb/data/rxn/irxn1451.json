@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1451",
+  "equation" : "mi134p + h2o <=> mi13p + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3476" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd5835" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.66; EC-3.1.3.66",
+  "otherNames" : [ ],
+  "alias" : "MI134P4P",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10959"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10950"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MI134P4P"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 12.2099,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

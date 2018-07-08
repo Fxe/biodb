@@ -1,0 +1,46 @@
+{
+  "id" : "irxn119",
+  "equation" : "nadh + h + icpd5394 <=> nad + icpd4022",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd5394" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd4022" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.143; 1.1.1.143",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SEQUOYITOL-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03497"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29", "META:IODOACETATE" ],
+      "activators" : [ "META:GLUTATHIONE", "META:CYS", "META:DITHIOTHREITOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6739" ],
+      "orphan" : null,
+      "gibbs" : 0.37820435,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

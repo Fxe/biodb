@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5731",
+  "equation" : "nadph + h + zym_int2 <=> zymst + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd3013" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2984" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "C3STKR2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "C3STKR2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C3STKR2r"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

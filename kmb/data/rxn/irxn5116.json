@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5116",
+  "equation" : "prgnlones + h2o <=> h + so4 + prgnlone",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5348" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4410" : "",
+      "icpd5748" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.6.2",
+  "otherNames" : [ ],
+  "alias" : "STS4",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "STS4"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "STS4r"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08942"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00140" ],
+      "orthologs" : [ "K01131" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "RECON1" ]
+    }
+  }
+}

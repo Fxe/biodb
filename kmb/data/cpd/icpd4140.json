@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4140",
+  "formula" : "C2H3FO",
+  "name" : "fluoroacetaldehyde",
+  "synonyms" : [ ],
+  "alias" : "icpd4140",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15488"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12708"
+  } ],
+  "inchi" : "InChI=1S/C2H3FO/c3-1-2-4/h2H,1H2",
+  "inchikey" : "YYDWYJJLVYDJLV-UHFFFAOYSA-N",
+  "smiles" : "C(C=O)F",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Fluorides", "META:Aldehydes" ],
+      "reactions" : [ "META:RXN-11747", "META:RXN-11745", "META:RXN-11746" ],
+      "gibbs" : 2.0333614,
+      "cmlMolWeight" : 62.043,
+      "molWeight" : 62.043,
+      "parents" : [ "META:Fluorides", "META:Aldehydes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   28.1390  -20.5879    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3706  -21.2804    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9395  -21.2883    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5701  -20.5639    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  2  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15488\n\n$$$$",
+  "reactions" : [ "irxn4538", "irxn4875" ]
+}

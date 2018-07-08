@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2101",
+  "equation" : "benzcoa + icpd3689 <=> coa + icpd7352",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3689" : "",
+      "icpd2811" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd7352" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.166; 2.3.1.166",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.166-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06310"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5660" ],
+      "orphan" : "NO",
+      "gibbs" : 0.5199585,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00904" ],
+      "orthologs" : [ "K12925" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

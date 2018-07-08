@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1187",
+  "equation" : "icpd4532 + icpd5132 <=> h2o + icpd3408",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5132" : "",
+      "icpd4532" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd3408" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.119; EC-3.2.1.119",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:VICIANIN-BETA-GLUCOSIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03642"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GLC-D-LACTONE", "META:CPD-5401", "META:CU+2", "META:CPD-1486", "META:CPD-14609", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7093" ],
+      "orphan" : "NO",
+      "gibbs" : -3.112976,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

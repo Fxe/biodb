@@ -1,0 +1,56 @@
+{
+  "id" : "irxn1224",
+  "equation" : "nadh + h + dhap <=> nad + glyc1p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd6046" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd3391" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "r0202",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "G3PD1irm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "G3PD1ir"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0202"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "G3PD1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "G1PDH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iNF517", "iND750", "iIT341", "iJN678", "iAT_PLT_636", "iAF987", "iYO844", "iLJ478", "iRC1080", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

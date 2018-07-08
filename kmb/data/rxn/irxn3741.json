@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3741",
+  "equation" : "o2 + icpd3275 + h + cl + fadh2 <=> 2.0 h2o + fad + icpd3735",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1851" : "",
+      "icpd8186" : "",
+      "icpd3275" : "",
+      "icpd5625" : ""
+    },
+    "r" : {
+      "icpd6481" : "",
+      "icpd3735" : "",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.19.49; EC-1.14.19.49",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11478"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-17996"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7810" ],
+      "orphan" : "NO",
+      "gibbs" : -81.91846,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00253", "rn01057", "rn01130" ],
+      "orthologs" : [ "K14257", "O2", "FADH2" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

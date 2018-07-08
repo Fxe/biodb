@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2856",
+  "equation" : "nad + icpd7506 <=> nadh + h + icpd8020",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7506" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd8020" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETOINDEHYDROG-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02343"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:HG+2" ],
+      "activators" : [ "META:CO+2", "META:BA+2", "META:CA+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 3.541809,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

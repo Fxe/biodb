@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6140",
+  "formula" : "C7H11N3O2",
+  "name" : "1-methylhistidine",
+  "synonyms" : [ "(2s)-2-amino-3-(1-methyl-1h-imidazol-4-yl)propanoic acid", "1 methylhistidine", "1-methyl histidine", "1-methyl-histidine", "1-methyl-l-histidine", "1-n-methyl-l-histidine", "l-1-methylhistidine", "n1-methyl-l-histidine" ],
+  "alias" : "NPmehis",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "NPmehis"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1823"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01152"
+  }, {
+    "source" : "BiGG",
+    "entry" : "NPmehis"
+  } ],
+  "inchi" : "InChI=1S/C7H11N3O2/c1-10-3-5(9-4-10)2-6(8)7(11)12/h3-4,6H,2,8H2,1H3,(H,11,12)/t6-/m0/s1",
+  "inchikey" : "BRMWTNUJHUMWMS-LURJTMIESA-N",
+  "smiles" : "CN1C=C(C[C@@H](C(=O)O)N)N=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-Methyl-L-Amino-Acids" ],
+      "reactions" : [ "META:X-METHYL-HIS-DIPEPTIDASE-RXN" ],
+      "gibbs" : 67.812325,
+      "cmlMolWeight" : 169.183,
+      "molWeight" : 169.183,
+      "parents" : [ "META:N-Methyl-L-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080", "iND750", "iMM904" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   23.8316  -20.7956    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2821  -22.1196    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6805  -22.1005    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0943  -20.7645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9517  -19.9580    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8793  -22.8005    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0905  -22.1012    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3017  -22.8005    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5150  -22.1000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0905  -20.7028    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3017  -24.1991    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2921  -23.1096    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  1  5  2  0     0  0\n  3  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  7 10  1  6     0  0\n  8 11  2  0     0  0\n  2 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01152\n\n$$$$",
+  "reactions" : [ "irxn4306", "irxn3802" ]
+}

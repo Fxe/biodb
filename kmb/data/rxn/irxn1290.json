@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1290",
+  "equation" : "nad + 2.0 h2o + icpd6948 <=> nadh + h + L2aadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6948" : "",
+      "icpd4016" : "2.0",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd1991" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8162"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11231"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDROXYLAMINE", "META:CPD-7082", "META:ATP", "META:SO3", "META:NADH" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ALLYSINE-DEHYDROG-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : 0.015808105,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

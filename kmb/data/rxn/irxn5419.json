@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5419",
+  "equation" : "nadh + xoldioloneh + h <=> nad + xoltriol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd2838" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2902" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.50",
+  "otherNames" : [ ],
+  "alias" : "AKR1C42",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04824"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AKR1C42"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K00037" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

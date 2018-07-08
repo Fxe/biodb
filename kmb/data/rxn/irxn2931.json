@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2931",
+  "equation" : "atp + uri <=> h + ump + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2329" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd290" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.48; 2.7.1.213; 2.7.1.48",
+  "otherNames" : [ ],
+  "alias" : "URIK1",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:URIDINEKIN-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00964"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "URIK1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7193" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815857,
+      "uniprot" : [ "Q9CF21", "P0A8F4", "P47622", "P27515", "P44533" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K00876", "K21057" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iCHOv1", "iND750", "iML1515", "iAT_PLT_636", "iHN637", "iYO844", "iLJ478", "iRC1080", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iSB619" ]
+    }
+  }
+}

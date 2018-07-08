@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5520",
+  "formula" : "C10H16O2",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd5520",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19731"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8661"
+  } ],
+  "inchi" : "InChI=1S/C10H16O2/c1-7-4-8(12)5-10(2,3)9(7)6-11/h6,8,12H,4-5H2,1-3H3/t8-/m1/s1",
+  "inchikey" : "SWPMTVXRLXPNDP-MRVPVSSYSA-N",
+  "smiles" : "CC1=C(C=O)C(C)(C)C[C@@H](C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Apocarotenoids" ],
+      "reactions" : [ "META:RXN-8469", "META:RXN-15980", "META:RXN-8477", "META:RXN-15979" ],
+      "gibbs" : 112.20793,
+      "cmlMolWeight" : 168.235,
+      "molWeight" : 168.235,
+      "parents" : [ "META:Apocarotenoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   11.8080  -18.0481    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.5996  -17.3502    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.3909  -18.0481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1739  -17.3502    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n    9.3909  -19.4610    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9568  -18.0565    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1739  -20.1673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.5996  -20.1589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9568  -19.4610    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n    5.7313  -20.1589    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.1620  -16.3621    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.3207  -16.2411    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\n  4  6  1  0     0  0\n  5  7  1  0     0  0\n  5  8  1  0     0  0\n  6  9  1  0     0  0\n  9 10  1  1     0  0\n  7  9  1  0     0  0\n  4 11  1  0     0  0\n  4 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19731\n\n$$$$",
+  "reactions" : [ "irxn3046", "irxn1788", "irxn2157" ]
+}

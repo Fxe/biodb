@@ -1,0 +1,29 @@
+{
+  "id" : "icpd7149",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd7149",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19673"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Malonyl-acp-methyl-ester"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-11474", "META:RXN-11475" ],
+      "parents" : [ "META:ACYL-ACP" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   10.4300  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.3100  -19.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1900  -20.5800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.3100  -18.5500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    7.0000  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.6900  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8800  -20.5800    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   11.6900  -18.5500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2800  -20.5800    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  2  0     0  0\n  3  5  1  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19673\n\n$$$$",
+  "reactions" : [ "irxn5079" ]
+}

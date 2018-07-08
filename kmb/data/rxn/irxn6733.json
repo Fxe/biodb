@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6733",
+  "equation" : "udpg + icpd6125 <=> udp + icpd999",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd6125" : ""
+    },
+    "r" : {
+      "icpd999" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.80; 2.4.1.80",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CERAMIDE-GLUCOSYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01497"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7841", "META:PWY-7839", "META:PWY-7838", "META:PWY-7836" ],
+      "orphan" : "NO",
+      "gibbs" : -95.8136,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00600" ],
+      "orthologs" : [ "K00720" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

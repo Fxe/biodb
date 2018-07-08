@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2261",
+  "equation" : "atp + icpd699 <=> icpd7469 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd699" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7469" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.4.6; 2.7.4.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NUCLEOSIDE-DIP-KIN-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00331"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GDP", "META:GTP", "META:ADP", "META:PPI" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 94.990234,
+      "uniprot" : [ "Q58661", "P08879", "P49740", "Q9ZGE0", "O67528", "O26358", "Q9ZE91", "Q9PIG7", "Q01402", "Q9S8M2", "P15531", "P84284", "Q01768", "P19804", "P36010", "O29491", "Q96559", "P74494", "P81766", "Q9UUY8", "Q39839", "P22392", "O49203", "Q05982", "Q02254", "P39207", "O84508", "P50589", "O64903", "Q07661", "P15532", "P48817", "O83974", "P15266", "P43802", "P65533", "P0A763", "P56075", "Q59636", "P22887", "Q13232", "P47922", "P47923", "P47921" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3738",
+  "equation" : "tag1p__D <=> glyald + dhap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3319" : ""
+    },
+    "r" : {
+      "icpd5552" : "",
+      "icpd6046" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2.13",
+  "otherNames" : [ ],
+  "alias" : "FBA5",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8631"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FBA5"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-373" ],
+      "orphan" : "NO",
+      "gibbs" : 9.480011,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

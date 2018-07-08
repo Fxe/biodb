@@ -1,0 +1,44 @@
+{
+  "id" : "irxn49",
+  "equation" : "o2 + HC00460 <=> icpd5630",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7607" : ""
+    },
+    "r" : {
+      "icpd5630" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.4; EC-1.13.11.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GENTISATE-12-DIOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02656"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2" ],
+      "activators" : [ "META:FE+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6640", "META:PWY-6223", "META:PWY-7469" ],
+      "orphan" : "NO",
+      "gibbs" : -79.10824,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350", "rn01120" ],
+      "orthologs" : [ "K00450" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

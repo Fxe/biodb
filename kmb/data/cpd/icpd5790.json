@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5790",
+  "formula" : "C13H20O",
+  "name" : "(3e)-4-(2,6,6-trimethylcyclohex-1-en-1-yl)but-3-en-2-one",
+  "synonyms" : [ "(3e)-4-(2,6,6-trimethyl-1-cyclohexen-1-yl)-3-buten-2-one", "4-(2,6,6-trimethyl-1-cyclohexen-1-yl)-(e)-3-buten-2-one", "[e]-4-[2,6,6-trimethyl-1-cyclohexen-1-yl]-3-buten-2-one" ],
+  "alias" : "icpd5790",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7204"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C12287"
+  } ],
+  "inchi" : "InChI=1S/C13H20O/c1-10-6-5-9-13(3,4)12(10)8-7-11(2)14/h7-8H,5-6,9H2,1-4H3/b8-7+",
+  "inchikey" : "PSQYTAPXSHCGMF-BQYQJAHWSA-N",
+  "smiles" : "CC1=C(/C=C/C(=O)C)C(C)(C)CCC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Apocarotenoids" ],
+      "reactions" : [ "META:RXN-14334", "META:RXN-7897", "META:RXN-7883", "META:RXN-10741", "META:RXN-13642" ],
+      "gibbs" : 198.3624,
+      "cmlMolWeight" : 192.3,
+      "molWeight" : 192.3,
+      "parents" : [ "META:Apocarotenoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   26.7837  -19.5423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7837  -20.9532    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5570  -18.8360    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.9999  -18.8303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5570  -21.6769    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3407  -19.5423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2088  -17.6917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2160  -19.5364    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3407  -20.9532    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4312  -18.8244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4253  -17.4248    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8018  -17.6890    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0116  -21.6585    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6325  -19.5171    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  8 10  1  0     0  0\n 10 11  2  0     0  0\n  6  9  1  0     0  0\n  3 12  1  0     0  0\n  1  2  2  0     0  0\n  2 13  1  0     0  0\n  1  3  1  0     0  0\n 10 14  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12287\n\n$$$$",
+  "reactions" : [ "irxn5347", "irxn6744" ]
+}

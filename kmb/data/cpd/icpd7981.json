@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7981",
+  "formula" : "C10H16O",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd7981",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11951"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-4941"
+  } ],
+  "inchi" : "InChI=1S/C10H16O/c1-7(2)9-5-4-8(3)6-10(9)11/h8-9H,1,4-6H2,2-3H3/t8-,9-/m1/s1",
+  "inchikey" : "RMIANEGNSBUGDJ-RKDXNWHRSA-N",
+  "smiles" : "C=C(C)[C@H]1CC[C@@H](C)CC1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monoterpenes" ],
+      "reactions" : [ "META:RXN-5161", "META:RXN-5162" ],
+      "gibbs" : 168.72794,
+      "cmlMolWeight" : 152.236,
+      "molWeight" : 152.236,
+      "parents" : [ "META:Monoterpenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   22.8318  -14.0594    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8318  -15.4533    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0418  -16.1502    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.2448  -15.4533    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2448  -14.0594    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0418  -13.3625    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.0286  -11.9686    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0286  -17.5440    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9727  -18.3537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3732  -18.2832    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4431  -16.1502    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  1  0     0  0\n  6  1  1  0     0  0\n  6  7  1  1     0  0\n  1  2  1  0     0  0\n  3  8  1  1     0  0\n  2  3  1  0     0  0\n  8  9  2  0     0  0\n  3  4  1  0     0  0\n  8 10  1  0     0  0\n  4  5  1  0     0  0\n  4 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11951\n\n$$$$",
+  "reactions" : [ "irxn5736", "irxn5733" ]
+}

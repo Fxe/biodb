@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1512",
+  "equation" : "amet + phe__L + anth + 2.0 atp <=> ahcys + 2.0 amp + 2.0 ppi + icpd1114",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd268" : "",
+      "icpd2269" : "",
+      "icpd6530" : "2.0"
+    },
+    "r" : {
+      "icpd1114" : "",
+      "icpd6782" : "",
+      "icpd1231" : "2.0",
+      "icpd7180" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.3.2.40; 6.3.2.40",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13989"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10495"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:METOH" ],
+      "activators" : [ "META:AMMONIUM" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7704" ],
+      "orphan" : null,
+      "gibbs" : -56.317627,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

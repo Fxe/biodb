@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1209",
+  "formula" : "C7H13NO3",
+  "name" : "(2s,4r)-4-hydroxy-1,1-dimethylpyrrolidin-1-ium-2-carboxylate",
+  "synonyms" : [ ],
+  "alias" : "icpd1209",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-17183"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C08269"
+  } ],
+  "inchi" : "InChI=1S/C7H13NO3/c1-8(2)4-5(9)3-6(8)7(10)11/h5-6,9H,3-4H2,1-2H3/t5-,6+/m1/s1",
+  "inchikey" : "MUNWAHDYFVYIKH-RITPCOANSA-N",
+  "smiles" : "C[N+]1(C)C[C@@H](C[C@H]1C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Amino-Acid-Derivatives" ],
+      "reactions" : [ "META:RXN-15948" ],
+      "gibbs" : 17.664564,
+      "cmlMolWeight" : 159.185,
+      "molWeight" : 159.185,
+      "parents" : [ "META:Amino-Acid-Derivatives" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   16.5212  -16.0903    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9239  -17.4260    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3186  -17.4555    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7777  -16.1382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6668  -15.2946    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   16.0815  -18.5351    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9695  -15.4192    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1775  -16.1166    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   19.9560  -14.0243    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6278  -13.8755    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4055  -14.6179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  2  6  1  1     0  0\n  4  7  1  6     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  1  0     0  0\nM  CHG  2   5   1   8  -1\nM  END\n\n> <ENTRY>\ncpd:C08269\n\n$$$$",
+  "reactions" : [ "irxn3201" ]
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3870",
+  "equation" : "udpg + so3 <=> 348575 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd5833" : ""
+    },
+    "r" : {
+      "348575" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SQD1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UDPSQS_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SQD1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UDPSQS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJN678", "iJB785" ]
+    }
+  }
+}

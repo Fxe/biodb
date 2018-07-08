@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1342",
+  "formula" : "C6H5Cl2N",
+  "name" : "3,4-dichloroaniline",
+  "synonyms" : [ ],
+  "alias" : "icpd1342",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:34-DICHLOROANILINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02791"
+  } ],
+  "inchi" : "InChI=1S/C6H5Cl2N/c7-5-2-1-4(9)3-6(5)8/h1-3H,9H2",
+  "inchikey" : "SDYWXFYBZPNOFX-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)Cl)Cl)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:2.3.1.114-RXN", "META:RXN-15527", "META:RXN-15526" ],
+      "gibbs" : 76.1956,
+      "cmlMolWeight" : 162.018,
+      "molWeight" : 162.018
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   19.0067  -15.4537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7849  -16.1639    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0067  -14.0464    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2158  -16.1511    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   16.5822  -15.4537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7849  -17.5584    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   17.7849  -13.3556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5822  -14.0464    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7849  -11.9609    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  7  9  1  0     0  0\n  7  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02791\n\n$$$$",
+  "reactions" : [ "irxn1526" ]
+}

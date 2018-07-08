@@ -1,0 +1,33 @@
+{
+  "id" : "icpd323",
+  "formula" : "C10H14",
+  "name" : "p-cymene",
+  "synonyms" : [ "1-isopropyl-4-methyl-benzene", "1-isopropyl-4-methylbenzene", "1-methyl-4-(1-methylethyl)-benzene", "1-methyl-4-(1-methylethyl)benzene", "1-methyl-4-(propan-2-yl)benzene", "1-methyl-4-isopropylbenzene", "2-p-tolylpropane", "4-cymene", "4-isopropyl-1-methylbenzene", "4-isopropyltoluene", "4-methyl isopropylbenzene", "4-methyl-1-(propan-2-yl)benzene", "4-methyl-1-isopropylbenzene", "cymene", "methyl-4-(1-methylethyl)benzene", "p-mentha-1,3,5-triene", "p-methyl-cumene", "para-cymene", "paracymene" ],
+  "alias" : "icpd323",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1001"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06575"
+  } ],
+  "inchi" : "InChI=1S/C10H14/c1-8(2)10-6-4-9(3)5-7-10/h4-8H,1-3H3",
+  "inchikey" : "HFPZCAJZSCWRBC-UHFFFAOYSA-N",
+  "smiles" : "CC(C)C1=CC=C(C)C=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monoterpenes" ],
+      "reactions" : [ "META:RXN-661" ],
+      "gibbs" : 175.22568,
+      "cmlMolWeight" : 134.221,
+      "molWeight" : 134.221,
+      "parents" : [ "META:Monoterpenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   28.8400  -17.9940    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -19.3906    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.6238  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0503  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6297  -20.0889    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0562  -20.0832    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6238  -15.8877    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0503  -15.8877    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -15.1951    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -13.7927    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  7  9  1  0     0  0\n  9 10  1  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06575\n\n$$$$",
+  "reactions" : [ "irxn3831" ]
+}

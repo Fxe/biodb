@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6518",
+  "equation" : "h2o + udcpdp <=> h + pi + icpd6947",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd443" : ""
+    },
+    "r" : {
+      "icpd6947" : "",
+      "icpd1851" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1.27; 3.6.1.27",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:UNDECAPRENYL-DIPHOSPHATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05627"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5785" ],
+      "orphan" : "NO",
+      "gibbs" : -6.8130035,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00550" ],
+      "orthologs" : [ "K06153", "K19302" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

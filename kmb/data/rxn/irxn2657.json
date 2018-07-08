@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2657",
+  "equation" : "paps + triodthy <=> triodthysuf + h + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd2411" : ""
+    },
+    "r" : {
+      "icpd5237" : "",
+      "icpd1851" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.2.1",
+  "otherNames" : [ ],
+  "alias" : "TRIODTHYSULT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TRIODTHYSULT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10615"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-11436" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6261" ],
+      "orphan" : "NO",
+      "gibbs" : 8.1458435,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

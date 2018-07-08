@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1219",
+  "equation" : "icpd3233 + nadp <=> icpd3970 + nadph + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3233" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd3970" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.324; EC-1.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09926"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9367"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:--MENTHOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-12961" ],
+      "orphan" : "NO",
+      "gibbs" : -0.25650024,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

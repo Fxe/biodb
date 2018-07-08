@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1881",
+  "equation" : "oxalc <=> op4en + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5857" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd2447" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.77",
+  "otherNames" : [ ],
+  "alias" : "4OD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "4OD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02602"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00362", "rn00621" ],
+      "orthologs" : [ "K01617" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

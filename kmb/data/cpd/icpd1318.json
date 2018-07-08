@@ -1,0 +1,41 @@
+{
+  "id" : "icpd1318",
+  "formula" : "C7H6O3",
+  "name" : "3,4-dihydroxybenzaldehyde",
+  "synonyms" : [ "1,2-dihydroxy-4-formylbenzene", "4-formyl-1,2-benzenediol", "4-formyl-1,2-dihydroxybenzene", "protocatechualdehyde" ],
+  "alias" : "34dhbald",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "34dhbald"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16700"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7616"
+  }, {
+    "source" : "BiGG",
+    "entry" : "34dhbald"
+  } ],
+  "inchi" : "InChI=1S/C7H6O3/c8-4-5-1-2-6(9)7(10)3-5/h1-4,9-10H",
+  "inchikey" : "IBGBGRVKPALMCQ-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)O)O)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aryl-Aldehyde" ],
+      "reactions" : [ "META:RXN-8091", "META:RXN-8873", "META:RXN-8872", "META:RXN-18120", "META:RXN-11899" ],
+      "gibbs" : -17.683277,
+      "cmlMolWeight" : 138.123,
+      "molWeight" : 138.123,
+      "parents" : [ "META:Aryl-Aldehyde" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   26.1783  -19.5278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1783  -20.9276    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3905  -21.6275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6028  -20.9276    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6028  -19.5278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3905  -18.8279    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9660  -18.8279    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9660  -21.6275    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8338  -18.8169    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0415  -19.5141    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  2  8  1  0     0  0\n  5  9  1  0     0  0\n  9 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16700\n\n$$$$",
+  "reactions" : [ "irxn5489" ]
+}

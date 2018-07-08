@@ -1,0 +1,45 @@
+{
+  "id" : "irxn734",
+  "equation" : "h2o + icpd4254 <=> icpd781 + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4254" : ""
+    },
+    "r" : {
+      "icpd781" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.4; 3.5.1.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03909"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AMIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 15.205124,
+      "uniprot" : [ "Q9ZBD4", "Q12559", "P22580", "P95896", "Q52736", "P11436", "P81717", "P27765" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K01426" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

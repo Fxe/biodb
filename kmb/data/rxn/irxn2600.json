@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2600",
+  "equation" : "h2o + ppcoa <=> ppa + coa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd3011" : ""
+    },
+    "r" : {
+      "icpd3637" : "",
+      "icpd1851" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.2.18",
+  "otherNames" : [ ],
+  "alias" : "RE2649X",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE2649M"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7938"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2649X"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NADH" ],
+      "activators" : [ "META:CL-", "META:MG+2", "META:ADP", "META:CA+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:2OXOBUTYRATECAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -7.547241,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

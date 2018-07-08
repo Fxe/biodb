@@ -1,0 +1,54 @@
+{
+  "id" : "irxn2700",
+  "equation" : "nad + coa + 3mob <=> nadh + co2 + ibcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5052" : "",
+      "icpd2377" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd7932" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.25; EC-1.2.1.25",
+  "otherNames" : [ ],
+  "alias" : "OIVD2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.2.1.25-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01210"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OIVD2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OIVD2m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:VALDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -10.194031,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iCHOv1", "iLB1027_lipid", "iMM1415", "iAT_PLT_636", "iSB619", "iAF987", "RECON1", "iYO844", "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6376",
+  "equation" : "34dhphe <=> dopa + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5924" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4793" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.28; EC-4.1.1.28; 4.1.1.25",
+  "otherNames" : [ ],
+  "alias" : "3HLYTCL",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN66-221"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02080"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3HLYTCL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3581", "META:PWY-5403", "META:PWY-5426", "META:PWY66-301" ],
+      "orphan" : "NO",
+      "gibbs" : -3.0900116,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350", "rn01110", "rn00965", "rn00950" ],
+      "orthologs" : [ "K01592", "K01593" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5855",
+  "formula" : "C6H12O",
+  "name" : "cyclohexanol",
+  "synonyms" : [ "cyclohexan-1-ol", "cyclohexyl-alcohol", "hexahydrophenol" ],
+  "alias" : "icpd5855",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00854"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CYCLOHEXANOL"
+  } ],
+  "inchi" : "InChI=1S/C6H12O/c7-6-4-2-1-3-5-6/h6-7H,1-5H2",
+  "inchikey" : "HPXRVTGHNJAIIH-UHFFFAOYSA-N",
+  "smiles" : "C1CCC(CC1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:CYCLOHEXANOL-DEHYDROGENASE-RXN", "META:RXN-8697" ],
+      "gibbs" : 102.493454,
+      "cmlMolWeight" : 100.16,
+      "molWeight" : 100.16
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  7  0  0  0  0  0  0  0  0999 V2000\n   27.5100  -17.8349    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   26.2939  -18.5274    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7202  -18.5274    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5157  -16.4327    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2939  -19.9297    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7202  -19.9297    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5100  -20.6279    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00854\n\n$$$$",
+  "reactions" : [ "irxn4939" ]
+}

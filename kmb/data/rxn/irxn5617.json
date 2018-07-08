@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5617",
+  "equation" : "o2 + 2.0 icpd5832 <=> 2.0 icpd1095 + 2.0 h2o + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5832" : "2.0"
+    },
+    "r" : {
+      "icpd1095" : "2.0",
+      "icpd1851" : "2.0",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.17.3.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18103"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11496"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:JUGLONE-3-MONOOXYGENASE-RXN" ],
+      "orphan" : null,
+      "gibbs" : -122.72223,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

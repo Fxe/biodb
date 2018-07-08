@@ -1,0 +1,43 @@
+{
+  "id" : "irxn67",
+  "equation" : "icpd555 <=> icpd1938",
+  "stoichiometry" : {
+    "l" : {
+      "icpd555" : ""
+    },
+    "r" : {
+      "icpd1938" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:C04718-C060066-AUTOTRANSFORMATION-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04578"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:6-HYDROXYCINEOLE-DEGRADATION-PWY" ],
+      "orphan" : null,
+      "gibbs" : -12.38,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00902" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

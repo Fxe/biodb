@@ -1,0 +1,47 @@
+{
+  "id" : "irxn663",
+  "equation" : "o2 + h2o + glu__L <=> n2 + akg + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd514" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7043" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.11; EC-1.4.3.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00250"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-GLUTAMATE-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -24.91124,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

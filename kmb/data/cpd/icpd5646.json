@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5646",
+  "formula" : "C5H6NO4",
+  "name" : "2-oxoglutaramate",
+  "synonyms" : [ "2-keto-glutaramate", "2-ketoglutaramate", "4-carbamoyl-2-oxobutanate", "alpha-ketoglutaramate" ],
+  "alias" : "2ogm",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "2ogm"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "HC00591"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00940"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-KETO-GLUTARAMATE"
+  } ],
+  "inchi" : "InChI=1S/C5H7NO4/c6-4(8)2-1-3(7)5(9)10/h1-2H2,(H2,6,8)(H,9,10)/p-1",
+  "inchikey" : "COJBGNAUUSNXHX-UHFFFAOYSA-M",
+  "smiles" : "C(CC(=O)N)C(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Oxo-carboxylates" ],
+      "reactions" : [ "META:GLUTAMINE--PYRUVATE-AMINOTRANSFERASE-RXN", "META:RXN-15651", "META:2.6.1.50-RXN", "META:2.6.1.64-RXN", "META:RXN-9579", "META:RXN-15650", "META:RXN-13117", "META:RXN-13072", "META:RXN-13071", "META:RXN-13119" ],
+      "gibbs" : -85.145355,
+      "cmlMolWeight" : 144.107,
+      "molWeight" : 144.107,
+      "parents" : [ "META:2-Oxo-carboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iLB1027_lipid" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   11.6900  -20.3000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9024  -19.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1149  -20.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3273  -19.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5397  -20.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7522  -19.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9646  -20.3000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9024  -18.2002    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7522  -18.2003    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1149  -21.6998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  6  9  2  0     0  0\n  3 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00940\n\n$$$$",
+  "reactions" : [ "irxn4023", "irxn3878", "irxn1222", "irxn3885", "irxn326", "irxn6668" ]
+}

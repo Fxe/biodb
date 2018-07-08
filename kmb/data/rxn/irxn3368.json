@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3368",
+  "equation" : "icpd3794 + icpd3434 <=> coa + h + icpd3439",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3434" : "",
+      "icpd3794" : ""
+    },
+    "r" : {
+      "icpd3439" : "",
+      "icpd1851" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.145; 2.3.1.145",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03994"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PIPERIDINE-N-PIPEROYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5752" ],
+      "orphan" : null,
+      "gibbs" : 15.598999,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

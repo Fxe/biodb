@@ -1,0 +1,43 @@
+{
+  "id" : "irxn1551",
+  "equation" : "icpd3100 <=> icpd1806",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3100" : ""
+    },
+    "r" : {
+      "icpd1806" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.5.1.6; 5.5.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CHALCONE-ISOMERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07344"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ "Q42925", "Q42926", "P28012", "O22651", "Q43754", "P11650", "O22604", "P11651", "P14298", "O81980", "P41089", "P41088", "Q08704" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

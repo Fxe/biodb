@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1893",
+  "equation" : "h2o + icpd4556 <=> icpd346 + glc__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4556" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd346" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.105; EC-3.2.1.105",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:STRICTOSIDINE-BETA-GLUCOSIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03820"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:CPD-19532" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5301", "META:PWY-5292" ],
+      "orphan" : "NO",
+      "gibbs" : -38.512,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00901" ],
+      "orthologs" : [ "K12693" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

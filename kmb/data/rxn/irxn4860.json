@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4860",
+  "equation" : "2.0 pyr + h <=> icpd7441 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "2.0",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7441" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.2.1.6; 2.2.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00226"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETOLACTSYN-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-13357", "META:2-KETO-ISOVALERATE", "META:VAL", "META:ILE", "META:CPD0-1692", "META:2-OXOBUTANOATE", "META:LEU", "META:GLYOX" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5939", "META:PWY-7111", "META:PWY-5938", "META:PWY-6389", "META:VALSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -9.48587,
+      "uniprot" : [ "Q9JRF4", "Q59950", "O22578", "P45260", "P45261", "Q59272", "P36620", "Q60021", "P14874", "O66759", "Q02140", "Q49865", "P17597", "P42463", "O53554", "Q02137", "Q05767", "Q57725", "P27868", "O49229", "Q9JTI1", "P69684", "P0ADF8", "O28554", "Q04789", "P09342", "Q8XAV3", "P00893", "P00894", "P00892", "P27696", "Q59498", "Q9RFQ7", "Q41769", "Q41768", "O27493", "P08142", "P09114", "Q57625", "P21622", "Q58077", "Q42767", "Q42768", "Q9R586", "O22547", "P27818", "P27819", "P37251", "O05031", "O49210", "P07342", "P40811", "Q9PHU2", "Q9PHU1" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00660", "rn01210", "C5", "rn01100", "rn00650", "rn01230", "rn01110", "rn01130", "rn00290" ],
+      "orthologs" : [ "K01652", "K11258", "K01653" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

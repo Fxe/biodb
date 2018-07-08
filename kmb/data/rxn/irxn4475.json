@@ -1,0 +1,52 @@
+{
+  "id" : "irxn4475",
+  "equation" : "nad + ala__L + h2o <=> nadh + n2 + pyr + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7336" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.4.1.1; 1.4.1.1",
+  "otherNames" : [ ],
+  "alias" : "ALAD_L",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALANINE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00396"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALAD_L"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:CPD-1486", "META:CPD-8826", "META:D-CYSTEINE", "META:CO+2", "META:ZN+2", "META:CPD-8829", "META:CPD-29", "META:HG+2", "META:SARCOSINE", "META:D-ALANINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY1-2" ],
+      "orphan" : "NO",
+      "gibbs" : 5.934662,
+      "uniprot" : [ "Q08352", "O52942", "Q9WX54", "P17557", "P30234", "P17556" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00430", "rn00250" ],
+      "orthologs" : [ "K19244", "K00259" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iIT341", "iNJ661", "iJN678", "iAF987", "iSB619", "iJB785", "iYO844" ]
+    }
+  }
+}

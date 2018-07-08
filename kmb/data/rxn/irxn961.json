@@ -1,0 +1,49 @@
+{
+  "id" : "irxn961",
+  "equation" : "h + cspmd <=> spmd + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5612" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1; 4.1.1.96",
+  "otherNames" : [ ],
+  "alias" : "CSPMDDC",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09081"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CSPMDDC"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11564"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6559" ],
+      "orphan" : "NO",
+      "gibbs" : -4.338272,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100" ],
+      "orthologs" : [ "K13747" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

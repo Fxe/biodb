@@ -1,0 +1,58 @@
+{
+  "id" : "irxn2813",
+  "equation" : "malcoa + h <=> accoa + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd5825" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.9; 4.1.1.9",
+  "otherNames" : [ ],
+  "alias" : "MCD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MCD"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MALONYL-COA-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00233"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MCDC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MCDp"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MCDm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.779419,
+      "uniprot" : [ "P12617", "Q54112" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn00410", "rn01100" ],
+      "orthologs" : [ "K01578" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iNJ661", "iMM1415", "RECON1" ]
+    }
+  }
+}

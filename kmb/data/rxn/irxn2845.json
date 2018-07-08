@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2845",
+  "equation" : "atp + 0.01 ptd1ino_SC <=> 0.01 ptd4ino_SC + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2164" : "0.01",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd2223" : "0.01"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PIN4K_SC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PIN4K_SC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PIN4Kn_SC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

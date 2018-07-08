@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1868",
+  "equation" : "chsterol + nadp <=> 7dhchsterol + nadph + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4645" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd3041" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.21; 1.3.1.21",
+  "otherNames" : [ ],
+  "alias" : "DHCR72r",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN66-323"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01456"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHCR72r"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-11445", "META:CPD-4521", "META:CPD-4522" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-3", "META:PWY66-341" ],
+      "orphan" : "NO",
+      "gibbs" : 11.193497,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100" ],
+      "orthologs" : [ "K00213" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn25",
+  "equation" : "h2o + gullac <=> guln__L + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd938" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7686" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.1.17; 3.1.1.17; 3.1.1.25",
+  "otherNames" : [ ],
+  "alias" : "GLNLASEer",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GLNLASEer"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8783"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02933"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY3DJ-35471" ],
+      "orphan" : "NO",
+      "gibbs" : -6.347122,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053" ],
+      "orthologs" : [ "K01053" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

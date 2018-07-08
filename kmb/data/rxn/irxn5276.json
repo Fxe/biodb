@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5276",
+  "equation" : "o2 + nadh + icpd2192 <=> no2 + nad + catechol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd2192" : ""
+    },
+    "r" : {
+      "icpd2941" : "",
+      "icpd7710" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.23; EC-1.14.12.23",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-3661"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07706"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5640" ],
+      "orphan" : "NO",
+      "gibbs" : -88.11594,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01220", "rn00627" ],
+      "orthologs" : [ "K14581", "K14580", "K14578", "K14579" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

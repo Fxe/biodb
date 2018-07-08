@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5877",
+  "equation" : "pad + h2o <=> pac + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4853" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2748" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.4",
+  "otherNames" : [ ],
+  "alias" : "AMID2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02540"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12492"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMID2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -5.3371277,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00360", "rn00643" ],
+      "orthologs" : [ "K01426" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iIT341", "iMM904", "iJN678" ]
+    }
+  }
+}

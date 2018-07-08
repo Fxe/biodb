@@ -1,0 +1,32 @@
+{
+  "id" : "icpd751",
+  "formula" : "C6H7N5",
+  "name" : "7-methyladenine",
+  "synonyms" : [ "6-amino-7-methylpurine", "7-methyl-7h-purin-6-amine", "7-methylpurin-6-amine" ],
+  "alias" : "icpd751",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02241"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13320"
+  } ],
+  "inchi" : "InChI=1S/C6H7N5/c1-11-3-10-6-4(11)5(7)8-2-9-6/h2-3H,1H3,(H2,7,8,9)",
+  "inchikey" : "HCGHYQLFMPXSDU-UHFFFAOYSA-N",
+  "smiles" : "CN1C=NC2=NC=NC(=C21)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Alkylated-Bases" ],
+      "gibbs" : 136.82784,
+      "cmlMolWeight" : 149.155,
+      "molWeight" : 149.155,
+      "parents" : [ "META:Alkylated-Bases" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   26.4922  -16.0339    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4922  -17.3574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3432  -15.3842    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3432  -18.0253    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2121  -16.0339    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3432  -14.0725    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2121  -17.3574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7510  -17.7664    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5289  -16.6957    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7510  -15.6249    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1850  -14.2895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  5  7  1  0     0  0\n  2  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n  1 10  1  0     0  0\n 10 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02241\n\n$$$$",
+  "reactions" : [ ]
+}

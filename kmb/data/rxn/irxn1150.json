@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1150",
+  "equation" : "atp + btn <=> ppi + btamp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1369" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5674" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.4.15; 6.3.4.11; 6.3.4.10; EC-6.3.4.15; 6.2.1.11; 6.3.4.9",
+  "otherNames" : [ ],
+  "alias" : "BACCL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BACCL"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-7192"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BACCLm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01074"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:ATP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -45.352448,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00780" ],
+      "orthologs" : [ "K01947", "K01942", "K03524" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iIT341", "iAF987", "iHN637", "iJB785", "iLJ478", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iSB619" ]
+    }
+  }
+}

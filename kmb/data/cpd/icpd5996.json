@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5996",
+  "formula" : "C6H8N4O2",
+  "name" : "2,4-dihydroxy-6-(cyclopropylamino)-1,3,5-triazine",
+  "synonyms" : [ "6-(cyclopropylamino)-1,3,5-triazine-2,4-diol" ],
+  "alias" : "icpd5996",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C14149"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7405"
+  } ],
+  "inchi" : "InChI=1S/C6H8N4O2/c11-5-8-4(7-3-1-2-3)9-6(12)10-5/h3H,1-2H2,(H3,7,8,9,10,11,12)",
+  "inchikey" : "BLNVGTGPKHCQME-UHFFFAOYSA-N",
+  "smiles" : "C1CC1NC2=NC(=NC(=N2)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:RXN-8019", "META:RXN-8020" ],
+      "gibbs" : 66.67897,
+      "cmlMolWeight" : 168.155,
+      "molWeight" : 168.155,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 13  0  0  0  0  0  0  0  0999 V2000\n   26.3626  -16.6098    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3626  -18.0093    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5755  -18.7091    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7883  -18.0093    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7883  -16.6098    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5755  -15.9100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5755  -14.5105    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1496  -18.7091    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0013  -18.7091    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.4009  -18.7091    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.6137  -18.0093    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.6137  -19.4088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  1  0     0  0\n  4  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  1  0     0  0\n 11 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C14149\n\n$$$$",
+  "reactions" : [ "irxn791", "irxn781" ]
+}

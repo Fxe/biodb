@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1639",
+  "equation" : "icpd8107 + icpd2523 <=> icpd8139 + icpd5583",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd2523" : ""
+    },
+    "r" : {
+      "icpd5583" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.99.4; 1.3.99.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03748"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-OXOSTEROID-1-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ "Q04616", "Q06401", "P77815" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

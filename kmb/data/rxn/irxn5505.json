@@ -1,0 +1,52 @@
+{
+  "id" : "irxn5505",
+  "equation" : "h2o + ptth <=> cysam + pnto__R",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1613" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd800" : "",
+      "icpd4550" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.92; EC-3.5.1.92",
+  "otherNames" : [ ],
+  "alias" : "PNTEH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PNTEH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PNTEHe"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02973"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.5.1.92-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.0870895,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00770" ],
+      "orthologs" : [ "K08069" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iYO844" ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id" : "irxn6527",
+  "equation" : "fdp_B <=> g3p + dhap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1130" : ""
+    },
+    "r" : {
+      "icpd4806" : "",
+      "icpd6046" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2.13; 4.1.2.13",
+  "otherNames" : [ ],
+  "alias" : "FBAm",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01070"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:F16ALDOLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FBAm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FBAf"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FBAh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMP", "META:CPD-2961", "META:NI+2", "META:ATP", "META:ADP", "META:PHOSPHO-ENOL-PYRUVATE", "META:BOROHYDRIDE", "META:L-DEHYDRO-ASCORBATE", "META:DIHYDROXY-ACETONE-PHOSPHATE", "META:RIBOSE-5P", "META:EDTA" ],
+      "activators" : [ "META:CIT", "META:K+", "META:AMMONIUM", "META:RIBOSE-5P" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5484", "META:PWY-7385", "META:PWY-6142", "META:P185-PWY", "META:PWY-1042", "META:P341-PWY", "META:CALVIN-PWY", "META:SUCSYN-PWY", "META:PWY66-399", "META:GLYCOLYSIS", "META:GLUCONEO-PWY", "META:PWY-1861", "META:ANAGLYCOLYSIS-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 8.226501,
+      "uniprot" : [ "P53444", "O65581", "Q7M4Z4", "Q42476", "Q7M4Z5", "Q07159", "P53447", "Q9URB4", "P09972", "P08440", "P07752", "Q9CED4", "Q59100", "Q59101", "P22197", "O22486", "P19537", "P36580", "P13243", "P93565", "P53818", "P05062", "P46256", "P05063", "P47269", "P05064", "P05065", "P46257", "Q01516", "Q01517", "P27995", "P07764", "P52210", "Q40677", "P29356", "Q7LZE8", "Q9JW15", "Q7LZE9", "P14540", "P44429", "Q91384", "Q9SVJ6", "P00884", "P09117", "P00883", "P0AB71", "P75089", "P50923", "P17784", "P14223", "O04975", "Q42690", "Q7M2K6", "P16096", "P07341", "P04075", "O51401" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn01230", "rn01110", "rn00010", "rn00051", "rn01130", "rn00030" ],
+      "orthologs" : [ "K11645", "K01624", "K01622", "K01623", "K16306", "K16305" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

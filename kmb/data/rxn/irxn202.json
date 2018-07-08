@@ -1,0 +1,48 @@
+{
+  "id" : "irxn202",
+  "equation" : "2.0 h2o + h + icpd4715 <=> sucsal + ac + n2 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4715" : "",
+      "icpd1851" : "",
+      "icpd4016" : "2.0"
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd2454" : "",
+      "icpd5921" : "",
+      "icpd7343" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.29; EC-3.5.1.29",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01649"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.5.1.29-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5499" ],
+      "orphan" : "NO",
+      "gibbs" : -12.741882,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00750", "B6", "rn01120" ],
+      "orthologs" : [ "K18614" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

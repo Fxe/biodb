@@ -1,0 +1,42 @@
+{
+  "id" : "icpd6526",
+  "formula" : "C7H8O2",
+  "name" : "4-methylcatechol",
+  "synonyms" : [ "1,2-dihydroxy-4-methylbenzene", "1-methyl-3,4-dihydroxybenzene", "2-hydroxy-4-methylphenol", "3,4-dihydroxytoluene", "4-methyl-1,2-benzenediol", "4-methyl-1,2-dihydroxybenzene", "4-methyl-pyrocatechol", "4-methylbenzene-1,2-diol", "4-methylpyrocatechol", "5-methylcatechol", "p-methylcatechol", "p-methylpyrocatechol", "toluene-3,4-diol" ],
+  "alias" : "4mcat",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "4mcat"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06730"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-METHYLCATECHOL"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4mcat"
+  } ],
+  "inchi" : "InChI=1S/C7H8O2/c1-5-2-3-6(8)7(9)4-5/h2-4,8-9H,1H3",
+  "inchikey" : "ZBCATMYQYDCTIZ-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=C(C(=C1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-8612" ],
+      "instances" : [ "META:Catechols" ],
+      "reactions" : [ "META:RXN-8041", "META:RXN-11219", "META:RXN-8814", "META:RXN-16798", "META:M-CRESOL-METHYLCATECHOL-RXN", "META:TSDOSALCAL-RXN", "META:RXN-10079", "META:RXN-10078", "META:1.3.1.67-RXN", "META:RXN-10080" ],
+      "gibbs" : 31.15897,
+      "cmlMolWeight" : 124.139,
+      "molWeight" : 124.139,
+      "parents" : [ "META:Catechols" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   30.0566  -16.2438    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0043  -17.6431    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8331  -15.5590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2568  -15.5238    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8682  -18.3572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2978  -18.3280    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6330  -16.2790    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6506  -17.6781    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4094  -15.5941    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  2  0     0  0\n  7  9  1  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06730\n\n$$$$",
+  "reactions" : [ "irxn3496", "irxn597", "irxn6550", "irxn3405", "irxn1317" ]
+}

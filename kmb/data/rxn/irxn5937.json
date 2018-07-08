@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5937",
+  "equation" : "eicostetcoa + crn <=> coa + eicostetcrn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6570" : "",
+      "icpd4328" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd2423" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "EICOSTETCPT2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EICOSTETCPT2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EICOSTETCPT1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

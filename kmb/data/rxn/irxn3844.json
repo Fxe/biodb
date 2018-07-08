@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3844",
+  "equation" : "octdp + dhna <=> co2 + ppi + h + 2dmmq8",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7990" : "",
+      "icpd3578" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd1231" : "",
+      "icpd6736" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.74",
+  "otherNames" : [ ],
+  "alias" : "DHNAOT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05617"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHNAOT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00130", "rn01110" ],
+      "orthologs" : [ "K02548" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661", "iJR904", "iSB619" ]
+    }
+  }
+}

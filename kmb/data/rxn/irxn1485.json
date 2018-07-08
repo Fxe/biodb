@@ -1,0 +1,53 @@
+{
+  "id" : "irxn1485",
+  "equation" : "dgsn + atp <=> h + dgmp + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7994" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd8223" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.113; EC-2.7.1.113; EC-2.7.1.145; EC-2.7.1.74",
+  "otherNames" : [ ],
+  "alias" : "DGNSK",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DEOXYGUANOSINE-KINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DGNSKm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DGNSK"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01967"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DGDP", "META:DGTP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7224" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815857,
+      "uniprot" : [ "Q9CI71", "Q16854", "Q59484" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230" ],
+      "orthologs" : [ "K00904", "K15518" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNF517", "iMM1415", "RECON1", "iYO844" ]
+    }
+  }
+}

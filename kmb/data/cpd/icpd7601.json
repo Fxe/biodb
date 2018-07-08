@@ -1,0 +1,38 @@
+{
+  "id" : "icpd7601",
+  "formula" : "ClHO",
+  "name" : "hypochlorous acid",
+  "synonyms" : [ ],
+  "alias" : "CE4633",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12799"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE4633"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19697"
+  } ],
+  "inchi" : "InChI=1S/ClHO/c1-2/h2H",
+  "inchikey" : "QWPPOHNGKGFGJK-UHFFFAOYSA-N",
+  "smiles" : "Cl[O]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Inorganic-Compounds" ],
+      "reactions" : [ "META:RXN-11817", "META:RXN-11818" ],
+      "gibbs" : -31.228878,
+      "cmlMolWeight" : 52.46,
+      "molWeight" : 52.46,
+      "parents" : [ "META:Inorganic-Compounds" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   13.6500  -13.7200    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   15.0500  -13.7200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19697\n\n$$$$",
+  "reactions" : [ "irxn1436", "irxn1266" ]
+}

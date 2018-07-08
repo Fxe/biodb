@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2174",
+  "equation" : "h2o + rib__D + nadp <=> nadph + icpd462 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2719" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd462" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.115; 1.1.1.115",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RIBOSE-1-DEHYDROGENASE-NADP+-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01079"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -14.353638,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

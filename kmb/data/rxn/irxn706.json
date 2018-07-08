@@ -1,0 +1,49 @@
+{
+  "id" : "irxn706",
+  "equation" : "tol + o2 + nadh + h <=> nad + h2o + bzalc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd5185" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd6113" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.dw",
+  "otherNames" : [ ],
+  "alias" : "XMO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "XMO"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TOLUENE-SIDE-CHAIN-MONOOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TOLUENE-DEG-CATECHOL-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -91.89879,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

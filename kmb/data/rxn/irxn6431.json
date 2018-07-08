@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6431",
+  "equation" : "atp + thr__L <=> thrp + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7997" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd6594" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.177; EC-2.7.1.177",
+  "otherNames" : [ ],
+  "alias" : "LTHRK",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R06531"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LTHRK"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8626"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5443" ],
+      "orphan" : "NO",
+      "gibbs" : -16.155823,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860" ],
+      "orthologs" : [ "K16651" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iJN678", "STM_v1_0", "iJB785" ]
+    }
+  }
+}

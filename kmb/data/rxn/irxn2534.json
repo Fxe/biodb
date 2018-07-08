@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2534",
+  "equation" : "icpd741 + h2o + 2.0 nadp <=> 2.0 nadph + 3.0 h + icpd3646",
+  "stoichiometry" : {
+    "l" : {
+      "icpd741" : "",
+      "icpd4016" : "",
+      "icpd5537" : "2.0"
+    },
+    "r" : {
+      "icpd5432" : "2.0",
+      "icpd1851" : "3.0",
+      "icpd3646" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.186; 1.1.1.186",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DTDP-GALACTOSE-6-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07150"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -14.308228,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id" : "icpd393",
+  "formula" : "C4H4N2O2",
+  "name" : "uracil",
+  "synonyms" : [ "1,2,3,4-tetrahydropyrimidine-2,4-dione", "2,4-dihydroxypyrimidine", "2,4-dioxopyrimidine", "2,4-pyrimidinediol", "2,4-pyrimidinedione" ],
+  "alias" : "ura",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "ura"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00106"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ura"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:URACIL"
+  } ],
+  "inchi" : "InChI=1S/C4H4N2O2/c7-3-1-2-5-4(8)6-3/h1-2H,(H2,5,6,7,8)",
+  "inchikey" : "ISAKRJDGNUQOIC-UHFFFAOYSA-N",
+  "smiles" : "C1=CNC(=O)NC1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-7543", "META:URPHOS-RXN", "META:RXN-7541" ],
+      "instances" : [ "META:Pyrimidines", "META:Pyrimidine-Bases" ],
+      "reactions" : [ "META:TRANS-RXN0-560", "META:DIHYDROURACIL-DEHYDROGENASE-NAD+-RXN", "META:DIHYDROURACIL-OXIDASE-RXN", "META:1.3.1.2-RXN", "META:RXN-11048", "META:RXN-14700", "META:TRANS-RXN-132", "META:CYTDEAM-RXN", "META:URA-PHOSPH-RXN", "META:1.14.11.10-RXN", "META:RXN0-6444", "META:RXN0-2584", "META:RXN0-5398", "META:URACIL-PRIBOSYLTRANS-RXN", "META:RXN-7543", "META:URPHOS-RXN", "META:URIDINE-NUCLEOSIDASE-RXN", "META:RXN-7541", "META:RXN-5", "META:URACIL-5-CARBOXYLATE-DECARBOXYLASE-RXN", "META:URACIL-DEHYDROGENASE-RXN" ],
+      "gibbs" : -28.995518,
+      "cmlMolWeight" : 112.088,
+      "molWeight" : 112.088,
+      "parents" : [ "META:Pyrimidines", "META:Pyrimidine-Bases" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   25.4793  -18.6495    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2610  -17.9559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4793  -20.0543    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0602  -18.6554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2610  -16.5568    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2726  -20.7598    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6977  -20.7481    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0602  -20.0603    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  2  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00106\n\n$$$$",
+  "reactions" : [ "irxn2607", "irxn1255", "irxn1982", "irxn4126", "irxn6549", "irxn3843", "irxn389", "irxn6688", "irxn345", "irxn1155", "irxn1082", "irxn3054", "irxn5240", "irxn6484", "irxn5360", "irxn733" ]
+}

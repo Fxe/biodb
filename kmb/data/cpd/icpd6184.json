@@ -1,0 +1,34 @@
+{
+  "id" : "icpd6184",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "crm_hs",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Ceramides"
+  }, {
+    "source" : "BiGG",
+    "entry" : "crm_hs"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "crm_hs"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:SPHINGOSINE-N-ACYLTRANSFERASE-RXN", "META:RXN-11375", "META:ENDOGLYCOSYLCERAMIDASE-RXN", "META:CERAMIDE-KINASE-RXN", "META:RXN-18272", "META:2.7.8.27-RXN", "META:SPHINGOMYELIN-PHOSPHODIESTERASE-RXN", "META:CERAMIDE-CHOLINEPHOSPHOTRANSFERASE-RXN" ],
+      "parents" : [ "META:Inositol-Phosphoceramides", "META:Plant-Ceramides-IV", "META:CPD-502", "META:Sphing-4-8-10-trienine-ceramides", "META:SPHINGOLIPIDS", "META:N-Acylsphingosine", "META:CPD3DJ-82", "META:Phytoceramides", "META:Sphing-8-enine-ceramides", "META:9-Methyl-sphing-4-8-dienine-ceramides", "META:Sphinga-4-8-dienine-Ceramides" ]
+    },
+    "bigg" : {
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn860", "irxn4339", "irxn2532", "irxn4855" ]
+}

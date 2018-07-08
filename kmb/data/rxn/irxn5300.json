@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5300",
+  "equation" : "mi34p + h2o <=> 338692 + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5915" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "338692" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "IBPHn",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "IBPHn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MI34PP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

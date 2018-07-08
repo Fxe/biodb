@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1943",
+  "equation" : "icpd1148 <=> mescon + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1148" : ""
+    },
+    "r" : {
+      "icpd5745" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.34; 4.2.1.34",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:S-2-METHYLMALATE-DEHYDRATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03693"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:SUC", "META:TARTRATE", "META:CPD-660" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5087" ],
+      "orphan" : null,
+      "gibbs" : 1.4730072,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "C5", "rn00660" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

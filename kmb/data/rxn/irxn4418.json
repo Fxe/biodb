@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4418",
+  "equation" : "cob + mcom <=> hsfd + ch4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4941" : "",
+      "icpd5149" : ""
+    },
+    "r" : {
+      "icpd2461" : "",
+      "icpd4650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.4.1; EC-2.8.4.1",
+  "otherNames" : [ ],
+  "alias" : "MCR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MCR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04541"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYL-COM-HTP-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-19053", "META:CPD-19585", "META:CPD-19589", "META:CPD-19588", "META:CPD-19587", "META:CPD-19586" ],
+      "activators" : [ "META:CPD-19584", "META:ATP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:METHFORM-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -8.8723755,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00680" ],
+      "orthologs" : [ "K00401", "K00402", "K00399" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

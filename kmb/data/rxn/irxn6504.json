@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6504",
+  "equation" : "nad + 2hb <=> 2obut + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd5585" : ""
+    },
+    "r" : {
+      "icpd3298" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.27",
+  "otherNames" : [ ],
+  "alias" : "2HBO",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01000"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "2HBO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640" ],
+      "orthologs" : [ "K00016" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM904", "RECON1" ]
+    }
+  }
+}

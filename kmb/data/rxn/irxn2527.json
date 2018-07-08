@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2527",
+  "equation" : "spmd + o2 + h2o <=> ptrc + h2o2 + aproa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd7650" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd4748" : "",
+      "icpd4511" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.5.3.17; 1.5.3.17",
+  "otherNames" : [ ],
+  "alias" : "SDOOR_c",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09077"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SDOOR_c"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12089"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GUAZATINE", "META:CPD-12210", "META:PUTRESCINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6441" ],
+      "orphan" : "NO",
+      "gibbs" : -22.204742,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410", "rn00330" ],
+      "orthologs" : [ "K13367", "K17839" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

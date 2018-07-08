@@ -1,0 +1,46 @@
+{
+  "id" : "irxn125",
+  "equation" : "icpd673 + amet <=> ahcys + icpd7241 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd673" : ""
+    },
+    "r" : {
+      "icpd7241" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.102; EC-2.1.1.102",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DEMETHYLMACROCIN-O-METHYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02859"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7415" ],
+      "orphan" : "NO",
+      "gibbs" : -4.3600464,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01130", "rn00522" ],
+      "orthologs" : [ "K15995" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

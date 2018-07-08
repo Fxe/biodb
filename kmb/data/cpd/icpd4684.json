@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4684",
+  "formula" : "C6H5ClO4",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4684",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11210"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16266"
+  } ],
+  "inchi" : "InChI=1S/C6H5ClO4/c7-4(2-1-3-8)5(9)6(10)11/h1-3,9H,(H,10,11)/b2-1-,5-4-",
+  "inchikey" : "JLQFJRRWDWBGRV-OIFXTYEKSA-N",
+  "smiles" : "C(=C/C(=C(\\C(=O)O)/O)/Cl)/C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ACYLCHLORIDE" ],
+      "reactions" : [ "META:RXN-10419", "META:RXN-10420" ],
+      "gibbs" : -77.74758,
+      "cmlMolWeight" : 175.548,
+      "molWeight" : 175.548,
+      "parents" : [ "META:ACYLCHLORIDE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   23.6291  -23.3001    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8395  -22.6035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0496  -23.3001    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2600  -22.5965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2529  -21.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4632  -20.4856    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6735  -21.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4602  -19.0853    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6664  -22.5895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8893  -20.4893    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8151  -20.4272    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0     0  0\n  5  6  2  0     0  0\n  1  2  2  0     0  0\n  6  7  1  0     0  0\n  3  4  2  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  4  5  1  0     0  0\n  7 10  2  0     0  0\n  5 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16266\n\n$$$$",
+  "reactions" : [ "irxn3959" ]
+}

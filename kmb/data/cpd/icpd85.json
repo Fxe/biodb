@@ -1,0 +1,31 @@
+{
+  "id" : "icpd85",
+  "formula" : "C4H7Cl2O4P",
+  "name" : "dichlorvos",
+  "synonyms" : [ "2,2-dichloroethenol dimethyl phosphate", "2,2-dichloroethenyl dimethyl phosphate", "2,2-dichlorovinyl alcohol dimethyl phosphate", "2,2-dichlorovinyl dimethyl phosphate, 8ci", "dichloroethenyl dimethyl phosphate", "dimethyl 2,2-dichloroethenyl phosphate", "dimethyl 2,2-dichlorovinyl phosphate", "dimethyl dichlorovinyl phosphate", "o,o-dimethyl 2,2-dichlorovinyl phosphate", "o,o-dimethyl dichlorovinyl phosphate", "o-(2,2-dichloroethenyl) o,o-dimethyl phosphate, 9ci", "phosphoric acid 2,2-dichloroethenyl dimethyl ester", "phosphoric acid 2,2-dichlorovinyl dimethyl ester" ],
+  "alias" : "icpd85",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10185"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C14430"
+  } ],
+  "inchi" : "InChI=1S/C4H7Cl2O4P/c1-8-11(7,9-2)10-3-4(5)6/h3H,1-2H3",
+  "inchikey" : "OEBRKCOSUFCWJD-UHFFFAOYSA-N",
+  "smiles" : "COP(=O)(OC)OC=C(Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-9493", "META:RXN-9488" ],
+      "gibbs" : -175.26216,
+      "cmlMolWeight" : 220.977,
+      "molWeight" : 220.977
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   27.0200  -13.7200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0200  -15.0500    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   28.2800  -15.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0200  -16.5200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4100  -15.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2800  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3800  -13.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9800  -13.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0100  -12.7400    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   31.0800  -15.1200    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   25.8300  -13.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  4  6  1  0     0  0\n  7  8  2  0     0  0\n  3  8  1  0     0  0\n  7  9  1  0     0  0\n  7 10  1  0     0  0\n  1 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C14430\n\n$$$$",
+  "reactions" : [ ]
+}

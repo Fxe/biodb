@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4699",
+  "equation" : "icpd5494 + amet <=> ahcys + icpd777",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd5494" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd777" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.109; 2.1.1.109",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.1.1.109-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03112"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5956" ],
+      "orphan" : "NO",
+      "gibbs" : 6.1879883,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00254" ],
+      "orthologs" : [ "K17649" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

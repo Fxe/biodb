@@ -1,0 +1,43 @@
+{
+  "id" : "irxn2626",
+  "equation" : "icpd3835 <=> xylu__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3835" : ""
+    },
+    "r" : {
+      "icpd647" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.1.15; 5.3.1.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-LYXOSE-KETOL-ISOMERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01898"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -0.94,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00040" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

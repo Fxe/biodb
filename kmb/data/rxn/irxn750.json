@@ -1,0 +1,46 @@
+{
+  "id" : "irxn750",
+  "equation" : "h2o + h + ribflv <=> rbt + icpd383",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6271" : "",
+      "icpd1851" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7847" : "",
+      "icpd383" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.99.1; 3.5.99.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RIBOFLAVINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01732"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -23.967888,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00740" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

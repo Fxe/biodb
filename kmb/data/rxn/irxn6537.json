@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6537",
+  "equation" : "h2o + icpd1588 <=> h + malon + urea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1588" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd269" : "",
+      "icpd1851" : "",
+      "icpd6988" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.95; 3.5.1.95",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07629"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.5.1.95-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6426" ],
+      "orphan" : null,
+      "gibbs" : -12.801254,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00240" ],
+      "orthologs" : [ "K19795" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

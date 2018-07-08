@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3257",
+  "equation" : "s + icpd118 <=> cystrna + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd118" : "",
+      "icpd5284" : ""
+    },
+    "r" : {
+      "icpd2622" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.73; 2.5.1.73",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10719"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08577"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6308" ],
+      "orphan" : "NO",
+      "gibbs" : -9.824585,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00970" ],
+      "orthologs" : [ "K06868" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

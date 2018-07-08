@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4638",
+  "equation" : "nad + 3hacoa <=> 3oacoa + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd158" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd3244" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.211; 1.1.1.35",
+  "otherNames" : [ ],
+  "alias" : "HACDp",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HACDp"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01778"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00062" ],
+      "orthologs" : [ "K00022", "K07515" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750" ]
+    }
+  }
+}

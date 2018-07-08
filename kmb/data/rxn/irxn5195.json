@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5195",
+  "equation" : "h2o + icpd7692 <=> icpd4532 + glc__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7692" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4532" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.118; EC-3.2.1.118; 3.2.1.21",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02558"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PRUNASIN-BETA-GLUCOSIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-14609" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6011" ],
+      "orphan" : "NO",
+      "gibbs" : -3.1130066,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00460", "rn01110" ],
+      "orthologs" : [ "K05349", "K01188", "K05350", "K13032" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

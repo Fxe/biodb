@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1284",
+  "equation" : "tol + o2 + nadh + h <=> nad + h2o + 4crsol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd5185" : ""
+    },
+    "r" : {
+      "icpd2940" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.236; 1.14.13.236",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05666"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TOLUENE-4-MONOOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TOLUENE-DEG-3-OH-PWY", "META:TOLUENE-DEG-4-OH-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -96.82883,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00623" ],
+      "orthologs" : [ "K15764", "K15765", "K15762", "K15763", "K15760", "K15761" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

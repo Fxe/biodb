@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5356",
+  "equation" : "coa + adrncrn <=> adrncoa + crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6809" : "",
+      "icpd2377" : ""
+    },
+    "r" : {
+      "icpd8074" : "",
+      "icpd6570" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ADRNCPT2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ADRNCPT1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ADRNCPT2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

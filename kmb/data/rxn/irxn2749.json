@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2749",
+  "equation" : "lpam + 3mob + h <=> 2mpdhl + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd5052" : "",
+      "icpd1945" : ""
+    },
+    "r" : {
+      "icpd213" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "r0385",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "3M2OBLOXRD"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0385"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iSB619" ]
+    }
+  }
+}

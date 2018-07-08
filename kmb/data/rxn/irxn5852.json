@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5852",
+  "equation" : "2ddglcn <=> pyr + glyald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3784" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd5552" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2.51; 4.1.2.51; 4.1.2.55",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DHDOGALDOL-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08570"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:OH-PYR" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:NPGLUCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 2.6399994,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00030" ],
+      "orthologs" : [ "K11395", "K18127" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

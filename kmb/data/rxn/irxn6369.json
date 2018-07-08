@@ -1,0 +1,53 @@
+{
+  "id" : "irxn6369",
+  "equation" : "h2o + 3hpcoa <=> coa + h + 3hpp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3125" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd3114" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.2.4; EC-3.1.2.4",
+  "otherNames" : [ ],
+  "alias" : "r0596",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-6384"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03158"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3HPCOAHYD"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0596"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7574", "META:PWY-3941" ],
+      "orphan" : "NO",
+      "gibbs" : -8.917175,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn00410", "rn01100", "rn01200" ],
+      "orthologs" : [ "K05605" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

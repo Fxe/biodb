@@ -1,0 +1,34 @@
+{
+  "id" : "icpd449",
+  "formula" : "C5H5NO3",
+  "name" : "2,3,6-trihydroxypyridine",
+  "synonyms" : [ "6,3-dihydroxy-2-pyridinone" ],
+  "alias" : "icpd449",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03458"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-2301"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14083"
+  } ],
+  "inchi" : "InChI=1S/C5H5NO3/c7-3-1-2-4(8)6-5(3)9/h1-2,7H,(H2,6,8,9)",
+  "inchikey" : "YXJHZIOEJRCYHK-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C(=NC(=C1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.14.13.10-RXN", "META:RXN-13070" ],
+      "gibbs" : -40.2144,
+      "cmlMolWeight" : 127.099,
+      "molWeight" : 127.099
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   19.6371  -14.0795    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6371  -15.4877    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4148  -13.3820    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8403  -13.3820    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4148  -16.1979    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8403  -16.1788    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2115  -14.0795    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2115  -15.4877    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0020  -13.3820    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  7  9  1  0     0  0\n  7  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03458\n\n$$$$",
+  "reactions" : [ "irxn2694" ]
+}

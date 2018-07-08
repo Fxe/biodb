@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5581",
+  "equation" : "h2o + glycogen <=> glc__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3017" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GLCGSD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GLCGSD"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLCGSDv"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iMM904" ]
+    }
+  }
+}

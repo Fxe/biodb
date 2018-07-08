@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3308",
+  "equation" : "8.0 fdxrd + 16.0 h2o + n2 + 8.0 h + 16.0 atp <=> 16.0 pi + h2 + 16.0 adp + 8.0 fdxox",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "8.0",
+      "icpd7085" : "",
+      "icpd4016" : "16.0",
+      "icpd930" : "8.0",
+      "icpd6530" : "16.0"
+    },
+    "r" : {
+      "icpd321" : "8.0",
+      "icpd5753" : "16.0",
+      "icpd7485" : "16.0",
+      "icpd3917" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.18.6.1; 1.18.6.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05185"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NITROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HCN", "META:ACETYLENE", "META:NITRITE", "META:CARBON-MONOXIDE", "META:ADP", "META:NITROUS-OXIDE", "META:CPD-19556", "META:NITRIC-OXIDE", "META:HYDROGEN-MOLECULE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:N2FIX-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -69.48535,
+      "uniprot" : [ "P08718", "P08717", "Q43964", "P16857", "P10996", "P16856", "P16855", "Q47885", "P17303", "P12781", "P06661", "P09772", "P06662", "Q44526", "P19066", "P19067", "Q02452", "P19068", "Q44485", "Q52703", "Q59739", "Q52704", "Q51296", "Q51297", "P06117", "P06119", "P07329", "Q58289", "P07328", "Q43905", "P06118", "Q52693", "P06121", "P26254", "P26250", "P26252", "P26251", "Q47933", "Q47932", "P71526", "Q50788", "P71527", "P25314", "P25313", "P26248", "O26739", "P71156", "Q00240", "P15333", "P16268", "P15332", "Q46244", "P16267", "P16266", "Q50218", "Q00239", "P15052", "P25767", "P00468", "P00466", "P00467", "P00464", "P00465", "P00462", "P00460", "P00461", "Q07942", "Q44563", "P15335", "P15334", "P16269", "P22548", "Q07934", "Q04028", "Q07935", "P26507", "P00459", "Q07933", "P00457", "P00458", "P00456", "P08738", "P71330", "P19077", "P19078", "P11347", "O27605", "Q44484", "Q44121", "P09553", "P09554", "P09552", "P09555", "Q57302", "P08624", "P08625", "P20622", "P20623", "P22921", "P20620", "P20621", "Q53179" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00910" ],
+      "orthologs" : [ "K02586", "K02591", "K00531", "K02588" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

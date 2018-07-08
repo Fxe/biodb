@@ -1,0 +1,37 @@
+{
+  "id" : "icpd7744",
+  "formula" : "C5H10O5",
+  "name" : "l-xylose",
+  "synonyms" : [ "l-xylo-pentose" ],
+  "alias" : "icpd7744",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-XYLOSE"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15378"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01510"
+  } ],
+  "inchi" : "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4+,5+/m1/s1",
+  "inchikey" : "PYMYPHUHKUWMLA-WISUUJSJSA-N",
+  "smiles" : "C(=O)[C@]([H])([C@@]([H])([C@]([H])(CO)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN0-6373" ],
+      "instances" : [ "META:CPD-15378" ],
+      "reactions" : [ "META:RXN-14504" ],
+      "gibbs" : -76.8288,
+      "cmlMolWeight" : 150.131,
+      "molWeight" : 150.131,
+      "parents" : [ "META:D-L-Xylose", "META:Aldopentoses", "META:L-xylopyranose", "META:CPD-15378" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   20.7900  -16.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1900  -16.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6226  -15.1185    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4900  -14.2956    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3574  -15.1185    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8351  -14.4185    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1799  -17.4399    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0900  -17.6624    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1449  -14.4185    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9325  -15.1185    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  1  4     0  0\n  2  7  1  1     0  0\n  1  8  1  6     0  0\n  5  9  1  6     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01510\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2795",
+  "equation" : "ac + ppi <=> actp + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5921" : "",
+      "icpd1231" : ""
+    },
+    "r" : {
+      "icpd631" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.2.12; EC-2.7.2.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETATE-KINASE-PYROPHOSPHATE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00320"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 4.774048,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00620" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

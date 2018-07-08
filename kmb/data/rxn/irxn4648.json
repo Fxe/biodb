@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4648",
+  "equation" : "3.0 no2 + 2.0 h <=> 2.0 no + no3 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "2.0",
+      "icpd7710" : "3.0"
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd6911" : "",
+      "icpd4286" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.7.6.1; 1.7.6.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09751"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12316"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 24.811249,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

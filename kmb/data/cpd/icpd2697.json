@@ -1,0 +1,42 @@
+{
+  "id" : "icpd2697",
+  "formula" : "C4H7O2",
+  "name" : "butyrate",
+  "synonyms" : [ "1-butanoate", "1-propanecarboxylate", "butanate", "butanoate", "n-butanoate", "n-butyrate", "propanecarboxylate" ],
+  "alias" : "but",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00246"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "but"
+  }, {
+    "source" : "BiGG",
+    "entry" : "but"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BUTYRIC_ACID"
+  } ],
+  "inchi" : "InChI=1S/C4H8O2/c1-2-3-4(5)6/h2-3H2,1H3,(H,5,6)/p-1",
+  "inchikey" : "FERIUCNNQQJTOY-UHFFFAOYSA-M",
+  "smiles" : "CCCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TRANS-RXN0-571" ],
+      "instances" : [ "META:Saturated-Fatty-Acids", "META:Short-chain-fatty-acids" ],
+      "reactions" : [ "META:RXN-17643", "META:RXN-12086", "META:RXN-13157", "META:2-ENOATE-REDUCTASE-RXN", "META:PHORBOL-DIESTER-HYDROLASE-RXN", "META:RXN-10043", "META:BETA-DIKETONE-HYDROLASE-RXN", "META:2.8.3.9-RXN", "META:R11-RXN", "META:BUTYRATE-KINASE-RXN" ],
+      "gibbs" : -12.694215,
+      "cmlMolWeight" : 87.098,
+      "molWeight" : 87.098,
+      "parents" : [ "META:Saturated-Fatty-Acids", "META:Short-chain-fatty-acids" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   25.6079  -16.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4028  -16.1935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8246  -16.1935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1862  -16.8921    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4028  -14.7905    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0356  -16.8921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00246\n\n$$$$",
+  "reactions" : [ "irxn4388", "irxn4014", "irxn6276", "irxn3804", "irxn1479", "irxn1316", "irxn527" ]
+}

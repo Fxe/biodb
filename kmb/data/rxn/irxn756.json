@@ -1,0 +1,45 @@
+{
+  "id" : "irxn756",
+  "equation" : "paps + icpd1250 <=> icpd3630 + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd1250" : ""
+    },
+    "r" : {
+      "icpd3630" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.2.16; EC-2.8.2.16",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:THIOL-SULFOTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01236"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -2.27,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

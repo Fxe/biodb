@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5625",
+  "equation" : "h2o + chols <=> so4 + chol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1734" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3647" : "",
+      "icpd5748" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.6.6; EC-3.1.6.6",
+  "otherNames" : [ ],
+  "alias" : "CHOLSH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CHOLINE-SULFATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01028"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHOLSH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Pi" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P542-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -52.615376,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

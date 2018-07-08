@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1283",
+  "formula" : "C5H4O6",
+  "name" : "(s)-2-hydroxy-4-oxopentanedioate",
+  "synonyms" : [ "(4s)-4-hydroxy-2-oxoglutarate", "l-4-hydroxy-2-ketoglutarate", "l-4-hydroxy-2-oxoglutarate" ],
+  "alias" : "icpd1283",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15016"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20485"
+  } ],
+  "inchi" : "InChI=1S/C5H6O6/c6-2(4(8)9)1-3(7)5(10)11/h2,6H,1H2,(H,8,9)(H,10,11)/p-2/t2-/m0/s1",
+  "inchikey" : "WXSKVKPSMAHCSG-REOHCLBHSA-L",
+  "smiles" : "C([C@@]([H])(C(=O)[O-])O)C(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-15015" ],
+      "reactions" : [ "META:RXN-13990" ],
+      "gibbs" : -187.10376,
+      "cmlMolWeight" : 160.083,
+      "molWeight" : 160.083,
+      "parents" : [ "META:CPD-15015" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n    8.9600  -15.4700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.1724  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.3849  -15.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5973  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8097  -15.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0222  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2346  -15.4700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.1724  -17.5698    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.3849  -14.0702    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0222  -17.5697    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8097  -14.0701    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  3  9  2  0     0  0\n  6 10  2  0     0  0\n  5 11  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C20485\n\n$$$$",
+  "reactions" : [ "irxn3060" ]
+}

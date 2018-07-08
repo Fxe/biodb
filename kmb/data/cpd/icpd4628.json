@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4628",
+  "formula" : "C8H13NO3",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4628",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11837"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10784"
+  } ],
+  "inchi" : "InChI=1S/C8H13NO3/c1-2-3-7(10)9-6-4-5-12-8(6)11/h6H,2-5H2,1H3,(H,9,10)",
+  "inchikey" : "VFFNZZXXTGXBOG-UHFFFAOYSA-N",
+  "smiles" : "CCCC(=NC1CCOC1=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Acyl-homoserine-lactones" ],
+      "reactions" : [ "META:RXN-10050", "META:RXN-10043", "META:RXN-10024" ],
+      "gibbs" : 39.164566,
+      "cmlMolWeight" : 171.196,
+      "molWeight" : 171.196,
+      "parents" : [ "META:Acyl-homoserine-lactones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   39.3883  -22.4475    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   40.5071  -23.2993    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   41.6591  -22.4934    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   41.2506  -21.1595    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   39.8504  -21.1242    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2143  -23.0247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.4268  -22.3127    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.6537  -23.0108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   36.8729  -22.2992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.0996  -22.9975    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   36.8592  -20.8885    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   40.5105  -24.6371    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  6  7  1  0     0  0\n  2  3  1  0     0  0\n  7  8  1  0     0  0\n  3  4  1  0     0  0\n  8  9  1  0     0  0\n  4  5  1  0     0  0\n  9 10  1  0     0  0\n  1 10  1  1     0  0\n  5  1  1  0     0  0\n  9 11  2  0     0  0\n  2 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11837\n\n$$$$",
+  "reactions" : [ ]
+}

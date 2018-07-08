@@ -1,0 +1,54 @@
+{
+  "id" : "irxn1135",
+  "equation" : "N1aspmd + o2 + h2o <=> ptrc + 3aap + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd3219" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd1235" : "",
+      "icpd4511" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.3.13; EC-1.5.3.17; 1.5.3.17; EC-1.5.3.13",
+  "otherNames" : [ ],
+  "alias" : "RE1537X",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09074"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE1537C"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE1537X"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12091"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-10696", "META:CPD-10695" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6117" ],
+      "orphan" : "NO",
+      "gibbs" : -23.453003,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K13367", "N1", "K00308" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

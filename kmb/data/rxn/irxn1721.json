@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1721",
+  "equation" : "icpd7732 + h2o <=> for + icpd5846",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7732" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1650" : "",
+      "icpd5846" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.88; EC-3.5.1.88",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3.5.1.88-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05635"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1708", "META:HYDROGEN-PEROXIDE", "META:CPD0-1360", "META:CPD0-1358", "META:CPD0-1359", "META:O-PHENANTHROLINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -10.148247,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

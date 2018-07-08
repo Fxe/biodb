@@ -1,0 +1,56 @@
+{
+  "id" : "irxn3569",
+  "equation" : "nad + pro__L <=> nadh + 1pyr5c + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd4081" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd6322" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.2",
+  "otherNames" : [ ],
+  "alias" : "PRO1x",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "P5CRxm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PRO1x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PRO1xm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "P5CRx"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01248"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100", "rn01230", "rn01110", "rn01130" ],
+      "orthologs" : [ "K00286" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iND750", "iNJ661", "iMM1415", "iJN678", "iMM904", "iAT_PLT_636", "RECON1", "iHN637", "iYO844" ]
+    }
+  }
+}

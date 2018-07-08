@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6055",
+  "equation" : "7mhp + atp + thr__L <=> 7mht + h + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7997" : "",
+      "icpd3363" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3355" : "",
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "7MHTS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "7MHTS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08323"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:R226-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P241-PWY" ],
+      "orphan" : null,
+      "gibbs" : -8.475891,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00680", "rn01120" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

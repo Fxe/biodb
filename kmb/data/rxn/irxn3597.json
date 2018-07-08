@@ -1,0 +1,59 @@
+{
+  "id" : "irxn3597",
+  "equation" : "nad + lac__L <=> nadh + pyr + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd5544" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.27; 1.1.1.27",
+  "otherNames" : [ ],
+  "alias" : "LLDHh",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LLDHh"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-LACTATE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0173"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LDH_L"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LDH_Lm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00703"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GTP", "META:CO+2", "META:ATP", "META:PHOSPHO-ENOL-PYRUVATE", "META:ZN+2", "META:MN+2", "META:CD+2", "META:NAD", "META:UTP", "META:CPD-2961", "META:ADP", "META:OXALATE", "META:OXAMATE", "META:DIHYDROXY-ACETONE-PHOSPHATE" ],
+      "activators" : [ "META:G3P", "META:FRUCTOSE-16-DIPHOSPHATE", "META:CPD-536" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5481", "META:P122-PWY", "META:P124-PWY", "META:PWY-6901" ],
+      "orphan" : "NO",
+      "gibbs" : 3.7617798,
+      "uniprot" : [ "Q9CII4", "P56512", "P56511", "P13743", "P50933", "P33232", "Q48662", "P14561", "Q96570", "P07195", "P00345", "P00343", "P00344", "P00341", "P00342", "P04642", "P00340", "Q9SBE4", "P13714", "P13715", "Q06176", "Q27888", "P22989", "P22988", "P19858", "P06151", "P00338", "P00339", "P06150", "P00336", "P46454", "P00337", "Q96569", "Q62545", "Q07251", "P29038", "P26283", "Q9CGG8", "Q60009", "P20619", "P10655", "O23569", "P16115", "P16125", "P0C0J3", "P42123", "P19869", "P13491", "P42121", "P19629", "P42120", "P13490", "P47698", "Q9PNC8", "P20373", "Q59244", "Q01462", "Q60176", "Q9ZRJ5", "Q7M1E1", "P33571", "P42119", "P04034", "P07864", "O81272" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01110", "rn00010", "rn01130", "rn00620" ],
+      "orthologs" : [ "K00016" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNF517", "iCHOv1", "iAT_PLT_636", "iAB_RBC_283", "iYO844", "iLJ478", "iPC815", "iRC1080", "iNJ661", "iMM1415", "RECON1", "iSB619" ]
+    }
+  }
+}

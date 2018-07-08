@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3602",
+  "equation" : "icpd7676 + akg <=> icpd4499 + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd7676" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd4499" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1; 2.6.1.65",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04029"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETCAPR-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LYSDEGII-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 1.324089,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

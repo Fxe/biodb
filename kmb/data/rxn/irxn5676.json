@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5676",
+  "equation" : "h2o + succoa <=> coa + succ + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5739" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.2.3; EC-3.1.2.3",
+  "otherNames" : [ ],
+  "alias" : "SUCCOAPET",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00407"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SUCCOAPET"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SUCCINYL-COA-HYDROLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -6.5448,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

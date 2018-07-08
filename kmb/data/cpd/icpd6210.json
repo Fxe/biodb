@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6210",
+  "formula" : "C5H9O4S2",
+  "name" : "2-(2-oxopropylthio)ethanesulfonate",
+  "synonyms" : [ ],
+  "alias" : "icpd6210",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11497"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-OXOPROPYL-COM"
+  } ],
+  "inchi" : "InChI=1S/C5H10O4S2/c1-5(6)4-10-2-3-11(7,8)9/h2-4H2,1H3,(H,7,8,9)/p-1",
+  "inchikey" : "CRNXHFXAXBWIRH-UHFFFAOYSA-M",
+  "smiles" : "CC(=O)CSCCS(=O)(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.8.1.5-RXN", "META:1.1.1.269-RXN", "META:1.1.1.268-RXN" ],
+      "gibbs" : -24.691967,
+      "cmlMolWeight" : 197.244,
+      "molWeight" : 197.244
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   26.4216  -19.5568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6348  -20.2479    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8480  -19.5497    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0541  -20.2408    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2672  -19.5426    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4804  -20.2339    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0181  -19.5568    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   31.2602  -18.1391    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0110  -18.1531    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6145  -19.5497    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0110  -20.9603    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  1  0     0  0\n  1  2  1  0     0  0\n  1  7  1  0     0  0\n  3  4  1  0     0  0\n  5  8  2  0     0  0\n  7  9  2  0     0  0\n  4  5  1  0     0  0\n  7 10  2  0     0  0\n  2  3  1  0     0  0\n  7 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11497\n\n$$$$",
+  "reactions" : [ "irxn3250", "irxn77", "irxn3093" ]
+}

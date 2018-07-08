@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7144",
+  "formula" : "C4H8N2O4",
+  "name" : "(3s)-3-hydroxy-l-asparagine",
+  "synonyms" : [ "(2s,3s)-3-hydroxyasparagine" ],
+  "alias" : "icpd7144",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20631"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15117"
+  } ],
+  "inchi" : "InChI=1S/C4H8N2O4/c5-1(4(9)10)2(7)3(6)8/h1-2,7H,5H2,(H2,6,8)(H,9,10)/t1-,2-/m0/s1",
+  "inchikey" : "VQTLPSCRBFYDNX-LWMBPPNESA-N",
+  "smiles" : "[C@]([H])([C@@]([H])(C(=N)O)O)(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Uncharged-polar-amino-acids", "META:L-Amino-Acids" ],
+      "reactions" : [ "META:RXN-14123" ],
+      "gibbs" : -79.181046,
+      "cmlMolWeight" : 148.118,
+      "molWeight" : 148.118,
+      "parents" : [ "META:Uncharged-polar-amino-acids", "META:L-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   17.9875  -16.4718    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   19.1938  -15.8332    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4000  -16.4718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6772  -15.8332    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4009  -17.8908    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7814  -15.8332    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5752  -16.5428    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7814  -14.4141    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1938  -14.4141    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9875  -17.8908    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  2  9  1  6     0  0\n  1 10  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C20631\n\n$$$$",
+  "reactions" : [ "irxn2488" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2351",
+  "equation" : "o2 + gly <=> h2o2 + 335797",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd855" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "335797" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GLYCOX1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GLYCOX1_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLYCOX1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

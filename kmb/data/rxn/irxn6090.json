@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6090",
+  "equation" : "gly + akg <=> glx + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd855" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd941" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.4; EC-2.6.1.4; 2.6.1.44",
+  "otherNames" : [ ],
+  "alias" : "GLYTA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GLYTA_1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCINE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLYTA"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00372"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-181" ],
+      "orphan" : "NO",
+      "gibbs" : 2.694107,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100", "rn01200", "rn01110", "rn00260", "rn01130" ],
+      "orthologs" : [ "K00827", "K14272", "K00830" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iAF987" ]
+    }
+  }
+}

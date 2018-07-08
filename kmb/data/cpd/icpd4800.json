@@ -1,0 +1,34 @@
+{
+  "id" : "icpd4800",
+  "formula" : "C9H13NO3",
+  "name" : "(r)-(-)-adrenaline",
+  "synonyms" : [ "(r)-4-[1-hydroxy-2-(methylamino)ethyl]-1,2-benzenediol", "(r)-adrenaline", "4-[(1r)-1-hydroxy-2-(methylamino)ethyl]-1,2-benzenediol", "4-[(1r)-1-hydroxy-2-(methylamino)ethyl]benzene-1,2-diol" ],
+  "alias" : "icpd4800",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00788"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-EPINEPHRINE"
+  } ],
+  "inchi" : "InChI=1S/C9H13NO3/c1-10-5-9(13)6-2-3-7(11)8(12)4-6/h2-4,9-13H,5H2,1H3/t9-/m0/s1",
+  "inchikey" : "UCTWMZQNUQWSLP-VIFPVBQESA-N",
+  "smiles" : "CNC[C@@]([H])(C1=CC=C(C(=C1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN" ],
+      "instances" : [ "META:Catechols" ],
+      "reactions" : [ "META:RXN66-241", "META:RXN-10909", "META:RXN-10908" ],
+      "gibbs" : 63.623623,
+      "cmlMolWeight" : 184.214,
+      "molWeight" : 184.214,
+      "parents" : [ "META:Catechols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  1  0  0  0  0  0999 V2000\n   21.2028  -17.0133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2028  -18.4284    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9857  -16.3144    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4083  -16.3144    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   19.9857  -19.1389    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7742  -17.0133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6196  -17.0075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4083  -14.9168    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7742  -18.4284    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8191  -16.3087    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5630  -19.1156    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5677  -16.3165    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0284  -17.0006    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  4  8  1  1     0  0\n  5  9  2  0     0  0\n  7 10  1  0     0  0\n  9 11  1  0     0  0\n  6  9  1  0     0  0\n  6 12  1  0     0  0\n  1  2  2  0     0  0\n 10 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00788\n\n$$$$",
+  "reactions" : [ "irxn4179", "irxn4174", "irxn5308" ]
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4790",
+  "equation" : "5forthf + h <=> n2 + methf",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2463" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd3975" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.3.1.4",
+  "otherNames" : [ ],
+  "alias" : "FTCD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FTAL"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FTCD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02302"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00670" ],
+      "orthologs" : [ "K13990", "K01746" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

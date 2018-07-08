@@ -1,0 +1,39 @@
+{
+  "id" : "icpd4288",
+  "formula" : "C5H6N2O",
+  "name" : "imidazole-4-acetaldehyde",
+  "synonyms" : [ "(imidazol-4-yl)acetaldehyde", "1h-imidazole-4-acetaldehyde", "1h-imidazole-5-acetaldehyde", "2-(1h-imidazol-5-yl)acetaldehyde", "2-(3h-imidazol-4-yl)acetaldehyde", "4-imidazolylacetaldehyde" ],
+  "alias" : "im4act",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:IMIDAZOLE_ACETALDEHYDE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "im4act"
+  }, {
+    "source" : "BiGG",
+    "entry" : "im4act"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05130"
+  } ],
+  "inchi" : "InChI=1S/C5H6N2O/c8-2-1-5-3-6-4-7-5/h2-4H,1H2,(H,6,7)",
+  "inchikey" : "MQSRGWNVEZRLDK-UHFFFAOYSA-N",
+  "smiles" : "C(C=O)C1=CNC=N1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9600", "META:RXN-10089" ],
+      "gibbs" : 58.056725,
+      "cmlMolWeight" : 110.115,
+      "molWeight" : 110.115
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iUMNK88_1353", "iRC1080", "iWFL_1372", "iMM1415", "iNRG857_1313", "iECW_1372", "iJN678", "RECON1", "iECNA114_1301", "iLF82_1304" ]
+    }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   21.0633  -17.7458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4600  -19.0884    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8596  -19.1259    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3277  -17.8065    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2176  -16.9536    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1024  -19.8100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3149  -19.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5273  -19.8100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05130\n\n$$$$",
+  "reactions" : [ "irxn3021", "irxn5734" ]
+}

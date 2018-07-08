@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5158",
+  "equation" : "2dhp <=> 3mob + fald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1160" : ""
+    },
+    "r" : {
+      "icpd7455" : "",
+      "icpd5052" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.2.11; 4.1.2.12; EC-4.1.2.12",
+  "otherNames" : [ ],
+  "alias" : "2DHPFALDL",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01216"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:KETOPANTOALDOLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "2DHPFALDL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 6.6399994,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

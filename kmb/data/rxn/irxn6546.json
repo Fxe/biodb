@@ -1,0 +1,60 @@
+{
+  "id" : "irxn6546",
+  "equation" : "nad + h2o + aproa <=> ala_B + nadh + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4748" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd7989" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.19; 1.2.1.5; 1.2.1.3; EC-1.2.1",
+  "otherNames" : [ ],
+  "alias" : "APOR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "APOR"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BAMPPALDOX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00904"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BAMPPALDOXm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALDD22x"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12332"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -12.481201,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410" ],
+      "orthologs" : [ "A1", "K14085", "K00128", "K00129", "K00149" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "iMM904", "iJN678", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd263",
+  "formula" : "C6H10O5",
+  "name" : "1,5-anhydro-d-fructose",
+  "synonyms" : [ "(4s,5s,6r)-4,5-dihydroxy-6-(hydroxymethyl)dihydro-2h-pyran-3(4h)-one", "(4s,5s,6r)-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-one", "1,5-anhydro-d-arabino-hex-2-ulose", "1,5-anhydrofructose" ],
+  "alias" : "icpd263",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06485"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:15-ANHYDRO-D-FRUCTOSE"
+  } ],
+  "inchi" : "InChI=1S/C6H10O5/c7-1-4-6(10)5(9)3(8)2-11-4/h4-7,9-10H,1-2H2/t4-,5-,6-/m1/s1",
+  "inchikey" : "OCLOLUFOLJIQDC-HSUXUTPPSA-N",
+  "smiles" : "C([C@@H]1[C@H]([C@@H](C(=O)CO1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:4.2.2.13-RXN", "META:1.1.1.263-RXN", "META:4.2.1.111-RXN", "META:1.1.1.292-RXN", "META:RXN-16613", "META:RXN-14306" ],
+      "gibbs" : -69.16881,
+      "cmlMolWeight" : 162.142,
+      "molWeight" : 162.142
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   20.2270  -16.3075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2270  -17.7074    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4392  -18.4073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6516  -17.7074    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6516  -16.3075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4392  -15.6076    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8825  -18.4183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4392  -19.8069    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0147  -15.6076    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0147  -18.4073    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8194  -16.2979    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  4  7  2  0     0  0\n  3  8  1  1     0  0\n  1  9  1  1     0  0\n  2 10  1  6     0  0\n  9 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06485\n\n$$$$",
+  "reactions" : [ "irxn3423", "irxn744", "irxn769" ]
+}

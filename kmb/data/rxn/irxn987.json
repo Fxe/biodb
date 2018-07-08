@@ -1,0 +1,47 @@
+{
+  "id" : "irxn987",
+  "equation" : "o2 + icpd8139 + chsterol <=> icpd8107 + h2o + xol25oh",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd8139" : "",
+      "icpd4645" : ""
+    },
+    "r" : {
+      "icpd8107" : "",
+      "icpd4016" : "",
+      "icpd1800" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.99.38; EC-1.14.99.38",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07218"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.14.99.38-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00120" ],
+      "orthologs" : [ "K10223" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

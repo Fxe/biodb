@@ -1,0 +1,54 @@
+{
+  "id" : "irxn4736",
+  "equation" : "h2o + 2.0 h + cala <=> ala_B + n2 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "2.0",
+      "icpd4016" : "",
+      "icpd5819" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd2454" : "",
+      "icpd7989" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.6; 3.5.1.6",
+  "otherNames" : [ ],
+  "alias" : "BUPN",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UPPN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BUPN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00905"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BETA-UREIDOPROPIONASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:3-UREIDO-ISOBUTYRATE", "META:CPD-19608", "META:CPD-5401", "META:CU+2", "META:IODOACETAMIDE", "META:CPD-19609", "META:CPD-7081", "META:3-PHENYLPROPIONATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3982" ],
+      "orphan" : "NO",
+      "gibbs" : 3.3611221,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410", "rn00770", "rn01100", "rn00240" ],
+      "orthologs" : [ "K01431", "K06016" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  }
+}

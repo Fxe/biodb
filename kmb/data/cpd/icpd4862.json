@@ -1,0 +1,42 @@
+{
+  "id" : "icpd4862",
+  "formula" : "C7H5O4",
+  "name" : "3,4-dihydroxybenzoate",
+  "synonyms" : [ "protocatechuate" ],
+  "alias" : "34dhbz",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00230"
+  }, {
+    "source" : "BiGG",
+    "entry" : "34dhbz"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "34dhbz"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-4-DIHYDROXYBENZOATE"
+  } ],
+  "inchi" : "InChI=1S/C7H6O4/c8-5-2-1-4(7(10)11)3-6(5)9/h1-3,8-9H,(H,10,11)/p-1",
+  "inchikey" : "YQUVCSBJEUQKSH-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=C(C(=C1)O)O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN", "META:GLUTDECARBOX-RXN" ],
+      "instances" : [ "META:Aromatic-Acid", "META:Catechols" ],
+      "reactions" : [ "META:RXN-16974", "META:RXN-8091", "META:RXN-10891", "META:RXN-10882", "META:45-DIHYDROXYPHTHALATE-DECARBOXYLASE-RXN", "META:4-SULFOBENZOATE-34-DIOXYGENASE-RXN", "META:RXN-12531", "META:RXN-10675", "META:PROTOCATECHUATE-34-DIOXYGENASE-RXN", "META:PROTOCATECHUATE-DECARBOXYLASE-RXN", "META:RXN-10424", "META:RXN-14319", "META:DCDPC-RXN", "META:PROTOCATECHUATE-45-DIOXYGENASE-RXN", "META:R365-RXN", "META:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN", "META:3-HYDROXYBENZOATE-4-MONOOXYGENASE-RXN", "META:DHSHIKIMATE-DEHYDRO-RXN", "META:1.3.1.53-RXN", "META:34-DIHYDROXYPHTHALATE-DECARBOXYLASE-RXN", "META:1.14.13.33-RXN", "META:RXN-2" ],
+      "gibbs" : -80.96645,
+      "cmlMolWeight" : 153.114,
+      "molWeight" : 153.114,
+      "parents" : [ "META:Aromatic-Acid", "META:Catechols" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   25.0487  -14.7888    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2602  -15.4878    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8313  -15.4878    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0545  -13.3907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2602  -16.8915    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8313  -16.8915    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8429  -12.6917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2661  -12.6860    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0487  -17.5905    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4660  -17.5848    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0545  -18.9885    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\n  5 10  1  0     0  0\n  9 11  1  0     0  0\n  6  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00230\n\n$$$$",
+  "reactions" : [ "irxn1076", "irxn3431", "irxn193", "irxn6828", "irxn4639", "irxn4748", "irxn1900", "irxn3302", "irxn3642", "irxn1036", "irxn1324", "irxn5766" ]
+}

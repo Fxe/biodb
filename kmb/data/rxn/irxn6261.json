@@ -1,0 +1,53 @@
+{
+  "id" : "irxn6261",
+  "equation" : "nadph + actACP + h <=> 3hbutACP + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd6490" : ""
+    },
+    "r" : {
+      "icpd7472" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.-; 1.1.1.100; 2.3.1.86; 2.3.1.85",
+  "otherNames" : [ ],
+  "alias" : "3OAR40_m",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04533"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3OAR40_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3OAR40_2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3OAR40_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01212", "rn01100", "rn00061" ],
+      "orthologs" : [ "K00667", "K00665", "K00059", "K11533" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3774",
+  "formula" : "C10H14N4O10P2",
+  "name" : "2'-deoxyinosine 5'-diphosphate",
+  "synonyms" : [ "2'-deoxyinosine-5'-diphosphate", "deoxyinosine diphosphate", "{[hydroxy({[(2r,3s,5r)-3-hydroxy-5-(6-oxo-6,9-dihydro-3h-purin-9-yl)oxolan-2-yl]methoxy})phosphoryl]oxy}phosphonic acid", "{hydroxy[(2r,3s,5r)-3-hydroxy-5-(6-oxo-3h-purin-9-yl)oxolan-2-yl]methoxyphosphoryl}oxyphosphonic acid" ],
+  "alias" : "didp",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "didp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01344"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-2231"
+  }, {
+    "source" : "BiGG",
+    "entry" : "didp"
+  } ],
+  "inchi" : "InChI=1S/C10H14N4O10P2/c15-5-1-7(14-4-13-8-9(14)11-3-12-10(8)16)23-6(5)2-22-26(20,21)24-25(17,18)19/h3-7,15H,1-2H2,(H,20,21)(H,11,12,16)(H2,17,18,19)/t5-,6+,7+/m0/s1",
+  "inchikey" : "BKUSIKGSPSFQAC-RRKCRQDMSA-N",
+  "smiles" : "C1[C@@H]([C@@H](COP(=O)(O)OP(=O)(O)O)O[C@H]1N2C=NC3=C2NC=NC3=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:All-Nucleosides", "META:Purine-deoxyribonucleosides-5-PP" ],
+      "reactions" : [ "META:RXN-14004", "META:RXN-14228" ],
+      "gibbs" : -414.0252,
+      "cmlMolWeight" : 409.165,
+      "molWeight" : 409.165,
+      "parents" : [ "META:All-Nucleosides", "META:Purine-deoxyribonucleosides-5-PP" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iJO1366", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 26 28  0  0  1  0  0  0  0  0999 V2000\n   27.2879  -15.8929    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   25.9715  -15.4709    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2550  -17.9086    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.0942  -14.7907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9715  -14.0914    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7684  -16.1764    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1275  -17.0835    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8392  -19.1873    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2879  -13.6633    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7684  -13.4050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5842  -15.4709    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0126  -17.8772    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.4473  -19.1873    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   23.5842  -14.0914    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7684  -12.2419    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7213  -17.4740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6598  -20.3085    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7009  -18.0787    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3278  -18.0787    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   18.9547  -18.0787    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3278  -16.6356    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3214  -19.4455    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5878  -18.0787    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   16.2148  -18.0787    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5878  -16.6356    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5878  -19.4455    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  3  1  1  1     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  6 11  2  0     0  0\n  7 12  1  0     0  0\n  8 13  1  0     0  0\n 10 14  1  0     0  0\n 10 15  2  0     0  0\n 12 16  1  1     0  0\n 13 17  1  6     0  0\n 16 18  1  0     0  0\n 18 19  1  0     0  0\n 19 20  1  0     0  0\n 19 21  1  0     0  0\n 19 22  2  0     0  0\n 20 23  1  0     0  0\n 23 24  1  0     0  0\n 23 25  1  0     0  0\n 23 26  2  0     0  0\n  5  9  1  0     0  0\n 11 14  1  0     0  0\n 12 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01344\n\n$$$$",
+  "reactions" : [ "irxn1331", "irxn3723" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7460",
+  "formula" : "C6H12NO5PS",
+  "name" : "5-(2-hydroxyethyl)-4-methylthiazole phosphate",
+  "synonyms" : [ "4-mtahyl-5-(beta-hydroxytahyl)ahizolt phosphat" ],
+  "alias" : "icpd7460",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04327"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THZ-P"
+  } ],
+  "inchi" : "InChI=1S/C6H9NOS.H3O4P/c1-5-6(2-3-8)9-4-7-5;1-5(2,3)4/h4,8H,2-3H2,1H3;(H3,1,2,3,4)",
+  "inchikey" : "IGJMMEJUIKRGAU-UHFFFAOYSA-N",
+  "smiles" : "CC1=C(CCO)SC=N1.OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Thiazoles" ],
+      "reactions" : [ "META:THI-P-SYN-RXN", "META:THIAZOLSYN3-RXN", "META:RXNQT-4301" ],
+      "gibbs" : -151.71928,
+      "cmlMolWeight" : 221.167,
+      "molWeight" : 221.167,
+      "parents" : [ "META:Thiazoles" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   20.3525  -17.0984    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7991  -18.4253    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1990  -18.4107    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6177  -17.0747    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4765  -16.2637    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8224  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0349  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2473  -16.3800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0301  -19.5299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4597  -15.6800    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6722  -14.9800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7550  -14.4591    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1546  -16.8839    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  4  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  3  9  1  0     0  0\n  8 10  1  0     0  0\n 10 11  2  0     0  0\n 10 12  1  0     0  0\n 10 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04327\n\n$$$$",
+  "reactions" : [ "irxn6499", "irxn3050" ]
+}

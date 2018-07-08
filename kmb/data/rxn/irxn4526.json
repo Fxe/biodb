@@ -1,0 +1,52 @@
+{
+  "id" : "irxn4526",
+  "equation" : "hom__L + accoa <=> coa + achms",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4798" : "",
+      "icpd5825" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd6075" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.31; 2.3.1.31",
+  "otherNames" : [ ],
+  "alias" : "HSERTA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HSERTA"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HSAT_m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOSERINE-O-ACETYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01776"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:O-SUCCINYL-L-HOMOSERINE", "META:CPD-667", "META:ADENOSYL-HOMO-CYS", "META:CYS", "META:MET", "META:O-PHOSPHO-L-HOMOSERINE", "META:ACETYLSERINE", "META:CPD0-1577", "META:TRIFLUOROMETHIONINE", "META:S-ADENOSYLMETHIONINE", "META:SELENOMETHIONINE", "META:ETHIONINE", "META:HOMO-CYS", "META:ALPHA-METHYLMETHIONINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5344" ],
+      "orphan" : "NO",
+      "gibbs" : -3.6100464,
+      "uniprot" : [ "P12917", "P08465", "P94891", "O60062" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01130", "rn00270" ],
+      "orthologs" : [ "K19726", "K00641" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNF517", "iND750", "iIT341", "iJN678", "iAF987", "iHN637", "iJB785", "iJN746", "iLJ478", "iNJ661", "iLB1027_lipid", "iMM904", "iSB619" ]
+    }
+  }
+}

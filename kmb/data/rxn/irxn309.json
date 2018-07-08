@@ -1,0 +1,46 @@
+{
+  "id" : "irxn309",
+  "equation" : "icpd6475 + 2.0 gthrd <=> ascb__L + gthox + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1977" : "2.0",
+      "icpd6475" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2309" : "",
+      "icpd285" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.8.5.1; 1.8.5.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01108"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.8.5.1-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:INDOLE_ACETATE_AUXIN" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2261", "META:PWY-6370" ],
+      "orphan" : "NO",
+      "gibbs" : -24.178284,
+      "uniprot" : [ "Q7M0D1", "Q9T2H6" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053", "rn00480" ],
+      "orthologs" : [ "K21888" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

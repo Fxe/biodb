@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6395",
+  "formula" : "C10H16",
+  "name" : "7-methyl-3-methylideneocta-1,6-diene",
+  "synonyms" : [ "2-methyl-6-methylene-2,7-octadiene", "3-methylene-7-methyl-1, 6-octadiene", "3-methylene-7-methyl-1,6-octadiene", "7-methyl-3-methylene-1,6-octadiene", "7-methyl-3-methylene-octa-1,6-diene", "7-methyl-3-methyleneocta-1,6-diene", "beta -myrcene", "beta-myrcene", "beta-myrctnt" ],
+  "alias" : "icpd6395",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06074"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-4888"
+  } ],
+  "inchi" : "InChI=1S/C10H16/c1-5-10(4)8-6-7-9(2)3/h5,7H,1,4,6,8H2,2-3H3",
+  "inchikey" : "UAHWPYUMFXYFJY-UHFFFAOYSA-N",
+  "smiles" : "C=CC(=C)CCC=C(C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monoterpenes" ],
+      "reactions" : [ "META:RXN-9183", "META:RXN-9182", "META:RXN-12335", "META:RXN-5110", "META:RXN-15040", "META:RXN-9178", "META:RXN-15039", "META:RXN-9177" ],
+      "gibbs" : 229.87794,
+      "cmlMolWeight" : 136.236,
+      "molWeight" : 136.236,
+      "parents" : [ "META:Monoterpenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   11.9700  -19.3900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.1824  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3949  -19.3900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6073  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8197  -19.3900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0322  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2446  -19.3900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4570  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.1824  -17.2902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0322  -17.2903    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  2  0     0  0\n  2  9  1  0     0  0\n  6 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06074\n\n$$$$",
+  "reactions" : [ "irxn6049", "irxn4380" ]
+}

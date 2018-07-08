@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4485",
+  "equation" : "o2 + nadh + p_tol + h <=> nad + dh4mchc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2012" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd6893" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.-",
+  "otherNames" : [ ],
+  "alias" : "PTOLDOX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PTOLDOX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05290"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K05549", "K05550", "K05784" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

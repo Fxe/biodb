@@ -1,0 +1,34 @@
+{
+  "id" : "icpd6469",
+  "formula" : "C6H4NO6P",
+  "name" : "4-nitrophenyl phosphate",
+  "synonyms" : [ "para-nitrophenyl phosphate" ],
+  "alias" : "icpd6469",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03360"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-194"
+  } ],
+  "inchi" : "InChI=1S/C6H6NO6P/c8-7(9)5-1-3-6(4-2-5)13-14(10,11)12/h1-4H,(H2,10,11,12)/p-2",
+  "inchikey" : "XZKIHKMTEMTJQX-UHFFFAOYSA-L",
+  "smiles" : "C1=C(C=CC(=C1)OP(=O)([O-])[O-])N(=O)=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-14766" ],
+      "instances" : [ "META:C-nitro-compounds" ],
+      "reactions" : [ "META:RXN0-1261", "META:4-NITROPHENYLPHOSPHATASE-RXN" ],
+      "gibbs" : -246.1438,
+      "cmlMolWeight" : 217.074,
+      "molWeight" : 217.074,
+      "parents" : [ "META:C-nitro-compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   28.7526  -13.8195    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   28.7643  -15.2111    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2198  -13.8602    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4075  -13.8545    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7467  -12.4279    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7643  -16.6086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5589  -17.3016    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9870  -17.3016    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5589  -18.7107    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9870  -18.7107    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7643  -19.4211    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7643  -20.8127    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   29.9578  -21.6571    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4130  -21.7971    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  6  7  2  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  2  0     0  0\n  9 11  2  0     0  0\n 11 12  1  0     0  0\n 12 13  2  0     0  0\n 12 14  1  0     0  0\n 10 11  1  0     0  0\nM  CHG  2  12   1  14  -1\nM  END\n\n> <ENTRY>\ncpd:C03360\n\n$$$$",
+  "reactions" : [ "irxn623" ]
+}

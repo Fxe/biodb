@@ -1,0 +1,47 @@
+{
+  "id" : "irxn738",
+  "equation" : "dolmanp + 337678 <=> dolp + h + 337690",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5405" : "",
+      "337678" : ""
+    },
+    "r" : {
+      "337690" : "",
+      "icpd1851" : "",
+      "icpd7026" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "G12MT4_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "G12MT4_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DOLPMT4_er"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn334",
+  "equation" : "2.0 fdxrd + 2.0 h + trdox <=> 2.0 fdxox + trdrd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "2.0",
+      "icpd1835" : "",
+      "icpd930" : "2.0"
+    },
+    "r" : {
+      "icpd321" : "2.0",
+      "icpd7857" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.8.7.2",
+  "otherNames" : [ ],
+  "alias" : "TRDRf",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TRDRf"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09502"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FTR_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

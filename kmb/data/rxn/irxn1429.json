@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1429",
+  "equation" : "nad + Lpipecol <=> nadh + 2.0 h + 1pipdn2c",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8172" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd1505" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.5.1; 1.5.1.1",
+  "otherNames" : [ ],
+  "alias" : "1PPDCRp",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14210"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02201"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "1PPDCRp"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -13.832306,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310", "rn00960", "rn01100" ],
+      "orthologs" : [ "K19743" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

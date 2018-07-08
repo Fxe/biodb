@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3307",
+  "formula" : "C8H12O5",
+  "name" : "2-oxooctanedioic acid",
+  "synonyms" : [ ],
+  "alias" : "2ood",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-337"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2ood"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16589"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2ood"
+  } ],
+  "inchi" : "InChI=1S/C8H12O5/c9-6(8(12)13)4-2-1-3-5-7(10)11/h1-5H2,(H,10,11)(H,12,13)",
+  "inchikey" : "HAGOOZVJLSSXGZ-UHFFFAOYSA-N",
+  "smiles" : "C(CCC(=O)C(=O)O)CCC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Oxo-carboxylates" ],
+      "reactions" : [ "META:R224-RXN", "META:R218-RXN" ],
+      "gibbs" : -82.57703,
+      "cmlMolWeight" : 186.164,
+      "molWeight" : 186.164,
+      "parents" : [ "META:2-Oxo-carboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : " \n \n \n 13 12  0  0  0  0  0  0  0  0999 V2000\n   32.9000  -21.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.1600  -21.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7100  -21.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.3500  -21.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.1600  -23.1700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4500  -21.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   36.6100  -21.7700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   35.3500  -19.7400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2600  -21.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0000  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8100  -21.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5500  -21.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8100  -23.1000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  6  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 11 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16589\n\n$$$$",
+  "reactions" : [ "irxn6825", "irxn5854" ]
+}

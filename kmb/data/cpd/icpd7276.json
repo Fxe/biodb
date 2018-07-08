@@ -1,0 +1,30 @@
+{
+  "id" : "icpd7276",
+  "formula" : "C17H22O3",
+  "name" : "3-[(2e)-3,7-dimethylocta-2,6-dien-1-yl]-4-hydroxybenzoic acid",
+  "synonyms" : [ ],
+  "alias" : "icpd7276",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-Hydroxy-3-polyprenylbenzoates"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05848"
+  } ],
+  "inchi" : "InChI=1S/C17H22O3/c1-12(2)5-4-6-13(3)7-8-14-11-15(17(19)20)9-10-16(14)18/h5,7,9-11,18H,4,6,8H2,1-3H3,(H,19,20)/b13-7+",
+  "inchikey" : "HKIMBCGCVPYUTJ-NTUHNPAUSA-N",
+  "smiles" : "CC(=CCC/C(=C/CC1=CC(=CC=C1O)C(=O)O)/C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-9864", "META:NONAPRENYL-4-HYDROXYBENZOATE", "META:3-OCTAPRENYL-4-HYDROXYBENZOATE", "META:CPD-9318", "META:CPD-9852", "META:3-HEXAPRENYL-4-HYDROXYBENZOATE" ],
+      "reactions" : [ "META:RXN-11368", "META:RXN-15309" ],
+      "parents" : [ "META:CPD-9864", "META:NONAPRENYL-4-HYDROXYBENZOATE", "META:Polyisoprenoids", "META:3-OCTAPRENYL-4-HYDROXYBENZOATE", "META:CPD-9318", "META:CPD-9852", "META:3-HEXAPRENYL-4-HYDROXYBENZOATE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 20 20  0  0  0  0  0  0  0  0999 V2000\n   22.7500  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7500  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9624  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1749  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1749  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9624  -15.8900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4124  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6249  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8373  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0497  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2622  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4746  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.6870  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.8995  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9624  -20.0898    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9624  -14.4902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7332  -13.7803    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1580  -13.7998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8373  -20.0900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.6870  -20.0899    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  2  0     0  0\n 13 14  1  0     0  0\n  3 15  1  0     0  0\n  6 16  1  0     0  0\n 16 17  2  0     0  0\n 16 18  1  0     0  0\n  9 19  1  0     0  0\n 13 20  1  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1  5   7   8   9  10  19\nM  SDI   1  4   26.2500  -19.6700   26.2500  -17.7800\nM  SDI   1  4   30.1700  -17.5700   30.1700  -19.3900\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C05848\n\n$$$$",
+  "reactions" : [ "irxn2171" ]
+}

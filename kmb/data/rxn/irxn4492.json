@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4492",
+  "equation" : "icpd552 <=> leuktrA4 + gthrd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd552" : ""
+    },
+    "r" : {
+      "icpd2842" : "",
+      "icpd1977" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.4.1.20; 4.4.1.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03059"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LEUKOTRIENE-C4-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-375" ],
+      "orphan" : "NO",
+      "gibbs" : 9.934128,
+      "uniprot" : [ "Q16873" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "C4", "K00807" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

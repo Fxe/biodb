@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4339",
+  "equation" : "crm_hs + atp <=> h + adp + crmp_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6184" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd5670" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.138",
+  "otherNames" : [ ],
+  "alias" : "CERK",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CERAMIDE-KINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CERK"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -4.5448,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

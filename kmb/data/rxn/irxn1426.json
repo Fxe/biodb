@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1426",
+  "equation" : "5aptn + akg <=> oxptn + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd860" : ""
+    },
+    "r" : {
+      "icpd4398" : "",
+      "icpd514" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.48; 2.6.1.48",
+  "otherNames" : [ ],
+  "alias" : "APTNAT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02274"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:VAGL-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "APTNAT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LYSDEGII-PWY", "META:PWY-6328", "META:PWY-5280" ],
+      "orphan" : "NO",
+      "gibbs" : 0.32411194,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ "K14268" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iJN746" ]
+    }
+  }
+}

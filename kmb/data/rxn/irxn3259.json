@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3259",
+  "equation" : "o2 + h + akg + icpd5899 <=> succ + co2 + fald + icpd4228",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : "",
+      "icpd1851" : "",
+      "icpd5899" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7455" : "",
+      "icpd4228" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.11.27; EC-1.14.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09511"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8661"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13186" ],
+      "orphan" : null,
+      "gibbs" : -96.07887,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

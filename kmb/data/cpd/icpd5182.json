@@ -1,0 +1,39 @@
+{
+  "id" : "icpd5182",
+  "formula" : "C5H11N3O",
+  "name" : "4-guanidinobutanal",
+  "synonyms" : [ "4-guanidinobutyraldehyde" ],
+  "alias" : "gdbtal",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-825"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02647"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "gdbtal"
+  }, {
+    "source" : "BiGG",
+    "entry" : "gdbtal"
+  } ],
+  "inchi" : "InChI=1S/C5H11N3O/c6-5(7)8-3-1-2-4-9/h4H,1-3H2,(H4,6,7,8)",
+  "inchikey" : "VCOFTLCIPLEZKE-UHFFFAOYSA-N",
+  "smiles" : "C(CC=O)CNC(=N)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:4.1.1.75-RXN", "META:1.2.1.54-RXN", "META:RXN-15646" ],
+      "gibbs" : 102.94139,
+      "cmlMolWeight" : 130.169,
+      "molWeight" : 130.169
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   32.2371  -19.9085    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0457  -19.2077    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7843  -19.9085    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5930  -19.2077    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4016  -19.9085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1402  -19.2077    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9489  -19.9085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0457  -17.8061    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6966  -19.1993    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02647\n\n$$$$",
+  "reactions" : [ "irxn2350", "irxn1909" ]
+}

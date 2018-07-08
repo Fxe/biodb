@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2975",
+  "equation" : "h2o + accoa + pyr <=> icpd1145 + coa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd5825" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1145" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.182; 2.3.1.182",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7743"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07399"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ILE", "META:IMIDAZOLE-RING" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5101" ],
+      "orphan" : "NO",
+      "gibbs" : -9.961243,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210", "rn01100", "C5", "rn00660", "rn01230", "rn00290" ],
+      "orthologs" : [ "K09011" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6496",
+  "equation" : "gtp + h + 2plac__L <=> ppi + lppg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd642" : "",
+      "icpd1851" : "",
+      "icpd1365" : ""
+    },
+    "r" : {
+      "icpd2501" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.68",
+  "otherNames" : [ ],
+  "alias" : "LPPGS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LPPGS"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8077"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5198" ],
+      "orphan" : "NO",
+      "gibbs" : -103.30347,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

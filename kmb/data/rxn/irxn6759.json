@@ -1,0 +1,53 @@
+{
+  "id" : "irxn6759",
+  "equation" : "h2o + 3.0 h + allphn <=> 2.0 n2 + 2.0 co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5796" : "",
+      "icpd1851" : "3.0",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2454" : "2.0",
+      "icpd7085" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.54; 3.5.1.54",
+  "otherNames" : [ ],
+  "alias" : "ALPHm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ALPHm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00005"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALLOPHANATE-HYDROLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALPHNH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5169", "META:PWY-5703" ],
+      "orphan" : "NO",
+      "gibbs" : -8.978882,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00220", "rn01100", "rn01120", "rn00791" ],
+      "orthologs" : [ "K14541", "K01457" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iMM904" ]
+    }
+  }
+}

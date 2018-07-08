@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6670",
+  "equation" : "creat + h2o <=> sarcs + urea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6341" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd269" : "",
+      "icpd6194" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.3.3; 3.5.3.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01566"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CREATINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CARBAMOYL-SARCOSINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CRNFORCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -9.0130005,
+      "uniprot" : [ "P38487", "P19213" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330", "rn00260" ],
+      "orthologs" : [ "K08688" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

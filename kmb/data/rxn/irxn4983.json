@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4983",
+  "equation" : "icpd6041 <=> icpd1309 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6041" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd1309" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.58; 4.1.1.58",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ORSELLINATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02831"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 0.52412796,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

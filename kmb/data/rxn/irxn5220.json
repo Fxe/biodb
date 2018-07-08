@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5220",
+  "equation" : "o2 + h2o + dmgly <=> sarcs + fald + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd5167" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd6194" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.5.3.10; 1.5.3.10",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01564"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIMETHYLGLYCINE-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -16.333008,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

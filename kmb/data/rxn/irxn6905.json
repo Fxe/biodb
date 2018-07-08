@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6905",
+  "equation" : "h2o + pail_hs <=> h + dag_hs + 338653",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd605" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "338653" : "",
+      "icpd911" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PIPLC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PIPLCn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PIPLC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5206",
+  "equation" : "o2 + nadh + h + icpd2059 <=> nad + icpd6419",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2059" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd6419" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.-",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2501"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07799"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:FLUORENE-DEG-9-ONE-PWY" ],
+      "orphan" : null,
+      "gibbs" : -70.21182,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00624" ],
+      "orthologs" : [ "K14599", "K14600" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

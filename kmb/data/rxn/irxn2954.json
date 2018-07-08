@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2954",
+  "equation" : "g3pc + h2o <=> h + cholp + glyc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5005" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1727" : "",
+      "icpd1851" : "",
+      "icpd7683" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.4.38; 3.1.4.38",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3.1.4.38-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02591"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:FE+2", "META:DMSO", "META:CO+2", "META:ZN+2", "META:MN+2" ],
+      "activators" : [ "META:CA+2", "META:NA+", "META:DITHIOTHREITOL", "META:2-MERCAPTOETHANOL", "META:EDTA" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 2.312912,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

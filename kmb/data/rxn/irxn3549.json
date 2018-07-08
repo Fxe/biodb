@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3549",
+  "equation" : "3.0 amet + pe_hs <=> 3.0 ahcys + 3.0 h + pchol_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "3.0",
+      "icpd7725" : ""
+    },
+    "r" : {
+      "icpd1851" : "3.0",
+      "icpd6782" : "3.0",
+      "icpd7477" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PETOHMr_hs",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PETOHMr_hs"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PETOHMm_hs"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

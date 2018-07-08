@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2449",
+  "equation" : "malcoa + h2o + h + 2.0 coucoa <=> icpd7423 + 3.0 coa + 2.0 co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "",
+      "icpd5815" : "2.0",
+      "icpd1851" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7423" : "",
+      "icpd2377" : "3.0",
+      "icpd2454" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.211; 2.3.1.211",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13958"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10233"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 12.19751,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00945" ],
+      "orthologs" : [ "K17212" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

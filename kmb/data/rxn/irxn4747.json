@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4747",
+  "equation" : "2.0 sucr <=> glc__D + icpd3902",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5746" : "2.0"
+    },
+    "r" : {
+      "icpd3902" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.99; EC-2.4.1.99",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00015"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-1781"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CUSO4", "META:AG+", "META:MN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-822" ],
+      "orphan" : "NO",
+      "gibbs" : -7.3600464,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

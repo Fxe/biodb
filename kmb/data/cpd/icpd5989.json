@@ -1,0 +1,42 @@
+{
+  "id" : "icpd5989",
+  "formula" : "C7H5O3",
+  "name" : "4-hydroxybenzoate",
+  "synonyms" : [ "4-hydroxy-benzoate", "p-hydroxy-benzoate", "p-hydroxybenzoate" ],
+  "alias" : "4hbz",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-hydroxybenzoate"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "4hbz"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4hbz"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00156"
+  } ],
+  "inchi" : "InChI=1S/C7H6O3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H,(H,9,10)/p-1",
+  "inchikey" : "FJKROLUGYXJWQN-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=CC(=C1)O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:CHORPYRLY-RXN", "META:RXN-8740" ],
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:RXN-17423", "META:2.5.1.39-RXN", "META:RXN-18535", "META:RXN-17303", "META:1.14.99.15-RXN", "META:1.13.11.41-RXN", "META:3.1.2.23-RXN", "META:RXN-11368", "META:4OHBENZOATE-OCTAPRENYLTRANSFER-RXN", "META:RXN-14434", "META:HYDROXYBENZALDEHYDE-OXIDATION-NADP-RXN", "META:RXN-16459", "META:RXN-17209", "META:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN", "META:HYDROXYBENZALDEHYDE-OXIDATION-NAD-RXN", "META:RXN-8920", "META:CHORPYRLY-RXN", "META:RXN-8124", "META:4-CHLOROBENZOATE-DEHALOGENASE-RXN", "META:RXN-9230", "META:RXN-13394", "META:2.4.1.194-RXN", "META:TRANS-RXN0-233", "META:RXN-15373", "META:RXN-15351", "META:RXN-15353", "META:RXN-10887", "META:1.14.13.64-RXN", "META:PHENYLPCARB-RXN", "META:BENZOATE-4-MONOOXYGENASE-RXN", "META:RXN-9003", "META:4-HYDROXYBENZOATE-DECARBOXYLASE-RXN", "META:RXN-9222", "META:1.14.13.33-RXN", "META:4-HYDROXYBENZOATE--COA-LIGASE-RXN" ],
+      "gibbs" : -41.486458,
+      "cmlMolWeight" : 137.115,
+      "molWeight" : 137.115,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   25.6200  -14.7656    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6137  -13.3697    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4098  -15.4637    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8430  -15.4637    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4098  -12.6779    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8174  -12.6716    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4098  -16.8659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8430  -16.8659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -17.5831    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6137  -18.9727    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  7  9  1  0     0  0\n  9 10  1  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00156\n\n$$$$",
+  "reactions" : [ "irxn3609", "irxn3718", "irxn3526", "irxn1688", "irxn4009", "irxn382", "irxn6639", "irxn5998", "irxn6307", "irxn3642", "irxn5862", "irxn4375", "irxn6300", "irxn1253", "irxn3684", "irxn3332", "irxn2062", "irxn3282", "irxn4580", "irxn4473", "irxn569" ]
+}

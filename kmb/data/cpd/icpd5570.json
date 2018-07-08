@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5570",
+  "formula" : "C6H10O3",
+  "name" : "6-hydroxyhexan-6-olide",
+  "synonyms" : [ "6-hydroxy-6-hexanolactone", "7-hydroxyoxepan-2-one" ],
+  "alias" : "icpd5570",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:6-HYDROXYHEXAN-6-OLIDE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03241"
+  } ],
+  "inchi" : "InChI=1S/C6H10O3/c7-5-3-1-2-4-6(8)9-5/h5,7H,1-4H2",
+  "inchikey" : "FXIBGWAZMBWMLW-UHFFFAOYSA-N",
+  "smiles" : "C1CCC(=O)OC(C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.14.13.66-RXN", "META:RXN-14101" ],
+      "gibbs" : 5.8212028,
+      "cmlMolWeight" : 130.143,
+      "molWeight" : 130.143
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   26.5327  -17.2084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9277  -18.4825    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   25.9277  -15.9575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5603  -18.7908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8062  -19.5821    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5603  -15.6492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8003  -14.8636    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4782  -17.9239    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4667  -16.5161    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  6  9  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03241\n\n$$$$",
+  "reactions" : [ "irxn5571", "irxn4601" ]
+}

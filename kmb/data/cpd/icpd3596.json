@@ -1,0 +1,37 @@
+{
+  "id" : "icpd3596",
+  "formula" : "C5H5N",
+  "name" : "pyridine",
+  "synonyms" : [ "azabenzene", "pyridin" ],
+  "alias" : "icpd3596",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRIDINE-RING"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRIDINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00747"
+  } ],
+  "inchi" : "InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H",
+  "inchikey" : "JUJWROOIHBZHMG-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=NC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-12530", "META:RXN-12531", "META:HISTIDINE-DECARBOXYLASE-RXN" ],
+      "instances" : [ "META:Pyridines" ],
+      "reactions" : [ "META:PYRIDINE-N-METHYLTRANSFERASE-RXN", "META:THIAMIN-PYRIDINYLASE-RXN" ],
+      "gibbs" : 93.68561,
+      "cmlMolWeight" : 79.101,
+      "molWeight" : 79.101,
+      "parents" : [ "META:Pyridines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  0  0  0  0  0  0999 V2000\n   22.1137  -17.5802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9141  -16.8719    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3324  -16.8719    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9141  -15.4681    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3324  -15.4681    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -14.7726    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  2  0     0  0\n  4  6  2  0     0  0\n  5  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00747\n\n$$$$",
+  "reactions" : [ "irxn851", "irxn986" ]
+}

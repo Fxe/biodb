@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1580",
+  "equation" : "h2o + 4gudbd <=> n2 + 4gudbutn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2863" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3082" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.4; 3.5.1.4",
+  "otherNames" : [ ],
+  "alias" : "AMID",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GUANIDINOBUTANAMIDE-NH3-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03180"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMID"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ARGDEG-V-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -4.713005,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ "K01426" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iJN678", "iMM904" ]
+    }
+  }
+}

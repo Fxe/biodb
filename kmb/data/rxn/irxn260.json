@@ -1,0 +1,48 @@
+{
+  "id" : "irxn260",
+  "equation" : "o2 + nadh + icpd370 + h <=> nad + dhpppn + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd370" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd5417" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.4; 1.14.13.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MELILOTATE-3-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03369"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -93.1488,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00360" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

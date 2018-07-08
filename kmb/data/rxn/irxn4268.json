@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4268",
+  "equation" : "pan4p + h2o <=> pi + ptth",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5715" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd1613" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.-",
+  "otherNames" : [ ],
+  "alias" : "PAN4PP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PAN4PPe"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PAN4PP"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10748"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00332", "rn01130" ],
+      "orthologs" : [ "K18569" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn1440",
+  "equation" : "o2 + lys__L <=> h2o + co2 + h + 5apentam",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4807" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd2454" : "",
+      "icpd4547" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.12.2; EC-1.13.12.2",
+  "otherNames" : [ ],
+  "alias" : "LYSMO",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LYSINE-2-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00449"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LYSMO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-884", "META:MG+2", "META:K+", "META:CPD-29", "META:HG+2", "META:SPERMIDINE", "META:NA+", "META:AMMONIUM", "META:MN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5280" ],
+      "orphan" : "NO",
+      "gibbs" : -109.256996,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

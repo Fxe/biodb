@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3568",
+  "equation" : "h2o + 330497 <=> dolp + h + pi",
+  "stoichiometry" : {
+    "l" : {
+      "330497" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7026" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DOLDPP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DOLDPP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DOLDPPer"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn263",
+  "equation" : "6ax6ax + h2o <=> 2.0 6ax",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5001" : ""
+    },
+    "r" : {
+      "icpd917" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.46; EC-3.5.1.46",
+  "otherNames" : [ ],
+  "alias" : "AHXDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AHXDH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00059"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-3962"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29", "META:DIISOPROPYL-FLUOROPHOSPHATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P621-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -0.46299744,
+      "uniprot" : [ "P07061" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00930" ],
+      "orthologs" : [ "K01453" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

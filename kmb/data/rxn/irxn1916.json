@@ -1,0 +1,42 @@
+{
+  "id" : "irxn1916",
+  "equation" : "avite1 <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd394" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DM_avite1_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EX_avite1_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_avite1_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

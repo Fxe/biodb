@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2498",
+  "formula" : "C6H7O4",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd2498",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01757"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRIACETATE"
+  } ],
+  "inchi" : "InChI=1S/C6H8O4/c1-4(7)2-5(8)3-6(9)10/h2-3,7-8H,1H3,(H,9,10)/p-1/b4-2-,5-3+",
+  "inchikey" : "MTLYRGWHJZKDFQ-VOERYJCWSA-M",
+  "smiles" : "C/C(=C(\\[H])/C(=C(/[H])\\C(=O)O)/O)/[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:TRIACETATE-LACTONASE-RXN" ],
+      "gibbs" : -47.534225,
+      "cmlMolWeight" : 143.119,
+      "molWeight" : 143.119
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   14.4900  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7024  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9149  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1273  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3397  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5522  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7646  -19.5300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7024  -17.4302    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1273  -17.4300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5522  -17.4303    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  4  9  2  0     0  0\n  6 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01757\n\n$$$$",
+  "reactions" : [ "irxn3323" ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5337",
+  "equation" : "h2o + icpd5536 + nadp <=> nadph + 3hbz + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5536" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd35" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.7; EC-1.2.1.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07666"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-OH-BENZALDEHYDE-DEHYDROG-NADP+-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:M-CRESOL-DEGRADATION-PWY", "META:PWY-7490" ],
+      "orphan" : "NO",
+      "gibbs" : -14.353577,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01220", "rn00623" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3970",
+  "equation" : "amet + tym <=> ahcys + h + C02442",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd2865" : ""
+    },
+    "r" : {
+      "icpd2722" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.27; 2.1.1.27",
+  "otherNames" : [ ],
+  "alias" : "RE2124C",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE2124C"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02384"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TYRAMINE-N-METHYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -10.459999,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00350" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

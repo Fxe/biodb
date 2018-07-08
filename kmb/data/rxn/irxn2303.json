@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2303",
+  "equation" : "inost + o2 <=> h2o + glcur + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4293" : ""
+    },
+    "r" : {
+      "icpd1947" : "",
+      "icpd1851" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.99.1; 1.13.99.1",
+  "otherNames" : [ ],
+  "alias" : "INOSTO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "INOSTO"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MYO-INOSITOL-OXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01184"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4841" ],
+      "orphan" : "NO",
+      "gibbs" : -112.301094,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00562", "rn00053" ],
+      "orthologs" : [ "K00469" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iML1515", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

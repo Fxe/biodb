@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5339",
+  "equation" : "g1p <=> g6p_A",
+  "stoichiometry" : {
+    "l" : {
+      "icpd402" : ""
+    },
+    "r" : {
+      "icpd3071" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.2.2; 5.4.2.5",
+  "otherNames" : [ ],
+  "alias" : "PGCM",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00959"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PGMTh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PGCM"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100", "rn01120", "rn00010", "rn01110", "rn00052", "rn01130" ],
+      "orthologs" : [ "K01835", "K15779", "K15778" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

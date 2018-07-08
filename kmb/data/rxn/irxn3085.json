@@ -1,0 +1,53 @@
+{
+  "id" : "irxn3085",
+  "equation" : "retinol + nadp <=> retinal + nadph + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1247" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd7129" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.300; 1.1.1.300; 1.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "RDH1a",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TRETINOLOR2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08379"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RDH1a"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10841"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6861", "META:PWY-6857" ],
+      "orphan" : "NO",
+      "gibbs" : -0.25645447,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00830" ],
+      "orthologs" : [ "K11153", "K11150", "K11151", "K11152", "K11146", "K11147" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

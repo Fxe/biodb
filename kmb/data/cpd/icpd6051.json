@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6051",
+  "formula" : "C11H13N",
+  "name" : "n-methyl-n-2-propynylbenzylamine",
+  "synonyms" : [ "benzyl(methyl)(prop-2-yn-1-yl)amine", "benzyl(methyl)prop-2-yn-1-ylamine", "n-benzyl-n-methyl-2-propyn-1-amine", "n-benzyl-n-methyl-2-propynylamine" ],
+  "alias" : "icpd6051",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07414"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13898"
+  } ],
+  "inchi" : "InChI=1S/C11H13N/c1-3-9-12(2)10-11-7-5-4-6-8-11/h1,4-8H,9-10H2,2H3",
+  "inchikey" : "DPWPWRLQFGFJFI-UHFFFAOYSA-N",
+  "smiles" : "C#CCN(C)CC1=CC=CC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:AMINEPHEN-RXN" ],
+      "gibbs" : 267.01456,
+      "cmlMolWeight" : 159.23,
+      "molWeight" : 159.23
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   22.7582  -18.4868    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9748  -17.7940    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7582  -19.8955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5533  -17.7882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1798  -18.4868    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   21.5533  -20.5881    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3367  -18.4868    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3905  -17.7940    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1798  -19.8955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3367  -19.8955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6071  -18.4925    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8178  -19.1969    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  5  9  1  0     0  0\n  6 10  1  0     0  0\n  8 11  1  0     0  0\n 11 12  3  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07414\n\n$$$$",
+  "reactions" : [ ]
+}

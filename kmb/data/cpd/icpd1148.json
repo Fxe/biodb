@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1148",
+  "formula" : "C5H6O5",
+  "name" : "(s)-citramalate",
+  "synonyms" : [ "(2s)-2-hydroxy-2-methylbutanedioate", "(s)-2-hydroxy-2-methylsuccinate", "(s)-2-methylmalate" ],
+  "alias" : "icpd1148",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02614"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:S-CITRAMALATE"
+  } ],
+  "inchi" : "InChI=1S/C5H8O5/c1-5(10,4(8)9)2-3(6)7/h10H,2H2,1H3,(H,6,7)(H,8,9)/p-2/t5-/m0/s1",
+  "inchikey" : "XFTRTWQBIOMVPK-YFKPBYRVSA-L",
+  "smiles" : "C[C@](CC(=O)[O-])(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-14325" ],
+      "reactions" : [ "META:2.8.3.7-RXN", "META:S-2-METHYLMALATE-DEHYDRATASE-RXN", "META:CITRAMALATE-LYASE-RXN", "META:CITRAMALATE-COA-TRANSFERASE-RXN" ],
+      "gibbs" : -142.23152,
+      "cmlMolWeight" : 146.099,
+      "molWeight" : 146.099,
+      "parents" : [ "META:CPD-14325" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   29.6101  -18.0600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8225  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.0350  -18.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2474  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.4598  -18.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.6723  -18.7600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   34.4598  -16.6600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8225  -20.1600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.9474  -19.9724    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.5474  -19.9724    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  5  7  2  0     0  0\n  2  8  2  0     0  0\n  4  9  1  6     0  0\n  4 10  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C02614\n\n$$$$",
+  "reactions" : [ "irxn803", "irxn1963", "irxn2779", "irxn1943" ]
+}

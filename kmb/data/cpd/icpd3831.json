@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3831",
+  "formula" : "C8H9O7",
+  "name" : "1-hydroxypentane-1,2,5-tricarboxylate",
+  "synonyms" : [ ],
+  "alias" : "tih2cit",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C16597"
+  }, {
+    "source" : "BiGG",
+    "entry" : "tih2cit"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-285"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "tih2cit"
+  } ],
+  "inchi" : "InChI=1S/C8H12O7/c9-5(10)3-1-2-4(7(12)13)6(11)8(14)15/h4,6,11H,1-3H2,(H,9,10)(H,12,13)(H,14,15)/p-3",
+  "inchikey" : "KVEBLTAWTCBJNF-UHFFFAOYSA-K",
+  "smiles" : "C(CC(C(C(=O)[O-])O)C(=O)[O-])CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Hydroxy-carboxylates", "META:Tricarboxylates" ],
+      "reactions" : [ "META:R214-RXN", "META:R213-RXN" ],
+      "gibbs" : -186.14845,
+      "cmlMolWeight" : 217.155,
+      "molWeight" : 217.155,
+      "parents" : [ "META:2-Hydroxy-carboxylates", "META:Tricarboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : " \n \n \n 15 14  0  0  1  0  0  0  0  0999 V2000\n   19.8100  -16.1700    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   18.6200  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0700  -16.8700    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   19.8100  -14.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4300  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2600  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6200  -14.0700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0700  -14.0700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1700  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2600  -14.8400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5200  -16.8700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9800  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0700  -18.2700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.7900  -16.8700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9800  -14.7700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  6 10  2  0     0  0\n  6 11  1  0     0  0\n  9 12  1  0     0  0\n  3 13  1  6     0  0\n 12 14  1  0     0  0\n 12 15  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16597\n\n$$$$",
+  "reactions" : [ "irxn347", "irxn4006" ]
+}

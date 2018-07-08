@@ -1,0 +1,31 @@
+{
+  "id" : "icpd8148",
+  "formula" : "C4H6N2O2",
+  "name" : "2,5-piperazinedione",
+  "synonyms" : [ "2,5-diazacyclohexane-1,4-dione", "2,5-dioxopiperazine" ],
+  "alias" : "icpd8148",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02777"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIOXOPIPERAZINE"
+  } ],
+  "inchi" : "InChI=1S/C4H6N2O2/c7-3-1-5-4(8)2-6-3/h1-2H2,(H,5,8)(H,6,7)",
+  "inchikey" : "BXRNXXXXHLBUKK-UHFFFAOYSA-N",
+  "smiles" : "C1C(=NCC(=N1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:25-DIOXOPIPERAZINE-HYDROLASE-RXN" ],
+      "gibbs" : -8.453279,
+      "cmlMolWeight" : 114.104,
+      "molWeight" : 114.104
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   27.6315  -17.6434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6315  -16.2366    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8337  -18.3532    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4228  -18.3340    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8337  -15.5395    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0550  -17.6434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0550  -16.2366    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2572  -15.5395    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  2  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02777\n\n$$$$",
+  "reactions" : [ "irxn6064" ]
+}

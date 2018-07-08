@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1695",
+  "equation" : "h2o + icpd283 <=> icpd152 + icpd1439",
+  "stoichiometry" : {
+    "l" : {
+      "icpd283" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1439" : "",
+      "icpd152" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.8.1.5; EC-3.8.1.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02337"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HALOALKANE-DEHALOGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:IODOACETAMIDE", "META:CPD-29", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "P22643" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

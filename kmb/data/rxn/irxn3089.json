@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3089",
+  "equation" : "uacgam + icpd7604 <=> udp + h + icpd7737",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2540" : "",
+      "icpd7604" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7737" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.141; EC-2.4.1.141",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04494"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.4.1.141-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:UDP" ],
+      "activators" : [ "META:MG+2", "META:CA+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:MANNOSYL-CHITO-DOLICHOL-BIOSYNTHESIS" ],
+      "orphan" : "NO",
+      "gibbs" : 6.8974,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

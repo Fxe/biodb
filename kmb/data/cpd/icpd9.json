@@ -1,0 +1,33 @@
+{
+  "id" : "icpd9",
+  "formula" : "C4H7NO",
+  "name" : "acetone cyanohydrin",
+  "synonyms" : [ "2-hydroxy-2-methylpropanenitrile", "2-hydroxyisobutyronitrile", "2-methyllactonitrile", "alpha-hydroxyisobutyronitrile" ],
+  "alias" : "icpd9",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-HYDROXY-2-METHYLPROPANENITRILE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02659"
+  } ],
+  "inchi" : "InChI=1S/C4H7NO/c1-4(2,6)3-5/h6H,1-2H3",
+  "inchikey" : "MWFMGBPGAXYFAR-UHFFFAOYSA-N",
+  "smiles" : "CC(C)(C#N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Cyanohydrins", "META:Aliphatic-S-hydroxynitriles" ],
+      "reactions" : [ "META:RXN-5082", "META:ACETONE-CYANHYDRIN-LYASE-RXN", "META:RXN-17607", "META:RXN-5341", "META:RXN-17609", "META:RXN-18099", "META:LINAMARIN-SYNTHASE-RXN", "META:RXN-13646" ],
+      "gibbs" : 39.717842,
+      "cmlMolWeight" : 85.105,
+      "molWeight" : 85.105,
+      "parents" : [ "META:Cyanohydrins", "META:Aliphatic-S-hydroxynitriles" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   23.5900  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9900  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1900  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5900  -18.1300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5900  -20.9300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3900  -19.5300    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\n  2  6  3  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02659\n\n$$$$",
+  "reactions" : [ "irxn5234", "irxn3415" ]
+}

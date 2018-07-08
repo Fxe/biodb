@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1252",
+  "equation" : "o2 + melatn <=> fna5moxam",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4813" : ""
+    },
+    "r" : {
+      "icpd2873" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.52",
+  "otherNames" : [ ],
+  "alias" : "MELATN23DOX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03628"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MELATN23DOX"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ "K00463" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

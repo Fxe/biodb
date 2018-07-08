@@ -1,0 +1,46 @@
+{
+  "id" : "irxn464",
+  "equation" : "mnl + nadp <=> nadph + fru + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1370" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd2151" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.138; EC-1.1.1.138",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MANNITOL-2-DEHYDROGENASE-NADP+-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00870"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -0.1665039,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00051" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

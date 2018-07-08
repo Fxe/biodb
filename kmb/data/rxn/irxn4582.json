@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4582",
+  "equation" : "accoa + ala__D <=> coa + icpd1865",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd185" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd1865" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.263; 2.3.1.263",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:AKPTHIOL-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00399"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:L-ALPHA-ALANINE", "META:CPD-29", "META:ACETYL-COA", "META:D-ALANINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6344" ],
+      "orphan" : "NO",
+      "gibbs" : 7.0599976,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2203",
+  "equation" : "h2o + selmeth <=> 2obut + n2 + methsel",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6744" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3298" : "",
+      "icpd3420" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.4.1.1; 4.4.1.11",
+  "otherNames" : [ ],
+  "alias" : "SEMETHL_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SEMETHL_c"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04770"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00450" ],
+      "orthologs" : [ "K01761", "K01758" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

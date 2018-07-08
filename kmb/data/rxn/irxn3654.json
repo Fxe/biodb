@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3654",
+  "equation" : "h2o + 6dg <=> gal + glc__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2960" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1558" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.2.1.22",
+  "otherNames" : [ ],
+  "alias" : "DGGH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALPHAGALACTOSID-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DGGH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:PHMB", "META:CU+2", "META:FE+2", "META:NI+2", "META:15-DIDEOXY-15-IMINO-D-GALACTITOL", "META:ZN+2", "META:CPD-1490", "META:5-AMINO-5-DEOXY-D-GALACTOPYRANOSIDE" ],
+      "activators" : [ "META:NAD", "META:Thiols", "META:2-MERCAPTOETHANOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY0-1301" ],
+      "orphan" : "NO",
+      "gibbs" : -3.112976,
+      "uniprot" : [ "Q39811", "Q42656", "P04824", "P14749", "P28351", "P51569", "Q99172", "O04944", "O04943", "Q41100", "Q03647", "P16551", "P06280", "Q92451", "P41947", "Q92456", "P41946", "P41945", "P27756", "O93816", "P06720", "P43467", "Q92457" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

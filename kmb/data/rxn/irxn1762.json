@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1762",
+  "equation" : "h2o + aps <=> amp + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1665" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5748" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.2.1; 3.6.2.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00531"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ADENYLYLSULFATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 1.363617,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00920" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

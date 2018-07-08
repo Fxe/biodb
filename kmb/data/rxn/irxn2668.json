@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2668",
+  "equation" : "o2 + 330009 <=> 2kmb + for + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "330009" : ""
+    },
+    "r" : {
+      "icpd5914" : "",
+      "icpd1851" : "2.0",
+      "icpd1650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ARD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACDO"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARD"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iPC815", "iRC1080", "iLB1027_lipid", "iJB785", "iAB_RBC_283" ]
+    }
+  }
+}

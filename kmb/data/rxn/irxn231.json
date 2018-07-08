@@ -1,0 +1,47 @@
+{
+  "id" : "irxn231",
+  "equation" : "h2o + 328771 <=> n2 + pyr + thcys",
+  "stoichiometry" : {
+    "l" : {
+      "328771" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7816" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CTINBL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYSLYSL"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CTINBL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

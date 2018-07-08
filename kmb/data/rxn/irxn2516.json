@@ -1,0 +1,53 @@
+{
+  "id" : "irxn2516",
+  "equation" : "o2 + rb15bp <=> 2pglyc + 2.0 h + 3pg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1029" : ""
+    },
+    "r" : {
+      "icpd6074" : "",
+      "icpd1859" : "",
+      "icpd1851" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.39; EC-1.13.11",
+  "otherNames" : [ ],
+  "alias" : "RBCh",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03140"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RBCh_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RBCh"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-961"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-181" ],
+      "orphan" : "NO",
+      "gibbs" : -123.09827,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100", "rn01200", "rn01110", "rn01130" ],
+      "orthologs" : [ "K01602", "K01601" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJN678" ]
+    }
+  }
+}

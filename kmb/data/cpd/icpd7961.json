@@ -1,0 +1,39 @@
+{
+  "id" : "icpd7961",
+  "formula" : "C4H3FN2O2",
+  "name" : "5-fluorouracil",
+  "synonyms" : [ "5-fluoro-1,2,3,4-tetrahydropyrimidine-2,4-dione", "fluorouracil" ],
+  "alias" : "5flura",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07649"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "5flura"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1327"
+  } ],
+  "inchi" : "InChI=1S/C4H3FN2O2/c5-2-1-6-4(9)7-3(2)8/h1H,(H2,6,7,8,9)",
+  "inchikey" : "GHASVSINZRGABV-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C(=O)NC(=O)N1)F",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:URACIL-PRIBOSYLTRANS-RXN" ],
+      "instances" : [ "META:Uracil-Analogues" ],
+      "reactions" : [ "META:RXN-14129" ],
+      "gibbs" : -80.246635,
+      "cmlMolWeight" : 130.078,
+      "molWeight" : 130.078,
+      "parents" : [ "META:Uracil-Analogues" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   20.7957  -18.3013    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5791  -19.0057    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0068  -19.0057    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7843  -16.8981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5791  -20.4030    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3622  -18.3013    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0068  -20.4030    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7957  -21.1017    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2061  -21.1017    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  7  9  2  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07649\n\n$$$$",
+  "reactions" : [ "irxn6048", "irxn5813" ]
+}

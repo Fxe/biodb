@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6565",
+  "equation" : "udpgal <=> udpgalfur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5440" : ""
+    },
+    "r" : {
+      "icpd6101" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.99.9",
+  "otherNames" : [ ],
+  "alias" : "UDPGALM",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UDPGALM"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00505"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn00052" ],
+      "orthologs" : [ "K01854" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iAF1260", "iY75_1357", "iECSF_1327", "iEcSMS35_1347", "iBWG_1329", "iML1515", "iJR904", "iECDH1ME8569_1439", "iHN637", "iAF1260b", "iJO1366", "iNJ661", "iEcDH1_1363", "iECDH10B_1368", "STM_v1_0" ]
+    }
+  }
+}

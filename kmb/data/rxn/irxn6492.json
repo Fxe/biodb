@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6492",
+  "equation" : "nad + ppoh <=> nadh + h + ppal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd6684" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd6292" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.1; 1.1.1.202",
+  "otherNames" : [ ],
+  "alias" : "ALCD3ir",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02377"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13198"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALCD3ir"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:FE+3", "META:CU+2", "META:NI+2", "META:CA+2", "META:ZN+2", "META:MN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7013" ],
+      "orphan" : "NO",
+      "gibbs" : 2.6517944,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640" ],
+      "orthologs" : [ "K00086", "K13921" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iECUMN_1333", "iEcE24377_1341", "iE2348C_1286", "iNRG857_1313", "iAF987", "iLF82_1304", "STM_v1_0", "iSSON_1240" ]
+    }
+  }
+}

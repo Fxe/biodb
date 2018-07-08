@@ -1,0 +1,30 @@
+{
+  "id" : "icpd4152",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4152",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01525"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Sulfhydryls"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:DTDPGLUCDEHYDRAT-RXN" ],
+      "reactions" : [ "META:THIOL-OXIDASE-RXN" ],
+      "parents" : [ "META:Thiols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   26.5300  -21.7700    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.7400  -22.4714    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3200  -22.4714    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5300  -20.3671    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01525\n\n$$$$",
+  "reactions" : [ "irxn3904" ]
+}

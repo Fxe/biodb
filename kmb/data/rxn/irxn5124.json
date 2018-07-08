@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5124",
+  "equation" : "h2o + icpd2135 <=> catechol + 2hmc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2135" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6463" : "",
+      "icpd2941" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.7.1.8; EC-3.7.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R605-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05361"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P661-PWY" ],
+      "orphan" : null,
+      "gibbs" : -3.391243,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00621" ],
+      "orthologs" : [ "K10222" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id" : "irxn6020",
+  "equation" : "Ncbmpts + h2o <=> ptrc + n2 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd863" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd4511" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.53; 3.5.1.53",
+  "otherNames" : [ ],
+  "alias" : "CMPA",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01152"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CMPA_1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-CARBAMOYLPUTRESCINE-AMIDASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CMPA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:IODOACETAMIDE", "META:CPD-29", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-43", "META:ARGDEG-III-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 2.1128807,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330" ],
+      "orthologs" : [ "K12251" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iJB785" ]
+    }
+  }
+}

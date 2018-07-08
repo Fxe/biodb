@@ -1,0 +1,45 @@
+{
+  "id" : "irxn893",
+  "equation" : "icpd532 + amet <=> ahcys + dna5mtc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd532" : "",
+      "icpd7007" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd2291" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.37; 2.1.1.37",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04858"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DNA-CYTOSINE-5--METHYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ADENOSYL-HOMO-CYS", "META:S-TUBERCIDINYLHOMOCYSTEINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -41.18228,
+      "uniprot" : [ "P11409", "P52311", "P11408", "P31974", "P13906", "O65343", "P13864", "P34881", "P15446", "P14243", "P19888", "P14244", "Q02778", "P10283", "O08431", "O23273", "P23941", "O49022", "P25264", "P25263", "P25265", "P25262", "P50185", "P0A462", "P71101", "P36216", "P95820", "P17044", "P68586", "P24600", "P50192", "Q9Z330", "P43420", "Q38652", "P05101", "P08455", "P05102", "P0AED9", "O48866", "P24581", "O48867", "P45000", "O24892", "Q9JQR8", "Q98580", "O25746", "Q92072", "Q9ZLZ0", "O87740", "Q59606", "P25267", "Q9S9I8", "P29567", "P79922", "O49889", "P25282", "P09915", "O41165", "P25283", "Q60171", "P70750", "O42731", "Q9T0I1", "P30774", "Q47257", "Q98567", "P14230", "P20589", "Q9JU80", "P23737", "Q9JWD8", "P00476", "P06530" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ "K17399", "K17398", "K00558" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

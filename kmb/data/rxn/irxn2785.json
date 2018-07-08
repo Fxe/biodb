@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2785",
+  "equation" : "glcur + atp <=> adp + glcur1p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1947" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3052" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.43; 2.7.1.43",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01476"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCURONOKINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GDP", "META:CPD-510", "META:ADP", "META:UDP-GLUCURONATE" ],
+      "activators" : [ "META:MG+2", "META:CO+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4841" ],
+      "orphan" : "NO",
+      "gibbs" : -16.064148,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100", "rn00053", "rn00040" ],
+      "orthologs" : [ "K16190" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

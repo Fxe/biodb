@@ -1,0 +1,34 @@
+{
+  "id" : "icpd3823",
+  "formula" : "C6H11O4",
+  "name" : "(r)-mevalonate",
+  "synonyms" : [ "mevalonate" ],
+  "alias" : "icpd3823",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "mev-R"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MEVALONATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00418"
+  } ],
+  "inchi" : "InChI=1S/C6H12O4/c1-6(10,2-3-7)4-5(8)9/h7,10H,2-4H2,1H3,(H,8,9)/p-1/t6-/m1/s1",
+  "inchikey" : "KJTLQQUUPVSXIM-ZCFIWIBFSA-M",
+  "smiles" : "C[C@@](CCO)(CC(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:MEVALONATE-KINASE-RXN", "META:1.1.1.34-RXN", "META:MEVALDATE-REDUCTASE-RXN", "META:MEVALDATE-REDUCTASE-NADPH-RXN", "META:HYDROXYMETHYLGLUTARYL-COA-REDUCTASE-RXN", "META:RXN-15647" ],
+      "gibbs" : -45.099743,
+      "cmlMolWeight" : 147.15,
+      "molWeight" : 147.15
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   25.0014  -17.4412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2096  -16.7436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4179  -17.4412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6261  -16.7436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8342  -17.4412    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1962  -15.6874    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3523  -15.6260    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7933  -16.7436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6019  -17.4316    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7932  -15.3487    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  6  1  1     0  0\n  2  7  1  6     0  0\n  1  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00418\n\n$$$$",
+  "reactions" : [ "irxn5113", "irxn6087", "irxn4837", "irxn619", "irxn4435", "irxn1334" ]
+}

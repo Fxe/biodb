@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2377",
+  "equation" : "dctp + dcmp <=> 2.0 dcdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd327" : "",
+      "icpd6810" : ""
+    },
+    "r" : {
+      "icpd1043" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CYTK12",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYTK12"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYTK12n"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

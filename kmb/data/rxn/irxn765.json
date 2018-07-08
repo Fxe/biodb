@@ -1,0 +1,50 @@
+{
+  "id" : "irxn765",
+  "equation" : "udpg + g6p_A <=> udp + tre6p + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd3071" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6858" : "",
+      "icpd3792" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.15",
+  "otherNames" : [ ],
+  "alias" : "UG6PGT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02737"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UG6PGTn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UG6PGT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00500" ],
+      "orthologs" : [ "K16055", "K00697" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4991",
+  "equation" : "2.0 g1p <=> icpd3145 + glc__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd402" : "2.0"
+    },
+    "r" : {
+      "icpd3145" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.41; 2.7.1.41",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCOSE-1-PHOSPHATE-PHOSPHODISMUTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00960"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -2.496521,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00500" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2546",
+  "equation" : "o2 + S2hglut <=> akg + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd352" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7043" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.3",
+  "otherNames" : [ ],
+  "alias" : "SHGO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SHGO"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-5364"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -26.14,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

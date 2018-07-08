@@ -1,0 +1,50 @@
+{
+  "id" : "irxn709",
+  "equation" : "h2o + thm <=> 4mhetz + 4ahmmp + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1280" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2370" : "",
+      "icpd5882" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.99.2; 3.5.99.2",
+  "otherNames" : [ ],
+  "alias" : "TMN",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TMN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02133"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THIAMINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HMP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7356" ],
+      "orphan" : "NO",
+      "gibbs" : -12.272997,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00730" ],
+      "orthologs" : [ "K03707", "K00877" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iNF517", "iND750", "iNJ661", "iMM904", "iHN637", "iYO844" ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6342",
+  "equation" : "h2o + malt6p <=> g6p + glc__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3388" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1569" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.122",
+  "otherNames" : [ ],
+  "alias" : "MAL6PG",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00838"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MAL6PG"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00500" ],
+      "orthologs" : [ "K01232" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYO844" ]
+    }
+  }
+}

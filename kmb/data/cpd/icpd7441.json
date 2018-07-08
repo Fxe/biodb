@@ -1,0 +1,36 @@
+{
+  "id" : "icpd7441",
+  "formula" : "C5H7O4",
+  "name" : "(s)-2-hydroxy-2-methyl-3-oxobutanoate",
+  "synonyms" : [ "(2s)-2-hydroxy-2-methyl-3-oxobutanoate" ],
+  "alias" : "icpd7441",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06010"
+  }, {
+    "source" : "BiGG",
+    "entry" : "alac-S"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-ACETO-LACTATE"
+  } ],
+  "inchi" : "InChI=1S/C5H8O4/c1-3(6)5(2,9)4(7)8/h9H,1-2H3,(H,7,8)/p-1/t5-/m0/s1",
+  "inchikey" : "NMDWGEGFJUBKLB-YFKPBYRVSA-M",
+  "smiles" : "CC(=O)[C@@](C)(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-12642" ],
+      "reactions" : [ "META:2-ACETOLACTATE-MUTASE-RXN", "META:ACETOLACTREDUCTOISOM-RXN", "META:RXN-6081", "META:RXN-14037", "META:RXN-16061", "META:ACETOLACTATE-DECARBOXYLASE-RXN", "META:ACETOLACTSYN-RXN", "META:RXN-16060" ],
+      "gibbs" : -81.59421,
+      "cmlMolWeight" : 131.108,
+      "molWeight" : 131.108,
+      "parents" : [ "META:CPD-12642" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   26.4918  -20.9856    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.2835  -20.2963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7047  -20.2801    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8521  -22.3419    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2608  -22.4849    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0772  -20.9955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2816  -18.8888    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9130  -20.9759    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7028  -18.8791    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  1  5  1  1     0  0\n  2  6  1  0     0  0\n  2  7  2  0     0  0\n  3  8  1  0     0  0\n  3  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06010\n\n$$$$",
+  "reactions" : [ "irxn4860", "irxn6706", "irxn1932", "irxn1646", "irxn1092", "irxn4337" ]
+}

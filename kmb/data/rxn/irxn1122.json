@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1122",
+  "equation" : "ser__D <=> n2 + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2056" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.3.1.18; EC-4.3.1.18",
+  "otherNames" : [ ],
+  "alias" : "SERD_D",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DSERDEAM-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SERD_D"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00221"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:23-Diaminopropanoate", "META:SER", "META:CPD0-1507", "META:ALLO-THR", "META:D-THREONINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -8.334122,
+      "uniprot" : [ "P00926" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00260" ],
+      "orthologs" : [ "K20498", "K01753" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iEKO11_1354", "ic_1306", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECO26_1355", "iECP_1309", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iECO111_1330", "iECW_1372", "iEcSMS35_1347", "iNRG857_1313", "iYO844", "iECH74115_1262", "iECB_1328", "iSbBS512_1146", "iECBD_1354", "iECUMN_1333", "iECSF_1327", "iSDY_1059", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECNA114_1301", "iSFxv_1172", "iECS88_1305", "STM_v1_0", "iSSON_1240", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iJO1366", "iNJ661", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

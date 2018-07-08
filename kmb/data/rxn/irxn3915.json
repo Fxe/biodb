@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3915",
+  "equation" : "udpg + icpd3628 <=> icpd3661 + udp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd3628" : ""
+    },
+    "r" : {
+      "icpd3661" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.295; EC-2.4.1.295",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16780"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10294"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CUSO4", "META:CPD-18101", "META:2-METHOXYETHANOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7678" ],
+      "orphan" : null,
+      "gibbs" : 8.351685,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00942" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2424",
+  "equation" : "5odhf2a + h2o <=> h + 3oxoadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4447" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2623" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.24; EC-3.1.1.24",
+  "otherNames" : [ ],
+  "alias" : "OXOAEL",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-OXOADIPATE-ENOL-LACTONASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OXOAEL"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02991"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CATECHOL-ORTHO-CLEAVAGE-PWY", "META:PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -4.4612427,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00362" ],
+      "orthologs" : [ "K01055", "K14727" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iJN746" ]
+    }
+  }
+}

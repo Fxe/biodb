@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5834",
+  "equation" : "icpd6202 + h2o <=> icpd6125 + gal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6202" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6125" : "",
+      "icpd1558" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.2.1.46; 3.2.1.46; 3.2.1.62",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GALACTOSYLCERAMIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03617"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 99.598206,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00600" ],
+      "orthologs" : [ "K01202" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

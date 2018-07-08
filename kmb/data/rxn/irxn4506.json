@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4506",
+  "equation" : "lys__L + apoC <=> 322540 + h2o + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6731" : "",
+      "icpd4807" : ""
+    },
+    "r" : {
+      "322540" : "",
+      "icpd1851" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ACCPF_h",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACCPF_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACCPF_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACCPF_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

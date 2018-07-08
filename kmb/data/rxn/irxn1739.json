@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1739",
+  "equation" : "adcobhex + atp + applp <=> adocbip + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8155" : "",
+      "icpd68" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1273" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.1.10",
+  "otherNames" : [ ],
+  "alias" : "ADCPS2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R06529"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ADCPS2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K02227", "K02225" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNJ661", "iJN678", "iAF987", "iHN637", "iJB785", "iJN746" ]
+    }
+  }
+}

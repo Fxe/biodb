@@ -1,0 +1,46 @@
+{
+  "id" : "irxn572",
+  "equation" : "chsterol + R1coa_hs <=> xolest_hs + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4645" : "",
+      "icpd1681" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd4578" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SOAT11",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SOAT11r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SOAT11"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

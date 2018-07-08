@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3556",
+  "equation" : "h2o + icpd1279 <=> icpd152 + h + icpd2610",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1279" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2610" : "",
+      "icpd152" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.8.1.10; 3.8.1.2; 3.8.1.10; EC-3.8.1.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03830"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-HALOACID-DEHALOGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -5.2382355,
+      "uniprot" : [ "Q59168", "Q59728", "P24070", "P24069" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

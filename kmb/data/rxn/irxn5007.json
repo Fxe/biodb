@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5007",
+  "equation" : "3.0 nadh + so3 + 3.0 h <=> 3.0 nad + s + 3.0 h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "3.0",
+      "icpd1851" : "3.0",
+      "icpd5833" : ""
+    },
+    "r" : {
+      "icpd5284" : "",
+      "icpd4016" : "3.0",
+      "icpd5131" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SO3R",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SO3R"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10146"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00920" ],
+      "orthologs" : [ "K16951", "K16950", "K00385" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "STM_v1_0" ]
+    }
+  }
+}

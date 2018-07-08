@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2985",
+  "equation" : "com + cob + fum <=> succ + hsfd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd590" : "",
+      "icpd2216" : "",
+      "icpd5149" : ""
+    },
+    "r" : {
+      "icpd4650" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.4.1; EC-1.3.4.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10660"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15295"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -16.00235,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01200", "rn01120", "rn00720" ],
+      "orthologs" : [ "K18209", "K18210" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

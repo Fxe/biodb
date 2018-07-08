@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2216",
+  "equation" : "h2o + icpd15 <=> glu__L + icpd6092",
+  "stoichiometry" : {
+    "l" : {
+      "icpd15" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6092" : "",
+      "icpd514" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.65; 3.5.1.65",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02930"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THEANINE-HYDROLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.0871258,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

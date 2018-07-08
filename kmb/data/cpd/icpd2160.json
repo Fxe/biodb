@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2160",
+  "formula" : "C3H3NO2",
+  "name" : "isoxazolin-5-one",
+  "synonyms" : [ ],
+  "alias" : "icpd2160",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-16448"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20891"
+  } ],
+  "inchi" : "InChI=1S/C3H3NO2/c5-3-1-2-4-6-3/h2H,1H2",
+  "inchikey" : "QBWUTXXJFOIVME-UHFFFAOYSA-N",
+  "smiles" : "C1C=NOC1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-15245", "META:RXN-15247" ],
+      "gibbs" : -27.646639,
+      "cmlMolWeight" : 85.062,
+      "molWeight" : 85.062
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  0  0  0  0  0  0999 V2000\n    9.9400  -15.2600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.3400  -15.2600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.7726  -13.9285    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   10.6400  -13.1056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.5074  -13.9285    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.1171  -16.3926    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  1  5  1  0     0  0\n  1  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20891\n\n$$$$",
+  "reactions" : [ "irxn1498", "irxn1511" ]
+}

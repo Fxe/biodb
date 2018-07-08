@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1561",
+  "equation" : "cys__L + o2 <=> 3sala + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4873" : ""
+    },
+    "r" : {
+      "icpd1070" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.20; 1.13.11.20",
+  "otherNames" : [ ],
+  "alias" : "CYSO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYSDO"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00893"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSO"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CYSTEINE-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:O-PHENANTHROLINE", "META:HOMO-CYS", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5331", "META:CYSTEINE-DEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -81.11412,
+      "uniprot" : [ "P21816", "Q16878" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00430", "rn00270" ],
+      "orthologs" : [ "K00456" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

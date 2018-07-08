@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1211",
+  "equation" : "o2 + nadh + icpd3526 + h <=> nad + h2o + icpd3481",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd3526" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd3481" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.44; 1.14.13.44",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-HYDROXYBIPHENYL-3-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03964"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CL-", "META:PHMB", "META:CU+2", "META:BIPHENYL-23-DIOL", "META:HG+2", "META:AG+" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7008" ],
+      "orphan" : "NO",
+      "gibbs" : -93.1488,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id" : "irxn4712",
+  "equation" : "akg + Lkynr <=> 4aphdob + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd7803" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd2243" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.7; EC-2.6.1.7",
+  "otherNames" : [ ],
+  "alias" : "KYNAKGAT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01956"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "KYNAKGAT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "KYNAKGATm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.6.1.7-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:TRP", "META:INDOLE_PYRUVATE", "META:CPD-11578", "META:INDOLE_ACETATE_AUXIN", "META:CYS", "META:TRIS", "META:CPD0-1614", "META:MALEATE", "META:INDOLE-PROPIONATE", "META:INDOLE_LACTATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6309" ],
+      "orphan" : "NO",
+      "gibbs" : 1.3241196,
+      "uniprot" : [ "O14209", "Q8MP09", "Q9XX97", "Q08415", "P47039", "Q16773" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K00816", "K14264", "K00825" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

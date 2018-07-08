@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2879",
+  "equation" : "324548 <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "324548" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DM_Asn_X_Ser_Thr_l",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SK_Asn_X_Ser_Thr_r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SK_Asn_X_Ser_Thr_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_Asn_X_Ser_Thr_l"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  }
+}

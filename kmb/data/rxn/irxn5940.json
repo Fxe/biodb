@@ -1,0 +1,51 @@
+{
+  "id" : "irxn5940",
+  "equation" : "coa + arachd + atp <=> amp + ppi + arachdcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1270" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7025" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "r1262",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL_C204_x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL204"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r1262"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3028",
+  "formula" : "C2H5ClO",
+  "name" : "2-chloroethanol",
+  "synonyms" : [ "ethylene chlorohydrin" ],
+  "alias" : "icpd3028",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-CHLOROETHANOL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06753"
+  } ],
+  "inchi" : "InChI=1S/C2H5ClO/c3-1-2-4/h4H,1-2H2",
+  "inchikey" : "SZIFAVKTNFCBPC-UHFFFAOYSA-N",
+  "smiles" : "C(CO)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:DHLAXANAU-RXN", "META:MOXXANAU-RXN" ],
+      "gibbs" : 1.3956012,
+      "cmlMolWeight" : 80.514,
+      "molWeight" : 80.514
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   29.4531  -16.5897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2269  -17.2903    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6616  -17.2844    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0184  -16.5956    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06753\n\n$$$$",
+  "reactions" : [ "irxn2117" ]
+}

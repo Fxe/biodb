@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3482",
+  "equation" : "icpd7781 <=> icpd8207 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7781" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd8207" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.96; EC-4.1.1.96",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09082"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9380"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:FE+3", "META:FE+2", "META:ZN+2", "META:MN+2" ],
+      "activators" : [ "META:DITHIOTHREITOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6562" ],
+      "orphan" : "NO",
+      "gibbs" : -4.3382187,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ "K13747" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

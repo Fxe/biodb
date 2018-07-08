@@ -1,0 +1,47 @@
+{
+  "id" : "irxn582",
+  "equation" : "o2 + icpd1743 + akg <=> icpd3294 + succ + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : "",
+      "icpd1743" : ""
+    },
+    "r" : {
+      "icpd3294" : "",
+      "icpd2454" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.11.9; EC-1.14.11.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NARINGENIN-3-DIOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02444"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:CPD-6941", "META:SUCROSE", "META:CPD-693", "META:CPD-110" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY1F-FLAVSYN", "META:PWY-6787" ],
+      "orphan" : "NO",
+      "gibbs" : -111.42001,
+      "uniprot" : [ "P28038", "Q43262", "Q42927", "Q05964", "Q05963", "Q06942", "Q05965", "O49047", "Q43741", "Q40344", "Q07353" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00941" ],
+      "orthologs" : [ "K00475" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

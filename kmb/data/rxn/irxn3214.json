@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3214",
+  "equation" : "nad + glcn <=> nadh + h + 5dglcn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2898" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd4950" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.69",
+  "otherNames" : [ ],
+  "alias" : "5DKGR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01738"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-7101"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "5DKGR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 2.1217651,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

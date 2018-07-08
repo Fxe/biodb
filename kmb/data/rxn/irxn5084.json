@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5084",
+  "equation" : "2.0 icpd258 + o2 <=> 2.0 icpd1095 + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd258" : "2.0"
+    },
+    "r" : {
+      "icpd1095" : "2.0",
+      "icpd1851" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.17.3.4; 1.17.3.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04327"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:JUGLONE-3-MONOOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7825" ],
+      "orphan" : null,
+      "gibbs" : -106.748245,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

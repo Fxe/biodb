@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5392",
+  "equation" : "gtp + 3.0 h2o <=> for + ppi + 2.0 h + 25dhpp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1365" : "",
+      "icpd4016" : "3.0"
+    },
+    "r" : {
+      "icpd3504" : "",
+      "icpd1851" : "2.0",
+      "icpd1650" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GTPDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GTPCII"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GTPDH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iIT341", "iND750", "iJN678", "iHN637", "iJB785", "iYO844", "iJN746", "iLJ478", "iRC1080", "iNJ661", "iMM904", "iSB619" ]
+    }
+  }
+}

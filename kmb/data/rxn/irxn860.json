@@ -1,0 +1,46 @@
+{
+  "id" : "irxn860",
+  "equation" : "h2o + gluside_hs <=> glc__D + crm_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7050" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6184" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GBA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GBA"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GBAl"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

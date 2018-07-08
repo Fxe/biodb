@@ -1,0 +1,47 @@
+{
+  "id" : "irxn16",
+  "equation" : "317145 + udpgal <=> udp + h + 338464",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5440" : "",
+      "317145" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "338464" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "MGDGS_OLE_HDE_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MGDGS1819Z1619Z"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MGDGS_OLE_HDE_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5214",
+  "equation" : "idon__L + nadp <=> nadph + h + 5dglcn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd789" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd4950" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.264; 1.1.1.264",
+  "otherNames" : [ ],
+  "alias" : "IDOND2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05684"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "IDOND2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-IDONATE-2-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -0.1665039,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00098" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iECBD_1354", "iEKO11_1354", "ic_1306", "iECD_1391", "iECUMN_1333", "iECED1_1282", "iECSF_1327", "iWFL_1372", "iUMN146_1321", "iBWG_1329", "iML1515", "iJR904", "iECDH1ME8569_1439", "iLF82_1304", "iECABU_c1320", "iUTI89_1310", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iAPECO1_1312", "iECP_1309", "iECDH10B_1368", "iSSON_1240", "STM_v1_0", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iY75_1357", "iEcSMS35_1347", "iNRG857_1313", "iECW_1372", "iJO1366", "iECB_1328", "iECOK1_1307" ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id" : "icpd3765",
+  "formula" : "C8H12N2O3S",
+  "name" : "6-aminopenicillanic acid",
+  "synonyms" : [ "(2s,5r,6r)-6-amino-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid" ],
+  "alias" : "icpd3765",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:6-AMINOPENICILLANATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02954"
+  } ],
+  "inchi" : "InChI=1S/C8H12N2O3S/c1-8(2)4(7(12)13)10-5(11)3(9)6(10)14-8/h3-4,6H,9H2,1-2H3,(H,12,13)/t3-,4+,6-/m1/s1",
+  "inchikey" : "NGHVIOIJCVXTGV-ALEPSDHESA-N",
+  "smiles" : "CC1(C)[C@]([H])(C(=O)O)N2C(=O)[C@]([H])([C@@]2([H])S1)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-16649" ],
+      "instances" : [ "META:Beta-Lactams" ],
+      "reactions" : [ "META:RXN-17099", "META:RXN-17062", "META:RXN-17061", "META:PENICILLIN-AMIDASE-RXN" ],
+      "gibbs" : 14.77344,
+      "cmlMolWeight" : 216.254,
+      "molWeight" : 216.254,
+      "parents" : [ "META:Beta-Lactams" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 16  0  0  1  0  0  0  0  0999 V2000\n   11.9525  -15.0802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9525  -16.4851    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3573  -16.4851    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3573  -15.0802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6918  -16.9064    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5345  -15.7825    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6918  -14.6587    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5180  -16.7659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5180  -14.7992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1834  -18.2409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5881  -18.2409    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3405  -19.3646    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3573  -13.6754    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   10.7584  -14.3778    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   10.7584  -17.1874    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  1  4  1  0     0  0\n  3  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  4  7  1  0     0  0\n  6  8  1  0     0  0\n  6  9  1  0     0  0\n  5 10  1  6     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\n  4 13  1  6     0  0\n  1 14  1  1     0  0\n  2 15  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02954\n\n$$$$",
+  "reactions" : [ "irxn4302" ]
+}

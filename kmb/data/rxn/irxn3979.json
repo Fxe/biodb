@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3979",
+  "equation" : "asp__L + nadp <=> nadph + iasp + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd95" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7672" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.1.21",
+  "otherNames" : [ ],
+  "alias" : "ASPO2y",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07407"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPO2y"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00760" ],
+      "orthologs" : [ "K06989" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iHN637" ]
+    }
+  }
+}

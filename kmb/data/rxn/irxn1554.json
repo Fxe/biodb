@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1554",
+  "equation" : "h2o + amuco <=> 2hmc + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3204" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6463" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.99.11; EC-3.5.99.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11532"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8845"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 1.2287521,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K20931" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

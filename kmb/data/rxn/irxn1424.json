@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1424",
+  "equation" : "o2 + icpd6196 + akg <=> succ + co2 + icpd4226",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : "",
+      "icpd6196" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4226" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.11.11; EC-1.14.11.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03812"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYOSCYAMINE-6-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7341", "META:PWY-5317" ],
+      "orphan" : "NO",
+      "gibbs" : -113.65999,
+      "uniprot" : [ "P24397", "Q7M4Z1" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960", "rn01100", "rn01110" ],
+      "orthologs" : [ "K12692" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

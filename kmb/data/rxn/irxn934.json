@@ -1,0 +1,48 @@
+{
+  "id" : "irxn934",
+  "equation" : "o2 + h2o + mhista <=> n2 + 3mldz + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd7089" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd4074" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.4; 1.4.3.22",
+  "otherNames" : [ ],
+  "alias" : "MHISOR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MHISOR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04674"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00340" ],
+      "orthologs" : [ "K00274", "K11182" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

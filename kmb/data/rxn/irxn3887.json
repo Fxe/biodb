@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3887",
+  "equation" : "aicar + ppi <=> C04051 + prpp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1629" : "",
+      "icpd1231" : ""
+    },
+    "r" : {
+      "icpd3930" : "",
+      "icpd5842" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.2.7; 2.4.2.7",
+  "otherNames" : [ ],
+  "alias" : "ADPT2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04378"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ADPT2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14270"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -4.774719,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230" ],
+      "orthologs" : [ "K00759" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN678", "iJN746" ]
+    }
+  }
+}

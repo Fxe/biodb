@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5443",
+  "equation" : "amet + icpd4816 <=> ahcys + icpd4173",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd4816" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd4173" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.143; EC-2.1.1.143",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05776"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.1.1.143-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:INDOLE_ACETATE_AUXIN" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2541" ],
+      "orphan" : "NO",
+      "gibbs" : -16.730003,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00100", "rn01110" ],
+      "orthologs" : [ "K08242" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

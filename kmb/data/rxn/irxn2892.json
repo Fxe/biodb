@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2892",
+  "equation" : "amet + 5hoxindoa <=> ahcys + 5moxact",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd903" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd1164" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.4",
+  "otherNames" : [ ],
+  "alias" : "ACSOMT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04905"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACSOMT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ "K00543" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

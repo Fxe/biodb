@@ -1,0 +1,40 @@
+{
+  "id" : "icpd2567",
+  "formula" : "C15H10O2",
+  "name" : "flavone",
+  "synonyms" : [ "2-phenyl-1-benzopyran-4-one", "2-phenyl-4-benzopyron", "2-phenyl-4-chromone", "2-phenyl-4h-1-benzopyran-4-one", "2-phenyl-4h-benzopyran-4-one", "2-phenyl-4h-chromen-4-one", "2-phenylbenzopyran-4-one", "2-phenylchromen-4-one", "2-phenylchromone" ],
+  "alias" : "icpd2567",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Flavones"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C10043"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8485"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C15608"
+  } ],
+  "inchi" : "InChI=1S/C15H10O2/c16-13-10-15(11-6-2-1-3-7-11)17-14-9-5-4-8-12(13)14/h1-10H",
+  "inchikey" : "VHBFFQKBGNRLFZ-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)C2=CC(=O)C3=C(C=CC=C3)O2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN0-5330" ],
+      "instances" : [ "META:CPD-15109", "META:CPD-15822", "META:CPD-13502", "META:CPD-12734", "META:CPD-18158", "META:CPD-18157", "META:CPD-18156", "META:CPD-12571", "META:CPD-15172", "META:CPD1F-90", "META:CPD-7954", "META:CPD-8143", "META:CPD-8141", "META:CPD-8184", "META:CPD-8144", "META:CPD-8485", "META:CPD-13511", "META:CPD-14824", "META:CPD-12724", "META:CPD-12725", "META:CPD-12726", "META:CPD-15176", "META:CPD-18169", "META:CPD-10349", "META:CPD-15175", "META:CPD-10348", "META:CPD-10347", "META:CPD-10345", "META:CPD-431", "META:CPD-8138", "META:CPD-18170", "META:CPD-15063", "META:CPD-12727", "META:CPD-8153", "META:CPD-12728", "META:CPD-9588", "META:CPD-9587" ],
+      "reactions" : [ "META:RXN-8000" ],
+      "gibbs" : 107.781204,
+      "cmlMolWeight" : 222.243,
+      "molWeight" : 222.243,
+      "parents" : [ "META:Flavone-Glycosides", "META:CPD-15109", "META:CPD-15822", "META:CPD-13502", "META:CPD-12734", "META:CPD-18158", "META:CPD-18157", "META:CPD-18156", "META:CPD-12571", "META:CPD-15172", "META:CPD1F-90", "META:CPD-7954", "META:CPD-8143", "META:CPD-8141", "META:CPD-8184", "META:Hydroxyflavones", "META:CPD-8144", "META:CPD-8485", "META:CPD-13511", "META:CPD-14824", "META:CPD-12724", "META:CPD-12725", "META:CPD-12726", "META:Methoxyflavones", "META:CPD-15176", "META:CPD-18169", "META:CPD-10349", "META:CPD-15175", "META:CPD-10348", "META:CPD-10347", "META:CPD-10345", "META:CPD-431", "META:CPD-8138", "META:CPD-18170", "META:CPD-15063", "META:CPD-12727", "META:CPD-8153", "META:CPD-12728", "META:Flavonoids", "META:CPD-9588", "META:CPD-9587" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 17 19  0  0  0  0  0  0  0  0999 V2000\n   22.2218  -16.3198    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1576  -14.9160    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3633  -17.0187    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9461  -17.0130    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3750  -14.2171    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9461  -14.2112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5750  -16.3314    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3576  -18.4226    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7345  -16.3198    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5807  -14.9277    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7345  -14.9160    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7981  -14.2287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0038  -14.9394    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7981  -12.8308    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2212  -14.2404    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0155  -12.1434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2270  -12.8424    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  6 11  2  0     0  0\n 10 12  1  0     0  0\n 12 13  2  0     0  0\n 12 14  1  0     0  0\n 13 15  1  0     0  0\n 14 16  2  0     0  0\n 15 17  2  0     0  0\n  7 10  2  0     0  0\n  9 11  1  0     0  0\n 16 17  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C10043\n\n$$$$",
+  "reactions" : [ "irxn2649" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn909",
+  "equation" : "cys__L + 2saa <=> h2o + 2tcc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4873" : "",
+      "icpd5831" : ""
+    },
+    "r" : {
+      "icpd8064" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SMTZS",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R232-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SMTZS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6643", "META:P261-PWY" ],
+      "orphan" : null,
+      "gibbs" : -21.14524,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

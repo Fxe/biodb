@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1648",
+  "equation" : "drib + atp <=> 2dr5p + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6984" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7473" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.15; 2.7.1.15",
+  "otherNames" : [ ],
+  "alias" : "DRBK",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14223"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DRBK"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02750"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -15.095764,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00030" ],
+      "orthologs" : [ "K00852" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iCHOv1", "iNF517", "iETEC_1333", "iND750", "iEC55989_1330", "iECED1_1282", "iECSF_1327", "iJN678", "iAT_PLT_636", "iYO844", "iECABU_c1320", "iLJ478", "iRC1080", "iMM1415", "iECP_1309", "iMM904", "RECON1", "iSB619", "iECNA114_1301", "STM_v1_0", "iEC042_1314" ]
+    }
+  }
+}

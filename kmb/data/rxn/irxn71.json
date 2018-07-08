@@ -1,0 +1,45 @@
+{
+  "id" : "irxn71",
+  "equation" : "sucr + icpd1521 <=> icpd530 + icpd5516",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1521" : "",
+      "icpd5746" : ""
+    },
+    "r" : {
+      "icpd530" : "",
+      "icpd5516" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.211; EC-2.7.1.211",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00811"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SUCROSEPHOSPHO-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:SUCUTIL-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -37.371063,
+      "uniprot" : [ "P24241", "P26382", "P26381", "P12655", "Q48978", "P37439", "Q02420", "P69791", "Q49029", "P69824", "Q49037", "Q53922", "P69786", "Q49076", "P37082", "P69829", "P37083", "P27547", "P23387", "P08722", "P45338", "P69826", "P43470", "Q49019", "Q44840", "P54745", "P45604", "P20966", "P17876", "P50829", "P74938", "P44714", "P69797", "Q9JWF9", "P69795", "P17162", "P20166", "P26426", "P28008", "P24400", "P23355", "Q9X675", "P56579", "Q9X676", "P05306", "Q9X674", "P05706", "P11502", "Q57071", "Q48998", "P69801", "O51590", "P17334", "Q49057", "P56580", "P45597", "P69805", "P0A0D6", "P69783", "P0A283", "P19642", "P11162", "P39794", "O34521", "P69811", "Q49089", "O51000", "P08470", "P09323", "P27219", "P0A0E0", "P41029", "P00550", "P23531" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00500" ],
+      "orthologs" : [ "K02809", "K02808", "K02810" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

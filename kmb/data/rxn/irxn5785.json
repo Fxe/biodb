@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5785",
+  "equation" : "icpd892 <=> h2o + icpd4931",
+  "stoichiometry" : {
+    "l" : {
+      "icpd892" : ""
+    },
+    "r" : {
+      "icpd4931" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.25; 4.2.1.25",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02522"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-ARABINONATE-DEHYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7295", "META:PWY-5517" ],
+      "orphan" : "NO",
+      "gibbs" : -8.166992,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053" ],
+      "orthologs" : [ "K13875" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

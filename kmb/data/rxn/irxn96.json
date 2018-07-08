@@ -1,0 +1,47 @@
+{
+  "id" : "irxn96",
+  "equation" : "h2o + pchol_hs <=> Rtotal2 + lpchol_hs + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7477" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd585" : "",
+      "icpd1851" : "",
+      "icpd6069" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PLA2_2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PLA2_2e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PLA2_2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id" : "icpd495",
+  "formula" : "C8H10N2S",
+  "name" : "2-ethylpyridine-4-carbothioamide",
+  "synonyms" : [ ],
+  "alias" : "icpd495",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07665"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19988"
+  } ],
+  "inchi" : "InChI=1S/C8H10N2S/c1-2-7-5-6(8(9)11)3-4-10-7/h3-5H,2H2,1H3,(H2,9,11)",
+  "inchikey" : "AEOCXXJPGCBFJA-UHFFFAOYSA-N",
+  "smiles" : "CCC1=CC(=CC=N1)C(=S)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Antibiotics" ],
+      "reactions" : [ "META:RXN-18720", "META:RXN-18711" ],
+      "cmlMolWeight" : 166.24,
+      "molWeight" : 166.24,
+      "parents" : [ "META:Antibiotics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   22.9768  -17.0041    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7643  -17.7035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9768  -15.6052    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1833  -17.7035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5461  -17.0041    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7643  -14.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3897  -17.0041    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1717  -19.1024    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5461  -15.6052    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3338  -17.7035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1213  -17.0041    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  1  0     0  0\n 10 11  1  0     0  0\n  6  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07665\n\n$$$$",
+  "reactions" : [ ]
+}

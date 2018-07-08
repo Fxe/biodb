@@ -1,0 +1,51 @@
+{
+  "id" : "irxn84",
+  "equation" : "itacon + gtp + coa <=> gdp + pi + itaccoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4387" : "",
+      "icpd1365" : "",
+      "icpd2377" : ""
+    },
+    "r" : {
+      "icpd166" : "",
+      "icpd7485" : "",
+      "icpd7746" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.4; EC-6.2.1.4",
+  "otherNames" : [ ],
+  "alias" : "ITCOAL1m",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8988"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ITCOAL1m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02405"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5749" ],
+      "orphan" : "NO",
+      "gibbs" : -98.08411,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

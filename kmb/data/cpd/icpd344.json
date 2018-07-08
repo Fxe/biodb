@@ -1,0 +1,35 @@
+{
+  "id" : "icpd344",
+  "formula" : "C4H2N2O4",
+  "name" : "alloxan",
+  "synonyms" : [ "1,3-diazinane-2,4,5,6-tetrone", "2,4,5,6(1h,3h)-pyrimidinetetrone", "2,4,5,6-pyrimidintetron", "2,4,5,6-pyrimidintetrone", "2,4,5,6-tetraoxohexahydropyrimidine", "5,6-dioxouracil", "5-oxo-barbiturate", "5-oxo-barbituric acid", "alloxane", "pyrimidinetetrone" ],
+  "alias" : "CE0074",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE0074"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-3684"
+  } ],
+  "inchi" : "InChI=1S/C4H2N2O4/c7-1-2(8)5-4(10)6-3(1)9/h(H2,5,6,8,9,10)",
+  "inchikey" : "HIMXGTXNXJYFGB-UHFFFAOYSA-N",
+  "smiles" : "C1(=O)C(=NC(=O)N=C1O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:BARBITURASE-RXN" ],
+      "instances" : [ "META:All-Amines" ],
+      "gibbs" : -113.637764,
+      "cmlMolWeight" : 142.071,
+      "molWeight" : 142.071,
+      "parents" : [ "META:All-Amines" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn500" ]
+}

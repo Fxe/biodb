@@ -1,0 +1,42 @@
+{
+  "id" : "icpd1057",
+  "formula" : "C6H9O3",
+  "name" : "(s)-3-methyl-2-oxopentanoate",
+  "synonyms" : [ "(3s)-3-methyl-2-oxopentanoate" ],
+  "alias" : "3mop",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00671"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3mop"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-KETO-3-METHYL-VALERATE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "3mop"
+  } ],
+  "inchi" : "InChI=1S/C6H10O3/c1-3-4(2)5(7)6(8)9/h4H,3H2,1-2H3,(H,8,9)/p-1/t4-/m0/s1",
+  "inchikey" : "JVQYSWDUAOAHFM-BYPYZUCNSA-M",
+  "smiles" : "CC[C@]([H])(C)C(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:BRANCHED-CHAINAMINOTRANSFERVAL-RXN" ],
+      "instances" : [ "META:2-Oxo-carboxylates" ],
+      "reactions" : [ "META:2KETO-3METHYLVALERATE-RXN", "META:METHYLVALERATE-RXN", "META:2.6.1.32-RXN", "META:DIHYDROXYMETVALDEHYDRAT-RXN", "META:RXN-7764", "META:4.1.1.72-RXN", "META:BRANCHED-CHAINAMINOTRANSFERILEU-RXN", "META:ILEDEAMINE-RXN" ],
+      "gibbs" : -17.51197,
+      "cmlMolWeight" : 129.135,
+      "molWeight" : 129.135,
+      "parents" : [ "META:2-Oxo-carboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   28.1304  -18.8852    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9115  -18.1795    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   29.3428  -18.1795    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1239  -20.2836    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6926  -18.8852    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9052  -16.7874    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5488  -18.8852    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3364  -16.7746    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4868  -18.1987    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  5  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00671\n\n$$$$",
+  "reactions" : [ "irxn4562", "irxn5786", "irxn5665", "irxn5353", "irxn1030", "irxn2674", "irxn6669", "irxn5831" ]
+}

@@ -1,0 +1,40 @@
+{
+  "id" : "icpd1179",
+  "formula" : "C15H29O2",
+  "name" : "pentadecanoate",
+  "synonyms" : [ ],
+  "alias" : "ptdca",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "ptdca"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16537"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8462"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ptdca"
+  } ],
+  "inchi" : "InChI=1S/C15H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15(16)17/h2-14H2,1H3,(H,16,17)/p-1",
+  "inchikey" : "WQEPLUUGTLDZJY-UHFFFAOYSA-M",
+  "smiles" : "CCCCCCCCCCCCCCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Saturated-Fatty-Acids", "META:Odd-Straight-Chain-234-Sat-FA", "META:Long-Chain-Fatty-Acids" ],
+      "gibbs" : 231.86043,
+      "cmlMolWeight" : 241.393,
+      "molWeight" : 241.393,
+      "parents" : [ "META:Saturated-Fatty-Acids", "META:Odd-Straight-Chain-234-Sat-FA", "META:Long-Chain-Fatty-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iYO844" ]
+    }
+  },
+  "mol" : " \n \n \n 17 16  0  0  0  0  0  0  0  0999 V2000\n   28.7067  -22.4766    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9228  -21.7749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4904  -21.7749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1274  -22.4766    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2861  -22.4766    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.3436  -21.7749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0698  -21.7749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.5482  -22.4766    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8654  -22.4766    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.7643  -21.7749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6492  -21.7749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.9803  -22.4766    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4389  -22.4825    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6550  -20.3775    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   37.1849  -21.7749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.4010  -22.4766    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   39.6114  -21.7749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n  9 11  1  0     0  0\n 10 12  1  0     0  0\n 11 13  1  0     0  0\n 11 14  2  0     0  0\n 12 15  1  0     0  0\n 15 16  1  0     0  0\n 16 17  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16537\n\n$$$$",
+  "reactions" : [ ]
+}

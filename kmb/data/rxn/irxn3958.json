@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3958",
+  "equation" : "o2 + h2o + icpd4457 <=> 2hmc + so3 + 3.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd4457" : ""
+    },
+    "r" : {
+      "icpd1851" : "3.0",
+      "icpd6463" : "",
+      "icpd5833" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.2; EC-1.13.11.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13704"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07795"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -120.85359,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00362" ],
+      "orthologs" : [ "K07104", "K00446" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

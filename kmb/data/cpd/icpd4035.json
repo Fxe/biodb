@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4035",
+  "formula" : "C6H4Cl2",
+  "name" : "1,4-dichlorobenzene",
+  "synonyms" : [ "1, 4-dichlorobenzene", "1,4-dichloro-benzene", "p-chlorophenyl chloride", "p-dichloro-benzene", "p-dichlorobenzene", "p-dichlorobenzol", "para-dichlorobenzene", "paradichlorobenzene", "paradichlorobenzol" ],
+  "alias" : "icpd4035",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07092"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:14-DICHLOROBENZENE"
+  } ],
+  "inchi" : "InChI=1S/C6H4Cl2/c7-5-1-2-6(8)4-3-5/h1-4H",
+  "inchikey" : "OCJBOOLMMGQPQU-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=CC(=C1)Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds" ],
+      "reactions" : [ "META:DIOXYXANFL-RXN" ],
+      "gibbs" : 59.784485,
+      "cmlMolWeight" : 147.004,
+      "molWeight" : 147.004,
+      "parents" : [ "META:Chloroaromatic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   28.8400  -18.3377    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6294  -17.6418    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0506  -17.6418    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8458  -19.7413    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   27.6294  -16.2382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0506  -16.2382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -15.5423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8458  -14.1387    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  5  7  2  0     0  0\n  7  8  1  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07092\n\n$$$$",
+  "reactions" : [ "irxn5909" ]
+}

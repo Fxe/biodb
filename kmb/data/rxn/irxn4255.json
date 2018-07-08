@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4255",
+  "equation" : "o2 + h2o + icpd5007 <=> n2 + h2o2 + oaa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd5007" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd7306" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.15; EC-1.4.3.1; EC-1.4.3.15; 1.4.3.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00359"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-ASPARTATE-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -23.29126,
+      "uniprot" : [ "Q99489", "P31228", "Q7M521" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00250" ],
+      "orthologs" : [ "K00272" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

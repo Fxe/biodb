@@ -1,0 +1,50 @@
+{
+  "id" : "irxn554",
+  "equation" : "nad + 4mbzalc <=> nadh + h + 4mbzald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6735" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd6752" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.90; 1.1.1.90",
+  "otherNames" : [ ],
+  "alias" : "4MBZALDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "4MBZALDH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05282"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8581"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5429" ],
+      "orphan" : "NO",
+      "gibbs" : 0.99180603,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K00055" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

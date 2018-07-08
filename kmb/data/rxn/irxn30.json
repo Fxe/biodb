@@ -1,0 +1,47 @@
+{
+  "id" : "irxn30",
+  "equation" : "mag_hs + h2o <=> Rtotal2 + h + glyc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5233" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1727" : "",
+      "icpd585" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "LPS3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LPS3"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LPS3e"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

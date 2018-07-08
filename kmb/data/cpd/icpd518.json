@@ -1,0 +1,38 @@
+{
+  "id" : "icpd518",
+  "formula" : "C10H11NO3",
+  "name" : "phenylacetylglycine",
+  "synonyms" : [ "((phenylacetyl)amino)acetic acid", "2-(2-phenylacetamido)acetic acid", "[(phenylacetyl)amino]acetic acid", "n-(phenylacetyl)-glycine", "n-(phenylacetyl)glycine", "n-phenylacetylglycine", "phenylacetyl glycine" ],
+  "alias" : "pheacgly",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05598"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "pheacgly"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11715"
+  } ],
+  "inchi" : "InChI=1S/C10H11NO3/c12-9(11-7-10(13)14)6-8-4-2-1-3-5-8/h1-5H,6-7H2,(H,11,12)(H,13,14)",
+  "inchikey" : "UTYVDVLMYQPLQB-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)CC(=O)NCC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Modified-Amino-Acids" ],
+      "reactions" : [ "META:RXN-10821" ],
+      "gibbs" : 21.939148,
+      "cmlMolWeight" : 192.194,
+      "molWeight" : 192.194,
+      "parents" : [ "META:Modified-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n    7.2800  -18.2700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2800  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.4924  -20.3700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7049  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7049  -18.2700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.4924  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.9424  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1549  -18.2700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3673  -17.5700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   14.5797  -18.2700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7922  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0046  -18.2700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1549  -19.6698    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7922  -16.1703    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n  8 13  2  0     0  0\n 11 14  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05598\n\n$$$$",
+  "reactions" : [ "irxn2545" ]
+}

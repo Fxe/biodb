@@ -1,0 +1,56 @@
+{
+  "id" : "irxn5137",
+  "equation" : "h2o + fad <=> amp + fmn + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7712" : "",
+      "icpd1851" : "2.0",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.9; EC-3.6.1.18; 3.6.1.18",
+  "otherNames" : [ ],
+  "alias" : "FADDP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FADDP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FADDP_h"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00160"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FAD-PYROPHOSPHATASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FADDPle"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "YES-CONFIRMED",
+      "gibbs" : -0.43530273,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00740", "rn01100" ],
+      "orthologs" : [ "K18453", "K01513" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

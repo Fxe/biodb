@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2629",
+  "equation" : "h2o + icpd7516 <=> for + dma",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd7516" : ""
+    },
+    "r" : {
+      "icpd1650" : "",
+      "icpd1757" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.56; EC-3.5.1.56",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NN-DIMETHYLFORMAMIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02509"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 23.372875,
+      "uniprot" : [ "Q9LCC1", "Q9LCC0" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630" ],
+      "orthologs" : [ "K03418" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

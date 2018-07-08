@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3074",
+  "equation" : "nadp + glyc <=> nadph + h + dha",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1727" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2191" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.156; 1.1.1.156",
+  "otherNames" : [ ],
+  "alias" : "GLYCDy",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GLYCDy"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01039"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCEROL-2-DEHYDROGENASE-NADP+-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 4.3134766,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00561", "rn01100" ],
+      "orthologs" : [ "K18097" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM904" ]
+    }
+  }
+}

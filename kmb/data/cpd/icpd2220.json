@@ -1,0 +1,42 @@
+{
+  "id" : "icpd2220",
+  "formula" : "C5H12O5",
+  "name" : "l-arabinitol",
+  "synonyms" : [ "(2s,4s)-pentane-1,2,3,4,5-pentol", "l-(-)-arabinitol", "l-lyxitol" ],
+  "alias" : "abt",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00532"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-ARABITOL"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "abt"
+  }, {
+    "source" : "BiGG",
+    "entry" : "abt"
+  } ],
+  "inchi" : "InChI=1S/C5H12O5/c6-1-3(8)5(10)4(9)2-7/h3-10H,1-2H2/t3-,4-/m0/s1",
+  "inchikey" : "HEBKCHPVOIAQTA-IMJSIDKUSA-N",
+  "smiles" : "C([C@@H](C([C@H](CO)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ARABISOM-RXN", "META:DARABISOM-RXN", "META:FUCISOM-RXN" ],
+      "instances" : [ "META:Pentitols" ],
+      "reactions" : [ "META:RXN-14102", "META:RXN-8772", "META:1.1.1.13-RXN", "META:L-ARABINITOL-4-DEHYDROGENASE-RXN" ],
+      "gibbs" : -65.766556,
+      "cmlMolWeight" : 152.147,
+      "molWeight" : 152.147,
+      "parents" : [ "META:Pentitols" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1", "iHN637" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   22.1155  -15.8227    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   20.9237  -16.5114    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.3209  -16.5114    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   22.1155  -14.5014    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6957  -15.8227    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9237  -18.0653    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5399  -15.8227    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3209  -18.0653    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4767  -16.5114    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7679  -16.5114    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  3  8  1  6     0  0\n  5  9  1  0     0  0\n  7 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00532\n\n$$$$",
+  "reactions" : [ "irxn387", "irxn3218", "irxn914", "irxn1354" ]
+}

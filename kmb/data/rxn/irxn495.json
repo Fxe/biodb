@@ -1,0 +1,49 @@
+{
+  "id" : "irxn495",
+  "equation" : "gam + atp <=> gam6p + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2920" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd3136" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.1; EC-2.7.1.8; 2.7.1.8",
+  "otherNames" : [ ],
+  "alias" : "HEX10",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCOSAMINE-KINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01961"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HEX10"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6906" ],
+      "orphan" : "NO",
+      "gibbs" : -13.567566,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100" ],
+      "orthologs" : [ "K18676", "K00844" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

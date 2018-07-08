@@ -1,0 +1,55 @@
+{
+  "id" : "irxn5410",
+  "equation" : "dhdascb + 2.0 gthrd <=> ascb__L + gthox",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2627" : "",
+      "icpd1977" : "2.0"
+    },
+    "r" : {
+      "icpd2309" : "",
+      "icpd285" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GTHDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHAOX_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GTHDHu"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHAOX_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GTHDH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHAOX_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

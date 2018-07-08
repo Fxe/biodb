@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4939",
+  "equation" : "nad + icpd5855 <=> nadh + h + icpd8184",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5855" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd8184" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.163; EC-1.1.1.245; 1.1.1.245",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02229"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CYCLOHEXANOL-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CYCLOHEXANOL-OXIDATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -0.37820435,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01220", "rn00930" ],
+      "orthologs" : [ "K17754", "K19960" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

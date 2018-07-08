@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7039",
+  "formula" : "C9H14O",
+  "name" : "(3z,6z)-3,6-nonadienal",
+  "synonyms" : [ "(3z,6z)-nona-3,6-dienal", "(z,z)-3,6-nonadienal" ],
+  "alias" : "icpd7039",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8685"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16323"
+  } ],
+  "inchi" : "InChI=1S/C9H14O/c1-2-3-4-5-6-7-8-9-10/h3-4,6-7,9H,2,5,8H2,1H3/b4-3-,7-6-",
+  "inchikey" : "FIDBXHOCOXRPRO-CWWKMNTPSA-N",
+  "smiles" : "CC/C(/[H])=C(/[H])\\C/C(/[H])=C(/[H])\\CC=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aldehydes" ],
+      "reactions" : [ "META:RXN-8503" ],
+      "gibbs" : 165.80568,
+      "cmlMolWeight" : 138.209,
+      "molWeight" : 138.209,
+      "parents" : [ "META:Aldehydes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   22.3639  -19.8530    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5762  -20.5501    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7948  -19.8466    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1892  -19.8466    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3952  -20.5501    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6075  -19.8466    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0020  -19.8466    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2142  -20.5501    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4267  -19.8592    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.6432  -20.5709    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  2  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16323\n\n$$$$",
+  "reactions" : [ "irxn1674" ]
+}

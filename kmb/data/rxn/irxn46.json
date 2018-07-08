@@ -1,0 +1,53 @@
+{
+  "id" : "irxn46",
+  "equation" : "atp + chol <=> h + cholp + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3647" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd7683" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.32; 2.7.1.32",
+  "otherNames" : [ ],
+  "alias" : "CHOLK",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CHOLK"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01021"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHOLK_m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHOLINE-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:ADP", "META:CPD-5602", "META:HG+2", "META:CPD-19129" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7782", "META:PWY-7818", "META:PWY-7886", "META:PWY3O-450" ],
+      "orphan" : "NO",
+      "gibbs" : -13.567627,
+      "uniprot" : [ "Q01134", "Q42810", "Q42811", "P20485", "Q42809" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100" ],
+      "orthologs" : [ "K14156", "K00866" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

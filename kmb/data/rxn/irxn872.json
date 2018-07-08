@@ -1,0 +1,46 @@
+{
+  "id" : "irxn872",
+  "equation" : "icpd8127 + h2o <=> icpd2480 + icpd1386 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8127" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2480" : "",
+      "icpd1386" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.13; EC-3.1.1.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:STEROL-ESTERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02115"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -13.038246,
+      "uniprot" : [ "P38571", "Q64285", "Q64571", "P07882", "P30122" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

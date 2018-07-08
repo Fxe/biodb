@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5234",
+  "equation" : "udpg + icpd9 <=> icpd6148 + udp + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd9" : ""
+    },
+    "r" : {
+      "icpd6148" : "",
+      "icpd1851" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.63; EC-2.4.1.63",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03625"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LINAMARIN-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:MN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3022" ],
+      "orphan" : null,
+      "gibbs" : 6.897583,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00460", "rn01110" ],
+      "orthologs" : [ "K16266" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

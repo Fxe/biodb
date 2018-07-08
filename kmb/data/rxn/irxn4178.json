@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4178",
+  "equation" : "caffcoa + icpd3727 <=> icpd5511 + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3652" : "",
+      "icpd3727" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd5511" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1; 2.3.1.215",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8138"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07876"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CPD-1484", "META:DIETHYLPYROCARBONATE", "META:ZN+2", "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5268" ],
+      "orphan" : "NO",
+      "gibbs" : -3.6098633,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00942" ],
+      "orthologs" : [ "K21383" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5920",
+  "equation" : "h2o + u23ga <=> icpd483 + 2.0 h + ump",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1456" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd290" : "",
+      "icpd483" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.54; EC-3.6.1.54",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LIPIDXSYNTHESIS-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04549"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:NAGLIPASYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -10.245331,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00540" ],
+      "orthologs" : [ "K03269" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

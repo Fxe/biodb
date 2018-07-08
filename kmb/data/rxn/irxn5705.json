@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5705",
+  "equation" : "thbpt + o2 + trp__L <=> 5htrp + icpd23",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd276" : "",
+      "icpd7287" : ""
+    },
+    "r" : {
+      "icpd3193" : "",
+      "icpd23" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.16.4; EC-1.14.16.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07213"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRYPTOPHAN-5-MONOOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:P-CHLOROPHENYLALANINE" ],
+      "activators" : [ "META:FE+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6030" ],
+      "orphan" : "NO",
+      "gibbs" : -122.429,
+      "uniprot" : [ "P17532", "P17276", "Q92142", "P09810", "P17290", "P17752" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00790" ],
+      "orthologs" : [ "K00502" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

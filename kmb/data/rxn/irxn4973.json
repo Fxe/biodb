@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4973",
+  "equation" : "4hoxoh <=> pyr + ppal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1621" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd6292" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.3.43",
+  "otherNames" : [ ],
+  "alias" : "HOPNTAL2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HOPNTAL2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05298"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K18365" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

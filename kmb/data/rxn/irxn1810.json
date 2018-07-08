@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1810",
+  "equation" : "icpd7313 + h <=> icpd6232 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7313" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd6232" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.1; EC-4.1.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00636"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRUVATE-DECARBOXYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -13.7369995,
+      "uniprot" : [ "P51850", "O42873", "P26263", "Q12629", "P51847", "O82647", "P51846", "P33287", "P33149", "P51851", "P34734", "Q9R5L0", "P78913", "P16467", "Q7M228", "Q7M227", "P51849", "Q05326", "P51848", "Q09737", "Q05327", "P28516", "P06672" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

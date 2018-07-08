@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4949",
+  "equation" : "icpd1166 + accoa <=> coa + icpd1602",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1166" : "",
+      "icpd5825" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd1602" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.81; EC-2.3.1.81",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04348"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AMINOGLYCOSIDE-N3-ACETYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -24.592224,
+      "uniprot" : [ "P0A256", "P29808", "Q03634", "Q54216" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

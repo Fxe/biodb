@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2660",
+  "equation" : "nadph + h + CE2245 <=> lgnccoa + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1198" : ""
+    },
+    "r" : {
+      "icpd6765" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RE0576C",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE0576C"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EAR240_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid" ]
+    }
+  }
+}

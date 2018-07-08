@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1072",
+  "equation" : "utp + cytd <=> udp + cmp + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd115" : "",
+      "icpd78" : ""
+    },
+    "r" : {
+      "icpd3421" : "",
+      "icpd1851" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.48",
+  "otherNames" : [ ],
+  "alias" : "UTCY",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UTCY"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00516"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K00876" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

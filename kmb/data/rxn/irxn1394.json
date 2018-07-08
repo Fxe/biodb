@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1394",
+  "equation" : "h2o + id3acald + nadp <=> nadph + 2.0 h + ind3ac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5537" : "",
+      "icpd810" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "2.0",
+      "icpd1296" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ALDD20y",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ALDD20ym"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALDD20y"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

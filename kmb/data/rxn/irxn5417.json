@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5417",
+  "equation" : "btamp + 324142 <=> amp + h + 324145",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5674" : "",
+      "324142" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "324145" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "BTNPL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BTNPL"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTNPLm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

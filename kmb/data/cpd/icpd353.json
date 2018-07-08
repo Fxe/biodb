@@ -1,0 +1,40 @@
+{
+  "id" : "icpd353",
+  "formula" : "C2H7NO",
+  "name" : "ethanolamine",
+  "synonyms" : [ "(-)-glycinol", "1-amino-2-hydroxyethane", "2-amino-1-ethanol", "2-aminoethan-1-ol", "2-aminoethanol", "2-aminoethyl alcohol", "2-hydroxyethanamine", "2-hydroxyethylamine", "beta-aminoethanol", "beta-aminoethyl alcohol", "beta-hydroxyethylamine", "ethanol-amine", "glycinol", "hydroxyethylamine", "monoethanolamine" ],
+  "alias" : "etha",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "etha"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00189"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ETHANOL-AMINE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "etha"
+  } ],
+  "inchi" : "InChI=1S/C2H7NO/c3-1-2-4/h4H,1-3H2",
+  "inchikey" : "HZAXFHJVJLSVMW-UHFFFAOYSA-N",
+  "smiles" : "C(CO)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:BETAGALACTOSID-RXN", "META:RXN-5761", "META:4.3.1.17-RXN" ],
+      "reactions" : [ "META:3.5.1.60-RXN", "META:RXN-15544", "META:RXN-17740", "META:ETHANOLAMINE-KINASE-RXN", "META:TRANS-RXN0-476", "META:RXN-7948", "META:RXN6666-2", "META:RXN0-7012", "META:3.1.4.39-RXN", "META:RXN-5641", "META:RXN-11609", "META:ETHAMLY-RXN", "META:RXN-5761", "META:ETHANOLAMINE-OXIDASE-RXN", "META:RXN-14160", "META:RXN-1382", "META:RXN0-7272" ],
+      "gibbs" : 37.346912,
+      "cmlMolWeight" : 62.091,
+      "molWeight" : 62.091
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iAB_RBC_283", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   25.6678  -17.3607    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4522  -16.6593    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8775  -16.6593    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2425  -17.3607    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00189\n\n$$$$",
+  "reactions" : [ "irxn3243", "irxn2165", "irxn5178", "irxn4443", "irxn5594", "irxn5793", "irxn5122", "irxn2690", "irxn694", "irxn4307", "irxn3995", "irxn1951" ]
+}

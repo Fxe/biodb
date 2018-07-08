@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6233",
+  "equation" : "icpd6477 + amet <=> ahcys + icpd2529",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd6477" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd2529" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.80; 2.1.1.80",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CHER-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02623"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ADENOSYL-HOMO-CYS" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -35.519257,
+      "uniprot" : [ "P07801", "P07364", "P45676" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

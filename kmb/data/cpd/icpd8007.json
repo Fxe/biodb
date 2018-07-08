@@ -1,0 +1,34 @@
+{
+  "id" : "icpd8007",
+  "formula" : "C10H13N5O",
+  "name" : "(z)-2-methyl-4-(1h-purin-6-ylamino)but-2-en-1-ol",
+  "synonyms" : [ "(2z)-2-methyl-4-(9h-purin-6-ylamino)-2-buten-1-ol", "(2z)-2-methyl-4-(9h-purin-6-ylamino)but-2-en-1-ol" ],
+  "alias" : "icpd8007",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15545"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-4441"
+  } ],
+  "inchi" : "InChI=1S/C10H13N5O/c1-7(4-16)2-3-11-9-8-10(13-5-12-8)15-6-14-9/h2,5-6,16H,3-4H2,1H3,(H2,11,12,13,14,15)/b7-2-",
+  "inchikey" : "UZKQTCBAMSWPJD-UQCOIBPSSA-N",
+  "smiles" : "C/C(=C(\\[H])/CNC1=NC=NC2=C1N=CN2)/CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-4735" ],
+      "instances" : [ "META:Adenine-Cytokinins", "META:Secondary-Metabolites" ],
+      "reactions" : [ "META:RXN-4733", "META:RXN-4735", "META:RXN-4734", "META:RXN-4662", "META:TRANS-RXN-201", "META:RXN-4541" ],
+      "gibbs" : 162.16556,
+      "cmlMolWeight" : 219.246,
+      "molWeight" : 219.246,
+      "parents" : [ "META:Adenine-Cytokinins", "META:Secondary-Metabolites" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 17 18  0  0  0  0  0  0  0  0999 V2000\n   20.0528  -17.9586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0528  -19.4261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2407  -17.3297    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2407  -20.0550    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4286  -17.9586    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2407  -16.0021    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4286  -19.4261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7251  -17.5394    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8866  -18.6574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7251  -19.8454    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4985  -15.2334    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6865  -16.0021    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9443  -15.3033    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1322  -16.0021    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9443  -13.8358    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6865  -17.3996    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1545  -13.1371    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  5  7  1  0     0  0\n  1  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n  2 10  1  0     0  0\n  6 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  2  0     0  0\n 13 14  1  0     0  0\n 13 15  1  0     0  0\n 12 16  1  0     0  0\n 15 17  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15545\n\n$$$$",
+  "reactions" : [ "irxn8", "irxn2150" ]
+}

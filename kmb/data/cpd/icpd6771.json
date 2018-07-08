@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6771",
+  "formula" : "C6H4ClO4",
+  "name" : "(2r)-2-chloro-2,5-dihydro-5-oxofuran-2-acetate",
+  "synonyms" : [ ],
+  "alias" : "icpd6771",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04522"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-CL-5-OXO-2-5-DIH-FURAN-2-ACETATE"
+  } ],
+  "inchi" : "InChI=1S/C6H5ClO4/c7-6(3-4(8)9)2-1-5(10)11-6/h1-2H,3H2,(H,8,9)/p-1/t6-/m1/s1",
+  "inchikey" : "WGZZDRVKIXVYEI-ZCFIWIBFSA-M",
+  "smiles" : "C1=C[C@@](CC(=O)[O-])(Cl)OC1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9913", "META:RXN-9869", "META:RXN-9893", "META:RXN-9892" ],
+      "gibbs" : -99.36758,
+      "cmlMolWeight" : 175.548,
+      "molWeight" : 175.548
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   16.3875  -15.9151    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8321  -17.2324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2223  -17.2166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6370  -15.8896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5030  -15.0852    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0712  -15.5036    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8337  -15.2004    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0378  -15.8955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2418  -15.2004    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0378  -17.2857    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8982  -16.7336    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  1  6  2  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\n  4 11  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C04522\n\n$$$$",
+  "reactions" : [ "irxn4955" ]
+}

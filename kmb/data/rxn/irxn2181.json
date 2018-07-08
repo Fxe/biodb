@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2181",
+  "equation" : "cobalt2 + scl <=> 2.0 h + copre2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4939" : "",
+      "icpd1553" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd1663" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.99.1.3; EC-4.99.1.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.99.1.3-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05807"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7377" ],
+      "orphan" : "NO",
+      "gibbs" : -22.82483,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K03795", "K22011", "K02190" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

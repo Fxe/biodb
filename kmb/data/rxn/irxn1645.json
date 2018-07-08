@@ -1,0 +1,57 @@
+{
+  "id" : "irxn1645",
+  "equation" : "o2 + h2o + so3 <=> h + so4 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd5833" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd5748" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.8.3.1; 1.8.3.1",
+  "otherNames" : [ ],
+  "alias" : "SULO",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SULFITE-OXIDASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SULOm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0142"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SULO"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00533"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5326" ],
+      "orphan" : "NO",
+      "gibbs" : -31.082993,
+      "uniprot" : [ "Q07116", "P51687", "P07850", "Q9XTQ8" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00920" ],
+      "orthologs" : [ "K00387" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

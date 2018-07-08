@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5883",
+  "equation" : "nad + icpd2647 <=> icpd354 + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd2647" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd354" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.14; 1.1.1.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07145"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-IDITOL-2-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 1.0817871,
+      "uniprot" : [ "Q00796", "Q02912", "Q57517", "O35045", "P27867", "Q64442", "Q06004", "Q07786", "P35497", "P77280", "P36624" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

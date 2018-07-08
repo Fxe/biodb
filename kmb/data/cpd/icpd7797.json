@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7797",
+  "formula" : "C6H11NO4",
+  "name" : "beta-alanopine",
+  "synonyms" : [ "beta-lnopint" ],
+  "alias" : "icpd7797",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02207"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-311"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO4/c1-4(6(10)11)7-3-2-5(8)9/h4,7H,2-3H2,1H3,(H,8,9)(H,10,11)",
+  "inchikey" : "OAWHMSFCLIYBHE-UHFFFAOYSA-N",
+  "smiles" : "CC(C(=O)O)NCCC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Modified-Amino-Acids" ],
+      "reactions" : [ "META:BETA-ALANOPINE-DEHYDROGENASE-RXN" ],
+      "gibbs" : -53.18086,
+      "cmlMolWeight" : 160.149,
+      "molWeight" : 160.149,
+      "parents" : [ "META:Modified-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   14.2800  -15.9600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4924  -15.2600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7049  -15.9600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.0676  -15.2600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2800  -17.3600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4924  -13.8600    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6879  -13.1696    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8753  -13.8551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0665  -13.1671    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2560  -13.8538    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0665  -11.7603    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  6     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02207\n\n$$$$",
+  "reactions" : [ "irxn245" ]
+}

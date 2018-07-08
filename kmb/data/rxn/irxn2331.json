@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2331",
+  "equation" : "accoa + acac <=> aacoa + ac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd267" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd726" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.3.9; 2.8.3.8",
+  "otherNames" : [ ],
+  "alias" : "ACACCT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01359"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETOACETYL-COA-TRANSFER-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACACCT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CO-A", "META:CPD-29", "META:ACETYL-COA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6588", "META:ACETOACETATE-DEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 2.9500732,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640" ],
+      "orthologs" : [ "K01035", "K01034", "K19709" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iECBD_1354", "ic_1306", "iECD_1391", "iETEC_1333", "iECUMN_1333", "iECSF_1327", "iECED1_1282", "iBWG_1329", "iUMN146_1321", "iML1515", "iJR904", "iECDH1ME8569_1439", "iLF82_1304", "iECABU_c1320", "iUMNK88_1353", "iUTI89_1310", "iAF1260b", "iAPECO1_1312", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSSON_1240", "iEcolC_1368", "iEC042_1314", "iB21_1397", "iAF1260", "iECIAI39_1322", "iY75_1357", "iEcSMS35_1347", "iE2348C_1286", "iNRG857_1313", "iJO1366", "iNJ661", "iECB_1328", "iECOK1_1307" ]
+    }
+  }
+}

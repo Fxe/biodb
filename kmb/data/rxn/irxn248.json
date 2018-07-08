@@ -1,0 +1,46 @@
+{
+  "id" : "irxn248",
+  "equation" : "Brfap + 2ahhmd <=> dhrfap + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5065" : "",
+      "icpd3539" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd6391" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.105",
+  "otherNames" : [ ],
+  "alias" : "DHPS3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHPS3"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10339"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00790" ],
+      "orthologs" : [ "K06897" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

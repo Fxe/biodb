@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5645",
+  "equation" : "h2o + 10fthf + nadp <=> nadph + thf + co2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd2642" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd6900" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.6",
+  "otherNames" : [ ],
+  "alias" : "FTHFDH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00941"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FTHFDH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00670" ],
+      "orthologs" : [ "K00289" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

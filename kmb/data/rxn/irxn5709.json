@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5709",
+  "equation" : "glcn + fad <=> 2dhglcn + fadh2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd2898" : ""
+    },
+    "r" : {
+      "icpd1680" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.99.3; 1.1.99.3",
+  "otherNames" : [ ],
+  "alias" : "GADktpp",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14204"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GADktpp"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01741"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -20.515533,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00030" ],
+      "orthologs" : [ "K06152", "K06151" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6842",
+  "equation" : "accoa + chol <=> coa + ach",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3647" : "",
+      "icpd5825" : ""
+    },
+    "r" : {
+      "icpd0" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.6; 2.3.1.6",
+  "otherNames" : [ ],
+  "alias" : "CHAT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01023"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHAT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHOLINE-O-ACETYLTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHATn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -3.6099854,
+      "uniprot" : [ "P07668", "P32756", "Q03059", "P32738", "P28329", "P13222" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564" ],
+      "orthologs" : [ "K00623" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

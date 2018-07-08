@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2465",
+  "formula" : "C5H14NO2",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd2465",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BETAINE-ALDEHYDE-HYDRATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C07345"
+  } ],
+  "inchi" : "InChI=1S/C5H14NO2/c1-6(2,3)4-5(7)8/h5,7-8H,4H2,1-3H3/q+1",
+  "inchikey" : "HEHORKLRCFPRON-UHFFFAOYSA-N",
+  "smiles" : "C[N+](C)(C)CC(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Quaternary-Amines" ],
+      "reactions" : [ "META:RXN0-7231", "META:RXN-6268", "META:RXN1F-357", "META:RXN-17759" ],
+      "gibbs" : 56.23362,
+      "cmlMolWeight" : 120.171,
+      "molWeight" : 120.171,
+      "parents" : [ "META:Quaternary-Amines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   33.5963  -23.4800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.8025  -22.7817    0.0000 N   0  3  3  0  0  0  0  0  0  0  0  0\n   36.0158  -23.4800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.2288  -22.7817    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.4421  -23.4800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   34.7954  -21.3780    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.1693  -24.1360    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.2288  -21.3817    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  3  4  1  0     0  0\n  1  2  1  0     0  0\n  4  5  1  0     0  0\n  2  6  1  0     0  0\n  2  3  1  0     0  0\n  2  7  1  0     0  0\n  4  8  1  0     0  0\nM  CHG  1   2   1\nM  END\n\n> <ENTRY>\ncpd:C07345\n\n$$$$",
+  "reactions" : [ "irxn4625" ]
+}

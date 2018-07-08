@@ -1,0 +1,54 @@
+{
+  "id" : "irxn2202",
+  "equation" : "nad + h2o + lald__L <=> nadh + 2.0 h + lac__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd7673" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd5544" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.22; 1.2.1.22",
+  "otherNames" : [ ],
+  "alias" : "LCADm",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LACTALDDEHYDROG-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LCADi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LCADm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01446"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:LACTALD", "META:CU+2", "META:IODOACETAMIDE", "META:IODOACETATE", "META:NADH" ],
+      "activators" : [ "META:Sulfhydryl-Groups" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5197", "META:PWY0-1317", "META:PWY-6713", "META:PWY-5458" ],
+      "orphan" : "NO",
+      "gibbs" : -13.535309,
+      "uniprot" : [ "Q9PI19", "P25553", "Q9JW97" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00620" ],
+      "orthologs" : [ "K19266", "K07248" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECIAI1_1343", "iECED1_1282", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECO26_1355", "iECP_1309", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iEC55989_1330", "iEcSMS35_1347", "iE2348C_1286", "iECW_1372", "iNRG857_1313", "iECO111_1330", "iAT_PLT_636", "iYO844", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iECO103_1326", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECNA114_1301", "iECS88_1305", "iSFxv_1172", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iLJ478", "iYL1228", "iJO1366", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

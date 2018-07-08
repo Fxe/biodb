@@ -1,0 +1,54 @@
+{
+  "id" : "irxn4833",
+  "equation" : "h2o + 420856 <=> icpd2668 + 342434",
+  "stoichiometry" : {
+    "l" : {
+      "420856" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2668" : "",
+      "342434" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.4.14.2; EC-3.4.15.1; EC-3.4.15.4; EC-3.4.15.5; EC-3.4.14.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3.4.15.1-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.4.14.4-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.4.15.4-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.4.14.2-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.4.15.5-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-2067", "META:CU+2", "META:NI+2", "META:HG+2", "META:O-PHENANTHROLINE", "META:EDTA" ],
+      "activators" : [ "META:MG+2", "META:CO+2", "META:CA+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "Q10751", "P24171", "Q9TRW7", "Q9TQQ7", "P12820", "P12822", "Q10715", "P12821", "P22968", "P22967", "P22966", "P09470", "P47820", "Q7M3E2", "P27236", "Q15540" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

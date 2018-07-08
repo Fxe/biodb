@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3258",
+  "formula" : "C6H9O6",
+  "name" : "5-dehydro-2-deoxy-d-gluconate",
+  "synonyms" : [ "2-deoxy-5-dehydro-d-gluconate" ],
+  "alias" : "icpd3258",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06892"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-827"
+  } ],
+  "inchi" : "InChI=1S/C6H10O6/c7-2-4(9)6(12)3(8)1-5(10)11/h3,6-8,12H,1-2H2,(H,10,11)/p-1/t3-,6+/m1/s1",
+  "inchikey" : "UCYNJPYWOSFBAT-CVYQJGLWSA-M",
+  "smiles" : "C([C@]([H])([C@@]([H])(C(=O)CO)O)O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Ketoaldonates" ],
+      "reactions" : [ "META:R503-RXN", "META:5-DEHYDRO-2-DEOXYGLUCONOKINASE-RXN", "META:RXN-14150" ],
+      "gibbs" : -130.47197,
+      "cmlMolWeight" : 177.133,
+      "molWeight" : 177.133,
+      "parents" : [ "META:Ketoaldonates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   26.4720  -20.2069    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.6901  -20.9063    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.2598  -20.9063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4720  -18.8082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9024  -20.2069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6901  -22.3050    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0475  -20.2069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1203  -20.9063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9024  -18.8082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8295  -20.9063    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0475  -18.8082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.3065  -20.2198    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  5  9  2  0     0  0\n  7 10  1  0     0  0\n  7 11  2  0     0  0\n  8 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06892\n\n$$$$",
+  "reactions" : [ "irxn1277", "irxn2631" ]
+}

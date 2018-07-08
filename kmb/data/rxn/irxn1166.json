@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1166",
+  "equation" : "o2 + h2o + id3acald <=> h2o2 + ind3ac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd810" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd1296" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.3.7; EC-1.2.3.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:INDOLE-3-ACETALDEHYDE-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02681"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-7082", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TRPIAACAT-PWY", "META:PWY-3181" ],
+      "orphan" : "NO",
+      "gibbs" : -42.087128,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ "K11817" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5120",
+  "equation" : "nadph + h + 5adtststerone <=> CE2209 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd4587" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2509" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.50",
+  "otherNames" : [ ],
+  "alias" : "RE3108C",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08963"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE3108C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00140" ],
+      "orthologs" : [ "K00037" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

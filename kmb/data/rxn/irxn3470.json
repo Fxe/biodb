@@ -1,0 +1,54 @@
+{
+  "id" : "irxn3470",
+  "equation" : "h2o + malt <=> 2.0 glc__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7037" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2392" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.2.1.20; 3.2.1.20",
+  "otherNames" : [ ],
+  "alias" : "MALT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MALT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00028"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MALTe"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15910"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MALTly"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-842" ],
+      "orphan" : "NO",
+      "gibbs" : -3.112976,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00500" ],
+      "orthologs" : [ "K12047", "K01187", "K12317", "K12316" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iNF517", "iND750", "iNJ661", "iMM1415", "iMM904", "iJN678", "RECON1", "iSB619", "iYO844" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5886",
+  "equation" : "h2o + dctp + trdox <=> ctp + trdrd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd327" : "",
+      "icpd1835" : ""
+    },
+    "r" : {
+      "icpd4369" : "",
+      "icpd7857" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.17.4.2",
+  "otherNames" : [ ],
+  "alias" : "RNTR3",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02022"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RNTR3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K00527" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iLJ478", "iNF517", "iRC1080", "iND750", "iJR904", "iMM904", "iSB619", "iHN637" ]
+    }
+  }
+}

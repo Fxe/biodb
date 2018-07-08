@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3833",
+  "formula" : "C3H6OS",
+  "name" : "propanethial, s-oxide",
+  "synonyms" : [ "1-sulfinylidenepropane", "propanethial s-oxide" ],
+  "alias" : "icpd3833",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9305"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C08389"
+  } ],
+  "inchi" : "InChI=1S/C3H6OS/c1-2-3-5-4/h3H,2H2,1H3",
+  "inchikey" : "BAZSXBOAXJLRNH-UHFFFAOYSA-N",
+  "smiles" : "CCC=[S+][O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Sulfines" ],
+      "reactions" : [ "META:RXN-8911" ],
+      "gibbs" : 39.59672,
+      "cmlMolWeight" : 90.14,
+      "molWeight" : 90.14,
+      "parents" : [ "META:Sulfines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   27.9591  -20.3072    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8014  -19.6464    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1167  -19.6523    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6495  -20.3072    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4732  -18.7869    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  2  4  1  0     0  0\n  3  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C08389\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5183",
+  "equation" : "psphings + atp <=> h + adp + psph1p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4114" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd2319" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.91",
+  "otherNames" : [ ],
+  "alias" : "SLCBK2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN3O-458"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SLCBK2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7119" ],
+      "orphan" : "NO",
+      "gibbs" : -13.567627,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

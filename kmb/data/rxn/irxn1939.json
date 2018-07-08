@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1939",
+  "equation" : "h2o + icpd5078 <=> icpd167",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5078" : ""
+    },
+    "r" : {
+      "icpd167" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.3.2.4; EC-3.3.2.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02547"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-EPOXYSUCCINATE-HYDROLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -3.6329956,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

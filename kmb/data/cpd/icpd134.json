@@ -1,0 +1,39 @@
+{
+  "id" : "icpd134",
+  "formula" : "C9H16N5O8P",
+  "name" : "2,5-diamino-6-(5'-phosphoribosylamino)-4-pyrimidineone",
+  "synonyms" : [ "2,5-diamino-6-(5-phospho-d-ribosylamino)pyrimidin-4(3h)-one", "2,5-diamino-6-hydroxy-4-(5'-phosphoribosylamino)-pyrimidine", "2,5-diamino-6-hydroxy-4-(5-phosphoribosylamino)pyrimidine" ],
+  "alias" : "25drapp",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "25drapp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIAMINO-OH-PHOSPHORIBOSYLAMINO-PYR"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "25drapp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01304"
+  } ],
+  "inchi" : "InChI=1S/C9H16N5O8P/c10-3-6(13-9(11)14-7(3)17)12-8-5(16)4(15)2(22-8)1-21-23(18,19)20/h2,4-5,8,15-16H,1,10H2,(H2,18,19,20)(H4,11,12,13,14,17)/t2-,4-,5-,8?/m1/s1",
+  "inchikey" : "OCLCLRXKNJCOJD-BKKZJBRMSA-N",
+  "smiles" : "C([C@]1([H])[C@]([H])([C@]([H])(C([H])(NC2=C(C(=NC(=N)N2)O)N)O1)O)O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-15730", "META:GTP-CYCLOHYDRO-II-RXN", "META:RXN-10057", "META:RXN-10056", "META:RXN-14171", "META:RIBOFLAVINSYNDEAM-RXN" ],
+      "gibbs" : -212.19257,
+      "cmlMolWeight" : 351.212,
+      "molWeight" : 351.212
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 23 24  0  0  1  0  0  0  0  0999 V2000\n   29.6921  -25.0617    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   31.1140  -25.0617    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2638  -25.0617    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6921  -23.5614    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6921  -26.4835    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.2546  -25.0617    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.6108  -25.5072    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   34.0433  -26.8700    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   34.7509  -24.6816    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   35.4716  -26.8700    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   33.1979  -27.7354    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   35.9172  -25.5072    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   36.3103  -27.7354    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3782  -25.0879    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3782  -23.6660    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   36.1465  -22.9389    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.6297  -22.9389    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   36.1465  -21.4973    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.9338  -23.4104    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   38.6297  -21.4973    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3782  -20.7832    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   34.9147  -20.7832    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   39.8614  -20.7832    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  7  6  1  1     0  0\n  7  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n  8 11  1  6     0  0\n  9 12  1  0     0  0\n 10 13  1  6     0  0\n 12 14  1  1     0  0\n 14 15  1  0     0  0\n 15 16  2  0     0  0\n 15 17  1  0     0  0\n 16 18  1  0     0  0\n 16 19  1  0     0  0\n 17 20  2  0     0  0\n 18 21  1  0     0  0\n 18 22  2  0     0  0\n 20 23  1  0     0  0\n 10 12  1  0     0  0\n 20 21  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01304\n\n$$$$",
+  "reactions" : [ "irxn1906", "irxn3450", "irxn430", "irxn981", "irxn3350", "irxn1899" ]
+}

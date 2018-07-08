@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1039",
+  "equation" : "2dhglcn + atp <=> 6p2dhglcn + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1680" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3289" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.13; EC-2.7.1.13",
+  "otherNames" : [ ],
+  "alias" : "2DHGLCK",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DEHYDOGLUCONOKINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "2DHGLCK"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02658"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:DHGLUCONATE-PYR-CAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -16.064148,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00030" ],
+      "orthologs" : [ "K11441" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

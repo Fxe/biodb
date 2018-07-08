@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6055",
+  "formula" : "C4H11O7P",
+  "name" : "d-erythritol 4-phosphate",
+  "synonyms" : [ "(2s,3r)-4-(phosphonooxy)butane-1,2,3-triol", "l-erythritol 1-phosphate" ],
+  "alias" : "icpd6055",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-ERYTHRITOL-4P"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03494"
+  } ],
+  "inchi" : "InChI=1S/C4H11O7P/c5-1-3(6)4(7)2-11-12(8,9)10/h3-7H,1-2H2,(H2,8,9,10)/t3-,4+/m0/s1",
+  "inchikey" : "QRDCEYBRRFPBMZ-IUYQGCFVSA-N",
+  "smiles" : "C([C@@]([H])([C@@]([H])(COP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:ERYTHRITOL-KINASE-RXN" ],
+      "gibbs" : -273.90817,
+      "cmlMolWeight" : 200.085,
+      "molWeight" : 200.085
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   30.2675  -24.3669    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   29.0556  -23.6701    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.4854  -23.6701    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9045  -23.0144    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2675  -25.7662    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8438  -24.3669    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6319  -23.6701    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.4199  -24.3669    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.6319  -22.2650    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2020  -23.6701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4199  -25.7662    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9901  -24.3669    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  1  6     0  0\n  8 10  1  0     0  0\n  8 11  1  1     0  0\n 10 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03494\n\n$$$$",
+  "reactions" : [ "irxn4768" ]
+}

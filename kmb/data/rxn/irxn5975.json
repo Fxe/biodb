@@ -1,0 +1,54 @@
+{
+  "id" : "irxn5975",
+  "equation" : "no2 + 6.0 fdxrd <=> 2.0 h2o + n2 + 4.0 h + 6.0 fdxox",
+  "stoichiometry" : {
+    "l" : {
+      "icpd930" : "6.0",
+      "icpd7710" : ""
+    },
+    "r" : {
+      "icpd321" : "6.0",
+      "icpd1851" : "4.0",
+      "icpd7085" : "",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.7.7.1; 1.7.7.1",
+  "otherNames" : [ ],
+  "alias" : "NO2R",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FERREDOXIN--NITRITE-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00790"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NTRIRfx"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NO2R"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CARBAMOYL-P", "META:CPD-69" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY490-3", "META:PWY-381" ],
+      "orphan" : "NO",
+      "gibbs" : -6.3854218,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00910" ],
+      "orthologs" : [ "K00366" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6079",
+  "equation" : "34hpp + nadh + h <=> nad + 34hpl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd3343" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd419" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.237; 1.1.1.222; EC-1.1.1.237",
+  "otherNames" : [ ],
+  "alias" : "34HPLFM",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03336"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "34HPLFM"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYPHENYLPYRUVATE-REDUCTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5754" ],
+      "orphan" : "NO",
+      "gibbs" : 3.5417786,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00350", "rn00130", "rn01110" ],
+      "orthologs" : [ "K18606" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  }
+}

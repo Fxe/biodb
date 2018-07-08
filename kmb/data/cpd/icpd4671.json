@@ -1,0 +1,32 @@
+{
+  "id" : "icpd4671",
+  "formula" : "C6H6N4O4",
+  "name" : "2,4-dinitrophenylhydrazine",
+  "synonyms" : [ "hydrazine, (2,4-dinitrophenyl)-" ],
+  "alias" : "icpd4671",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DINITROPHENYLHYDRAZINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11283"
+  } ],
+  "inchi" : "InChI=1S/C6H6N4O4/c7-8-5-2-1-4(9(11)12)3-6(5)10(13)14/h1-3,8H,7H2",
+  "inchikey" : "HORQAOAYAYGIBM-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)NN)[N+](=O)[O-])[N+](=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C-nitro-compounds", "META:Hydrazines" ],
+      "gibbs" : -21.393278,
+      "cmlMolWeight" : 198.138,
+      "molWeight" : 198.138,
+      "parents" : [ "META:C-nitro-compounds", "META:Hydrazines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   25.6162  -18.8333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6162  -20.2336    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8327  -20.9371    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0420  -20.2336    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0420  -18.8333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8327  -18.1367    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8194  -16.7364    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0295  -16.0259    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2470  -18.1298    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   26.8194  -22.3375    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   30.4657  -18.8174    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   29.2365  -16.7296    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3191  -23.0924    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   28.0262  -23.0455    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  6  1  1  0     0  0\n  6  7  1  0     0  0\n  1  2  2  0     0  0\n  9 11  1  0     0  0\n  7  8  1  0     0  0\n  9 12  2  0     0  0\n  3 10  1  0     0  0\n 10 13  1  0     0  0\n  5  9  1  0     0  0\n 10 14  2  0     0  0\nM  CHG  4   9   1  10   1  11  -1  13  -1\nM  END\n\n> <ENTRY>\ncpd:C11283\n\n$$$$",
+  "reactions" : [ ]
+}

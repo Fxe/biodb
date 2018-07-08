@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6341",
+  "formula" : "C4H9N3O2",
+  "name" : "creatine",
+  "synonyms" : [ "((amino(imino)methyl)(methyl)amino)acetic acid", "[[amino(imino)methyl](methyl)amino]acetic acid", "creatin", "n-methyl-n-guanylglycine" ],
+  "alias" : "creat",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00300"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "creat"
+  }, {
+    "source" : "BiGG",
+    "entry" : "creat"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CREATINE"
+  } ],
+  "inchi" : "InChI=1S/C4H9N3O2/c1-7(4(5)6)2-3(8)9/h2H2,1H3,(H3,5,6)(H,8,9)",
+  "inchikey" : "CVSVTCORWBXHQV-UHFFFAOYSA-N",
+  "smiles" : "CN(CC(=O)O)C(=N)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Non-alpha-amino-acids" ],
+      "reactions" : [ "META:CREATINASE-RXN", "META:CREATINE-KINASE-RXN", "META:CREATININASE-RXN", "META:PHOSPHOAMIDASE-RXN", "META:GUANIDINOACETATE-N-METHYLTRANSFERASE-RXN" ],
+      "gibbs" : 30.490093,
+      "cmlMolWeight" : 131.134,
+      "molWeight" : 131.134,
+      "parents" : [ "META:Non-alpha-amino-acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iLJ478", "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   18.1524  -15.1200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3649  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5773  -15.1200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7897  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0022  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2146  -15.8200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0022  -13.7203    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3649  -17.2198    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5773  -13.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  5  7  2  0     0  0\n  2  8  2  0     0  0\n  3  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00300\n\n$$$$",
+  "reactions" : [ "irxn5752", "irxn5321", "irxn5045", "irxn6670", "irxn6849", "irxn3028" ]
+}

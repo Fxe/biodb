@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3937",
+  "equation" : "icpd6848 <=> icpd2542 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6848" : ""
+    },
+    "r" : {
+      "icpd2542" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.68; 4.1.1.68",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.1.68-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04133"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:3-HYDROXYPHENYLACETATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -1.2176514,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

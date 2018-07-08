@@ -1,0 +1,46 @@
+{
+  "id" : "irxn376",
+  "equation" : "2.0 o2 + h2o + thm <=> icpd2163 + 2.0 h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "2.0",
+      "icpd4016" : "",
+      "icpd1280" : ""
+    },
+    "r" : {
+      "icpd2494" : "2.0",
+      "icpd2163" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.3.23; EC-1.1.3.23",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:THIAMIN-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02132"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -67.903,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

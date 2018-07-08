@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6311",
+  "equation" : "2ahhmp + 4abz <=> h2o + dhpt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8037" : "",
+      "icpd977" : ""
+    },
+    "r" : {
+      "icpd4423" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.15; EC-2.5.1",
+  "otherNames" : [ ],
+  "alias" : "DHPS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHPSm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14226"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHPS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03066"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -6.727005,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00790" ],
+      "orthologs" : [ "K18824", "K18825", "K13939", "K18974", "K13941", "K00796" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iIT341", "iMM904", "iHN637", "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id" : "icpd6658",
+  "formula" : "C2H4O",
+  "name" : "acetaldehyde",
+  "synonyms" : [ "ethanal" ],
+  "alias" : "acald",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "acald"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETALD"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00084"
+  }, {
+    "source" : "BiGG",
+    "entry" : "acald"
+  } ],
+  "inchi" : "InChI=1S/C2H4O/c1-2-3/h2H,1H3",
+  "inchikey" : "IKHGUXGNUITLKF-UHFFFAOYSA-N",
+  "smiles" : "CC=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:BADH-RXN", "META:RXN-13990", "META:RXN-11454" ],
+      "instances" : [ "META:n-Alkanals" ],
+      "reactions" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:RXN-12491", "META:RXN-12573", "META:2.2.1.4-RXN", "META:RXN-16013", "META:ETHANOLAMINE-PHOSPHATE-PHOSPHO-LYASE-RXN", "META:RXN0-3962", "META:RXN-13946", "META:RXN0-5507", "META:LTAA-RXN", "META:RXN-9718", "META:THREONINE-ALDOLASE-RXN", "META:NITROETHANE-OXIDASE-RXN", "META:RXN-14908", "META:RXN-8763", "META:ETHAMLY-RXN", "META:R141-RXN", "META:ALCOHOL-DEHYDROG-RXN", "META:RXN-6161", "META:RXN-13593", "META:RXN-13592", "META:R461-RXN", "META:RXN-8092", "META:RXN66-2", "META:RXN66-3", "META:RXN-13594", "META:RXN-12484", "META:RXN-11972", "META:RXN66-1", "META:RXN-11454", "META:RXN-11971", "META:RXN-11039", "META:RXN-8935", "META:RXN-11747", "META:MHPELY-RXN", "META:RXN0-986", "META:RXN0-5234", "META:DEOXYRIBOSE-P-ALD-RXN", "META:PHOSPHONOACETALDEHYDE-HYDROLASE-RXN", "META:FUCOSTEROL-EPOXIDE-LYASE-RXN", "META:RXN-9702", "META:RXN0-2022", "META:LACTATE-ALDOLASE-RXN", "META:4.1.2.42-RXN", "META:RXN3O-470", "META:ACETALD-DEHYDROG-RXN", "META:RXN-9560" ],
+      "gibbs" : 7.6844816,
+      "cmlMolWeight" : 44.053,
+      "molWeight" : 44.053,
+      "parents" : [ "META:n-Alkanals" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "e_coli_core", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iHN637", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   26.8109  -20.5807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0234  -19.8807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2179  -20.5705    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00084\n\n$$$$",
+  "reactions" : [ "irxn807", "irxn2817", "irxn4538", "irxn5108", "irxn2930", "irxn1450", "irxn4683", "irxn2540", "irxn3179", "irxn3992", "irxn6241", "irxn716", "irxn978", "irxn2409", "irxn1958", "irxn2703", "irxn680", "irxn383", "irxn1614", "irxn3137", "irxn2521", "irxn2248", "irxn3243", "irxn6870", "irxn4272", "irxn4252", "irxn5381", "irxn5140", "irxn926", "irxn3061" ]
+}

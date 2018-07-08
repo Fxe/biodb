@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2498",
+  "equation" : "amet + dmgly <=> ahcys + glyb",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd5167" : ""
+    },
+    "r" : {
+      "icpd6485" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.157; EC-2.1.1.161; 2.1.1.161; 2.1.1.162",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07244"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9680"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:KCL", "META:N-BUTYLATE", "META:ADENOSYL-HOMO-CYS" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13406", "META:RXN-13405" ],
+      "orphan" : "NO",
+      "gibbs" : -38.160004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00260" ],
+      "orthologs" : [ "K13042" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

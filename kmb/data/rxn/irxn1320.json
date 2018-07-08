@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1320",
+  "equation" : "f1p + h2o <=> fru + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4465" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2151" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.68",
+  "otherNames" : [ ],
+  "alias" : "F1PP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "F1PP"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08548"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

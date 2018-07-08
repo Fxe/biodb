@@ -1,0 +1,46 @@
+{
+  "id" : "irxn63",
+  "equation" : "h + acser + icpd7813 <=> ac + icpd876",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5848" : "",
+      "icpd1851" : "",
+      "icpd7813" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd876" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.52; 2.5.1.52",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7461"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04091"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:BH4NA", "META:HYDROXYLAMINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4985" ],
+      "orphan" : "NO",
+      "gibbs" : -0.098228455,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1133",
+  "formula" : "C3H6O2",
+  "name" : "methyl acetate",
+  "synonyms" : [ "acetic acid, methyl ester", "methyl ethanoate", "methyl-acetate", "methylacetat", "methylacetate" ],
+  "alias" : "icpd1133",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYL-ACETATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C17530"
+  } ],
+  "inchi" : "InChI=1S/C3H6O2/c1-3(4)5-2/h1-2H3",
+  "inchikey" : "KXKVLQRXCPHEJC-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)OC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-17567", "META:RXN-17572" ],
+      "gibbs" : -20.973276,
+      "cmlMolWeight" : 74.079,
+      "molWeight" : 74.079
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   19.8100  -24.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0224  -24.8500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5976  -24.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2179  -24.1596    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8100  -22.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  1  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17530\n\n$$$$",
+  "reactions" : [ "irxn6705", "irxn6702" ]
+}

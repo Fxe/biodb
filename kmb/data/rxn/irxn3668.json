@@ -1,0 +1,58 @@
+{
+  "id" : "irxn3668",
+  "equation" : "pyr + atp + hco3 <=> h + pi + adp + oaa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd1484" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd7485" : "",
+      "icpd7306" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.4.1.1; EC-6.4.1.1",
+  "otherNames" : [ ],
+  "alias" : "PC",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRUVATE-CARBOXYLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PCm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYC_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00344"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:L-ASPARTATE", "META:2-KETOGLUTARATE", "META:ADP" ],
+      "activators" : [ "META:MG+2", "META:CO+2", "META:MN+2", "META:ACETYL-COA" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6142", "META:PWY-5750", "META:PWY-6146", "META:P42-PWY", "META:PWY66-399" ],
+      "orphan" : "NO",
+      "gibbs" : -1.3699341,
+      "uniprot" : [ "P32327", "P52873", "Q16921", "Q9PNQ4", "Q9CHQ7", "Q9PP00", "Q9KWU4", "P11154", "P11498", "Q05920", "P95127", "Q9UUE1", "O17732", "Q9XBJ1" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00020", "rn01230", "rn00620", "rn00720" ],
+      "orthologs" : [ "K01960", "K01959", "K01958" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iNF517", "iND750", "iAF987", "iHN637", "iYO844", "iJN746", "iLJ478", "iRC1080", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iSB619" ]
+    }
+  }
+}

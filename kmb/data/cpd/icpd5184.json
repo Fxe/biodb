@@ -1,0 +1,39 @@
+{
+  "id" : "icpd5184",
+  "formula" : "C6H4NO3",
+  "name" : "6-hydroxynicotinate",
+  "synonyms" : [ "6-hydroxy-nicotinate" ],
+  "alias" : "6hnac",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "6hnac"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6-HYDROXY-NICOTINATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01020"
+  }, {
+    "source" : "BiGG",
+    "entry" : "6hnac"
+  } ],
+  "inchi" : "InChI=1S/C6H5NO3/c8-5-2-1-4(3-7-5)6(9)10/h1-3H,(H,7,8)(H,9,10)/p-1",
+  "inchikey" : "BLHCMGRVFXRYRN-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=NC(=C1)[O-])C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:6-HYDROXYNICOTINATE-REDUCTASE-RXN", "META:NICOTINATE-DEHYDROGENASE-RXN", "META:RXN-7637", "META:RXN-11353", "META:RXN-7573", "META:RXN-7585" ],
+      "gibbs" : -54.467575,
+      "cmlMolWeight" : 138.102,
+      "molWeight" : 138.102
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   28.0899  -16.4818    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2327  -17.1111    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8705  -17.1940    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0899  -15.0697    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2327  -18.5740    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4394  -16.4051    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6575  -16.4818    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8705  -14.3765    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6575  -15.0697    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4508  -14.3765    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  7  9  1  0     0  0\n  9 10  1  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01020\n\n$$$$",
+  "reactions" : [ "irxn356", "irxn5498", "irxn1736" ]
+}

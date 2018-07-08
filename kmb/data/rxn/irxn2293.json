@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2293",
+  "equation" : "o2 + 2.0 tyr__L <=> 2.0 34dhphe",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7576" : "2.0"
+    },
+    "r" : {
+      "icpd5924" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.18.1; 1.10.3.1",
+  "otherNames" : [ ],
+  "alias" : "TYRDOPO",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00031"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-5861"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TYRDOPO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DIETHYLDITHIOCARBAMATE", "META:CPD-8766", "META:OXYGEN-MOLECULE", "META:CPD-7084", "META:CPD-7024" ],
+      "activators" : [ "META:CPD-16983" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:MONOPHENOL-MONOOXYGENASE-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -86.73999,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350", "rn01110", "rn00950" ],
+      "orthologs" : [ "K00422" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6279",
+  "equation" : "icpd2802 <=> so3 + h + pep",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2802" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd1851" : "",
+      "icpd5833" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.4.1.19; 4.4.1.19",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.4.1.19-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07476"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:2-PHOSPHONO-3-SULFOPROPRIONATE", "META:CPD-366" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P261-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -17.825928,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00680" ],
+      "orthologs" : [ "K08097" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

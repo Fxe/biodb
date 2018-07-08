@@ -1,0 +1,49 @@
+{
+  "id" : "irxn205",
+  "equation" : "amet + ind3ac <=> ahcys + CE2122",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd1296" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd1480" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.278; EC-2.1.1.278",
+  "otherNames" : [ ],
+  "alias" : "RE2133C",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10452"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9825"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2133C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:FE+2", "META:MN+2" ],
+      "activators" : [ "META:ZN+2", "META:K+" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6303" ],
+      "orphan" : "NO",
+      "gibbs" : 7.413086,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

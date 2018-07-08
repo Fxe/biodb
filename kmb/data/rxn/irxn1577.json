@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1577",
+  "equation" : "icpd2042 + h2o <=> n2 + icpd3099",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2042" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd3099" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.3.5; 3.5.3.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03188"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FORMIMINOASPARTATE-DEIMINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 1.6787567,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00340" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

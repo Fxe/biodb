@@ -1,0 +1,36 @@
+{
+  "id" : "icpd8064",
+  "formula" : "C5H9NO5S2",
+  "name" : "2-(sulfomethyl)thiazolidine-4-carboxylic acid",
+  "synonyms" : [ ],
+  "alias" : "2tcc",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-418"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2tcc"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2tcc"
+  } ],
+  "inchi" : "InChI=1S/C5H9NO5S2/c7-5(8)3-1-12-4(6-3)2-13(9,10)11/h3-4,6H,1-2H2,(H,7,8)(H,9,10,11)",
+  "inchikey" : "HYGZRLVEUKTESI-UHFFFAOYSA-N",
+  "smiles" : "C1C(C(=O)O)NC(CS(=O)(=O)O)S1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:R232-RXN", "META:R233-RXN" ],
+      "gibbs" : -91.4204,
+      "cmlMolWeight" : 225.234,
+      "molWeight" : 225.234
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn909" ]
+}

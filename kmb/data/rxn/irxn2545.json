@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2545",
+  "equation" : "gly + phaccoa <=> coa + h + pheacgly",
+  "stoichiometry" : {
+    "l" : {
+      "icpd855" : "",
+      "icpd6491" : ""
+    },
+    "r" : {
+      "icpd518" : "",
+      "icpd1851" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.13; EC-2.3.1.192; 2.3.1.192",
+  "otherNames" : [ ],
+  "alias" : "PHACCOAGLYACm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PHACCOAGLYACm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05841"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10821"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:BENZOYLCOA", "META:MG+2", "META:NI+2", "META:BUTYRYL-COA", "META:DITHIO-NITROBENZOATE", "META:ZN+2", "META:CPD-29" ],
+      "activators" : [ "META:LI+", "META:CPD-2", "META:K+", "META:RB+", "META:NA+", "META:AMMONIUM" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6318" ],
+      "orphan" : "NO",
+      "gibbs" : -5.0441284,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00360" ],
+      "orthologs" : [ "K00628", "K15517" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

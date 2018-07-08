@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4405",
+  "equation" : "fdxrd + nadp <=> nadph + h + fdxox",
+  "stoichiometry" : {
+    "l" : {
+      "icpd930" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd321" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FRDO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FNORh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FRDO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iIT341", "iNJ661" ]
+    }
+  }
+}

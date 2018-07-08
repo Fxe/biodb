@@ -1,0 +1,44 @@
+{
+  "id" : "irxn754",
+  "equation" : "icpd2240 <=> h2o + icpd496",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2240" : ""
+    },
+    "r" : {
+      "icpd496" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.103; 4.2.1.103",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.2.1.103-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05771"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DIETHYLDITHIOCARBAMATE", "META:N-ETHYLMALEIMIDE", "META:CU+2", "META:CPD-7082", "META:NI+2", "META:CO+2", "META:CPD-29", "META:CPD-8916", "META:HG+2", "META:IODOACETATE", "META:CD+2", "META:CPD-5541", "META:HYDROGEN-PEROXIDE", "META:AG+", "META:DIISOPROPYL-FLUOROPHOSPHATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -22.487,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00930" ],
+      "orthologs" : [ "K18199" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3171",
+  "equation" : "3.0 nadph + 3.0 o2 + icpd460 + 3.0 h <=> 4.0 h2o + mergtrol + for + 3.0 nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "3.0",
+      "icpd5432" : "3.0",
+      "icpd1851" : "3.0",
+      "icpd460" : ""
+    },
+    "r" : {
+      "icpd4016" : "4.0",
+      "icpd1329" : "",
+      "icpd1650" : "",
+      "icpd5537" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.70; 1.14.13.70",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.14.13.70-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05731"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-19592", "META:CPD-19591", "META:CPD-19594", "META:CPD-19593" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2541" ],
+      "orphan" : "NO",
+      "gibbs" : -288.40283,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100", "rn01110" ],
+      "orthologs" : [ "K05917" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4359",
+  "equation" : "for + nadp <=> nadph + co2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1650" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.43; 1.2.1.43",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FORMATE-DEHYDROGENASE-NADP+-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00134"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:FeS-Centers" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5372", "META:CODH-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -6.4023437,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00680", "rn00720" ],
+      "orthologs" : [ "K15022", "K05299" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

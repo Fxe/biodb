@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6204",
+  "equation" : "h + his__L <=> hista + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd3297" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7006" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.28; 4.1.1.22; EC-4.1.1.22",
+  "otherNames" : [ ],
+  "alias" : "HDC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HISDC"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HISTIDINE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01167"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HDC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:IMIDAZOLE-RING", "META:UROCANATE", "META:PYRIDINE", "META:CPD-29", "META:CPD-11021", "META:CPD0-1399", "META:CPD-10907", "META:CPD-10906", "META:HISTAMINE", "META:HYDRAZINE", "META:CPD-69", "META:IMIDAZOLE-PROPIONATE", "META:CPD-10901", "META:CARNOSINE", "META:4-IMIDAZOLEACETATE", "META:CPD-8983", "META:DITHIOTHREITOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6173" ],
+      "orphan" : "NO",
+      "gibbs" : -3.0899963,
+      "uniprot" : [ "Q56581", "P28577", "Q7M174", "P54772", "P19113", "P16453", "Q05733", "P04193", "P23738", "P04194", "P00862", "P05034", "P28578" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00340" ],
+      "orthologs" : [ "K01593", "K01590" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iRC1080", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

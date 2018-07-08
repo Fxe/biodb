@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1295",
+  "equation" : "34dhphe + amet <=> ahcys + CE2176 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd5924" : ""
+    },
+    "r" : {
+      "icpd851" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.6",
+  "otherNames" : [ ],
+  "alias" : "RE2122C",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10870"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2122C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6334" ],
+      "orphan" : "NO",
+      "gibbs" : -4.360016,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

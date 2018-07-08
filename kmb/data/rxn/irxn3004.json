@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3004",
+  "equation" : "2.0 HC02114 + 2.0 h <=> h2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "2.0",
+      "icpd4870" : "2.0"
+    },
+    "r" : {
+      "icpd3917" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MVHMETH-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-5255"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN0-5256" ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

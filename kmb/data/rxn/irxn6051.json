@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6051",
+  "equation" : "nadh + b2coa + h <=> nad + btcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd6997" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd1529" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.44; 1.3.1.44",
+  "otherNames" : [ ],
+  "alias" : "ACOAD1",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01171"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12558"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACOAD1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6863", "META:PWY-6883" ],
+      "orphan" : "NO",
+      "gibbs" : 13.871765,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310", "rn01100", "rn00650", "rn01200", "rn01120" ],
+      "orthologs" : [ "K00209" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iSB619", "iYO844" ]
+    }
+  }
+}

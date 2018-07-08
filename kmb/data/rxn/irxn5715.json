@@ -1,0 +1,52 @@
+{
+  "id" : "irxn5715",
+  "equation" : "coa + 2maacoa <=> accoa + ppcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd7390" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd3011" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.9; 2.3.1.16; 2.3.1.9",
+  "otherNames" : [ ],
+  "alias" : "MACCOAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MACCOAT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLACETOACETYLCOATHIOL-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACACT10m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00927"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:K+" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5109", "META:ILEUDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -5.249817,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn01130", "rn00280" ],
+      "orthologs" : [ "K07508", "K07509", "K00632", "K07513" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iECIAI1_1343", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1", "iYO844", "iJN746" ]
+    }
+  }
+}

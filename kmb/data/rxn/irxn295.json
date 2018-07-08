@@ -1,0 +1,46 @@
+{
+  "id" : "irxn295",
+  "equation" : "h2o + 23doguln <=> co2 + lyxnt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1949" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7356" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "DOGULND1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DOGULND1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04784"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00053", "rn00040" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

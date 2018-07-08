@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3686",
+  "equation" : "cys__L + achms <=> ac + cyst__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4873" : "",
+      "icpd6075" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd7567" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.48",
+  "otherNames" : [ ],
+  "alias" : "AHSL",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03217"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "METB1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AHSL"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CGS_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01130", "rn00270" ],
+      "orthologs" : [ "K01739" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNF517", "iRC1080", "iND750", "iIT341", "iLB1027_lipid", "iMM904" ]
+    }
+  }
+}

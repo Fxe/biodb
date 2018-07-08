@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3559",
+  "equation" : "suchms + ch4s <=> succ + met__L + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6225" : "",
+      "icpd5063" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5870" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.48",
+  "otherNames" : [ ],
+  "alias" : "SHSL3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SHSL3"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18602"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYO844" ]
+    }
+  }
+}

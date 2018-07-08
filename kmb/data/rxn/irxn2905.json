@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2905",
+  "equation" : "icpd4742 <=> h2o + ind3acnl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4742" : ""
+    },
+    "r" : {
+      "icpd6698" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.99.1.6; 4.99.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-1403"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04093"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHENYLACETALDOXIME", "META:PHMB", "META:N-ETHYLMALEIMIDE", "META:CYS", "META:2-MERCAPTOETHANOL" ],
+      "activators" : [ "META:ASCORBATE", "META:L-DEHYDRO-ASCORBATE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CAMALEXIN-SYN", "META:PWY-581" ],
+      "orphan" : "NO",
+      "gibbs" : -18.487,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ "K11868" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

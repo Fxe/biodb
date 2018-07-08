@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3946",
+  "equation" : "accoa + icpd1487 <=> coa + icpd1611",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd1487" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd1611" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.227; 2.3.1.227",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14698"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10514"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -6.53833,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "K17939" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

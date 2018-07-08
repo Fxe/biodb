@@ -1,0 +1,45 @@
+{
+  "id" : "irxn92",
+  "equation" : "pyr + icpd5064 <=> co2 + icpd5364",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd5064" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd5364" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.4.1; 1.2.4.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-1134"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01699"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PYRUVDEH-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -49.93036,
+      "uniprot" : [ "O66112", "P26267", "P08559", "P11966", "O48685", "Q09171", "Q49109", "P16387", "P21882", "P21881", "P29804", "P29803", "P47515", "P47516", "Q59107", "Q59820", "P10801", "P10802", "P35488", "P35487", "P35486", "P11177", "P73405", "Q9N1X8", "P79931", "P79932", "P06959", "P26284", "Q59097", "P0AFG8", "Q9Y8I6", "P45119", "P35485", "Q9Y8I5", "Q06437", "Q9CJD6", "Q9CJD5", "O69478", "Q9JU07", "Q9JU08", "P49432", "P52902", "P32473", "P52903", "Q9D051", "P52901", "P52904", "P21874", "P21873" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00162", "K00163", "K00161", "E1" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

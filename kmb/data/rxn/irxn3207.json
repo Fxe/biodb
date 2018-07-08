@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3207",
+  "equation" : "5forthf + glu__L <=> thf + forglu",
+  "stoichiometry" : {
+    "l" : {
+      "icpd514" : "",
+      "icpd2463" : ""
+    },
+    "r" : {
+      "icpd6900" : "",
+      "icpd951" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.2.5",
+  "otherNames" : [ ],
+  "alias" : "GluForTx",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GluForTx"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02287"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00670", "rn00340" ],
+      "orthologs" : [ "K13990", "K00603" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1706",
+  "equation" : "icpd1638 + h2o + atp + ppp9 <=> mppp9 + 3.0 h + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5213" : "",
+      "icpd1638" : "",
+      "icpd4016" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "3.0",
+      "icpd5753" : "",
+      "icpd3797" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.6.1.1; 6.6.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03877"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN1F-20"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5531", "META:PWY-7159", "META:CHLOROPHYLL-SYN" ],
+      "orphan" : "NO",
+      "gibbs" : -15.963806,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ "K03405", "K03404", "K03403" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

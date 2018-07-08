@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6466",
+  "equation" : "coa + dmnoncrn <=> dmnoncoa + crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd2772" : ""
+    },
+    "r" : {
+      "icpd1958" : "",
+      "icpd6570" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CSNAT2x",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DMNONCOACRNCPT1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CSNAT2x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C110CPT2m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

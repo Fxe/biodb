@@ -1,0 +1,45 @@
+{
+  "id" : "irxn972",
+  "equation" : "phytol + ctp <=> icpd493 + cdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4369" : "",
+      "icpd229" : ""
+    },
+    "r" : {
+      "icpd1985" : "",
+      "icpd493" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.182; 2.7.1.182",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7683"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10659"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5107" ],
+      "orphan" : "NO",
+      "gibbs" : -109.80585,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K18678" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

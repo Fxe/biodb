@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2935",
+  "equation" : "o2 + coa + pyr + h <=> accoa + co2 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd3122" : "",
+      "icpd1851" : "",
+      "icpd2377" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd5825" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.3.6; EC-1.2.3.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRUVATE-OXIDASE-COA-ACETYLATING-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00211"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "YES-CONFIRMED",
+      "gibbs" : -38.96588,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00620" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

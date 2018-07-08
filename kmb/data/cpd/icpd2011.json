@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2011",
+  "formula" : "C9H7NO",
+  "name" : "1(2h)-isoquinolinone",
+  "synonyms" : [ "isocarbostyril", "isoquinolin-1(2h)-one" ],
+  "alias" : "icpd2011",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ISOQUINOLIN-12H-ONE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06324"
+  } ],
+  "inchi" : "InChI=1S/C9H7NO/c11-9-8-4-2-1-3-7(8)5-6-10-9/h1-6H,(H,10,11)",
+  "inchikey" : "VDBNYAPERZTOOF-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C1)C(=O)NC=C2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.3.99.16-RXN" ],
+      "gibbs" : 69.09884,
+      "cmlMolWeight" : 145.16,
+      "molWeight" : 145.16
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   28.1690  -20.3430    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1690  -18.9456    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3791  -21.0445    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9588  -21.0445    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3791  -18.2441    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9588  -18.2441    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5951  -20.3430    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7427  -20.3430    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5951  -18.9456    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3791  -16.8469    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7427  -18.9456    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\n  6 11  2  0     0  0\n  7  9  1  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06324\n\n$$$$",
+  "reactions" : [ "irxn6085" ]
+}

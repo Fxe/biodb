@@ -1,0 +1,39 @@
+{
+  "id" : "icpd1416",
+  "formula" : "C8H15N5O",
+  "name" : "4-(ethylamino)-2-hydroxy-6-(isopropylamino)-1,3,5-triazine",
+  "synonyms" : [ "4-(ethylamino)-6-(isopropylamino)-1,3,5-triazin-2-ol" ],
+  "alias" : "hatrz",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYATRAZINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06552"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "hatrz"
+  }, {
+    "source" : "BiGG",
+    "entry" : "hatrz"
+  } ],
+  "inchi" : "InChI=1S/C8H15N5O/c1-4-9-6-11-7(10-5(2)3)13-8(14)12-6/h5H,4H2,1-3H3,(H3,9,10,11,12,13,14)",
+  "inchikey" : "NFMIMWNQWAWNDW-UHFFFAOYSA-N",
+  "smiles" : "CCN=C1NC(=NC(C)C)NC(=N1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:3.8.1.8-RXN", "META:R122-RXN", "META:RXN-8938" ],
+      "gibbs" : 160.72679,
+      "cmlMolWeight" : 197.239,
+      "molWeight" : 197.239
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   30.0737  -18.3705    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8626  -19.0726    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0737  -16.9722    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2849  -19.0668    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6455  -18.3705    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8626  -16.2701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4960  -18.3705    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.6455  -16.9722    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4344  -19.0726    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8626  -14.8716    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.7070  -19.0668    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4960  -16.9663    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2232  -18.3705    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0123  -19.0726    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  2  0     0  0\n  5  9  1  0     0  0\n  6 10  1  0     0  0\n  7 11  1  0     0  0\n  7 12  1  0     0  0\n  9 13  1  0     0  0\n 13 14  1  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06552\n\n$$$$",
+  "reactions" : [ "irxn172", "irxn1569" ]
+}

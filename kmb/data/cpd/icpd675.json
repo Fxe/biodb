@@ -1,0 +1,31 @@
+{
+  "id" : "icpd675",
+  "formula" : "C5H6N2O",
+  "name" : "n-acetylimidazole",
+  "synonyms" : [ "1-acetyl-1h-imidazole" ],
+  "alias" : "icpd675",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-434"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02560"
+  } ],
+  "inchi" : "InChI=1S/C5H6N2O/c1-5(8)7-3-2-6-4-7/h2-4H,1H3",
+  "inchikey" : "VIHYIVKEECZGOU-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)N1C=CN=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:IMIDAZOLE-N-ACETYLTRANSFERASE-RXN" ],
+      "gibbs" : 54.386723,
+      "cmlMolWeight" : 110.115,
+      "molWeight" : 110.115
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   26.4600  -16.0533    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   26.4600  -14.6601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3232  -16.8753    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5910  -16.8753    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6725  -13.9605    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2532  -13.9605    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7547  -18.2104    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1596  -18.2104    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  2  0     0  0\n  4  8  2  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02560\n\n$$$$",
+  "reactions" : [ "irxn1375" ]
+}

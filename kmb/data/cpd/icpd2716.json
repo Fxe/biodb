@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2716",
+  "formula" : "C6H8O4",
+  "name" : "1,5-anhydro-4-deoxy-d-glycero-hex-3-en-2-ulose",
+  "synonyms" : [ "(6s)-4-hydroxy-6-(hydroxymethyl)-2h-pyran-3(6h)-one" ],
+  "alias" : "icpd2716",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9432"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19822"
+  } ],
+  "inchi" : "InChI=1S/C6H8O4/c7-2-4-1-5(8)6(9)3-10-4/h1,4,7-8H,2-3H2/t4-/m0/s1",
+  "inchikey" : "XUKJGZOHRVCEJL-BYPYZUCNSA-N",
+  "smiles" : "C1=C(C(=O)CO[C@]1([H])CO)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8986", "META:4.2.1.111-RXN", "META:5.3.3.15-RXN" ],
+      "gibbs" : -49.511032,
+      "cmlMolWeight" : 144.127,
+      "molWeight" : 144.127
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n    8.4668  -20.1573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.4668  -21.5572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.6790  -22.2571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.8914  -21.5572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.8914  -20.1573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.6790  -19.4575    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1223  -22.2681    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.6790  -23.6567    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2545  -19.4575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0592  -20.1477    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  4  7  2  0     0  0\n  3  8  1  0     0  0\n  1  9  1  1     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19822\n\n$$$$",
+  "reactions" : [ "irxn5742", "irxn744", "irxn801" ]
+}

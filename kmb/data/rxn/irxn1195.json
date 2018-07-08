@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1195",
+  "equation" : "h2o + icpd2632 <=> icpd7800 + icpd8203",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2632" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7800" : "",
+      "icpd8203" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.8.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05485"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AMINOPARATHION-PHOSPHATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -4.5671387,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

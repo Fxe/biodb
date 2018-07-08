@@ -1,0 +1,38 @@
+{
+  "id" : "icpd5368",
+  "formula" : "C45H80N7O18P3S",
+  "name" : "3-oxotetracosanoyl-coa",
+  "synonyms" : [ "(2r)-4-({[({[(2r,3s,4r,5r)-5-(6-amino-9h-purin-9-yl)-4-hydroxy-3-(phosphonooxy)oxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)-2-hydroxy-3,3-dimethyl-n-[2-({2-[(3-oxotetracosanoyl)sulfanyl]ethyl}-c-hydroxycarbonimidoyl)ethyl]butanimidic acid", "(2r)-4-[({[(2r,3s,4r,5r)-5-(6-aminopurin-9-yl)-4-hydroxy-3-(phosphonooxy)oxolan-2-yl]methoxy(hydroxy)phosphoryl}oxy(hydroxy)phosphoryl)oxy]-2-hydroxy-3,3-dimethyl-n-[2-({2-[(3-oxotetracosanoyl)sulfanyl]ethyl}-c-hydroxycarbonimidoyl)ethyl]butanimidic acid", "3-ketotetracosanoyl-coa", "3-ketotetracosanoyl-coenzyme a", "3-oxo-lignoceroyl-coa", "3-oxo-tetracosanoyl-coa", "3-oxotetracosanoyl-coenzyme a" ],
+  "alias" : "CE2253",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "3ottccoa"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14273"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE2253"
+  } ],
+  "inchi" : "InChI=1S/C45H80N7O18P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-33(53)28-36(55)74-27-26-47-35(54)24-25-48-43(58)40(57)45(2,3)30-67-73(64,65)70-72(62,63)66-29-34-39(69-71(59,60)61)38(56)44(68-34)52-32-51-37-41(46)49-31-50-42(37)52/h31-32,34,38-40,44,56-57H,4-30H2,1-3H3,(H,47,54)(H,48,58)(H,62,63)(H,64,65)(H2,46,49,50)(H2,59,60,61)/t34-,38-,39-,40+,44-/m1/s1",
+  "inchikey" : "JJSJTIWFKNSCHC-JBKAVQFISA-N",
+  "smiles" : "CCCCCCCCCCCCCCCCCCCCCC(=O)CC(=O)SCCN=C(CCN=C([C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@H](N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Very-Long-Chain-oxoacyl-CoAs" ],
+      "reactions" : [ "META:RXN-13300", "META:RXN-13297" ],
+      "gibbs" : -69.856834,
+      "cmlMolWeight" : 1128.113,
+      "molWeight" : 1128.113,
+      "parents" : [ "META:Very-Long-Chain-oxoacyl-CoAs" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iLB1027_lipid" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn2928" ]
+}

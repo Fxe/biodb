@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6674",
+  "equation" : "icpd4856 <=> pp2coa + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4856" : ""
+    },
+    "r" : {
+      "icpd989" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.3.1.6; EC-4.3.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03046"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BETA-ALANYL-COA-AMMONIA-LYASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NH4CL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 1.4835815,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn00410" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

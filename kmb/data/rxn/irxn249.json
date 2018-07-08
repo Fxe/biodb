@@ -1,0 +1,48 @@
+{
+  "id" : "irxn249",
+  "equation" : "h2o + selcyst <=> n2 + selhcys + pyr + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1394" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd1851" : "",
+      "icpd7085" : "",
+      "icpd239" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SELCYSTL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SELCYSTL"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SELCYSTLh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

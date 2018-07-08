@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4892",
+  "formula" : "C12H20O3",
+  "name" : "(10e)-12-oxododec-10-enoic acid",
+  "synonyms" : [ "12-oxo-trans-dodec-10-enoic acid" ],
+  "alias" : "icpd4892",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:12-OXO-TRANS-10-DODECENOATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16309"
+  } ],
+  "inchi" : "InChI=1S/C12H20O3/c13-11-9-7-5-3-1-2-4-6-8-10-12(14)15/h7,9,11H,1-6,8,10H2,(H,14,15)/b9-7+",
+  "inchikey" : "INMKWUNQKOWGEZ-VQHVLOKHSA-N",
+  "smiles" : "C(CCCCCC(=O)O)CC/C(/[H])=C(\\[H])/C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:OMEGA-ALDEHYDE-FATTY-ACID", "META:Monounsaturated-fatty-acids", "META:Medium-chain-fatty-acids" ],
+      "reactions" : [ "META:RXN-1349" ],
+      "gibbs" : 118.34923,
+      "cmlMolWeight" : 211.28,
+      "molWeight" : 211.28,
+      "parents" : [ "META:OMEGA-ALDEHYDE-FATTY-ACID", "META:Monounsaturated-fatty-acids", "META:Medium-chain-fatty-acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 14  0  0  0  0  0  0  0  0999 V2000\n   20.1799  -19.8803    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3924  -19.1803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6048  -19.8803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8172  -19.1803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0297  -19.8803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2421  -19.1803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4547  -19.8803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6671  -19.1803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8795  -19.8803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0920  -19.1803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.3044  -19.8803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.5168  -19.1803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.7294  -19.8803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.9348  -19.1842    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   34.7295  -21.2800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 13 15  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16309\n\n$$$$",
+  "reactions" : [ "irxn2833" ]
+}

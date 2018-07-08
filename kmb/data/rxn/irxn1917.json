@@ -1,0 +1,55 @@
+{
+  "id" : "irxn1917",
+  "equation" : "co2 + air <=> h + 5aizc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2454" : "",
+      "icpd4071" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd146" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.21; EC-4.1.1.21",
+  "otherNames" : [ ],
+  "alias" : "AIRCr",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04209"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PRAICh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PRAIC"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AIRCARBOXY-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AIRCr"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6124" ],
+      "orphan" : "NO",
+      "gibbs" : 14.560577,
+      "uniprot" : [ "Q9RYC6", "Q58033", "O67239", "P50504", "Q9WYS8", "Q9JTS6", "P0AG18", "O80937", "P12045", "P15567", "O66608", "P74724", "Q01930", "P12044", "Q9PPK5", "Q9XAY8", "P43849", "P22234", "P55195", "P21264", "P22348", "P43850", "P09029", "Q55498" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00230" ],
+      "orthologs" : [ "K11808", "K01587" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNF517", "iND750", "iJN678", "iAT_PLT_636", "iAF987", "iHN637", "iJN746", "iLJ478", "iRC1080", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

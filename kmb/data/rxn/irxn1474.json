@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1474",
+  "equation" : "h2o + glypro <=> gly + pro__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd405" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd855" : "",
+      "icpd4081" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.4.13.18",
+  "otherNames" : [ ],
+  "alias" : "GLYPROPRO1c",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-6988"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLYPROPRO1c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -6.683014,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

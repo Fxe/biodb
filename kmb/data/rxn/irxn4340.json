@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4340",
+  "equation" : "s + so3 <=> tsul + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5833" : "",
+      "icpd5284" : ""
+    },
+    "r" : {
+      "icpd7289" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "TSULe",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00864"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TSULe"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

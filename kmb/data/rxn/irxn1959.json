@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1959",
+  "equation" : "h2o + icpd2017 <=> 2.0 n2 + co2 + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2017" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7085" : "2.0",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.3.1.13; 4.3.1.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00213"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CARBAMOYL-SERINE-AMMONIA-LYASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -7.277115,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

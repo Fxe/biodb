@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4549",
+  "equation" : "icpd3213 + uacmam <=> udp + icpd4698 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4458" : "",
+      "icpd3213" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd4698" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.187; EC-2.4.1.187",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05566"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TEICHOICSYN2-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7819", "META:TEICHOICACID-PWY", "META:PWY-7816", "META:PWY-7815" ],
+      "orphan" : "NO",
+      "gibbs" : 6.8974915,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

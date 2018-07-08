@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6144",
+  "formula" : "BrH",
+  "name" : "hydrobromic acid",
+  "synonyms" : [ "hydrogen bromide" ],
+  "alias" : "icpd6144",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C13645"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12287"
+  } ],
+  "inchi" : "InChI=1S/BrH/h1H",
+  "inchikey" : "CPELXLSAUQHCOX-UHFFFAOYSA-N",
+  "smiles" : "Br",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Bromide" ],
+      "reactions" : [ "META:RXN-11329" ],
+      "gibbs" : 10.271121,
+      "cmlMolWeight" : 80.912,
+      "molWeight" : 80.912,
+      "parents" : [ "META:Bromide" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   19.1800  -18.3400    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5800  -18.3400    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C13645\n\n$$$$",
+  "reactions" : [ ]
+}

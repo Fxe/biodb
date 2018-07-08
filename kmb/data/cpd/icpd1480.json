@@ -1,0 +1,38 @@
+{
+  "id" : "icpd1480",
+  "formula" : "C11H11NO2",
+  "name" : "methyl 2-(1h-indol-3-yl)acetate",
+  "synonyms" : [ "1h-indole-3-acetic acid, methyl ester", "indole-3-acetic acid methyl ester", "indole-3-acetic acid methylester", "indole-3-acetic acid, methyl ester", "methyl (indol-3-yl)acetate", "methyl 1h-indol-3-ylacetate", "methyl 3-indolylacetate", "methyl indol-3-ylacetate", "methyl indole-3-acetate" ],
+  "alias" : "CE2122",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE2122"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20635"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10546"
+  } ],
+  "inchi" : "InChI=1S/C11H11NO2/c1-14-11(13)6-8-7-12-10-5-3-2-4-9(8)10/h2-5,7,12H,6H2,1H3",
+  "inchikey" : "KTHADMDGDNYQRX-UHFFFAOYSA-N",
+  "smiles" : "COC(=O)CC1=CNC2=C1C=CC=C2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Auxins" ],
+      "reactions" : [ "META:RXN-9825", "META:RXN-10711" ],
+      "gibbs" : 83.552315,
+      "cmlMolWeight" : 189.213,
+      "molWeight" : 189.213,
+      "parents" : [ "META:Auxins" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : " \n \n \n 14 15  0  0  0  0  0  0  0  0999 V2000\n    8.9600  -16.2400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.9600  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.1724  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.3849  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.3849  -16.2400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.1724  -15.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7164  -18.0726    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5393  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7164  -15.8074    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.1475  -14.4806    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.5269  -14.1874    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4895  -15.2569    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9563  -12.8673    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3457  -12.5722    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  5  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  2  0     0  0\n 11 13  1  0     0  0\n 13 14  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20635\n\n$$$$",
+  "reactions" : [ "irxn205" ]
+}

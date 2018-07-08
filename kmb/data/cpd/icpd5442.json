@@ -1,0 +1,38 @@
+{
+  "id" : "icpd5442",
+  "formula" : "C51H74O2",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "mqn6",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "mqn6"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:REDUCED-MENAQUINONE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "mqn6"
+  } ],
+  "inchi" : "InChI=1S/C51H74O2/c1-38(2)20-13-21-39(3)22-14-23-40(4)24-15-25-41(5)26-16-27-42(6)28-17-29-43(7)30-18-31-44(8)32-19-33-45(9)36-37-47-46(10)50(52)48-34-11-12-35-49(48)51(47)53/h11-12,20,22,24,26,28,30,32,34-36,52-53H,13-19,21,23,25,27,29,31,33,37H2,1-10H3",
+  "inchikey" : "OIEZRVBFVPGODT-UHFFFAOYSA-N",
+  "smiles" : "CC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCC1=C(C)C(=C2C=CC=CC2=C1O)O)C)C)C)C)C)C)C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Menaquinols" ],
+      "reactions" : [ "META:ADOMET-DMK-METHYLTRANSFER-RXN", "META:RXN-11157" ],
+      "gibbs" : 926.12286,
+      "cmlMolWeight" : 719.144,
+      "molWeight" : 719.144,
+      "parents" : [ "META:Menaquinols" ]
+    },
+    "bigg" : {
+      "models" : [ "iIT341", "iNJ661" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn5927" ]
+}

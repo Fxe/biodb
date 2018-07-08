@@ -1,0 +1,46 @@
+{
+  "id" : "irxn294",
+  "equation" : "ametam + icpd6551 <=> icpd6576 + h + 5mta",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6551" : "",
+      "icpd4565" : ""
+    },
+    "r" : {
+      "icpd6576" : "",
+      "icpd1851" : "",
+      "icpd7119" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.128",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15865"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11160"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-15866" ],
+      "orphan" : null,
+      "gibbs" : -40.03238,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

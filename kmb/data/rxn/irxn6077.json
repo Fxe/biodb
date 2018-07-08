@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6077",
+  "equation" : "dtbt <=> s + h + btn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7614" : ""
+    },
+    "r" : {
+      "icpd1369" : "",
+      "icpd1851" : "",
+      "icpd5284" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "BTS_1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BTS3r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTS_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iAF692", "iNJ661", "iSB619", "iYO844" ]
+    }
+  }
+}

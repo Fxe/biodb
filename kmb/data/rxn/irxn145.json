@@ -1,0 +1,48 @@
+{
+  "id" : "irxn145",
+  "equation" : "o2 + nadh + h + icpd5634 <=> nad + h2o + icpd1842",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd5634" : ""
+    },
+    "r" : {
+      "icpd1842" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.12; 1.14.12.-; EC-1.14.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05422"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FLUORENE-OXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1381", "META:FLUORENE-DEG-9-ONE-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -97.1888,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00624" ],
+      "orthologs" : [ "K14599", "K14581", "K14580", "K14600", "K14578", "K14579" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

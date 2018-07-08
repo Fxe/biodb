@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4610",
+  "equation" : "icpd635 + udpglcur <=> udp + icpd1624",
+  "stoichiometry" : {
+    "l" : {
+      "icpd635" : "",
+      "icpd886" : ""
+    },
+    "r" : {
+      "icpd6858" : "",
+      "icpd1624" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.189; EC-2.4.1.189",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LUTEOLIN-7-O-GLUCORONOSYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03589"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:UDP", "META:5734-TETRAHYDROXYFLAVONE" ],
+      "activators" : [ "META:MG+2", "META:CA+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7444" ],
+      "orphan" : null,
+      "gibbs" : 21.719,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00944" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

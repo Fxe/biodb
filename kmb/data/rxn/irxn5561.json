@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5561",
+  "equation" : "h2o + alltt + 2.0 h <=> n2 + co2 + icpd6024",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "2.0",
+      "icpd3345" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd2454" : "",
+      "icpd6024" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.3.9; EC-3.5.3.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALLANTOATE-DEIMINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02423"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DIETHYLPYROCARBONATE", "META:UREA", "META:BORATE", "META:EDTA" ],
+      "activators" : [ "META:PHENYLHYDRAZINE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5698" ],
+      "orphan" : "NO",
+      "gibbs" : 3.3611145,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00230" ],
+      "orthologs" : [ "K02083" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

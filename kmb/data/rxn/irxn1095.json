@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1095",
+  "equation" : "h2o + ach <=> ac + h + chol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd0" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3647" : "",
+      "icpd1851" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.7; 3.1.1.8; EC-3.1.1.7",
+  "otherNames" : [ ],
+  "alias" : "ACHEe",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETYLCHOLINESTERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACHEe"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01026"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -4.2871246,
+      "uniprot" : [ "Q9TR27", "P37136", "Q7M2N6", "O61459", "P36196", "P38433", "P07692", "O61372", "O61371", "Q95WV7", "Q7LZJ6", "Q7M382", "Q9PWR0", "Q9TX11", "Q8MXC4", "Q03637", "Q95P20", "Q8MXC7", "Q8MXC8", "Q8MXC5", "P21836", "Q8MXC6", "P07140", "Q8MXC9", "Q7LZ27", "P22303", "Q7LZG1", "P04058" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564" ],
+      "orthologs" : [ "K01049" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1909",
+  "equation" : "5g2oxpt <=> co2 + gdbtal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4196" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd5182" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.75; EC-4.1.1.75",
+  "otherNames" : [ ],
+  "alias" : "OARGDC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OARGDC"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.1.75-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03178"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-6942", "META:CPD-6943" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ARGDEG-IV-PWY", "META:PWY-7523", "META:PWY-5742" ],
+      "orphan" : "NO",
+      "gibbs" : -4.090004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100" ],
+      "orthologs" : [ "K12253" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

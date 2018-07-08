@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2335",
+  "equation" : "nadph + 6p2dhglcn <=> 2.0 h + 6pgc + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd3289" : ""
+    },
+    "r" : {
+      "icpd686" : "",
+      "icpd1851" : "2.0",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.43",
+  "otherNames" : [ ],
+  "alias" : "PGLCNDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PGLCNDH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02034"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00480", "rn00030" ],
+      "orthologs" : [ "K00032" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

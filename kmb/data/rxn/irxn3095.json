@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3095",
+  "equation" : "orn <=> n2 + pro__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4560" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd4081" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.3.1.12; EC-4.3.1.12",
+  "otherNames" : [ ],
+  "alias" : "ORNCD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ORNCD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00671"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ORNITHINE-CYCLODEAMINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:OXYGEN-MOLECULE", "META:IODOACETATE" ],
+      "activators" : [ "META:ARG" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ORN-AMINOPENTANOATE-CAT-PWY", "META:ARG-GLU-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -2.0199852,
+      "uniprot" : [ "P33728", "P09773", "Q9WWA2", "O68052", "Q59701" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01230", "rn01110", "rn01130" ],
+      "orthologs" : [ "K01750" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iPC815", "iLB1027_lipid", "iSB619", "iJN746" ]
+    }
+  }
+}

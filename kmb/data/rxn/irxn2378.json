@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2378",
+  "equation" : "icpd7962 + o2 + h2o <=> icpd7313 + n2 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7962" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7313" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.3; EC-1.4.3.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-AMINO-ACID-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01340"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 17.497353,
+      "uniprot" : [ "P00371", "Q28382", "Q99042", "P18894", "P22942" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

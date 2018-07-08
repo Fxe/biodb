@@ -1,0 +1,36 @@
+{
+  "id" : "icpd3746",
+  "formula" : "C5H9NO",
+  "name" : "2-hydroxy-2-methylbutyronitrile",
+  "synonyms" : [ "2-hydroxy-2-methylbutanenitrile" ],
+  "alias" : "icpd3746",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12700"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18796"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-Hydroxy-2-methylbutyronitriles"
+  } ],
+  "inchi" : "InChI=1S/C5H9NO/c1-3-5(2,7)4-6/h7H,3H2,1-2H3",
+  "inchikey" : "VMEHOTODTPXCKT-UHFFFAOYSA-N",
+  "smiles" : "CCC(C)(C#N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-12699", "META:CPD-12700" ],
+      "reactions" : [ "META:RXN-14132", "META:RXN-9643", "META:RXN-9642" ],
+      "gibbs" : 61.880096,
+      "cmlMolWeight" : 99.132,
+      "molWeight" : 99.132,
+      "parents" : [ "META:CPD-12699", "META:CPD-12700", "META:Aliphatic-Nitriles" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  1  0  0  0  0  0999 V2000\n   36.0501  -21.9101    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.2625  -22.6102    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.4751  -21.9101    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.2526  -23.6001    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   36.2726  -23.6001    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.8377  -22.6102    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   39.8751  -21.9101    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  1     0  0\n  1  6  1  0     0  0\n  3  7  3  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18796\n\n$$$$",
+  "reactions" : [ "irxn1637" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4349",
+  "equation" : "for + icpd4390 <=> h2o + co2 + icpd1668",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4390" : "",
+      "icpd1650" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd2454" : "",
+      "icpd1668" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.98.6; EC-1.1.98.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11592"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RIBONUCLEOSIDE-TRIP-REDUCT-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DATP", "META:FE+2", "META:CO+2", "META:CPD0-1390", "META:ADENOSYL-HOMO-CYS", "META:CPD0-1391", "META:DITHIOTHREITOL", "META:CPD0-1388", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -15.062927,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

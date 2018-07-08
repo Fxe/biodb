@@ -1,0 +1,55 @@
+{
+  "id" : "irxn802",
+  "equation" : "n2 + xmp + atp <=> amp + ppi + 4.0 h + gmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5116" : "",
+      "icpd7085" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "4.0",
+      "icpd1231" : "",
+      "icpd7180" : "",
+      "icpd2316" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.5.2",
+  "otherNames" : [ ],
+  "alias" : "GMPS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01230"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GMPS"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GMP-SYN-NH3-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GMPSm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1033", "META:ADENOSINE", "META:CPD0-1627", "META:PPI", "META:CPD0-1466" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GMP-SYN-GLUT-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -14.965942,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230" ],
+      "orthologs" : [ "K01951" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iRC1080", "iLB1027_lipid", "iML1515", "iJN678" ]
+    }
+  }
+}

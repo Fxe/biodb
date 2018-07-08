@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2366",
+  "equation" : "icpd4552 + o2 + icpd8139 <=> icpd8107 + h2o + icpd3915",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4552" : "",
+      "icpd8139" : ""
+    },
+    "r" : {
+      "icpd8107" : "",
+      "icpd4016" : "",
+      "icpd3915" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.99.29; 1.14.99.29",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DEOXYHYPUSINE-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04437"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5905" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

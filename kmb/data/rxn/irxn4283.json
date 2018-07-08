@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4283",
+  "equation" : "fmnh2 + 2.0 co2dam <=> fmn + 2.0 co1dam + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2820" : "2.0",
+      "icpd1059" : ""
+    },
+    "r" : {
+      "icpd7712" : "",
+      "icpd1851" : "2.0",
+      "icpd2443" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.16.8.1",
+  "otherNames" : [ ],
+  "alias" : "CYRDAR2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05218"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYRDAR2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K13786" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228" ]
+    }
+  }
+}

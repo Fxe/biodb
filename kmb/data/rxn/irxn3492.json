@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3492",
+  "equation" : "2.0 frdp <=> icpd8146 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3179" : "2.0"
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd8146" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.96; 2.5.1.103; 2.5.1.21; EC-2.5.1.103",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00702"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12263"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-4585", "META:CPD-9926", "META:CPD-9929", "META:CPD-9928", "META:CPD-9927" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13162", "META:RXN-12321" ],
+      "orphan" : "NO",
+      "gibbs" : -17.799988,
+      "uniprot" : [ "O69445", "O65688", "Q40472", "P53800", "P37268", "O22106", "P53798", "Q42760", "O22107", "P53799", "O23118", "Q42761", "Q04903", "Q02769", "P36596", "P29704" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00909", "rn01100", "rn00100", "rn00906", "rn01110", "rn01130" ],
+      "orthologs" : [ "K10208", "K00801" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

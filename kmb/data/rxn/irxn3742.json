@@ -1,0 +1,43 @@
+{
+  "id" : "irxn3742",
+  "equation" : "icpd5444 <=> icpd988",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5444" : ""
+    },
+    "r" : {
+      "icpd988" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.1.17; EC-5.1.1.17",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04147"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5.1.1.17-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:NH42SO4", "META:CU+2", "META:ISONIAZIDE", "META:BR-", "META:IPRONIAZID", "META:IODOACETAMIDE", "META:ZN+2", "META:CPD-29", "META:HG+2", "META:CPD-387", "META:HYDROXYLAMINE", "META:FE+2", "META:FAD", "META:PHENYLGLYOXAL", "META:CPD-2482" ],
+      "activators" : [ "META:CPD-9175", "META:DITHIOTHREITOL", "META:2-MERCAPTOETHANOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5631" ],
+      "orphan" : "NO",
+      "gibbs" : 11.940002,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00311", "rn01100", "rn01130" ],
+      "orthologs" : [ "K04127" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

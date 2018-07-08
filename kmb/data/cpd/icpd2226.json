@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2226",
+  "formula" : "C10H16O",
+  "name" : "geranial",
+  "synonyms" : [ "(2e)-3,7-dimethyl-2,6-octadienal", "(2e)-3,7-dimethylocta-2,6-dienal", "(e)-3,7-dimethyl-2,6-octadienal", "(e)-3,7-dimethylocta-2,6-dienal", "(e)-citral", "(e)-geranial", "(e)-neral", "3,7-dimethyl-(2e)-2,6-octadienal", "3,7-dimethyl-(e)-2,6-octadienal" ],
+  "alias" : "icpd2226",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GERANIAL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01499"
+  } ],
+  "inchi" : "InChI=1S/C10H16O/c1-9(2)5-4-6-10(3)7-8-11/h5,7-8H,4,6H2,1-3H3/b10-7+",
+  "inchikey" : "WTEVQBCEXWBHNA-JXMROGBWSA-N",
+  "smiles" : "CC(=CCC/C(=C/C=O)/C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monoterpenals" ],
+      "reactions" : [ "META:RXN-8093", "META:RXN-9193", "META:RXN-11968", "META:GERANIOL-DEHYDROGENASE-RXN", "META:RXN-12395", "META:RXN-11970", "META:RXN-11971" ],
+      "gibbs" : 181.67793,
+      "cmlMolWeight" : 152.236,
+      "molWeight" : 152.236,
+      "parents" : [ "META:Monoterpenals" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   29.2172  -19.8798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0010  -20.5811    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4267  -20.5811    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2172  -18.4836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7915  -19.8798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6362  -19.8798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5819  -20.5811    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8523  -20.5811    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3659  -19.8798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1562  -20.5811    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3659  -18.4836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  2  0     0  0\n  7  9  2  0     0  0\n  9 10  1  0     0  0\n  9 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01499\n\n$$$$",
+  "reactions" : [ "irxn6489", "irxn2452", "irxn6784", "irxn6440" ]
+}

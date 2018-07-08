@@ -1,0 +1,38 @@
+{
+  "id" : "icpd2743",
+  "formula" : "C5H9O6",
+  "name" : "l-xylonate",
+  "synonyms" : [ ],
+  "alias" : "xylnt",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05411"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "xylnt"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-XYLONATE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "xylnt"
+  } ],
+  "inchi" : "InChI=1S/C5H10O6/c6-1-2(7)3(8)4(9)5(10)11/h2-4,6-9H,1H2,(H,10,11)/p-1/t2-,3+,4-/m0/s1",
+  "inchikey" : "QXKAIJAYHKCRRA-NUNKFHFFSA-M",
+  "smiles" : "C([C@@]([H])([C@]([H])([C@@]([H])(C(=O)[O-])O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "gibbs" : -140.11198,
+      "cmlMolWeight" : 165.122,
+      "molWeight" : 165.122
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   16.9400  -21.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1524  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3649  -21.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5773  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7897  -21.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0022  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2146  -21.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3649  -23.0998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5773  -19.6000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7897  -23.0999    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0022  -19.6003    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  3  8  1  1     0  0\n  4  9  1  1     0  0\n  5 10  1  1     0  0\n  6 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05411\n\n$$$$",
+  "reactions" : [ "irxn6210" ]
+}

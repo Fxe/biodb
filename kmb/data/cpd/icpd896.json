@@ -1,0 +1,31 @@
+{
+  "id" : "icpd896",
+  "formula" : "C6H8O3",
+  "name" : "dihydrophloroglucinol",
+  "synonyms" : [ ],
+  "alias" : "icpd896",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06719"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-17"
+  } ],
+  "inchi" : "InChI=1S/C6H8O3/c7-4-1-5(8)3-6(9)2-4/h1,6-7,9H,2-3H2",
+  "inchikey" : "JUOPGIRJUCFNBD-UHFFFAOYSA-N",
+  "smiles" : "C1=C(CC(CC1=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:R5-RXN", "META:R6-RXN" ],
+      "gibbs" : -9.401033,
+      "cmlMolWeight" : 128.127,
+      "molWeight" : 128.127
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   28.8400  -16.2371    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   30.0508  -16.9414    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6233  -16.9414    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8457  -14.8399    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0508  -18.3443    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6233  -18.3443    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -19.0372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2675  -19.0372    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4125  -19.0372    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  5  8  2  0     0  0\n  6  9  1  0     0  0\n  6  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06719\n\n$$$$",
+  "reactions" : [ "irxn5002", "irxn85" ]
+}

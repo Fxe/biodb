@@ -1,0 +1,35 @@
+{
+  "id" : "icpd1850",
+  "formula" : "C9H9O5",
+  "name" : "3-(3,4-dihydroxyphenyl)lactate",
+  "synonyms" : [ "2-hydroxy-3-(3,4-dihydroxyphenyl)propanoate", "alpha-hydroxyhydrocaffeate" ],
+  "alias" : "icpd1850",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-6982"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-34-DIHYDROXYPHENYLLACTATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01207"
+  } ],
+  "inchi" : "InChI=1S/C9H10O5/c10-6-2-1-5(3-7(6)11)4-8(12)9(13)14/h1-3,8,10-12H,4H2,(H,13,14)/p-1",
+  "inchikey" : "PAFLSMZLRSPALU-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=C(C(=C1)O)O)CC(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TYROSINE-AMINOTRANSFERASE-RXN" ],
+      "reactions" : [ "META:RXN-7632", "META:RXN-7633" ],
+      "gibbs" : -73.131966,
+      "cmlMolWeight" : 197.167,
+      "molWeight" : 197.167
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   12.5300  -12.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5300  -14.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.7424  -15.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9549  -14.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9549  -12.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.7424  -12.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1924  -12.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4049  -12.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6173  -12.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8297  -12.9500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4049  -14.3498    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6173  -10.8500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.3176  -15.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.7424  -16.4498    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  8 11  1  0     0  0\n  9 12  2  0     0  0\n  2 13  1  0     0  0\n  3 14  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01207\n\n$$$$",
+  "reactions" : [ "irxn1635" ]
+}

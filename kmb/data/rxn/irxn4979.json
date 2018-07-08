@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4979",
+  "equation" : "o2 + h2o + hxan <=> xan + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd5070" : ""
+    },
+    "r" : {
+      "icpd3221" : "",
+      "icpd2494" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.17.3.2",
+  "otherNames" : [ ],
+  "alias" : "XAO2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01769"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "XAO2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "XAO2x"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230" ],
+      "orthologs" : [ "K00106" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

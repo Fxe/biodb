@@ -1,0 +1,43 @@
+{
+  "id" : "icpd3297",
+  "formula" : "C6H9N3O2",
+  "name" : "l-histidine",
+  "synonyms" : [ "(2s)-2-amino-3-(1h-imidazol-4-yl)propanoic acid", "(s)-4-(2-amino-2-carboxyethyl)imidazole", "(s)-alpha-amino-1h-imidazole-4-propanoic acid", "(s)-alpha-amino-1h-imidazole-4-propionic acid", "(s)-alphal-lmino-1a-imidlzope-4-hrohlnoic lcid", "(s)-histidine", "3-(1h-imidazol-4-yl)-l-alanine", "histidine", "l-(-)-histidine" ],
+  "alias" : "his__L",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "his-L"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HIS"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "his__L"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00135"
+  } ],
+  "inchi" : "InChI=1S/C6H9N3O2/c7-5(6(10)11)1-4-2-8-3-9-4/h2-3,5H,1,7H2,(H,8,9)(H,10,11)/t5-/m0/s1",
+  "inchikey" : "HNDVDQJCIGZPNO-YFKPBYRVSA-N",
+  "smiles" : "C(C1=CN=CN1)[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GLUTAMINESYN-RXN", "META:ATPPHOSPHORIBOSYLTRANS-RXN", "META:HISTIDPHOS-RXN" ],
+      "activators" : [ "META:PHOSPHOGLUCMUT-RXN", "META:ASPARAGHYD-RXN", "META:GLUTAMATE-DEHYDROGENASE-RXN" ],
+      "instances" : [ "META:Basic-Amino-Acids", "META:L-Amino-Acids", "META:Aromatic-L-Amino-Acids", "META:Amino-Acids-20", "META:Positively-charged-polar-amino-acids" ],
+      "reactions" : [ "META:RXN-16124", "META:RXN-14653", "META:RXN-14431", "META:RXN-15802", "META:RXN-16419", "META:RXN-11222", "META:HISTIDINE-DECARBOXYLASE-RXN", "META:CARNOSINE-SYNTHASE-RXN", "META:RXN0-6978", "META:ABC-14-RXN", "META:RXN-14438", "META:3.4.13.20-RXN", "META:HISTIDINE-AMMONIA-LYASE-RXN", "META:HISTTRANSAM-RXN", "META:HISTIDINE--TRNA-LIGASE-RXN", "META:HISTIDINE-N-ACETYLTRANSFERASE-RXN", "META:HISTALDEHYD-RXN", "META:RXN-8001", "META:RXN-7571" ],
+      "gibbs" : 35.000095,
+      "cmlMolWeight" : 155.156,
+      "molWeight" : 155.156,
+      "parents" : [ "META:Basic-Amino-Acids", "META:L-Amino-Acids", "META:Aromatic-L-Amino-Acids", "META:Amino-Acids-20", "META:Positively-charged-polar-amino-acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iHN637", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   24.1997  -18.0246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6612  -19.3463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0609  -19.3157    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4644  -17.9751    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3141  -17.1771    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2524  -20.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4649  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6773  -20.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8897  -19.3200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6773  -21.4200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4649  -17.9202    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\n  7 11  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C00135\n\n$$$$",
+  "reactions" : [ "irxn5606", "irxn4306", "irxn2669", "irxn1520", "irxn3634", "irxn6898", "irxn4970", "irxn4563", "irxn6204", "irxn5387", "irxn1781", "irxn5267", "irxn1050", "irxn4791" ]
+}

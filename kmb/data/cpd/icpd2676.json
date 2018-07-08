@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2676",
+  "formula" : "C8H10O",
+  "name" : "(s)-1-phenylethanol",
+  "synonyms" : [ ],
+  "alias" : "icpd2676",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11348"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:S-1-PHENYLETHANOL"
+  } ],
+  "inchi" : "InChI=1S/C8H10O/c1-7(9)8-5-3-2-4-6-8/h2-7,9H,1H3/t7-/m0/s1",
+  "inchikey" : "WAPNOHKVXSQRPX-ZETCQYMHSA-N",
+  "smiles" : "C[C@@H](C1=CC=CC=C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-1302", "META:RXN-1301" ],
+      "gibbs" : 94.2412,
+      "cmlMolWeight" : 122.166,
+      "molWeight" : 122.166
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  1  0  0  0  0  0999 V2000\n   28.8585  -16.5863    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6428  -17.2884    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0683  -17.2884    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8585  -15.1834    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.6428  -18.6857    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0683  -18.6857    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0742  -14.4884    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6487  -14.4827    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8585  -19.3866    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  1  1     0  0\n  5  9  1  0     0  0\n  6  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11348\n\n$$$$",
+  "reactions" : [ "irxn3463", "irxn6240" ]
+}

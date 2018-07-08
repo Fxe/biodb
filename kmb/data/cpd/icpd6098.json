@@ -1,0 +1,39 @@
+{
+  "id" : "icpd6098",
+  "formula" : "C7H10N2O",
+  "name" : "1-methylnicotinamide",
+  "synonyms" : [ "n(1)-methylnicotinamide", "n1-methylnicotinamide" ],
+  "alias" : "1mncam",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-396"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02918"
+  }, {
+    "source" : "BiGG",
+    "entry" : "1mncam"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "1mncam"
+  } ],
+  "inchi" : "InChI=1S/C7H10N2O/c1-9-4-2-3-6(5-9)7(8)10/h2-4H,5H2,1H3,(H2,8,10)",
+  "inchikey" : "CRJFOPZHQMBHNQ-UHFFFAOYSA-N",
+  "smiles" : "CN1C=CC=C(C1)C(=O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:NICOTINAMIDE-N-METHYLTRANSFERASE-RXN" ],
+      "gibbs" : 93.088036,
+      "cmlMolWeight" : 137.161,
+      "molWeight" : 137.161
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   26.4823  -15.3256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4823  -16.7332    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2609  -14.6276    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6804  -14.6219    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2609  -17.4486    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   24.0509  -15.3256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8961  -15.3197    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6747  -13.2316    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0509  -16.7332    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2609  -18.8272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\n  5 10  1  0     0  0\n  6  9  1  0     0  0\nM  CHG  1   5   1\nM  END\n\n> <ENTRY>\ncpd:C02918\n\n$$$$",
+  "reactions" : [ "irxn6675" ]
+}

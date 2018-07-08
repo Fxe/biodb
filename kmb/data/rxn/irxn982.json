@@ -1,0 +1,48 @@
+{
+  "id" : "irxn982",
+  "equation" : "nad + 4mzym_int1 <=> nadh + 4mzym_int2 + co2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1761" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd1791" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "C3STDH1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "C3STDH1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C3STDH1r"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

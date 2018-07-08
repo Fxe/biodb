@@ -1,0 +1,57 @@
+{
+  "id" : "irxn2652",
+  "equation" : "s + 3.0 h2o + 6.0 fdxox <=> 6.0 fdxrd + so3 + 6.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd321" : "6.0",
+      "icpd5284" : "",
+      "icpd4016" : "3.0"
+    },
+    "r" : {
+      "icpd1851" : "6.0",
+      "icpd5833" : "",
+      "icpd930" : "6.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.8.7.1; 1.8.7.1",
+  "otherNames" : [ ],
+  "alias" : "SULR_2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SULFITE-REDUCTASE-FERREDOXIN-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SULR_ferr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00859"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SULR_2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SO3R_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:SULFMETII-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -23.796646,
+      "uniprot" : [ "Q42590", "Q9LZ66", "O82802", "O23813", "P72854" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00920" ],
+      "orthologs" : [ "K00392" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

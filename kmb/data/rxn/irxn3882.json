@@ -1,0 +1,61 @@
+{
+  "id" : "irxn3882",
+  "equation" : "pmtcoa + crn <=> coa + pmtcrn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3474" : "",
+      "icpd6570" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd5589" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.21; 2.3.1.21",
+  "otherNames" : [ ],
+  "alias" : "r0434",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0434"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C160CPT1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01923"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CARNITINE-O-PALMITOYLTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0437"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C160CPT2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C160CPT2rbc"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6111" ],
+      "orphan" : "NO",
+      "gibbs" : -3.6100159,
+      "uniprot" : [ "P23786", "P52825", "P75448", "Q17831", "P50416", "P18886", "Q92523" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01212", "rn00071" ],
+      "orthologs" : [ "K08765", "K19523", "K19524", "K08766" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1353",
+  "equation" : "f6p_B + gln__L <=> gam6p + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd929" : "",
+      "icpd3606" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd3136" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.16",
+  "otherNames" : [ ],
+  "alias" : "GF6PTA_1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GF6PTA_1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-GLN-FRUCT-6-P-AMINOTRANS-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMP", "META:PYRIDOXAL_PHOSPHATE", "META:DIETHYLPYROCARBONATE", "META:UDP-N-ACETYL-D-GLUCOSAMINE", "META:CPD-9051", "META:IODOACETAMIDE", "META:DITHIO-NITROBENZOATE", "META:CPD0-1627", "META:CPD0-1237", "META:UDP-N-ACETYL-GALACTOSAMINE", "META:CPD0-1235", "META:UMP", "META:TMP", "META:CPD0-1236", "META:L-GLUTAMATE_GAMMA-SEMIALDEHYDE", "META:N-ACETYL-D-GLUCOSAMINE-6-P", "META:GLT", "META:CPD-280", "META:D-GLUCOSAMINE-6-P", "META:GMP", "META:CPD-9046", "META:CMP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:UDPNACETYLGALSYN-PWY", "META:UDPNAGSYN-PWY", "META:PWY-6749" ],
+      "orphan" : "NO",
+      "gibbs" : -3.4358826,
+      "uniprot" : [ "Q9WXZ5", "P25195", "P72720", "Q9K1P9", "Q9S168", "P53704", "P39754", "Q58815", "Q9ZJ94", "Q9PLA4", "P44708", "Q9Z6U0", "P47856", "Q9RXK9", "O26060", "Q84421", "Q56275", "Q9PMT4", "Q9V249", "O66648", "P14742", "Q06210", "Q09740", "Q19130", "P17169", "O83833", "O84823", "P0A588", "O26273", "O19908", "Q19699", "Q56206", "P08633", "P40831", "Q9JWN9", "O86781" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

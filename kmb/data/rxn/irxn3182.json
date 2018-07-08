@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3182",
+  "equation" : "gam + datp <=> gam6p + dadp + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2920" : "",
+      "icpd5507" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd3136" : "",
+      "icpd6200" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.1",
+  "otherNames" : [ ],
+  "alias" : "r0364",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0364"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01965"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

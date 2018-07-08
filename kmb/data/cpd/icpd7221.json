@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7221",
+  "formula" : "C6H4Cl2O2",
+  "name" : "3,5-dichlorocatechol",
+  "synonyms" : [ "3,5-dichloro-1,2-benzenediol", "3,5-dichloro-1,2-dihydroxybenzene", "3,5-dichloropyrocatechol" ],
+  "alias" : "icpd7221",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02933"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:35-DICHLOROCATECHOL"
+  } ],
+  "inchi" : "InChI=1S/C6H4Cl2O2/c7-3-1-4(8)6(10)5(9)2-3/h1-2,9-10H",
+  "inchikey" : "XSXYVLIPQMXCBV-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C(=C(C=C1Cl)O)O)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds", "META:Catechols" ],
+      "reactions" : [ "META:RXN-9855", "META:RXN-9854", "META:24-DICHLOROPHENOL-6-MONOOXYGENASE-RXN" ],
+      "gibbs" : -19.015514,
+      "cmlMolWeight" : 179.002,
+      "molWeight" : 179.002,
+      "parents" : [ "META:Chloroaromatic-Compounds", "META:Catechols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   30.0929  -16.9368    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8703  -16.2390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0929  -18.3450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2963  -16.2325    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6669  -16.9368    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8703  -14.8436    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8703  -19.0554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.3028  -19.0363    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   27.6669  -18.3450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4571  -19.0298    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  5  9  2  0     0  0\n  9 10  1  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02933\n\n$$$$",
+  "reactions" : [ "irxn468", "irxn5451" ]
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2970",
+  "formula" : "C7H8N4O2",
+  "name" : "theobromine",
+  "synonyms" : [ "3,7-dimethyl-2,3,6,7-tetrahydro-1h-purine-2,6-dione", "3,7-dimethyl-xanthine", "3,7-dimethylxanthine" ],
+  "alias" : "icpd2970",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07480"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-7-DIMETHYLXANTHINE"
+  } ],
+  "inchi" : "InChI=1S/C7H8N4O2/c1-10-3-8-5-4(10)6(12)9-7(13)11(5)2/h3H,1-2H3,(H,9,12,13)",
+  "inchikey" : "YAPQBXQYLJRXSA-UHFFFAOYSA-N",
+  "smiles" : "CN1C=NC2=C1C(=O)NC(=O)N2C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-11519", "META:RXN-7603", "META:RXN-11516", "META:RXN-7599", "META:RXN-7598", "META:RXN-11513" ],
+      "gibbs" : 40.04997,
+      "cmlMolWeight" : 180.166,
+      "molWeight" : 180.166
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   24.1844  -17.5301    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1844  -16.1050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3875  -18.2135    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   22.8820  -17.9624    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3875  -15.3984    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8820  -15.6729    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   26.6082  -17.4776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3875  -19.6444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0642  -16.8293    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6082  -16.1343    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3875  -14.0200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4440  -14.3413    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8580  -18.1785    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  2  0     0  0\n  6 12  1  0     0  0\n  7 13  2  0     0  0\n  6  9  1  0     0  0\n  7 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07480\n\n$$$$",
+  "reactions" : [ "irxn6214", "irxn1967", "irxn6242" ]
+}

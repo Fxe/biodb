@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5012",
+  "equation" : "succ + 413249 <=> fum + 406242",
+  "stoichiometry" : {
+    "l" : {
+      "413249" : "",
+      "icpd5108" : ""
+    },
+    "r" : {
+      "icpd590" : "",
+      "406242" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.5.4; EC-1.3.5.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14971"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14970"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-5743", "META:OXALACETIC_ACID" ],
+      "activators" : [ "META:Ubiquinols", "META:ATP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7254", "META:TCA", "META:PWY-5690", "META:PWY-561", "META:P105-PWY", "META:PWY-5913", "META:PWY-6728", "META:PWY-6969" ],
+      "orphan" : "NO",
+      "gibbs" : 22.757736,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2045",
+  "equation" : "phdp + dhna + nadp <=> nadph + 330438 + co2 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4059" : "",
+      "icpd3578" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd2454" : "",
+      "330438" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DHNANT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHNANT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHNANT_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn346",
+  "equation" : "icpd4201 + o2 + akg <=> succ + icpd3054 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : "",
+      "icpd4201" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd3054" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.11.20; EC-1.14.11.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.14.11.20-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05857"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:SUC", "META:17-O-DEACETYLVINDOLINE" ],
+      "activators" : [ "META:ASCORBATE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5292" ],
+      "orphan" : "NO",
+      "gibbs" : -111.42001,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00901" ],
+      "orthologs" : [ "K12697" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

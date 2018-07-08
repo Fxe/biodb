@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1569",
+  "equation" : "h2o + atrz <=> hatrz + h + cl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8151" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd8186" : "",
+      "icpd1416" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.8.1.8; 3.8.1.8",
+  "otherNames" : [ ],
+  "alias" : "ATRZCH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3.8.1.8-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ATRZCH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05558"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CO+2", "META:ZN+2" ],
+      "activators" : [ "META:FE+2", "META:CO+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P141-PWY", "META:PWY-5731" ],
+      "orphan" : "NO",
+      "gibbs" : 5.0328674,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00791" ],
+      "orthologs" : [ "K05394" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

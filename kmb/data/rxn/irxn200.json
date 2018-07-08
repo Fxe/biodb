@@ -1,0 +1,47 @@
+{
+  "id" : "irxn200",
+  "equation" : "xol7a + nadp <=> nadph + xol7aone + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6045" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2845" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.181",
+  "otherNames" : [ ],
+  "alias" : "HSD3B7P",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04264"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HSD3B7P"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

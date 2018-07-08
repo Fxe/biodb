@@ -1,0 +1,47 @@
+{
+  "id" : "irxn550",
+  "equation" : "2.0 h + bilirub + udpglcur <=> udp + bilglcur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "2.0",
+      "icpd5767" : "",
+      "icpd886" : ""
+    },
+    "r" : {
+      "icpd6858" : "",
+      "icpd6927" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "BILIRBU",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UGT1A10r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BILIRBU"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

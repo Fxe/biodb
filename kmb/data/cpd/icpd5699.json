@@ -1,0 +1,39 @@
+{
+  "id" : "icpd5699",
+  "formula" : "C8H8O3",
+  "name" : "vanillin",
+  "synonyms" : [ "2-methoxy-4-formylphenol", "3-methoxy-4-hydroxybenzaldehyde", "4-formyl-2-methoxyphenol", "4-hydroxy 3-methoxybenzaldehyde", "4-hydroxy-3-methoxy-benzaldehyde", "4-hydroxy-3-methoxybenzaldehyde", "4-hydroxy-5-methoxybenzaldehyde", "4-hydroxy-m-anisaldehyde", "m-methoxy-p-hydroxybenzaldehyde", "vanillaldehyde" ],
+  "alias" : "vanln",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "vanln"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00755"
+  }, {
+    "source" : "BiGG",
+    "entry" : "vanln"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:VANILLIN"
+  } ],
+  "inchi" : "InChI=1S/C8H8O3/c1-11-8-4-6(5-9)2-3-7(8)10/h2-5,10H,1H3",
+  "inchikey" : "MWOOGOJBHIARFG-UHFFFAOYSA-N",
+  "smiles" : "COC1=CC(=CC=C1O)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8925", "META:RXN-17139", "META:RXN-8873", "META:1.2.1.67-RXN", "META:RXN-15820", "META:1.1.3.38-RXN", "META:LIGNOSTILBENE-ALPHA-BETA-DIOXYGENASE-RXN", "META:4.1.2.41-RXN" ],
+      "gibbs" : 17.508965,
+      "cmlMolWeight" : 152.149,
+      "molWeight" : 152.149
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   25.4479  -19.7481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4479  -18.3491    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2422  -20.4445    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6595  -20.4445    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2422  -17.6467    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0249  -19.7481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2422  -21.8493    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0249  -18.3491    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2422  -16.2478    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0306  -15.5455    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8804  -19.7365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  5  9  1  0     0  0\n  9 10  2  0     0  0\n  6  8  2  0     0  0\n  4 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00755\n\n$$$$",
+  "reactions" : [ "irxn621", "irxn4180", "irxn3587", "irxn2115", "irxn1137" ]
+}

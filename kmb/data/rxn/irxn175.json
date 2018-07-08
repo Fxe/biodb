@@ -1,0 +1,49 @@
+{
+  "id" : "irxn175",
+  "equation" : "h2o + mmcoa__S <=> mm + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3283" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd2278" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.2.17; 3.1.2.17",
+  "otherNames" : [ ],
+  "alias" : "r0571",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:S-METHYLMALONYL-COA-HYDROLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0571"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02764"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -4.504822,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn00280" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

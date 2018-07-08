@@ -1,0 +1,41 @@
+{
+  "id" : "icpd7317",
+  "formula" : "C9H9O5",
+  "name" : "3-methoxy-4-hydroxymandelate",
+  "synonyms" : [ "(4-hydroxy-3-methoxyphenyl)glycolate", "3-methoxy-4-hydroxyphenylhydroxyacetate", "4-hydroxy-3-methoxy-dl-mandelate", "4-hydroxy-3-methoxy-mandelate", "4-hydroxy-3-methoxymandelate", "dl-3-methoxy-4-hydroxymandelate", "dl-4-hydroxy-3-methoxymandelate", "vanillomandelate", "vanillylmandelate", "vanilmandelate" ],
+  "alias" : "3mox4hoxm",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "3mox4hoxm"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05584"
+  }, {
+    "source" : "BiGG",
+    "entry" : "3mox4hoxm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:VANILLYL_MANDELATE"
+  } ],
+  "inchi" : "InChI=1S/C9H10O5/c1-14-7-4-5(2-3-6(7)10)8(11)9(12)13/h2-4,8,10-11H,1H3,(H,12,13)/p-1",
+  "inchikey" : "CGQCWMIAEPEHNQ-UHFFFAOYSA-M",
+  "smiles" : "COC1=CC(=CC=C1O)C(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Guaiacols" ],
+      "reactions" : [ "META:RXN-10916", "META:RXN-10917" ],
+      "gibbs" : -60.101967,
+      "cmlMolWeight" : 197.167,
+      "molWeight" : 197.167,
+      "parents" : [ "META:Guaiacols" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   22.1900  -19.8100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1900  -21.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4024  -21.9100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6149  -21.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6149  -19.8100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4024  -19.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8524  -19.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0649  -19.8100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2773  -19.1100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8586  -17.7103    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0649  -21.2098    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4024  -23.3098    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1732  -24.0197    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9776  -21.9100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  7 10  1  0     0  0\n  8 11  2  0     0  0\n  3 12  1  0     0  0\n 12 13  1  0     0  0\n  2 14  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05584\n\n$$$$",
+  "reactions" : [ "irxn5675", "irxn5274", "irxn4328" ]
+}

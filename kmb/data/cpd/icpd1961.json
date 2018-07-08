@@ -1,0 +1,36 @@
+{
+  "id" : "icpd1961",
+  "formula" : "C10H16O",
+  "name" : "2-methyl-5-(1-methylethenyl)cyclohexanone",
+  "synonyms" : [ "2-methyl-5-(1-methylethenyl)-cyclohexanone", "2-methyl-5-(1-methylethenyl)cyclohexanone, 9ci", "2-methyl-5-(1-methylvinyl)cyclohexan-1-one", "2-methyl-5-(prop-1-en-2-yl)cyclohexan-1-one", "2-methyl-5-(prop-1-en-2-yl)cyclohexanone", "2-methyl-5-isopropenylcyclohexanone", "5-isopropenyl-2-methylcyclohexanone", "8-p-menthen-2-one", "menth-8-en-2-one", "p-menth-8(9)-en-2-one", "p-menth-8-en-2-one" ],
+  "alias" : "icpd1961",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Iso-dihydrocarvones"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Dihydrocarvones"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18018"
+  } ],
+  "inchi" : "InChI=1S/C10H16O/c1-7(2)9-5-4-8(3)10(11)6-9/h8-9H,1,4-6H2,2-3H3",
+  "inchikey" : "AZOCECCLWFDTAP-UHFFFAOYSA-N",
+  "smiles" : "C=C(C)C1CCC(C)C(=O)C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-10041", "META:CPD-10039" ],
+      "reactions" : [ "META:RXN-9390", "META:RXN-9389" ],
+      "gibbs" : 168.72794,
+      "cmlMolWeight" : 152.236,
+      "molWeight" : 152.236,
+      "parents" : [ "META:CPD-10041", "META:CPD-10039", "META:Iso-dihydrocarvones", "META:Monoterpene-Derivatives" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   26.6647  -23.1999    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6647  -24.6007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8817  -25.3044    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   29.0913  -24.6007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0913  -23.1999    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.8817  -22.5031    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.8834  -21.1023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2988  -22.5039    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8834  -26.7052    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6703  -27.4035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0982  -27.4005    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  1  0     0  0\n  6  1  1  0     0  0\n  6  7  1  0     0  0\n  1  2  1  0     0  0\n  5  8  2  0     0  0\n  2  3  1  0     0  0\n  3  9  1  0     0  0\n  3  4  1  0     0  0\n  9 10  1  0     0  0\n  4  5  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18018\n\n$$$$",
+  "reactions" : [ "irxn1159" ]
+}

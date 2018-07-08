@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3317",
+  "formula" : "C10H17O3",
+  "name" : "6-hydroxy-3-isopropenylheptanoate",
+  "synonyms" : [ ],
+  "alias" : "icpd3317",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10065"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11417"
+  } ],
+  "inchi" : "InChI=1S/C10H18O3/c1-7(2)9(6-10(12)13)5-4-8(3)11/h8-9,11H,1,4-6H2,2-3H3,(H,12,13)/p-1",
+  "inchikey" : "NQYDFAGFKCSWGI-UHFFFAOYSA-M",
+  "smiles" : "C=C(C)C(CCC(C)O)CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:6-Hydroxy-3-isopropenylheptanoates" ],
+      "reactions" : [ "META:RXN-9422", "META:RXN-9421" ],
+      "gibbs" : 79.987,
+      "cmlMolWeight" : 185.242,
+      "molWeight" : 185.242,
+      "parents" : [ "META:6-Hydroxy-3-isopropenylheptanoates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   26.5966  -16.1276    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.7861  -15.4497    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4070  -16.8195    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4070  -18.1964    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6064  -18.8673    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.7991  -18.1964    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8025  -16.8208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9937  -16.1177    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2462  -17.5841    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3998  -15.4426    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6083  -20.2513    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4125  -20.9517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8223  -20.9375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  2  0     0  0\n  7  9  1  0     0  0\n  1 10  1  0     0  0\n  5 11  1  1     0  0\n  1  2  1  0     0  0\n 11 12  1  0     0  0\n  3  1  1  0     0  0\n 11 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11417\n\n$$$$",
+  "reactions" : [ "irxn437" ]
+}

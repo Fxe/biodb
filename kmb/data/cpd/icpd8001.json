@@ -1,0 +1,33 @@
+{
+  "id" : "icpd8001",
+  "formula" : "C10H15O3",
+  "name" : "(3r)-3-isopropenyl-6-oxoheptanoate",
+  "synonyms" : [ ],
+  "alias" : "icpd8001",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11405"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10053"
+  } ],
+  "inchi" : "InChI=1S/C10H16O3/c1-7(2)9(6-10(12)13)5-4-8(3)11/h9H,1,4-6H2,2-3H3,(H,12,13)/p-1/t9-/m1/s1",
+  "inchikey" : "NJOIWWRMLFSDTM-SECBINFHSA-M",
+  "smiles" : "C=C(C)[C@]([H])(CCC(=O)C)CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:3-Isopropenyl-6-oxoheptanoates" ],
+      "reactions" : [ "META:RXN-15255", "META:RXN-9406", "META:RXN-9417", "META:RXN-9405" ],
+      "gibbs" : 67.464745,
+      "cmlMolWeight" : 183.227,
+      "molWeight" : 183.227,
+      "parents" : [ "META:3-Isopropenyl-6-oxoheptanoates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   27.8984  -16.8123    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0515  -17.6092    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6901  -16.1140    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4736  -15.4088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9066  -15.4088    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4736  -16.8123    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4736  -18.2088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6862  -18.9071    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.8984  -18.2088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1078  -16.1140    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6879  -20.3036    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4792  -21.0034    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9051  -21.0003    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  1 10  2  0     0  0\n  8  9  1  0     0  0\n  8 11  1  6     0  0\n  9  1  1  0     0  0\n 11 12  1  0     0  0\n 11 13  2  0     0  0\n  6  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11405\n\n$$$$",
+  "reactions" : [ ]
+}

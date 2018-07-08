@@ -1,0 +1,43 @@
+{
+  "id" : "icpd3606",
+  "formula" : "C6H13O9P",
+  "name" : "beta-d-fructose 6-phosphate",
+  "synonyms" : [ "[(2r,3s,4s,5r)-3,4,5-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methoxyphosphonic acid", "beta-d-frucaofurnost 6-phosphat", "{[(2r,3s,4s,5r)-3,4,5-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methoxy}phosphonic acid" ],
+  "alias" : "f6p_B",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05345"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "f6p_B"
+  }, {
+    "source" : "BiGG",
+    "entry" : "f6p-B"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FRUCTOSE-6P"
+  } ],
+  "inchi" : "InChI=1S/C6H13O9P/c7-2-6(10)5(9)4(8)3(15-6)1-14-16(11,12)13/h3-5,7-10H,1-2H2,(H2,11,12,13)/t3-,4-,5+,6-/m1/s1",
+  "inchikey" : "BGWGXPAPYGQALX-ARQDHWQXSA-N",
+  "smiles" : "C([C@]1([H])[C@]([H])([C@@]([H])([C@](CO)(O)O1)O)O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TREHALOSEPHOSPHA-RXN", "META:3.1.3.46-RXN", "META:PHOSICITDEHASE-RXN", "META:TRIOSEPISOMERIZATION-RXN", "META:FRUCTOKINASE-RXN", "META:NAG6PDEACET-RXN", "META:MANNPDEHYDROG-RXN", "META:GSADENYLATION-RXN" ],
+      "activators" : [ "META:RXN-3443", "META:TREHALOSE6PSYN-RXN", "META:6PFRUCTPHOS-RXN" ],
+      "instances" : [ "META:CPD-18719" ],
+      "reactions" : [ "META:MANNPISOM-RXN", "META:3.1.3.46-RXN", "META:TRANSALDOL-RXN", "META:RXN-15605", "META:2TRANSKETO-RXN", "META:R302-RXN", "META:FRUCTOKINASE-RXN", "META:6PFRUCTPHOS-RXN", "META:2.7.1.90-RXN", "META:RXN-14812", "META:RXN-13745", "META:PGLUCISOM-RXN", "META:RXN0-313", "META:RXN0-304", "META:RXN-9935", "META:L-GLN-FRUCT-6-P-AMINOTRANS-RXN", "META:SUCROSE-PHOSPHATE-SYNTHASE-RXN", "META:R12-RXN", "META:F16BDEPHOS-RXN", "META:MANNPDEHYDROG-RXN", "META:GLUCOSAMINE-6-P-DEAMIN-RXN", "META:6-PHOSPHOFRUCTO-2-KINASE-RXN", "META:FRUCTOSE-6-PHOSPHATE-PHOSPHOKETOLASE-RXN" ],
+      "gibbs" : -317.66592,
+      "cmlMolWeight" : 258.121,
+      "molWeight" : 258.121,
+      "parents" : [ "META:CPD-18719" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080", "iND750" ]
+    }
+  },
+  "mol" : " \n \n \n 16 16  0  0  1  0  0  0  0  0999 V2000\n   26.6526  -19.8211    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.7797  -19.0093    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1022  -21.1467    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.3150  -19.4005    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9477  -19.8502    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.5214  -21.1467    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.2904  -22.2973    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4739  -20.5277    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9289  -18.8456    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2268  -20.3175    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3449  -22.2915    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0664  -20.5219    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   31.2781  -19.1961    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6706  -20.5102    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1307  -21.9177    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1307  -19.1202    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  1  6     0  0\n  4  8  1  0     0  0\n  5  9  1  6     0  0\n  5 10  1  1     0  0\n  6 11  1  1     0  0\n  8 12  1  0     0  0\n  9 13  1  0     0  0\n 12 14  1  0     0  0\n 12 15  1  0     0  0\n 12 16  2  0     0  0\n  5  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05345\n\n$$$$",
+  "reactions" : [ "irxn1649", "irxn3889", "irxn4647", "irxn29", "irxn3898", "irxn1983", "irxn5433", "irxn3165", "irxn6663", "irxn1353", "irxn6851", "irxn6730", "irxn6166", "irxn4063", "irxn3142", "irxn6393", "irxn3082" ]
+}

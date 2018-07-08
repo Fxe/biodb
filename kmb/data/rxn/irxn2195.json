@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2195",
+  "equation" : "glu__L + atp <=> icpd709 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd514" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd709" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.2.13; EC-2.7.2.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00241"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTAMATE-1-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 8.53833,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

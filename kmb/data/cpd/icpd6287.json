@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6287",
+  "formula" : "C21H30O2",
+  "name" : "pregn-4-ene-3,20-dione",
+  "synonyms" : [ "(1s,2r,10s,11s,14s,15s)-14-acetyl-2,15-dimethyltetracyclo[8.7.0.0^{2,7}.0^{11,15}]heptadec-6-en-5-one", "(s)-4-pregnene-3,20-dione", "(s)-pregn-4-en-3,20-dione", "4-pregnen-3,20-dione", "4-pregnene-3,20-dione", "pregn-4-en-3,20-dione" ],
+  "alias" : "prgstrn",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00410"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PROGESTERONE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "prgstrn"
+  }, {
+    "source" : "BiGG",
+    "entry" : "prgstrn"
+  } ],
+  "inchi" : "InChI=1S/C21H30O2/c1-13(22)17-6-7-18-16-5-4-14-12-15(23)8-10-20(14,2)19(16)9-11-21(17,18)3/h12,16-19H,4-11H2,1-3H3/t16-,17+,18-,19-,20-,21+/m0/s1",
+  "inchikey" : "RJKFOVLPORLFTN-LEKSSAKUSA-N",
+  "smiles" : "CC(=O)[C@@]1([H])CC[C@@]2([H])[C@]3([H])CCC4=CC(=O)CC[C@]4(C)[C@@]3([H])CC[C@]12C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C21-Steroids", "META:3-Oxo-Delta-4-Steroids", "META:Progestogens" ],
+      "reactions" : [ "META:PROGESTERONE-11-ALPHA-MONOOXYGENASE-RXN", "META:RXN-9726", "META:PROGESTERONE-5-ALPHA-REDUCTASE-RXN", "META:RXN-11240", "META:RXN-9722", "META:PROGESTERONE-MONOOXYGENASE-RXN", "META:RXN66-354", "META:RXN66-355", "META:RXN66-358", "META:RXN-7817" ],
+      "gibbs" : 279.1336,
+      "cmlMolWeight" : 314.467,
+      "molWeight" : 314.467,
+      "parents" : [ "META:C21-Steroids", "META:3-Oxo-Delta-4-Steroids", "META:Progestogens" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 26 29  0  0  1  0  0  0  0  0999 V2000\n   23.0350  -18.9936    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.2088  -19.6769    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   21.8554  -19.6827    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.0233  -17.6271    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4002  -18.9819    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.1913  -21.0784    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8554  -21.0375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6873  -19.0112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8437  -18.2754    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2030  -16.9322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4060  -17.6097    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.7653  -18.9936    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0409  -21.7092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6873  -21.7150    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5194  -19.6827    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5974  -16.9263    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.3943  -16.2081    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7712  -17.6213    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5194  -21.0375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6032  -15.5948    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3690  -21.6975    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3885  -14.8823    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8121  -14.8882    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0292  -20.3251    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2030  -18.2637    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4002  -20.3134    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  3  9  1  1     0  0\n  4 10  1  0     0  0\n  5 11  1  0     0  0\n  5 12  1  0     0  0\n  6 13  1  0     0  0\n  7 14  2  0     0  0\n  8 15  1  0     0  0\n 11 16  1  0     0  0\n 11 17  1  1     0  0\n 12 18  1  0     0  0\n 14 19  1  0     0  0\n 16 20  1  1     0  0\n 19 21  2  0     0  0\n 20 22  1  0     0  0\n 20 23  2  0     0  0\n  7 13  1  0     0  0\n 10 11  1  0     0  0\n 15 19  1  0     0  0\n 16 18  1  0     0  0\n  1 24  1  6     0  0\n  2 25  1  1     0  0\n  5 26  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C00410\n\n$$$$",
+  "reactions" : [ "irxn6478", "irxn4782", "irxn6413", "irxn6201", "irxn4125", "irxn798", "irxn2949", "irxn4083" ]
+}

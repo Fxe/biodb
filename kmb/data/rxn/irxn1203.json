@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1203",
+  "equation" : "xoldioloneh + nadp <=> nadph + h + xoldiolone",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2838" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7207" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.3; 1.3.1.3",
+  "otherNames" : [ ],
+  "alias" : "AKR1D2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AKR1D2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04823"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9794"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6061" ],
+      "orphan" : "NO",
+      "gibbs" : 3.816513,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K00251" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

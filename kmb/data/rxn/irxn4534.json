@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4534",
+  "equation" : "salc + o2 + nadh + h <=> nad + HC00460 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2297" : ""
+    },
+    "r" : {
+      "icpd7607" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.172; EC-1.14.13.172",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07709"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10446"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6224", "META:PWY-6623" ],
+      "orphan" : "NO",
+      "gibbs" : -93.14877,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00626" ],
+      "orthologs" : [ "K14581", "K18242", "K18243", "K14578" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

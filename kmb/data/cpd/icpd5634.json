@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5634",
+  "formula" : "C13H10",
+  "name" : "fluorene",
+  "synonyms" : [ "2,2'-methylenebiphenyl", "9h-fluorene" ],
+  "alias" : "icpd5634",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FLUORENE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C07715"
+  } ],
+  "inchi" : "InChI=1S/C13H10/c1-3-7-12-10(5-1)9-11-6-2-4-8-13(11)12/h1-8H,9H2",
+  "inchikey" : "NIHNNTQXNPWCJQ-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C1)C3=C(C=CC=C3)C2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:FLUORENE-OXYGENASE-RXN", "META:RXN-2482" ],
+      "gibbs" : 176.0912,
+      "cmlMolWeight" : 166.222,
+      "molWeight" : 166.222,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 15  0  0  0  0  0  0  0  0999 V2000\n   23.7381  -21.2234    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7381  -19.8849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8758  -19.2156    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0805  -19.8849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0805  -21.2234    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8758  -21.8926    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3559  -19.8849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3559  -21.2234    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2182  -21.8926    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5606  -19.2156    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6983  -19.8849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6983  -21.2234    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5606  -21.8926    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  5  6  1  0     0  0\n  1  6  2  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  5  9  1  0     0  0\n  7 10  2  0     0  0\n 10 11  1  0     0  0\n 11 12  2  0     0  0\n 12 13  1  0     0  0\n  8 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07715\n\n$$$$",
+  "reactions" : [ "irxn3043", "irxn145" ]
+}

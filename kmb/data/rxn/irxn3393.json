@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3393",
+  "equation" : "asp__L + fad <=> iasp + h + fadh2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd95" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7672" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ASPOcm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ASPOcm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPOcm_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

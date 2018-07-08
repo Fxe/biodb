@@ -1,0 +1,31 @@
+{
+  "id" : "icpd83",
+  "formula" : "C5H8O",
+  "name" : "(3r)-3,4-epoxy-3-methylbut-1-ene",
+  "synonyms" : [ ],
+  "alias" : "icpd83",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19028"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21373"
+  } ],
+  "inchi" : "InChI=1S/C5H8O/c1-3-5(2)4-6-5/h3H,1,4H2,2H3/t5-/m1/s1",
+  "inchikey" : "FVCDMHWSPLRYAB-RXMQYKEDSA-N",
+  "smiles" : "C=C[C@]1(C)CO1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-17591", "META:RXN-17592" ],
+      "gibbs" : 86.338974,
+      "cmlMolWeight" : 84.118,
+      "molWeight" : 84.118
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  1  0  0  0  0  0999 V2000\n   12.1800  -12.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3924  -11.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6049  -12.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8173  -11.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3924  -13.0200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3924  -10.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  1     0  0\n  3  4  2  0     0  0\n  2  5  1  0     0  0\n  1  5  1  0     0  0\n  2  6  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C21373\n\n$$$$",
+  "reactions" : [ "irxn1410" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4144",
+  "equation" : "tettet6coa + crn <=> tettet6crn + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4049" : "",
+      "icpd6570" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd2060" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "TETTET6CPT2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TETTET6CPT2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TETTET6CPT1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

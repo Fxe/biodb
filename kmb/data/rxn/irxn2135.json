@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2135",
+  "equation" : "o2 + icpd1220 <=> icpd7313 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1220" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7313" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.3.15; 1.1.3.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01341"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:S-2-HYDROXY-ACID-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -4.8977585,
+      "uniprot" : [ "O22544", "O49506", "P05414", "O52792", "Q07523", "Q43775", "P72842", "O82077", "O81692", "P73119" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

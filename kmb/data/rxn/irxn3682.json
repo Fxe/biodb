@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3682",
+  "equation" : "fad + h + ibcoa <=> 2mp2coa + fadh2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd7932" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd8034" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.8",
+  "otherNames" : [ ],
+  "alias" : "ACOAD9m",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MEPROPCOA-FAD-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACOAD9m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:N-ETHYLMALEIMIDE", "META:CPD-1083" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:VALDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -12.445496,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

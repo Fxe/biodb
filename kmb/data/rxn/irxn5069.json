@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5069",
+  "equation" : "nad + CE1918 <=> nadh + 5hoxindact + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd4779" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd889" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.1",
+  "otherNames" : [ ],
+  "alias" : "RE1711C_2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE1711C_2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10781"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6313" ],
+      "orphan" : "NO",
+      "gibbs" : 14.660828,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

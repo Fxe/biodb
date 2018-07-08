@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4745",
+  "equation" : "arg__L + atp <=> icpd1211 + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd90" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd1211" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.3.3; EC-2.7.3.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00554"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ARGININE-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:2-KETOGLUTARATE", "META:D-Glucose" ],
+      "activators" : [ "META:ATP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 2.3923645,
+      "uniprot" : [ "P51541", "O61367", "P14208", "P51544" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ "K00934" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

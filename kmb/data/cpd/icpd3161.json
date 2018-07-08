@@ -1,0 +1,39 @@
+{
+  "id" : "icpd3161",
+  "formula" : "C8H8O6",
+  "name" : "(e)-4,6-dioxo-2-octenedioic acid",
+  "synonyms" : [ "(2e)-4,6-dioxooct-2-enedioic acid", "4,6-dioxo-2e-octenedioic acid" ],
+  "alias" : "4fumacac",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "4fumacac"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-FUMARYL-ACETOACETATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "4fumacac"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01061"
+  } ],
+  "inchi" : "InChI=1S/C8H8O6/c9-5(1-2-7(11)12)3-6(10)4-8(13)14/h1-2H,3-4H2,(H,11,12)(H,13,14)/b2-1+",
+  "inchikey" : "GACSIVHAIFQKTC-OWOJBTEDSA-N",
+  "smiles" : "C(=C\\C(=O)O)/C(=O)CC(=O)CC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:FUMARYLACETOACETASE-RXN", "META:MALEYLACETOACETATE-ISOMERASE-RXN" ],
+      "gibbs" : -136.88152,
+      "cmlMolWeight" : 198.132,
+      "molWeight" : 198.132
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 14 13  0  0  0  0  0  0  0  0999 V2000\n   27.4626  -15.0691    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6737  -15.7711    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4626  -13.6709    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2456  -15.7711    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6737  -17.1695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6737  -12.9688    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4626  -17.8715    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8847  -17.8715    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8847  -13.6709    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6737  -11.5706    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4626  -19.2697    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2456  -19.9718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0346  -19.2697    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2456  -21.3700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  5  8  2  0     0  0\n  6  9  1  0     0  0\n  6 10  2  0     0  0\n  7 11  2  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 12 14  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01061\n\n$$$$",
+  "reactions" : [ "irxn2108", "irxn2900" ]
+}

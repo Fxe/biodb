@@ -1,0 +1,44 @@
+{
+  "id" : "icpd771",
+  "formula" : "C6H6O",
+  "name" : "phenol",
+  "synonyms" : [ "benzenol", "hydroxy-benzene", "hydroxybenzene", "monohydroxy benzene", "monohydroxybenzene", "p-hydroxybenzene", "phenylalcohol" ],
+  "alias" : "phenol",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "phenol"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Aryl-Alcohol"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00146"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENOL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C15584"
+  } ],
+  "inchi" : "InChI=1S/C6H6O/c7-6-4-2-1-3-5-6/h1-5,7H",
+  "inchikey" : "ISWSIDIOOBJBQZ-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-12037", "META:CPD-12038", "META:CPD-17703", "META:CPD-14836", "META:CPD-14835", "META:P-NITROPHENOL", "META:CPD-702", "META:ORCINOL-CPD", "META:CPD-18279", "META:CPD-18277", "META:CPD-12032", "META:CPD-12033", "META:CPD-10597", "META:CPD-12036", "META:CPD-6622", "META:CPD-18280", "META:CPD-18045", "META:CPD-6625", "META:CPD-6626", "META:CPD-6623", "META:4-HYDROXY-BENZYL-ALCOHOL", "META:CPD-6602", "META:CPD-6624", "META:CPD-9130", "META:CPD-6483", "META:CPD-259", "META:CPD-12326", "META:CPD-16608", "META:CPD-16609", "META:CPD-14703", "META:CPD-10888", "META:PHENOL", "META:CPD-18289", "META:CPD-19213", "META:CPD-13113", "META:CPD-18942", "META:2-AMINOPHENOL", "META:CPD-20022", "META:CPD-1002", "META:CPD-18290" ],
+      "reactions" : [ "META:ARYLSULFAT-RXN", "META:ARYL-ALCOHOL-DEHYDROGENASE-RXN", "META:ARYL-SULFOTRANSFERASE-RXN", "META:ARYLESTERASE-RXN", "META:ARYL-ALCOHOL-DEHYDROGENASE-NADP+-RXN", "META:ARYLSULFATE-SULFOTRANSFERASE-RXN", "META:ARYLDIALKYLPHOSPHATASE-RXN", "META:PHENOL-BETA-GLUCOSYLTRANSFERASE-RXN" ],
+      "gibbs" : 49.176723,
+      "cmlMolWeight" : 94.113,
+      "molWeight" : 94.113,
+      "parents" : [ "META:CPD-12037", "META:CPD-12038", "META:CPD-17703", "META:CPD-14836", "META:CPD-14835", "META:P-NITROPHENOL", "META:CPD-702", "META:ORCINOL-CPD", "META:CPD-18279", "META:CPD-18277", "META:CPD-12032", "META:Polyphenols", "META:CPD-12033", "META:Aromatics", "META:CPD-10597", "META:CPD-12036", "META:CPD-6622", "META:2-Alkyl-Dinitrophenol-Derivatives", "META:CPD-18280", "META:CPD-18045", "META:CPD-6625", "META:CPD-6626", "META:CPD-6623", "META:4-HYDROXY-BENZYL-ALCOHOL", "META:CPD-6602", "META:CPD-6624", "META:CPD-9130", "META:CPD-6483", "META:Methylphenols", "META:CPD-259", "META:CPD-12326", "META:CPD-16608", "META:CPD-16609", "META:CPD-14703", "META:CPD-10888", "META:PHENOL", "META:CPD-18289", "META:CPD-19213", "META:CPD-13113", "META:CPD-18942", "META:2-AMINOPHENOL", "META:Cardanols", "META:CPD-20022", "META:Aromatic-Primary-Alcohols", "META:CPD-1002", "META:CPD-18290" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080", "iAF987" ]
+    }
+  },
+  "mol" : " \n \n \n  7  7  0  0  0  0  0  0  0  0999 V2000\n   25.8937  -19.2966    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6922  -19.9933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1143  -19.9933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8937  -17.9098    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6922  -21.3992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1143  -21.3992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8937  -22.1086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  5  7  2  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15584\n\n$$$$",
+  "reactions" : [ "irxn3914", "irxn1309", "irxn1903", "irxn3718", "irxn1865", "irxn3737", "irxn4903", "irxn4028", "irxn5369", "irxn180", "irxn6558", "irxn4310", "irxn6325", "irxn1276" ]
+}

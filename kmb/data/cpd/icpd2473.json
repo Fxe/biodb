@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2473",
+  "formula" : "C5H11N3O",
+  "name" : "(s)-piperazine-2-carboxamide",
+  "synonyms" : [ ],
+  "alias" : "icpd2473",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11624"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19782"
+  } ],
+  "inchi" : "InChI=1S/C5H11N3O/c6-5(9)4-3-7-1-2-8-4/h4,7-8H,1-3H2,(H2,6,9)/t4-/m0/s1",
+  "inchikey" : "BRYCUMKDWMEGMK-BYPYZUCNSA-N",
+  "smiles" : "C1CN[C@@H](CN1)C(=O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-11633" ],
+      "reactions" : [ "META:RXN-13714" ],
+      "gibbs" : 100.89139,
+      "cmlMolWeight" : 130.169,
+      "molWeight" : 130.169,
+      "parents" : [ "META:CPD-11633" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  1  0  0  0  0  0999 V2000\n   18.4774  -16.3069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4774  -17.7067    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6896  -18.4065    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9019  -17.7067    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9019  -16.3069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6896  -15.6070    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1328  -18.4175    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3378  -17.7220    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1325  -19.8062    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  4  7  1  1     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19782\n\n$$$$",
+  "reactions" : [ "irxn5372" ]
+}

@@ -1,0 +1,56 @@
+{
+  "id" : "irxn1586",
+  "equation" : "h2o + cholcoa <=> coa + h + cholate",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3545" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.2.27; 3.1.2.27",
+  "otherNames" : [ ],
+  "alias" : "RE1834M",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE1834M"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.1.2.27-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE1834X"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07296"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE1834C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -6.3772125,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K11992" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

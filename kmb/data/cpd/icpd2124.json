@@ -1,0 +1,37 @@
+{
+  "id" : "icpd2124",
+  "formula" : "C36H64N7O17P3S",
+  "name" : "pentadecanoyl coenzyme a",
+  "synonyms" : [ "pentadecanoyl-coa" ],
+  "alias" : "ptdcacoa",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "ptdcacoa"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ptdcacoa"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14724"
+  } ],
+  "inchi" : "InChI=1S/C36H64N7O17P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-27(45)64-20-19-38-26(44)17-18-39-34(48)31(47)36(2,3)22-57-63(54,55)60-62(52,53)56-21-25-30(59-61(49,50)51)29(46)35(58-25)43-24-42-28-32(37)40-23-41-33(28)43/h23-25,29-31,35,46-47H,4-22H2,1-3H3,(H,38,44)(H,39,48)(H,52,53)(H,54,55)(H2,37,40,41)(H2,49,50,51)/t25-,29-,30-,31+,35-/m1/s1",
+  "inchikey" : "VLBCUOVMSMAIJC-VTINEICCSA-N",
+  "smiles" : "CCCCCCCCCCCCCCC(=O)SCCN=C(CCN=C([C@@]([H])(C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Odd-Saturated-Fatty-Acyl-CoA", "META:Long-Chain-234-Saturated-acyl-CoAs" ],
+      "gibbs" : -218.75476,
+      "cmlMolWeight" : 987.888,
+      "molWeight" : 987.888,
+      "parents" : [ "META:Odd-Saturated-Fatty-Acyl-CoA", "META:Long-Chain-234-Saturated-acyl-CoAs" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn2911" ]
+}

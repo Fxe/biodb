@@ -1,0 +1,39 @@
+{
+  "id" : "icpd8043",
+  "formula" : "C7H7O4",
+  "name" : "2-hydroxy-6-keto-2,4-heptadienoate",
+  "synonyms" : [ "2-hydroxy-6-oxo-hept-2,4-dienoate", "2-hydroxy-6-oxohepta-2,4-dienoate" ],
+  "alias" : "cchoxod",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "cchoxod"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06210"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2H6OH2-4DIENOATE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "cchoxod"
+  } ],
+  "inchi" : "InChI=1S/C7H8O4/c1-5(8)3-2-4-6(9)7(10)11/h2-4,9H,1H3,(H,10,11)/p-1",
+  "inchikey" : "HVZGWILTESYJSP-UHFFFAOYSA-M",
+  "smiles" : "CC(=O)C=CC=C(C(=O)O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8041", "META:2-OH-6-OXOHEPTA-2-4-DIENOATE-HYDR-RXN", "META:CATECHOL-2-3-DIOXYGENASE-RXN" ],
+      "gibbs" : -38.88422,
+      "cmlMolWeight" : 155.13,
+      "molWeight" : 155.13
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   25.8312  -22.6702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0362  -21.9659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6146  -21.9659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0362  -20.5689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2469  -22.6702    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6146  -20.5689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5208  -21.4081    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2469  -19.8644    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8312  -19.8644    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8312  -18.4673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6087  -19.1601    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  6  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06210\n\n$$$$",
+  "reactions" : [ "irxn5934", "irxn4886" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7922",
+  "formula" : "C2H7O6P",
+  "name" : "glycolaldehyde phosphate",
+  "synonyms" : [ ],
+  "alias" : "icpd7922",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19745"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21614"
+  } ],
+  "inchi" : "InChI=1S/C2H4O2.H3O4P/c3-1-2-4;1-5(2,3)4/h1,4H,2H2;(H3,1,2,3,4)",
+  "inchikey" : "LLRWKVJNZFFOBF-UHFFFAOYSA-N",
+  "smiles" : "C(=O)CO.OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aldodioses", "META:Aldehydes" ],
+      "reactions" : [ "META:RXN-18378" ],
+      "gibbs" : -253.21489,
+      "cmlMolWeight" : 138.016,
+      "molWeight" : 138.016,
+      "parents" : [ "META:Aldodioses", "META:Aldehydes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   17.4536  -16.1871    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   18.6652  -15.4881    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8767  -16.1754    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2747  -16.1754    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   22.6788  -16.1754    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2690  -14.7773    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2690  -17.5793    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2147  -15.4750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  4  6  1  0     0  0\n  4  7  2  0     0  0\n  1  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21614\n\n$$$$",
+  "reactions" : [ "irxn6286" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2234",
+  "equation" : "2.0 h2o + s2l2n2m2mn <=> 2.0 acnam + l2n2m2mn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2556" : "",
+      "icpd4016" : "2.0"
+    },
+    "r" : {
+      "icpd768" : "2.0",
+      "icpd6471" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SIAASE",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SIAASE"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SIAASEly"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

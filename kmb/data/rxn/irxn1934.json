@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1934",
+  "equation" : "mma + glu__L <=> n2 + icpd3955",
+  "stoichiometry" : {
+    "l" : {
+      "icpd514" : "",
+      "icpd376" : ""
+    },
+    "r" : {
+      "icpd3955" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.21; EC-2.1.1.21",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01586"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.1.1.21-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDRAZINE", "META:HYDROXYLAMINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -19.349993,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00680", "rn01120" ],
+      "orthologs" : [ "K22083", "K22082", "K22081" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

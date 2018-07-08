@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7505",
+  "formula" : "C3H6O",
+  "name" : "allyl alcohol",
+  "synonyms" : [ "1-hydroxy-2-propene", "1-propen-3-ol", "2-propen-1-ol", "2-propenol", "2-propenyl alcohol", "3-hydroxy-1-propene", "3-hydroxypropene", "prop-2-en-1-ol", "vinyl carbinol", "vinylcarbinol" ],
+  "alias" : "icpd7505",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALLYL-ALCOHOL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02001"
+  } ],
+  "inchi" : "InChI=1S/C3H6O/c1-2-3-4/h2,4H,1,3H2",
+  "inchikey" : "XXROGKLTLUQVRX-UHFFFAOYSA-N",
+  "smiles" : "C=C[CH]O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-12087", "META:ALLYL-ALCOHOL-DEHYDROGENASE-RXN" ],
+      "gibbs" : 41.416725,
+      "cmlMolWeight" : 58.08,
+      "molWeight" : 58.08
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   15.9147  -14.9077    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1253  -14.2123    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6974  -14.2123    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3426  -14.9077    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  2  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02001\n\n$$$$",
+  "reactions" : [ "irxn896" ]
+}

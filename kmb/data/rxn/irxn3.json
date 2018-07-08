@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3",
+  "equation" : "icpd2853 <=> n2 + oaa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2853" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd7306" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.3.1.20; EC-4.3.1.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.3.1.20-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00347"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29", "META:MALEATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6649" ],
+      "orphan" : "YES-CONFIRMED",
+      "gibbs" : -6.0182495,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

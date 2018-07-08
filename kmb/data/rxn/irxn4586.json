@@ -1,0 +1,53 @@
+{
+  "id" : "irxn4586",
+  "equation" : "nadh + gthox + h <=> nad + 2.0 gthrd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2309" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd1977" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.8.1.7",
+  "otherNames" : [ ],
+  "alias" : "GDR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GDRh"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00094"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GDRm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GDR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00383" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

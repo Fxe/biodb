@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2362",
+  "equation" : "oxa + 2.0 fdxox <=> 2.0 fdxrd + 2.0 co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd321" : "2.0",
+      "icpd1429" : ""
+    },
+    "r" : {
+      "icpd2454" : "2.0",
+      "icpd930" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.7.10; EC-1.2.7.10",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12077"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09486"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6694" ],
+      "orphan" : "NO",
+      "gibbs" : -20.299408,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

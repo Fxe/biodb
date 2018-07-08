@@ -1,0 +1,46 @@
+{
+  "id" : "irxn481",
+  "equation" : "icpd606 + atp <=> amp + ppi + icpd1852",
+  "stoichiometry" : {
+    "l" : {
+      "icpd606" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1852" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.3.4; EC-6.3.3.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:6.3.3.4-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05467"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DEOXYAMIDINOPROCLAVAMINATE", "META:PPI" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5679" ],
+      "orphan" : "NO",
+      "gibbs" : -14.151794,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00331", "rn01130" ],
+      "orthologs" : [ "K12674" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

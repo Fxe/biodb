@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3986",
+  "equation" : "h2o + crtn + h <=> icpd3993 + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd1774" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3993" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.4.21; EC-3.5.4.21; 3.5.4.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CREATININE-DEAMINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02922"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4722" ],
+      "orphan" : "NO",
+      "gibbs" : -8.772991,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330" ],
+      "orthologs" : [ "K03365", "K01485" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

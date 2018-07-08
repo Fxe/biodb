@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3302",
+  "equation" : "o2 + nadh + icpd4462 + h <=> nad + so3 + 34dhbz",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd4462" : ""
+    },
+    "r" : {
+      "icpd4862" : "",
+      "icpd5833" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.8; EC-1.14.12.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01636"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-SULFOBENZOATE-34-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:FE+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TOLSULFDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -115.86594,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00623" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

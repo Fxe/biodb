@@ -1,0 +1,45 @@
+{
+  "id" : "irxn161",
+  "equation" : "o2 + icpd6421 <=> icpd3055 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd6421" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd3055" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.10.3.6; EC-1.10.3.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03736"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RIFAMYCIN-B-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -23.148613,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

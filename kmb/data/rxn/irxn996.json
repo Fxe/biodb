@@ -1,0 +1,49 @@
+{
+  "id" : "irxn996",
+  "equation" : "vitd3 + nadph + o2 + h <=> h2o + 25hvitd3 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd4884" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd5884" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CYP2R1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "VITD3Hm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYP2R1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2145",
+  "equation" : "hcys__L + mhpglu <=> met__L + hpglu",
+  "stoichiometry" : {
+    "l" : {
+      "icpd219" : "",
+      "icpd2606" : ""
+    },
+    "r" : {
+      "icpd3155" : "",
+      "icpd5870" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.14; 2.1.1.14",
+  "otherNames" : [ ],
+  "alias" : "MS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MHPGLUT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04405"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOCYSMET-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1473", "META:CPD0-1474", "META:CPD0-1472", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5041", "META:HOMOSER-METSYN-PWY", "META:PWY-702", "META:HSERMETANA-PWY", "META:PWY-6151" ],
+      "orphan" : "NO",
+      "gibbs" : -6.41,
+      "uniprot" : [ "O48613", "O26869", "Q9PN94", "Q9CG55", "P45331", "P93263", "Q42699", "Q9JUT6", "Q9UT19", "Q39586", "P05694", "P25665" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01230", "rn01110", "rn00270" ],
+      "orthologs" : [ "K00549" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNF517", "iRC1080", "iND750", "iNJ661", "iMM904", "iSB619", "iJN746" ]
+    }
+  }
+}

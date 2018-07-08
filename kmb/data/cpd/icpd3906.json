@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3906",
+  "formula" : "C2H5NO",
+  "name" : "acetamide",
+  "synonyms" : [ "(e)-methylimidoformic acid", "(z)-methylimidoformic acid", "acetic acid amide", "ethanamide", "methanecarboxamide", "methyl-methanimidic acid", "methylimidoformic acid" ],
+  "alias" : "ad",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "ad"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06244"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETAMIDE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ad"
+  } ],
+  "inchi" : "InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4)",
+  "inchikey" : "DLFVBJFMPXGRIB-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monocarboxylic-Acid-Amides" ],
+      "reactions" : [ "META:RXN-14728", "META:RXN-15016", "META:RXN-18454" ],
+      "gibbs" : 7.0455985,
+      "cmlMolWeight" : 59.068,
+      "molWeight" : 59.068,
+      "parents" : [ "META:Monocarboxylic-Acid-Amides" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080", "iIT341", "iNJ661" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   28.3442  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1357  -16.9394    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5585  -16.9394    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3558  -19.0412    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06244\n\n$$$$",
+  "reactions" : [ "irxn1176" ]
+}

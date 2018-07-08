@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4716",
+  "equation" : "acgam <=> acmana",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1710" : ""
+    },
+    "r" : {
+      "icpd5809" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.3.8",
+  "otherNames" : [ ],
+  "alias" : "ACGAM2E",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACGAM2E"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01207"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "K01787" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

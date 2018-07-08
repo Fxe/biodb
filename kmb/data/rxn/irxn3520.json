@@ -1,0 +1,55 @@
+{
+  "id" : "irxn3520",
+  "equation" : "nad + 4mop + coa <=> nadh + ivcoa + co2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd5131" : "",
+      "icpd7101" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd1320" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.25; EC-1.2.1",
+  "otherNames" : [ ],
+  "alias" : "OIVD1m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OIVD1r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OIVD1m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2KETO-4METHYL-PENTANOATE-DEHYDROG-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01651"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LEU-DEG2-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -10.194031,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNF517", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1", "iAF987", "iSB619", "iYO844", "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2010",
+  "equation" : "phdp + h + 327356 <=> ppi + 327489",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4059" : "",
+      "icpd1851" : "",
+      "327356" : ""
+    },
+    "r" : {
+      "327489" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CHLASP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CHLASP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHPHYS"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHLPAS_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJN678", "iJB785" ]
+    }
+  }
+}

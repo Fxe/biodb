@@ -1,0 +1,45 @@
+{
+  "id" : "irxn129",
+  "equation" : "aspsa + pyr <=> h2o + icpd2872",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd3805" : ""
+    },
+    "r" : {
+      "icpd2872" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.3.3.7; EC-4.3.3.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DIHYDRODIPICSYN-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10147"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:S-2-AMINOETHYL-L-CYSTEINE", "META:SUCC-S-ALD", "META:OH-PYR", "META:3-BROMOPYRUVATE", "META:CPD-4841", "META:CPD-291", "META:LYS" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5097", "META:DAPLYSINESYN-PWY", "META:PWY-2942", "META:PWY-2941" ],
+      "orphan" : "NO",
+      "gibbs" : -27.025223,
+      "uniprot" : [ "Q57695", "Q9LZX6", "O29352", "P19808", "Q9ZM13", "P63945", "P0A6L2", "Q9CF61", "P43797", "Q42948", "O05969", "O67216", "Q43038", "Q9JUU9", "Q42940", "Q04796", "Q9X1K9", "O25657", "P24846", "O84366", "P24847", "O86841", "O26892", "Q9Z6K9", "Q55513", "P49423", "Q9PPB4" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01120", "rn01230", "rn01110", "rn00261", "rn01130" ],
+      "orthologs" : [ "K01714" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

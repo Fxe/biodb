@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2240",
+  "equation" : "4.0 catechol + 3.0 o2 <=> 2.0 icpd6414 + 6.0 h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "3.0",
+      "icpd2941" : "4.0"
+    },
+    "r" : {
+      "icpd6414" : "2.0",
+      "icpd4016" : "6.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.10.3.1; 1.1.3.14; EC-1.1.3.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00080"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CATECHOL-OXIDASE-DIMERIZING-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -252.182,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1105",
+  "equation" : "met__L <=> icpd7751 + h + ch4s",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5870" : ""
+    },
+    "r" : {
+      "icpd6225" : "",
+      "icpd1851" : "",
+      "icpd7751" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.4.1.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08635"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14301"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-2483", "META:N-ETHYLMALEIMIDE", "META:HYDROXYLAMINE", "META:CPD0-1577" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:METHIONINE-GAMMA-LYASE-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : 3.605896,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

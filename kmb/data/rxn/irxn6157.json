@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6157",
+  "equation" : "h2o + prpp <=> h + pi + r15bp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3930" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd712" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PRPPP",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10969"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PRPPP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -5.5647583,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

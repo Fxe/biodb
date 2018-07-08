@@ -1,0 +1,37 @@
+{
+  "id" : "icpd7670",
+  "formula" : "C14H20N2O16P2",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd7670",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12548"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:UDP-L-ARABINOSE"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:UDP-L-arabinopyranose"
+  } ],
+  "inchi" : "InChI=1S/C14H22N2O16P2/c17-5-3-28-13(11(22)8(5)19)31-34(26,27)32-33(24,25)29-4-6-9(20)10(21)12(30-6)16-2-1-7(18)15-14(16)23/h1-2,5-6,8-13,17,19-22H,3-4H2,(H,24,25)(H,26,27)(H,15,18,23)/p-2",
+  "inchikey" : "DQQDLYVHOTZLOR-UHFFFAOYSA-L",
+  "smiles" : "C1=CN(C2C(C(C(COP(=O)([O-])OP(=O)([O-])OC3C(C(C(CO3)O)O)O)O2)O)O)C(=O)NC1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-5481" ],
+      "instances" : [ "META:UDP-D-XYLOSE" ],
+      "reactions" : [ "META:RXN-16838", "META:RXN-16839" ],
+      "gibbs" : -549.1659,
+      "cmlMolWeight" : 534.263,
+      "molWeight" : 534.263,
+      "parents" : [ "META:UDP-sugar", "META:UDP-D-XYLOSE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : null,
+  "reactions" : [ ]
+}

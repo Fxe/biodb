@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4346",
+  "equation" : "uGgl + alaala + atp <=> uGgla + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6473" : "",
+      "icpd2145" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd7485" : "",
+      "icpd48" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.2.10",
+  "otherNames" : [ ],
+  "alias" : "UGLDDS2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UGLDDS2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04573"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00550" ],
+      "orthologs" : [ "K01929" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNJ661" ]
+    }
+  }
+}

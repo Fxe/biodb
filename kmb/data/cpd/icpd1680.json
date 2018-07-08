@@ -1,0 +1,42 @@
+{
+  "id" : "icpd1680",
+  "formula" : "C6H9O7",
+  "name" : "2-dehydro-d-gluconate",
+  "synonyms" : [ ],
+  "alias" : "2dhglcn",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-377"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06473"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2dhglcn"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2dhglcn"
+  } ],
+  "inchi" : "InChI=1S/C6H10O7/c7-1-2(8)3(9)4(10)5(11)6(12)13/h2-4,7-10H,1H2,(H,12,13)/p-1/t2-,3-,4+/m1/s1",
+  "inchikey" : "VBUYCZFBVCCYFD-JJYYJPOSSA-M",
+  "smiles" : "C([C@]([H])([C@]([H])([C@@]([H])(C(=O)C(=O)[O-])O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:KDGALDOL-RXN" ],
+      "instances" : [ "META:2-Oxo-carboxylates" ],
+      "reactions" : [ "META:DEHYDOGLUCONOKINASE-RXN", "META:DEHYDROGLUCONATE-DEHYDROGENASE-RXN", "META:GLUCONATE-2-DEHYDROGENASE-RXN", "META:1.1.1.274-RXN", "META:RXN-14204", "META:1.1.1.215-RXN" ],
+      "gibbs" : -166.05197,
+      "cmlMolWeight" : 193.133,
+      "molWeight" : 193.133,
+      "parents" : [ "META:2-Oxo-carboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iYL1228", "iAF1260", "iPC815", "iAF1260b", "iJR904", "STM_v1_0", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   10.7800  -21.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9924  -20.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2049  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4173  -20.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6297  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8422  -20.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0546  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2670  -20.3000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4173  -18.9000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6297  -22.3999    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8422  -18.9003    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0546  -22.4000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2049  -22.3998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  4  9  1  1     0  0\n  5 10  1  1     0  0\n  6 11  2  0     0  0\n  7 12  2  0     0  0\n  3 13  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C06473\n\n$$$$",
+  "reactions" : [ "irxn5709", "irxn2678", "irxn1039", "irxn6185", "irxn6779", "irxn2512" ]
+}

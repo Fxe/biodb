@@ -1,0 +1,59 @@
+{
+  "id" : "irxn1266",
+  "equation" : "h + cl + h2o2 <=> h2o + CE4633",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2494" : "",
+      "icpd1851" : "",
+      "icpd8186" : ""
+    },
+    "r" : {
+      "icpd7601" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.11.2.2; 1.11.2.2",
+  "otherNames" : [ ],
+  "alias" : "RE2513C",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11818"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09564"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2513C"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2513L"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2513E"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2513N"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -56.032875,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

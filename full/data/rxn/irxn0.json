@@ -1,0 +1,50 @@
+{
+  "id" : "irxn0",
+  "equation" : "h + ctp + 0.02 pa_hs <=> 0.02 cdpdag_EC + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4" : "",
+      "icpd18" : "",
+      "icpd13" : "0.02"
+    },
+    "r" : {
+      "icpd5" : "",
+      "icpd2" : "0.02"
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.7.41; EC-2.7.7.41",
+  "otherNames" : [ ],
+  "alias" : "DASYN_EC",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CDPDIGLYSYN-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01799"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DASYN_EC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5981", "META:PWY0-1319", "META:PWY-5667", "META:PWY-7817" ],
+      "orphan" : "NO",
+      "gibbs" : -226.557,
+      "uniprot" : [ "Q9PMV2", "Q59640", "Q9JX34", "O04940", "P0ABG1", "Q49433", "P73548" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100", "rn01110" ],
+      "orthologs" : [ "K00981" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJR904" ]
+    }
+  }
+}

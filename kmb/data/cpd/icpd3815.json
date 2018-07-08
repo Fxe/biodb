@@ -1,0 +1,34 @@
+{
+  "id" : "icpd3815",
+  "formula" : "C3H7O4P",
+  "name" : "(2r,3s)-3-methyloxiran-2-ylphosphonic acid",
+  "synonyms" : [ "[(2r,3s)-3-methyloxiran-2-yl]phosphonic acid" ],
+  "alias" : "icpd3815",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1113"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06454"
+  } ],
+  "inchi" : "InChI=1S/C3H7O4P/c1-2-3(7-2)8(4,5)6/h2-3H,1H3,(H2,4,5,6)/t2-,3+/m0/s1",
+  "inchikey" : "YMDXZJFXQJVXBF-STHAYSLISA-N",
+  "smiles" : "C[C@@]1([H])[C@]([H])(O1)P(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:UDPNACETYLGLUCOSAMENOLPYRTRANS-RXN" ],
+      "instances" : [ "META:Antibiotics", "META:Organophosphonates" ],
+      "reactions" : [ "META:RXN-16037", "META:RXN-9011" ],
+      "gibbs" : -162.85535,
+      "cmlMolWeight" : 137.052,
+      "molWeight" : 137.052,
+      "parents" : [ "META:Antibiotics", "META:Organophosphonates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  1  0  0  0  0  0999 V2000\n   31.2200  -15.2600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.6200  -15.2600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.9200  -14.0700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0300  -15.9600    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   33.8100  -15.9600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7700  -16.6600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3300  -14.7700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7300  -17.1500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  1  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  1     0  0\n  4  6  2  0     0  0\n  4  7  1  0     0  0\n  4  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06454\n\n$$$$",
+  "reactions" : [ "irxn5325" ]
+}

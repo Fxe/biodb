@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2582",
+  "equation" : "ttccoa + psphings <=> coa + h + cer2_24",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4114" : "",
+      "icpd4342" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd2549" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CERS224",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CERS224er"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CERS224"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CERASE224er"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

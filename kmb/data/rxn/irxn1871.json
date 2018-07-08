@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1871",
+  "equation" : "h2o + udpglcur <=> udp + glcur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd886" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1947" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.2.1; 2.4.1.17",
+  "otherNames" : [ ],
+  "alias" : "UDPGNP",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08615"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UDPGNP"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN3DJ-64"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY3DJ-35471" ],
+      "orphan" : "NO",
+      "gibbs" : 5.032898,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00053" ],
+      "orthologs" : [ "K00699" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

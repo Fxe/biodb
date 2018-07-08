@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2738",
+  "equation" : "nad + icit <=> nadh + co2 + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd8140" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd5377" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.41; 1.1.1.286",
+  "otherNames" : [ ],
+  "alias" : "ICDHx",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ICDHxm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ICDHx"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00709"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210", "rn01100", "rn01200", "rn01230", "rn00020", "rn01120", "rn01110", "rn01130" ],
+      "orthologs" : [ "K17753", "K00030" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "iAT_PLT_636", "RECON1", "iHN637" ]
+    }
+  }
+}

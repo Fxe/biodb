@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1628",
+  "formula" : "C10H12O",
+  "name" : "trans-anethole",
+  "synonyms" : [ "(e)-1-(4-methoxyphenyl)propene", "(e)-1-methoxy-4-(1-propenyl)benzene", "(e)-1-p-methoxyphenylpropene", "(e)-anethol", "(e)-anethole", "(e)-p-propenylanisole", "1-(methyloxy)-4-[(1e)-prop-1-en-1-yl]benzene", "1-methoxy-4-((1e)-1-propenyl)benzene", "1-methoxy-4-(1e)-1-propen-1-yl-benzene", "1-methoxy-4-(1e)-1-propenyl-benzene", "1-methoxy-4-[(1e)-prop-1-en-1-yl]benzene", "anisole, p-propenyl-, (e)- (8ci)", "e-anethole", "trans-1-(4-methoxyphenyl)-1-propene", "trans-1-(p-methoxyphenyl)-1-propene", "trans-1-(p-methoxyphenyl)propene", "trans-1-methoxy-4-(1-propenyl)benzene", "trans-4-(1-propenyl)anisole", "trans-p-methoxy-beta-methylstyrene", "trans-p-propenylanisole" ],
+  "alias" : "icpd1628",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C10428"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9930"
+  } ],
+  "inchi" : "InChI=1S/C10H12O/c1-3-4-9-5-7-10(11-2)8-6-9/h3-8H,1-2H3/b4-3+",
+  "inchikey" : "RUVINXPYWBROJD-ONEGZZNKSA-N",
+  "smiles" : "C/C=C/C1=CC=C(C=C1)OC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:RXN-9334", "META:RXN-9312" ],
+      "gibbs" : 147.15346,
+      "cmlMolWeight" : 148.204,
+      "molWeight" : 148.204,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   21.8400  -16.6484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8400  -18.0484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6383  -15.9484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0476  -15.9484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6383  -18.7542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4191  -16.6484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2608  -16.6367    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4191  -18.0484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4741  -15.9424    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2058  -18.7542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9866  -18.0484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  2  0     0  0\n  5  8  2  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n 10 11  1  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C10428\n\n$$$$",
+  "reactions" : [ "irxn6370" ]
+}

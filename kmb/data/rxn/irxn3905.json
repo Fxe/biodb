@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3905",
+  "equation" : "h2o + icpd5747 <=> icpd3176 + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5747" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5748" : "",
+      "icpd3176" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.10.1.2; EC-3.10.1.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CYCLAMATE-SULFOHYDROLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02564"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -40.91125,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00930" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

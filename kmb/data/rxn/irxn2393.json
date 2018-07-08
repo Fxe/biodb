@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2393",
+  "equation" : "h2mb4p + nadph + h <=> h2o + dmpp + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7058" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd1756" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "IDS2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "IDS2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DMPPS_syn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJN678", "iJB785" ]
+    }
+  }
+}

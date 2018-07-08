@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6350",
+  "equation" : "o2 + npthl + nadh + h <=> nad + icpd607",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5411" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd607" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.12; EC-1.14.12.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02968"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NAPHTHALENE-12-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5427" ],
+      "orphan" : "NO",
+      "gibbs" : -90.901825,
+      "uniprot" : [ "Q52140", "P0A112", "O85991", "P0A110", "P0A185", "Q52126" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00626" ],
+      "orthologs" : [ "K14581", "K14580", "K14578", "K14579" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

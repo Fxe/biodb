@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6899",
+  "equation" : "nad + h2o + g3p <=> nadh + h + 3pg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4806" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd6074" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.3; 1.2.1.90",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-3443"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10860"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ATP", "META:NADP", "META:NADPH", "META:NADH" ],
+      "activators" : [ "META:GLC-1-P", "META:AMP", "META:ADP", "META:FRU1P", "META:FRUCTOSE-6P", "META:RIBOSE-5P" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2221" ],
+      "orphan" : "NO",
+      "gibbs" : -15.283508,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00010", "rn00030" ],
+      "orthologs" : [ "K18978" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

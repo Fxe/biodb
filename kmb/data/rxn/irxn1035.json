@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1035",
+  "equation" : "h2o + icpd4693 <=> rhmn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4693" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5407" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.65; EC-3.1.1.65",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03772"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-RHAMNONO-14-LACTONASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:FE+2", "META:ZN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6713", "META:PWY-6714" ],
+      "orphan" : "NO",
+      "gibbs" : -6.347122,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00051" ],
+      "orthologs" : [ "K18338" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

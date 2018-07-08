@@ -1,0 +1,56 @@
+{
+  "id" : "irxn5499",
+  "equation" : "h + so4 + atp <=> aps + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5748" : "",
+      "icpd1851" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1665" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.4; 2.7.7.4",
+  "otherNames" : [ ],
+  "alias" : "SADT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SULFATE-ADENYLYLTRANS-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SUAT_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SADT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SADTn"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00529"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMP", "META:APS", "META:HS" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5340", "META:PWY-6683", "META:PWY-5278", "META:P224-PWY", "META:DISSULFRED-PWY", "META:SULFMETII-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -20.452515,
+      "uniprot" : [ "O48888", "P74241", "P08536", "O43252", "Q9S7D8", "O23324", "Q9PM66", "Q10600", "P13442", "P23845", "Q43170", "Q39595", "Q12650", "O67174", "Q12555", "O33581", "Q43870", "Q43183", "Q96541", "P13441", "Q27128", "O34764", "Q9JUD7", "P21156", "P28604", "Q9JUD6", "Q96349" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00230", "rn01130", "rn00261", "rn00920" ],
+      "orthologs" : [ "K00957", "K00958", "K00955", "K00956", "K13811" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iJN678", "iAT_PLT_636", "iJB785", "iYO844", "iJN746", "iRC1080", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

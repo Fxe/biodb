@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2301",
+  "equation" : "icpd3762 + h2o <=> glc__D + h + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3762" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5748" : "",
+      "icpd1851" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.6.3; EC-3.1.6.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00534"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCOSULFATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -51.991226,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

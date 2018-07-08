@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1098",
+  "formula" : "C3H8OS2",
+  "name" : "dimercaprol",
+  "synonyms" : [ "2,3-dimercapto-1-propanol", "2,3-dimercaptopropan-1-ol", "2,3-dimercaptopropanol", "2,3-disulfanylpropan-1-ol" ],
+  "alias" : "icpd1098",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:23-DIMERCAPTOPROPAN-1-OL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02924"
+  } ],
+  "inchi" : "InChI=1S/C3H8OS2/c4-1-3(6)2-5/h3-6H,1-2H2",
+  "inchikey" : "WQABCVAJNWAXTE-UHFFFAOYSA-N",
+  "smiles" : "C(C(CS)S)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:DIAMINOPIMDECARB-RXN", "META:DIAMINOPIMEPIM-RXN" ],
+      "gibbs" : 47.50897,
+      "cmlMolWeight" : 124.216,
+      "molWeight" : 124.216
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   21.7700  -16.6600    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   22.9791  -15.9591    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5552  -15.9591    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7642  -18.0618    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1939  -16.6600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3518  -16.6658    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02924\n\n$$$$",
+  "reactions" : [ ]
+}

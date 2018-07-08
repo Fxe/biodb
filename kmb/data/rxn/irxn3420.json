@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3420",
+  "equation" : "h2o + dcdp <=> h + pi + dcmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd1043" : ""
+    },
+    "r" : {
+      "icpd6810" : "",
+      "icpd1851" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1.6; 3.6.1.12",
+  "otherNames" : [ ],
+  "alias" : "NDP6",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NDP6"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01667"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14187"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-14198" ],
+      "orphan" : "NO",
+      "gibbs" : -6.8130493,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K16904" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

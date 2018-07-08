@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6431",
+  "formula" : "C4H5NS",
+  "name" : "allyl isothiocyanate",
+  "synonyms" : [ "2-propenyl isothiocyanate", "3-isothiocyanato-1-propene", "3-isothiocyanatoprop-1-ene" ],
+  "alias" : "icpd6431",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19317"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19501"
+  } ],
+  "inchi" : "InChI=1S/C4H5NS/c1-2-3-5-4-6/h2H,1,3H2",
+  "inchikey" : "ZOJBYZNEUISWFT-UHFFFAOYSA-N",
+  "smiles" : "C=CCN=C=S",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ISOTHIOCYANATES" ],
+      "reactions" : [ "META:RXN-18220" ],
+      "gibbs" : 72.6456,
+      "cmlMolWeight" : 99.15,
+      "molWeight" : 99.15,
+      "parents" : [ "META:ISOTHIOCYANATES" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   26.5300  -15.9600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7200  -16.6600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9100  -15.9600    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2700  -16.6600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1700  -16.6600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.3600  -17.3600    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  4  1  2  0     0  0\n  3  5  2  0     0  0\n  5  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19317\n\n$$$$",
+  "reactions" : [ ]
+}

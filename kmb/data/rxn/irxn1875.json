@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1875",
+  "equation" : "2.0 benzcoa + orn <=> 2.0 coa + icpd4930",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4560" : "",
+      "icpd2811" : "2.0"
+    },
+    "r" : {
+      "icpd2377" : "2.0",
+      "icpd4930" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.127; EC-2.3.1.127",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00664"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ORNITHINE-N-BENZOYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -11.204224,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

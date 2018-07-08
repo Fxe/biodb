@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7675",
+  "formula" : "C2HCl2O2",
+  "name" : "dichloroacetate",
+  "synonyms" : [ ],
+  "alias" : "icpd7675",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9674"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11149"
+  } ],
+  "inchi" : "InChI=1S/C2H2Cl2O2/c3-1(4)2(5)6/h1H,(H,5,6)/p-1",
+  "inchikey" : "JXTHNDFMNIQAHM-UHFFFAOYSA-M",
+  "smiles" : "C(C(=O)[O-])(Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9152", "META:RXN-9151" ],
+      "gibbs" : -85.140945,
+      "cmlMolWeight" : 127.935,
+      "molWeight" : 127.935
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   22.6753  -16.7251    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   23.8648  -17.4249    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1244  -16.7251    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3139  -17.4249    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8648  -18.8243    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   25.1244  -15.3257    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11149\n\n$$$$",
+  "reactions" : [ ]
+}

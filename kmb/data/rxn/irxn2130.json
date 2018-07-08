@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2130",
+  "equation" : "16.0 h2o + n2 + 16.0 atp + 4.0 fldrd <=> 4.0 fldox + 16.0 pi + h2 + 16.0 adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3968" : "4.0",
+      "icpd7085" : "",
+      "icpd4016" : "16.0",
+      "icpd6530" : "16.0"
+    },
+    "r" : {
+      "icpd4507" : "4.0",
+      "icpd5753" : "16.0",
+      "icpd7485" : "16.0",
+      "icpd3917" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.19.6.1; 1.19.6.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NITROGENASE-FLAVODOXIN-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05186"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CARBON-MONOXIDE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7576" ],
+      "orphan" : "NO",
+      "gibbs" : 41.060547,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00910" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

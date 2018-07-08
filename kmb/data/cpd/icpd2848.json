@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2848",
+  "formula" : "C6H10O4",
+  "name" : "mevaldic acid",
+  "synonyms" : [ ],
+  "alias" : "icpd2848",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00772"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MEVALDATE"
+  } ],
+  "inchi" : "InChI=1S/C6H10O4/c1-6(10,2-3-7)4-5(8)9/h3,10H,2,4H2,1H3,(H,8,9)/t6-/m1/s1",
+  "inchikey" : "CWCYSIIDJAVQSK-ZCFIWIBFSA-N",
+  "smiles" : "C[C@@](CC=O)(CC(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:MEVALDATE-REDUCTASE-RXN", "META:MEVALDATE-REDUCTASE-NADPH-RXN" ],
+      "gibbs" : -56.16196,
+      "cmlMolWeight" : 145.135,
+      "molWeight" : 145.135
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   27.5100  -17.4971    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   26.2996  -18.1955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7320  -18.1955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6971  -16.7930    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2937  -16.7988    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2996  -19.6038    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.7320  -19.6038    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5100  -20.3138    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0949  -20.2963    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9367  -20.2963    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  6  8  1  0     0  0\n  6  9  1  0     0  0\n  7 10  2  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00772\n\n$$$$",
+  "reactions" : [ "irxn5113", "irxn1334" ]
+}

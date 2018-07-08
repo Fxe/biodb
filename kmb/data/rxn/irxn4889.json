@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4889",
+  "equation" : "h2o + icpd6385 <=> icpd632 + op4en",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6385" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2447" : "",
+      "icpd632" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.7.1.-",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07802"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2506"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:FLUORENE-DEG-9-ONE-PWY" ],
+      "orphan" : null,
+      "gibbs" : -14.097107,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00624" ],
+      "orthologs" : [ "K14604" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

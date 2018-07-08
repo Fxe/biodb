@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4206",
+  "equation" : "h2o + icpd3704 <=> h + pi + icpd1202",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3704" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1202" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.-; EC-3.1.3.33",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:POLYNUCLEOTIDE-5-PHOSPHATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10814"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7375" ],
+      "orphan" : "NO",
+      "gibbs" : -98.96472,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K13917", "K01098" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

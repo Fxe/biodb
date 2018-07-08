@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3147",
+  "equation" : "icpd3653 + h2o + nadp <=> icpd4663 + nadph + n2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3653" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd4663" : "",
+      "icpd1851" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.1.16; EC-1.4.1.16",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DIAMINOPIMELATE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02755"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:C8", "META:LL-DIAMINOPIMELATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-14246" ],
+      "orphan" : "NO",
+      "gibbs" : 4.1464233,
+      "uniprot" : [ "P04964" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01230", "rn01110" ],
+      "orthologs" : [ "K03340" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

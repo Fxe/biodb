@@ -1,0 +1,43 @@
+{
+  "id" : "irxn5292",
+  "equation" : "icpd3554 <=> rbl__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3554" : ""
+    },
+    "r" : {
+      "icpd6406" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.1.3; 5.3.1.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01577"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DARABISOM-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:RIBITOL", "META:GALACTITOL", "META:L-ARABITOL" ],
+      "activators" : [ "META:CO+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:DARABCAT-PWY", "META:DARABCATK12-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -0.9400101,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

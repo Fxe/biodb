@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6373",
+  "equation" : "tsul + achms + trdrd <=> hcys__L + ac + so3 + h + trdox",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6075" : "",
+      "icpd7289" : "",
+      "icpd7857" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2606" : "",
+      "icpd5921" : "",
+      "icpd5833" : "",
+      "icpd1835" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AHAL",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02026"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AHAL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

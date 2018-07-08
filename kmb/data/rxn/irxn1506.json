@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1506",
+  "equation" : "sl26da + akg <=> sl2a6o + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd6114" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd6311" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.17; 2.6.1.17",
+  "otherNames" : [ ],
+  "alias" : "SDPTA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SDPTA"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04475"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SUCCINYLDIAMINOPIMTRANS-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDROXYLAMINE", "META:2-KETOGLUTARATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:DAPLYSINESYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0758667,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01230", "rn01120" ],
+      "orthologs" : [ "K14267", "K00821" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iWFL_1372", "iECED1_1282", "iECIAI1_1343", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iJN746", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECO111_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iIT341", "iECSF_1327", "iSDY_1059", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iHN637", "iECO103_1326", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iECDH10B_1368", "iSF_1195", "iSFxv_1172", "iECS88_1305", "iECNA114_1301", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

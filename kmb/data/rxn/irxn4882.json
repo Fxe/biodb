@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4882",
+  "equation" : "o2 + 2.0 h + oxa <=> 2.0 co2 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1851" : "2.0",
+      "icpd1429" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd2454" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.3.4; EC-1.2.3.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00273"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:OXALATE-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6697" ],
+      "orphan" : "NO",
+      "gibbs" : -38.407654,
+      "uniprot" : [ "O81386", "O81385", "P45850" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

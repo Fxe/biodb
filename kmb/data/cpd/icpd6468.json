@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6468",
+  "formula" : "C10H18O",
+  "name" : "(1r,4r)-p-menthan-3-one",
+  "synonyms" : [ "(1r,4r)-(+)-p-menthan-3-one" ],
+  "alias" : "icpd6468",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-4943"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11952"
+  } ],
+  "inchi" : "InChI=1S/C10H18O/c1-7(2)9-5-4-8(3)6-10(9)11/h7-9H,4-6H2,1-3H3/t8-,9-/m1/s1",
+  "inchikey" : "NFLGAXVYCFJBMK-RKDXNWHRSA-N",
+  "smiles" : "CC(C)[C@@]1([H])CC[C@@]([H])(C)CC1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Menthones" ],
+      "reactions" : [ "META:RXN-5165", "META:RXN-5164", "META:RXN-5166" ],
+      "gibbs" : 168.13019,
+      "cmlMolWeight" : 154.252,
+      "molWeight" : 154.252,
+      "parents" : [ "META:Menthones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   22.8542  -14.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8542  -15.4711    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0714  -16.1751    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.2814  -15.4711    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2814  -14.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0714  -13.3730    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.0581  -11.9722    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0581  -17.5760    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   25.2690  -18.2730    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8402  -18.2660    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4898  -16.1660    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  6  1  1  0     0  0\n  6  7  1  1     0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  8  1  1     0  0\n  4  5  1  0     0  0\n  8  9  1  0     0  0\n  5  6  1  0     0  0\n  8 10  1  0     0  0\n  4 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11952\n\n$$$$",
+  "reactions" : [ "irxn5772" ]
+}

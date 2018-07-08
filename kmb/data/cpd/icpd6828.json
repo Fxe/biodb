@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6828",
+  "formula" : "C8H7NO",
+  "name" : "1h-indol-3-ol",
+  "synonyms" : [ "indol-3-ol", "indole-3-ol" ],
+  "alias" : "icpd6828",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:INDOXYL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05658"
+  } ],
+  "inchi" : "InChI=1S/C8H7NO/c10-8-5-9-7-4-2-1-3-6(7)8/h1-5,9-10H",
+  "inchikey" : "PCKPVGOLPKLUHR-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C1)NC=C2O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-15587", "META:RXN-9820", "META:RXN-17628", "META:2.4.1.220-RXN", "META:RXN-14713", "META:RXN-9818" ],
+      "gibbs" : 66.17884,
+      "cmlMolWeight" : 133.149,
+      "molWeight" : 133.149
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 11  0  0  0  0  0  0  0  0999 V2000\n   13.5100  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5100  -21.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7224  -21.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9349  -21.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9349  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7224  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2664  -21.5026    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0893  -20.3700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2664  -19.2374    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6975  -17.9106    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  5  9  1  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05658\n\n$$$$",
+  "reactions" : [ "irxn330" ]
+}

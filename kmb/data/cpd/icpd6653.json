@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6653",
+  "formula" : "C5H12N2O3",
+  "name" : "n5-hydroxy-l-ornithine",
+  "synonyms" : [ ],
+  "alias" : "icpd6653",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20850"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11571"
+  } ],
+  "inchi" : "InChI=1S/C5H12N2O3/c6-4(5(8)9)2-1-3-7-10/h4,7,10H,1-3,6H2,(H,8,9)/t4-/m0/s1",
+  "inchikey" : "OZMJDTPATROLQC-BYPYZUCNSA-N",
+  "smiles" : "C(C[C@@H](C(=O)O)N)CNO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-hydroxylated-Amino-Acids" ],
+      "reactions" : [ "META:RXN-15950", "META:RXN-13783", "META:RXN-11130", "META:RXN-11127", "META:RXN-11128" ],
+      "gibbs" : 12.843444,
+      "cmlMolWeight" : 148.161,
+      "molWeight" : 148.161,
+      "parents" : [ "META:N-hydroxylated-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   17.3907  -16.5491    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   16.1788  -15.8558    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6024  -15.8558    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3907  -17.9532    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9613  -16.5491    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1788  -14.4518    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8201  -16.5491    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0321  -15.8558    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2497  -16.5491    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4783  -15.8303    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20850\n\n$$$$",
+  "reactions" : [ "irxn1016" ]
+}

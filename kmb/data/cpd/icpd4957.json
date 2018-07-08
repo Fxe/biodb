@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4957",
+  "formula" : "C5H11O4S2",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4957",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-R-HYDROXYPROPYL-COM"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11496"
+  } ],
+  "inchi" : "InChI=1S/C5H12O4S2/c1-5(6)4-10-2-3-11(7,8)9/h5-6H,2-4H2,1H3,(H,7,8,9)/p-1",
+  "inchikey" : "QWNJCCLFGYAGRK-UHFFFAOYSA-M",
+  "smiles" : "CC(CSCCS(=O)(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:R-OR-S-2-HYDROXYPROPYL-COM" ],
+      "reactions" : [ "META:4.2.99.19-RXN", "META:1.1.1.268-RXN" ],
+      "gibbs" : -12.169742,
+      "cmlMolWeight" : 199.259,
+      "molWeight" : 199.259,
+      "parents" : [ "META:R-OR-S-2-HYDROXYPROPYL-COM" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   23.5409  -17.2238    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7541  -17.9149    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9673  -17.2166    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1733  -17.9080    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3864  -17.2097    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   29.5996  -17.9009    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4494  -15.8061    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1374  -17.2166    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   22.1303  -15.8132    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7338  -17.2097    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1303  -18.6203    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  1  0     0  0\n  1  2  1  0     0  0\n  5  7  1  6     0  0\n  3  4  1  0     0  0\n  1  8  1  0     0  0\n  8  9  2  0     0  0\n  4  5  1  0     0  0\n  8 10  2  0     0  0\n  2  3  1  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11496\n\n$$$$",
+  "reactions" : [ "irxn77", "irxn856" ]
+}

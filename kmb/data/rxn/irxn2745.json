@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2745",
+  "equation" : "0.5 o2 + dhcholestancoa <=> dhcholoylcoa + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "0.5",
+      "icpd6833" : ""
+    },
+    "r" : {
+      "icpd8122" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AMACR2p",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AMACR2r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMACR2p"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

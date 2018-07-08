@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3349",
+  "equation" : "icpd6930 + h2o <=> h + icpd6803",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6930" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6803" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.2.6; 3.5.2.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BETA-LACTAMASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03743"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-4841", "META:CPD-29", "META:O-PHENANTHROLINE", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "Q933M6", "Q60225", "Q59398", "Q44219", "P45460", "Q9PIK0", "P14559", "Q45107", "Q7M0V8", "Q7M176", "Q7M175", "P35695", "Q46038", "Q7M136", "P16897", "P67920", "P14560", "P37321", "P37322", "Q9V2D6", "P62593", "Q06778", "Q52152", "Q8KP20", "O51899", "P22391", "P22390", "P06548", "P52682", "P18251", "P14489", "Q01166", "Q06650", "Q9F493", "P14488", "Q00983", "P0A3M1", "Q00982", "P00811", "P14171", "Q938A8", "Q38058", "P0A3M3", "P28585", "Q45726", "P0AD64", "P00808", "P00809", "P00807", "P26918", "P0A9Z9", "Q48443", "O83024", "P18539", "P0A1V8", "Q99224", "P05192", "P05193", "Q57509", "Q52615", "Q06316", "P24735", "Q59401", "P28018", "P52663", "P30897", "P30896", "P30899", "P10509", "P67919", "P39824", "P10424", "P37323", "Q48743", "Q03680", "P35393", "P35392", "P13661", "P35391", "Q47066", "P04190", "Q8RT60", "Q59517", "P25910", "P67918", "Q93CA2", "P05364" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

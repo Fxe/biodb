@@ -1,0 +1,40 @@
+{
+  "id" : "icpd6456",
+  "formula" : "C11H8NO3",
+  "name" : "indolepyruvate",
+  "synonyms" : [ ],
+  "alias" : "indpyr",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00331"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "indpyr"
+  }, {
+    "source" : "BiGG",
+    "entry" : "indpyr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:INDOLE_PYRUVATE"
+  } ],
+  "inchi" : "InChI=1S/C11H9NO3/c13-10(11(14)15)6-8-5-7-3-1-2-4-9(7)12-8/h1-5,12H,6H2,(H,14,15)/p-1",
+  "inchikey" : "MHUIZQOXRWKQLN-UHFFFAOYSA-M",
+  "smiles" : "C1=CC2=C(C=C1)NC(=C2)CC(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2.6.1.7-RXN", "META:IMILACTDEHYDROG-RXN", "META:TRYPTOPHAN-AMINOTRANSFERASE-RXN" ],
+      "reactions" : [ "META:RXN-15608", "META:1.2.7.8-RXN", "META:TRYPTOPHAN-DEHYDROGENASE-RXN", "META:4.1.1.74-RXN", "META:RXN-14685", "META:RXNDQC-2", "META:RXN-17530", "META:2.6.1.28-RXN", "META:TRYPTOPHAN-AMINOTRANSFERASE-RXN", "META:INDOLELACTATE-DEHYDROGENASE-RXN", "META:RXN-10139" ],
+      "gibbs" : 10.217906,
+      "cmlMolWeight" : 202.189,
+      "molWeight" : 202.189
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iAF987", "iECABU_c1320", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iNJ661", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 15 16  0  0  0  0  0  0  0  0999 V2000\n   15.8900  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8900  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1024  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3149  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3149  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1024  -15.8900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6464  -18.4226    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4693  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6464  -16.1574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0775  -14.8306    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4569  -14.5374    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4195  -15.6069    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8863  -13.2173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2757  -12.9222    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9669  -12.1954    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  5  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  2  0     0  0\n 11 13  1  0     0  0\n 13 14  1  0     0  0\n 13 15  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00331\n\n$$$$",
+  "reactions" : [ "irxn4169", "irxn5918", "irxn4351", "irxn5283", "irxn1574", "irxn3876", "irxn3930", "irxn3776" ]
+}

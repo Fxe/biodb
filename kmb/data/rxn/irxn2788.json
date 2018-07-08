@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2788",
+  "equation" : "aso4 + trdrd <=> h2o + trdox + aso3",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4788" : "",
+      "icpd7857" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd1835" : "",
+      "icpd1461" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.20.4.4",
+  "otherNames" : [ ],
+  "alias" : "ASR2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ASR2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10927"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

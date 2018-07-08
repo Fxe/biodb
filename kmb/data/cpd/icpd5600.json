@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5600",
+  "formula" : "Mn",
+  "name" : "manganese(3+)",
+  "synonyms" : [ ],
+  "alias" : "icpd5600",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MN+3"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19611"
+  } ],
+  "inchi" : "InChI=1S/Mn/q+3",
+  "inchikey" : "MMIPFLVOWGHZQD-UHFFFAOYSA-N",
+  "smiles" : "[Mn+3]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Metal-Ions" ],
+      "reactions" : [ "META:MANGANESE-PEROXIDASE-RXN", "META:RXN-11646", "META:RXN-11645" ],
+      "gibbs" : -2.8085344,
+      "cmlMolWeight" : 54.938,
+      "molWeight" : 54.938,
+      "parents" : [ "META:Metal-Ions" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   15.7500  -14.0700    0.0000 Mn  0  1  0  0  0  0  0  0  0  0  0  0\nM  CHG  1   1   3\nM  END\n\n> <ENTRY>\ncpd:C19611\n\n$$$$",
+  "reactions" : [ "irxn1432" ]
+}

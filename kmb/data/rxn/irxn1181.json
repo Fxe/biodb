@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1181",
+  "equation" : "argtrna + icpd2551 <=> icpd7049 + trnaarg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3291" : "",
+      "icpd2551" : ""
+    },
+    "r" : {
+      "icpd7049" : "",
+      "icpd6300" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.2.8; 2.3.2.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03862"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ARGINYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 1.6552734,
+      "uniprot" : [ "P16639" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K21419", "K00685" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2099",
+  "equation" : "cys__L + cyan <=> s + HC00955",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4873" : "",
+      "icpd2921" : ""
+    },
+    "r" : {
+      "icpd905" : "",
+      "icpd5284" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.4.1.9; 4.4.1.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-3-CYANOALANINE-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03524"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:BH4NA", "META:HYDROXYLAMINE", "META:CARBOXYMETHOXYLAMINE", "META:CPD-603", "META:MET", "META:ACETYLSERINE", "META:BENZOATE", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P401-PWY", "META:ASPSYNII-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -29.074125,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00460", "rn01110" ],
+      "orthologs" : [ "K13034" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

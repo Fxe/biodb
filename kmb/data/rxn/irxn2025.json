@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2025",
+  "equation" : "icpd6067 + atp <=> h + icpd3072 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6067" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd3072" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.68; EC-2.7.1.68",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.7.1.68-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03469"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:HEPARIN", "META:L-PHOSPHATIDATE", "META:SPERMINE", "META:2-3-4-Saturated-L-Phosphatidates" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6352", "META:PWY-6351" ],
+      "orphan" : "NO",
+      "gibbs" : -8.289551,
+      "uniprot" : [ "Q56YP2", "P48426" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562" ],
+      "orthologs" : [ "K00889", "K13712" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

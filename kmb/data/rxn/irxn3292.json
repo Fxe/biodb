@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3292",
+  "equation" : "h2o + 2.0 h + icpd2658 <=> n2 + sarcs + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "2.0",
+      "icpd4016" : "",
+      "icpd2658" : ""
+    },
+    "r" : {
+      "icpd6194" : "",
+      "icpd7085" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.59; 3.5.1.59",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:N-CARBAMOYLSARCOSINE-AMIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01563"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:SUCC-S-ALD", "META:CU+2", "META:HG+2", "META:GLYOX", "META:AG+" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4722" ],
+      "orphan" : "NO",
+      "gibbs" : 26.061111,
+      "uniprot" : [ "P32400" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100" ],
+      "orthologs" : [ "K08687" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

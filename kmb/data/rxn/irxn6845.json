@@ -1,0 +1,57 @@
+{
+  "id" : "irxn6845",
+  "equation" : "nad + h2o + bzal <=> nadh + bz + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd395" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd7278" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.29; 1.2.1.29; 1.2.1.28; EC-1.2.1.28",
+  "otherNames" : [ ],
+  "alias" : "BZDH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01419"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BZDH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BENZALDEHYDE-DEHYDROGENASE-NAD+-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01486"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ARYL-ALDEHYDE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:BENZALDEHYDE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TOLUENE-DEG-CATECHOL-PWY", "META:PWY-6444", "META:PWY-6763", "META:PWY-6766", "META:PWY-6446", "META:PWY-1501" ],
+      "orphan" : "NO",
+      "gibbs" : -13.105316,
+      "uniprot" : [ "P43503" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01220", "rn00627", "rn00623" ],
+      "orthologs" : [ "K00141" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987", "iJN746" ]
+    }
+  }
+}

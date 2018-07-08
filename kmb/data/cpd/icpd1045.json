@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1045",
+  "formula" : "C4H4N2OS",
+  "name" : "thiouracil",
+  "synonyms" : [ "2-thiouracil", "4-hydroxy-2-pyrimidinethiol" ],
+  "alias" : "icpd1045",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19304"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11283"
+  } ],
+  "inchi" : "InChI=1S/C4H4N2OS/c7-3-1-2-5-4(8)6-3/h1-2H,(H2,5,6,7,8)",
+  "inchikey" : "ZEMGGZBWXRYJHK-UHFFFAOYSA-N",
+  "smiles" : "C1=CNC(=S)NC1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-10469" ],
+      "instances" : [ "META:Modified-Bases" ],
+      "gibbs" : 15.404483,
+      "cmlMolWeight" : 128.148,
+      "molWeight" : 128.148,
+      "parents" : [ "META:Modified-Bases" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   19.1100  -15.4000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1100  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3224  -17.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5349  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5349  -15.4000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3224  -14.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3224  -13.3002    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7660  -17.5110    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  6  7  2  0     0  0\n  4  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19304\n\n$$$$",
+  "reactions" : [ ]
+}

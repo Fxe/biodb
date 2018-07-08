@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3200",
+  "formula" : "C10H16O",
+  "name" : "(1s,5s)-2-methyl-5-(prop-1-en-2-yl)cyclohex-2-en-1-ol",
+  "synonyms" : [ "(4s,6s)-p-mentha-1,8-dien-6-ol" ],
+  "alias" : "icpd3200",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11408"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10052"
+  } ],
+  "inchi" : "InChI=1S/C10H16O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9-11H,1,5-6H2,2-3H3/t9-,10-/m0/s1",
+  "inchikey" : "BAVONGHXFVOKBV-UWVGGRQHSA-N",
+  "smiles" : "C=C(C)[C@@]1([H])CC=C(C)[C@]([H])(C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:6S-Carveols" ],
+      "reactions" : [ "META:RXN-9401" ],
+      "gibbs" : 166.02794,
+      "cmlMolWeight" : 152.236,
+      "molWeight" : 152.236,
+      "parents" : [ "META:6S-Carveols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   23.0302  -15.2355    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0302  -16.6373    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2481  -17.3417    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.4518  -16.6373    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4518  -15.2355    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.2481  -14.5381    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2498  -13.1362    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6672  -14.5390    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2498  -18.7435    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0358  -19.4424    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4586  -19.4394    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  1  0     0  0\n  6  1  2  0     0  0\n  6  7  1  0     0  0\n  1  2  1  0     0  0\n  5  8  1  1     0  0\n  2  3  1  0     0  0\n  3  9  1  1     0  0\n  3  4  1  0     0  0\n  9 10  1  0     0  0\n  4  5  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11408\n\n$$$$",
+  "reactions" : [ ]
+}

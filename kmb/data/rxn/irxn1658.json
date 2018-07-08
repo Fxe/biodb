@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1658",
+  "equation" : "carn + amet <=> icpd7217 + ahcys",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd2707" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd7217" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.22; EC-2.1.1.22",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CARNOSINE-N-METHYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02144"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -6.73999,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00340" ],
+      "orthologs" : [ "K19787" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn277",
+  "equation" : "icpd6116 + h2o <=> icpd1670",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6116" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1670" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.57; EC-3.1.1.57",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2462"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04277"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CU+2", "META:CO+2", "META:DITHIO-NITROBENZOATE", "META:ZN+2", "META:CPD-29", "META:HG+2", "META:MN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GALLATE-DEGRADATION-I-PWY", "META:PWY-6339", "META:P184-PWY", "META:METHYLGALLATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 17.104645,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00362", "rn00627" ],
+      "orthologs" : [ "K10221" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

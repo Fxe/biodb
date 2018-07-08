@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6237",
+  "equation" : "o2 + gbbtn + akg <=> succ + co2 + crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : "",
+      "icpd7044" : ""
+    },
+    "r" : {
+      "icpd6570" : "",
+      "icpd2454" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.11.1",
+  "otherNames" : [ ],
+  "alias" : "BBHOX",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.14.11.1-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GBBOX_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BBHOX"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-10661", "META:CPD-29", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6100", "META:PWY-3621" ],
+      "orphan" : "NO",
+      "gibbs" : -109.620026,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  }
+}

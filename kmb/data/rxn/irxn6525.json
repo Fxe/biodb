@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6525",
+  "equation" : "paps + icpd2383 <=> icpd2641 + h + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd2383" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2641" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.2.15; EC-2.8.2.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03946"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:STEROID-SULFOTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 8.1458435,
+      "uniprot" : [ "O82410", "O82408", "O82409" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6170",
+  "formula" : "C10H9O4",
+  "name" : "ferulate",
+  "synonyms" : [ "(2e)-3-(4-hydroxy-3-methoxyphenyl)-2-propenoate", "(e)-3-(4-hydroxy-3-methoxyphenyl)-2-propenoate", "(e)-4-hydroxy-3-methoxy-cinnamate", "(e)-4-hydroxy-3-methoxycinnamate", "(e)-ferulate", "3-methoxy-4-hydroxy-trans-cinnamate", "trans-4-hydroxy-3-methoxycinnamate", "trans-ferulate" ],
+  "alias" : "fer",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FERULIC-ACID"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "fer"
+  }, {
+    "source" : "BiGG",
+    "entry" : "fer"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01494"
+  } ],
+  "inchi" : "InChI=1S/C10H10O4/c1-14-9-6-7(2-4-8(9)11)3-5-10(12)13/h2-6,11H,1H3,(H,12,13)/p-1/b5-3+",
+  "inchikey" : "KSEBMYQBYZTDHS-HWKANZROSA-M",
+  "smiles" : "COC1=CC(=CC=C1[O-])/C(/[H])=C(\\[H])/C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:RXN-1121", "META:RXN-1241", "META:RXN-1104", "META:RXN-801", "META:3.1.1.73-RXN", "META:RXN-14432", "META:N-FERULOYLGLYCINE-DEACYLASE-RXN", "META:RXN-14448", "META:RXN-14447", "META:RXN-14446", "META:6.2.1.34-RXN", "META:RXN-14071" ],
+      "gibbs" : -4.4519706,
+      "cmlMolWeight" : 193.179,
+      "molWeight" : 193.179,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   25.2000  -22.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2000  -24.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4124  -24.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6249  -24.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6249  -22.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4124  -22.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8560  -22.0390    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8560  -20.6390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8560  -24.8610    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9876  -22.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7921  -22.7404    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6047  -22.0549    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4135  -22.7429    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6045  -20.6502    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  4  9  1  0     0  0\n  1 10  1  0     0  0\n 10 11  2  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 12 14  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01494\n\n$$$$",
+  "reactions" : [ "irxn114", "irxn6520", "irxn2040", "irxn6880", "irxn4039", "irxn1850", "irxn5556" ]
+}

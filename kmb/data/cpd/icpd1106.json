@@ -1,0 +1,39 @@
+{
+  "id" : "icpd1106",
+  "formula" : "C6H9N2O6P",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "eig3p",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "eig3p"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-ERYTHRO-IMIDAZOLE-GLYCEROL-P"
+  }, {
+    "source" : "BiGG",
+    "entry" : "eig3p"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04666"
+  } ],
+  "inchi" : "InChI=1S/C6H11N2O6P/c9-5(2-14-15(11,12)13)6(10)4-1-7-3-8-4/h1,3,5-6,9-10H,2H2,(H,7,8)(H2,11,12,13)/p-2/t5-,6+/m1/s1",
+  "inchikey" : "HFYBTHCYPKEDQQ-RITPCOANSA-L",
+  "smiles" : "C1=C([C@@]([H])([C@@]([H])(COP(=O)([O-])[O-])O)O)NC=N1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:IMIDPHOSDEHYD-RXN", "META:GLUTAMIDOTRANS-RXN", "META:RXN-17900" ],
+      "gibbs" : -208.81819,
+      "cmlMolWeight" : 236.121,
+      "molWeight" : 236.121
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 15 15  0  0  1  0  0  0  0  0999 V2000\n   29.9064  -17.4341    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.7128  -18.1154    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.5309  -17.4341    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3373  -18.1154    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9080  -16.0411    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7100  -19.5084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9414  -18.1139    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   24.9343  -16.7209    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5483  -18.1139    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9343  -19.5069    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1027  -18.1296    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.5319  -19.4551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.9298  -19.4574    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3640  -18.1286    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.2344  -17.3051    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  1  5  1  1     0  0\n  2  6  1  6     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  1  2  1  0     0  0\n  7  9  1  0     0  0\n  7 10  2  0     0  0\n  1 11  1  0     0  0\n 11 12  2  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 14 15  2  0     0  0\n 11 15  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04666\n\n$$$$",
+  "reactions" : [ "irxn1163", "irxn5500" ]
+}

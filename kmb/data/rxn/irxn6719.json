@@ -1,0 +1,53 @@
+{
+  "id" : "irxn6719",
+  "equation" : "mlthf + nadph + h <=> 5mthf + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4966" : ""
+    },
+    "r" : {
+      "icpd1210" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.20",
+  "otherNames" : [ ],
+  "alias" : "MTHFR3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MTHFR3_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MTHFR3"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MTHFO_nadp"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01224"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00670" ],
+      "orthologs" : [ "K00297" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNF517", "iCHOv1", "iND750", "iAT_PLT_636", "iAF987", "iJB785", "iYO844", "iJN746", "iRC1080", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  }
+}

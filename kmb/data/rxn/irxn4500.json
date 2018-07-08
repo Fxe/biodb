@@ -1,0 +1,43 @@
+{
+  "id" : "irxn4500",
+  "equation" : "icpd3700 <=> 5odhf2a",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3700" : ""
+    },
+    "r" : {
+      "icpd4447" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.3.4; 5.3.3.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R06990"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MUCONOLACTONE-DELTA-ISOMERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CATECHOL-ORTHO-CLEAVAGE-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -7.1,
+      "uniprot" : [ "O33951", "P00948", "Q9Z9X9" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00362", "rn01220" ],
+      "orthologs" : [ "K03464" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

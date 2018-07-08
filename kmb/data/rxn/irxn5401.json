@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5401",
+  "equation" : "nadh + h + mthgxl <=> nad + acetol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd302" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd7979" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1; 1.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "ALR2x",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-5213"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10718"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALR2x"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -5.0018005,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640" ],
+      "orthologs" : [ "K18471" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

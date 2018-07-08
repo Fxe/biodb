@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3934",
+  "equation" : "h2o + h + ctp <=> utp + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd4369" : ""
+    },
+    "r" : {
+      "icpd115" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.4.13; EC-3.5.4.13",
+  "otherNames" : [ ],
+  "alias" : "DCTPD2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DCTPD2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14118"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00568"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 8.626953,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00240" ],
+      "orthologs" : [ "K01494" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iIT341", "iNJ661", "iJN678", "iJB785", "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "irxn1469",
+  "equation" : "icpd3559 <=> icpd3653",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3559" : ""
+    },
+    "r" : {
+      "icpd3653" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.1.7; EC-5.1.1.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DIAMINOPIMEPIM-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02735"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1536", "META:CPD0-1537", "META:CPD0-1501", "META:CPD0-1535", "META:CPD0-1502", "META:Lanthionine-Isomers", "META:CPD0-1532", "META:CPD0-1499", "META:CPD0-1500", "META:CPD0-1533", "META:CPD0-1530", "META:CPD0-1498" ],
+      "activators" : [ "META:23-DIMERCAPTOPROPAN-1-OL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5097", "META:DAPLYSINESYN-PWY", "META:PWY-2941" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ "P46814", "O05322", "P44859", "Q58519", "Q9PMD8", "Q9JV69", "Q51564", "P0A6K1" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01230", "rn01120", "rn01110", "rn01130" ],
+      "orthologs" : [ "K01778" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

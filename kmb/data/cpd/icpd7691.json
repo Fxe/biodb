@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7691",
+  "formula" : "C6H8O3",
+  "name" : "dihydro-4,4-dimethyl-2,3-furandione",
+  "synonyms" : [ ],
+  "alias" : "icpd7691",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-DEHYDROPANTOYL-LACTONE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01125"
+  } ],
+  "inchi" : "InChI=1S/C6H8O3/c1-6(2)3-9-5(8)4(6)7/h3H2,1-2H3",
+  "inchikey" : "HRTOQFBQOFIFEE-UHFFFAOYSA-N",
+  "smiles" : "CC1(C)COC(=O)C1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.1.1.168-RXN", "META:1.1.99.27-RXN" ],
+      "gibbs" : -13.421032,
+      "cmlMolWeight" : 128.127,
+      "molWeight" : 128.127
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   20.0900  -20.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4900  -20.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9226  -19.1785    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7900  -18.3556    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6574  -19.1785    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2422  -18.7497    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3129  -21.6426    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2671  -21.6426    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7256  -21.7574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  2  0     0  0\n  2  7  2  0     0  0\n  1  8  1  0     0  0\n  1  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01125\n\n$$$$",
+  "reactions" : [ "irxn1954", "irxn6757" ]
+}

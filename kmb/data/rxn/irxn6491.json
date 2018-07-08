@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6491",
+  "equation" : "h2o + icpd1786 <=> icpd6149 + icpd4732",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1786" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4732" : "",
+      "icpd6149" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.4.46; EC-3.1.4.46",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCPDIESTER-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00857"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6952" ],
+      "orphan" : "NO",
+      "gibbs" : 66.03546,
+      "uniprot" : [ "Q9S3K5", "Q06282", "P09394", "Q99387", "P10908", "Q9V208" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

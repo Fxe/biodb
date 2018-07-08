@@ -1,0 +1,45 @@
+{
+  "id" : "icpd4748",
+  "formula" : "C3H7NO",
+  "name" : "3-aminopropanal",
+  "synonyms" : [ "3-amino-propanal", "3-aminopropanaldehyde", "3-aminopropionaldehyde", "beta-aminopropion aldehyde" ],
+  "alias" : "aproa",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "bamppald"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-6082"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05665"
+  }, {
+    "source" : "BiGG",
+    "entry" : "aproa"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "bamppald"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "aproa"
+  } ],
+  "inchi" : "InChI=1S/C3H7NO/c4-2-1-3-5/h3H,1-2,4H2",
+  "inchikey" : "PCXDJQZLDDHMGX-UHFFFAOYSA-N",
+  "smiles" : "C(CN)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:POLYAMINE-OXIDASE-RXN", "META:RXN-12089", "META:RXN-12332", "META:RXN-10464", "META:RXN-9015", "META:RXN-6381", "META:RXN-6382" ],
+      "gibbs" : 48.446907,
+      "cmlMolWeight" : 74.102,
+      "molWeight" : 74.102
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iJN678", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   27.1848  -20.2977    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9853  -20.9867    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3842  -20.9867    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7797  -20.2977    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5898  -20.2977    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05665\n\n$$$$",
+  "reactions" : [ "irxn1484", "irxn611", "irxn5572", "irxn2527", "irxn6546" ]
+}

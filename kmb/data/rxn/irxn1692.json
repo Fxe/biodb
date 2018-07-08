@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1692",
+  "equation" : "h2o + 2hmcnsad <=> op4en + for + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7688" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2447" : "",
+      "icpd1851" : "2.0",
+      "icpd1650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.7.1.9; EC-3.7.1.9",
+  "otherNames" : [ ],
+  "alias" : "HMSH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3.7.1.9-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMSH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02604"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P183-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -16.287125,
+      "uniprot" : [ "O85983", "O05327" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00362", "rn01220" ],
+      "orthologs" : [ "K10216" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6590",
+  "formula" : "C6H5ClO2",
+  "name" : "3-chlorocatechol",
+  "synonyms" : [ "3-chloro-1,2-benzenediol", "3-chlorobenzene-1,2-diol" ],
+  "alias" : "icpd6590",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05618"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9151"
+  } ],
+  "inchi" : "InChI=1S/C6H5ClO2/c7-4-2-1-3-5(8)6(4)9/h1-3,8-9H",
+  "inchikey" : "GQKDZDYQXPOXEM-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C(=C1)Cl)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds", "META:Catechols" ],
+      "reactions" : [ "META:RXN-9859", "META:RXN-10419", "META:RXN-16792", "META:RXN-16794", "META:RXN-9873", "META:RXN-9860", "META:RXN-10127", "META:RXN-10128" ],
+      "gibbs" : -3.3844006,
+      "cmlMolWeight" : 144.557,
+      "molWeight" : 144.557,
+      "parents" : [ "META:Chloroaromatic-Compounds", "META:Catechols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   29.4433  -16.9724    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2328  -16.2584    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4433  -18.3698    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6537  -16.2958    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0189  -16.9724    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2328  -14.8608    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2328  -19.0873    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6537  -19.0533    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   27.0189  -18.3698    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  5  9  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05618\n\n$$$$",
+  "reactions" : [ "irxn3959", "irxn227", "irxn4689" ]
+}

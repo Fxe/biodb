@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2015",
+  "equation" : "icpd8107 + icpd354 <=> icpd3123 + icpd8139",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd354" : ""
+    },
+    "r" : {
+      "icpd3123" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.99.12; 1.1.99.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01696"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SORBOSE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

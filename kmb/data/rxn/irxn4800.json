@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4800",
+  "equation" : "icpd2421 <=> h2o + itaccoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2421" : ""
+    },
+    "r" : {
+      "icpd7746" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.56; 4.2.1.56",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02491"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ITACONYL-COA-HYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5749" ],
+      "orphan" : "NO",
+      "gibbs" : 2.362976,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00660", "C5" ],
+      "orthologs" : [ "K18291", "C4", "K18290" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

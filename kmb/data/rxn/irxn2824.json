@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2824",
+  "equation" : "oca <=> pyr + oaa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd466" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7306" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.3.17; EC-4.1.3.17",
+  "otherNames" : [ ],
+  "alias" : "OCAALD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OCAALD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00350"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2464"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:OXALACETIC_ACID", "META:CPD-29", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GALLATE-DEGRADATION-I-PWY", "META:GALLATE-DEGRADATION-II-PWY", "META:P184-PWY", "META:METHYLGALLATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 5.128235,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00362" ],
+      "orthologs" : [ "K10218" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

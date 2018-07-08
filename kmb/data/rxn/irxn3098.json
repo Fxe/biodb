@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3098",
+  "equation" : "coa + arachcrn <=> arachcoa + crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd7184" : ""
+    },
+    "r" : {
+      "icpd5474" : "",
+      "icpd6570" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ARACHCPT1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ARACHCPT1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARACHCPT2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

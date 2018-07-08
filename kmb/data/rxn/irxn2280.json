@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2280",
+  "equation" : "icpd7169 + atp <=> icpd3072 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7169" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3072" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.149; 2.7.1.149",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.7.1.149-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05803"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HEPARIN" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6351", "META:PWY-6367" ],
+      "orphan" : "NO",
+      "gibbs" : -8.289551,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00562" ],
+      "orthologs" : [ "K00920" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

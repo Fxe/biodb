@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3115",
+  "equation" : "1Dgali + sucr <=> inost + raffin",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3879" : "",
+      "icpd5746" : ""
+    },
+    "r" : {
+      "icpd4293" : "",
+      "icpd7901" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.82",
+  "otherNames" : [ ],
+  "alias" : "AGMIS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02411"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AGMIS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K06617" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2435",
+  "equation" : "h2o + icpd4595 <=> icpd370",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4595" : ""
+    },
+    "r" : {
+      "icpd370" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.35; EC-3.1.1.35",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03692"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIHYDROCOUMARIN-LIPASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CUSO4", "META:ZN+2" ],
+      "activators" : [ "META:NI+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5319" ],
+      "orphan" : "NO",
+      "gibbs" : 5.7118845,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00624" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

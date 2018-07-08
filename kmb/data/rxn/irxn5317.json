@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5317",
+  "equation" : "bhb <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd42" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DM_bhb_x",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EX_bhb_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_bhb_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_bhb_x"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

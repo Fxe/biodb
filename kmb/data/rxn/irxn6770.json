@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6770",
+  "equation" : "icpd7890 + atp <=> icpd6067 + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7890" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd6067" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.67; EC-2.7.1.67",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1-PHOSPHATIDYLINOSITOL-KINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03361"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ADENOSINE", "META:CPD-11924" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6352", "META:PWY-6351" ],
+      "orphan" : "NO",
+      "gibbs" : -5.7929687,
+      "uniprot" : [ "P37297", "P42356", "P39104", "Q9UBF8", "Q28925", "P12798", "O81281", "O81129", "P18688", "Q9ZPE1" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562" ],
+      "orthologs" : [ "K00888", "K19801", "K13711" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

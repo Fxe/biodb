@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7913",
+  "formula" : "C8H7NO3",
+  "name" : "7-hydroxy-6-methyl-1h,3h-furo[3,4-c]pyridin-1-one",
+  "synonyms" : [ ],
+  "alias" : "icpd7913",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00971"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-375"
+  } ],
+  "inchi" : "InChI=1S/C8H7NO3/c1-4-7(10)6-5(2-9-4)3-12-8(6)11/h2,10H,3H2,1H3",
+  "inchikey" : "HHPDVQLBYQFYFA-UHFFFAOYSA-N",
+  "smiles" : "CC1=C(C2=C(C=N1)COC2=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:4-PYRIDOXOLACTONASE-RXN", "META:PYRIDOXAL-4-DEHYDROGENASE-RXN" ],
+      "gibbs" : -23.57116,
+      "cmlMolWeight" : 165.148,
+      "molWeight" : 165.148
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 13  0  0  0  0  0  0  0  0999 V2000\n   27.4375  -16.2335    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6086  -16.9018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2788  -16.9018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6086  -18.2506    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2788  -18.2506    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1262  -16.2335    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4375  -18.9310    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1262  -18.9127    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6061  -15.9945    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0515  -14.7655    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7112  -14.9132    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7716  -13.8801    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  2  4  2  0     0  0\n  3  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  5  7  2  0     0  0\n  2  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n  1 11  1  0     0  0\n 11 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00971\n\n$$$$",
+  "reactions" : [ "irxn5323", "irxn1238" ]
+}

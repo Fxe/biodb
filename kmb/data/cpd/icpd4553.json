@@ -1,0 +1,29 @@
+{
+  "id" : "icpd4553",
+  "formula" : "C5H7O3",
+  "name" : "2-methylacetoacetate",
+  "synonyms" : [ "(+/-)-2-methyl-3-oxobutanoate", "2-methyl-3-ketobutyrate", "2-methyl-3-oxo-butanoate", "2-methyl-3-oxobutanoate", "2-methyl-3-oxobutyrate", "alpha-methylacetoacetate" ],
+  "alias" : "icpd4553",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Poly-Hydroxybutyrate"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06143"
+  } ],
+  "inchi" : "InChI=1S/C5H8O3/c1-3(4(2)6)5(7)8/h3H,1-2H3,(H,7,8)/p-1",
+  "inchikey" : "GCXJINGJZAOJHR-UHFFFAOYSA-M",
+  "smiles" : "CC(C(=O)C)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:3.1.1.75-RXN", "META:RXN1-42" ],
+      "parents" : [ "META:Secondary-Metabolites", "META:Polyhydroxyalkanoates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   13.7649  -17.9900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9773  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1897  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4022  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6646  -17.9900    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4022  -15.8903    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9773  -15.8900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.3114  -17.3007    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  4  6  2  0     0  0\n  2  7  1  0     0  0\n  1  8  1  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1  6   1   2   3   4   6   7\nM  SDI   1  4   12.8100  -18.6900   12.8100  -17.0100\nM  SDI   1  4   18.1300  -17.0100   18.1300  -18.6900\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C06143\n\n$$$$",
+  "reactions" : [ ]
+}

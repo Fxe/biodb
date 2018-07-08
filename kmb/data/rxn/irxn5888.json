@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5888",
+  "equation" : "pi + oaa <=> pep + hco3",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7485" : "",
+      "icpd7306" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd1484" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.31",
+  "otherNames" : [ ],
+  "alias" : "PEPC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PEPC"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PEPCARBOX-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GTP", "META:KCL", "META:L-ASPARTATE", "META:NACL", "META:ATP", "META:ADP", "META:DL-Phospholactate", "META:MAL", "META:DL-Phosphomalate" ],
+      "activators" : [ "META:GTP", "META:CPD0-1682", "META:FRUCTOSE-16-DIPHOSPHATE", "META:GLY", "META:Pi", "META:CDP", "META:MG+2", "META:GLC-6-P", "META:Alcohols", "META:ACETYL-COA", "META:CMP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6142", "META:PWY-7115", "META:FERMENTATION-PWY", "META:PWY-7124", "META:PWY-6146", "META:P23-PWY", "META:PWY-7117", "META:PWYQT-4429", "META:PWY-5913", "META:PWY-241", "META:PWY-1622", "META:PWY-6549" ],
+      "orphan" : "NO",
+      "gibbs" : -0.8641052,
+      "uniprot" : [ "O48623", "P51063", "Q42634", "P27154", "P06516", "P15804", "P29195", "Q43268", "Q42730", "P29194", "O23947", "O22119", "O23946", "Q84VW9", "Q43267", "O22118", "P12880", "Q02735", "Q01647", "P00864", "Q01648", "Q41836", "Q40105", "Q40104", "P28594", "Q40103", "Q41197", "P30694", "Q40102", "P51059", "Q41198", "P43920", "P10490", "P16097", "Q02909" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

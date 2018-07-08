@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6137",
+  "formula" : "C7H6NO3",
+  "name" : "o-hydroxylaminobenzoate",
+  "synonyms" : [ "2-hydroxylaminobenzoate" ],
+  "alias" : "icpd6137",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9169"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16235"
+  } ],
+  "inchi" : "InChI=1S/C7H7NO3/c9-7(10)5-3-1-2-4-6(5)8-11/h1-4,8,11H,(H,9,10)/p-1",
+  "inchikey" : "JKRIWPXSEMPTNP-UHFFFAOYSA-M",
+  "smiles" : "C1=CC(=C(C=C1)NO)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:RXN-8848", "META:RXN-8847", "META:RXN-8846" ],
+      "gibbs" : -20.715334,
+      "cmlMolWeight" : 152.129,
+      "molWeight" : 152.129,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   24.6369  -21.2078    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6369  -22.6076    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8491  -23.3075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0615  -22.6076    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0615  -21.2078    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8491  -20.5079    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8491  -19.1083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6201  -18.3984    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0446  -18.4179    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2924  -20.4969    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4975  -21.1925    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  5 10  1  0     0  0\n 10 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16235\n\n$$$$",
+  "reactions" : [ "irxn6909", "irxn6910" ]
+}

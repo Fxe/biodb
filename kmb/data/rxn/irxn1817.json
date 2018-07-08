@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1817",
+  "equation" : "icpd8053 + nadp <=> nadph + icpd1033 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8053" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1033" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.46; 1.3.1.46",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02954"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BIOCHANIN-A-REDUCTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -4.630615,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00943" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

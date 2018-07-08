@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2092",
+  "formula" : "C8H8O3",
+  "name" : "3-hydroxyphenylacetic acid",
+  "synonyms" : [ "(3-hydroxy-phenyl)-acetic acid", "(3-hydroxyphenyl)acetic acid", "2-(3-hydroxyphenyl)acetic acid", "3-hydroxy-benzeneacetic acid", "m-hydroxyphenylacetic acid" ],
+  "alias" : "icpd2092",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXYPHENYLACETATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05593"
+  } ],
+  "inchi" : "InChI=1S/C8H8O3/c9-7-3-1-2-6(4-7)5-8(10)11/h1-4,9H,5H2,(H,10,11)",
+  "inchikey" : "FVMDYYGIDFPZAX-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=CC(=C1)CC(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monocarboxylates" ],
+      "reactions" : [ "META:1.14.13.63-RXN" ],
+      "gibbs" : -17.774218,
+      "cmlMolWeight" : 151.141,
+      "molWeight" : 151.141,
+      "parents" : [ "META:Monocarboxylates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   22.0518  -22.4759    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0518  -23.8747    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2673  -24.5707    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4755  -23.8747    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4755  -22.4759    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2673  -21.7728    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8397  -21.7722    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6885  -21.7737    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9005  -22.4776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1136  -21.7755    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8994  -23.8766    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  2  0     0  0\n  6  1  1  0     0  0\n  1  7  1  0     0  0\n  1  2  2  0     0  0\n  5  8  1  0     0  0\n  2  3  1  0     0  0\n  8  9  1  0     0  0\n  3  4  2  0     0  0\n  9 10  1  0     0  0\n  4  5  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05593\n\n$$$$",
+  "reactions" : [ ]
+}

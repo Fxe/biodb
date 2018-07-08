@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3351",
+  "equation" : "frmd <=> h2o + cyan",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3454" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd2921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.66; 4.2.1.66",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01408"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CYANIDE-HYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7142" ],
+      "orphan" : "NO",
+      "gibbs" : 14.583,
+      "uniprot" : [ "P32964" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00460" ],
+      "orthologs" : [ "K10675" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

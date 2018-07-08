@@ -1,0 +1,41 @@
+{
+  "id" : "icpd7991",
+  "formula" : "C7H7O4",
+  "name" : "(1r,6s)-1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate",
+  "synonyms" : [ ],
+  "alias" : "bz12diol",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-290"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06321"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "bz12diol"
+  }, {
+    "source" : "BiGG",
+    "entry" : "bz12diol"
+  } ],
+  "inchi" : "InChI=1S/C7H8O4/c8-5-3-1-2-4-7(5,11)6(9)10/h1-5,8,11H,(H,9,10)/p-1/t5-,7+/m0/s1",
+  "inchikey" : "PUCYIVFXTPWJDD-CAHLUQPWSA-M",
+  "smiles" : "C1=C[C@@]([H])([C@](C=C1)(C(=O)[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Diols" ],
+      "reactions" : [ "META:1.3.1.25-RXN", "META:BENZOATE-12-DIOXYGENASE-RXN" ],
+      "gibbs" : -48.664223,
+      "cmlMolWeight" : 155.13,
+      "molWeight" : 155.13,
+      "parents" : [ "META:Diols" ]
+    },
+    "bigg" : {
+      "models" : [ "iYL1228", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   26.5709  -20.9709    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.7837  -21.6706    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.3526  -21.6706    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5709  -19.5776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5563  -19.9856    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7837  -23.0815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9905  -20.9709    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3526  -23.0815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7837  -18.8837    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3641  -18.8780    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5709  -23.7752    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  1  5  1  1     0  0\n  2  6  1  0     0  0\n  2  7  1  1     0  0\n  3  8  2  0     0  0\n  4  9  1  0     0  0\n  4 10  2  0     0  0\n  6 11  2  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06321\n\n$$$$",
+  "reactions" : [ "irxn3630", "irxn4393" ]
+}

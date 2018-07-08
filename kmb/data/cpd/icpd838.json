@@ -1,0 +1,32 @@
+{
+  "id" : "icpd838",
+  "formula" : "C3H6O2",
+  "name" : "lactaldehyde",
+  "synonyms" : [ "(+-)-2-hydroxypropanal", "2-hydroxypropanal", "2-hydroxypropionaldehyde", "alpha-hydroxypropionaldehyde", "dl-lactaldehyde", "hydroxypropionaldehyde" ],
+  "alias" : "icpd838",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Lactaldehydes"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05999"
+  } ],
+  "inchi" : "InChI=1S/C3H6O2/c1-3(5)2-4/h2-3,5H,1H3",
+  "inchikey" : "BSABBBMNWQWLLU-UHFFFAOYSA-N",
+  "smiles" : "CC(C([H])=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:LACTALD", "META:CPD-358" ],
+      "gibbs" : -8.843282,
+      "cmlMolWeight" : 74.079,
+      "molWeight" : 74.079,
+      "parents" : [ "META:LACTALD", "META:CPD-358", "META:Aldehydes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  1  0  0  0  0  0999 V2000\n   25.8377  -20.2300    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.0468  -19.5290    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6223  -19.5290    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8377  -21.6319    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2556  -20.2300    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0468  -18.1303    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  4     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05999\n\n$$$$",
+  "reactions" : [ ]
+}

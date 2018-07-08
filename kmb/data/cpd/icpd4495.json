@@ -1,0 +1,37 @@
+{
+  "id" : "icpd4495",
+  "formula" : "C8H16N2O3",
+  "name" : "glycyl-leucine",
+  "synonyms" : [ "(2s)-2-(2-aminoacetamido)-4-methylpentanoic acid", "glycyl-l-leucine", "glycylleucine", "n-glycyl-l-leucine" ],
+  "alias" : "glyleu",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12312"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02155"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "glyleu"
+  } ],
+  "inchi" : "InChI=1S/C8H16N2O3/c1-5(2)3-6(8(12)13)10-7(11)4-9/h5-6H,3-4,9H2,1-2H3,(H,10,11)(H,12,13)/t6-/m0/s1",
+  "inchikey" : "DKEXFJVMVGETOO-LURJTMIESA-N",
+  "smiles" : "CC(C)C[C@@H](C(=O)O)NC(=O)CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:DIPEPTIDES" ],
+      "gibbs" : 48.887936,
+      "cmlMolWeight" : 188.226,
+      "molWeight" : 188.226,
+      "parents" : [ "META:DIPEPTIDES" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   24.6384  -17.4289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8558  -16.7260    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0733  -17.4289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2908  -16.7260    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0733  -18.8346    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4209  -16.7260    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8558  -15.3202    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0563  -14.6269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2486  -15.3153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4447  -14.6244    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0564  -13.2118    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2288  -17.4146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4209  -15.3303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\n  1  6  1  0     0  0\n  2  7  1  6     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  8 11  2  0     0  0\n  6 12  1  0     0  0\n  6 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02155\n\n$$$$",
+  "reactions" : [ ]
+}

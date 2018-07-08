@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5134",
+  "formula" : "C7H8O3",
+  "name" : "2,4,5-trihydroxytoluene",
+  "synonyms" : [ ],
+  "alias" : "icpd5134",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9136"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18317"
+  } ],
+  "inchi" : "InChI=1S/C7H8O3/c1-4-2-6(9)7(10)3-5(4)8/h2-3,8-10H,1H3",
+  "inchikey" : "QKGQHTCUNGPCIA-UHFFFAOYSA-N",
+  "smiles" : "CC1=C(C=C(C(=C1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:RXN-8823", "META:RXN-8822" ],
+      "gibbs" : -8.32103,
+      "cmlMolWeight" : 140.138,
+      "molWeight" : 140.138,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   20.6500  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6500  -19.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8624  -20.4400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0749  -19.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0749  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8624  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8624  -16.2402    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3060  -17.6290    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4376  -20.4400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8624  -21.8398    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  5  8  1  0     0  0\n  2  9  1  0     0  0\n  3 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18317\n\n$$$$",
+  "reactions" : [ "irxn1707", "irxn1704" ]
+}

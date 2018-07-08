@@ -1,0 +1,36 @@
+{
+  "id" : "icpd1633",
+  "formula" : "C8H10O",
+  "name" : "2-phenylethanol",
+  "synonyms" : [ "1-phenyl-2-ethanol", "2-hydroxyethylbenzene", "2-phenyl-ethanol", "2-phenylethan-1-ol", "2-phenylethyl alcohol", "benzeneethanol", "benzeneethanol, 9ci", "benzenethanol", "benzyl carbinol", "benzyl-methanol", "benzylcarbinol", "benzylmethanol", "beta -hydroxyethylbenzene", "beta-phenylethanol", "beta-phenylethyl alcohol", "hydroxyethylbenzene", "phenethyl alcohol", "phenyl ethyl alcohol", "phenylethyl alcohol", "phenylmethylcarbinol" ],
+  "alias" : "pea",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "pea"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7035"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05853"
+  } ],
+  "inchi" : "InChI=1S/C8H10O/c9-7-6-8-4-2-1-3-5-8/h1-5,9H,6-7H2",
+  "inchikey" : "WRMNZCZEMHIOCP-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)CCO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-13542", "META:RXN-7700", "META:RXN-13541", "META:RXN-11265", "META:RXN-13540", "META:RXN-13694", "META:RXN-13543", "META:RXN-13536" ],
+      "gibbs" : 96.05121,
+      "cmlMolWeight" : 122.166,
+      "molWeight" : 122.166
+    },
+    "bigg" : {
+      "models" : [ "iNF517" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   24.0158  -19.9151    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7903  -20.6155    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0217  -18.5145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2181  -20.6212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5881  -19.9035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8079  -17.8141    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4261  -19.9094    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5939  -18.5028    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6342  -20.6097    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  7  9  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05853\n\n$$$$",
+  "reactions" : [ "irxn2525" ]
+}

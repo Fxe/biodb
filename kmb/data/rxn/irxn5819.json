@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5819",
+  "equation" : "o2 + h2o + 3moxtyr <=> 3mox4hpac + n2 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7346" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd2725" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.4",
+  "otherNames" : [ ],
+  "alias" : "3MOXTYROX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "3MOXTYROX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04890"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350" ],
+      "orthologs" : [ "K00274" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

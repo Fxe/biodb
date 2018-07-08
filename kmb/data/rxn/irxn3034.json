@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3034",
+  "equation" : "n8aspmd + o2 + h2o <=> n4abutn + 13dampp + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd6063" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd2282" : "",
+      "icpd7497" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.5.3.15; 1.5.3.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09075"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10463"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-11586", "META:HYDROXYLAMINE", "META:PHENYLHYDRAZINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -23.453003,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

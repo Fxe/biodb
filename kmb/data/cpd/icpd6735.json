@@ -1,0 +1,39 @@
+{
+  "id" : "icpd6735",
+  "formula" : "C8H10O",
+  "name" : "4-methylbenzyl alcohol",
+  "synonyms" : [ "(4-methylphenyl)methanol", "1-hydroxymethyl-4-methylbenzene", "4-(hydroxymethyl)toluene", "4-methyl-benzenemethanol", "4-methylbenzenemethanol, 9ci", "4-tolylcarbinol", "alpha-hydroxy-p-xylene", "p-tolylmethanol" ],
+  "alias" : "4mbzalc",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-METHYLBENZYL-ALCOHOL"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4mbzalc"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "4mbzalc"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06757"
+  } ],
+  "inchi" : "InChI=1S/C8H10O/c1-7-2-4-8(6-9)5-3-7/h2-5,9H,6H2,1H3",
+  "inchikey" : "KMTDMTZBNYGUNX-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=C(C=C1)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8579", "META:RXN-8581" ],
+      "gibbs" : 92.8012,
+      "cmlMolWeight" : 122.166,
+      "molWeight" : 122.166
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   25.3078  -20.6080    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3078  -22.0125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5192  -19.9115    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0964  -19.9057    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5192  -22.7146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7305  -20.6197    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1024  -18.5012    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7305  -22.0125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9419  -22.7088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06757\n\n$$$$",
+  "reactions" : [ "irxn554", "irxn3679" ]
+}

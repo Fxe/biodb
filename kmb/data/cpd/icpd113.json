@@ -1,0 +1,31 @@
+{
+  "id" : "icpd113",
+  "formula" : "C3H10N3O6P",
+  "name" : "guanidinoacetate phosphate",
+  "synonyms" : [ "guanidinoacetate-phosphate" ],
+  "alias" : "icpd113",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GUANIDINO-ACETATE-P"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03166"
+  } ],
+  "inchi" : "InChI=1S/C3H7N3O2.H3O4P/c4-3(5)6-1-2(7)8;1-5(2,3)4/h1H2,(H,7,8)(H4,4,5,6);(H3,1,2,3,4)",
+  "inchikey" : "HBOGVDDPCCTYJI-UHFFFAOYSA-N",
+  "smiles" : "C(C(=O)O)NC(=N)N.OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:GUANIDOACETATE-KINASE-RXN" ],
+      "gibbs" : -212.10153,
+      "cmlMolWeight" : 195.071,
+      "molWeight" : 195.071
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  0  0  0  0  0  0999 V2000\n   20.4400  -21.4900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6524  -22.1900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8649  -21.4900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0773  -22.1900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2897  -21.4900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5022  -22.1900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0400  -21.4900    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6400  -21.4900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0400  -20.0900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0400  -22.8900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6524  -23.5898    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2897  -20.0901    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  7 10  1  0     0  0\n  2 11  2  0     0  0\n  5 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03166\n\n$$$$",
+  "reactions" : [ "irxn3107" ]
+}

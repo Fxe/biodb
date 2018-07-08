@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2440",
+  "equation" : "Nacasp + glu__L + atp <=> h + pi + icpd7839 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6173" : "",
+      "icpd514" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd7839" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.3.2.41; 6.3.2.41; 6.3.2.42",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10678"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15265"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -8.384033,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00250" ],
+      "orthologs" : [ "K18310", "K18311" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

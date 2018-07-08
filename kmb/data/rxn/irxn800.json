@@ -1,0 +1,45 @@
+{
+  "id" : "irxn800",
+  "equation" : "h2o + CE2245 <=> 3httccoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1198" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3142" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "3HAD240_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ECH241_2E_x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3HAD240_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

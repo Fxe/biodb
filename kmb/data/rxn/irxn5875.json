@@ -1,0 +1,57 @@
+{
+  "id" : "irxn5875",
+  "equation" : "phdp + h + hgentis <=> 2m6phol + co2 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4059" : "",
+      "icpd1851" : "",
+      "icpd6702" : ""
+    },
+    "r" : {
+      "icpd4057" : "",
+      "icpd2454" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.115; EC-2.5.1.115",
+  "otherNames" : [ ],
+  "alias" : "HPT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HPT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HGPHT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07500"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HPT_h"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2541"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1422" ],
+      "orphan" : "NO",
+      "gibbs" : -21.185883,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00130", "rn01110" ],
+      "orthologs" : [ "K09833" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJN678" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2858",
+  "formula" : "C8H8O",
+  "name" : "(s)-2-phenyloxirane",
+  "synonyms" : [ "(s)-styrene oxide" ],
+  "alias" : "icpd2858",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13773"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20782"
+  } ],
+  "inchi" : "InChI=1S/C8H8O/c1-2-4-7(5-3-1)8-6-9-8/h1-5,8H,6H2/t8-/m1/s1",
+  "inchikey" : "AWMVMTVKBNGEAK-MRVPVSSYSA-N",
+  "smiles" : "C1=CC=C(C=C1)[C@@]2([H])CO2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Phenyloxirane" ],
+      "reactions" : [ "META:RXN-12764", "META:RXN-12765" ],
+      "gibbs" : 99.588974,
+      "cmlMolWeight" : 120.151,
+      "molWeight" : 120.151,
+      "parents" : [ "META:2-Phenyloxirane" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9 10  0  0  1  0  0  0  0  0999 V2000\n   18.6135  -14.7167    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   18.6198  -16.1052    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3044  -13.5074    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9160  -13.5074    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4105  -16.8026    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8418  -16.8026    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4105  -18.2101    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8418  -18.2101    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6198  -18.9204    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  2  0     0  0\n  7  9  2  0     0  0\n  3  4  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20782\n\n$$$$",
+  "reactions" : [ "irxn1000", "irxn4016" ]
+}

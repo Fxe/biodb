@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4530",
+  "formula" : "C6H3ClO4",
+  "name" : "2-[(2e)-4-chloro-5-oxo-2,5-dihydrofuran-2-ylidene]acetic acid",
+  "synonyms" : [ ],
+  "alias" : "icpd4530",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-2-CHLORO-4-CARBOXYMETHYLENEBUT-2-E"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04706"
+  } ],
+  "inchi" : "InChI=1S/C6H3ClO4/c7-4-1-3(2-5(8)9)11-6(4)10/h1-2H,(H,8,9)/b3-2+",
+  "inchikey" : "ADSGHWJRPOXXTD-NSCUHMNNSA-N",
+  "smiles" : "C/1=C(C(=O)O\\C1=C(/[H])\\C(=O)O)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Gamma-lactones" ],
+      "reactions" : [ "META:DIENELACHYDRO-RXN", "META:RXN-18361", "META:5.2.1.10-RXN", "META:RXN-16227" ],
+      "gibbs" : -116.20982,
+      "cmlMolWeight" : 173.532,
+      "molWeight" : 173.532,
+      "parents" : [ "META:Gamma-lactones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   23.1499  -19.0836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7289  -17.7507    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5530  -19.0836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3080  -20.2763    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   23.8514  -16.9789    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3960  -17.3297    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9739  -17.7507    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2024  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4149  -17.7800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6273  -17.0800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4149  -19.1798    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  5  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04706\n\n$$$$",
+  "reactions" : [ "irxn2254", "irxn4033", "irxn537" ]
+}

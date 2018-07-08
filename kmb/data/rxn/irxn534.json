@@ -1,0 +1,46 @@
+{
+  "id" : "irxn534",
+  "equation" : "com + dma <=> mma + mcom",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2216" : "",
+      "icpd1757" : ""
+    },
+    "r" : {
+      "icpd4941" : "",
+      "icpd376" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.247; 2.1.1.249",
+  "otherNames" : [ ],
+  "alias" : "DMAMT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DMAMT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09999"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01200", "rn00680", "rn01120" ],
+      "orthologs" : [ "K16179", "K16178", "K14082" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

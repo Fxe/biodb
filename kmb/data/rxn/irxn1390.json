@@ -1,0 +1,43 @@
+{
+  "id" : "irxn1390",
+  "equation" : "icpd1670 <=> icpd277",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1670" : ""
+    },
+    "r" : {
+      "icpd277" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.2.8; EC-5.3.2.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9983"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07839"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GALLATE-DEGRADATION-I-PWY", "META:GALLATE-DEGRADATION-II-PWY", "META:PWY-6339", "META:P184-PWY", "META:METHYLGALLATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 4.95,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00362" ],
+      "orthologs" : [ "K16514" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

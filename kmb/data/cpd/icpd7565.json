@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7565",
+  "formula" : "C9H12O4",
+  "name" : "3-methoxy-4-hydroxyphenylethyleneglycol",
+  "synonyms" : [ "1-(4-hydroxy-3-methoxyphenyl)-1,2-ethanediol", "1-(4-hydroxy-3-methoxyphenyl)ethane-1,2-diol" ],
+  "alias" : "icpd7565",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11497"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05594"
+  } ],
+  "inchi" : "InChI=1S/C9H12O4/c1-13-9-4-6(8(12)5-10)2-3-7(9)11/h2-4,8,10-12H,5H2,1H3",
+  "inchikey" : "FBWPWWWZWKPJFL-UHFFFAOYSA-N",
+  "smiles" : "COC1=CC(=CC=C1O)C(CO)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Guaiacols" ],
+      "reactions" : [ "META:RXN-10914", "META:RXN-10915" ],
+      "gibbs" : 14.243445,
+      "cmlMolWeight" : 184.191,
+      "molWeight" : 184.191,
+      "parents" : [ "META:Guaiacols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   18.5500  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5500  -22.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7624  -23.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9749  -22.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9749  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7624  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2124  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4249  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6373  -20.5800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2186  -19.1803    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7624  -24.7798    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5332  -25.4897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3376  -23.3800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  7 10  1  0     0  0\n  3 11  1  0     0  0\n 11 12  1  0     0  0\n  2 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05594\n\n$$$$",
+  "reactions" : [ "irxn5286" ]
+}

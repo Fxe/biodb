@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6008",
+  "equation" : "2ameph + pyr <=> ala__L + Pald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd7776" : ""
+    },
+    "r" : {
+      "icpd4711" : "",
+      "icpd7336" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.37; 2.6.1.37",
+  "otherNames" : [ ],
+  "alias" : "AEPPYRTA",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04152"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AEPPYRTA"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.6.1.37-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1075", "META:CPD0-1076", "META:HYDROXYLAMINE", "META:CPD0-1074", "META:CYS", "META:CARBOXYMETHOXYLAMINE", "META:HG+2", "META:CPD0-1068", "META:CPD-2482" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PHOSPHONOTASE-PWY", "META:PWY-6832" ],
+      "orphan" : "NO",
+      "gibbs" : -1.5400085,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00440", "rn01120" ],
+      "orthologs" : [ "K03430", "K09469" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "STM_v1_0" ]
+    }
+  }
+}

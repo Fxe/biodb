@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2360",
+  "formula" : "C6H5NO",
+  "name" : "nitrosobenzene",
+  "synonyms" : [ ],
+  "alias" : "icpd2360",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06876"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NITROSOBENZENE"
+  } ],
+  "inchi" : "InChI=1S/C6H5NO/c8-7-6-4-2-1-3-5-6/h1-5H",
+  "inchikey" : "NLRKCXQQSUWLCH-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)N=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C-nitroso-compounds", "META:Aromatics" ],
+      "reactions" : [ "META:RXN-18437", "META:RXN-18436" ],
+      "gibbs" : 50.155605,
+      "cmlMolWeight" : 107.112,
+      "molWeight" : 107.112,
+      "parents" : [ "META:C-nitroso-compounds", "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : "\n  ISISHOST03240423152D 1   1.00000     0.00000  5931\n\n  8  8  0     0  0            999 V2000\n   -0.0897    0.3621    0.0000 C   0  0  0  0  0  0           0  0  0\n   -0.8034   -0.0517    0.0000 C   0  0  0  0  0  0           0  0  0\n    0.6241   -0.0517    0.0000 C   0  0  0  0  0  0           0  0  0\n   -0.0862    1.1862    0.0000 N   0  0  0  0  0  0           0  0  0\n   -0.8034   -0.8759    0.0000 C   0  0  0  0  0  0           0  0  0\n    0.6241   -0.8759    0.0000 C   0  0  0  0  0  0           0  0  0\n    0.6276    1.5966    0.0000 O   0  0  0  0  0  0           0  0  0\n   -0.0897   -1.2897    0.0000 C   0  0  0  0  0  0           0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06876\n\n$$$$",
+  "reactions" : [ "irxn5609", "irxn5605" ]
+}

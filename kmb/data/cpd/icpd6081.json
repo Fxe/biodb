@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6081",
+  "formula" : "C8H16N2O3",
+  "name" : "n2-acetyl-l-lysine",
+  "synonyms" : [ "6-amino-l-2-acetamidohexanoic acid", "acetyllysine", "n(alpha)-acetyllysine", "n-acetyl-l-lysine", "n2-acetyllysine" ],
+  "alias" : "icpd6081",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C12989"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-ACETYL-L-LYSINE"
+  } ],
+  "inchi" : "InChI=1S/C8H16N2O3/c1-6(11)10-7(8(12)13)4-2-3-5-9/h7H,2-5,9H2,1H3,(H,10,11)(H,12,13)/t7-/m0/s1",
+  "inchikey" : "VEYYWZRYIYDQJM-ZETCQYMHSA-N",
+  "smiles" : "CC(=N[C@@]([H])(CCCCN)C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ORNITHINE-GLU-AMINOTRANSFERASE-RXN" ],
+      "gibbs" : 50.697933,
+      "cmlMolWeight" : 188.226,
+      "molWeight" : 188.226
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   20.1600  -29.4000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9000  -28.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7100  -29.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5200  -28.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2600  -29.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.0700  -28.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8800  -29.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.0700  -27.3000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   11.6900  -28.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8800  -30.8000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8800  -26.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.6900  -27.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8800  -25.2000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  1  1     0  0\n  7  9  1  0     0  0\n  7 10  2  0     0  0\n  8 11  1  0     0  0\n 11 12  1  0     0  0\n 11 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12989\n\n$$$$",
+  "reactions" : [ ]
+}

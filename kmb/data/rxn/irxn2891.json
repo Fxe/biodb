@@ -1,0 +1,53 @@
+{
+  "id" : "irxn2891",
+  "equation" : "aacoa + nadph + h <=> 3hbcoa + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd726" : ""
+    },
+    "r" : {
+      "icpd310" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.157; 1.1.1.157",
+  "otherNames" : [ ],
+  "alias" : "HBCO_nadp",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HBCO_nadp_m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXYBUTYRYL-COA-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01976"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HBCO_nadp"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -0.1665039,
+      "uniprot" : [ "P52041", "Q9L8D9", "P76083" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650", "rn01200", "rn01120", "rn00362" ],
+      "orthologs" : [ "K00074" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

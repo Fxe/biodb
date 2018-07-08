@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3252",
+  "formula" : "C9H10O",
+  "name" : "chavicol",
+  "synonyms" : [ "3-(p-hydroxyphenyl)-1-propene", "4-(2-propenyl)-phenol", "4-(2-propenyl)phenol, 9ci", "4-(prop-2-en-1-yl)phenol", "4-(prop-2-enyl)-phenol", "4-allylphenol", "p-allyl-phenol", "p-allylphenol", "phenol, 4-(2-propenyl)- (9ci)", "phenol, p-allyl- (8ci)" ],
+  "alias" : "icpd3252",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-6483"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16930"
+  } ],
+  "inchi" : "InChI=1S/C9H10O/c1-2-3-8-4-6-9(10)7-5-8/h2,4-7,10H,1,3H2",
+  "inchikey" : "RGIBXDHONMXTLI-UHFFFAOYSA-N",
+  "smiles" : "C=CCC1=CC=C(C=C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aryl-Alcohol" ],
+      "reactions" : [ "META:RXN-13672", "META:RXN-6742" ],
+      "gibbs" : 116.121216,
+      "cmlMolWeight" : 134.177,
+      "molWeight" : 134.177,
+      "parents" : [ "META:Aryl-Alcohol" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   16.5900  -17.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5900  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8024  -19.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0149  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0149  -17.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8024  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3776  -19.9500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2460  -17.1390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4512  -17.8347    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6335  -17.1519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16930\n\n$$$$",
+  "reactions" : [ "irxn4778" ]
+}

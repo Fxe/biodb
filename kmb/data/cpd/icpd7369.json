@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7369",
+  "formula" : "C4H12N",
+  "name" : "tetramethylammonium",
+  "synonyms" : [ "tetramethylazanium" ],
+  "alias" : "icpd7369",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7679"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20292"
+  } ],
+  "inchi" : "InChI=1S/C4H12N/c1-5(2,3)4/h1-4H3/q+1",
+  "inchikey" : "QEMXHQIAXOOASZ-UHFFFAOYSA-N",
+  "smiles" : "C[N+](C)(C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:CARBPSYN-RXN", "META:BADH-RXN" ],
+      "reactions" : [ "META:RXN-8132" ],
+      "gibbs" : 108.341385,
+      "cmlMolWeight" : 74.145,
+      "molWeight" : 74.145
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   18.6499  -16.1503    0.0000 N   0  3  3  0  0  0  0  0  0  0  0  0\n   18.6428  -14.7503    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2499  -16.1433    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6428  -17.5502    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0500  -16.1503    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  3  1  0     0  0\n  1  2  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\nM  CHG  1   1   1\nM  END\n\n> <ENTRY>\ncpd:C20292\n\n$$$$",
+  "reactions" : [ ]
+}

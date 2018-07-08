@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5478",
+  "equation" : "icpd8107 + for <=> icpd8139 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd1650" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.99.33; 1.1.99.33",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09481"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-3281"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CL-", "META:NITRITE", "META:OXYGEN-MOLECULE", "META:TUNGSTATE", "META:NITRATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7616" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

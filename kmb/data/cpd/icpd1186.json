@@ -1,0 +1,42 @@
+{
+  "id" : "icpd1186",
+  "formula" : "C8H7O4",
+  "name" : "vanillate",
+  "synonyms" : [ "3-methoxy-4-hydroxybenzoate", "4-hydroxy-3-methoxy-benzoate", "4-hydroxy-3-methoxybenzoate", "4-hydroxy-m-anisate" ],
+  "alias" : "vanlt",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "vanlt"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06672"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:VANILLATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "vanlt"
+  } ],
+  "inchi" : "InChI=1S/C8H8O4/c1-12-7-4-5(8(10)11)2-3-6(7)9/h2-4,9H,1H3,(H,10,11)/p-1",
+  "inchikey" : "WKOLLVMJNQIZCI-UHFFFAOYSA-M",
+  "smiles" : "COC1=CC(=CC=C1[O-])C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:CHORPYRLY-RXN" ],
+      "instances" : [ "META:Aromatic-Acid" ],
+      "reactions" : [ "META:RXN-14440", "META:RXN-13969", "META:RXN-13970", "META:RXN-14442", "META:RXN-10891", "META:RXN-14441", "META:RXN-14320", "META:1.2.1.67-RXN", "META:RXN-10897", "META:RXN-10885", "META:RXN-2", "META:RXN-14439" ],
+      "gibbs" : -45.77422,
+      "cmlMolWeight" : 167.141,
+      "molWeight" : 167.141,
+      "parents" : [ "META:Aromatic-Acid" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   32.1765  -26.9975    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.1765  -25.5947    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3689  -24.8933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.6314  -25.5947    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.6314  -26.9975    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3689  -27.6989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3689  -23.4905    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3689  -29.1017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.1765  -29.8031    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   34.5612  -29.8031    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   35.8238  -24.8933    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   37.0161  -25.5947    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  3  7  1  0     0  0\n  6  8  1  0     0  0\n  8  9  2  0     0  0\n  8 10  1  0     0  0\n  4 11  1  0     0  0\n 11 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06672\n\n$$$$",
+  "reactions" : [ "irxn621", "irxn2167", "irxn193", "irxn2810", "irxn4958", "irxn2179" ]
+}

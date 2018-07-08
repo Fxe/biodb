@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1806",
+  "equation" : "h2o + 3hibutcoa <=> coa + 3hib",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1132" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd7862" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.2.4; EC-3.1.2.4",
+  "otherNames" : [ ],
+  "alias" : "HIBH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXYISOBUTYRYL-COA-HYDROLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HIBH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05064"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:VALDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -6.3771973,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00280" ],
+      "orthologs" : [ "K05605" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

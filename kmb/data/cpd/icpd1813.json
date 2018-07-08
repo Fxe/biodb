@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1813",
+  "formula" : "C5H6O3",
+  "name" : "(4s)-4-hydroxy-3-methylideneoxolan-2-one",
+  "synonyms" : [ ],
+  "alias" : "icpd1813",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C21187"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-18287"
+  } ],
+  "inchi" : "InChI=1S/C5H6O3/c1-3-4(6)2-8-5(3)7/h4,6H,1-2H2/t4-/m1/s1",
+  "inchikey" : "BFLSLERVRLOFCX-SCSAIBSYSA-N",
+  "smiles" : "C=C1[C@@H](COC1=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Lactones" ],
+      "reactions" : [ "META:RXN-16963" ],
+      "gibbs" : -25.83328,
+      "cmlMolWeight" : 114.101,
+      "molWeight" : 114.101,
+      "parents" : [ "META:Lactones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  1  0  0  0  0  0999 V2000\n   17.3126  -16.6847    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7144  -16.6847    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1476  -15.3515    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0135  -14.5275    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8795  -15.3515    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4689  -14.9221    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5384  -17.8187    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4937  -17.8115    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  2  0     0  0\n  2  7  2  0     0  0\n  1  8  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C21187\n\n$$$$",
+  "reactions" : [ "irxn4964" ]
+}

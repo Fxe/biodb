@@ -1,0 +1,46 @@
+{
+  "id" : "irxn156",
+  "equation" : "fad + ppcoa <=> pp2coa + fadh2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd3011" : ""
+    },
+    "r" : {
+      "icpd989" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.8.7",
+  "otherNames" : [ ],
+  "alias" : "PPCOAOm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PPCOAOm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00924"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410" ],
+      "orthologs" : [ "K00249" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

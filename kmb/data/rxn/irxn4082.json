@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4082",
+  "equation" : "nad + hicit <=> nadh + h + oxag",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7788" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd4707" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.87; 1.1.1.286",
+  "otherNames" : [ ],
+  "alias" : "HICITDm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HICITDm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04862"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210" ],
+      "orthologs" : [ "K05824", "K17753", "K10978" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

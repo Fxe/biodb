@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6054",
+  "equation" : "achms + selcys <=> ac + selcyst",
+  "stoichiometry" : {
+    "l" : {
+      "icpd137" : "",
+      "icpd6075" : ""
+    },
+    "r" : {
+      "icpd1394" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ACHMSSELCYSL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACHMSSELCYSL"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACHMSSELCYSL_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACHMSSELCYSLh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

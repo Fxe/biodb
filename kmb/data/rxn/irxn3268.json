@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3268",
+  "equation" : "amet + copre2 <=> ahcys + icpd2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd1663" : ""
+    },
+    "r" : {
+      "icpd2" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.151; 2.1.1.151",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.1.1.151-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05808"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7377" ],
+      "orphan" : "NO",
+      "gibbs" : -20.640015,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "C20", "K13540", "K03394", "C17" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

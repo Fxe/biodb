@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3963",
+  "equation" : "s + gthrd <=> icpd6718",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1977" : "",
+      "icpd5284" : ""
+    },
+    "r" : {
+      "icpd6718" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.18",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08677"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8174"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SULFUR-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5294", "META:SULFUROX-PWY", "META:FESULFOX-PWY" ],
+      "orphan" : null,
+      "gibbs" : -2.34,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3319",
+  "equation" : "pail5p_hs + atp <=> pail35p_hs + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd442" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7412" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PI5P3K",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PI5P3K"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PI5P3Ker"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

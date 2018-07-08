@@ -1,0 +1,34 @@
+{
+  "id" : "icpd4812",
+  "formula" : "C7H14O6",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4812",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-METHYL-MYO-INOSITOL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06352"
+  } ],
+  "inchi" : "InChI=1S/C7H14O6/c1-13-7-5(11)3(9)2(8)4(10)6(7)12/h2-12H,1H3/t2-,3-,4-,5+,6-,7-/m0/s1",
+  "inchikey" : "DSCFFEYYQKSRSV-GESKJZQWSA-N",
+  "smiles" : "CO[C@H]1[C@@H]([C@H]([C@@H]([C@@H]([C@@H]1O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2.4.1.67-RXN" ],
+      "instances" : [ "META:Methyl-Inositols" ],
+      "reactions" : [ "META:RXN-8282", "META:RXN-8281", "META:2.1.1.129-RXN", "META:RXN-12208" ],
+      "gibbs" : -61.514317,
+      "cmlMolWeight" : 194.184,
+      "molWeight" : 194.184,
+      "parents" : [ "META:Methyl-Inositols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  1  0  0  0  0  0999 V2000\n   27.5167  -15.3934    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.4896  -16.7738    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.2891  -14.6381    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.7371  -14.7074    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2692  -17.4598    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.6829  -17.4681    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0687  -15.3241    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.3772  -13.2234    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9304  -15.4017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0416  -16.7045    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.3121  -18.9102    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8754  -14.6298    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8212  -17.3905    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  3  8  1  6     0  0\n  4  9  1  0     0  0\n  5 10  1  0     0  0\n  5 11  1  1     0  0\n  7 12  1  6     0  0\n 10 13  1  6     0  0\n  7 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06352\n\n$$$$",
+  "reactions" : [ "irxn48" ]
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2382",
+  "equation" : "icpd483 + u23ga <=> udp + lipidAds",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1456" : "",
+      "icpd483" : ""
+    },
+    "r" : {
+      "icpd6858" : "",
+      "icpd5526" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.182; EC-2.4.1.182",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LIPIDADISACCHARIDESYNTH-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04606"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:NAGLIPASYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 6.8976593,
+      "uniprot" : [ "Q9JX45", "P10441", "Q9PIK8" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00540" ],
+      "orthologs" : [ "K00748" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

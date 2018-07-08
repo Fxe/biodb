@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4202",
+  "equation" : "3opimcoa + coa <=> glutcoa + accoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd3069" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd5127" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.16; EC-2.3.1",
+  "otherNames" : [ ],
+  "alias" : "OGCOAAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OGCOAAT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05586"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8032"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CENTBENZCOA-PWY", "META:PWY-7401", "META:P321-PWY" ],
+      "orphan" : null,
+      "gibbs" : -7.0600586,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00362" ],
+      "orthologs" : [ "K00632" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5678",
+  "equation" : "hom__L <=> 2obut + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4798" : ""
+    },
+    "r" : {
+      "icpd3298" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.4.1.1",
+  "otherNames" : [ ],
+  "alias" : "HSDA",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOSERDEAM-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HSDA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -8.12413,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

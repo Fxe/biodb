@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4429",
+  "equation" : "acoa + chsterol <=> xolest_hs + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4645" : "",
+      "icpd7980" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd4578" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.26; 2.3.1.26",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01461"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:STEROL-O-ACYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -147.40576,
+      "uniprot" : [ "Q10269", "O45245", "P35610", "Q61263", "Q95214" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00100" ],
+      "orthologs" : [ "K00637" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn888",
+  "equation" : "o2 + icpd318 <=> icpd5444 + 2.0 h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd318" : ""
+    },
+    "r" : {
+      "icpd5444" : "",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.21.3.1; 1.21.3.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.21.3.1-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04872"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CO+2", "META:GLC-6-P", "META:ZN+2", "META:PYRUVATE", "META:MN+2", "META:CPD-9046" ],
+      "activators" : [ "META:GLUTATHIONE", "META:ASCORBATE", "META:DITHIOTHREITOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5629" ],
+      "orphan" : "NO",
+      "gibbs" : -113.04401,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00311", "rn01100", "rn01130" ],
+      "orthologs" : [ "K04126" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

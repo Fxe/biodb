@@ -1,0 +1,53 @@
+{
+  "id" : "irxn3486",
+  "equation" : "gtp + pyr <=> gdp + h + pep",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd1365" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd1851" : "",
+      "icpd166" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.40; 2.7.1.40",
+  "otherNames" : [ ],
+  "alias" : "PYK3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PYK3"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GTPOPm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14117"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00430"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -97.22418,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230" ],
+      "orthologs" : [ "K12406", "K00873" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid", "iJN678", "iML1515" ]
+    }
+  }
+}

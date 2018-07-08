@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4566",
+  "equation" : "h + houdic <=> alltn + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2949" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd6595" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ATS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "5HPUDICDC_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OHCUS"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ATS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6087",
+  "equation" : "2.0 nad + coa + icpd3823 <=> 2.0 nadh + 2.0 h + hmgcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3823" : "",
+      "icpd2377" : "",
+      "icpd5131" : "2.0"
+    },
+    "r" : {
+      "icpd5377" : "2.0",
+      "icpd1851" : "2.0",
+      "icpd5434" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.88; EC-1.1.1.88",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYMETHYLGLUTARYL-COA-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02081"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:3-KETOBUTYRATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5074" ],
+      "orphan" : "NO",
+      "gibbs" : -6.6827393,
+      "uniprot" : [ "P12684", "Q10283", "P12683", "P09610" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn01130", "rn00900" ],
+      "orthologs" : [ "K00054" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

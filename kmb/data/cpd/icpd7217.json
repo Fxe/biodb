@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7217",
+  "formula" : "C10H16N4O3",
+  "name" : "n-beta-alanyl-3-methyl-l-histidine",
+  "synonyms" : [ "(2s)-2-(3-aminopropanamido)-3-(1-methyl-1h-imidazol-5-yl)propanoic acid", "l-n-beta-alanyl-3-methyl-histidine" ],
+  "alias" : "icpd7217",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-401"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01262"
+  } ],
+  "inchi" : "InChI=1S/C10H16N4O3/c1-14-6-12-5-7(14)4-8(10(16)17)13-9(15)2-3-11/h5-6,8H,2-4,11H2,1H3,(H,13,15)(H,16,17)/t8-/m0/s1",
+  "inchikey" : "MYYIAHXIVFADCU-QMMMGPOBSA-N",
+  "smiles" : "CN1C=NC=C1C[C@@]([H])(C(=O)O)N=C(CCN)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:DIPEPTIDES" ],
+      "reactions" : [ "META:CARNOSINE-N-METHYLTRANSFERASE-RXN", "META:X-METHYL-HIS-DIPEPTIDASE-RXN" ],
+      "gibbs" : 90.20794,
+      "cmlMolWeight" : 240.261,
+      "molWeight" : 240.261,
+      "parents" : [ "META:DIPEPTIDES" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 17 17  0  0  1  0  0  0  0  0999 V2000\n   17.1500  -19.1800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3624  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5749  -19.1800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7873  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9997  -19.1800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2122  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4246  -19.1800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6370  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7873  -21.2800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2122  -21.2797    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4454  -21.9920    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0206  -21.9678    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0788  -21.2027    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4768  -21.1921    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8988  -19.8592    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7615  -19.0460    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7493  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  4  9  2  0     0  0\n  6 10  1  1     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\n  8 13  2  0     0  0\n 13 14  1  0     0  0\n 14 15  2  0     0  0\n 15 16  1  0     0  0\n  8 16  1  0     0  0\n 16 17  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01262\n\n$$$$",
+  "reactions" : [ "irxn3802", "irxn1658" ]
+}

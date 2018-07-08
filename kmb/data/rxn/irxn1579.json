@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1579",
+  "equation" : "o2 + 2.0 ins <=> 2.0 icpd7237 + 2.0 h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5726" : "2.0"
+    },
+    "r" : {
+      "icpd4016" : "2.0",
+      "icpd7237" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.3.28",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7802"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00055"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:NUCLEOSIDE-OXIDASE-RXN" ],
+      "orphan" : null,
+      "gibbs" : -98.334015,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

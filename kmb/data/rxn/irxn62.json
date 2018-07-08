@@ -1,0 +1,47 @@
+{
+  "id" : "irxn62",
+  "equation" : "nad + h2o + mthgxl <=> nadh + pyr + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd302" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd5377" : "",
+      "icpd1851" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.23; 1.2.1.23; 1.2.1.22",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYL-GLYOXAL-DEHYDROG-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00203"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NADP" ],
+      "activators" : [ "META:FRUCTOSE-16-DIPHOSPHATE", "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5456" ],
+      "orphan" : "NO",
+      "gibbs" : -13.315338,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00620" ],
+      "orthologs" : [ "K07248" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

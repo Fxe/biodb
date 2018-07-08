@@ -1,0 +1,33 @@
+{
+  "id" : "icpd971",
+  "formula" : "C6H3O4",
+  "name" : "5-formyl-2-furoate",
+  "synonyms" : [ "5-formyl-2-furancarboxylate", "5-formylfuran-2-carboxylate" ],
+  "alias" : "icpd971",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14104"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20449"
+  } ],
+  "inchi" : "InChI=1S/C6H4O4/c7-3-4-1-2-5(10-4)6(8)9/h1-3H,(H,8,9)/p-1",
+  "inchikey" : "SHNRXUWGUKDPMA-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=O)OC(=C1)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Furans" ],
+      "reactions" : [ "META:RXN-15853", "META:RXN-13091" ],
+      "gibbs" : -100.88871,
+      "cmlMolWeight" : 139.087,
+      "molWeight" : 139.087,
+      "parents" : [ "META:Furans" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   19.3670  -17.9281    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8030  -16.5969    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6667  -15.7703    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5304  -16.5969    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9662  -17.9281    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3180  -15.8907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1083  -16.5910    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0082  -15.8907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2179  -16.5910    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0046  -14.4987    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  4  5  2  0     0  0\n  5  1  1  0     0  0\n  4  6  1  0     0  0\n  1  2  2  0     0  0\n  6  7  2  0     0  0\n  2  3  1  0     0  0\n  2  8  1  0     0  0\n  3  4  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20449\n\n$$$$",
+  "reactions" : [ "irxn563", "irxn1644" ]
+}

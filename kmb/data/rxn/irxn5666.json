@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5666",
+  "equation" : "dheas + h2o <=> h + so4 + dhea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7528" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1127" : "",
+      "icpd5748" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "STS1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "STS1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "STS1r"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "RECON1" ]
+    }
+  }
+}

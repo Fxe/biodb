@@ -1,0 +1,49 @@
+{
+  "id" : "irxn521",
+  "equation" : "349413 + nadph + o2 + h <=> h2o + 324064 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "349413" : "",
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "324064" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ZAXANOR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ZXANEPOX_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ZAXANOR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1174",
+  "equation" : "2c4mthzep <=> cthzp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7099" : ""
+    },
+    "r" : {
+      "icpd8080" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.99.10",
+  "otherNames" : [ ],
+  "alias" : "THZT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09977"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "THZT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "THZT_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00730" ],
+      "orthologs" : [ "K10810" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

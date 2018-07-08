@@ -1,0 +1,41 @@
+{
+  "id" : "icpd7818",
+  "formula" : "C6H10O6",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "2ins",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "2ins"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00691"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2ins"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14808"
+  } ],
+  "inchi" : "InChI=1S/C6H10O6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-5,7-11H/t1-,2-,3+,4+,5-",
+  "inchikey" : "VYEGBDHSGHXOGT-HYFGLKJPSA-N",
+  "smiles" : "[C@@H]1([C@@H]([C@H](C(=O)[C@H]([C@@H]1O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Modified-Inositols" ],
+      "reactions" : [ "META:2.6.1.50-RXN", "META:MYO-INOSITOL-2-DEHYDROGENASE-RXN", "META:RXN-14178", "META:RXN-14347", "META:RXN-14358", "META:RXN-13779", "META:MYO-INOSOSE-2-DEHYDRATASE-RXN" ],
+      "gibbs" : -110.688805,
+      "cmlMolWeight" : 178.141,
+      "molWeight" : 178.141,
+      "parents" : [ "META:Modified-Inositols" ]
+    },
+    "bigg" : {
+      "models" : [ "iYL1228", "iAF692", "iECED1_1282", "STM_v1_0", "iYO844" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   22.1137  -17.5869    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   20.9084  -16.8752    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   23.3381  -16.8752    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   22.1137  -18.9780    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9084  -15.4648    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   19.6965  -17.5676    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3381  -15.4648    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.5498  -17.5676    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -14.7659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7030  -14.7659    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5435  -14.7659    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -13.5147    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  3  8  1  6     0  0\n  5  9  1  0     0  0\n  5 10  1  1     0  0\n  7 11  1  1     0  0\n  9 12  2  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00691\n\n$$$$",
+  "reactions" : [ "irxn40", "irxn4465", "irxn6785", "irxn336", "irxn127", "irxn3538", "irxn1222", "irxn4214" ]
+}

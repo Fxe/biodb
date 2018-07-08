@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2139",
+  "equation" : "amet + air <=> icpd7931 + dad_5 + met__L + for + 3.0 h + co",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd4071" : ""
+    },
+    "r" : {
+      "icpd7931" : "",
+      "icpd1650" : "",
+      "icpd4891" : "",
+      "icpd5870" : "",
+      "icpd1851" : "3.0",
+      "icpd7903" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.99.17; 4.1.99.17",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03472"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRIMSYN1-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMINO-HYDROXYMETHYL-METHYL-PYR-P", "META:THIAMINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6890" ],
+      "orphan" : "NO",
+      "gibbs" : -79.93238,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00730" ],
+      "orthologs" : [ "K03147" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

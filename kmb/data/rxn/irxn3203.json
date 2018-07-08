@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3203",
+  "equation" : "h2o + cholcoads <=> HC01459",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5673" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd769" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.107",
+  "otherNames" : [ ],
+  "alias" : "r0744",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0744"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04813"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K12405" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

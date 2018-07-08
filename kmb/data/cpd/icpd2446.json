@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2446",
+  "formula" : "C7H7NO3",
+  "name" : "3-amino-4-hydroxybenzoic acid",
+  "synonyms" : [ ],
+  "alias" : "icpd2446",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C12115"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14873"
+  } ],
+  "inchi" : "InChI=1S/C7H7NO3/c8-5-3-4(7(10)11)1-2-6(5)9/h1-3,9H,8H2,(H,10,11)",
+  "inchikey" : "MRBKRZAPGUCWOS-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)O)N)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aryl-Amines" ],
+      "reactions" : [ "META:RXN-13870", "META:RXN-17361", "META:RXN-15414", "META:RXN-13867", "META:RXN-13866" ],
+      "gibbs" : -27.155338,
+      "cmlMolWeight" : 152.129,
+      "molWeight" : 152.129,
+      "parents" : [ "META:Aryl-Amines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   23.2900  -16.1578    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2900  -17.5578    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5065  -18.2615    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7157  -17.5578    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7157  -16.1578    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5065  -15.4612    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5082  -14.0610    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9299  -15.4621    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5082  -19.6617    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7227  -20.3567    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2956  -20.3598    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  2  0     0  0\n  6  1  1  0     0  0\n  6  7  1  0     0  0\n  1  2  2  0     0  0\n  5  8  1  0     0  0\n  2  3  1  0     0  0\n  3  9  1  0     0  0\n  3  4  2  0     0  0\n  9 10  1  0     0  0\n  4  5  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12115\n\n$$$$",
+  "reactions" : [ "irxn3036", "irxn955" ]
+}

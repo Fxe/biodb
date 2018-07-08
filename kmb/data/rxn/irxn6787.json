@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6787",
+  "equation" : "icpd4928 + amet + h <=> ahcys + icpd2375",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd1851" : "",
+      "icpd4928" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd2375" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.56; EC-2.1.1.56",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03805"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MRNA-GUANINE-N7--METHYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7375" ],
+      "orphan" : "NO",
+      "gibbs" : -27.282227,
+      "uniprot" : [ "P03588", "P03589", "P04318", "Q9I8S2", "Q00020", "Q98257", "Q98268", "Q66121", "P20979", "P20122", "P06011", "P28726", "P04298", "P28931" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "N7", "K00565" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

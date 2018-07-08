@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2678",
+  "equation" : "icpd8107 + glcn <=> 2dhglcn + icpd8139",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd2898" : ""
+    },
+    "r" : {
+      "icpd1680" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.99.3; 1.1.99.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01742"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCONATE-2-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7165", "META:DHGLUCONATE-PYR-CAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "O34214", "O34213", "O34215", "Q9PI91" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "irxn4915",
+  "equation" : "pro__L <=> icpd794",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4081" : ""
+    },
+    "r" : {
+      "icpd794" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.1.4; EC-5.1.1.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PROLINE-RACEMASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01255"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:L-ASPARTATE", "META:CPD-19595", "META:PYRROLE-2-CARBOXYLATE", "META:IODOACETAMIDE", "META:MALEATE", "META:L-PIPECOLATE", "META:PHTHALATE", "META:CPD-19597", "META:SARCOSINE", "META:IODOACETATE" ],
+      "activators" : [ "META:BH4NA", "META:Thiols" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6344" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100" ],
+      "orthologs" : [ "K01777" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

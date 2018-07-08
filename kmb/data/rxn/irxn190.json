@@ -1,0 +1,47 @@
+{
+  "id" : "irxn190",
+  "equation" : "h2o + 337734 <=> Rtotal2 + h + glyc",
+  "stoichiometry" : {
+    "l" : {
+      "337734" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1727" : "",
+      "icpd585" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "LPS3_cho",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LPS3_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LPS3e_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6608",
+  "formula" : "C7H9O4",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd6608",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04815"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYMETHYL-ETCETERA-DIHYDROXYCYCLOHEX"
+  } ],
+  "inchi" : "InChI=1S/C7H10O4/c8-3-4-1-2-5(9)7(11)6(4)10/h2,4,6,8-10H,1,3H2/p-1",
+  "inchikey" : "JJEJEUFVVGEVHG-UHFFFAOYSA-M",
+  "smiles" : "C1C=C(C(=O)C(C1CO)O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:3-KETOVALIDOXYLAMINE-C-N-LYASE-RXN" ],
+      "gibbs" : -32.381966,
+      "cmlMolWeight" : 157.146,
+      "molWeight" : 157.146
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   24.5662  -18.5895    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.5662  -17.1823    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.7661  -19.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3535  -19.2757    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7661  -16.4845    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3535  -16.4845    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9903  -18.5895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1465  -18.5779    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9903  -17.1823    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7604  -15.0889    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1973  -16.4787    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\n  9 11  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04815\n\n$$$$",
+  "reactions" : [ "irxn4391" ]
+}

@@ -1,0 +1,55 @@
+{
+  "id" : "irxn6627",
+  "equation" : "atp + urea + hco3 <=> 2.0 h + pi + adp + allphn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd269" : "",
+      "icpd1484" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5796" : "",
+      "icpd1851" : "2.0",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.4.6",
+  "otherNames" : [ ],
+  "alias" : "URCB",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "URCBm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00774"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UREASE"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "URCB"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00220", "rn00791" ],
+      "orthologs" : [ "K14541", "K01941" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iMM904" ]
+    }
+  }
+}

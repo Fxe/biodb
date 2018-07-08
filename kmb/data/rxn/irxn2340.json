@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2340",
+  "equation" : "gtp + h2o <=> HC01651",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1365" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2277" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.4.16",
+  "otherNames" : [ ],
+  "alias" : "r0120",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0120"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00428"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00790" ],
+      "orthologs" : [ "K01495", "K09007" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

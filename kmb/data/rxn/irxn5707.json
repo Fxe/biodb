@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5707",
+  "equation" : "o2 + 2.0 34dhphe <=> 2.0 n2 + 2.0 icpd427",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5924" : "2.0"
+    },
+    "r" : {
+      "icpd427" : "2.0",
+      "icpd7085" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.12.15; EC-1.13.12.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9773"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08920"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:2-KETOGLUTARATE", "META:NADH" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -92.62824,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

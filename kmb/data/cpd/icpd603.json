@@ -1,0 +1,32 @@
+{
+  "id" : "icpd603",
+  "formula" : "C5H4O4",
+  "name" : "(e)-glutaconate",
+  "synonyms" : [ "(e)-2-pentenedioate", "trans-glutaconate" ],
+  "alias" : "icpd603",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTACONATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02214"
+  } ],
+  "inchi" : "InChI=1S/C5H6O4/c6-4(7)2-1-3-5(8)9/h1-2H,3H2,(H,6,7)(H,8,9)/p-2/b2-1+",
+  "inchikey" : "XVOUMQNXTGKGMA-OWOJBTEDSA-L",
+  "smiles" : "C(\\[H])(=C(/[H])\\C(=O)[O-])/CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GLUTDECARBOX-RXN", "META:2-METHYLENEGLUTARATE-MUTASE-RXN" ],
+      "reactions" : [ "META:GLUTACONATE-COA-TRANSFERASE-RXN" ],
+      "gibbs" : -100.693756,
+      "cmlMolWeight" : 128.084,
+      "molWeight" : 128.084
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   21.4589  -19.6902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6692  -18.9865    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8794  -19.6902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0895  -18.9865    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2998  -19.6902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5101  -18.9865    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7202  -19.6902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6692  -17.5863    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5101  -17.5863    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  4  5  1  0     0  0\n  2  3  1  0     0  0\n  5  6  1  0     0  0\n  1  2  1  0     0  0\n  6  7  1  0     0  0\n  3  4  2  0     0  0\n  2  8  2  0     0  0\n  6  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02214\n\n$$$$",
+  "reactions" : [ "irxn4680" ]
+}

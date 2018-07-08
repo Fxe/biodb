@@ -1,0 +1,45 @@
+{
+  "id" : "icpd1650",
+  "formula" : "CHO2",
+  "name" : "formate",
+  "synonyms" : [ "methanoate" ],
+  "alias" : "for",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FORMATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00058"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "for"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CARBOXYL-GROUP"
+  }, {
+    "source" : "BiGG",
+    "entry" : "for"
+  } ],
+  "inchi" : "InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)/p-1",
+  "inchikey" : "BDAGIHXWWSANSR-UHFFFAOYSA-M",
+  "smiles" : "C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TRANS-RXN0-571", "META:SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN", "META:R524-RXN" ],
+      "instances" : [ "META:Short-Chain-Carboxylates" ],
+      "reactions" : [ "META:OXALATE-DECARBOXYLASE-RXN", "META:OCTADECANAL-DECARBONYLASE-RXN", "META:RXN-13262", "META:RXN0-5409", "META:1.2.1.2-RXN", "META:DIOHBUTANONEPSYN-RXN", "META:TRANS-RXN-1", "META:RXN-11881", "META:FORMALDEHYDE-DEHYDROGENASE-RXN", "META:1.13.11.41-RXN", "META:RXN-13868", "META:RXN-12612", "META:RXN-10824", "META:RXN-2884", "META:N-FORMYLGLUTAMATE-DEFORMYLASE-RXN", "META:3.5.1.91-RXN", "META:RXN-11318", "META:3.7.1.9-RXN", "META:GTP-CYCLOHYDRO-II-RXN", "META:FORMATETHFLIG-RXN", "META:FORMAMIDASE-RXN", "META:FORMYL-COA-HYDROLASE-RXN", "META:FORMYLASPARTATE-DEFORMYLASE-RXN", "META:FORMATE-DEHYDROGENASE-CYTOCHROME-RXN", "META:GARTRANSFORMYL2-RXN", "META:RXN-15499", "META:RXN-11054", "META:RXN-13557", "META:RXN-15617", "META:RXN-11453", "META:RXN1G-129", "META:RXN-18529", "META:RXN66-13", "META:1.2.2.3-RXN", "META:RXN-13707", "META:ARYLFORMAMIDASE-RXN", "META:R147-RXN", "META:TRANS-RXN-213", "META:LACTATE-ALDOLASE-RXN", "META:RXN-17150", "META:RXN0-723", "META:RXN0-724", "META:S-FORMYLGLUTATHIONE-HYDROLASE-RXN", "META:RXN-17122", "META:RXN-17561", "META:RXN-12274", "META:RXN-15187", "META:RXN-13286", "META:RXN-10056", "META:RXN66-346", "META:R146-RXN", "META:RXN-13961", "META:RXN66-305", "META:RXN66-349", "META:RXN-18815", "META:RXN-16835", "META:RXN0-3281", "META:RXN-8408", "META:FORMATE--DIHYDROFOLATE-LIGASE-RXN", "META:RIBONUCLEOSIDE-TRIP-REDUCT-RXN", "META:RXN0-1382", "META:RXN-8248", "META:1.14.13.70-RXN", "META:RXN-7593", "META:RXN-16191", "META:RXN-7592", "META:RXN-11073", "META:FORMATEDEHYDROG-RXN", "META:FHLMULTI-RXN", "META:1.14.99.21-RXN", "META:RXN3O-130", "META:FORMYLTHFDEFORMYL-RXN", "META:RXN-10063", "META:RXN-12087", "META:RXN-10066", "META:RXN-15957", "META:RXN-14744", "META:RXN-14028", "META:3.5.1.27-RXN", "META:FORMATE-KINASE-RXN", "META:RXN-11237", "META:RXN-14746", "META:RXN-17615", "META:RXN0-5253", "META:GTP-CYCLOHYDRO-I-RXN", "META:FORMATE-DEHYDROGENASE-NADP+-RXN", "META:KETOBUTFORMLY-RXN", "META:NN-DIMETHYLFORMAMIDASE-RXN", "META:FORMYLMETHIONINE-DEFORMYLASE-RXN", "META:3.5.1.88-RXN", "META:PYRUVFORMLY-RXN", "META:RXN-7586", "META:RXN-16480", "META:PYRIMSYN1-RXN", "META:RXN0-745", "META:RXN0-746" ],
+      "gibbs" : -73.93095,
+      "cmlMolWeight" : 45.018,
+      "molWeight" : 45.018,
+      "parents" : [ "META:Short-Chain-Carboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "e_coli_core", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   26.2516  -16.0306    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9867  -16.8796    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2516  -14.7540    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4641  -16.7306    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00058\n\n$$$$",
+  "reactions" : [ "irxn4718", "irxn4719", "irxn2139", "irxn1721", "irxn47", "irxn3942", "irxn4359", "irxn311", "irxn1692", "irxn2222", "irxn5374", "irxn5055", "irxn5056", "irxn2140", "irxn1294", "irxn5054", "irxn5090", "irxn4608", "irxn2629", "irxn6709", "irxn2668", "irxn5735", "irxn2864", "irxn5862", "irxn4372", "irxn4571", "irxn4252", "irxn4051", "irxn1906", "irxn491", "irxn5866", "irxn3049", "irxn6878", "irxn1301", "irxn4613", "irxn3325", "irxn256", "irxn5478", "irxn6765", "irxn4862", "irxn5392", "irxn2081", "irxn3171", "irxn5192", "irxn2925", "irxn4505", "irxn4702", "irxn2768", "irxn3533", "irxn3337", "irxn4349", "irxn6258", "irxn586", "irxn4870", "irxn4078", "irxn4075", "irxn5683", "irxn5680", "irxn981", "irxn6052", "irxn748" ]
+}

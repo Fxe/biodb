@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3243",
+  "equation" : "etha <=> acald + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd353" : ""
+    },
+    "r" : {
+      "icpd6658" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.3.1.7; EC-4.3.1.7",
+  "otherNames" : [ ],
+  "alias" : "ETHAAL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ETHAAL"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ETHAMLY-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00749"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:CPD0-1260", "META:CPD-315", "META:1-AMINO-PROPAN-2-OL", "META:CPD-9037", "META:CPD0-1258", "META:CPD0-2347", "META:CPD0-1256" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY0-1477" ],
+      "orphan" : "NO",
+      "gibbs" : -7.850006,
+      "uniprot" : [ "P19636", "P19264", "P19265" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100" ],
+      "orthologs" : [ "K04019", "K03736", "K03735" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECIAI1_1343", "iECED1_1282", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iAF1260b", "iEcDH1_1363", "iEcHS_1320", "iECO26_1355", "iECP_1309", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iEC55989_1330", "iECO111_1330", "iEcSMS35_1347", "iNRG857_1313", "iECW_1372", "iYO844", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iECO103_1326", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iJO1366", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

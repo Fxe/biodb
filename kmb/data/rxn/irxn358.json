@@ -1,0 +1,46 @@
+{
+  "id" : "irxn358",
+  "equation" : "prpp + 6mpur <=> ppi + 6tins5mp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3930" : "",
+      "icpd7486" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd715" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.2.8",
+  "otherNames" : [ ],
+  "alias" : "6MPURPRT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08237"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "6MPURPRT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00983" ],
+      "orthologs" : [ "K00760" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2562",
+  "equation" : "h2o + 1Dgali <=> inost + gal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3879" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4293" : "",
+      "icpd1558" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.22",
+  "otherNames" : [ ],
+  "alias" : "GALIGH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01194"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OAGMIG"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GALIGH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K01189", "K07407", "K07406" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iMM904" ]
+    }
+  }
+}

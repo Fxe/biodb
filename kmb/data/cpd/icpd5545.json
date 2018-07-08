@@ -1,0 +1,39 @@
+{
+  "id" : "icpd5545",
+  "formula" : "C3H7NO5P",
+  "name" : "2-amino-3-phosphonopropanoate",
+  "synonyms" : [ "2-amino-3-phosphonopropionate", "dl-2-amino-3-phosphonopropanoate" ],
+  "alias" : "2a3pp",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "2a3pp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05672"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1615"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2a3pp"
+  } ],
+  "inchi" : "InChI=1S/C3H8NO5P/c4-2(3(5)6)1-10(7,8)9/h2H,1,4H2,(H,5,6)(H2,7,8,9)/p-1",
+  "inchikey" : "LBTABPSJONFLPO-UHFFFAOYSA-M",
+  "smiles" : "C(C(C(=O)[O-])N)P(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ASPARTASE-RXN" ],
+      "gibbs" : -219.06422,
+      "cmlMolWeight" : 168.066,
+      "molWeight" : 168.066
+    },
+    "bigg" : {
+      "models" : [ "iSB619", "iJB785" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   16.5200  -17.9200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7324  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9449  -17.9200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1573  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7324  -15.8202    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5573  -17.2200    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9573  -17.2200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5573  -15.8200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5573  -18.6200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9449  -19.3198    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  2  0     0  0\n  4  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  6  9  1  0     0  0\n  3 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05672\n\n$$$$",
+  "reactions" : [ ]
+}

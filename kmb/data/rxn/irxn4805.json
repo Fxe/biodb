@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4805",
+  "equation" : "h2o + accoa + akg <=> icpd7435 + coa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd5825" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7435" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.3.14; 2.3.3.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00271"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOCITRATE-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:S-2-AMINOETHYL-L-CYSTEINE", "META:LYS", "META:ARG" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7710", "META:LYSINE-AMINOAD-PWY", "META:P241-PWY", "META:PWY-3081" ],
+      "orphan" : "NO",
+      "gibbs" : -10.095398,
+      "uniprot" : [ "Q00853", "Q00852", "Q9Y823", "P05345", "O87198" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01210", "rn01120", "rn01230", "rn01130", "rn00620" ],
+      "orthologs" : [ "K02594", "K10977", "K01655" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

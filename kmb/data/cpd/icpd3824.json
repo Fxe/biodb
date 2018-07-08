@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3824",
+  "formula" : "C9H10O2",
+  "name" : "4-vinylguaiacol",
+  "synonyms" : [ "4-ethenylguaiacol", "4-vinylguaiacole", "p-vinylguaiacol", "para-vinylguaiacol" ],
+  "alias" : "icpd3824",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C17883"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1072"
+  } ],
+  "inchi" : "InChI=1S/C9H10O2/c1-3-7-4-5-9(11-2)8(10)6-7/h3-6,10H,1H2,2H3",
+  "inchikey" : "FXEIWOUGVRUQNK-UHFFFAOYSA-N",
+  "smiles" : "C=CC1=CC=C(C(=C1)O)OC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:RXN-9836", "META:RXN-801" ],
+      "gibbs" : 84.85121,
+      "cmlMolWeight" : 150.177,
+      "molWeight" : 150.177,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   14.6300  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6300  -20.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8424  -21.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0549  -20.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0549  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8424  -18.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8424  -17.2202    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0548  -16.5202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4176  -18.6200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2860  -21.4310    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4912  -20.7353    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  1  9  1  0     0  0\n  4 10  1  0     0  0\n 10 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17883\n\n$$$$",
+  "reactions" : [ "irxn4039" ]
+}

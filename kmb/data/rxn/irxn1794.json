@@ -1,0 +1,51 @@
+{
+  "id" : "irxn1794",
+  "equation" : "no2 + nad + h2o <=> no3 + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7710" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd6911" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.7.1.1; 1.7.1.1; 1.7.1.2",
+  "otherNames" : [ ],
+  "alias" : "NITR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NITR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00794"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NITRATE-REDUCTASE-NADH-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-381" ],
+      "orphan" : "NO",
+      "gibbs" : 88.7388,
+      "uniprot" : [ "P08509", "P54233", "P11605", "Q39607", "P39869", "P36841", "Q41201", "P11832", "Q01170", "P39865", "Q43265", "P17569", "P11035", "Q42497", "P39866", "P17570", "P27969", "P43100", "P27967", "P16081", "P43101", "P23312" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00910" ],
+      "orthologs" : [ "K10534" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

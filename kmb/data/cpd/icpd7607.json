@@ -1,0 +1,38 @@
+{
+  "id" : "icpd7607",
+  "formula" : "C7H5O4",
+  "name" : "gentisate",
+  "synonyms" : [ "2,5-dihydroxybenzoate", "3,6-dihydroxybenzoate", "5-hydroxy-salicylate", "5-hydroxysalicylate", "hydroquinonecarboxylate" ],
+  "alias" : "HC00460",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00628"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "HC00460"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-633"
+  } ],
+  "inchi" : "InChI=1S/C7H6O4/c8-4-1-2-6(9)5(3-4)7(10)11/h1-3,8-9H,(H,10,11)/p-1",
+  "inchikey" : "WXTMDXOMEHJXQO-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=C(C(=C1)O)C(=O)O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monocarboxylates", "META:Hydroxy-carboxylates" ],
+      "reactions" : [ "META:RXN-11705", "META:RXN-15478", "META:GENTISATE-12-DIOXYGENASE-RXN", "META:RXN-11741", "META:3-HYDROXYBENZOATE-6-MONOOXYGENASE-RXN", "META:RXN-10446", "META:R246-RXN", "META:TRANS-RXN18HP-97", "META:GENTISATE-DECARBOXYLASE-RXN" ],
+      "gibbs" : -80.96645,
+      "cmlMolWeight" : 153.114,
+      "molWeight" : 153.114,
+      "parents" : [ "META:Monocarboxylates", "META:Hydroxy-carboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -15.7976    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3369  -16.4957    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9096  -16.4957    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -14.4014    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3369  -17.9047    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5411  -15.7912    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9096  -17.9047    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3176  -13.7034    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9031  -13.7097    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1200  -18.6157    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6989  -18.5901    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  7 11  1  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00628\n\n$$$$",
+  "reactions" : [ "irxn3014", "irxn4534", "irxn3524", "irxn49" ]
+}

@@ -1,0 +1,35 @@
+{
+  "id" : "icpd1136",
+  "formula" : "C41H68N7O17P3S",
+  "name" : "(2e, 11z,14z)-icosa-2,11,14-trienoyl-coa",
+  "synonyms" : [ "trans,cis,cis-2,11,14-eicosatrienoyl-coa" ],
+  "alias" : "CE4842",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE4842"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-17348"
+  } ],
+  "inchi" : "InChI=1S/C41H68N7O17P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-32(50)69-25-24-43-31(49)22-23-44-39(53)36(52)41(2,3)27-62-68(59,60)65-67(57,58)61-26-30-35(64-66(54,55)56)34(51)40(63-30)48-29-47-33-37(42)45-28-46-38(33)48/h8-9,11-12,20-21,28-30,34-36,40,51-52H,4-7,10,13-19,22-27H2,1-3H3,(H,43,49)(H,44,53)(H,57,58)(H,59,60)(H2,42,45,46)(H2,54,55,56)/b9-8-,12-11-,21-20+/t30-,34-,35-,36+,40-/m1/s1",
+  "inchikey" : "JLHULLPFTGLIGF-DBYUABGNSA-N",
+  "smiles" : "CCCCC/C(/[H])=C(/[H])\\C/C(/[H])=C(/[H])\\CCCCCCC/C(/[H])=C(\\[H])/C(=O)SCCN=C(CCN=C([C@@]([H])(C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Long-Chain-Trans-23-Dehydroacyl-CoA" ],
+      "reactions" : [ "META:RXN-16096", "META:RXN-16097" ],
+      "gibbs" : -104.04023,
+      "cmlMolWeight" : 1051.975,
+      "molWeight" : 1051.975,
+      "parents" : [ "META:Long-Chain-Trans-23-Dehydroacyl-CoA" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn5174", "irxn5190" ]
+}

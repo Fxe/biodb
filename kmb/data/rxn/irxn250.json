@@ -1,0 +1,45 @@
+{
+  "id" : "irxn250",
+  "equation" : "icpd4828 <=> h + cl + icpd4216",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4828" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd8186" : "",
+      "icpd4216" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.5.1.1; EC-4.5.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04522"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DDT-DEHYDROCHLORINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 1.6958923,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00351" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

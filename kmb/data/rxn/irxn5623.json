@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5623",
+  "equation" : "benzcoa + bzalc <=> coa + icpd4734",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6113" : "",
+      "icpd2811" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd4734" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.196; EC-2.3.1.196",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09528"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-6724"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:MG+2", "META:CO+2", "META:CA+2", "META:ZN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6763", "META:PWY-6443", "META:PWY-6801", "META:PWY-4203" ],
+      "orphan" : "NO",
+      "gibbs" : -5.2900696,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5634",
+  "equation" : "chor <=> salc + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5207" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd2297" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SALCS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SALCS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06603"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661" ]
+    }
+  }
+}

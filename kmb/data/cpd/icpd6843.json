@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6843",
+  "formula" : "CHO6P",
+  "name" : "carboxyphosphate",
+  "synonyms" : [ ],
+  "alias" : "icpd6843",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20969"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-18238"
+  } ],
+  "inchi" : "InChI=1S/CH3O6P/c2-1(3)7-8(4,5)6/h(H,2,3)(H2,4,5,6)/p-2",
+  "inchikey" : "LQQCGEGRINLHDP-UHFFFAOYSA-L",
+  "smiles" : "C(=O)([O-])OP(=O)(O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-16909", "META:RXN-16910" ],
+      "gibbs" : -328.07715,
+      "cmlMolWeight" : 139.989,
+      "molWeight" : 139.989
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   19.8608  -16.4699    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   18.4677  -16.4763    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3054  -16.4635    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8545  -15.1022    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8674  -17.8942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2660  -15.7859    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0582  -16.4763    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2660  -14.3927    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20969\n\n$$$$",
+  "reactions" : [ "irxn4330", "irxn4314" ]
+}

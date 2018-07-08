@@ -1,0 +1,51 @@
+{
+  "id" : "irxn1938",
+  "equation" : "uppg1 <=> 4.0 co2 + cpppg1",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3881" : ""
+    },
+    "r" : {
+      "icpd8118" : "",
+      "icpd2454" : "4.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.37; EC-4.1.1.37",
+  "otherNames" : [ ],
+  "alias" : "UPPDC2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10642"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04972"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UPPDC2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UPPDC2_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -3.3729553,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ "K01599" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iIT341", "iNJ661", "iJN678", "iSB619", "iJN746" ]
+    }
+  }
+}

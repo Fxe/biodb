@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1966",
+  "formula" : "C8H8O3",
+  "name" : "methyl salicylate",
+  "synonyms" : [ "2-(methoxycarbonyl)phenol", "2-carbomethoxyphenol", "2-hydroxybenzoic acid methyl ester", "benzoic acid, 2-hydroxy-, methyl ester", "methyl 2-hydroxybenzoate", "methyl salicylate, 8ci", "o-methylsalicylic acid", "salicylate methyl ester" ],
+  "alias" : "icpd1966",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-6442"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C12305"
+  } ],
+  "inchi" : "InChI=1S/C8H8O3/c1-11-8(10)6-4-2-3-5-7(6)9/h2-5,9H,1H3",
+  "inchikey" : "OSWPMRLSEDHDFF-UHFFFAOYSA-N",
+  "smiles" : "COC(=O)C1=C(C=CC=C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:RXN-6723", "META:RXNQT-4366" ],
+      "gibbs" : -6.211035,
+      "cmlMolWeight" : 152.149,
+      "molWeight" : 152.149,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   23.8644  -20.8025    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0757  -21.5020    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2815  -20.8055    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2831  -19.4098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0791  -18.7104    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8662  -19.4069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0809  -17.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2891  -16.6067    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8670  -16.6038    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5086  -18.7053    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5135  -17.3061    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  2  0     0  0\n  6  1  1  0     0  0\n  5  7  1  0     0  0\n  1  2  2  0     0  0\n  7  8  1  0     0  0\n  2  3  1  0     0  0\n  7  9  2  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  4 10  1  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12305\n\n$$$$",
+  "reactions" : [ "irxn3702" ]
+}

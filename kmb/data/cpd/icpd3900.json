@@ -1,0 +1,37 @@
+{
+  "id" : "icpd3900",
+  "formula" : "C9H7NO2",
+  "name" : "3-hydroxy-1h-quinolin-4-one",
+  "synonyms" : [ "3,4-dihydroxyquinoline", "quinolin-3,4-diol", "quinoline-3,4-diol" ],
+  "alias" : "icpd3900",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:QUINOLIN-34-DIOL"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXY-1H-QUINOLIN-4-ONE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06330"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11503"
+  } ],
+  "inchi" : "InChI=1S/C9H7NO2/c11-8-5-10-7-4-2-1-3-6(7)9(8)12/h1-5,11H,(H,10,12)",
+  "inchikey" : "BHTNYVRPYQQOMJ-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C(=CN=C2C=C1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.14.13.62-RXN" ],
+      "gibbs" : 57.327847,
+      "cmlMolWeight" : 161.16,
+      "molWeight" : 161.16
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 13  0  0  0  0  0  0  0  0999 V2000\n   25.0109  -18.1609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0109  -19.5619    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2282  -20.2589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2282  -17.4568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4384  -18.1609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4323  -19.5619    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6366  -20.2641    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9239  -19.5722    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8600  -18.1712    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6486  -17.4620    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0653  -20.2744    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6307  -21.6651    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0     0  0\n  3  6  2  0     0  0\n  5  4  2  0     0  0\n  4  1  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n 10  5  1  0     0  0\n  8 11  1  0     0  0\n  1  2  2  0     0  0\n  7 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11503\n\n$$$$",
+  "reactions" : [ "irxn5991", "irxn1382" ]
+}

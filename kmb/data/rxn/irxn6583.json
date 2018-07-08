@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6583",
+  "equation" : "dtdpglu <=> h2o + icpd2221",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4683" : ""
+    },
+    "r" : {
+      "icpd2221" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.46; 4.2.1.46",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DTDPGLUCDEHYDRAT-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06513"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Sulfhydryls", "META:TDP", "META:TTP", "META:CPD0-2617" ],
+      "activators" : [ "META:NAD" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7440", "META:PWY-7413", "META:PWY-7688", "META:PWY-6973", "META:PWY-7104", "META:PWY-7301", "META:PWY-7312", "META:PWY-3221", "META:PWY-6808", "META:DTDPRHAMSYN-PWY", "META:PWY-7318", "META:PWY-6976", "META:PWY-6953", "META:PWY-7316", "META:PWY-6942", "META:PWY-7657", "META:PWY-7414", "META:PWY-6974", "META:PWY-7315", "META:PWY-7814" ],
+      "orphan" : "NO",
+      "gibbs" : -13.897034,
+      "uniprot" : [ "P29782", "Q56173", "O66249", "P26391", "P37759", "Q9S642", "Q9RR28", "Q9SMJ5", "P37777", "O08246", "P39630", "Q9R5L1", "P37761", "P44914", "Q9RMC4", "Q54144", "P55294", "P55293", "Q59626", "Q55420", "P27830" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01055", "rn01130", "rn00525", "rn00523", "rn00521" ],
+      "orthologs" : [ "K01710" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3225",
+  "equation" : "nad + 3hpimcoa <=> nadh + 3opimcoa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd2515" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd3069" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.259; EC-1.1.1.259; 1.1.1.35",
+  "otherNames" : [ ],
+  "alias" : "3HOPCD",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.1.1.259-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3HOPCD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05305"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CENTBENZCOA-PWY", "META:PWY-7401", "META:P321-PWY" ],
+      "orphan" : null,
+      "gibbs" : 1.0817871,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00362" ],
+      "orthologs" : [ "K07516", "K01782", "K01825" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

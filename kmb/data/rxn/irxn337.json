@@ -1,0 +1,52 @@
+{
+  "id" : "irxn337",
+  "equation" : "nad + leu__L + h2o <=> 4mop + nadh + n2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5105" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7085" : "",
+      "icpd7101" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.1.9; EC-1.4.1.9",
+  "otherNames" : [ ],
+  "alias" : "LLEUDr",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01088"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LLEUDr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LEUCINE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 4.7246704,
+      "uniprot" : [ "P13154", "P54531", "Q7M0K9", "Q60030" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00280", "rn00290" ],
+      "orthologs" : [ "K00263" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYO844" ]
+    }
+  }
+}

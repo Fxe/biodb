@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1693",
+  "equation" : "asn__L <=> h2o + h + HC00955",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1244" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd905" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.65; 3.5.5.4; 4.2.1.65",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01267"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-CYANOALANINE-HYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:3.5.5.4-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -6.0011253,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00460", "rn01110" ],
+      "orthologs" : [ "K13035" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

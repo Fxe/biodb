@@ -1,0 +1,46 @@
+{
+  "id" : "irxn820",
+  "equation" : "icpd910 + nadp <=> nadph + icpd4214 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd910" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4214" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.-",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03879"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-5481"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:UTP", "META:CPD-12548", "META:NADP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -1.6263428,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

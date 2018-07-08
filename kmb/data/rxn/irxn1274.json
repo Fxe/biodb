@@ -1,0 +1,54 @@
+{
+  "id" : "irxn1274",
+  "equation" : "spmd + o2 + h2o <=> 13dampp + 4abutn + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd7650" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd902" : "",
+      "icpd7497" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.99.6; 1.5.3.14; EC-1.5.3.14",
+  "otherNames" : [ ],
+  "alias" : "SPDH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01914"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10747"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SPMDOX"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SPDH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-PRENYLAGMATINE", "META:CPD-303", "META:112-DIAMINOOCTANE", "META:PIPERIDINE", "META:18-DIAMINOOCTANE", "META:AGMATHINE", "META:GUAZATINE", "META:ANILINE", "META:CPD-6122", "META:CPD0-1376" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6440" ],
+      "orphan" : "NO",
+      "gibbs" : -22.204742,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410", "rn00330", "rn01100" ],
+      "orthologs" : [ "K13366", "K00316" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

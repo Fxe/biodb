@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2707",
+  "equation" : "ah6p__D <=> f6p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2830" : ""
+    },
+    "r" : {
+      "icpd7592" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.1.27",
+  "otherNames" : [ ],
+  "alias" : "AH6PI",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05339"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AH6PI"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01200", "rn00680", "rn01120" ],
+      "orthologs" : [ "K08094", "K13831" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iECUMN_1333", "iECSF_1327", "iECED1_1282", "iE2348C_1286", "iNRG857_1313", "iUMN146_1321", "iLF82_1304", "iECABU_c1320", "iUTI89_1310", "iAPECO1_1312", "iECP_1309", "iECS88_1305", "iECOK1_1307", "iEcolC_1368" ]
+    }
+  }
+}

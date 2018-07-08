@@ -1,0 +1,36 @@
+{
+  "id" : "icpd4282",
+  "formula" : "C5H4O4",
+  "name" : "citraconate",
+  "synonyms" : [ "(z)-2-methyl-2-butenedioate", "2-methylmaleate", "methylmaleate" ],
+  "alias" : "citac",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-METHYLMALEATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "citac"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02226"
+  } ],
+  "inchi" : "InChI=1S/C5H6O4/c1-3(5(8)9)2-4(6)7/h2H,1H3,(H,6,7)(H,8,9)/p-2/b3-2-",
+  "inchikey" : "HNEGQIOMVPPMNR-IHWYPQMZSA-L",
+  "smiles" : "C/C(=C(\\[H])/C(=O)[O-])/C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:R-2-METHYLMALATE-DEHYDRATASE-RXN", "META:RXN-7744", "META:RXN-16946", "META:RXN-16948" ],
+      "gibbs" : -104.613754,
+      "cmlMolWeight" : 128.084,
+      "molWeight" : 128.084
+    },
+    "bigg" : {
+      "models" : [ "iAF987", "iJB785" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   27.6734  -21.2709    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4676  -21.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6734  -19.8787    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9557  -21.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1220  -21.2709    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8860  -19.1859    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4676  -19.1859    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1220  -20.0182    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9159  -21.9764    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  2  0     0  0\n  5  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02226\n\n$$$$",
+  "reactions" : [ "irxn3176", "irxn980", "irxn1343" ]
+}

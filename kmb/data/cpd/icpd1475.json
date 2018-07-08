@@ -1,0 +1,29 @@
+{
+  "id" : "icpd1475",
+  "formula" : "C6H7NO2",
+  "name" : "catecholamine",
+  "synonyms" : [ ],
+  "alias" : "icpd1475",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Catechloamines"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02012"
+  } ],
+  "inchi" : "InChI=1S/C6H7NO2/c7-4-2-1-3-5(8)6(4)9/h1-3,8-9H,7H2",
+  "inchikey" : "MGBKJKDRMRAZKC-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C(=C1)N)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TYROSINE-3-MONOOXYGENASE-RXN" ],
+      "parents" : [ "META:Arylalkylamines", "META:Catechols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   23.8825  -19.8240    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7017  -19.1501    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8825  -21.1840    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0448  -19.1501    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   21.5395  -19.8240    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7017  -21.8703    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2132  -19.8177    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0695  -17.7901    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5395  -21.1840    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3773  -19.1501    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3711  -21.8517    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4007  -19.1245    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5870  -19.8020    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  5 10  1  0     0  0\n  9 11  1  0     0  0\n  6  9  2  0     0  0\n  7 12  1  0     0  0\n 12 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02012\n\n$$$$",
+  "reactions" : [ ]
+}

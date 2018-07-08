@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3875",
+  "formula" : "C10H14O",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd3875",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02485"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1090"
+  } ],
+  "inchi" : "InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)6-10(9)11/h6,9H,1,4-5H2,2-3H3/t9-/m1/s1",
+  "inchikey" : "SEZLYIWMVRUIKT-SECBINFHSA-N",
+  "smiles" : "C=C(C)[C@@]1([H])CCC(=CC1=O)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monoterpenes" ],
+      "reactions" : [ "META:ISOPIPERITENONE-DELTA-ISOMERASE-RXN", "META:ISOPIPERITENOL-DEHYDROGENASE-RXN", "META:RXN-5161" ],
+      "gibbs" : 150.49568,
+      "cmlMolWeight" : 150.22,
+      "molWeight" : 150.22,
+      "parents" : [ "META:Monoterpenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   24.2357  -17.3309    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.4452  -16.6304    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0205  -16.6304    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2415  -18.7275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4452  -15.2278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6617  -17.3252    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0205  -15.2278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2357  -14.5319    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2415  -13.1296    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4541  -19.4210    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0016  -19.4496    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  5  8  2  0     0  0\n  8  9  1  0     0  0\n  7  8  1  0     0  0\n  4 10  2  0     0  0\n  4 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02485\n\n$$$$",
+  "reactions" : [ "irxn4297", "irxn5733" ]
+}

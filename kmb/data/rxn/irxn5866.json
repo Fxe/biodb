@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5866",
+  "equation" : "o2 + h2o + icpd6528 <=> malm + co2 + for",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd6528" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4567" : "",
+      "icpd1650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7586"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07983"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5033" ],
+      "orphan" : null,
+      "gibbs" : -100.07715,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00760" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

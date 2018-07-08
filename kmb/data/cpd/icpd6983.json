@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6983",
+  "formula" : "C6H11NO4",
+  "name" : "(r)-2-[(r)-2-aminopropanoyloxy]propanoic acid",
+  "synonyms" : [ "(2r)-2-(d-alanyloxy)propanoic acid" ],
+  "alias" : "icpd6983",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12247"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19694"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO4/c1-3(7)6(10)11-4(2)5(8)9/h3-4H,7H2,1-2H3,(H,8,9)/t3-,4-/m1/s1",
+  "inchikey" : "QLYOONKPELZQGZ-QWWZWVQMSA-N",
+  "smiles" : "C[C@H](C(=O)O[C@H](C)C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Depsipeptides" ],
+      "reactions" : [ "META:RXN-11298" ],
+      "gibbs" : -48.807674,
+      "cmlMolWeight" : 161.157,
+      "molWeight" : 161.157,
+      "parents" : [ "META:Depsipeptides" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   14.3500  -16.5200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5624  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7749  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9873  -15.8200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1997  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4122  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6246  -16.5200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5624  -14.4202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7749  -17.9198    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1997  -17.9199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4122  -14.4203    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  1  6     0  0\n  3  9  2  0     0  0\n  5 10  1  1     0  0\n  6 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19694\n\n$$$$",
+  "reactions" : [ "irxn2379" ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5373",
+  "equation" : "nad + 3sala + h2o <=> nadh + h + Lcyst",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd1070" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd44" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18356"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02434"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5331" ],
+      "orphan" : "NO",
+      "gibbs" : 16.948761,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00430" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

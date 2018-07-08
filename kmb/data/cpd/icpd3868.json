@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3868",
+  "formula" : "C2HCl3O2",
+  "name" : "trichloroacetic acid",
+  "synonyms" : [ "2,2,2-trichloro-acetic acid", "trichloro-acetic acid", "trichloroethanoic acid" ],
+  "alias" : "icpd3868",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11150"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9675"
+  } ],
+  "inchi" : "InChI=1S/C2HCl3O2/c3-2(4,5)1(6)7/h(H,6,7)",
+  "inchikey" : "YNJBWRMUSHSURL-UHFFFAOYSA-N",
+  "smiles" : "C(=O)(C(Cl)(Cl)Cl)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9150", "META:RXN-9149", "META:RXN-9155" ],
+      "gibbs" : -92.94206,
+      "cmlMolWeight" : 162.38,
+      "molWeight" : 162.38
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   28.5064  -16.9642    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   29.9064  -16.9642    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8064  -18.1765    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   27.8064  -15.7517    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   30.6064  -18.1765    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6064  -15.7517    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1064  -16.9642    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  1  3  1  0     0  0\n  2  6  2  0     0  0\n  1  2  1  0     0  0\n  1  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11150\n\n$$$$",
+  "reactions" : [ ]
+}

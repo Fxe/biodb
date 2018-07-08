@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1745",
+  "equation" : "coa + 325389 <=> btcoa + crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "325389" : ""
+    },
+    "r" : {
+      "icpd1529" : "",
+      "icpd6570" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "C40CPT1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "C4CRNCPT2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C40CPT1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

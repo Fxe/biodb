@@ -1,0 +1,42 @@
+{
+  "id" : "irxn1416",
+  "equation" : "thmpp <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6523" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "EX_thmpp_e",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DM_thmpp_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EX_thmpp_e"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iLJ478", "iND750", "iMM904" ]
+    }
+  }
+}

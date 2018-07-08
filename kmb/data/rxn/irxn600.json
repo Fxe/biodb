@@ -1,0 +1,45 @@
+{
+  "id" : "irxn600",
+  "equation" : "icpd7666 + h2o <=> n2 + pta",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7666" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd7208" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.50; 3.5.1.50",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02938"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PENTANAMIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -5.7471046,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1289",
+  "equation" : "icpd7547 + o2 <=> meoh + icpd6116",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7547" : ""
+    },
+    "r" : {
+      "icpd6448" : "",
+      "icpd6116" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11; 1.13.11.-; 1.13.11.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLGALLATE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04280"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6339", "META:METHYLGALLATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -119.81823,
+      "uniprot" : [ "P22636", "P22635" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627" ],
+      "orthologs" : [ "K04099", "K04100", "K04101" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

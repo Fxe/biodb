@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2441",
+  "equation" : "ibt + atp <=> ib_p + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd981" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7395" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.2.14; EC-2.7.2.14",
+  "otherNames" : [ ],
+  "alias" : "ACKVAL",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BRANCHED-CHAIN-FATTY-ACID-KINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACKVAL"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04002"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 8.538208,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517" ]
+    }
+  }
+}

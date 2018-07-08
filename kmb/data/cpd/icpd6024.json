@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6024",
+  "formula" : "C3H7N3O3",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd6024",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02091"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-2298"
+  } ],
+  "inchi" : "InChI=1S/C3H7N3O3/c4-1(2(7)8)6-3(5)9/h1H,4H2,(H,7,8)(H3,5,6,9)",
+  "inchikey" : "VTFWFHCECSOPSX-UHFFFAOYSA-N",
+  "smiles" : "C(C(=O)[O-])([N+])NC(=O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Ureido-Compounds" ],
+      "reactions" : [ "META:RXN-12221", "META:ALLANTOATE-DEIMINASE-RXN", "META:RXN-11141", "META:URUR-RXN" ],
+      "gibbs" : -56.83216,
+      "cmlMolWeight" : 133.107,
+      "molWeight" : 133.107,
+      "parents" : [ "META:Ureido-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   21.5536  -15.8465    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   22.7677  -16.5436    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3511  -16.5436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9819  -15.8465    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1903  -16.5436    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9819  -14.4466    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1336  -15.8434    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3538  -17.9558    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5536  -14.4483    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  4  5  1  0     0  0\n  4  6  2  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  1  9  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C02091\n\n$$$$",
+  "reactions" : [ "irxn5561", "irxn5394", "irxn4148" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1191",
+  "equation" : "o2 + icpd883 + h2o <=> icpd6738 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd883" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd6738" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.3.6; EC-1.5.3.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R-6-HYDROXYNICOTINE-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07170"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -12.753006,
+      "uniprot" : [ "P08159" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K19890" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

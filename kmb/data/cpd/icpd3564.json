@@ -1,0 +1,30 @@
+{
+  "id" : "icpd3564",
+  "formula" : "Cl2Mg",
+  "name" : "magnesium chloride",
+  "synonyms" : [ ],
+  "alias" : "icpd3564",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07755"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MGCL2"
+  } ],
+  "inchi" : "InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2",
+  "inchikey" : "TWRXJAOTZQYOKJ-UHFFFAOYSA-L",
+  "smiles" : "[Cl-].[Cl-].[Mg+2]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-16649" ],
+      "instances" : [ "META:Inorganic-Salts" ],
+      "parents" : [ "META:Inorganic-Salts" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  0  0  0  0  0  0  0  0  0999 V2000\n   21.2616  -15.7165    0.0000 Mg  0  2  0  0  0  0  0  0  0  0  0  0\n   19.3200  -16.5900    0.0000 Cl  0  5  0  0  0  0  0  0  0  0  0  0\n   24.2200  -16.5900    0.0000 Cl  0  5  0  0  0  0  0  0  0  0  0  0\nM  CHG  3   1   2   2  -1   3  -1\nM  END\n\n> <ENTRY>\ncpd:C07755\n\n$$$$",
+  "reactions" : [ ]
+}

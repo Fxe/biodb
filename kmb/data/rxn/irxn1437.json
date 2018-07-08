@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1437",
+  "equation" : "nadp + 2ppoh <=> nadph + acetone + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3675" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd8124" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.80; 1.1.1.80",
+  "otherNames" : [ ],
+  "alias" : "ALCD20y",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ISOPROPANOL-DEHYDROGENASE-NADP+-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01550"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALCD20y"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5451", "META:PWY-7466", "META:PWY-5533", "META:PWY-6876" ],
+      "orphan" : "NO",
+      "gibbs" : -1.9164429,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

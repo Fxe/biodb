@@ -1,0 +1,37 @@
+{
+  "id" : "icpd4088",
+  "formula" : "C9H11NO3",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4088",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03290"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8855"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-644"
+  } ],
+  "inchi" : "InChI=1S/C9H11NO3/c10-7(9(12)13)8(11)6-4-2-1-3-5-6/h1-5,7-8,11H,10H2,(H,12,13)",
+  "inchikey" : "VHVGNTVUSQUXPS-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)C(C(C(=O)O)N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:PHENYLSERINE-ALDOLASE-RXN" ],
+      "instances" : [ "META:CPD-12742" ],
+      "reactions" : [ "META:PHENYLSERINE-ALDOLASE-RXN" ],
+      "gibbs" : 23.892326,
+      "cmlMolWeight" : 181.191,
+      "molWeight" : 181.191,
+      "parents" : [ "META:CPD-12742" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  1  0  0  0  0  0999 V2000\n   26.4330  -24.1166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6546  -23.4018    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.4330  -25.5459    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1921  -23.4084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8761  -24.1100    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.6482  -22.1331    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1921  -26.2670    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9706  -24.1166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0977  -23.3954    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9531  -25.5905    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9706  -25.5459    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.3256  -24.1036    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1237  -22.1599    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  1  1     0  0\n  7 11  2  0     0  0\n  9 12  1  0     0  0\n  9 13  2  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03290\n\n$$$$",
+  "reactions" : [ "irxn1041" ]
+}

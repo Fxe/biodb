@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6088",
+  "formula" : "C8H8O4",
+  "name" : "3,4-dihydroxymandelaldehyde",
+  "synonyms" : [ "2-(3,4-dihydroxyphenyl)-2-hydroxyacetaldehyde", "3,4-dihydroxyphenylglycolaldehyde", "alpha,3,4-trihydroxy-benzeneacetaldehyde", "benzeneacetaldehyde, alpha,3,4-trihydroxy-" ],
+  "alias" : "34dhmald",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "34dhmald"
+  }, {
+    "source" : "BiGG",
+    "entry" : "34dhmald"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIHYDROXYPHENYLGLYCOLALDEHYDE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05577"
+  } ],
+  "inchi" : "InChI=1S/C8H8O4/c9-4-8(12)5-1-2-6(10)7(11)3-5/h1-4,8,10-12H",
+  "inchikey" : "YUGMCLJIWGEKCK-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)O)O)C(C=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Catechols" ],
+      "reactions" : [ "META:RXN-10912", "META:RXN-10911", "META:RXN-10907", "META:RXN-10908" ],
+      "gibbs" : -32.011036,
+      "cmlMolWeight" : 168.149,
+      "molWeight" : 168.149,
+      "parents" : [ "META:Catechols" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iJN678", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   14.4900  -17.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4900  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7024  -19.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9149  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9149  -17.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7024  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1524  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3649  -17.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5773  -17.1500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1586  -15.7503    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2776  -19.9500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2776  -17.1500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  7 10  1  0     0  0\n  2 11  1  0     0  0\n  1 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05577\n\n$$$$",
+  "reactions" : [ "irxn3562", "irxn4323", "irxn4174", "irxn4758", "irxn2466" ]
+}

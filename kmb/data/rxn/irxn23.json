@@ -1,0 +1,51 @@
+{
+  "id" : "irxn23",
+  "equation" : "h2o + accoa + akg <=> coa + hcit + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd5825" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd3489" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "HCITS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HCITSn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HCITSm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HCITS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iND750", "iMM904", "iAF987", "iHN637" ]
+    }
+  }
+}

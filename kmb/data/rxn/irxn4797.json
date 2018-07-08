@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4797",
+  "equation" : "gam6p + accoa <=> coa + h + acgam6p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd3136" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd1216" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.4; 2.3.1.4",
+  "otherNames" : [ ],
+  "alias" : "ACGAM6PS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACGAM6PS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02058"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCOSAMINEPNACETYLTRANS-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5514", "META:UDPNACETYLGALSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -6.538269,
+      "uniprot" : [ "O13738", "P43577" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "K00621" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1317",
+  "equation" : "4mcat + o2 <=> hmccms",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd6526" : ""
+    },
+    "r" : {
+      "icpd4145" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.2",
+  "otherNames" : [ ],
+  "alias" : "4MCAT23DOX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05295"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "4MCAT23DOX"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K07104", "K00446" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

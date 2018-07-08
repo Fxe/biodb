@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6245",
+  "equation" : "icpd1570 + nad <=> nadh + h + icpd4746",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1570" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd4746" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.76; EC-1.1.1.76",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SS-BUTANEDIOL-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03707"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:HG+2" ],
+      "activators" : [ "META:CO+2", "META:BA+2", "META:CA+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6388", "META:PWY-6390" ],
+      "orphan" : "NO",
+      "gibbs" : 1.0817871,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00650" ],
+      "orthologs" : [ "K03366", "K18009" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

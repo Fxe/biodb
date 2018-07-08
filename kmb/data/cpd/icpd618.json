@@ -1,0 +1,39 @@
+{
+  "id" : "icpd618",
+  "formula" : "C7H10O5",
+  "name" : "(3r,4s,5r)-3,4,5-trihydroxycyclohex-1-ene-1-carboxylic acid",
+  "synonyms" : [ ],
+  "alias" : "skm",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "skm"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "skm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SHIKIMATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00493"
+  } ],
+  "inchi" : "InChI=1S/C7H10O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1,4-6,8-10H,2H2,(H,11,12)/t4-,5-,6-/m1/s1",
+  "inchikey" : "JXOHGGNKMLTUBP-HSUXUTPPSA-N",
+  "smiles" : "C1=C(C[C@H]([C@@H]([C@@H]1O)O)O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-7968", "META:RXN-2621", "META:TRANS-RXN-27", "META:SHIKIMATE-5-DEHYDROGENASE-RXN", "META:SHIKIMATE-KINASE-RXN", "META:SHIKIMATE-PQQ-RXN", "META:RXN-11174", "META:2.3.1.133-RXN" ],
+      "gibbs" : -90.86198,
+      "cmlMolWeight" : 173.145,
+      "molWeight" : 173.145
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   22.1200  -15.1127    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3375  -15.8112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9090  -15.8112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -13.7223    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3375  -17.2208    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   20.9090  -17.2208    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.3182  -13.0238    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9025  -13.0301    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1200  -17.9322    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.5485  -17.9128    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6978  -17.9128    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -19.3290    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  1  1     0  0\n  6 11  1  6     0  0\n  9 12  1  6     0  0\n  6  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00493\n\n$$$$",
+  "reactions" : [ "irxn4320", "irxn608", "irxn1735", "irxn4775", "irxn845" ]
+}

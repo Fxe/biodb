@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4253",
+  "formula" : "C9H8O2",
+  "name" : "1-phenylpropane-1,2-dione",
+  "synonyms" : [ "1-phenyl-1,2-propandione", "1-phenyl-1,2-propanedione", "3-phenyl-2,3-propanedione", "benzoyl methyl ketone", "methyl phenyl diketone", "methyl phenyl glyoxal", "methylphenylglyoxal", "phenyl methyl diketone", "phenylmethyldiketone", "pyruvophenone" ],
+  "alias" : "icpd4253",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9949"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C17268"
+  } ],
+  "inchi" : "InChI=1S/C9H8O2/c1-7(10)9(11)8-5-3-2-4-6-8/h2-6H,1H3",
+  "inchikey" : "BVQVLAIMHVDZEL-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)C(=O)C1=CC=CC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-14054", "META:RXN-9338", "META:RXN-9337" ],
+      "gibbs" : 54.228966,
+      "cmlMolWeight" : 148.161,
+      "molWeight" : 148.161
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   39.6746  -39.8731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   39.6746  -41.2711    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   40.8853  -41.9702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   42.0961  -41.2711    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   42.0961  -39.8731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   40.8853  -39.1740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   43.3319  -39.1740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   44.5427  -39.8731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   45.7535  -39.1740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   44.5427  -41.2709    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   43.3381  -37.7763    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\n  7 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17268\n\n$$$$",
+  "reactions" : [ "irxn3235", "irxn3238" ]
+}

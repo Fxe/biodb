@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2814",
+  "equation" : "2.0 34hpp + o2 <=> 2.0 4hphac + 2.0 co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd3343" : "2.0"
+    },
+    "r" : {
+      "icpd2454" : "2.0",
+      "icpd1660" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.3.13; 1.2.3.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.2.3.13-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00042"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5151", "META:PWY-7514" ],
+      "orphan" : null,
+      "gibbs" : -136.55998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00350" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

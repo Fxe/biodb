@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1963",
+  "equation" : "accoa + icpd1148 <=> ac + icpd2421",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd1148" : ""
+    },
+    "r" : {
+      "icpd2421" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.3.11; 2.8.3.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03153"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CITRAMALATE-COA-TRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -3.392334,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00660", "rn01100", "C5" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

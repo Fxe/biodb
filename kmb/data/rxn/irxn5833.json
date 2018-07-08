@@ -1,0 +1,54 @@
+{
+  "id" : "irxn5833",
+  "equation" : "nad + pacald + h2o <=> pac + nadh + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd4822" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd2748" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.39; EC-1.2.1.39; 1.2.1.5",
+  "otherNames" : [ ],
+  "alias" : "r0546",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ALDD19xr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENDEHYD-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02536"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0546"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHENYLACETALDEHYDE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ANAPHENOXI-PWY", "META:2PHENDEG-PWY", "META:PWY-6534", "META:PWY-6941", "META:PWY-6318" ],
+      "orphan" : "NO",
+      "gibbs" : -13.105316,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00360", "rn00643" ],
+      "orthologs" : [ "K00129", "K00146" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iECBD_1354", "iCHOv1", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iND750", "iWFL_1372", "iECIAI1_1343", "iBWG_1329", "iJR904", "iML1515", "iECDH1ME8569_1439", "iECO103_1326", "iUMNK88_1353", "iAF1260b", "iEcE24377_1341", "iEcDH1_1363", "iEcHS_1320", "iECO26_1355", "iMM904", "iECDH10B_1368", "RECON1", "iEcolC_1368", "iB21_1397", "iAF1260", "iEC55989_1330", "iY75_1357", "iECW_1372", "iECO111_1330", "iAT_PLT_636", "iYL1228", "iJO1366", "iNJ661", "iMM1415", "iECB_1328", "iECSE_1348" ]
+    }
+  }
+}

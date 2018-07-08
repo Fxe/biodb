@@ -1,0 +1,44 @@
+{
+  "id" : "irxn779",
+  "equation" : "2mcit <=> micit",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5379" : ""
+    },
+    "r" : {
+      "icpd72" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "MCA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACONT3m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MCA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM904", "iYO844" ]
+    }
+  }
+}

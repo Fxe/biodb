@@ -1,0 +1,31 @@
+{
+  "id" : "icpd654",
+  "formula" : "C8H7NO2",
+  "name" : "2-formylaminobenzaldehyde",
+  "synonyms" : [ ],
+  "alias" : "icpd654",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03574"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-248"
+  } ],
+  "inchi" : "InChI=1S/C8H7NO2/c10-5-7-3-1-2-4-8(7)9-6-11/h1-6H,(H,9,11)",
+  "inchikey" : "PVIMSPYDDGDCTG-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C=C1)NC=O)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-15187", "META:INDOLE-23-DIOXYGENASE-RXN" ],
+      "gibbs" : 39.367844,
+      "cmlMolWeight" : 149.149,
+      "molWeight" : 149.149
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   28.0556  -19.8827    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0556  -18.4721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8308  -20.5946    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2611  -20.5752    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8308  -17.7730    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2611  -17.7730    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6189  -19.8827    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2676  -21.9731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6189  -18.4721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4667  -18.4656    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4730  -22.6658    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  5  9  2  0     0  0\n  6 10  2  0     0  0\n  8 11  2  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03574\n\n$$$$",
+  "reactions" : [ "irxn6629" ]
+}

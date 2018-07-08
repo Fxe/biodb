@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1549",
+  "equation" : "nad + icpd7599 <=> icpd4454 + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd7599" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd4454" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.368; 1.1.1.368",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HADTHAUERA-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05581"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CENTBENZCOA-PWY", "META:PWY-7401" ],
+      "orphan" : "NO",
+      "gibbs" : -1.9282227,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00362" ],
+      "orthologs" : [ "K07538" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

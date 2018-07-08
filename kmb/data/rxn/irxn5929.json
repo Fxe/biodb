@@ -1,0 +1,51 @@
+{
+  "id" : "irxn5929",
+  "equation" : "1p3h5c + h2o <=> 4hglusa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2284" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1579" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PHCHGS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PHCHGS"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14471"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04443"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PHCHGSm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:HYDROXYPRODEG-PWY" ],
+      "orphan" : null,
+      "gibbs" : 16.481117,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iIT341", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

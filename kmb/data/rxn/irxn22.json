@@ -1,0 +1,47 @@
+{
+  "id" : "irxn22",
+  "equation" : "h2o + 3hbzcoa <=> coa + 3hbz + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd596" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd35" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.2",
+  "otherNames" : [ ],
+  "alias" : "3HBZCT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-7046"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3HBZCT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -6.377136,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

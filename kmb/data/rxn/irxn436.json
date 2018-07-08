@@ -1,0 +1,48 @@
+{
+  "id" : "irxn436",
+  "equation" : "amet + 6mpur <=> ahcys + icpd2701",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd7486" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd2701" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.67; EC-2.1.1.67",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03701"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08236"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THIOPURINE-S-METHYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -13.150009,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00983" ],
+      "orthologs" : [ "K00569" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

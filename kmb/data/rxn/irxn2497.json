@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2497",
+  "equation" : "amet + sarcs <=> ahcys + dmgly",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd6194" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd5167" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.156; 2.1.1.157; 2.1.1.162",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9679"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07243"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ADENOSYL-HOMO-CYS", "META:CPD-29", "META:ACET", "META:DIMETHYL-GLYCINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13406", "META:RXN-13405", "META:RXN-13404" ],
+      "orphan" : "NO",
+      "gibbs" : -13.110001,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

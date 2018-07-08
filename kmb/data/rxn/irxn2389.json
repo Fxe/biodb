@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2389",
+  "equation" : "h2o + icpd4473 <=> icpd2580 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4473" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2580" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.45; EC-3.1.1.45",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CARBOXYMETHYLENEBUTENOLIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06838"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6087", "META:PWY-6193" ],
+      "orphan" : "NO",
+      "gibbs" : -3.9712372,
+      "uniprot" : [ "P73163", "P27136", "P0A115", "P27100", "Q9RPB2", "P0A114", "Q9RPF5" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00361", "rn01120" ],
+      "orthologs" : [ "K01061" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

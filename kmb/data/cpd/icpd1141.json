@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1141",
+  "formula" : "C7H9N",
+  "name" : "n-methylaniline",
+  "synonyms" : [ "n-methylbenzenamine" ],
+  "alias" : "icpd1141",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02299"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-METHYLANILINE"
+  } ],
+  "inchi" : "InChI=1S/C7H9N/c1-8-7-5-3-2-4-6-7/h2-6,8H,1H3",
+  "inchikey" : "AFBPFSWMIHJQDM-UHFFFAOYSA-N",
+  "smiles" : "CNC1=CC=CC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:DIMETHYLANILINE-N-OXIDE-ALDOLASE-RXN" ],
+      "gibbs" : 130.8901,
+      "cmlMolWeight" : 107.155,
+      "molWeight" : 107.155
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   18.3966  -14.4366    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1953  -15.1267    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6173  -15.1267    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3903  -13.0434    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1953  -16.5326    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6173  -16.5326    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5980  -12.3469    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3966  -17.2483    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  2  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02299\n\n$$$$",
+  "reactions" : [ "irxn2515" ]
+}

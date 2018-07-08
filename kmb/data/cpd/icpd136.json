@@ -1,0 +1,30 @@
+{
+  "id" : "icpd136",
+  "formula" : "C10H19O4P",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd136",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01048"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Polyisoprenyl-Monophosphates"
+  } ],
+  "inchi" : "InChI=1S/C10H19O4P/c1-9(2)5-4-6-10(3)7-8-14-15(11,12)13/h5,7H,4,6,8H2,1-3H3,(H2,11,12,13)/b10-7+",
+  "inchikey" : "FFOWJDCTFSWUMJ-JXMROGBWSA-N",
+  "smiles" : "CC(=CCC/C(=C/COP(=O)(O)O)/C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:DECAPRENOL-PHOSPHATE", "META:CPD-12587", "META:CPD-11994", "META:CPD-9646", "META:UNDECAPRENYL-P", "META:CPD-12594", "META:CPD-17820" ],
+      "reactions" : [ "META:2.4.1.78-RXN", "META:RXN-18683", "META:RXN-18685", "META:RXN-18682", "META:RXN-18681" ],
+      "parents" : [ "META:DECAPRENOL-PHOSPHATE", "META:CPD-12587", "META:CPD-11994", "META:CPD-9646", "META:UNDECAPRENYL-P", "META:CPD-12594", "META:Isoprenoid-Phosphates", "META:CPD-17820" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 14  0  0  0  0  0  0  0  0999 V2000\n   20.7200  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9324  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1449  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3573  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5697  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7822  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9946  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2070  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.3295  -16.8000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9324  -14.7002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7822  -14.7003    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.7295  -16.8000    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   34.1295  -16.8000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.7295  -15.4003    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.7295  -18.1997    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  2  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  2 10  1  0     0  0\n  6 11  1  0     0  0\n  9 12  1  0     0  0\n 12 13  1  0     0  0\n 12 14  1  0     0  0\n 12 15  2  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1  5   5   6   7   8  11\nM  SDI   1  4   25.2000  -17.4300   25.2000  -15.4000\nM  SDI   1  4   29.6800  -15.2600   29.6800  -17.3600\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C01048\n\n$$$$",
+  "reactions" : [ "irxn4831" ]
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5941",
+  "equation" : "rhmn <=> h2o + lkdr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5407" : ""
+    },
+    "r" : {
+      "icpd4586" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.90; EC-4.2.1.90",
+  "otherNames" : [ ],
+  "alias" : "RHMND",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-RHAMNONATE-DEHYDRATASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RHMND"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03774"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6713", "META:PWY-6714" ],
+      "orphan" : "NO",
+      "gibbs" : -8.167007,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00051" ],
+      "orthologs" : [ "K12661" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

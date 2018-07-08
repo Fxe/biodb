@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5247",
+  "equation" : "mi134p + atp <=> h + adp + mi1346p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3476" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd7640" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.159; 2.7.1.159",
+  "otherNames" : [ ],
+  "alias" : "MI134PK",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.7.1.133-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03429"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MI134PK"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6362", "META:PWY-6554", "META:PWY-6365", "META:PWY-6366" ],
+      "orphan" : "NO",
+      "gibbs" : -22.305176,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562" ],
+      "orthologs" : [ "K00913" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id" : "irxn5469",
+  "equation" : "thbpt + 2.0 nadp <=> 2.0 nadph + 2.0 h + 6pthp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd276" : "",
+      "icpd5537" : "2.0"
+    },
+    "r" : {
+      "icpd5432" : "2.0",
+      "icpd1851" : "2.0",
+      "icpd4177" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.153; 1.1.1.153",
+  "otherNames" : [ ],
+  "alias" : "SPR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SPR"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8853"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SPRn"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08208"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5663" ],
+      "orphan" : "NO",
+      "gibbs" : 2.1270752,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00790" ],
+      "orthologs" : [ "K00072" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "RECON1", "iJB785" ]
+    }
+  }
+}

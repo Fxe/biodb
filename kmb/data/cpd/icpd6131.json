@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6131",
+  "formula" : "C2H7N3O",
+  "name" : "n-(aminomethyl)urea",
+  "synonyms" : [ ],
+  "alias" : "icpd6131",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14174"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06383"
+  } ],
+  "inchi" : "InChI=1S/C2H7N3O/c3-1-5-2(4)6/h1,3H2,(H3,4,5,6)",
+  "inchikey" : "CKLDBLDTILPFHV-UHFFFAOYSA-N",
+  "smiles" : "C(N)NC(=O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-13201", "META:RXN-13200" ],
+      "gibbs" : 32.766907,
+      "cmlMolWeight" : 90.105,
+      "molWeight" : 90.105
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   28.8338  -18.0122    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6169  -17.3135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0448  -17.3135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4059  -18.0122    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6169  -15.9161    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2617  -18.0122    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06383\n\n$$$$",
+  "reactions" : [ "irxn2550", "irxn2551" ]
+}

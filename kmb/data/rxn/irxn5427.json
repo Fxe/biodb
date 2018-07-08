@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5427",
+  "equation" : "urdglyc <=> glx + urea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd820" : ""
+    },
+    "r" : {
+      "icpd269" : "",
+      "icpd941" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.3.2.3; 4.3.2.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00776"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:UREIDOGLYCOLATE-LYASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:ASN" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5694", "META:PWY-5705" ],
+      "orphan" : "NO",
+      "gibbs" : 3.5099945,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230" ],
+      "orthologs" : [ "K01483", "K16856" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

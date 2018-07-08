@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3510",
+  "equation" : "h2o + icpd481 + nadp <=> nadph + icpd7313 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd481" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd7313" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.49; EC-1.2.1.49",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01338"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-OXOALDEHYDE-DEHYDROGENASE-NADP+-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -4.0825195,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

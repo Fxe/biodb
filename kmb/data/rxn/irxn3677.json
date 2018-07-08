@@ -1,0 +1,55 @@
+{
+  "id" : "irxn3677",
+  "equation" : "h2 + 2.0 fdxox <=> 2.0 fdxrd + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd321" : "2.0",
+      "icpd3917" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd930" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.12.7.2; 1.12.99.-; EC-1.12.7.2",
+  "otherNames" : [ ],
+  "alias" : "HYDA",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00019"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HYDAm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HYDA"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROG-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HYDAh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-12907" ],
+      "orphan" : "NO",
+      "gibbs" : -22.021765,
+      "uniprot" : [ "P31898", "P0AAK1", "P13628", "Q9ZLK4", "P31892", "P31891", "P17632", "P18636", "P18637", "O67092", "O67095", "P21960", "Q7M0Y1", "Q7M0Y0", "P23000", "Q46508", "Q59262", "P16429", "Q43953", "Q7M121", "P31883", "P0ACD8", "P16433", "P17633", "P16432", "P16431", "P16430", "P31875", "P0AAM1", "P07603", "O66895", "O66894", "P12636", "O66896", "Q9S8S0", "P12635", "P33374", "P0ACE0", "P33375", "O25349", "Q9UYN3", "O25350", "O52683", "P21949", "O96948", "P27648", "P18191", "Q9PN32", "P29166", "Q46606", "P0AAJ8", "Q9WY44", "P13066", "O28891", "P15284", "P15283", "P13061", "P69739", "P21950" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K14126", "K18023", "K06441", "K18016", "K18017", "F420", "K00533", "K00534", "K14127", "K14128", "K00532" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

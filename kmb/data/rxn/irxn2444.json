@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2444",
+  "equation" : "glyald + atp <=> g3p + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5552" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd4806" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.28; 2.7.1.28",
+  "otherNames" : [ ],
+  "alias" : "TRIOK",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TRIOK"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRIOKINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01059"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-373" ],
+      "orphan" : null,
+      "gibbs" : -13.475891,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00051" ],
+      "orthologs" : [ "K00863" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

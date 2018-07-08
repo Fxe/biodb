@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2986",
+  "equation" : "dag_hs + atp <=> h + adp + pa_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd911" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd6935" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DAGK_hs",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DAGK_hs"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DAGKn_hs"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

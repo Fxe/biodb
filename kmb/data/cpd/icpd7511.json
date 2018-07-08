@@ -1,0 +1,39 @@
+{
+  "id" : "icpd7511",
+  "formula" : "C3H3O5S",
+  "name" : "3-sulfinopyruvate",
+  "synonyms" : [ "2-carboxy-2-oxoethane-1-sulfinate", "2-carboxy-2-oxoethanesulfinate" ],
+  "alias" : "3snpyr",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05527"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3snpyr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-SULFINYL-PYRUVATE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "3snpyr"
+  } ],
+  "inchi" : "InChI=1S/C3H4O5S/c4-2(3(5)6)1-9(7)8/h1H2,(H,5,6)(H,7,8)/p-1",
+  "inchikey" : "JXYLQEMXCAAMOL-UHFFFAOYSA-M",
+  "smiles" : "C(C(=O)C(=O)O)S(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:3-SULFINYL-PYRUVATE-SPON-RXN", "META:3-SULFINOALANINE-AMINOTRANSFERASE-RXN" ],
+      "gibbs" : -153.72601,
+      "cmlMolWeight" : 150.106,
+      "molWeight" : 150.106
+    },
+    "bigg" : {
+      "models" : [ "iLJ478", "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   18.2700   -7.5600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824   -6.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6949   -7.5600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9073   -6.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1197   -7.5600    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824   -5.4600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6949   -8.9600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1197   -8.9600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3322   -6.8600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  2  0     0  0\n  5  8  2  0     0  0\n  5  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05527\n\n$$$$",
+  "reactions" : [ "irxn4453", "irxn4074" ]
+}

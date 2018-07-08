@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5712",
+  "formula" : "C8H7N",
+  "name" : "phenylacetonitrile",
+  "synonyms" : [ "(cyanomethyl)benzene", "2-phenylacetonitrile", "alpha -cyanotoluene", "alpha -tolunitrile", "alpha-cyano-toluene", "alpha-cyanotoluene", "alpha-tolunitrile", "benzeneacetonitrile, 9ci", "benzyl cyanide", "cyanophenylmethane", "phenyl-acetonitrile" ],
+  "alias" : "icpd5712",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENYLACETONITRILE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16074"
+  } ],
+  "inchi" : "InChI=1S/C8H7N/c9-7-6-8-4-2-1-3-5-8/h1-5H,6H2",
+  "inchikey" : "SUSQOBVLVYHIEX-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)CC#N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatic-Nitriles" ],
+      "reactions" : [ "META:4.99.1.7-RXN", "META:RXN-12025", "META:RXN-18098" ],
+      "gibbs" : 114.61784,
+      "cmlMolWeight" : 117.15,
+      "molWeight" : 117.15,
+      "parents" : [ "META:Aromatic-Nitriles" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   22.9969  -19.9438    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9969  -18.5545    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   21.7932  -20.6415    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2196  -20.6415    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2003  -17.8503    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7932  -22.0499    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2196  -22.0499    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4040  -17.1524    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9969  -22.7606    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  3  0     0  0\n  6  9  2  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16074\n\n$$$$",
+  "reactions" : [ "irxn5903" ]
+}

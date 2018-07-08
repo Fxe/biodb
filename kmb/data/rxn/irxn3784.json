@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3784",
+  "equation" : "nadph + 4mzym_int2 + h <=> 4mzym + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1791" : ""
+    },
+    "r" : {
+      "icpd1117" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.270",
+  "otherNames" : [ ],
+  "alias" : "C3STKR1",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07495"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C3STKR1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100", "rn01130" ],
+      "orthologs" : [ "K09827", "K13373" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd1579",
+  "formula" : "C5H9NO4",
+  "name" : "(2s,4r)-2-amino-4-hydroxy-5-oxopentanoic acid",
+  "synonyms" : [ ],
+  "alias" : "4hglusa",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "4hglusa"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05938"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-4-HYDROXYGLUTAMATE_SEMIALDEHYDE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4hglusa"
+  } ],
+  "inchi" : "InChI=1S/C5H9NO4/c6-4(5(9)10)1-3(8)2-7/h2-4,8H,1,6H2,(H,9,10)/t3-,4+/m1/s1",
+  "inchikey" : "XCXUZPXOFFRGGP-DMTCNVIQSA-N",
+  "smiles" : "C([C@]([H])(C=O)O)[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Non-standard-amino-acids" ],
+      "reactions" : [ "META:RXN-14472", "META:RXN-14471" ],
+      "gibbs" : -57.029915,
+      "cmlMolWeight" : 147.13,
+      "molWeight" : 147.13,
+      "parents" : [ "META:Non-standard-amino-acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iIT341", "iMM1415", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   27.9859  -19.8537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7809  -19.1579    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   29.1906  -19.1579    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.5697  -19.8537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7680  -17.7534    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3952  -19.8537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1840  -17.7534    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3587  -19.1579    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5633  -21.2581    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.5850  -19.1673    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  1     0  0\n  3  6  1  0     0  0\n  3  7  1  1     0  0\n  4  8  1  0     0  0\n  4  9  2  0     0  0\n  6 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05938\n\n$$$$",
+  "reactions" : [ "irxn5929", "irxn5029" ]
+}

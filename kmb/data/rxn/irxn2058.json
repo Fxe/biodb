@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2058",
+  "equation" : "icpd4802 <=> h2o + ggdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4802" : ""
+    },
+    "r" : {
+      "icpd3373" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.133; EC-4.2.1.133",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09967"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11772"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6645" ],
+      "orphan" : "NO",
+      "gibbs" : 43.00299,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00904" ],
+      "orthologs" : [ "K20518", "K20516" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

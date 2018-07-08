@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1432",
+  "equation" : "2.0 icpd7424 + 2.0 h + h2o2 <=> 2.0 icpd5600 + 2.0 h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2494" : "",
+      "icpd1851" : "2.0",
+      "icpd7424" : "2.0"
+    },
+    "r" : {
+      "icpd5600" : "2.0",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.11.1.13; EC-1.11.1.16; 1.11.1.13; 1.11.1.16",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00011"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MANGANESE-PEROXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-18155" ],
+      "orphan" : "NO",
+      "gibbs" : -64.81047,
+      "uniprot" : [ "Q12332", "Q12597", "P78733", "Q7M4V9", "Q99058", "Q7M4X2", "Q9URB1", "Q02567", "P19136" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

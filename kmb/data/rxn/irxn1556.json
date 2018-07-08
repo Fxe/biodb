@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1556",
+  "equation" : "h2o + 324193 <=> amp + 2.0 h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "324193" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd5753" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "BTP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DNTP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

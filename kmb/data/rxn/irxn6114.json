@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6114",
+  "equation" : "dopa + icpd6001 <=> icpd5500 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6001" : "",
+      "icpd4793" : ""
+    },
+    "r" : {
+      "icpd5500" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8486"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08835"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5403" ],
+      "orphan" : null,
+      "gibbs" : -20.507004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00965" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

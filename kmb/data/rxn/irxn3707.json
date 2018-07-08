@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3707",
+  "equation" : "udpg + 12dgr180 <=> udp + glcdg161 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd5780" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd4408" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.315; 2.4.1.336",
+  "otherNames" : [ ],
+  "alias" : "GLUDGS_HDE_HDE",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GLUDGS_HDE_HDE"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02689"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00561", "rn01100" ],
+      "orthologs" : [ "K19003", "K19004", "K03429" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

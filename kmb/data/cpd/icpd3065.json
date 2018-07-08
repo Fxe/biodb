@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3065",
+  "formula" : "C6H10NO2",
+  "name" : "1-aminocyclopentanecarboxylate",
+  "synonyms" : [ "1-aminocyclopentane-1-carboxylate" ],
+  "alias" : "icpd3065",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19526"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03969"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO2/c7-6(5(8)9)3-1-2-4-6/h1-4,7H2,(H,8,9)/p-1",
+  "inchikey" : "NILQLFBWTXNUOE-UHFFFAOYSA-M",
+  "smiles" : "C1CCC(C1)(C(=O)[O-])N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:S-ADENMETSYN-RXN" ],
+      "instances" : [ "META:Non-standard-amino-acids" ],
+      "gibbs" : 43.52232,
+      "cmlMolWeight" : 129.158,
+      "molWeight" : 129.158,
+      "parents" : [ "META:Non-standard-amino-acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   17.7818  -14.7927    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   18.9979  -14.0977    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9272  -15.6035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6622  -15.6035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6556  -13.9561    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2012  -14.8119    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9979  -12.7013    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4896  -16.9418    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0867  -16.9418    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\n  2  6  1  0     0  0\n  2  7  2  0     0  0\n  3  8  1  0     0  0\n  4  9  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03969\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1060",
+  "equation" : "nadph + o2 + benzcoa + h <=> h2o + nadp + icpd6615",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2811" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd5537" : "",
+      "icpd6615" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.208; EC-1.14.13.208",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09555"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2401"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1361" ],
+      "orphan" : "NO",
+      "gibbs" : -98.72058,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00362" ],
+      "orthologs" : [ "K15511", "K15512" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

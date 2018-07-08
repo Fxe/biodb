@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3071",
+  "equation" : "coa + Rtotalcrn <=> Rtotalcoa + crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd455" : "",
+      "icpd2377" : ""
+    },
+    "r" : {
+      "icpd2196" : "",
+      "icpd6570" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RTOTALCRNCPT2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RTOTALCRNCPT1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RTOTALCRNCPT2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

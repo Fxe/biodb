@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2384",
+  "equation" : "icpd8107 + icpd4302 <=> icpd8139 + icpd2643",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd4302" : ""
+    },
+    "r" : {
+      "icpd2643" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.99.31; 1.1.99.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03793"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MANDELATE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1501" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

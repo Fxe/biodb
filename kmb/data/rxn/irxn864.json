@@ -1,0 +1,47 @@
+{
+  "id" : "irxn864",
+  "equation" : "f6p + pi <=> e4p + actp + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7485" : "",
+      "icpd7592" : ""
+    },
+    "r" : {
+      "icpd631" : "",
+      "icpd796" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.22",
+  "otherNames" : [ ],
+  "alias" : "PKETF",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PKETF"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00761"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00710" ],
+      "orthologs" : [ "K01621" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

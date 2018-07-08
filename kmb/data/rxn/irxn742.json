@@ -1,0 +1,49 @@
+{
+  "id" : "irxn742",
+  "equation" : "nadph + o2 + 2dp6mobq_me + h <=> h2o + 2dpmhobq + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd7808" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd7849" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.-",
+  "otherNames" : [ ],
+  "alias" : "COQ7m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "COQ7m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08775"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00130", "rn01110" ],
+      "orthologs" : [ "Coq7", "K06134", "K03184" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

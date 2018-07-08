@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2602",
+  "equation" : "h + ptcys <=> co2 + ptth",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6815" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd1613" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.30; EC-4.1.1.30",
+  "otherNames" : [ ],
+  "alias" : "PNCDC",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02972"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PNCDC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0580"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PANTOTHENOYLCYSTEINE-DECARBOXYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -2.4659076,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00770" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNJ661" ]
+    }
+  }
+}

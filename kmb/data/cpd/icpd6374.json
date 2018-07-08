@@ -1,0 +1,36 @@
+{
+  "id" : "icpd6374",
+  "formula" : "C4H8O2",
+  "name" : "(r)-acetoin",
+  "synonyms" : [ "(3r)-3-hydroxybutan-2-one", "(r)-3-hydroxy-2-butanone", "(r)-3-hydroxybutan-2-one", "3r-hydroxybutan-2-one" ],
+  "alias" : "icpd6374",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "actn-R"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00810"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10353"
+  } ],
+  "inchi" : "InChI=1S/C4H8O2/c1-3(5)4(2)6/h3,5H,1-2H3/t3-/m1/s1",
+  "inchikey" : "ROWKJAVDOGWPAT-GSVOUGTGSA-N",
+  "smiles" : "C[C@H](C(=O)C)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ACETOIN" ],
+      "reactions" : [ "META:RR-BUTANEDIOL-DEHYDROGENASE-RXN", "META:ACETOIN-RACEMASE-RXN", "META:RXN-11035", "META:RXN-11036", "META:ACETOLACTATE-DECARBOXYLASE-RXN" ],
+      "gibbs" : 10.048964,
+      "cmlMolWeight" : 88.106,
+      "molWeight" : 88.106,
+      "parents" : [ "META:ACETOIN" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  1  0  0  0  0  0999 V2000\n   18.1300  -21.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3424  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5549  -21.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7673  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3424  -19.5302    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5549  -23.0298    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C00810\n\n$$$$",
+  "reactions" : [ "irxn5697", "irxn6706", "irxn804", "irxn5745", "irxn6900" ]
+}

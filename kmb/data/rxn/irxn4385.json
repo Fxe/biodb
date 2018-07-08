@@ -1,0 +1,51 @@
+{
+  "id" : "irxn4385",
+  "equation" : "nadph + h + succoa <=> sucsal + coa + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5739" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd7343" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.76; 1.2.1.76",
+  "otherNames" : [ ],
+  "alias" : "SSCOARy",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09280"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8891"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SSCOARy"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5789", "META:PWY-7854", "META:PWY-5677" ],
+      "orphan" : "NO",
+      "gibbs" : -10.4729,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650", "rn01200", "rn01120", "rn00720" ],
+      "orthologs" : [ "K15038", "K15017", "K18119" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

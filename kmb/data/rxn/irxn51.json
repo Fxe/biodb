@@ -1,0 +1,47 @@
+{
+  "id" : "irxn51",
+  "equation" : "nadh + q6 + h <=> nad + q6h2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2857" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd2852" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "NADH2_u6m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NADH2_u6m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NADH2_u6cm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

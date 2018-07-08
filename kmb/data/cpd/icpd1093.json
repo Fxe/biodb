@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1093",
+  "formula" : "C7H4NO5",
+  "name" : "5-nitrosalicylate",
+  "synonyms" : [ "2-hydroxy-5-nitrobenzoate" ],
+  "alias" : "icpd1093",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19789"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12696"
+  } ],
+  "inchi" : "InChI=1S/C7H5NO5/c9-6-2-1-4(8(12)13)3-5(6)7(10)11/h1-3,9H,(H,10,11)/p-1",
+  "inchikey" : "PPDRLQLKHRZIJC-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=C(C(=C1)O)C(=O)[O-])[N+](=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C-nitro-compounds", "META:Nitroaromatic-Compounds" ],
+      "reactions" : [ "META:RXN-14253", "META:RXN-13370", "META:RXN-11730" ],
+      "gibbs" : -115.33758,
+      "cmlMolWeight" : 182.112,
+      "molWeight" : 182.112,
+      "parents" : [ "META:C-nitro-compounds", "META:Nitroaromatic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   18.4441  -16.6907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4441  -18.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6363  -18.7946    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8986  -18.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8986  -16.6907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6363  -15.9895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6363  -14.5869    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6363  -20.1972    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   22.0908  -15.9895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2830  -16.6907    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0908  -14.5869    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4441  -20.8985    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8285  -20.8985    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  3  8  1  0     0  0\n  5  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  2  0     0  0\n  8 12  2  0     0  0\n  8 13  1  0     0  0\nM  CHG  2   8   1  13  -1\nM  END\n\n> <ENTRY>\ncpd:C19789\n\n$$$$",
+  "reactions" : [ "irxn5891", "irxn1766", "irxn1686" ]
+}

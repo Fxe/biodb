@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2557",
+  "equation" : "icpd3653 + uamag + atp <=> h + pi + adp + ugmd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3653" : "",
+      "icpd6530" : "",
+      "icpd4614" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd3138" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.2.13; EC-6.3.2.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:UDP-NACMURALGLDAPLIG-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02788"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1330", "META:UDP", "META:UDP-N-ACETYL-D-GLUCOSAMINE", "META:CPD0-1329", "META:CPD0-1328", "META:UDP-N-ACETYLMURAMATE", "META:UDP-AAGM-DIAMINOHEPTANEDIOATE", "META:CPD0-1456" ],
+      "activators" : [ "META:Pi", "META:K+" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6387" ],
+      "orphan" : "NO",
+      "gibbs" : -7.135742,
+      "uniprot" : [ "P45060", "Q59650", "O69290", "Q03523", "Q9JSZ0", "Q55469", "P22188" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn00550" ],
+      "orthologs" : [ "K01928", "K15792" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

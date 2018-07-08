@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3378",
+  "equation" : "7dhchsterol <=> pd3",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3041" : ""
+    },
+    "r" : {
+      "icpd7140" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PVD3",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14674"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PVD3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7300" ],
+      "orphan" : null,
+      "gibbs" : -122.4245,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

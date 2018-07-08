@@ -1,0 +1,41 @@
+{
+  "id" : "icpd830",
+  "formula" : "C7H13NO3S",
+  "name" : "n-acetylmethionine",
+  "synonyms" : [ "acetyl-l-methionine", "acetylmethionin", "acetylmethionine", "l-methionine, n-acetyl-", "l-n-acetyl-methionine", "n-acetyl-l-methionine", "n-acetyl-methionine", "n-acetyl-s-methylhomocysteine" ],
+  "alias" : "acmet",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-2015"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "C02712"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "acmet"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02712"
+  } ],
+  "inchi" : "InChI=1S/C7H13NO3S/c1-5(9)8-6(7(10)11)3-4-12-2/h6H,3-4H2,1-2H3,(H,8,9)(H,10,11)/t6-/m0/s1",
+  "inchikey" : "XUYPXLNMDZIRQH-LURJTMIESA-N",
+  "smiles" : "CC(=N[C@@]([H])(CCSC)C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-Alpha-Acetylated-Amino-Acids" ],
+      "reactions" : [ "META:RXN-17892", "META:RXN-17893", "META:RXN0-6948" ],
+      "gibbs" : 17.431381,
+      "cmlMolWeight" : 190.237,
+      "molWeight" : 190.237,
+      "parents" : [ "META:N-Alpha-Acetylated-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iML1515" ]
+    }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   27.6828  -15.3288    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.6828  -16.7277    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8943  -14.6323    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4651  -14.6323    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1060  -15.3288    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8943  -13.2274    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2534  -15.3288    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0417  -14.6323    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8300  -15.3288    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8624  -17.4300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0749  -16.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8531  -18.8299    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  1     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  3  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  2 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02712\n\n$$$$",
+  "reactions" : [ "irxn3920" ]
+}

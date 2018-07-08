@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6785",
+  "equation" : "2ins <=> h2o + icpd1422",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7818" : ""
+    },
+    "r" : {
+      "icpd1422" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.44; 4.2.1.44",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MYO-INOSOSE-2-DEHYDRATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02782"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:GLUTATHIONE", "META:CO+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P562-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -7.826996,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562", "rn01120" ],
+      "orthologs" : [ "K03335" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

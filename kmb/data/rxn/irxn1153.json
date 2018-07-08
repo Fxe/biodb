@@ -1,0 +1,43 @@
+{
+  "id" : "irxn1153",
+  "equation" : "asp__L <=> icpd5007",
+  "stoichiometry" : {
+    "l" : {
+      "icpd95" : ""
+    },
+    "r" : {
+      "icpd5007" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.1.1.13; 5.1.1.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ASPARTATE-RACEMASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00491"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 1.3500061,
+      "uniprot" : [ "P71164", "P29079", "Q9CDJ4" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00250" ],
+      "orthologs" : [ "K01779" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

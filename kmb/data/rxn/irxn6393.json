@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6393",
+  "equation" : "h2o + fdp_B <=> f6p_B + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1130" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd3606" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.11; EC-3.1.3.11",
+  "otherNames" : [ ],
+  "alias" : "BFBP",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:F16BDEPHOS-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BFBPh"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04780"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BFBP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:KCL", "META:AMP", "META:Pi", "META:CPD-535", "META:GLC-6-P", "META:ATP", "META:LI+", "META:ADP", "META:PHOSPHO-ENOL-PYRUVATE" ],
+      "activators" : [ "META:SULFATE", "META:PHOSPHO-ENOL-PYRUVATE", "META:CIT", "META:DITHIOTHREITOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5484", "META:P185-PWY", "META:GLYCOLYSIS", "META:GLUCONEO-PWY", "META:CALVIN-PWY", "META:SUCSYN-PWY", "META:PWY66-399" ],
+      "orphan" : "NO",
+      "gibbs" : 6.8935547,
+      "uniprot" : [ "P27994", "Q9PP83", "Q9JUL6", "P22780", "P46276", "P46275", "Q9CIU9", "Q05079", "Q42796", "P19112", "O65827", "P22418", "P0A993", "P09195", "P46267", "P09199", "Q9HGZ4", "P45292", "Q07204", "P14766", "Q43139", "Q7M0S7", "Q45597", "P19911", "P19912", "P00637", "P00636", "P09201", "P09202", "P25851", "P09467", "P23014" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00010", "rn01110", "rn00051", "rn00030", "rn01130" ],
+      "orthologs" : [ "K03841", "K01086", "K04041", "K01622", "K11532", "K02446" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

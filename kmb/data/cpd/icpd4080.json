@@ -1,0 +1,34 @@
+{
+  "id" : "icpd4080",
+  "formula" : "C3H6O3",
+  "name" : "l-glycerose",
+  "synonyms" : [ "(s)-2,3-dihydroxypropanal", "l-glyceraldehyde" ],
+  "alias" : "icpd4080",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-GLYCERALDEHYDE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02426"
+  } ],
+  "inchi" : "InChI=1S/C3H6O3/c4-1-3(6)2-5/h1,3,5-6H,2H2/t3-/m1/s1",
+  "inchikey" : "MNQZXJOMYWMBOU-GSVOUGTGSA-N",
+  "smiles" : "C(=O)[C@]([H])(CO)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TRANSALDOL-RXN" ],
+      "instances" : [ "META:CPD0-1551" ],
+      "reactions" : [ "META:RXN-11381", "META:RXN-11382", "META:RXN0-7251" ],
+      "gibbs" : -45.07328,
+      "cmlMolWeight" : 90.079,
+      "molWeight" : 90.079,
+      "parents" : [ "META:CPD0-1551" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  1  0  0  0  0  0999 V2000\n   26.6700  -20.0200    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.4800  -20.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8600  -20.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6700  -18.6200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2200  -20.0200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1200  -20.0200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02426\n\n$$$$",
+  "reactions" : [ "irxn2917", "irxn3391" ]
+}

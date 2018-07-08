@@ -1,0 +1,53 @@
+{
+  "id" : "irxn6137",
+  "equation" : "nad + lald__D <=> nadh + h + mthgxl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd2878" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd302" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.78; 1.1.1.79; EC-1.1.1.78",
+  "otherNames" : [ ],
+  "alias" : "LALDO2x",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02527"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-LACTALDEHYDE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LALDO2x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALCD22_D"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CPD-29", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:MGLDLCTANA-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 3.541809,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00620" ],
+      "orthologs" : [ "K00049", "K12972" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iWFL_1372", "iECED1_1282", "iECIAI1_1343", "iBWG_1329", "iML1515", "iECABU_c1320", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECO111_1330", "iEcSMS35_1347", "iE2348C_1286", "iNRG857_1313", "iECW_1372", "iAT_PLT_636", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iSDY_1059", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iECO103_1326", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iJO1366", "iMM1415", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

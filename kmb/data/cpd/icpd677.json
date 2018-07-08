@@ -1,0 +1,31 @@
+{
+  "id" : "icpd677",
+  "formula" : "C2H3Cl3O",
+  "name" : "trichloroethanol",
+  "synonyms" : [ "(hydroxymethyl)trichloromethane", "2, 2,2-trichloroethanol", "2,2,2-trichloro-1-ethanol", "2,2,2-trichloro-ethanol", "2,2,2-trichloroethan-1-ol", "2,2,2-trichloroethanol", "2,2,2-trichloroethyl alcohol", "trichloroethyl alcohol" ],
+  "alias" : "icpd677",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07490"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9673"
+  } ],
+  "inchi" : "InChI=1S/C2H3Cl3O/c3-2(4,5)1-6/h6H,1H2",
+  "inchikey" : "KPWDGTGXUYRARH-UHFFFAOYSA-N",
+  "smiles" : "C(C(Cl)(Cl)Cl)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9155", "META:RXN-9154", "META:RXN-9153" ],
+      "gibbs" : -18.596642,
+      "cmlMolWeight" : 149.404,
+      "molWeight" : 149.404
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   28.2277  -16.9168    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   29.4405  -17.6165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0148  -17.6165    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   28.2277  -15.5174    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   28.2218  -18.3220    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   30.6474  -16.9168    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\n  2  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07490\n\n$$$$",
+  "reactions" : [ ]
+}

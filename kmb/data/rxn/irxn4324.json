@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4324",
+  "equation" : "tol + o2 + nadh + h <=> nad + icpd4331",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd5185" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd4331" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.12.11; 1.14.12.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03559"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TOLUENE-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TOLUENE-DEG-DIOL-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -80.2018,
+      "uniprot" : [ "P13452", "P13370", "P08084", "P08085" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01220", "rn00623" ],
+      "orthologs" : [ "K03268", "K16268", "K18089", "K18090" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

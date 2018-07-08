@@ -1,0 +1,30 @@
+{
+  "id" : "icpd1360",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd1360",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00339"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Long-chain-alcohols"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-7875", "META:CPD-7873", "META:CPD-7869", "META:CPD-348", "META:CPD-7845", "META:CPD-17642", "META:CPD-16004", "META:CPD-17643", "META:CPD-11595", "META:CPD-17644" ],
+      "reactions" : [ "META:2.3.1.75-RXN", "META:LONG-CHAIN-ALCOHOL-DEHYDROGENASE-RXN", "META:RXN-13293", "META:RXN-4443", "META:ALKYLGLYCERONE-PHOSPHATE-SYNTHASE-RXN", "META:RXN-4444", "META:RXN-9344", "META:WAX-ESTER-HYDROLASE-RXN" ],
+      "parents" : [ "META:CPD-7875", "META:CPD-7873", "META:CPD-7869", "META:CPD-348", "META:CPD-7845", "META:CPD-17642", "META:Long-Chain-Primary-Alcohols", "META:Alcohols", "META:CPD-16004", "META:CPD-17643", "META:CPD-11595", "META:CPD-17644" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -15.8397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3312  -16.5419    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9088  -16.5419    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00339\n\n$$$$",
+  "reactions" : [ "irxn275" ]
+}

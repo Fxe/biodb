@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6010",
+  "equation" : "h2o + atp + selmeth <=> ppi + pi + seasmet",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6744" : "",
+      "icpd4016" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7753" : "",
+      "icpd7485" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.6",
+  "otherNames" : [ ],
+  "alias" : "SELMETAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SELMETAT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04771"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00789" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iJN746" ]
+    }
+  }
+}

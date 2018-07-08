@@ -1,0 +1,39 @@
+{
+  "id" : "icpd2382",
+  "formula" : "C8H6NO3",
+  "name" : "n-formylanthranilate",
+  "synonyms" : [ "2-(formylamino)-benzoate", "2-(formylamino)benzoate", "2-formamidobenzoate" ],
+  "alias" : "nformanth",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:N-FORMYLANTHRANILATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "nformanth"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05653"
+  }, {
+    "source" : "BiGG",
+    "entry" : "nformanth"
+  } ],
+  "inchi" : "InChI=1S/C8H7NO3/c10-5-9-7-4-2-1-3-6(7)8(11)12/h1-5H,(H,9,10)(H,11,12)/p-1",
+  "inchikey" : "LLLPDUXGHXIXIW-UHFFFAOYSA-M",
+  "smiles" : "C1=CC(=C(C=C1)N=C[O-])C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.13.11.47-RXN" ],
+      "gibbs" : -23.915339,
+      "cmlMolWeight" : 164.14,
+      "molWeight" : 164.14
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   26.1274  -24.1965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1274  -25.5989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9161  -23.4970    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3353  -23.4936    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9161  -26.3018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3353  -26.3018    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7047  -24.1965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5500  -24.1863    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3985  -22.0946    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7047  -25.5989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5500  -25.5955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7613  -26.2950    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  6 11  1  0     0  0\n 11 12  2  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05653\n\n$$$$",
+  "reactions" : [ "irxn586", "irxn5770", "irxn1382" ]
+}

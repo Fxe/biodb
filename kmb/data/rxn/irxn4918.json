@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4918",
+  "equation" : "icpd8233 <=> h2o + icpd3999 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8233" : ""
+    },
+    "r" : {
+      "icpd3999" : "",
+      "icpd1851" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.95; EC-4.2.1.95",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03622"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:KIEVITONE-HYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:BIOCHANIN-A", "META:KIEVITONE-CPD" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7635" ],
+      "orphan" : "NO",
+      "gibbs" : -12.420109,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

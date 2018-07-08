@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5026",
+  "equation" : "o2 + m_tol + nadh + h <=> nad + dh3mchc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7785" : ""
+    },
+    "r" : {
+      "icpd5730" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.-",
+  "otherNames" : [ ],
+  "alias" : "MTOLDOX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05665"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MTOLDOX"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K05549", "K05550", "K05784" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

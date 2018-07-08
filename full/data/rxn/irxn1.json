@@ -1,0 +1,56 @@
+{
+  "id" : "irxn1",
+  "equation" : "dag_hs + atp <=> h + adp + pa_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd19" : "",
+      "icpd12" : ""
+    },
+    "r" : {
+      "icpd18" : "",
+      "icpd0" : "",
+      "icpd13" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.107; EC-2.7.1.107",
+  "otherNames" : [ ],
+  "alias" : "DAGK_HP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DAGK_hs"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DAGK_HP"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02240"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIACYLGLYKIN-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DAGK_EC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1808", "META:CPD0-1809", "META:CPD0-1807", "META:CPD0-1815", "META:CPD0-1816", "META:CPD0-1759", "META:DIACYLGLYCEROL", "META:CPD0-1811", "META:CPD0-1812", "META:CPD0-1810", "META:CPD0-1763", "META:CPD0-1761", "META:CPD0-1762", "META:CPD0-1760", "META:CA+2" ],
+      "activators" : [ "META:NACL", "META:Phosphatidylinositols", "META:LI+", "META:L-1-PHOSPHATIDYL-GLYCEROL", "META:CPD-7988", "META:DEOXYCHOLATE", "META:CARDIOLIPIN" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7039", "META:PWY-7817" ],
+      "orphan" : "NO",
+      "gibbs" : -4.544739,
+      "uniprot" : [ "Q9JTJ7", "Q9CGK9", "P0ABN1", "P20192", "Q01583", "Q9PIN8", "Q09103", "P51556", "Q03603", "P49619", "Q06119", "O08560", "P23743", "P49621", "Q39017" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100", "rn00561", "rn01110" ],
+      "orthologs" : [ "K00901", "K07029" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iIT341", "iJR904", "RECON1" ]
+    }
+  }
+}

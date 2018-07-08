@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6552",
+  "equation" : "accoa + srtn <=> coa + Nacsertn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd2870" : ""
+    },
+    "r" : {
+      "icpd5851" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.87; 2.3.1.87",
+  "otherNames" : [ ],
+  "alias" : "SRTNACT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN3DJ-35528"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SRTNACT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02911"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6030" ],
+      "orphan" : "NO",
+      "gibbs" : -5.2900085,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K00669" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

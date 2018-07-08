@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3082",
+  "equation" : "udpg + f6p_B <=> suc6p + udp + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd3606" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1541" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.14",
+  "otherNames" : [ ],
+  "alias" : "UFAGT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SUCROSE-PHOSPHATE-SYNTHASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UFAGT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMP", "META:D-SORBITOL-6-P", "META:GLC-6-P", "META:FRU1P" ],
+      "activators" : [ "META:FRUCTOSE-16-DIPHOSPHATE", "META:GLC-6-P", "META:ATP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7347", "META:PWY-7238", "META:SUCSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 4.6275635,
+      "uniprot" : [ "Q43010", "Q43845", "Q43802", "P31928", "O22096", "P31927", "Q43876", "O22081", "O22060", "O04933", "O04932" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

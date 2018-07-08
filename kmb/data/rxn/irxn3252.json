@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3252",
+  "equation" : "icpd6774 + h2o <=> icpd4399 + amp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6774" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4399" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.21; EC-3.6.1.21",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ADPSUGPPHOSPHAT-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03570"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:UDP-GLUCOSE", "META:GLUCOSE-16-DIPHOSPHATE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

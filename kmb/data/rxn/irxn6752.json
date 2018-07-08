@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6752",
+  "equation" : "h2o + dcmp <=> n2 + dump",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6810" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1358" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.4.12; EC-3.5.4.12",
+  "otherNames" : [ ],
+  "alias" : "DCMPDA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DCMPDA"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01663"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DCMP-DEAMINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DCMPDA_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:TTP" ],
+      "activators" : [ "META:DCTP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7210" ],
+      "orphan" : "NO",
+      "gibbs" : 8.626999,
+      "uniprot" : [ "P00814", "O74069", "P32321", "P06773", "P16006" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K01493" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iNF517", "iND750", "iAF987", "iHN637", "iYO844", "iLJ478", "iRC1080", "iMM1415", "iLB1027_lipid", "iMM904", "iSB619", "RECON1" ]
+    }
+  }
+}

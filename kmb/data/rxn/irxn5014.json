@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5014",
+  "equation" : "h2o + icpd8203 <=> s + icpd5877",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8203" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5877" : "",
+      "icpd5284" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.13.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05486"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHO-DETHIO-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PARATHION-DEGRADATION-PWY" ],
+      "orphan" : null,
+      "gibbs" : -124.772995,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00627" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

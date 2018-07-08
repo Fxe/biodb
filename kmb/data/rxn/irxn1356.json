@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1356",
+  "equation" : "vacccoa + crn <=> vacccrn + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4091" : "",
+      "icpd6570" : ""
+    },
+    "r" : {
+      "icpd3012" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "VACCCPT1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "VACCCPT2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "VACCCPT1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn5718",
+  "equation" : "4h2kpi <=> sucsal + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1184" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7343" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2.52; 4.1.2.52",
+  "otherNames" : [ ],
+  "alias" : "DHEDAA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "4H2KPILY"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01645"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHEDAA"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXY-2-KETOPIMELATE-LYSIS-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:3-HYDROXYPHENYLACETATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 1.164093,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K02510" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iECBD_1354", "iSbBS512_1146", "iEKO11_1354", "iB21_1397", "iECUMN_1333", "iECD_1391", "iECIAI1_1343", "iWFL_1372", "iSBO_1134", "iECO111_1330", "iECW_1372", "iECO103_1326", "iYL1228", "iS_1188", "iEcHS_1320", "iECO26_1355", "iECB_1328", "iECSE_1348", "iSF_1195", "iSFxv_1172", "STM_v1_0", "iSSON_1240", "iEcolC_1368" ]
+    }
+  }
+}

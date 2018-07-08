@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4899",
+  "formula" : "C7H12NO3",
+  "name" : "5-acetamidopentanoate",
+  "synonyms" : [ "5-acetamidovalerate" ],
+  "alias" : "icpd4899",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:5-ACETAMIDOVALERATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03087"
+  } ],
+  "inchi" : "InChI=1S/C7H13NO3/c1-6(9)8-5-3-2-4-7(10)11/h2-5H2,1H3,(H,8,9)(H,10,11)/p-1",
+  "inchikey" : "TZZSWAXSIGWXOS-UHFFFAOYSA-M",
+  "smiles" : "CC(=NCCCCC(=O)O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:KETAMID-RXN", "META:AMVAL-RXN", "META:VALGLU-RXN" ],
+      "gibbs" : 10.471383,
+      "cmlMolWeight" : 158.177,
+      "molWeight" : 158.177
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   21.9100  -27.0900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1224  -26.3900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3349  -27.0900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5473  -26.3900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7597  -27.0900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9722  -26.3900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1846  -27.0900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3970  -26.3900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6095  -27.0900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1224  -24.9902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3970  -24.9901    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  2 10  2  0     0  0\n  8 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03087\n\n$$$$",
+  "reactions" : [ "irxn5103", "irxn2368" ]
+}

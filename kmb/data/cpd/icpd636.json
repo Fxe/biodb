@@ -1,0 +1,40 @@
+{
+  "id" : "icpd636",
+  "formula" : "C5H5N2O2",
+  "name" : "imidazole-4-acetate",
+  "synonyms" : [ "4-imidazoleacetate" ],
+  "alias" : "im4ac",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "im4ac"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-IMIDAZOLEACETATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "im4ac"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02835"
+  } ],
+  "inchi" : "InChI=1S/C5H6N2O2/c8-5(9)1-4-2-6-3-7-4/h2-3H,1H2,(H,6,7)(H,8,9)/p-1",
+  "inchikey" : "PRJKNHOMHKJCEJ-UHFFFAOYSA-M",
+  "smiles" : "C(C1=CN=CN1)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:HISTIDINE-DECARBOXYLASE-RXN" ],
+      "reactions" : [ "META:6.3.4.8-RXN", "META:RXN-10089", "META:IMIDAZOLEACETATE-4-MONOOXYGENASE-RXN" ],
+      "gibbs" : -5.22646,
+      "cmlMolWeight" : 125.107,
+      "molWeight" : 125.107
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iUMNK88_1353", "iRC1080", "iWFL_1372", "iMM1415", "iNRG857_1313", "iECW_1372", "iJN678", "RECON1", "iECNA114_1301", "iLF82_1304" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   11.4800  -21.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.6924  -22.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9049  -21.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1173  -22.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9049  -19.9502    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9432  -20.0288    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.8298  -19.1801    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    9.6785  -19.9767    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.0804  -21.3178    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\n  1  6  2  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  1  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02835\n\n$$$$",
+  "reactions" : [ "irxn2194", "irxn3021" ]
+}

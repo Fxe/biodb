@@ -1,0 +1,42 @@
+{
+  "id" : "irxn1696",
+  "equation" : "thf <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6900" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SK_thf_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SK_thf_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EX_thf_e"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iECIAI39_1322", "iSBO_1134", "iS_1188", "iMM1415", "iSDY_1059", "iSF_1195", "iSFxv_1172", "RECON1", "iSSON_1240" ]
+    }
+  }
+}

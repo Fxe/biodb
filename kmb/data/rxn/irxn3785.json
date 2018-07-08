@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3785",
+  "equation" : "ugmda + icpd6947 <=> uagmda + ump",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6947" : "",
+      "icpd3147" : ""
+    },
+    "r" : {
+      "icpd4087" : "",
+      "icpd290" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.8.13; 2.7.8.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05630"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSNACMURPENTATRANS-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-5242" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PEPTIDOGLYCANSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ "P37585", "P45062", "Q9JSZ3", "Q03521", "P0A6W3", "O25235", "Q55986", "Q9PI72" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00550" ],
+      "orthologs" : [ "K01000" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

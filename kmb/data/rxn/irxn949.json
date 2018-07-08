@@ -1,0 +1,48 @@
+{
+  "id" : "irxn949",
+  "equation" : "lys__L + atp + ind3ac <=> icpd5381 + h + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4807" : "",
+      "icpd1296" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5381" : "",
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.3.2.20; 6.3.2.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:INDOLEACETATE--LYSINE-LIGASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03095"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 5.6072693,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

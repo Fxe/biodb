@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2354",
+  "formula" : "C9H10O3",
+  "name" : "veratraldehyde",
+  "synonyms" : [ "3, 4-dimethoxybenzaldehyde", "3,4-dimethoxy-benzaldehyde", "3,4-dimethoxybenzaldehyde", "4-o-methylvanillin", "protocatechualdehyde dimethyl ether", "vanillin methyl ether" ],
+  "alias" : "icpd2354",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:VERATRALDEHYDE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02201"
+  } ],
+  "inchi" : "InChI=1S/C9H10O3/c1-11-8-4-3-7(6-10)5-9(8)12-2/h3-6H,1-2H3",
+  "inchikey" : "WJUFSDZVCOTFON-UHFFFAOYSA-N",
+  "smiles" : "COC1=CC=C(C=C1OC)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-17137", "META:RXN-17138" ],
+      "gibbs" : 52.701202,
+      "cmlMolWeight" : 166.176,
+      "molWeight" : 166.176
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   28.5972  -20.2309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3727  -20.9424    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5972  -18.8201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8027  -20.9233    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1672  -20.2309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3662  -22.3338    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3727  -18.1214    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8090  -22.3209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1672  -18.8201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1607  -23.0325    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3662  -16.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1607  -16.0311    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  5  9  2  0     0  0\n  6 10  1  0     0  0\n  7 11  1  0     0  0\n 11 12  2  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02201\n\n$$$$",
+  "reactions" : [ "irxn1145" ]
+}

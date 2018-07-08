@@ -1,0 +1,34 @@
+{
+  "id" : "icpd6313",
+  "formula" : "C6H7NO",
+  "name" : "o-aminophenol",
+  "synonyms" : [ "2-amino-1-hydroxybenzene", "2-aminobenzenol", "2-aminophenol", "2-hydroxyaniline", "aminophenol" ],
+  "alias" : "icpd6313",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01987"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-AMINOPHENOL"
+  } ],
+  "inchi" : "InChI=1S/C6H7NO/c7-5-3-1-2-4-6(5)8/h1-4,8H,7H2",
+  "inchikey" : "CDAWCLOXVUBKRW-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C=C1)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:RXN-8836" ],
+      "instances" : [ "META:Aryl-Alcohol" ],
+      "reactions" : [ "META:5.4.4.1-RXN", "META:RXN-13159", "META:RXN-8818", "META:O-AMINOPHENOL-OXIDASE-RXN" ],
+      "gibbs" : 66.05784,
+      "cmlMolWeight" : 109.127,
+      "molWeight" : 109.127,
+      "parents" : [ "META:Aryl-Alcohol" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   17.1540  -14.5209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9332  -13.8244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1540  -15.9273    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3557  -13.8179    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7316  -14.5209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9332  -12.4310    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9332  -16.6366    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7316  -15.9273    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  7  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01987\n\n$$$$",
+  "reactions" : [ "irxn4212", "irxn1404" ]
+}

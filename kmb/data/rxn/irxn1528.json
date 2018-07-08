@@ -1,0 +1,43 @@
+{
+  "id" : "irxn1528",
+  "equation" : "5cmhm <=> icpd6848",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4135" : ""
+    },
+    "r" : {
+      "icpd6848" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.3.10; 5.3.3.10",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04379"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5.3.3.10-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:3-HYDROXYPHENYLACETATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -6.85,
+      "uniprot" : [ "P37352" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00350", "rn01120", "rn01220" ],
+      "orthologs" : [ "K01826" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

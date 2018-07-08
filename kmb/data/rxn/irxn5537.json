@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5537",
+  "equation" : "accoa + icpd2356 <=> coa + icpd38",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd2356" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd38" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.18; EC-2.3.1.18",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02616"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GALACTOACETYLTRAN-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1608", "META:CPD0-1609", "META:CPD0-1607", "META:IODOACETAMIDE", "META:CO-A", "META:O-PHENANTHROLINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -24.152283,
+      "uniprot" : [ "P07464", "P26423", "P47636" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6382",
+  "formula" : "C8H8",
+  "name" : "styrene",
+  "synonyms" : [ "ethenyl-benzene", "ethenylbenzene", "ethenylbenzene, 9ci", "phenyl-ethylene", "phenylethene", "phenylethylene", "styrol", "vinyl benzene", "vinyl-benzene", "vinylbenzene", "vinylbenzol" ],
+  "alias" : "icpd6382",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07083"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1092"
+  } ],
+  "inchi" : "InChI=1S/C8H8/c1-2-8-6-4-3-5-7-8/h2-7H,1H2",
+  "inchikey" : "PPBRXRYQALVLMV-UHFFFAOYSA-N",
+  "smiles" : "C=CC1=CC=CC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-17597", "META:RXN-12764", "META:RXN-803" ],
+      "gibbs" : 132.29897,
+      "cmlMolWeight" : 104.151,
+      "molWeight" : 104.151
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   28.8986  -16.6090    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6826  -17.3072    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1091  -17.3072    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8986  -15.2124    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6826  -18.7038    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1091  -18.7038    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1148  -14.5084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8986  -19.4080    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  2  0     0  0\n  5  8  2  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07083\n\n$$$$",
+  "reactions" : [ "irxn1000", "irxn4061" ]
+}

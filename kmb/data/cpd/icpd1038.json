@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1038",
+  "formula" : "C6H5ClO3",
+  "name" : "6-chlorohydroxyquinol",
+  "synonyms" : [ "6-chloro-1,2,4-trihydroxybenzene", "6-chlorobenzene-1,2,4-triol" ],
+  "alias" : "icpd1038",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06328"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6-CHQ"
+  } ],
+  "inchi" : "InChI=1S/C6H5ClO3/c7-4-1-3(8)2-5(9)6(4)10/h1-2,8-10H",
+  "inchikey" : "GVZRJQSQNLOFNR-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C(=C(C=C1O)O)O)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-10075", "META:RXN-10076", "META:DICHCYCLO-RXN" ],
+      "gibbs" : -42.864407,
+      "cmlMolWeight" : 160.557,
+      "molWeight" : 160.557
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   28.8400  -15.5421    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0510  -16.2350    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6231  -16.2350    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8457  -14.1389    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0510  -17.6381    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2621  -15.5421    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6231  -17.6381    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4121  -15.5421    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -18.3427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8457  -19.7400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  5  9  2  0     0  0\n  9 10  1  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06328\n\n$$$$",
+  "reactions" : [ "irxn1326", "irxn1675" ]
+}

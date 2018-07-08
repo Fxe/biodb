@@ -1,0 +1,53 @@
+{
+  "id" : "irxn1470",
+  "equation" : "cynt + 3.0 h + hco3 <=> n2 + 2.0 co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "3.0",
+      "icpd1484" : "",
+      "icpd2660" : ""
+    },
+    "r" : {
+      "icpd2454" : "2.0",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.104; 4.2.1.104",
+  "otherNames" : [ ],
+  "alias" : "CYNTAH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYNTAH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12893"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYNTL_m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10079"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -10.121765,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K01725" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iECBD_1354", "iEKO11_1354", "iETEC_1333", "iECUMN_1333", "iECD_1391", "iWFL_1372", "iECIAI1_1343", "iJR904", "iML1515", "iECDH1ME8569_1439", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iAF1260b", "iEcE24377_1341", "iEcDH1_1363", "iEcHS_1320", "iECO26_1355", "iECDH10B_1368", "iEcolC_1368", "iEC042_1314", "iG2583_1286", "iB21_1397", "iAF1260", "iECSP_1301", "iECIAI39_1322", "iEC55989_1330", "iECs_1301", "iY75_1357", "iEcSMS35_1347", "iECW_1372", "iECO111_1330", "iJN678", "iECH74115_1262", "iJO1366", "iLB1027_lipid", "iECB_1328", "iECSE_1348" ]
+    }
+  }
+}

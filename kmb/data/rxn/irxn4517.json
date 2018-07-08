@@ -1,0 +1,57 @@
+{
+  "id" : "irxn4517",
+  "equation" : "dnad + h2o + gln__L + atp <=> nad + amp + glu__L + ppi + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd929" : "",
+      "icpd4383" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd514" : "",
+      "icpd5131" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.5.1; EC-6.3.5.1",
+  "otherNames" : [ ],
+  "alias" : "NADS2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DNGALh"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00257"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NADS2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NAD-SYNTH-GLN-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7761", "META:PWY-5653", "META:PYRIDNUCSAL-PWY", "META:PWY-5381", "META:PYRIDNUCSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -13.954651,
+      "uniprot" : [ "Q9Z4V9", "Q9PPB0", "Q9CGJ4", "Q9JTY7" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00760" ],
+      "orthologs" : [ "K01950" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iJN678", "iHN637", "iJB785", "iAB_RBC_283", "iJN746", "iRC1080", "iPC815", "iNJ661", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  }
+}

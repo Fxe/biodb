@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2837",
+  "equation" : "nad + 2hog <=> nadh + h + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd2386" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.95",
+  "otherNames" : [ ],
+  "alias" : "AKGR_m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AKGR_m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08198"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1482",
+  "formula" : "C7H7IO",
+  "name" : "2-iodophenol methyl ether",
+  "synonyms" : [ ],
+  "alias" : "icpd1482",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03575"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-IODOPHENOL-METHYL-ETHER"
+  } ],
+  "inchi" : "InChI=1S/C7H7IO/c1-9-7-5-3-2-4-6(7)8/h2-5H,1H3",
+  "inchikey" : "DVQWNQBEUKXONL-UHFFFAOYSA-N",
+  "smiles" : "COC1=C(C=CC=C1)I",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Iodoaromtic-Compounds" ],
+      "reactions" : [ "META:IODOPHENOL-O-METHYLTRANSFERASE-RXN" ],
+      "gibbs" : 95.267845,
+      "cmlMolWeight" : 234.036,
+      "molWeight" : 234.036,
+      "parents" : [ "META:Iodoaromtic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   17.7967  -14.4293    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0130  -15.1272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5866  -15.1272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7902  -13.0402    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0130  -16.5357    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2167  -14.4293    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5866  -16.5357    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1339  -12.2723    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7967  -17.2464    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03575\n\n$$$$",
+  "reactions" : [ "irxn5412" ]
+}

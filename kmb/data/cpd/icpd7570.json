@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7570",
+  "formula" : "C5H9NO4",
+  "name" : "n-methyl-d-aspartic acid",
+  "synonyms" : [ "(2r)-2-(methylamino)butanedioic acid", "n-methyl d-aspartic acid" ],
+  "alias" : "icpd7570",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C12269"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10705"
+  } ],
+  "inchi" : "InChI=1S/C5H9NO4/c1-6-3(5(9)10)2-4(7)8/h3,6H,2H2,1H3,(H,7,8)(H,9,10)/t3-/m1/s1",
+  "inchikey" : "HOKKHZGPKSLGJE-GSVOUGTGSA-N",
+  "smiles" : "CN[C@]([H])(CC(=O)O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-Methyl-D-Amino-Acids", "META:N-methyl-DL-aspartate" ],
+      "gibbs" : -75.343094,
+      "cmlMolWeight" : 146.122,
+      "molWeight" : 146.122,
+      "parents" : [ "META:N-Methyl-D-Amino-Acids", "META:N-methyl-DL-aspartate" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   25.0334  -15.8339    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.2427  -15.1328    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8109  -15.1328    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0334  -17.2361    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4636  -15.8339    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5970  -15.8339    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8109  -13.7235    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6789  -15.1328    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4636  -17.2301    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8440  -17.9207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  1  0     0  0\n  5  9  2  0     0  0\n  4 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12269\n\n$$$$",
+  "reactions" : [ ]
+}

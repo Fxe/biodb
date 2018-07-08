@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1331",
+  "equation" : "h2o + didp <=> dimp + h + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3774" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4255" : "",
+      "icpd1851" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.64; EC-3.6.1.64",
+  "otherNames" : [ ],
+  "alias" : "DIDP",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10235"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14004"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DIDP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -6.8130493,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230" ],
+      "orthologs" : [ "U8", "K16855" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "icpd1977",
+  "formula" : "C10H17N3O6S",
+  "name" : "glutathione",
+  "synonyms" : [ "&gamma;-l-glutamyl-l-cysteinyl-glycine", "(2s)-2-amino-4-{[(1r)-1-[(carboxymethyl)carbamoyl]-2-sulfanylethyl]carbamoyl}butanoic acid", "gamma-glutamylcysteinylglycine", "gamma-l-glutamyl-l-cysteinyl-glycine", "gamma-l-glutamyl-l-cysteinylglycine", "glutathion", "l-gamma-glutamyl-l-cysteinyl-glycine", "l-gamma-glutamyl-l-cysteinylglycine", "n-(n-gamma-l-glutamyl-l-cysteinyl)glycine" ],
+  "alias" : "gthrd",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00051"
+  }, {
+    "source" : "BiGG",
+    "entry" : "gthrd"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTATHIONE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "gthrd"
+  } ],
+  "inchi" : "InChI=1S/C10H17N3O6S/c11-5(10(18)19)1-2-7(14)13-6(4-20)9(17)12-3-8(15)16/h5-6,20H,1-4,11H2,(H,12,17)(H,13,14)(H,15,16)(H,18,19)/t5-,6-/m0/s1",
+  "inchikey" : "RWSXRVCMGQZWBV-WDSKDSINSA-N",
+  "smiles" : "C(CC(=N[C@@]([H])(CS)C(=NCC(=O)O)O)O)[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:DOPAMINE-BETA-MONOOXYGENASE-RXN", "META:RXN-6601", "META:GLUTATHIONE-SYN-RXN", "META:RXN-8458", "META:ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN", "META:RXN-8720", "META:GLUTCYSLIG-RXN", "META:AKBLIG-RXN", "META:S-FORMYLGLUTATHIONE-HYDROLASE-RXN", "META:RXN-8719", "META:RXN-10469" ],
+      "activators" : [ "META:DIMETHYLPROPIOTHETIN-DETHIOMETHYLASE-RXN", "META:LYXK-RXN", "META:1.14.11.26-RXN", "META:1.1.1.283-RXN", "META:SEQUOYITOL-DEHYDROGENASE-RXN", "META:ASPARAGHYD-RXN", "META:1.3.1.19-RXN", "META:ACETYLORNDEACET-RXN", "META:1.21.3.1-RXN", "META:MYO-INOSOSE-2-DEHYDRATASE-RXN" ],
+      "instances" : [ "META:Thiols", "META:All-Glutathiones" ],
+      "reactions" : [ "META:GLUTATHIONE-SYN-RXN", "META:GLYOXI-RXN", "META:RXN-16574", "META:SULFFEOXIDO-RXN", "META:RXN-18758", "META:LEUKOTRIENE-C4-SYNTHASE-RXN", "META:RXN-18757", "META:RXN-10903", "META:RXN-12528", "META:RXN-10902", "META:RXN-12529", "META:RXN-10905", "META:RXN-10904", "META:RXN-6601", "META:1.8.4.3-RXN", "META:RXN-9157", "META:1.11.1.12-RXN", "META:RXN-18402", "META:RXN-18401", "META:RXN-18403", "META:TECH1REDHAL-RXN", "META:SULFUR-DIOXYGENASE-RXN", "META:LIND-RXN", "META:RXN-7919", "META:GST-RXN", "META:RXN-18406", "META:RXN-18405", "META:RXN-18407", "META:RXN0-7010", "META:1.5.4.1-RXN", "META:RXN-8174", "META:GLYOXII-RXN", "META:6.3.1.9-RXN", "META:COA-GLUTATHIONE-REDUCTASE-NADPH-RXN", "META:RXN-16193", "META:RXN-18092", "META:RXN-12721", "META:RXN0-6549", "META:THIOSULFATE--THIOL-SULFURTRANSFERASE-RXN", "META:1.8.4.1-RXN", "META:RXN-18159", "META:RXN-15680", "META:RXN-18158", "META:GLUTATHIONE-PEROXIDASE-RXN", "META:RXNQT-4356", "META:GSPAMID-RXN", "META:S-SUCCINYLGLUTATHIONE-HYDROLASE-RXN", "META:RXN-2961", "META:RXN0-21", "META:RXN0-6256", "META:GSCYSSYN-RXN", "META:1.8.4.4-RXN", "META:RXN-17595", "META:RXN-13673", "META:GLUTATHIONE-OXIDASE-RXN", "META:RXN-12864", "META:GLUTATHIONE-REDUCT-NADPH-RXN", "META:RXNQT-4363", "META:RXNQT-4361", "META:RXN-12867", "META:RXN-12865", "META:1.8.5.1-RXN", "META:RXN-15856", "META:RXN-12618", "META:GLUTATHIONE-THIOESTERASE-RXN", "META:RXN-18163", "META:RXN-18162", "META:RXN-18165", "META:GSHTRAN-RXN", "META:RXN-18164", "META:RXN-17592", "META:S-FORMYLGLUTATHIONE-HYDROLASE-RXN", "META:RXN-18161", "META:RXN-18160", "META:RXN-17887", "META:RXN-17886", "META:RXN-13161", "META:RXN-18695", "META:1.8.4.7-RXN", "META:RXN-14497", "META:RXN-11422", "META:RXN-11423", "META:PRODISULFREDUCT-RXN", "META:1.20.4.2-RXN", "META:RXN-11420", "META:RXN-11663", "META:RXN-11421", "META:RXN-11426", "META:RXN-15348", "META:RXN-11427", "META:RXN-11424", "META:R129-RXN", "META:RXN-11425", "META:2.3.2.15-RXN", "META:RXN-12506", "META:TECH2REDHAL-RXN", "META:GSPSYN-RXN", "META:RXN-18170", "META:GSCYSDEG-RXN", "META:RXN-18171", "META:RXN-16203", "META:1.8.4.9-RXN", "META:PRODISULFREDUCT-A-RXN", "META:RXN0-11" ],
+      "gibbs" : -56.924126,
+      "cmlMolWeight" : 306.313,
+      "molWeight" : 306.313,
+      "parents" : [ "META:Thiols", "META:All-Glutathiones" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 20 19  0  0  1  0  0  0  0  0999 V2000\n   24.0100  -16.3100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2000  -15.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4600  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6500  -15.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1000  -15.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2900  -16.3100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4800  -15.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.7400  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.9300  -15.6100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   36.1200  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3800  -15.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.5700  -16.3100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2000  -14.2100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4600  -17.7100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1000  -14.2100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4800  -14.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.6700  -13.5100    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   33.7400  -17.7100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3800  -14.2100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n  2 14  2  0     0  0\n  3 15  1  6     0  0\n  6 16  2  0     0  0\n  8 17  1  1     0  0\n 17 18  1  0     0  0\n  9 19  2  0     0  0\n 12 20  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00051\n\n$$$$",
+  "reactions" : [ "irxn3907", "irxn3748", "irxn5968", "irxn4358", "irxn1563", "irxn1961", "irxn1489", "irxn3397", "irxn93", "irxn5410", "irxn6101", "irxn3032", "irxn2185", "irxn5091", "irxn1619", "irxn3712", "irxn1410", "irxn2345", "irxn1653", "irxn1698", "irxn5620", "irxn2198", "irxn721", "irxn5583", "irxn4492", "irxn2074", "irxn6351", "irxn2071", "irxn2718", "irxn4614", "irxn4537", "irxn6713", "irxn2313", "irxn3963", "irxn5750", "irxn4224", "irxn1111", "irxn897", "irxn4586", "irxn6043", "irxn3373", "irxn4780", "irxn5670", "irxn615", "irxn1831", "irxn1997", "irxn1876", "irxn6209", "irxn4627", "irxn2565", "irxn3974", "irxn4469", "irxn1830", "irxn2375", "irxn4037", "irxn3387", "irxn5760", "irxn5680", "irxn6096", "irxn309", "irxn547" ]
+}

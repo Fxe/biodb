@@ -1,0 +1,50 @@
+{
+  "id" : "irxn666",
+  "equation" : "nad + mnl <=> nadh + h + man",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd1370" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7498" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.255; 1.1.1.255",
+  "otherNames" : [ ],
+  "alias" : "MNLDHr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MNLDHr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07135"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.1.1.255-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:MANNOSE", "META:THREOSE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3861" ],
+      "orphan" : "NO",
+      "gibbs" : 2.541809,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478" ]
+    }
+  }
+}

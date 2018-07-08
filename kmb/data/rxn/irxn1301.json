@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1301",
+  "equation" : "h2o + 2.0 fald <=> meoh + for",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7455" : "2.0",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1650" : "",
+      "icpd6448" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.98.1; EC-1.2.98.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00614"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11453"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -16.877129,
+      "uniprot" : [ "Q52078" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01200", "rn00680", "rn01120", "rn00625" ],
+      "orthologs" : [ "K17068", "K17067" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6649",
+  "equation" : "strdnccoa + malcoa + h <=> coa + co2 + CE4811",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "",
+      "icpd1851" : "",
+      "icpd1462" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd2454" : "",
+      "icpd7405" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1",
+  "otherNames" : [ ],
+  "alias" : "RE3110C",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE3110C"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16019"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7049", "META:PWY-6958" ],
+      "orphan" : "NO",
+      "gibbs" : 5.2805786,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

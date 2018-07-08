@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2974",
+  "equation" : "icpd6975 + icpd1521 <=> icpd6273 + icpd5516",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6975" : "",
+      "icpd1521" : ""
+    },
+    "r" : {
+      "icpd5516" : "",
+      "icpd6273" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.203; 2.7.1.203",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14729"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10407"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:GLUCOSAMINATE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7310" ],
+      "orphan" : "NO",
+      "gibbs" : -33.69113,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00030" ],
+      "orthologs" : [ "K17467", "K17466", "K17465", "K17464" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

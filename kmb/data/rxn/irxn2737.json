@@ -1,0 +1,56 @@
+{
+  "id" : "irxn2737",
+  "equation" : "h2o + arg__L <=> n2 + citr__L + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd90" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7085" : "",
+      "icpd5920" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.3.6; EC-3.5.3.6",
+  "otherNames" : [ ],
+  "alias" : "ARGDr",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ARGININE-DEIMINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00552"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARGDr"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARGDI"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARGDI_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:N-ETHYLMALEIMIDE", "META:CARBAMOYL-P", "META:ZN+2", "META:L-ORNITHINE", "META:HG+2", "META:PB+2", "META:AG+" ],
+      "activators" : [ "META:AMP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4981", "META:ARGDEGRAD-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -12.273001,
+      "uniprot" : [ "Q27657", "O53088", "Q48294", "P58013", "P75218", "P23793", "P13981" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00220", "rn01110", "rn01130" ],
+      "orthologs" : [ "K01478" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "ic_1306", "iNF517", "iECIAI39_1322", "iECED1_1282", "iECSF_1327", "iNRG857_1313", "iUMN146_1321", "iJN678", "iLF82_1304", "iHN637", "iECABU_c1320", "iJN746", "iUTI89_1310", "iRC1080", "iNJ661", "iAPECO1_1312", "iECP_1309", "iSB619", "iECOK1_1307", "STM_v1_0" ]
+    }
+  }
+}

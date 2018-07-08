@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3311",
+  "equation" : "actp + h2o <=> ac + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd631" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.7",
+  "otherNames" : [ ],
+  "alias" : "APhi",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00317"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACYP_2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "APhi"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00620" ],
+      "orthologs" : [ "K01512" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iAF692", "iRC1080", "iSB619" ]
+    }
+  }
+}

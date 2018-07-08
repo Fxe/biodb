@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6852",
+  "formula" : "C8H15N3O4",
+  "name" : "n-acetyl-l-citrulline",
+  "synonyms" : [ "(2s)-2-(acetylamino)-5-[(aminocarbonyl)amino]pentanoic acid", "(2s)-2-acetamido-5-(carbamoylamino)pentanoic acid", "(s)-2-acetamido-5-ureidopentanoic acid", "acetyl-citrulline", "n-acetyl citrulline", "n-acetylcitrulline", "n2-acetyl-n5-carbamoyl-l-ornithine" ],
+  "alias" : "icpd6852",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15532"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7224"
+  } ],
+  "inchi" : "InChI=1S/C8H15N3O4/c1-5(12)11-6(7(13)14)3-2-4-10-8(9)15/h6H,2-4H2,1H3,(H,11,12)(H,13,14)(H3,9,10,15)/t6-/m0/s1",
+  "inchikey" : "WMQMIOYQXNRROC-LURJTMIESA-N",
+  "smiles" : "CC(=N[C@@]([H])(CCCNC(=N)O)C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-Acetyl-Amino-Acids" ],
+      "reactions" : [ "META:RXN-7933", "META:2.1.3.9-RXN" ],
+      "gibbs" : -9.986377,
+      "cmlMolWeight" : 216.216,
+      "molWeight" : 216.216,
+      "parents" : [ "META:N-Acetyl-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 14  0  0  1  0  0  0  0  0999 V2000\n   27.5533  -19.9098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7520  -20.6313    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3257  -20.5847    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   29.9798  -19.9563    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1329  -19.8632    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3025  -21.9812    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1783  -20.6779    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9052  -20.5498    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1562  -18.4610    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4003  -19.9970    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.5988  -20.7185    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4236  -18.5948    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5154  -22.7088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7473  -22.0249    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4922  -24.0799    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  3  6  1  6     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  5  9  2  0     0  0\n  7 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\n  6 13  1  0     0  0\n 13 14  1  0     0  0\n 13 15  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15532\n\n$$$$",
+  "reactions" : [ "irxn1319", "irxn6132" ]
+}

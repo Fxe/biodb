@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4029",
+  "equation" : "glcur + h <=> h2o + glac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1947" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd3446" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.19; EC-3.1.1",
+  "otherNames" : [ ],
+  "alias" : "UROLACer",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14202"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UROLACer"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01483"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -8.667084,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

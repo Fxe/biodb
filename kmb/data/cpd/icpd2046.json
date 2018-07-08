@@ -1,0 +1,39 @@
+{
+  "id" : "icpd2046",
+  "formula" : "C2H8NO4P",
+  "name" : "phosphoethanolamine",
+  "synonyms" : [ "(2-aminoethoxy)phosphonic acid", "2-amino-ethanol dihydrogen phosphate", "2-amino-ethanol phosphate", "2-aminoethanol o-phosphate", "2-aminoethoxyphosphonic acid", "2-aminoethyl dihydrogen phosphate", "ethanolamine o-phosphate", "ethanolamine phosphate", "o-phosphoethanolamine", "phosphonoethanolamine" ],
+  "alias" : "ethamp",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHORYL-ETHANOLAMINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00346"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ethamp"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ethamp"
+  } ],
+  "inchi" : "InChI=1S/C2H8NO4P/c3-1-2-7-8(4,5)6/h1-3H2,(H2,4,5,6)",
+  "inchikey" : "SUHOOTKUPISOBE-UHFFFAOYSA-N",
+  "smiles" : "C(COP(=O)(O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-13729", "META:2.1.1.103-RXN", "META:SPHINGANINE-1-PHOSPHATE-ALDOLASE-RXN", "META:RXN3DJ-11230", "META:ETHANOLAMINE-KINASE-RXN", "META:2.7.7.14-RXN", "META:RXN-17738", "META:ETHANOLAMINE-PHOSPHATE-PHOSPHO-LYASE-RXN", "META:RXN-11377", "META:RXN-17734", "META:RXN-7948", "META:3.1.4.13-RXN" ],
+      "gibbs" : -185.42422,
+      "cmlMolWeight" : 140.055,
+      "molWeight" : 140.055
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1", "iAB_RBC_283" ]
+    }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   22.5787  -16.1361    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9761  -16.1996    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   21.3616  -16.9081    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3734  -16.1996    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0396  -14.7323    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0396  -17.6736    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1509  -16.2061    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9402  -16.9081    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00346\n\n$$$$",
+  "reactions" : [ "irxn3199", "irxn4552", "irxn4442", "irxn5178", "irxn2271", "irxn4165", "irxn1958", "irxn858", "irxn3995", "irxn4401", "irxn4205" ]
+}

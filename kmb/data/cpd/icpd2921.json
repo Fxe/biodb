@@ -1,0 +1,43 @@
+{
+  "id" : "icpd2921",
+  "formula" : "CHN",
+  "name" : "hydrogen cyanide",
+  "synonyms" : [ "formonitrile", "hydrocyanic acid" ],
+  "alias" : "cyan",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "cyan"
+  }, {
+    "source" : "BiGG",
+    "entry" : "cyan"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HCN"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01326"
+  } ],
+  "inchi" : "InChI=1S/CHN/c1-2/h1H",
+  "inchikey" : "LELOWRISYMNNSU-UHFFFAOYSA-N",
+  "smiles" : "C([H])#N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:1.2.1.2-RXN", "META:RXN-16951", "META:NITROGENASE-RXN", "META:RXN-16952", "META:TRANS-RXN0-240", "META:1.2.7.4-RXN", "META:RXN0-3501", "META:DIHYDROXYISOVALDEHYDRAT-RXN", "META:NUCLEOSIDE-OXIDASE-RXN", "META:ACETOACETATE-DECARBOXYLASE-RXN", "META:RXN0-6277", "META:RXN0-6377", "META:NITRITE-REDUCTASE-CYTOCHROME-RXN", "META:RXN-8720", "META:RXN-8665", "META:RXN-7751", "META:THIOREDOXIN-REDUCT-NADPH-RXN", "META:IMIDHYD-RXN", "META:RXN-8003", "META:RXN-4121", "META:KDGALDOL-RXN", "META:R141-RXN", "META:RXN-8362", "META:R247-RXN", "META:AROMATIC-L-AMINO-ACID-DECARBOXYLASE-RXN", "META:FORMATEDEHYDROG-RXN", "META:1.13.11.49-RXN", "META:DIHYDROXYMETVALDEHYDRAT-RXN", "META:RXN-13854", "META:RXN-11236", "META:PORPHOBILSYNTH-RXN", "META:AMONITRO-RXN", "META:RXN-10469", "META:R621-RXN", "META:1.17.5.1-RXN", "META:3-5-XYLENOL-METHYLHYDROXYLASE-RXN", "META:FORMYLMETHANOFURAN-DEHYDROGENASE-RXN", "META:RXN-5402", "META:RXN-3641", "META:RXN-8755", "META:RXN-3521", "META:SULFITE-REDUCT-RXN", "META:UROCANATE-HYDRATASE-RXN", "META:RXN-8332", "META:RXN-8156", "META:GLYCOPHOSPHORYL-RXN", "META:RXN0-901" ],
+      "activators" : [ "META:HAONITRO-RXN", "META:HYDROXYLAMINE-REDUCTASE-RXN", "META:ASPARAGHYD-RXN" ],
+      "instances" : [ "META:Non-Metabolic-Compounds", "META:Nitriles" ],
+      "reactions" : [ "META:RXN-18199", "META:RXN-13600", "META:RXN-11731", "META:MANDELONITRILE-LYASE-RXN", "META:RXN0-6359", "META:THIOSULFATE-SULFURTRANSFERASE-RXN", "META:ETHYL-RXN", "META:RXN-11666", "META:RXN-11732", "META:RXN-11733", "META:1.4.99.5-RXN", "META:ACETONE-CYANHYDRIN-LYASE-RXN", "META:L-3-CYANOALANINE-SYNTHASE-RXN", "META:CYANIDE-HYDRATASE-RXN", "META:HYDROXYMANDELONITRILE-LYASE-RXN", "META:1.6.99.12-RXN" ],
+      "gibbs" : 38.881126,
+      "cmlMolWeight" : 27.026,
+      "molWeight" : 27.026,
+      "parents" : [ "META:Non-Metabolic-Compounds", "META:Nitriles" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   15.6100  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3976  -20.1600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8224  -18.7600    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  3  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01326\n\n$$$$",
+  "reactions" : [ "irxn2099", "irxn3351", "irxn4352", "irxn3415", "irxn4183", "irxn6736", "irxn6536" ]
+}

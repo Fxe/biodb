@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5439",
+  "formula" : "C2H5O4P",
+  "name" : "2-hydroxyethylphosphonate",
+  "synonyms" : [ ],
+  "alias" : "icpd5439",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9466"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06451"
+  } ],
+  "inchi" : "InChI=1S/C2H7O4P/c3-1-2-7(4,5)6/h3H,1-2H2,(H2,4,5,6)/p-2",
+  "inchikey" : "SEHJHHHUIGULEI-UHFFFAOYSA-L",
+  "smiles" : "C(CP(=O)([O-])[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Organophosphonates" ],
+      "reactions" : [ "META:RXN-10824", "META:RXN-9009", "META:RXN-13856", "META:RXN-9010", "META:RXN-12008" ],
+      "gibbs" : -184.94534,
+      "cmlMolWeight" : 125.041,
+      "molWeight" : 125.041,
+      "parents" : [ "META:Organophosphonates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   25.5257  -17.2322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1337  -17.2205    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   26.2130  -18.4436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6951  -17.2089    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1337  -18.6068    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1337  -15.8226    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6052  -18.3853    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06451\n\n$$$$",
+  "reactions" : [ "irxn3109", "irxn6878", "irxn2467" ]
+}

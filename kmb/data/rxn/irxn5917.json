@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5917",
+  "equation" : "Ndmelys + 2.0 o2 + h + 2.0 akg <=> 2.0 succ + 2.0 co2 + 2.0 fald + icpd4228",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "2.0",
+      "icpd7043" : "2.0",
+      "icpd1500" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "2.0",
+      "icpd7455" : "2.0",
+      "icpd4228" : "",
+      "icpd5108" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.11.27; EC-1.14.11.27",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13186"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10056"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -164.16656,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K10276" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

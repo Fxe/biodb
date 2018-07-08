@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6856",
+  "equation" : "cthzp + 2.0 h + 2mahmp <=> co2 + ppi + thmmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8080" : "",
+      "icpd1851" : "2.0",
+      "icpd6191" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd1231" : "",
+      "icpd5892" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "TMPPP_h",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TMPPP_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TMPPP_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

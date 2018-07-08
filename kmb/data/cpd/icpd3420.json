@@ -1,0 +1,28 @@
+{
+  "id" : "icpd3420",
+  "formula" : "CH4Se",
+  "name" : "methaneselenol",
+  "synonyms" : [ ],
+  "alias" : "methsel",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05703"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "methsel"
+  } ],
+  "inchi" : "InChI=1S/CH4Se/c1-2/h2H,1H3",
+  "inchikey" : "APKHDKJWSHYLEU-UHFFFAOYSA-N",
+  "smiles" : "C[SeH]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : { },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   24.6393  -17.8737    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7607  -16.9163    0.0000 Se  0  0  0  0  0  0  0  0  0  0  0  0\n   27.6731  -18.0363    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05703\n\n$$$$",
+  "reactions" : [ "irxn2203" ]
+}

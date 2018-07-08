@@ -1,0 +1,35 @@
+{
+  "id" : "icpd2834",
+  "formula" : "CH5N3",
+  "name" : "guanidine",
+  "synonyms" : [ "aminoformamidine", "aminomethanamidine", "guanidin" ],
+  "alias" : "icpd2834",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13517"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1470"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C17349"
+  } ],
+  "inchi" : "InChI=1S/CH5N3/c2-1(3)4/h(H5,2,3,4)",
+  "inchikey" : "ZRALSGWEFCBTJO-UHFFFAOYSA-N",
+  "smiles" : "C(=N)(N)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:POLYPHOSPHATE-KINASE-RXN" ],
+      "reactions" : [ "META:RXN-13396", "META:RXN-12535", "META:RXN-12536" ],
+      "gibbs" : 49.435604,
+      "cmlMolWeight" : 59.071,
+      "molWeight" : 59.071
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   19.6700  -18.3400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8824  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0779  -18.3496    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8825  -20.4398    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17349\n\n$$$$",
+  "reactions" : [ "irxn5599", "irxn1510" ]
+}

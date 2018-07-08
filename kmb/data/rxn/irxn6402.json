@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6402",
+  "equation" : "no2 + 3.0 nadph + 5.0 h <=> 2.0 h2o + n2 + 3.0 nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "3.0",
+      "icpd1851" : "5.0",
+      "icpd7710" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd4016" : "2.0",
+      "icpd5537" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.7.1.4",
+  "otherNames" : [ ],
+  "alias" : "NTRIR2y",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00789"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NTRIR2y"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NTRIR_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00910" ],
+      "orthologs" : [ "K17877" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iLB1027_lipid" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn497",
+  "equation" : "hcys__L + acser <=> ac + cyst__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5848" : "",
+      "icpd2606" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd7567" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.134; EC-2.5.1.134",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10305"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-17600"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -9.96413,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01230", "rn00270" ],
+      "orthologs" : [ "K17216" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

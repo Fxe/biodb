@@ -1,0 +1,46 @@
+{
+  "id" : "irxn739",
+  "equation" : "nad + icpd924 <=> nadh + h + icpd4969",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd924" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd4969" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.404; EC-1.1.1.404",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11585"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18404"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PENTACHLOROPHENOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PCPDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -25.405823,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00361", "rn01120" ],
+      "orthologs" : [ "K21607" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

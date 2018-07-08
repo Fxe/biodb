@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3811",
+  "formula" : "C3H3N",
+  "name" : "acrylonitrile",
+  "synonyms" : [ "propene-3-nitrile", "propenenitrile", "vinyl cyanide" ],
+  "alias" : "icpd3811",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01998"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACRYLONITRILE"
+  } ],
+  "inchi" : "InChI=1S/C3H3N/c1-2-3-4/h2H,1H2",
+  "inchikey" : "NLHHRLWOUZZQLW-UHFFFAOYSA-N",
+  "smiles" : "C=CC#N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Nitriles" ],
+      "reactions" : [ "META:R310-RXN", "META:R309-RXN" ],
+      "gibbs" : 59.983364,
+      "cmlMolWeight" : 53.063,
+      "molWeight" : 53.063,
+      "parents" : [ "META:Nitriles" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   15.2600  -17.0100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4724  -17.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6849  -17.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8973  -17.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  3  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01998\n\n$$$$",
+  "reactions" : [ "irxn4515", "irxn3901" ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4075",
+  "equation" : "gtp + for + h <=> dgtp + h2o + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd1365" : "",
+      "icpd1650" : ""
+    },
+    "r" : {
+      "icpd7693" : "",
+      "icpd4016" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.98.6; EC-1.1.98.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11633"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-746"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DATP" ],
+      "activators" : [ "META:TTP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7222" ],
+      "orphan" : "NO",
+      "gibbs" : -15.062927,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230" ],
+      "orthologs" : [ "K21636" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

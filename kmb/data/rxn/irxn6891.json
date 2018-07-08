@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6891",
+  "equation" : "prpp + tgua <=> 6tgsnmp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3930" : "",
+      "icpd339" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd4767" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.2.8",
+  "otherNames" : [ ],
+  "alias" : "TGUAPRT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TGUAPRT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08245"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00983" ],
+      "orthologs" : [ "K00760" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

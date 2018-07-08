@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7872",
+  "formula" : "C2H2O2",
+  "name" : "glyoxal",
+  "synonyms" : [ "1,2-ethanedione", "oxalaldehyde" ],
+  "alias" : "icpd7872",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8887"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C14448"
+  } ],
+  "inchi" : "InChI=1S/C2H2O2/c3-1-2-4/h1-2H",
+  "inchikey" : "LEQAOMBKQFMDFZ-UHFFFAOYSA-N",
+  "smiles" : "C(=O)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-17511", "META:RXN0-7275", "META:RXN0-7173" ],
+      "gibbs" : -37.79776,
+      "cmlMolWeight" : 58.037,
+      "molWeight" : 58.037
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   27.4316  -19.1602    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6475  -19.8622    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8391  -19.1743    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2170  -19.8615    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  1  4  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C14448\n\n$$$$",
+  "reactions" : [ "irxn3608" ]
+}

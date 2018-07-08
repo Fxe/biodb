@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3235",
+  "equation" : "pyr + bz <=> icpd4253 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd7278" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4253" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09088"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9337"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5883" ],
+      "orphan" : null,
+      "gibbs" : 46.374123,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00360" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

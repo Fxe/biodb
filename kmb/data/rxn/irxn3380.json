@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3380",
+  "equation" : "h2o + icpd174 <=> inost + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd174" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd4293" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.3.25; 3.1.3.25",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01187"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:LI+" ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2301" ],
+      "orphan" : "NO",
+      "gibbs" : 7.2170105,
+      "uniprot" : [ "O49071", "P0ADG4", "P54928", "P54927", "P29218", "P20456" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562", "rn01130", "rn00521" ],
+      "orthologs" : [ "K18649", "K15759", "K01092", "K10047" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

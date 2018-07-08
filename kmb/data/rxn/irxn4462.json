@@ -1,0 +1,53 @@
+{
+  "id" : "irxn4462",
+  "equation" : "thf + alpro <=> mlthf + n2 + dhlpro",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6900" : "",
+      "icpd7080" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd1459" : "",
+      "icpd4966" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.2.10",
+  "otherNames" : [ ],
+  "alias" : "GCCb",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04125"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MTAM_nh4"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GCCbim"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GCCb"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00670", "rn00260" ],
+      "orthologs" : [ "K00605" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iNJ661", "iMM1415", "iMM904", "RECON1", "iAF987", "iSB619", "iHN637" ]
+    }
+  }
+}

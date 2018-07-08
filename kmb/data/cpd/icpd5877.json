@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5877",
+  "formula" : "C4H11O4P",
+  "name" : "diethylphosphoric acid",
+  "synonyms" : [ "diethoxyphosphinic acid", "diethyl hydrogen phosphate", "diethyl phosphoric acid", "o,o-diethyl hydrogen phosphate", "phosphoric acid diethyl ester" ],
+  "alias" : "icpd5877",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06608"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIETHYLPHOSPHATE"
+  } ],
+  "inchi" : "InChI=1S/C4H11O4P/c1-3-7-9(5,6)8-4-2/h3-4H2,1-2H3,(H,5,6)",
+  "inchikey" : "UCQFCFPECQILOL-UHFFFAOYSA-N",
+  "smiles" : "CCOP(=O)(O)OCC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8747", "META:RXN-8746", "META:PHOSPHO-DETHIO-RXN" ],
+      "gibbs" : -155.66084,
+      "cmlMolWeight" : 153.094,
+      "molWeight" : 153.094
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   30.0671  -15.6015    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   28.8489  -14.9046    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0671  -17.0014    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1741  -14.7465    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8673  -16.6614    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6365  -15.6015    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2795  -17.7043    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4241  -14.9046    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2854  -19.1040    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06608\n\n$$$$",
+  "reactions" : [ "irxn3364", "irxn5014" ]
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1671",
+  "equation" : "malt <=> tre",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7037" : ""
+    },
+    "r" : {
+      "icpd6246" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.99.16",
+  "otherNames" : [ ],
+  "alias" : "MTI",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01557"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MTI"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00500" ],
+      "orthologs" : [ "K05343" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661", "iAF987" ]
+    }
+  }
+}

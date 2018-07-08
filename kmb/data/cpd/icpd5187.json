@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5187",
+  "formula" : "C9H10O2",
+  "name" : "p-coumaryl alcohol",
+  "synonyms" : [ "4-[(1e)-3-hydroxyprop-1-en-1-yl]phenol", "4-coumaryl alcohol", "coumaryl-alcohol" ],
+  "alias" : "icpd5187",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02646"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:COUMARYL-ALCOHOL"
+  } ],
+  "inchi" : "InChI=1S/C9H10O2/c10-7-1-2-8-3-5-9(11)6-4-8/h1-6,10-11H,7H2/b2-1+",
+  "inchikey" : "PTNLHDGQWUGONS-OWOJBTEDSA-N",
+  "smiles" : "C(=C\\C1=CC=C(C=C1)O)/CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:RXN-16366", "META:RXN-1102", "META:RXN-12954" ],
+      "gibbs" : 75.73121,
+      "cmlMolWeight" : 150.177,
+      "molWeight" : 150.177,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   28.0700  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0700  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8100  -21.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8100  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -21.6300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2600  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4500  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6400  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8581  -19.5201    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  1  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02646\n\n$$$$",
+  "reactions" : [ "irxn1918", "irxn5209" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd638",
+  "formula" : "C12H14O3",
+  "name" : "benzyl 2-methyl-3-oxobutanoate",
+  "synonyms" : [ "2-methyl-3-oxo-butanoic acid benzyl ester", "benzyl-2-methyl-3-oxobutanoate" ],
+  "alias" : "icpd638",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04000"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BENZYL-2-METHYL-3-OXOBUTANOATE"
+  } ],
+  "inchi" : "InChI=1S/C12H14O3/c1-9(10(2)13)12(14)15-8-11-6-4-3-5-7-11/h3-7,9H,8H2,1-2H3",
+  "inchikey" : "OKNHVWOSKITDKX-UHFFFAOYSA-N",
+  "smiles" : "CC(C(=O)C)C(=O)OCC1=CC=CC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-12642" ],
+      "reactions" : [ "META:1.1.1.217-RXN" ],
+      "gibbs" : 71.09569,
+      "cmlMolWeight" : 206.241,
+      "molWeight" : 206.241,
+      "parents" : [ "META:CPD-12642" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 15  0  0  0  0  0  0  0  0999 V2000\n   16.0334  -14.7448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2386  -14.0397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0334  -16.1552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8091  -14.0462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4435  -14.7448    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8091  -16.8666    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.6040  -14.7448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6552  -14.0462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.6040  -16.1552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8601  -14.7448    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   19.6552  -12.6487    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0653  -14.0462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8601  -16.1358    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2767  -14.7448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0653  -12.6487    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  1  0     0  0\n  6  9  2  0     0  0\n  8 10  1  0     0  0\n  8 11  2  0     0  0\n 10 12  1  0     0  0\n 10 13  1  0     0  0\n 12 14  1  0     0  0\n 12 15  2  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04000\n\n$$$$",
+  "reactions" : [ "irxn5403" ]
+}

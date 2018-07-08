@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4177",
+  "equation" : "h2o + pail4p_hs <=> pi + pail_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd658" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd605" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PI4PP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PI4PP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PI4P4Pn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

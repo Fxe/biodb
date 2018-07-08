@@ -1,0 +1,32 @@
+{
+  "id" : "icpd6668",
+  "formula" : "C3H5NO4",
+  "name" : "aminomalonic acid",
+  "synonyms" : [ "2-aminomalonic acid", "2-aminopropanedioic acid", "alpha-aminomalonic acid", "amino-malonic acid", "amino-propanedioic acid", "aminopropanedioic acid" ],
+  "alias" : "icpd6668",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00872"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AMINOMALONATE"
+  } ],
+  "inchi" : "InChI=1S/C3H5NO4/c4-1(2(5)6)3(7)8/h1H,4H2,(H,5,6)(H,7,8)",
+  "inchikey" : "JINBYESILADKFW-UHFFFAOYSA-N",
+  "smiles" : "C(C(=O)O)(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:5-AMINOLEVULINIC-ACID-SYNTHASE-RXN", "META:AKBLIG-RXN" ],
+      "reactions" : [ "META:2.6.1.47-RXN" ],
+      "gibbs" : -126.597565,
+      "cmlMolWeight" : 118.069,
+      "molWeight" : 118.069
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   27.5100  -18.2700    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.7700  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3200  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5100  -16.8000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9600  -18.2700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7700  -20.3000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3200  -20.3000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0600  -18.2700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00872\n\n$$$$",
+  "reactions" : [ "irxn4734" ]
+}

@@ -1,0 +1,54 @@
+{
+  "id" : "irxn411",
+  "equation" : "0.005 pc_SC + h2o <=> 0.5 g3pc + 0.09 ocdcya + 0.06 ddca + 0.02 dca + 0.05 ocdca + 0.24 ocdcea + h + 0.1 ttdca + 0.27 hdca + 0.17 hdcea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd972" : "0.005",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6488" : "0.05",
+      "icpd6458" : "0.1",
+      "icpd5005" : "0.5",
+      "icpd6892" : "0.09",
+      "icpd6870" : "0.17",
+      "icpd3274" : "0.24",
+      "icpd3808" : "0.02",
+      "icpd1851" : "",
+      "icpd1576" : "0.06",
+      "icpd4207" : "0.27"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PLBPC_SC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PLBPC_SCe"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PLBPC_SC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM904" ]
+    }
+  }
+}

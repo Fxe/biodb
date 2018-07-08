@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1144",
+  "formula" : "C6H3ClO4",
+  "name" : "(2e,4z)-3-chlorohexa-2,4-dienedioate",
+  "synonyms" : [ ],
+  "alias" : "icpd1144",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03585"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-279"
+  } ],
+  "inchi" : "InChI=1S/C6H5ClO4/c7-4(3-6(10)11)1-2-5(8)9/h1-3H,(H,8,9)(H,10,11)/p-2/b2-1-,4-3+",
+  "inchikey" : "ICMVYBXQDUXEEE-BXTBVDPRSA-L",
+  "smiles" : "C(\\[H])(=C(\\[H])/C(=O)[O-])/C(=C(/[H])\\C(=O)[O-])/Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chlorides" ],
+      "reactions" : [ "META:RXN-9870", "META:RXN-9892" ],
+      "gibbs" : -97.834885,
+      "cmlMolWeight" : 174.54,
+      "molWeight" : 174.54,
+      "parents" : [ "META:Chlorides" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   28.8094  -16.2271    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8094  -17.6303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0196  -15.5254    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5992  -15.5254    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   27.5992  -18.3255    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2361  -16.2271    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3827  -17.6303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2297  -17.6240    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4463  -15.5254    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3892  -16.2271    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1725  -18.3320    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  1  0     0  0\n  6  9  2  0     0  0\n  7 10  1  0     0  0\n  7 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03585\n\n$$$$",
+  "reactions" : [ "irxn4989", "irxn4955" ]
+}

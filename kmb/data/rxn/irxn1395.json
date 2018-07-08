@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1395",
+  "equation" : "3.0 malcoa + benzcoa <=> 4.0 coa + 4.0 co2 + icpd1845",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "3.0",
+      "icpd2811" : ""
+    },
+    "r" : {
+      "icpd2377" : "4.0",
+      "icpd2454" : "4.0",
+      "icpd1845" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.177; 2.3.1.177",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09621"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.177-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7739" ],
+      "orphan" : "NO",
+      "gibbs" : -11.697998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

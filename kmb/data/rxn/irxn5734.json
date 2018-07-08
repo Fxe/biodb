@@ -1,0 +1,54 @@
+{
+  "id" : "irxn5734",
+  "equation" : "o2 + hista + h2o <=> n2 + im4act + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7006" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd4288" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.22; EC-1.4.3.22",
+  "otherNames" : [ ],
+  "alias" : "AO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HISTASE"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02150"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AO"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9600"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6181" ],
+      "orphan" : "NO",
+      "gibbs" : -23.962997,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00340" ],
+      "orthologs" : [ "K11182" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

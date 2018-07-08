@@ -1,0 +1,42 @@
+{
+  "id" : "icpd3257",
+  "formula" : "C15H10O2",
+  "name" : "isoflavone",
+  "synonyms" : [ "3-phenylchromen-4-one" ],
+  "alias" : "icpd3257",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00799"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ISOFLAVONE"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Isoflavones"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01927"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15821"
+  } ],
+  "inchi" : "InChI=1S/C15H10O2/c16-15-12-8-4-5-9-14(12)17-10-13(15)11-6-2-1-3-7-11/h1-10H",
+  "inchikey" : "GOMNOOKGLZYEJT-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)C2=COC3=C(C=CC=C3)C2=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-10077", "META:CPD-15821", "META:DAIDZEIN", "META:CPD-14115", "META:CPD-14114", "META:CPD-4562", "META:CPD-9711", "META:CPD-4565", "META:CPD-9710", "META:CPD-4564", "META:CPD-9677", "META:2-HYDROXYISOFLAVANONE", "META:CPD-4567", "META:CPD-9716", "META:CPD-4569", "META:CPD-9715", "META:CPD-9539", "META:CPD-10081", "META:CPD-9693", "META:CPD-9532", "META:CPD-9531", "META:CPD-9695", "META:CPD-9530", "META:CPD-16825", "META:CPD-11779", "META:CPD-17611", "META:CPD-5421", "META:CPD-3343", "META:CPD-7026", "META:CPD-12609", "META:CPD-3141", "META:CPD-4571" ],
+      "reactions" : [ "META:RXN-11846", "META:ISOFLAVONE-7-O-GLUCOSYLTRANSFERASE-RXN" ],
+      "gibbs" : 95.66221,
+      "cmlMolWeight" : 222.243,
+      "molWeight" : 222.243,
+      "parents" : [ "META:CPD-10077", "META:CPD-15821", "META:7-hydroxyisoflavones", "META:DAIDZEIN", "META:4-Methoxyisoflavones", "META:Isoflavone-7-O-B-D-glucosides", "META:CPD-14115", "META:CPD-14114", "META:CPD-4562", "META:CPD-9711", "META:CPD-4565", "META:CPD-9710", "META:CPD-4564", "META:CPD-9677", "META:2-HYDROXYISOFLAVANONE", "META:CPD-4567", "META:7-methoxyisoflavones", "META:CPD-9716", "META:4-Hydroxyisoflavones", "META:CPD-4569", "META:CPD-9715", "META:Rotenoids", "META:CPD-9539", "META:2-Hydroxyisoflavones", "META:CPD-10081", "META:CPD-9693", "META:CPD-9532", "META:CPD-9531", "META:CPD-9695", "META:CPD-9530", "META:CPD-16825", "META:CPD-11779", "META:CPD-17611", "META:CPD-5421", "META:CPD-3343", "META:CPD-7026", "META:CPD-12609", "META:Isoflavonoids", "META:CPD-3141", "META:CPD-4571" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 17 19  0  0  0  0  0  0  0  0999 V2000\n   16.8000   -9.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8000  -10.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0124  -11.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2249  -10.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2249   -9.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0124   -8.8900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4373  -11.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6497  -10.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6497   -9.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4373   -8.8900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8473  -11.6815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8473  -13.0897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0598  -13.7897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2722  -13.0897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2722  -11.6815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0597  -10.9815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4373  -13.0900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  5  6  1  0     0  0\n  1  6  2  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n  5 10  1  0     0  0\n  8 11  1  0     0  0\n 11 12  2  0     0  0\n 12 13  1  0     0  0\n 13 14  2  0     0  0\n 14 15  1  0     0  0\n 15 16  2  0     0  0\n 11 16  1  0     0  0\n  7 17  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00799\n\n$$$$",
+  "reactions" : [ "irxn2750", "irxn3500" ]
+}

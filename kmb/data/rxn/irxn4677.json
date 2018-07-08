@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4677",
+  "equation" : "3hivcoa <=> 3mb2coa + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3458" : ""
+    },
+    "r" : {
+      "icpd7618" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.17",
+  "otherNames" : [ ],
+  "alias" : "ECH_3hivcoa",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04137"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ECH_3hivcoa"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00280" ],
+      "orthologs" : [ "K01782", "K01692", "K01825", "K07511", "K07515", "K07514" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

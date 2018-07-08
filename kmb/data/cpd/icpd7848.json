@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7848",
+  "formula" : "CH5N3O",
+  "name" : "aminourea",
+  "synonyms" : [ "carbamoylhydrazine", "hydrazinecarboxamide", "semicarbazide" ],
+  "alias" : "icpd7848",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02077"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SEMICARBAZIDE"
+  } ],
+  "inchi" : "InChI=1S/CH5N3O/c2-1(5)4-3/h3H2,(H3,2,4,5)",
+  "inchikey" : "DUIOPKIIICUYRZ-UHFFFAOYSA-N",
+  "smiles" : "C(=O)(N)NN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-2841", "META:AMINEOXID-RXN", "META:ARG-OXIDATION-RXN", "META:PUTRESCINE-OXIDASE-RXN", "META:ARALKYLAMINE-DEHYDROGENASE-RXN", "META:ACETYLHOMOSER-CYS-RXN", "META:N-ACETYLNEURAMINATE-SYNTHASE-RXN", "META:IMIDAZOLONEPROPIONASE-RXN", "META:4-HYDROXYPROLINE-EPIMERASE-RXN", "META:SAMDECARB-RXN", "META:AMINEPHEN-RXN", "META:RXN-4261" ],
+      "instances" : [ "META:Carboxamides", "META:Hydrazines" ],
+      "gibbs" : 8.935602,
+      "cmlMolWeight" : 75.07,
+      "molWeight" : 75.07,
+      "parents" : [ "META:Carboxamides", "META:Hydrazines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   27.9633  -17.2846    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0679  -17.8811    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8645  -17.8811    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9633  -16.0913    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8009  -16.8973    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02077\n\n$$$$",
+  "reactions" : [ ]
+}

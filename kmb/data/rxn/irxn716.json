@@ -1,0 +1,46 @@
+{
+  "id" : "irxn716",
+  "equation" : "etoh + h2o2 <=> acald + 2.0 h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2494" : "",
+      "icpd2624" : ""
+    },
+    "r" : {
+      "icpd6658" : "",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.11.1.6",
+  "otherNames" : [ ],
+  "alias" : "CAT2p",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN66-1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CAT2p"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-162" ],
+      "orphan" : "NO",
+      "gibbs" : -71.334,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

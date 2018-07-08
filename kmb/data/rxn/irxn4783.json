@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4783",
+  "equation" : "pyr + 4abut <=> sucsal + ala__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7403" : "",
+      "icpd3122" : ""
+    },
+    "r" : {
+      "icpd7336" : "",
+      "icpd7343" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.96; EC-2.6.1.96",
+  "otherNames" : [ ],
+  "alias" : "ABPTA_m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ABPTA_m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-6902"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10178"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6473", "META:PWY-4321" ],
+      "orphan" : "NO",
+      "gibbs" : -1.5399933,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650", "rn01120", "rn00250" ],
+      "orthologs" : [ "K16871" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

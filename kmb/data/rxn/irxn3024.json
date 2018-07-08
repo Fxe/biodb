@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3024",
+  "equation" : "2.0 icpd98 <=> icpd1442 + glc__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd98" : "2.0"
+    },
+    "r" : {
+      "icpd1442" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.90; EC-2.3.1.90",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.90-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00049"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DITHIOERYTHRITOL", "META:2-MERCAPTOETHANOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5475" ],
+      "orphan" : null,
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

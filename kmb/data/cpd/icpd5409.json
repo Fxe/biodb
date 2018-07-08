@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5409",
+  "formula" : "C5H11NO",
+  "name" : "4-methylaminobutanal",
+  "synonyms" : [ ],
+  "alias" : "icpd5409",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C10974"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7993"
+  } ],
+  "inchi" : "InChI=1S/C5H11NO/c1-6-4-2-3-5-7/h5-6H,2-4H2,1H3",
+  "inchikey" : "PJZBKCVVFPTFAW-UHFFFAOYSA-N",
+  "smiles" : "CNCCCC=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8246", "META:RXN-8244" ],
+      "gibbs" : 99.70139,
+      "cmlMolWeight" : 102.156,
+      "molWeight" : 102.156
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   21.1790  -17.1528    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3925  -17.8512    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6057  -17.1528    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8191  -17.8512    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0325  -17.1528    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2458  -17.8512    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4592  -17.1528    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  3  1  0     0  0\n  5  6  1  0     0  0\n  1  2  1  0     0  0\n  6  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C10974\n\n$$$$",
+  "reactions" : [ "irxn2722", "irxn2757" ]
+}

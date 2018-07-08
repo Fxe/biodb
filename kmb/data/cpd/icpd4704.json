@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4704",
+  "formula" : "C10H18O",
+  "name" : "5-methyl-2-(1-methylethyl)-(2s,5r)-cyclohexanone",
+  "synonyms" : [ "(1r,4s)-(-)-p-menthan-3-one", "(1r,4s)-p-menthan-3-one", "(2s,5r)-2-isopropyl-5-methylcyclohexanone", "(2s,5r)-5-methyl-2-(1-methylethyl)cyclohexanone", "(2s,5r)-5-methyl-2-(propan-2-yl)cyclohexan-1-one", "(2s,5r)-5-methyl-2-(propan-2-yl)cyclohexanone", "(2s-trans)-5-methyl-2-(1-methylethyl)cyclohexanone", "5-methyl-2-(1-methylethyl)-(2s-trans)-cyclohexanone" ],
+  "alias" : "icpd4704",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00843"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1909"
+  } ],
+  "inchi" : "InChI=1S/C10H18O/c1-7(2)9-5-4-8(3)6-10(9)11/h7-9H,4-6H2,1-3H3/t8-,9+/m1/s1",
+  "inchikey" : "NFLGAXVYCFJBMK-BDAKNGLRSA-N",
+  "smiles" : "CC(C)[C@]1([H])CC[C@@]([H])(C)CC1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Menthones" ],
+      "reactions" : [ "META:--MENTHOL-DEHYDROGENASE-RXN", "META:+-NEOMENTHOL-DEHYDROGENASE-RXN", "META:RXN-9441", "META:RXN-5163" ],
+      "gibbs" : 168.13019,
+      "cmlMolWeight" : 154.252,
+      "molWeight" : 154.252,
+      "parents" : [ "META:Menthones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   16.9400  -18.4100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9400  -19.8100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1524  -20.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3649  -19.8100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3649  -18.4100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1524  -17.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1524  -16.3102    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1524  -21.9098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5960  -20.5210    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9232  -22.6196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3480  -22.6002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  6  7  1  1     0  0\n  3  8  1  6     0  0\n  4  9  2  0     0  0\n  8 10  1  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00843\n\n$$$$",
+  "reactions" : [ "irxn142", "irxn296", "irxn4373", "irxn5789" ]
+}

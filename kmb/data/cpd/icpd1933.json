@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1933",
+  "formula" : "C5H12O5",
+  "name" : "d-apiitol",
+  "synonyms" : [ "3-(hydroxymethyl)erythritol", "apiitol" ],
+  "alias" : "icpd1933",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01569"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-362"
+  } ],
+  "inchi" : "InChI=1S/C5H12O5/c6-1-4(9)5(10,2-7)3-8/h4,6-10H,1-3H2/t4-/m0/s1",
+  "inchikey" : "SDXWEZQDLHNYFR-BYPYZUCNSA-N",
+  "smiles" : "C([C@@H](C(CO)(CO)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:APIOSE-1-REDUCTASE-RXN" ],
+      "gibbs" : -67.18656,
+      "cmlMolWeight" : 152.147,
+      "molWeight" : 152.147
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   22.9600   -9.8000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1724   -9.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3849   -9.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5973   -9.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8097   -9.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0222   -9.1000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3849  -11.1998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5973   -7.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9597  -10.4523    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2973  -10.8105    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  3  7  1  1     0  0\n  4  8  1  0     0  0\n  4  9  1  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01569\n\n$$$$",
+  "reactions" : [ "irxn3659" ]
+}

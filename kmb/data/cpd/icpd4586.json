@@ -1,0 +1,38 @@
+{
+  "id" : "icpd4586",
+  "formula" : "C6H9O5",
+  "name" : "2-dehydro-3-deoxy-l-rhamnonate",
+  "synonyms" : [ "2-dehydro-3,6-dideoxy-l-mannonate" ],
+  "alias" : "lkdr",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03979"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "lkdr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DEHYDRO-3-DEOXY-L-RHAMNONATE"
+  } ],
+  "inchi" : "InChI=1S/C6H10O5/c1-3(7)4(8)2-5(9)6(10)11/h3-4,7-8H,2H2,1H3,(H,10,11)/p-1/t3-,4+/m0/s1",
+  "inchikey" : "FRIWJYNKZPJVRL-IUYQGCFVSA-M",
+  "smiles" : "C[C@@]([H])([C@@]([H])(CC(=O)C(=O)[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Ketoaldonates" ],
+      "reactions" : [ "META:RXN-12095", "META:RXN0-5433", "META:L-RHAMNONATE-DEHYDRATASE-RXN" ],
+      "gibbs" : -91.78197,
+      "cmlMolWeight" : 161.134,
+      "molWeight" : 161.134,
+      "parents" : [ "META:Ketoaldonates" ]
+    },
+    "bigg" : {
+      "models" : [ "iML1515" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   21.4900  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6800  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9400  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1300  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3200  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5800  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7700  -17.5700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6800  -15.4700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3200  -18.9700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9400  -18.9700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5800  -15.4700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  1  6     0  0\n  5  9  2  0     0  0\n  3 10  1  1     0  0\n  6 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03979\n\n$$$$",
+  "reactions" : [ "irxn6741", "irxn1618", "irxn5941" ]
+}

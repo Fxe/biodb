@@ -1,0 +1,44 @@
+{
+  "id" : "irxn135",
+  "equation" : "gluala <=> icpd5971 + 5oxpro",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5983" : ""
+    },
+    "r" : {
+      "icpd5971" : "",
+      "icpd7255" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.2.4; 2.3.2.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GAMMA-GLUTAMYLCYCLOTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03749"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4041" ],
+      "orphan" : "NO",
+      "gibbs" : 56.536743,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00480" ],
+      "orthologs" : [ "K00682" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

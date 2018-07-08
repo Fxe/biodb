@@ -1,0 +1,39 @@
+{
+  "id" : "icpd1344",
+  "formula" : "C11H12N2O4",
+  "name" : "(2s)-2-amino-4-{2-[(hydroxymethylidene)amino]phenyl}-4-oxobutanoic acid",
+  "synonyms" : [ "3-(n-formylanthraniloyl)-alanine" ],
+  "alias" : "Lfmkynr",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02700"
+  }, {
+    "source" : "BiGG",
+    "entry" : "Lfmkynr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-FORMYLKYNURENINE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "Lfmkynr"
+  } ],
+  "inchi" : "InChI=1S/C11H12N2O4/c12-8(11(16)17)5-10(15)7-3-1-2-4-9(7)13-6-14/h1-4,6,8H,5,12H2,(H,13,14)(H,16,17)/t8-/m0/s1",
+  "inchikey" : "BYHJHXPTQMMKCA-QMMMGPOBSA-N",
+  "smiles" : "C1=CC(=C(C=C1)N=CO)C(=O)C[C@@H](C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:ARYLFORMAMIDASE-RXN", "META:RXN-8665" ],
+      "gibbs" : 10.0734415,
+      "cmlMolWeight" : 236.227,
+      "molWeight" : 236.227
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 17 17  0  0  1  0  0  0  0  0999 V2000\n   17.0100  -25.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0100  -27.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2224  -27.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4349  -27.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4349  -25.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2224  -25.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6660  -27.8710    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8712  -27.1753    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0535  -27.8581    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6724  -25.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8849  -25.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0973  -25.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3097  -25.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5222  -25.0600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6786  -23.6603    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3097  -27.1599    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0973  -23.6600    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  5 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 10 15  2  0     0  0\n 13 16  2  0     0  0\n 12 17  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C02700\n\n$$$$",
+  "reactions" : [ "irxn2398", "irxn5770", "irxn4505" ]
+}

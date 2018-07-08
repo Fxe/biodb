@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6172",
+  "equation" : "nad + thf <=> dhf + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6900" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd824" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.3",
+  "otherNames" : [ ],
+  "alias" : "DHFR2i",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHFR2i"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00936"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00790", "rn00670" ],
+      "orthologs" : [ "K00287", "K18590", "K18591", "K13938", "K19643", "K19644", "K18589", "K19645", "K13998" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

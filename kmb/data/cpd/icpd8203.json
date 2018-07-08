@@ -1,0 +1,31 @@
+{
+  "id" : "icpd8203",
+  "formula" : "C4H11O3PS",
+  "name" : "diethylthiophosphoric acid",
+  "synonyms" : [ "diethoxy(sulfanylidene)phosphinous acid" ],
+  "alias" : "icpd8203",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06607"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIETHYLTHIOPHOSPHATE"
+  } ],
+  "inchi" : "InChI=1S/C4H11O3PS/c1-3-6-8(5,9)7-4-2/h3-4H2,1-2H3,(H,5,9)",
+  "inchikey" : "PKUWKAXTAVNIJR-UHFFFAOYSA-N",
+  "smiles" : "CCOP(=S)(O)OCC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:AMINOPARATHION-PHOSPHATASE-RXN", "META:ARYLDIALKYL-PHOSPHATASE-RXN", "META:PHOSPHO-DETHIO-RXN" ],
+      "gibbs" : 19.139137,
+      "cmlMolWeight" : 169.155,
+      "molWeight" : 169.155
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   30.0633  -15.6003    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   28.8538  -14.9082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0633  -17.0018    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1742  -14.7454    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7947  -16.5247    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6383  -15.6060    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2788  -17.6997    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4288  -14.9082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2788  -19.1011    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06607\n\n$$$$",
+  "reactions" : [ "irxn5014", "irxn1195", "irxn2511" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1145",
+  "formula" : "C5H8O5",
+  "name" : "(r)-2-methylmalic acid",
+  "synonyms" : [ "(3r)-citramalic acid", "(r)-(-)-citramalic acid", "(r)-citramalic acid" ],
+  "alias" : "icpd1145",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02612"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-31"
+  } ],
+  "inchi" : "InChI=1S/C5H8O5/c1-5(10,4(8)9)2-3(6)7/h10H,2H2,1H3,(H,6,7)(H,8,9)/t5-/m1/s1",
+  "inchikey" : "XFTRTWQBIOMVPK-RXMQYKEDSA-N",
+  "smiles" : "C[C@@](CC(=O)O)(C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-14325" ],
+      "reactions" : [ "META:R-2-METHYLMALATE-DEHYDRATASE-RXN", "META:RXN-8966", "META:RXN-7743" ],
+      "gibbs" : -142.23152,
+      "cmlMolWeight" : 146.099,
+      "molWeight" : 146.099,
+      "parents" : [ "META:CPD-14325" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   16.8000   -9.7300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0124  -10.4300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2249   -9.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4373  -10.4300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6497   -9.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8622  -10.4300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6497   -8.3300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0124  -11.8300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1373  -11.6424    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7373  -11.6424    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  5  7  2  0     0  0\n  2  8  2  0     0  0\n  4  9  1  1     0  0\n  4 10  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C02612\n\n$$$$",
+  "reactions" : [ "irxn994", "irxn980", "irxn2975" ]
+}

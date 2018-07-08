@@ -1,0 +1,39 @@
+{
+  "id" : "icpd3778",
+  "formula" : "C10H19NO2S2",
+  "name" : "6-(acetylsulfanyl)-8-sulfanyloctanamide",
+  "synonyms" : [ "6-acetylsulfanyl-8-sulfanyl-octanamide", "s-[6-amino-6-oxo-1-(2-sulfanylethyl)hexyl] ethanethioate" ],
+  "alias" : "adhlam",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "adhlam"
+  }, {
+    "source" : "BiGG",
+    "entry" : "adhlam"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01136"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:S-ACETYLDIHYDROLIPOAMIDE"
+  } ],
+  "inchi" : "InChI=1S/C10H19NO2S2/c1-8(12)15-9(6-7-14)4-2-3-5-10(11)13/h9,14H,2-7H2,1H3,(H2,11,13)",
+  "inchikey" : "ARGXEXVCHMNAQU-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)SC(CCCCC(=O)N)CCS",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:DIHYDLIPACETRANS-RXN" ],
+      "gibbs" : 133.9713,
+      "cmlMolWeight" : 249.386,
+      "molWeight" : 249.386
+    },
+    "bigg" : {
+      "models" : [ "iRC1080", "iNJ661", "iLB1027_lipid", "iJN678", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 15 14  0  0  0  0  0  0  0  0999 V2000\n   26.4029  -17.6174    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.6074  -18.3190    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4029  -16.2085    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1927  -18.3190    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8233  -17.6174    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6074  -15.5127    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9768  -17.6174    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0395  -18.3190    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8233  -16.2085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6074  -14.1155    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2497  -17.6174    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4599  -18.3190    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.6641  -17.6174    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4599  -19.7162    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7803  -18.3092    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  6  9  1  0     0  0\n  6 10  2  0     0  0\n  8 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 12 14  2  0     0  0\n  7 15  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01136\n\n$$$$",
+  "reactions" : [ "irxn2469", "irxn3698" ]
+}

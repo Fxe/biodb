@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1406",
+  "equation" : "h + atp + thr__L + hco3 <=> icpd5269 + h2o + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7997" : "",
+      "icpd1851" : "",
+      "icpd1484" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5269" : "",
+      "icpd4016" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.87; 2.7.7.87",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10463"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14569"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:HCO3" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY0-1587" ],
+      "orphan" : "NO",
+      "gibbs" : -54.56775,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K07566" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

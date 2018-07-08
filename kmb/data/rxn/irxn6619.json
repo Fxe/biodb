@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6619",
+  "equation" : "atp + glyc <=> icpd6149 + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1727" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd6149" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.30; 2.7.1.30",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00847"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCEROL-KIN-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:FRUCTOSE-16-DIPHOSPHATE", "META:CPD0-1461", "META:CPD0-1054", "META:GLYCEROL-3P", "META:ADP" ],
+      "activators" : [ "META:ATP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4261" ],
+      "orphan" : "NO",
+      "gibbs" : -12.095886,
+      "uniprot" : [ "P47284", "P25013", "Q9WX53", "O93623", "P0A6F3", "Q7M0X5", "Q9V207", "P19255", "P32189", "P95907", "P18157", "P32190", "Q9CG64", "Q49011", "P44400" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00561", "rn01100" ],
+      "orthologs" : [ "K00864" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

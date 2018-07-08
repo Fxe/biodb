@@ -1,0 +1,35 @@
+{
+  "id" : "icpd2376",
+  "formula" : "C28H46O",
+  "name" : "5,7-ergostadienol",
+  "synonyms" : [ "ergosta-5,7-dienol" ],
+  "alias" : "brasstrl",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14894"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "brasstrl"
+  } ],
+  "inchi" : "InChI=1S/C28H46O/c1-19(21(3)18-29)9-10-20(2)24-13-14-25-23-12-11-22-8-6-7-16-27(22,4)26(23)15-17-28(24,25)5/h11-12,19-21,24-26,29H,6-10,13-18H2,1-5H3/t19-,20+,21?,24+,25-,26-,27-,28+/m0/s1",
+  "inchikey" : "IPZDGVDUAKCNQR-AQGSFBQWSA-N",
+  "smiles" : "C[C@@]([H])(CC[C@@]([H])(C)[C@@]1([H])CC[C@@]2([H])C3=CC=C4CCCC[C@]4(C)[C@@]3([H])CC[C@]12C)C([H])(C)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Delta5-Delta7-Steroids" ],
+      "reactions" : [ "META:RXN-13883", "META:RXN-13884" ],
+      "gibbs" : 497.30157,
+      "cmlMolWeight" : 398.671,
+      "molWeight" : 398.671,
+      "parents" : [ "META:Delta5-Delta7-Steroids" ]
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn5950" ]
+}

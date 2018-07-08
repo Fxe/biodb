@@ -1,0 +1,36 @@
+{
+  "id" : "icpd876",
+  "formula" : "C8H9N2O4",
+  "name" : "(s)-2-amino-3-(3-hydroxy-4-oxo-4h-pyridin-1-yl)propanoate",
+  "synonyms" : [ "(2s)-2-azaniumyl-3-(3-oxido-4-oxo-1,4-dihydropyridin-1-yl)propanoate" ],
+  "alias" : "icpd876",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04771"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AMINO-ETCETERA-PYRIDIN-1-YL-PROPANOATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04446"
+  } ],
+  "inchi" : "InChI=1S/C8H10N2O4/c9-5(8(13)14)3-10-2-1-6(11)7(12)4-10/h1-2,4-5,12H,3,9H2,(H,13,14)/p-1/t5-/m0/s1",
+  "inchikey" : "WZNJWVWKTVETCG-YFKPBYRVSA-M",
+  "smiles" : "C1=CN(C[C@@]([H])(C(=O)O)N)C=C(C1=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:L-Amino-Acids" ],
+      "reactions" : [ "META:MIMOSINASE-RXN", "META:RXN-7461" ],
+      "gibbs" : -13.081968,
+      "cmlMolWeight" : 197.17,
+      "molWeight" : 197.17,
+      "parents" : [ "META:L-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  1  0  0  0  0  0999 V2000\n   18.0559  -18.9715    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8306  -19.6835    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0559  -17.5601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2621  -19.6643    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6244  -18.9715    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8241  -21.0822    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8306  -16.8607    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   15.6244  -17.5601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8241  -15.4685    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0302  -14.7694    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   19.2427  -15.4685    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0302  -13.3771    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2427  -16.8607    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4489  -14.7694    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  5  8  2  0     0  0\n  7  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  1  6     0  0\n 11 13  1  0     0  0\n 11 14  2  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04771\n\n$$$$",
+  "reactions" : [ "irxn63", "irxn4646" ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4356",
+  "equation" : "lpam + h + akg <=> co2 + sdhlam",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd1851" : "",
+      "icpd1945" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd953" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AKGDa",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AKGDam"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AKGDa"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iLB1027_lipid", "iMM904", "iSB619", "iJN746" ]
+    }
+  }
+}

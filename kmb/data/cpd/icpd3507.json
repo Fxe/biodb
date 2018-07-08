@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3507",
+  "formula" : "C5H5N4O3",
+  "name" : "5-ureido-4-imidazole carboxylate",
+  "synonyms" : [ "5-(carbamoylamino)-1h-imidazole-4-carboxylate", "5-ureidoimidazole-4-carboxylate" ],
+  "alias" : "icpd3507",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05515"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-UREIDO-4-IMIDAZOLE_CARBOXYLATE"
+  } ],
+  "inchi" : "InChI=1S/C5H6N4O3/c6-5(12)9-3-2(4(10)11)7-1-8-3/h1H,(H,7,8)(H,10,11)(H3,6,9,12)/p-1",
+  "inchikey" : "PQSKWIHIUOGLHX-UHFFFAOYSA-M",
+  "smiles" : "C1=NC(=C(N1)NC(=N)O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Ureido-Compounds" ],
+      "reactions" : [ "META:R127-RXN", "META:R128-RXN" ],
+      "gibbs" : -50.836456,
+      "cmlMolWeight" : 169.119,
+      "molWeight" : 169.119,
+      "parents" : [ "META:Ureido-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   26.8299  -21.0965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8288  -19.6963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1581  -21.5238    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1581  -19.2625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9836  -20.3967    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6290  -18.9732    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6471  -17.5726    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4040  -19.6577    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1964  -22.3448    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7974  -22.3497    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1638  -23.6681    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0321  -21.2464    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  2  6  1  0     0  0\n  1  2  2  0     0  0\n  6  7  1  0     0  0\n  1  3  1  0     0  0\n  6  8  2  0     0  0\n  2  4  1  0     0  0\n  1  9  1  0     0  0\n  3  5  1  0     0  0\n  9 10  1  0     0  0\n  4  5  2  0     0  0\n 10 11  2  0     0  0\n 10 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05515\n\n$$$$",
+  "reactions" : [ "irxn4482", "irxn453" ]
+}

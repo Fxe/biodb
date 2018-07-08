@@ -1,0 +1,53 @@
+{
+  "id" : "irxn4864",
+  "equation" : "h2o + mg2 + atp + ppp9 <=> mppp9 + 3.0 h + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5213" : "",
+      "icpd6356" : "",
+      "icpd4016" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "3.0",
+      "icpd5753" : "",
+      "icpd3797" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "MPML",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MPML_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MPML_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MPML"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iRC1080", "iNJ661", "iLB1027_lipid", "iJN678", "iJB785" ]
+    }
+  }
+}

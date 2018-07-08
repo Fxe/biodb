@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4294",
+  "formula" : "CN",
+  "name" : "cyanide",
+  "synonyms" : [ "isocyanide" ],
+  "alias" : "icpd4294",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00177"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13584"
+  } ],
+  "inchi" : "InChI=1S/CN/c1-2/q-1",
+  "inchikey" : "XFXPMWWXUTWYJX-UHFFFAOYSA-N",
+  "smiles" : "[C-]#N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:CATAL-RXN", "META:CYTOCHROME-C-PEROXIDASE-RXN", "META:1.14.19.5-RXN", "META:OHBENZCOARED-RXN", "META:RXN-15261", "META:SUPEROX-DISMUT-RXN", "META:2.9.1.1-RXN" ],
+      "instances" : [ "META:Nitriles", "META:Organic-Anions" ],
+      "gibbs" : -32.41206,
+      "cmlMolWeight" : 26.018,
+      "molWeight" : 26.018,
+      "parents" : [ "META:Nitriles", "META:Organic-Anions" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   25.0572  -16.2362    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1828  -15.4038    0.0000 C   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  3  0     0  0\nM  CHG  1   2  -1\nM  END\n\n> <ENTRY>\ncpd:C00177\n\n$$$$",
+  "reactions" : [ ]
+}

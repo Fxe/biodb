@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6022",
+  "equation" : "4izp + o2 + h2o <=> h2o2 + icpd3963",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd3132" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd3963" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.17.3; 1.14.13.-; 1.17.3.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:IMIDHYD-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00069"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HCN", "META:ATABRINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:HISHP-PWY" ],
+      "orphan" : null,
+      "gibbs" : -30.083008,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00340" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

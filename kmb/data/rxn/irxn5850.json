@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5850",
+  "equation" : "h2o + octeACP <=> ocdcea + ACP",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1433" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4069" : "",
+      "icpd3274" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.2.14",
+  "otherNames" : [ ],
+  "alias" : "FA181ACPH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02814"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FA181ACPHi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FA181ACPH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00061" ],
+      "orthologs" : [ "K10782" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

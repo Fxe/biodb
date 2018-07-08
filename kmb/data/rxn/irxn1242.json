@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1242",
+  "equation" : "cys__L + so3 + h <=> s + Lcyst",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4873" : "",
+      "icpd1851" : "",
+      "icpd5833" : ""
+    },
+    "r" : {
+      "icpd5284" : "",
+      "icpd44" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.4.1.10; 4.4.1.10",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CYSTEINE-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00901"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 30.428215,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00430", "rn00270" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

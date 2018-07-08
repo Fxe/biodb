@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3198",
+  "equation" : "h2o + leuktrA4 <=> leuktrB4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2842" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6811" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.3.2.6; EC-3.3.2.6",
+  "otherNames" : [ ],
+  "alias" : "LTA4H",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LTA4H"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03057"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LEUKOTRIENE-A4-HYDROLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-375" ],
+      "orphan" : "NO",
+      "gibbs" : -3.6329994,
+      "uniprot" : [ "P19602", "P30349", "P24527", "P09960", "O44969" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "K01254", "A4" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

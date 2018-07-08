@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1022",
+  "equation" : "1p3h5c + nadh + 2.0 h <=> nad + 321206",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd2284" : "",
+      "icpd1851" : "2.0"
+    },
+    "r" : {
+      "321206" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "HPROx",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HPROxm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HPROx"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HPROa"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iIT341", "iMM1415", "iMM904", "iJN678", "RECON1" ]
+    }
+  }
+}

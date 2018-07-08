@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3539",
+  "equation" : "all6p <=> allul6p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7464" : ""
+    },
+    "r" : {
+      "icpd4366" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.1.6",
+  "otherNames" : [ ],
+  "alias" : "ALLPI",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ALLPI"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09030"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00051" ],
+      "orthologs" : [ "K01808" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iECBD_1354", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECSF_1327", "iECED1_1282", "iBWG_1329", "iUMN146_1321", "iML1515", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iECABU_c1320", "iUMNK88_1353", "iUTI89_1310", "iAF1260b", "iEcE24377_1341", "iAPECO1_1312", "iEcDH1_1363", "iECP_1309", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iEcolC_1368", "iB21_1397", "iAF1260", "iECIAI39_1322", "iY75_1357", "iNRG857_1313", "iEcSMS35_1347", "iE2348C_1286", "iYL1228", "iPC815", "iJO1366", "iECSE_1348", "iECB_1328", "iECOK1_1307" ]
+    }
+  }
+}

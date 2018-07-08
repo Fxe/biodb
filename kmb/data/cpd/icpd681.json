@@ -1,0 +1,36 @@
+{
+  "id" : "icpd681",
+  "formula" : "C31H50N7O17P3S",
+  "name" : "2-trans,4-cis-decadienoyl-coa",
+  "synonyms" : [ "(2-trans,4-cis)-deca-2,4-dienoyl-coa", "(2-trans,4-cis)-deca-2,4-dienoyl-coenzyme a", "(2e,4z)-decadienoyl-coa", "2-trans,4-cis-decadienoyl-coenzyme a", "2-trans-4-cis-decadienoyl-coa", "2-trans-4-cis-decadienoyl-coenzyme a" ],
+  "alias" : "c4dde2coa",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:T2-C4-DECADIENYL-COA"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "c4dde2coa"
+  } ],
+  "inchi" : "InChI=1S/C31H50N7O17P3S/c1-4-5-6-7-8-9-10-11-22(40)59-15-14-33-21(39)12-13-34-29(43)26(42)31(2,3)17-52-58(49,50)55-57(47,48)51-16-20-25(54-56(44,45)46)24(41)30(53-20)38-19-37-23-27(32)35-18-36-28(23)38/h8-11,18-20,24-26,30,41-42H,4-7,12-17H2,1-3H3,(H,33,39)(H,34,43)(H,47,48)(H,49,50)(H2,32,35,36)(H2,44,45,46)/b9-8-,11-10+/t20-,24-,25-,26+,30-/m1/s1",
+  "inchikey" : "FASAKYLWSRDQOH-IMVFQKDNSA-N",
+  "smiles" : "CCCCC/C(/[H])=C(/[H])\\C(\\[H])=C(/[H])\\C(=O)SCCN=C(CCN=C([C@@]([H])(C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:DIENOYLCOAREDUCT-RXN" ],
+      "instances" : [ "META:medium-Chain-Trans-23-Dehydroacyl-CoA" ],
+      "reactions" : [ "META:DIENOYLCOAREDUCT-RXN" ],
+      "gibbs" : -332.30045,
+      "cmlMolWeight" : 913.722,
+      "molWeight" : 913.722,
+      "parents" : [ "META:medium-Chain-Trans-23-Dehydroacyl-CoA" ]
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn1782", "irxn3543" ]
+}

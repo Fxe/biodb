@@ -1,0 +1,52 @@
+{
+  "id" : "irxn313",
+  "equation" : "sph1p + h2o <=> pi + sphgn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3645" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3085" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.4; EC-3.1.3; 3.1.3.-",
+  "otherNames" : [ ],
+  "alias" : "SBPP1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SBPP1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06520"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DHS-PHOSPHATASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SBPP1er"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7119" ],
+      "orphan" : "NO",
+      "gibbs" : 5.96875,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00600" ],
+      "orthologs" : [ "K04716", "K04717", "K01080" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  }
+}

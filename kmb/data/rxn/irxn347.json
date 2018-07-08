@@ -1,0 +1,50 @@
+{
+  "id" : "irxn347",
+  "equation" : "nad + tih2cit <=> ohepa + nadh + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd3831" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd2454" : "",
+      "icpd5678" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1; 1.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "TIH2CD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TIH2CD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08214"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:R214-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P241-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 2.3241577,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210", "rn00680", "rn01120" ],
+      "orthologs" : [ "K10978" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

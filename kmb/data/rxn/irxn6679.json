@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6679",
+  "equation" : "3sala + h <=> co2 + hyptaur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1070" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7136" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.15; 4.1.1.29; EC-4.1.1.29",
+  "otherNames" : [ ],
+  "alias" : "3SALACBOXL",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02466"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SULFINOALANINE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3SALACBOXL"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3SALACBOXL_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5331" ],
+      "orphan" : "NO",
+      "gibbs" : -2.4658813,
+      "uniprot" : [ "Q64611" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00430" ],
+      "orthologs" : [ "K01594", "K01580", "K18966" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

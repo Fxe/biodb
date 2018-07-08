@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2072",
+  "equation" : "h2o + 34dhpac + nadp <=> nadph + h + 34dhpha",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd2736" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd8210" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.5",
+  "otherNames" : [ ],
+  "alias" : "34DHPLACOX_NADP",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03302"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "34DHPLACOX_NADP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350" ],
+      "orthologs" : [ "K00129" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

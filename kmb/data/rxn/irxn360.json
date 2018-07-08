@@ -1,0 +1,44 @@
+{
+  "id" : "irxn360",
+  "equation" : "copre8 <=> cobya",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1811" : ""
+    },
+    "r" : {
+      "icpd1212" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.99.60",
+  "otherNames" : [ ],
+  "alias" : "CPC8MM",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05814"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CPC8MM"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K06042" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iAF692", "iNJ661", "iAF987", "iHN637" ]
+    }
+  }
+}

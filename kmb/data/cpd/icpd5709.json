@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5709",
+  "formula" : "C7H6Cl2",
+  "name" : "2,4-dichlorotoluene",
+  "synonyms" : [ ],
+  "alias" : "icpd5709",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10836"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18300"
+  } ],
+  "inchi" : "InChI=1S/C7H6Cl2/c1-5-2-3-6(8)4-7(5)9/h2-4H,1H3",
+  "inchikey" : "FUNUTBJJKQIVSY-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=C(C=C1Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds" ],
+      "reactions" : [ "META:RXN-10090" ],
+      "gibbs" : 78.856735,
+      "cmlMolWeight" : 161.03,
+      "molWeight" : 161.03,
+      "parents" : [ "META:Chloroaromatic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   22.8900  -18.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8900  -20.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1024  -20.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3149  -20.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3149  -18.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1024  -17.9200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5460  -17.9090    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1024  -16.5202    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   21.6776  -20.7200    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  1  0     0  0\n  2  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18300\n\n$$$$",
+  "reactions" : [ "irxn3195" ]
+}

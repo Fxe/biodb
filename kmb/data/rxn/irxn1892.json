@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1892",
+  "equation" : "coa + icpd5931 <=> glx + h2o + btcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd5931" : ""
+    },
+    "r" : {
+      "icpd1529" : "",
+      "icpd4016" : "",
+      "icpd941" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.3.7; 2.3.3.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-ETHYLMALATE-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01180"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7396" ],
+      "orphan" : "NO",
+      "gibbs" : -11.061218,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

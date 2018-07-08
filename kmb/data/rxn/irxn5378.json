@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5378",
+  "equation" : "dutp + uri <=> dudp + ump",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2113" : "",
+      "icpd2329" : ""
+    },
+    "r" : {
+      "icpd4623" : "",
+      "icpd290" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.48",
+  "otherNames" : [ ],
+  "alias" : "DUTUP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DUTUP"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02332"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K00876" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

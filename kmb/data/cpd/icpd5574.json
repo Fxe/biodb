@@ -1,0 +1,39 @@
+{
+  "id" : "icpd5574",
+  "formula" : "C9H6NO4",
+  "name" : "5,6-dihydroxyindole-2-carboxylate",
+  "synonyms" : [ "5,6-dihydroxy-1h-indole-2-carboxylate", "5,6-dihydroxy-2-indolecarboxylate", "5,6-dihydroxy-2-indolylcarboxylate" ],
+  "alias" : "56dihindlcrbxlt",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04185"
+  }, {
+    "source" : "BiGG",
+    "entry" : "56dihindlcrbxlt"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:56-DIHYDROXYINDOLE-2-CARBOXYLATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "56dihindlcrbxlt"
+  } ],
+  "inchi" : "InChI=1S/C9H7NO4/c11-7-2-4-1-6(9(13)14)10-5(4)3-8(7)12/h1-3,10-12H,(H,13,14)/p-1",
+  "inchikey" : "YFTGOBNOJKXZJC-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C(=O)O)NC2=C1C=C(C(=C2)O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-11406", "META:DOPACHROME-DELTA-ISOMERASE-RXN" ],
+      "gibbs" : -66.51434,
+      "cmlMolWeight" : 192.151,
+      "molWeight" : 192.151
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 14 15  0  0  0  0  0  0  0  0999 V2000\n   16.0300  -18.1300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0300  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2424  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4549  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4549  -18.1300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2424  -17.4300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7864  -19.9626    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6093  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7864  -17.6974    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9800  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6800  -20.0424    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6800  -17.6176    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8176  -20.2300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8176  -17.4300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  5  9  1  0     0  0\n  8 10  1  0     0  0\n 10 11  2  0     0  0\n 10 12  1  0     0  0\n  2 13  1  0     0  0\n  1 14  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04185\n\n$$$$",
+  "reactions" : [ "irxn2647" ]
+}

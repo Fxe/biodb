@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1479",
+  "equation" : "but + atp <=> butpi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd2697" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd2686" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.2.7; 2.7.2.7",
+  "otherNames" : [ ],
+  "alias" : "BUTKr",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BUTYRATE-KINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BUTKr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01688"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:IODOACETAMIDE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CENTFERM-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 9.308289,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650" ],
+      "orthologs" : [ "K00929" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iAF987", "iHN637", "iYO844" ]
+    }
+  }
+}

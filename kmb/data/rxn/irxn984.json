@@ -1,0 +1,45 @@
+{
+  "id" : "irxn984",
+  "equation" : "icpd5951 + h2o <=> glc__D + chsterol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5951" : ""
+    },
+    "r" : {
+      "icpd4645" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.104; EC-3.2.1.104",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01460"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:STERYL-BETA-GLUCOSIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -3.1130066,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

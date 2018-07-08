@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2142",
+  "equation" : "h2o + adpglc <=> amp + g1p + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2868" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd402" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.21",
+  "otherNames" : [ ],
+  "alias" : "ADPGLC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ADPGLC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00951"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10770"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 34.963593,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00500" ],
+      "orthologs" : [ "K18447" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iJB785" ]
+    }
+  }
+}

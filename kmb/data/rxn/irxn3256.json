@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3256",
+  "equation" : "pholys + h2o <=> L2aadp6sa + n2 + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1672" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd4839" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.3.134; EC-4.2.3.134",
+  "otherNames" : [ ],
+  "alias" : "AGXT2L2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AGXT2L2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13609"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10270"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : false,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -0.72125244,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310", "rn01100" ],
+      "orthologs" : [ "K18202" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

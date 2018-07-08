@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5266",
+  "formula" : "C4H11NS",
+  "name" : "3-methylthiopropanamine",
+  "synonyms" : [ "3-(methylsulfanyl)propanamine", "3-methylthiopropylamine" ],
+  "alias" : "icpd5266",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03354"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-631"
+  } ],
+  "inchi" : "InChI=1S/C4H11NS/c1-6-4-2-3-5/h2-5H2,1H3",
+  "inchikey" : "KKYSBGWCYXYOHA-UHFFFAOYSA-N",
+  "smiles" : "CSCCCN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:METHIONINE-DECARBOXYLASE-RXN" ],
+      "gibbs" : 126.671394,
+      "cmlMolWeight" : 106.205,
+      "molWeight" : 106.205
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   18.8300  -15.6100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0200  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2800  -15.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4700  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6600  -15.6100    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9200  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03354\n\n$$$$",
+  "reactions" : [ "irxn1926" ]
+}

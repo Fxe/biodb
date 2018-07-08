@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3150",
+  "equation" : "nad + guln__L <=> nadh + h + 3dhguln",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7686" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd8116" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.45; EC-1.1.1.45",
+  "otherNames" : [ ],
+  "alias" : "GULN3D",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-GULONATE-3-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GULN3D"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02640"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-5401", "META:CPD-8829", "META:MALONATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5525" ],
+      "orphan" : "NO",
+      "gibbs" : 1.0817871,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ "K13247" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

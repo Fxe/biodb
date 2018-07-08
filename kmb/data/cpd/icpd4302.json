@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4302",
+  "formula" : "C8H7O3",
+  "name" : "(s)-mandelate",
+  "synonyms" : [ "(s)-2-hydroxy-2-phenylacetate" ],
+  "alias" : "icpd4302",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-122"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01984"
+  } ],
+  "inchi" : "InChI=1S/C8H8O3/c9-7(8(10)11)6-4-2-1-3-5-6/h1-5,7,9H,(H,10,11)/p-1/t7-/m0/s1",
+  "inchikey" : "IWYDHOAUDWTVEP-ZETCQYMHSA-M",
+  "smiles" : "C1=CC=C(C=C1)[C@@]([H])(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:MANDELATE-4-MONOOXYGENASE-RXN", "META:MANDELATE-RACEMASE-RXN", "META:MANDELATE-DEHYDROGENASE-RXN" ],
+      "gibbs" : -16.334217,
+      "cmlMolWeight" : 151.141,
+      "molWeight" : 151.141
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   15.9132  -14.8858    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9069  -13.4894    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   14.7026  -15.5841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1304  -15.5841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1112  -12.7911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6963  -12.7976    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7026  -16.9933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1304  -16.9933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3219  -13.4829    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1047  -11.4010    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9132  -17.7042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\n  7 11  2  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01984\n\n$$$$",
+  "reactions" : [ "irxn2384", "irxn3671" ]
+}

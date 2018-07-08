@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1567",
+  "formula" : "C3H8",
+  "name" : "propane",
+  "synonyms" : [ ],
+  "alias" : "icpd1567",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-18984"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20783"
+  } ],
+  "inchi" : "InChI=1S/C3H8/c1-3-2/h3H2,1-2H3",
+  "inchikey" : "ATUOYWHBWRKTHZ-UHFFFAOYSA-N",
+  "smiles" : "CCC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Short-Chain-Alkanes" ],
+      "reactions" : [ "META:RXN-17568", "META:RXN-17639" ],
+      "gibbs" : 80.16897,
+      "cmlMolWeight" : 44.096,
+      "molWeight" : 44.096,
+      "parents" : [ "META:Short-Chain-Alkanes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   11.1300  -11.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3424  -12.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5549  -11.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20783\n\n$$$$",
+  "reactions" : [ "irxn6700" ]
+}

@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2950",
+  "equation" : "amet <=> 1acpc + h + 5mta",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7119" : "",
+      "icpd6968" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.4.1.14; EC-4.4.1.14",
+  "otherNames" : [ ],
+  "alias" : "ACPCS",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.4.1.14-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACPCS"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACCS_h"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00179"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ETHYL-PWY", "META:PWY-7270" ],
+      "orphan" : "NO",
+      "gibbs" : 16.019005,
+      "uniprot" : [ "Q42718", "O24432", "P18485", "O49819", "Q96580", "Q9SEJ9", "Q43204", "P31531", "Q43166", "Q43165", "Q43201", "Q43168", "Q43167", "Q94GA4", "Q9SB01", "Q9FUC3", "Q96579", "Q07262", "Q9T065", "Q39931", "Q9S9C5", "P27486", "O24544", "Q43679", "Q42668", "Q43756", "Q43753", "O65017", "O65018", "Q7M286", "Q43755", "Q42984", "Q07223", "Q41693", "Q41694", "O49904", "P37821", "Q9SB94", "Q9M2Y8", "P23599", "Q37001", "P29535", "P23279", "O24217", "Q43309", "Q41688", "Q43747", "Q07215", "Q06402", "Q9STR4", "Q9SMH1", "Q42655", "O24219", "Q42893", "Q00257", "Q43074", "P93235", "Q00379", "P93234", "O24220", "O24062", "O24061", "O22464", "Q43858", "Q43813", "O65159", "O81957", "Q43059", "O24609", "Q42881", "Q06429", "Q9SAR0" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00270" ],
+      "orthologs" : [ "K01762", "K20772" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

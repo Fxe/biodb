@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5551",
+  "equation" : "nad + h2o + 4mbzald <=> nadh + p_tol + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6752" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd2012" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.28",
+  "otherNames" : [ ],
+  "alias" : "4MBZDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "4MBZDH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8582"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5429" ],
+      "orphan" : "NO",
+      "gibbs" : -13.105316,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

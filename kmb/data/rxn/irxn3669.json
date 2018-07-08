@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3669",
+  "equation" : "ascb__L + h + h2o2 <=> 2.0 h2o + dhdascb",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2494" : "",
+      "icpd1851" : "",
+      "icpd285" : ""
+    },
+    "r" : {
+      "icpd2627" : "",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ASCBPOX_h",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ASCBPOX_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASCBPOX_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASCBPOX_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

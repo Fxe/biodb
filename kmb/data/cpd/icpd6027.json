@@ -1,0 +1,34 @@
+{
+  "id" : "icpd6027",
+  "formula" : "C3H8NO5P",
+  "name" : "n-(phosphonomethyl)glycine",
+  "synonyms" : [ ],
+  "alias" : "icpd6027",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01705"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1308"
+  } ],
+  "inchi" : "InChI=1S/C3H8NO5P/c5-3(6)1-4-2-10(7,8)9/h4H,1-2H2,(H,5,6)(H2,7,8,9)",
+  "inchikey" : "XDDAORKBJWWYJS-UHFFFAOYSA-N",
+  "smiles" : "C(C(=O)O)NCP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2.5.1.19-RXN" ],
+      "instances" : [ "META:All-Amino-Acids", "META:Organophosphonates" ],
+      "reactions" : [ "META:RXN-17951", "META:RXN-17950", "META:RXN-17957" ],
+      "gibbs" : -216.98152,
+      "cmlMolWeight" : 167.058,
+      "molWeight" : 167.058,
+      "parents" : [ "META:All-Amino-Acids", "META:Organophosphonates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   24.4271  -16.2210    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   23.1842  -15.5772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4526  -17.6869    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8165  -16.2655    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4080  -14.7358    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9796  -16.2720    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7813  -15.5772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5830  -16.2720    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3846  -15.5772    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5830  -17.6550    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01705\n\n$$$$",
+  "reactions" : [ "irxn3842" ]
+}

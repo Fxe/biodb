@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5245",
+  "formula" : "C4H7O3",
+  "name" : "2-hydroxy-2-methylpropanoate",
+  "synonyms" : [ "2-hydroxy-2-methylpropionate", "2-hydroxyisobutanoate", "2-hydroxyisobutyrate", "2-methyllactate", "alpha-hydroxy-alpha-methylpropanoate", "alpha-hydroxyisobutanoate", "alpha-hydroxyisobutyrate", "hydroxydimethylacetate", "hydroxyisobutyrate" ],
+  "alias" : "icpd5245",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19014"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21297"
+  } ],
+  "inchi" : "InChI=1S/C4H8O3/c1-4(2,7)3(5)6/h7H,1-2H3,(H,5,6)/p-1",
+  "inchikey" : "BWLBGMIXKSTLSX-UHFFFAOYSA-M",
+  "smiles" : "CC(C)(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-17607", "META:RXN-17606", "META:RXN-17608", "META:RXN-17603" ],
+      "gibbs" : -53.19422,
+      "cmlMolWeight" : 103.097,
+      "molWeight" : 103.097
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   18.0639  -15.8682    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2680  -16.5057    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7890  -16.5057    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4721  -15.8682    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2680  -17.9222    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2680  -15.0891    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0639  -14.4516    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  1  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21297\n\n$$$$",
+  "reactions" : [ "irxn4099" ]
+}

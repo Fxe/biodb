@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7676",
+  "formula" : "C8H16N2O3",
+  "name" : "n6-acetyl-l-lysine",
+  "synonyms" : [ "(2s)-2-amino-6-acetamidohexanoic acid", "n6-acetyllysine" ],
+  "alias" : "icpd7676",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-567"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02727"
+  } ],
+  "inchi" : "InChI=1S/C8H16N2O3/c1-6(11)10-5-3-2-4-7(9)8(12)13/h7H,2-5,9H2,1H3,(H,10,11)(H,12,13)/t7-/m0/s1",
+  "inchikey" : "DTERQYGMUDWYAZ-ZETCQYMHSA-N",
+  "smiles" : "CC(=NCCCC[C@@]([H])(C(=O)O)N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Non-standard-amino-acids" ],
+      "reactions" : [ "META:LYSACET-RXN", "META:LYSINE-N-ACETYLTRANSFERASE-RXN", "META:ACETCAPR-RXN" ],
+      "gibbs" : 50.697933,
+      "cmlMolWeight" : 188.226,
+      "molWeight" : 188.226,
+      "parents" : [ "META:Non-standard-amino-acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n    9.6600  -41.0900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.8724  -41.7900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.0849  -41.0900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2973  -41.7900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.5097  -41.0900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7222  -41.7900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9346  -41.0900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1470  -41.7900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3595  -41.0900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5719  -41.7900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.8724  -43.1898    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3595  -39.6903    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1470  -43.1899    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  2 11  2  0     0  0\n  9 12  2  0     0  0\n  8 13  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C02727\n\n$$$$",
+  "reactions" : [ "irxn5541", "irxn4494", "irxn3602" ]
+}

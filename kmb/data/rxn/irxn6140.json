@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6140",
+  "equation" : "icpd5302 + h2o <=> glcn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5302" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2898" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.1.17; 3.1.1.17",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCONOLACT-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01519"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7165", "META:PWY-2221", "META:NPGLUCAT-PWY", "META:PWY-5530", "META:GLUCOSE1PMETAB-PWY", "META:DHGLUCONATE-PYR-CAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -7.14711,
+      "uniprot" : [ "Q01578" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn01110", "rn00030", "rn01130" ],
+      "orthologs" : [ "K01053" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

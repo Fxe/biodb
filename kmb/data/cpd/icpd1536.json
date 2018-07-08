@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1536",
+  "formula" : "C5H10N2O2",
+  "name" : "(r)-piperazine-2-carboxylic acid",
+  "synonyms" : [ ],
+  "alias" : "icpd1536",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11622"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19780"
+  } ],
+  "inchi" : "InChI=1S/C5H10N2O2/c8-5(9)4-3-6-1-2-7-4/h4,6-7H,1-3H2,(H,8,9)/t4-/m1/s1",
+  "inchikey" : "JSSXHAMIXJGYCS-SCSAIBSYSA-N",
+  "smiles" : "C1CN[C@H](CN1)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-14174", "META:RXN-10759", "META:RXN-13715" ],
+      "gibbs" : 38.221207,
+      "cmlMolWeight" : 130.146,
+      "molWeight" : 130.146
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  1  0  0  0  0  0999 V2000\n   18.4774  -16.3069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4774  -17.7067    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6896  -18.4065    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9019  -17.7067    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9019  -16.3069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6896  -15.6070    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1328  -18.4175    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3378  -17.7220    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1325  -19.8062    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  4  7  1  6     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19780\n\n$$$$",
+  "reactions" : [ "irxn5524" ]
+}

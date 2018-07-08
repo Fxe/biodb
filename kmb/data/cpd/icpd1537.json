@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1537",
+  "formula" : "C6H7O6",
+  "name" : "5-dehydro-4-deoxy-d-glucuronate",
+  "synonyms" : [ "(4s,5r)-4,5-dihydroxy-2,6-dioxohexanoate" ],
+  "alias" : "icpd1537",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04053"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-37"
+  } ],
+  "inchi" : "InChI=1S/C6H8O6/c7-2-5(10)3(8)1-4(9)6(11)12/h2-3,5,8,10H,1H2,(H,11,12)/p-1/t3-,5-/m0/s1",
+  "inchikey" : "IMUGYKFHMJLTOU-UCORVYFPSA-M",
+  "smiles" : "C([C@@]([H])([C@]([H])(C=O)O)O)C(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Glycans" ],
+      "reactions" : [ "META:5.3.1.17-RXN", "META:OLIGOGALACTURONIDE-LYASE-RXN", "META:RXN-16475" ],
+      "gibbs" : -139.07422,
+      "cmlMolWeight" : 175.118,
+      "molWeight" : 175.118,
+      "parents" : [ "META:Glycans" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   31.0926  -19.1965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9016  -19.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6405  -19.1965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4495  -19.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2585  -19.1965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9974  -19.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9016  -21.2983    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.2836  -19.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0926  -17.7953    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4495  -21.2983    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2585  -17.7953    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7837  -19.1695    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  2  7  2  0     0  0\n  1  8  1  0     0  0\n  1  9  2  0     0  0\n  4 10  1  6     0  0\n  5 11  1  6     0  0\n  6 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04053\n\n$$$$",
+  "reactions" : [ "irxn4376", "irxn2292" ]
+}

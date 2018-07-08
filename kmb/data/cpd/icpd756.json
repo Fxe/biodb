@@ -1,0 +1,40 @@
+{
+  "id" : "icpd756",
+  "formula" : "C3H2O6P",
+  "name" : "3-phosphohydroxypyruvate",
+  "synonyms" : [ "3-phospho-hydroxypyruvate", "phosphohydroxypyruvate" ],
+  "alias" : "3php",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-P-HYDROXYPYRUVATE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "3php"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3php"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03232"
+  } ],
+  "inchi" : "InChI=1S/C3H3O6P/c4-1(2(5)6)3(7)10(8)9/h3,7H,(H,5,6)/p-1",
+  "inchikey" : "NQOZRHFKRZELRW-UHFFFAOYSA-M",
+  "smiles" : "C(=O)(C(=O)[O-])C(O)P(=O)=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:1.2.1.9-RXN", "META:KETOGLUTREDUCT-RXN", "META:RXN-16701" ],
+      "reactions" : [ "META:RXN0-6562", "META:RXN-17808", "META:PSERTRANSAM-RXN", "META:PGLYCDEHYDROG-RXN" ],
+      "gibbs" : -343.68634,
+      "cmlMolWeight" : 181.018,
+      "molWeight" : 181.018
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   15.9969  -15.0966    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   17.3933  -15.1030    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6641  -15.0966    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9969  -13.6938    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0604  -16.4930    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6030  -14.4017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8193  -15.1030    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0289  -14.4017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8193  -16.5059    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2388  -15.1095    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0226  -13.0052    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  8 10  1  0     0  0\n  8 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03232\n\n$$$$",
+  "reactions" : [ "irxn5004", "irxn3880", "irxn1146" ]
+}

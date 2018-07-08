@@ -1,0 +1,45 @@
+{
+  "id" : "irxn8",
+  "equation" : "udpg + icpd8007 <=> udp + icpd7868",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd8007" : ""
+    },
+    "r" : {
+      "icpd6858" : "",
+      "icpd7868" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.215; 2.4.1.215",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-4735"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07260"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-4210", "META:CPD-4441", "META:CPD-4604", "META:CPD-4209", "META:THIDIAZURON", "META:CPD-4609" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2902" ],
+      "orphan" : "NO",
+      "gibbs" : 6.8976135,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00908" ],
+      "orthologs" : [ "K13495" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

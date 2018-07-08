@@ -1,0 +1,55 @@
+{
+  "id" : "irxn1722",
+  "equation" : "cysam + o2 <=> h + hyptaur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4550" : ""
+    },
+    "r" : {
+      "icpd7136" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.19; 1.13.11.19",
+  "otherNames" : [ ],
+  "alias" : "CYSAMO",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CYSTEAMINE-DIOXYGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSAMOe"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSAMO"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02467"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSAMO_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7850" ],
+      "orphan" : "NO",
+      "gibbs" : -78.31,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00430" ],
+      "orthologs" : [ "K10712" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

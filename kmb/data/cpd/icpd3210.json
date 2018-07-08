@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3210",
+  "formula" : "C6H10NO5",
+  "name" : "(2z,4s,5r)-2-amino-4,5,6-trihydroxyhex-2-enoate",
+  "synonyms" : [ ],
+  "alias" : "icpd3210",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-16808"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20844"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO5/c7-3(6(11)12)1-4(9)5(10)2-8/h1,4-5,8-10H,2,7H2,(H,11,12)/p-1/b3-1-/t4-,5+/m0/s1",
+  "inchikey" : "BWCRWWBHRAOURT-VYOXQMNSSA-M",
+  "smiles" : "C(\\[H])(=C(\\C(=O)[O-])/N)/[C@@]([H])([C@@]([H])(CO)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monocarboxylates", "META:Enamines" ],
+      "reactions" : [ "META:RXN-15571", "META:RXN-15572" ],
+      "gibbs" : -64.43086,
+      "cmlMolWeight" : 176.149,
+      "molWeight" : 176.149,
+      "parents" : [ "META:Monocarboxylates", "META:Enamines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   14.4164  -16.5153    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6285  -15.8155    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8407  -16.5153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0528  -15.8155    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2649  -16.5153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4772  -15.8155    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6893  -16.5153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8407  -17.9148    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0528  -14.4158    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4772  -14.4161    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9055  -15.8132    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6893  -17.9150    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  6  7  1  0     0  0\n  3  8  1  6     0  0\n  4  9  1  1     0  0\n  6 10  1  0     0  0\n  7 11  1  0     0  0\n  7 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20844\n\n$$$$",
+  "reactions" : [ "irxn136", "irxn141" ]
+}

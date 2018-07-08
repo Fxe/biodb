@@ -1,0 +1,32 @@
+{
+  "id" : "icpd5406",
+  "formula" : "C5H5O4",
+  "name" : "acetylpyruvate",
+  "synonyms" : [ "2,4-dioxopentanoate" ],
+  "alias" : "icpd5406",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02132"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-612"
+  } ],
+  "inchi" : "InChI=1S/C5H6O4/c1-3(6)2-4(7)5(8)9/h2H2,1H3,(H,8,9)/p-1",
+  "inchikey" : "UNRQTHVKJQUDDF-UHFFFAOYSA-M",
+  "smiles" : "CC(=O)CC(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ACETOACETATE-DECARBOXYLASE-RXN" ],
+      "reactions" : [ "META:ACETYLPYRUVATE-HYDROLASE-RXN", "META:RXN-17561", "META:R306-RXN" ],
+      "gibbs" : -88.42646,
+      "cmlMolWeight" : 129.092,
+      "molWeight" : 129.092
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   27.1204  -15.6162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8965  -16.3222    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3377  -16.3222    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1204  -14.2750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6791  -15.6162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3377  -17.7978    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5552  -15.6162    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4616  -16.3222    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6791  -14.2750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  5  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02132\n\n$$$$",
+  "reactions" : [ "irxn911" ]
+}

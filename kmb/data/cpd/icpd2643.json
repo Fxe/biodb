@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2643",
+  "formula" : "C8H6O3",
+  "name" : "benzoylformic acid",
+  "synonyms" : [ "2-oxo-2-phenylacetic acid", "alpha-ketophenylacetic acid", "alpha-oxo-benzeneacetic acid", "alpha-oxobenzeneacetic acid", "benzoyl-formic acid", "oxophenylacetic acid", "phenylglyoxylic acid", "phenyloxoacetic acid" ],
+  "alias" : "icpd2643",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02137"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENYLGLYOXYLATE"
+  } ],
+  "inchi" : "InChI=1S/C8H6O3/c9-7(8(10)11)6-4-2-1-3-5-6/h1-5H,(H,10,11)",
+  "inchikey" : "FAQJJMHZNSSFSM-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)C(=O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Oxo-carboxylates" ],
+      "reactions" : [ "META:PHENGLYOXRED-RXN", "META:RXN-15840", "META:MANDELATE-DEHYDROGENASE-RXN", "META:3.1.2.25-RXN", "META:1.2.1.58-RXN", "META:BENZOYLFORMATE-DECARBOXYLASE-RXN" ],
+      "gibbs" : -26.396461,
+      "cmlMolWeight" : 149.126,
+      "molWeight" : 149.126,
+      "parents" : [ "META:2-Oxo-carboxylates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   17.8032  -15.0958    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7969  -13.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5924  -15.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0205  -15.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0014  -13.0008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5861  -13.0073    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5924  -17.2036    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0205  -17.2036    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2057  -13.6992    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9949  -11.6105    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8032  -17.9147    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\n  7 11  2  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02137\n\n$$$$",
+  "reactions" : [ "irxn2384", "irxn874", "irxn2042", "irxn3599", "irxn5613" ]
+}

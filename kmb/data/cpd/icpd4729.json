@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4729",
+  "formula" : "CHO5P",
+  "name" : "formyl phosphate",
+  "synonyms" : [ ],
+  "alias" : "icpd4729",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02405"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-495"
+  } ],
+  "inchi" : "InChI=1S/CH3O5P/c2-1-6-7(3,4)5/h1H,(H2,3,4,5)/p-2",
+  "inchikey" : "TVISEJUYYBUVNV-UHFFFAOYSA-L",
+  "smiles" : "C(=O)OP(=O)([O-])[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:FORMATE-KINASE-RXN" ],
+      "gibbs" : -275.37714,
+      "cmlMolWeight" : 123.99,
+      "molWeight" : 123.99
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   24.9291  -18.9466    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3244  -18.9403    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   27.7259  -18.9403    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3244  -17.5388    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3244  -20.3355    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6983  -18.2631    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4863  -18.9628    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7566  -16.8640    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  2  0     0  0\n  2  5  1  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02405\n\n$$$$",
+  "reactions" : [ "irxn256" ]
+}

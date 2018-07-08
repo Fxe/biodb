@@ -1,0 +1,60 @@
+{
+  "id" : "irxn342",
+  "equation" : "ppa + coa + atp <=> amp + ppi + ppcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3637" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd7180" : "",
+      "icpd3011" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.1; EC-6.2.1.17; 6.2.1.17",
+  "otherNames" : [ ],
+  "alias" : "ACS2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACCOALm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACS2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPACOALh"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00925"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PROPIONATE--COA-LIGASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPACOALm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-9429" ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3941", "META:PWY-5104", "META:PWY0-42", "META:PWY-5747" ],
+      "orphan" : "NO",
+      "gibbs" : -11.541626,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iRC1080", "iNJ661", "iMM1415", "RECON1", "iAF987", "iYO844", "iJN746" ]
+    }
+  }
+}

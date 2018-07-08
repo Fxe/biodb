@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4914",
+  "equation" : "2ddara <=> gcald + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2958" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd2538" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.28; EC-4.1.2.28",
+  "otherNames" : [ ],
+  "alias" : "2DDARAA",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.2.28-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01782"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "2DDARAA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7178", "META:PWY-7294" ],
+      "orphan" : "NO",
+      "gibbs" : 0.54000854,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00040" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

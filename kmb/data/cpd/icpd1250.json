@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1250",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd1250",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Thiols"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00145"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:PROLINE-RACEMASE-RXN", "META:ALPHAGALACTOSID-RXN", "META:ACETALD-DEHYDROG-RXN" ],
+      "instances" : [ "META:CPD-14746", "META:CPD-239", "META:CPD-14758", "META:CPD-19971", "META:CPD-10467", "META:CPD-17028", "META:CPD-17094", "META:CPD-6401", "META:GLUTATHIONE", "META:CPD-6402", "META:CPD-19221", "META:CPD0-1294", "META:CPD1G-120", "META:CPD1G-2", "META:CPD-6403", "META:CPD-8132", "META:HSCN", "META:DITHIOTHREITOL", "META:CPD-8211", "META:CPD-7671", "META:CPD-7672" ],
+      "reactions" : [ "META:RXN-16226", "META:RXN-9946", "META:RXN-15582", "META:THIOL-SULFOTRANSFERASE-RXN", "META:RXN-6763", "META:RXN-8202", "META:RXN-11940", "META:THIOL-S-METHYLTRANSFERASE-RXN", "META:RXN-11941" ],
+      "parents" : [ "META:Sulfhydryls", "META:Polysulfides", "META:CPD-14758", "META:Perthiols", "META:CPD-17028", "META:CPD-6401", "META:GLUTATHIONE", "META:CPD-17094", "META:Alkyl-Thiols", "META:CPD-6402", "META:CPD0-1294", "META:CPD1G-120", "META:CPD-6403", "META:ORGANOSULFUR", "META:Protein-Disulfides", "META:HSCN", "META:DITHIOTHREITOL", "META:CPD-7671", "META:CPD-7672", "META:Disulfides", "META:CPD-14746", "META:CPD-239", "META:Thio-Ethers", "META:CPD-19971", "META:CPD-10467", "META:CPD-19221", "META:CPD1G-2", "META:CPD-8132", "META:Protein-Dithiols", "META:CPD-8211" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   24.3615  -15.3409    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7615  -15.3409    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00145\n\n$$$$",
+  "reactions" : [ "irxn5859", "irxn756" ]
+}

@@ -1,0 +1,53 @@
+{
+  "id" : "irxn3617",
+  "equation" : "dcholcoa + taur <=> coa + tdchola + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7023" : "",
+      "icpd7999" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd536" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.65; 2.3.1.65",
+  "otherNames" : [ ],
+  "alias" : "BAAT5x",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08745"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9852"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE1845C"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BAAT5x"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6061" ],
+      "orphan" : "NO",
+      "gibbs" : 14.435791,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00120" ],
+      "orthologs" : [ "K00659" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

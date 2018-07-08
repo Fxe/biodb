@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5874",
+  "equation" : "2.0 nad + h2o + gdpmann <=> 2.0 nadh + icpd4846 + 3.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd1993" : "",
+      "icpd5131" : "2.0"
+    },
+    "r" : {
+      "icpd4846" : "",
+      "icpd5377" : "2.0",
+      "icpd1851" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.132; 1.1.1.132",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00880"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GDP-MANNOSE-6-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6073", "META:PWY-6082" ],
+      "orphan" : "NO",
+      "gibbs" : -11.811768,
+      "uniprot" : [ "P11759" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn00051" ],
+      "orthologs" : [ "K00066" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd236",
+  "formula" : "C5H5NO2",
+  "name" : "3,4-dihydroxypyridine",
+  "synonyms" : [ "3,4-dihydroxypyridin", "3-hydroxy-4(1h)-pyridinone", "3-hydroxypyridin-4(1h)-one", "pyridine-3,4-diol" ],
+  "alias" : "icpd236",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03927"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXY-4H-PYRID-4-ONE"
+  } ],
+  "inchi" : "InChI=1S/C5H5NO2/c7-4-1-2-6-3-5(4)8/h1-3,8H,(H,6,7)",
+  "inchikey" : "ZCUUVWCJGRQCMZ-UHFFFAOYSA-N",
+  "smiles" : "C1=CNC=C(C1=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-12947", "META:MIMOSINASE-RXN" ],
+      "gibbs" : 4.1756,
+      "cmlMolWeight" : 111.1,
+      "molWeight" : 111.1
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   24.8231  -23.0644    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0439  -23.7609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6215  -23.7609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8231  -21.6710    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0439  -25.1672    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2456  -23.0579    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6215  -25.1672    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8231  -25.8765    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  1  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03927\n\n$$$$",
+  "reactions" : [ "irxn4646" ]
+}

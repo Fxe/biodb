@@ -1,0 +1,39 @@
+{
+  "id" : "icpd5254",
+  "formula" : "C6H4O4",
+  "name" : "cis,cis-muconate",
+  "synonyms" : [ "(2z,4z)-hexa-2,4-dienedioate", "(z,z)-2,4-hexadienedioate", "cis,cis-2,4-hexadienedioate", "cis,cis-hexadienedioate" ],
+  "alias" : "ccmuac",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "ccmuac"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ccmuac"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CIS-CIS-MUCONATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02480"
+  } ],
+  "inchi" : "InChI=1S/C6H6O4/c7-5(8)3-1-2-4-6(9)10/h1-4H,(H,7,8)(H,9,10)/p-2/b3-1-,4-2-",
+  "inchikey" : "TXXHDPDFNKHHGW-CCAGOZQPSA-L",
+  "smiles" : "C(\\[H])(=C(\\[H])/C(=O)[O-])/C(/[H])=C(/[H])\\C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:CATECHOL-12-DIOXYGENASE-RXN", "META:MUCONATE-CYCLOISOMERASE-RXN" ],
+      "gibbs" : -83.083755,
+      "cmlMolWeight" : 140.095,
+      "molWeight" : 140.095
+    },
+    "bigg" : {
+      "models" : [ "iYL1228", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   30.0320  -15.5404    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2404  -16.2343    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8179  -16.2402    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2464  -17.6294    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4548  -15.5287    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8179  -17.6352    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6036  -18.3420    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3952  -17.6411    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3893  -16.2402    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1810  -18.3536    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  6  7  2  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02480\n\n$$$$",
+  "reactions" : [ "irxn2227", "irxn3129", "irxn2823" ]
+}

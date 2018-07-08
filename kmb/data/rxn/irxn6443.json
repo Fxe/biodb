@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6443",
+  "equation" : "glx + coa + nadp <=> nadph + oxalcoa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd941" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2306" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.17; 1.2.1.17",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00468"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYOXYLATE-DEHYDROGENASE-ACYLATING-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6696" ],
+      "orphan" : "NO",
+      "gibbs" : -9.512939,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

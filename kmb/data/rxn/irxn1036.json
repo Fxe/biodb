@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1036",
+  "equation" : "o2 + 34dhbz <=> CCbuttc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4862" : ""
+    },
+    "r" : {
+      "icpd6357" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.3; EC-1.13.11.3",
+  "otherNames" : [ ],
+  "alias" : "PCADYOX",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PROTOCATECHUATE-34-DIOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01631"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PCADYOX"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:F-", "META:CL-", "META:ACET", "META:CPD-387" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -98.7606,
+      "uniprot" : [ "Q9ZFA1", "P15110", "Q9ZFA0", "P00437", "P00436", "P15109", "P20372", "Q05353" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00362", "rn00624" ],
+      "orthologs" : [ "K00449", "K00448" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

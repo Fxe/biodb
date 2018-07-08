@@ -1,0 +1,59 @@
+{
+  "id" : "irxn1748",
+  "equation" : "h2o + agm + h <=> Ncbmpts + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd439" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd863" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.3.12; 3.5.3.12",
+  "otherNames" : [ ],
+  "alias" : "AGDI",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AGMDA"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01416"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AGDI"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AGMATINE-DEIMINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AGDIn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AGDI_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:IODOACETAMIDE", "META:CPD-29", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-43", "META:ARGDEG-III-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -11.648888,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100" ],
+      "orthologs" : [ "K10536" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iAF987", "iJB785" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6502",
+  "equation" : "nad + r2hglut <=> nadh + h + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd6217" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.399; 1.1.1.399",
+  "otherNames" : [ ],
+  "alias" : "ARHGDx",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:KETOGLUTREDUCT-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARHGDx"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11337"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:G3P", "META:GLY", "META:2-KETOGLUTARATE", "META:2-HYDROXYGLUTARIC_ACID", "META:SER", "META:3-P-HYDROXYPYRUVATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P162-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 2.8417969,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3278",
+  "equation" : "o2 + arachd <=> 15HPET",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1270" : ""
+    },
+    "r" : {
+      "icpd6710" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.33; 1.13.11.33",
+  "otherNames" : [ ],
+  "alias" : "ALOX15",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ARACHIDONATE-15-LIPOXYGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALOX15"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01593"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -69.979996,
+      "uniprot" : [ "P16050", "P12530" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "K00460", "K08022", "K19246" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

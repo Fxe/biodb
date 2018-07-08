@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3109",
+  "equation" : "o2 + icpd5439 <=> mepn + h + hco3",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5439" : ""
+    },
+    "r" : {
+      "icpd2064" : "",
+      "icpd1851" : "",
+      "icpd1484" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.73; EC-1.13.11.73",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13856"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10191"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -119.70412,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00440" ],
+      "orthologs" : [ "K18049" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

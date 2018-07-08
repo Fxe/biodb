@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6728",
+  "equation" : "pre8 + h <=> hgbyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd1866" : ""
+    },
+    "r" : {
+      "icpd5700" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.99.61",
+  "otherNames" : [ ],
+  "alias" : "PC8XM",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PC8XM"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05177"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K06042" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661", "iJN678", "iHN637", "iJB785", "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2513",
+  "equation" : "h2o + 2mb2coa <=> 3hmbcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7434" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4903" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.17; EC-4.2.1.17",
+  "otherNames" : [ ],
+  "alias" : "ECOAH9m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ECOAH9m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04204"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ECOAH9ir"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TIGLYLCOA-HYDROXY-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ACETOACETYL-COA", "META:3-METHYL-CROTONYL-COA", "META:PROPIONYL-COA", "META:ACETYL-COA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5109", "META:ILEUDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 1.6029663,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn01130", "rn00280" ],
+      "orthologs" : [ "K01782", "K01692", "K01825", "K07511", "K07515", "K07514" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1", "iYO844", "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6479",
+  "equation" : "malcoa + h2o + 1pyr5c <=> coa + co2 + icpd4481",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "",
+      "icpd4016" : "",
+      "icpd6322" : ""
+    },
+    "r" : {
+      "icpd4481" : "",
+      "icpd2377" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.226; EC-2.3.1.226",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10485"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8947"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5737" ],
+      "orphan" : "NO",
+      "gibbs" : 3.0076294,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00332", "rn01130" ],
+      "orthologs" : [ "K18583", "K18317" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

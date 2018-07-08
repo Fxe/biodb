@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2920",
+  "equation" : "icpd510 + acoa <=> coa + icpd7318",
+  "stoichiometry" : {
+    "l" : {
+      "icpd510" : "",
+      "icpd7980" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd7318" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.25; 2.3.1.25",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03109"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PLASMALOGEN-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 325.06573,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00565" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

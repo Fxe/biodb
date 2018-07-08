@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1131",
+  "formula" : "C3H7O5S",
+  "name" : "(r)-2,3-dihydroxypropane-1-sulfonate",
+  "synonyms" : [ ],
+  "alias" : "icpd1131",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12692"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19675"
+  } ],
+  "inchi" : "InChI=1S/C3H8O5S/c4-1-3(5)2-9(6,7)8/h3-5H,1-2H2,(H,6,7,8)/p-1/t3-/m1/s1",
+  "inchikey" : "YPFUJZAAZJXMIP-GSVOUGTGSA-M",
+  "smiles" : "C([C@]([H])(CS(=O)(=O)[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-3-dihydroxypropane-1-sulfonate" ],
+      "reactions" : [ "META:RXN-11727", "META:RXN-11729" ],
+      "gibbs" : -101.494225,
+      "cmlMolWeight" : 155.145,
+      "molWeight" : 155.145,
+      "parents" : [ "META:2-3-dihydroxypropane-1-sulfonate" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   22.9552  -23.3058    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2149  -24.0056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4047  -23.3058    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.5944  -24.0056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9941  -24.0056    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   25.4047  -21.9061    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9941  -25.4054    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3938  -24.0056    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9941  -22.6059    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0     0  0\n  1  2  1  0     0  0\n  3  6  1  1     0  0\n  3  4  1  0     0  0\n  5  7  2  0     0  0\n  5  8  2  0     0  0\n  4  5  1  0     0  0\n  5  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19675\n\n$$$$",
+  "reactions" : [ "irxn6533" ]
+}

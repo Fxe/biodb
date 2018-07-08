@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5882",
+  "formula" : "C6H9NOS",
+  "name" : "4-methyl-5-(2-hydroxyethyl)-thiazole",
+  "synonyms" : [ "2-(4-methyl-1,3-thiazol-5-yl)ethan-1-ol", "2-(4-methyl-1,3-thiazol-5-yl)ethanol", "2-(4-methyl-5-thiazolyl)ethanol", "2-(4-methyl-thiazol-5-yl)-ethanol", "2-(4-methylthiazol-5-yl)ethanol", "2-(4-methylthiazole-5-yl)ethanol", "4-methyl-5-(2'-hydroxyethyl)-thiazole", "4-methyl-5-(2-hydroxyethyl)thiazole", "4-methyl-5-(beta-hydroxyethyl)-thiazole", "4-methyl-5-(beta-hydroxyethyl)thiazole", "4-methyl-5-hydroxyethylthiazole", "4-methyl-5-thiazoleethanol", "4-methyl-5-thiazoleethanol, 9ci", "4-methyl-5-thiazolethanol", "4-mtahyl-5-(beta-hydroxytahyl)ahizolt", "5-(2-hydroxyethyl)-4-methylthiazole", "5-(beta-hydroxyethyl)-4-methylthiazole", "5-(hydroxyethyl)-4-methylthiazole" ],
+  "alias" : "4mhetz",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "4mhetz"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "4mhetz"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THZ"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04294"
+  } ],
+  "inchi" : "InChI=1S/C6H9NOS/c1-5-6(2-3-8)9-4-7-5/h4,8H,2-3H2,1H3",
+  "inchikey" : "BKAWJIRCKVUVED-UHFFFAOYSA-N",
+  "smiles" : "CC1=C(CCO)SC=N1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Thiazoles" ],
+      "reactions" : [ "META:TRANS-RXN0-464", "META:THIAZOLSYN3-RXN", "META:THIAMINASE-RXN", "META:RXN-14858", "META:THIAMIN-PYRIDINYLASE-RXN" ],
+      "gibbs" : 72.300095,
+      "cmlMolWeight" : 143.203,
+      "molWeight" : 143.203,
+      "parents" : [ "META:Thiazoles" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iJO1366", "iNJ661", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   17.7010  -17.2659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1075  -18.6056    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5072  -18.6331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9659  -17.3104    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8496  -16.4654    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3089  -19.7833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1624  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3749  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5873  -16.5900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04294\n\n$$$$",
+  "reactions" : [ "irxn6499", "irxn709", "irxn986" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd679",
+  "formula" : "C4H8O2",
+  "name" : "ethyl acetate",
+  "synonyms" : [ "1-acetoxyethane", "acetic acid ethyl ester", "acetic acid, ethyl ester", "acetic-acid-ethylester", "acetoxyethane", "ethyl ethanoate", "ethylacetate" ],
+  "alias" : "icpd679",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ETHYLACETATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00849"
+  } ],
+  "inchi" : "InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3",
+  "inchikey" : "XEKOWRVHYACXOJ-UHFFFAOYSA-N",
+  "smiles" : "CCOC(=O)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Acetate-esters" ],
+      "reactions" : [ "META:RXN-17577", "META:RXN-17576", "META:RXN-12363" ],
+      "gibbs" : 1.4689648,
+      "cmlMolWeight" : 88.106,
+      "molWeight" : 88.106,
+      "parents" : [ "META:Acetate-esters" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   19.7438  -17.2319    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9551  -16.5275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1667  -17.2248    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3782  -16.5206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5896  -17.2179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3752  -15.1188    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  3  1  0     0  0\n  4  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00849\n\n$$$$",
+  "reactions" : [ ]
+}

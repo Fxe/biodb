@@ -1,0 +1,45 @@
+{
+  "id" : "irxn607",
+  "equation" : "h + icpd6848 <=> co2 + icpd1207",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6848" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd1207" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.68",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CARBOXY-OXOHEPT-ENEDIOATE-DECARBOXY-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04380"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:4.1.1.68-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : 7.742325,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00350", "rn01120", "rn01220" ],
+      "orthologs" : [ "K05921" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

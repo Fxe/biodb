@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3995",
+  "equation" : "etha + atp <=> ethamp + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd353" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd2046" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.82; EC-2.7.1.82",
+  "otherNames" : [ ],
+  "alias" : "ETHAK",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ETHAK"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ETHANOLAMINE-KINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01468"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CA+2", "META:IODOACETAMIDE", "META:O-PHENANTHROLINE", "META:EDTA" ],
+      "activators" : [ "META:EGTA" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7782", "META:PWY-3385", "META:PWY4FS-6" ],
+      "orphan" : "NO",
+      "gibbs" : -13.567627,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100" ],
+      "orthologs" : [ "K14156", "K00894" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

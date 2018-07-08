@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4242",
+  "formula" : "C10H16O",
+  "name" : "(1s,4r)-menth-8-en-2-one",
+  "synonyms" : [ ],
+  "alias" : "icpd4242",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11401"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10040"
+  } ],
+  "inchi" : "InChI=1S/C10H16O/c1-7(2)9-5-4-8(3)10(11)6-9/h8-9H,1,4-6H2,2-3H3/t8-,9+/m0/s1",
+  "inchikey" : "AZOCECCLWFDTAP-DTWKUNHWSA-N",
+  "smiles" : "C=C(C)[C@@H]1CC[C@H](C)C(=O)C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Iso-dihydrocarvones" ],
+      "reactions" : [ "META:RXN-9427", "META:RXN-9435", "META:RXN-9434", "META:RXN-9433" ],
+      "gibbs" : 168.72794,
+      "cmlMolWeight" : 152.236,
+      "molWeight" : 152.236,
+      "parents" : [ "META:Iso-dihydrocarvones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   27.0248  -15.8587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0248  -17.2601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2423  -17.9643    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   29.4527  -17.2601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4527  -15.8587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2423  -15.1616    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.2440  -19.3655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0304  -20.0642    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4594  -20.0611    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2441  -13.7673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6599  -15.1609    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  6  1  1  0     0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  7  1  6     0  0\n  3  4  1  0     0  0\n  7  8  1  0     0  0\n  4  5  1  0     0  0\n  7  9  2  0     0  0\n  6 10  1  6     0  0\n  5  6  1  0     0  0\n  5 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11401\n\n$$$$",
+  "reactions" : [ "irxn399", "irxn375", "irxn419", "irxn372" ]
+}

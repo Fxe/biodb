@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6035",
+  "formula" : "C7H8O",
+  "name" : "m-cresol",
+  "synonyms" : [ "1-hydroxy-3-methylbenzene", "3-cresol", "3-hydroxytoluene", "3-methyl-1-hydroxybenzene", "3-methylphenol", "hydroxy-3-methylbenzene", "m-hydroxytoluene", "m-methylphenol", "m-toluol", "meta-cresol" ],
+  "alias" : "icpd6035",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-112"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01467"
+  } ],
+  "inchi" : "InChI=1S/C7H8O/c1-6-3-2-4-7(8)5-6/h2-5,8H,1H3",
+  "inchikey" : "RLSSMJSEOOYNOY-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=CC(=C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Methylphenols" ],
+      "reactions" : [ "META:3-5-XYLENOL-METHYLHYDROXYLASE-RXN", "META:RXN-15472", "META:6-METHYLSALICYLATE-DECARBOXYLASE-RXN", "META:RXN-15470" ],
+      "gibbs" : 70.63897,
+      "cmlMolWeight" : 108.14,
+      "molWeight" : 108.14,
+      "parents" : [ "META:Methylphenols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   22.7551  -16.1289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7551  -17.5366    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5329  -15.4313    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5329  -18.2470    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9581  -18.2277    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3298  -16.1289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5264  -14.0429    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3298  -17.5366    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01467\n\n$$$$",
+  "reactions" : [ "irxn4660", "irxn1823" ]
+}

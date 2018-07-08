@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3107",
+  "equation" : "gudac + atp <=> icpd113 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5300" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd113" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.3.1; EC-2.7.3.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02575"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GUANIDOACETATE-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 1.144165,
+      "uniprot" : [ "P51546" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

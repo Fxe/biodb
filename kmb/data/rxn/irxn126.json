@@ -1,0 +1,46 @@
+{
+  "id" : "irxn126",
+  "equation" : "ipdp + hexdp <=> hepdp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4227" : "",
+      "icpd7940" : ""
+    },
+    "r" : {
+      "icpd2678" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.-",
+  "otherNames" : [ ],
+  "alias" : "HEXTT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HEXTT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05612"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iSB619", "iYO844" ]
+    }
+  }
+}

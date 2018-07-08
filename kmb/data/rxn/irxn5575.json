@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5575",
+  "equation" : "h2o + icpd7826 <=> n2 + pyr + thcys",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7826" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7816" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.4.1.8; 4.4.1.35; 4.4.1.1; EC-4.4.1.35",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CYSTHIOCYS-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02408"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 6.542877,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00270" ],
+      "orthologs" : [ "K17217", "K01760", "K14155", "K01758", "K21623" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

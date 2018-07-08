@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2759",
+  "equation" : "ntm2amep + h + ctp <=> cmpntm2amep + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd1158" : "",
+      "icpd4369" : ""
+    },
+    "r" : {
+      "icpd7094" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.7.15",
+  "otherNames" : [ ],
+  "alias" : "CPCTDTX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CPCTDTX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02590"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00440" ],
+      "orthologs" : [ "K00968" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

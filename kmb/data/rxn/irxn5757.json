@@ -1,0 +1,53 @@
+{
+  "id" : "irxn5757",
+  "equation" : "atp + ptth <=> pan4p + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1613" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5715" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.34; 2.7.1.33; EC-2.7.1.34",
+  "otherNames" : [ ],
+  "alias" : "APNPT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PANTETHEINE-KINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02971"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0579"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "APNPT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -14.815857,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00770" ],
+      "orthologs" : [ "K09680", "K01947", "K00867", "K03525" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iYO844" ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "icpd160",
+  "formula" : "I",
+  "name" : "iodide",
+  "synonyms" : [ ],
+  "alias" : "i",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-387"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "i"
+  }, {
+    "source" : "BiGG",
+    "entry" : "i"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00708"
+  } ],
+  "inchi" : "InChI=1S/HI/h1H/p-1",
+  "inchikey" : "XMBWDFGMSWQBCA-UHFFFAOYSA-M",
+  "smiles" : "[I-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN", "META:5.1.1.17-RXN", "META:PROTOCATECHUATE-34-DIOXYGENASE-RXN", "META:GLYCOPHOSPHORYL-RXN" ],
+      "activators" : [ "META:ASPARAGHYD-RXN" ],
+      "instances" : [ "META:Halide-Anions" ],
+      "reactions" : [ "META:RXN-12052", "META:RXN-12030", "META:RXN-12031", "META:RXN-12053", "META:RXN-12050", "META:RXN-12051", "META:RXN-12034", "META:RXN-12035", "META:RXN-12032", "META:RXN-12054", "META:RXN-12033", "META:RXN-11241", "META:RXN-13402", "META:RXN-12036", "META:RXN-12037", "META:1.97.1.11-RXN", "META:RXN-10604", "META:RXN-10605", "META:IODIDE-PEROXIDASE-RXN", "META:RXN-12045", "META:RXN-11330", "META:RXN-11331", "META:RXN-12046", "META:RXN-12043", "META:RXN-12044", "META:RXN-12049", "META:RXN-10444", "META:RXN-12047", "META:RXN-12048", "META:RXN-10468", "META:RXN-10469", "META:RXN-11337", "META:THYROXINE-DEIODINASE-RXN" ],
+      "gibbs" : -0.3120594,
+      "cmlMolWeight" : 126.904,
+      "molWeight" : 126.904,
+      "parents" : [ "META:Halide-Anions" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   27.5100  -18.5500    0.0000 I   0  5  0  0  0  0  0  0  0  0  0  0\nM  CHG  1   1  -1\nM  END\n\n> <ENTRY>\ncpd:C00708\n\n$$$$",
+  "reactions" : [ "irxn2330", "irxn3134", "irxn6356", "irxn351", "irxn3705", "irxn3716", "irxn3008" ]
+}

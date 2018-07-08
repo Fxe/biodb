@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4584",
+  "equation" : "h2o + met__L <=> 2obut + n2 + ch4s",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5870" : ""
+    },
+    "r" : {
+      "icpd6225" : "",
+      "icpd3298" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.4.1.11; EC-4.4.1.11",
+  "otherNames" : [ ],
+  "alias" : "METGL",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:METHIONINE-GAMMA-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00654"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "METGL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7793" ],
+      "orphan" : "NO",
+      "gibbs" : -2.447115,
+      "uniprot" : [ "P13254" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00270" ],
+      "orthologs" : [ "K01761" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNF517", "iJN746" ]
+    }
+  }
+}

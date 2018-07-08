@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1905",
+  "equation" : "icpd4099 + icpd5799 <=> h + cl + icpd3247",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5799" : "",
+      "icpd4099" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd8186" : "",
+      "icpd3247" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.5.1.5; EC-4.5.1.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:S-CARBOXYMETHYLCYSTEINE-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04003"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 11.055893,
+      "uniprot" : [ "P0ABK5" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3673",
+  "equation" : "udpg + icpd4706 <=> udp + icpd7488",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd4706" : ""
+    },
+    "r" : {
+      "icpd7488" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.158; 2.4.1.158",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYDOCOSANOATE-TRANS-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04127"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NACL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 6.8975525,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5808",
+  "equation" : "2coum <=> h2o + coumarin",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6678" : ""
+    },
+    "r" : {
+      "icpd5082" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8037"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04999"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5176" ],
+      "orphan" : null,
+      "gibbs" : 2.8471215,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00940" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

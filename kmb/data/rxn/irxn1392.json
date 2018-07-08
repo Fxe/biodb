@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1392",
+  "equation" : "glyc1p + fad <=> fadh2 + dhap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd3391" : ""
+    },
+    "r" : {
+      "icpd6046" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "G3PD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "G3PD2m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "G3PDm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "G3PD"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNF517", "iND750", "iMM1415", "iMM904", "iJN678", "iAT_PLT_636", "RECON1", "iAF987", "iJN746" ]
+    }
+  }
+}

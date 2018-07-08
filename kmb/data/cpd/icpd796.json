@@ -1,0 +1,42 @@
+{
+  "id" : "icpd796",
+  "formula" : "C4H9O7P",
+  "name" : "d-erythrose 4-phosphate",
+  "synonyms" : [ "(2r,3r)-2,3-dihydroxy-4-oxobutoxyphosphonic acid", "[(2r,3r)-2,3-dihydroxy-4-oxobutoxy]phosphonic acid", "d-erythrose-4-phosphate", "erythrose 4-phosphate", "erythrose-4-phosphate" ],
+  "alias" : "e4p",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00279"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "e4p"
+  }, {
+    "source" : "BiGG",
+    "entry" : "e4p"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ERYTHROSE-4P"
+  } ],
+  "inchi" : "InChI=1S/C4H9O7P/c5-1-3(6)4(7)2-11-12(8,9)10/h1,3-4,6-7H,2H2,(H2,8,9,10)/t3-,4+/m0/s1",
+  "inchikey" : "NGHMDNPXVRFFGS-IUYQGCFVSA-N",
+  "smiles" : "C(=O)[C@@H]([C@@H](COP(=O)(O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:MANNPISOM-RXN", "META:1.2.1.9-RXN", "META:RXN-3341" ],
+      "instances" : [ "META:Sugar-Phosphate" ],
+      "reactions" : [ "META:RXN-17762", "META:TRANSALDOL-RXN", "META:2TRANSKETO-RXN", "META:SEDOBISALDOL-RXN", "META:ERYTH4PDEHYDROG-RXN", "META:DAHPSYN-RXN", "META:RXN-8771", "META:RXN-15789", "META:FRUCTOSE-6-PHOSPHATE-PHOSPHOKETOLASE-RXN" ],
+      "gibbs" : -284.9704,
+      "cmlMolWeight" : 198.069,
+      "molWeight" : 198.069,
+      "parents" : [ "META:Sugar-Phosphate" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "e_coli_core", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   16.1700  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3824  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5949  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8073  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0197  -19.0400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3824  -16.9402    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9576  -18.3400    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1700  -20.4400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5949  -20.4398    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4197  -19.0400    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8197  -19.0400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4197  -17.6400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4197  -20.4400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  6  1  6     0  0\n  1  7  1  0     0  0\n  1  8  2  0     0  0\n  3  9  1  1     0  0\n  5 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\n 10 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00279\n\n$$$$",
+  "reactions" : [ "irxn6256", "irxn4884", "irxn864", "irxn6730", "irxn6464", "irxn3142", "irxn2597", "irxn1169", "irxn6459" ]
+}

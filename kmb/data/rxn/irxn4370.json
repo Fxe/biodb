@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4370",
+  "equation" : "cynt + h + hco3 <=> co2 + cbm",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd1484" : "",
+      "icpd2660" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd8028" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.104; 4.2.1.104",
+  "otherNames" : [ ],
+  "alias" : "CYNL",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R524-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYNL"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03546"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CL-", "META:NITRITE", "META:FORMATE", "META:HCO3", "META:CPD-69", "META:BR-", "META:OXALATE", "META:NITRATE", "META:ACET" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-12893" ],
+      "orphan" : "NO",
+      "gibbs" : -13.945877,
+      "uniprot" : [ "P00816", "Q55367" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00910" ],
+      "orthologs" : [ "K01725" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id" : "icpd4996",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4996",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:N-Acetyl-2-Arylethylamines"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C15535"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-ACETYL-SEROTONIN" ],
+      "reactions" : [ "META:ARALKYLAMINE-N-ACETYLTRANSFERASE-RXN" ],
+      "parents" : [ "META:N-ACETYL-SEROTONIN", "META:N-Acetylarylalkylamines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   28.1563  -19.8924    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3744  -20.5957    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9383  -20.5957    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5755  -19.9020    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7891  -20.6026    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.0043  -19.9009    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7891  -21.9800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  5  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15535\n\n$$$$",
+  "reactions" : [ "irxn6748" ]
+}

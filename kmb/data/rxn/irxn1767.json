@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1767",
+  "equation" : "hicit <=> h2o + icpd4826",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7788" : ""
+    },
+    "r" : {
+      "icpd4826" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.36; 4.2.1.114; 4.2.1.36",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOACONITATE-HYDRATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04371"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-149", "META:CPD-150" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13722" ],
+      "orphan" : "NO",
+      "gibbs" : 0.052978516,
+      "uniprot" : [ "Q58409", "P49367", "Q9UT74" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01210", "rn01100", "rn01120", "rn01230", "rn01130" ],
+      "orthologs" : [ "K16793", "K01705", "K16792" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

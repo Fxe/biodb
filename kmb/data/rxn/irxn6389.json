@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6389",
+  "equation" : "nadph + h + icpd858 <=> icpd1918 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd858" : ""
+    },
+    "r" : {
+      "icpd1918" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.348; EC-1.1.1.348",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07737"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-3601"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:VESTITONE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2463" ],
+      "orphan" : "NO",
+      "gibbs" : -18.715485,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00943" ],
+      "orthologs" : [ "K13265" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

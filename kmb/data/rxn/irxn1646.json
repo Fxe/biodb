@@ -1,0 +1,43 @@
+{
+  "id" : "irxn1646",
+  "equation" : "icpd7441 <=> 3hmoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7441" : ""
+    },
+    "r" : {
+      "icpd2361" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.86; 5.4.99.3; EC-5.4.99.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-ACETOLACTATE-MUTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05071"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 2.46,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210", "rn01100", "rn01230", "rn01110", "rn01130", "rn00290" ],
+      "orthologs" : [ "K00053" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

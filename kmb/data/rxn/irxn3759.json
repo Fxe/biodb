@@ -1,0 +1,43 @@
+{
+  "id" : "irxn3759",
+  "equation" : "sql <=> icpd1708",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2581" : ""
+    },
+    "r" : {
+      "icpd1708" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.99.17; EC-5.4.99.17",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:5.4.99.17-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07322"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CU+2", "META:DIETHYLPYROCARBONATE", "META:FE+2", "META:CPD-6967", "META:CPD-14527", "META:CPD-7988", "META:CPD-29", "META:2-TRANS6-TRANS-FARNESOL", "META:CPD-14531", "META:CPD-14530", "META:CPD-14532" ],
+      "activators" : [ "META:CPD-12457" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6098", "META:PWY-7072" ],
+      "orphan" : "NO",
+      "gibbs" : -119.15,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00909" ],
+      "orthologs" : [ "K06045" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

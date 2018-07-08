@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1857",
+  "equation" : "coa + 334510 <=> amp + 2.0 h + ppcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "334510" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd7180" : "",
+      "icpd3011" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "r0220",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0221"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0220"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

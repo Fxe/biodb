@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4732",
+  "equation" : "arachcoa + malcoa + h <=> coa + co2 + 3odocoscoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "",
+      "icpd1851" : "",
+      "icpd5474" : ""
+    },
+    "r" : {
+      "icpd5994" : "",
+      "icpd2377" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.199",
+  "otherNames" : [ ],
+  "alias" : "3OAS220_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "3OAS220_c"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13295"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7036" ],
+      "orphan" : "NO",
+      "gibbs" : 5.2806396,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

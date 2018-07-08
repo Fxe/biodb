@@ -1,0 +1,51 @@
+{
+  "id" : "irxn5854",
+  "equation" : "nad + tih3cit <=> nadh + co2 + h + 2ood",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3817" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd3307" : "",
+      "icpd1851" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1; 1.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "TIH3CD",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08215"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TIH3CD"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:R218-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P241-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 2.3241577,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210", "rn01120", "rn00680" ],
+      "orthologs" : [ "K10978" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

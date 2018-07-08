@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6791",
+  "equation" : "nadph + h + ddsmsterol <=> 7dhchsterol + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5880" : ""
+    },
+    "r" : {
+      "icpd3041" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.72",
+  "otherNames" : [ ],
+  "alias" : "DDSMSTOLR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DDSMSTOLR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07507"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100" ],
+      "orthologs" : [ "K09828", "Delta24" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

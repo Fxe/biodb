@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5648",
+  "equation" : "h2o + dpcoa <=> pan4p + amp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4756" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5715" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.9",
+  "otherNames" : [ ],
+  "alias" : "DPCOAPP",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03036"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DPCOAPP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DPCOAPPe"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00770" ],
+      "orthologs" : [ "K01513", "K04765" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

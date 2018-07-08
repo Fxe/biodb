@@ -1,0 +1,48 @@
+{
+  "id" : "irxn488",
+  "equation" : "lnlncg + coa + atp <=> lnlncgcoa + amp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4445" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd8188" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "r1260",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL1831"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r1260"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  }
+}

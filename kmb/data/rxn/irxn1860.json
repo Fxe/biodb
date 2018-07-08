@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1860",
+  "equation" : "inost + atp <=> icpd174 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4293" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd174" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.64; 2.7.1.64",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07279"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MYO-INOSITOL-1-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:1-L-MYO-INOSITOL-1-P" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6372", "META:PWY-4661" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815857,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562" ],
+      "orthologs" : [ "K19517" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

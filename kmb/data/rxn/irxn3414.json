@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3414",
+  "equation" : "ampnt + accoa <=> coa + acampnt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd4576" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd5456" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.M28",
+  "otherNames" : [ ],
+  "alias" : "AMPNTAT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-7014"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMPNTAT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7805" ],
+      "orphan" : "NO",
+      "gibbs" : 1.2400513,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

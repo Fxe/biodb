@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5031",
+  "equation" : "cholcoaone + coa <=> ppcoa + cholcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd5721" : ""
+    },
+    "r" : {
+      "icpd3545" : "",
+      "icpd3011" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.176; 2.3.1.176",
+  "otherNames" : [ ],
+  "alias" : "SCPx",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.176-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03719"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SCPx"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6061" ],
+      "orphan" : "NO",
+      "gibbs" : -5.249756,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K08764" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

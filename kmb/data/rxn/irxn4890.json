@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4890",
+  "equation" : "icpd862 + h2o <=> meoh + h + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd862" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5748" : "",
+      "icpd1851" : "",
+      "icpd6448" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.6.16; 3.1.6.16",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01145"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MONOMETHYL-SULFATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -48.76123,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

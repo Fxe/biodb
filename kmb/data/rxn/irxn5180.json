@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5180",
+  "equation" : "dhnpthld + nadp <=> nadph + npthld",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1201" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd6129" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.20",
+  "otherNames" : [ ],
+  "alias" : "DHDDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHDDH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07015"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00980", "P450" ],
+      "orthologs" : [ "K00078", "K00212" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

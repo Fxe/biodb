@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3429",
+  "equation" : "gly + arg__L <=> gudac + orn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd855" : "",
+      "icpd90" : ""
+    },
+    "r" : {
+      "icpd5300" : "",
+      "icpd4560" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.4.1; EC-2.1.4.1",
+  "otherNames" : [ ],
+  "alias" : "GLYAMDTR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00565"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLYAMDTR"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLYAMDTRc"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCINE-AMIDINOTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:L-ORNITHINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7693", "META:GLYCGREAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.8699951,
+      "uniprot" : [ "P50440", "P50441" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100", "rn00260" ],
+      "orthologs" : [ "K00613" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

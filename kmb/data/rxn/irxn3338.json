@@ -1,0 +1,58 @@
+{
+  "id" : "irxn3338",
+  "equation" : "biocyt + h2o <=> lys__L + btn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4902" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1369" : "",
+      "icpd4807" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.12",
+  "otherNames" : [ ],
+  "alias" : "BTNDm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BTNDe"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01077"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTND1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTND1n"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTNDm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTND1_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00780" ],
+      "orthologs" : [ "K01435" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "RECON1" ]
+    }
+  }
+}

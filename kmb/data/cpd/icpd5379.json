@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5379",
+  "formula" : "C7H7O7",
+  "name" : "2-methylcitrate",
+  "synonyms" : [ "2-hydroxybutane-1,2,3-tricarboxylate", "methyl-citrate" ],
+  "alias" : "2mcit",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "2mcit"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2mcit"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-622"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02225"
+  } ],
+  "inchi" : "InChI=1S/C7H10O7/c1-3(5(10)11)7(14,6(12)13)2-4(8)9/h3,14H,2H2,1H3,(H,8,9)(H,10,11)(H,12,13)/p-3",
+  "inchikey" : "YNOXCRMFGMSKIJ-UHFFFAOYSA-K",
+  "smiles" : "CC(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Tricarboxylates" ],
+      "reactions" : [ "META:RXN-8979", "META:2-METHYLCITRATE-DEHYDRATASE-RXN", "META:2-METHYLCITRATE-SYNTHASE-RXN" ],
+      "gibbs" : -211.5407,
+      "cmlMolWeight" : 203.128,
+      "molWeight" : 203.128,
+      "parents" : [ "META:Tricarboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iCHOv1", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iECS88_1305", "iECNA114_1301", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iJO1366", "iMM1415", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 14 13  0  0  1  0  0  0  0  0999 V2000\n   15.6227  -15.9292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8286  -16.6163    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   18.0346  -15.9221    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   19.2335  -16.6092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4394  -15.9151    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6454  -16.6023    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4363  -14.6593    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0316  -14.5269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8216  -15.0120    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8317  -18.0115    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6241  -18.7152    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0426  -18.7101    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2322  -13.6839    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8208  -13.7588    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  3  4  1  0     0  0\n  3  8  1  0     0  0\n  3  9  1  1     0  0\n  4  5  1  0     0  0\n  2 10  1  1     0  0\n  2  3  1  0     0  0\n 10 11  1  0     0  0\n  5  6  1  0     0  0\n 10 12  2  0     0  0\n  1  2  1  0     0  0\n  8 13  1  0     0  0\n  5  7  2  0     0  0\n  8 14  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02225\n\n$$$$",
+  "reactions" : [ "irxn4980", "irxn2320", "irxn2579", "irxn779" ]
+}

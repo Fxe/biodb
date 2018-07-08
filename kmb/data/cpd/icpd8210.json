@@ -1,0 +1,41 @@
+{
+  "id" : "icpd8210",
+  "formula" : "C8H7O4",
+  "name" : "3,4-dihydroxyphenylacetate",
+  "synonyms" : [ "(3,4-dihydroxyphenyl)acetate", "3,4-dihydroxybenzeneacetate", "homoprotocatechuate" ],
+  "alias" : "34dhpha",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "34dhpha"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01161"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "34dhpha"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-782"
+  } ],
+  "inchi" : "InChI=1S/C8H8O4/c9-6-2-1-5(3-7(6)10)4-8(11)12/h1-3,9-10H,4H2,(H,11,12)/p-1",
+  "inchikey" : "CFFZDZCDUFSOFZ-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=C(C(=C1)[O-])O)CC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Catechols" ],
+      "reactions" : [ "META:RXN0-5065", "META:1.14.12.9-RXN", "META:RXN-8505", "META:RXN6666-6", "META:RXN6666-5", "META:1.13.11.15-RXN" ],
+      "gibbs" : -57.254215,
+      "cmlMolWeight" : 167.141,
+      "molWeight" : 167.141,
+      "parents" : [ "META:Catechols" ]
+    },
+    "bigg" : {
+      "models" : [ "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iEKO11_1354", "iECD_1391", "iECUMN_1333", "iETEC_1333", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iECDH1ME8569_1439", "iECO103_1326", "iUMNK88_1353", "iEcE24377_1341", "iS_1188", "iEcHS_1320", "iEcDH1_1363", "iECO26_1355", "iSF_1195", "iECDH10B_1368", "RECON1", "iSFxv_1172", "iSSON_1240", "iEcolC_1368", "iB21_1397", "iEC55989_1330", "iY75_1357", "iECW_1372", "iECO111_1330", "iSBO_1134", "iAT_PLT_636", "iYL1228", "iMM1415", "iSFV_1184", "iECB_1328", "iECSE_1348" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   24.5000  -22.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2400  -21.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5000  -23.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6900  -21.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0500  -22.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3100  -24.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8800  -22.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0500  -23.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8600  -21.8400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1400  -21.7700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8800  -23.8700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8600  -24.6400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  5  9  1  0     0  0\n  7 10  1  0     0  0\n  7 11  2  0     0  0\n  8 12  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01161\n\n$$$$",
+  "reactions" : [ "irxn1383", "irxn2072", "irxn6175", "irxn210", "irxn3658", "irxn4933", "irxn5689", "irxn5513" ]
+}

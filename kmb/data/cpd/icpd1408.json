@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1408",
+  "formula" : "C10H10O4",
+  "name" : "5-hydroxyconiferaldehyde",
+  "synonyms" : [ "5-hydroxy-coniferaldehyde" ],
+  "alias" : "icpd1408",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:5-HYDROXY-CONIFERALDEHYDE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C12204"
+  } ],
+  "inchi" : "InChI=1S/C10H10O4/c1-14-9-6-7(3-2-4-11)5-8(12)10(9)13/h2-6,12-13H,1H3/b3-2+",
+  "inchikey" : "IEHPLRVWOHZKCS-NSCUHMNNSA-N",
+  "smiles" : "COC1=C(C(=CC(=C1)/C=C/C=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:RXN-1143", "META:RXN-1142" ],
+      "gibbs" : 19.351206,
+      "cmlMolWeight" : 194.187,
+      "molWeight" : 194.187,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   28.0708  -18.8075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0708  -20.2111    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8778  -20.9128    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6147  -20.2111    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6147  -18.8075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8778  -18.1058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2638  -18.1058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4569  -18.8075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6499  -18.1058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4217  -18.1058    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4217  -20.9128    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8778  -22.3164    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2005  -18.7976    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8707  -18.7974    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  5 10  1  0     0  0\n  4 11  1  0     0  0\n  3 12  1  0     0  0\n 10 13  1  0     0  0\n  9 14  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12204\n\n$$$$",
+  "reactions" : [ "irxn4195", "irxn4149" ]
+}

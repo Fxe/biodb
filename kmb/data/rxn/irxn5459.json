@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5459",
+  "equation" : "icpd7723 + nadp <=> nadph + h + icpd4546",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7723" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4546" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.184; EC-1.1.1.153; 1.1.1.153",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02975"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SEPIAPTERIN-REDUCTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -3.186493,
+      "uniprot" : [ "P35270", "P18297", "Q64105" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00790" ],
+      "orthologs" : [ "K00079", "K00072" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

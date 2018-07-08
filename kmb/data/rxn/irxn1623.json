@@ -1,0 +1,51 @@
+{
+  "id" : "irxn1623",
+  "equation" : "pac + coa + atp <=> amp + ppi + phaccoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd2748" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd6491" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.30; EC-6.2.1.30",
+  "otherNames" : [ ],
+  "alias" : "PACCOAL",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02539"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PACCOAL"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10819"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:F-" ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1341", "META:PWY0-321", "META:PWY-6318", "META:PWY-7716" ],
+      "orphan" : "NO",
+      "gibbs" : -12.711792,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00360" ],
+      "orthologs" : [ "K01912" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iEKO11_1354", "iCHOv1", "iETEC_1333", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iECDH1ME8569_1439", "iAF987", "iECO103_1326", "iJN746", "iUMNK88_1353", "iAF1260b", "iEcE24377_1341", "iEcDH1_1363", "iEcHS_1320", "iECO26_1355", "iECDH10B_1368", "RECON1", "iEcolC_1368", "iAF692", "iAF1260", "iEC55989_1330", "iY75_1357", "iECW_1372", "iECO111_1330", "iAT_PLT_636", "iYL1228", "iJO1366", "iMM1415", "iECSE_1348" ]
+    }
+  }
+}

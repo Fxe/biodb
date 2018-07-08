@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3731",
+  "equation" : "n2 + icpd8098 + atp <=> amp + ppi + h + icpd4250",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7085" : "",
+      "icpd8098" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd4250" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.1.14; EC-6.3.1.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03613"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIPHTINE--AMMONIA-LIGASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6482", "META:PWY-7546" ],
+      "orphan" : "NO",
+      "gibbs" : -34.91809,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K06927" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

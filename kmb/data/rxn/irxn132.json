@@ -1,0 +1,46 @@
+{
+  "id" : "irxn132",
+  "equation" : "dgtp + cytd <=> dgdp + cmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7693" : "",
+      "icpd78" : ""
+    },
+    "r" : {
+      "icpd8166" : "",
+      "icpd3421" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.48",
+  "otherNames" : [ ],
+  "alias" : "DGTCY",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02091"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DGTCY"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K00876" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

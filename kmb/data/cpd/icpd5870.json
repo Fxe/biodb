@@ -1,0 +1,43 @@
+{
+  "id" : "icpd5870",
+  "formula" : "C5H11NO2S",
+  "name" : "l-methionine",
+  "synonyms" : [ "(+-)-methionine", "(2s)-2-amino-4-(methylsulfanyl)butanoic acid", "(l)-methionine", "(s)-(+)-methionine", "(s)-2-amino-4-(methylthio)-butanoic acid", "(s)-2-amino-4-(methylthio)butanoic acid", "(s)-2-amino-4-(methylthio)butyric acid", "(s)-methionine", "l-(-)-methionine", "l-2-amino-4-(methylthio)butyric acid", "l-alpha-amino-gamma-methylmercaptobutyric acid", "l-gamma-methylthio-alpha-aminobutyric acid", "l-methionin", "methionin", "methionine", "s-methyl-l-homocysteine" ],
+  "alias" : "met__L",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00073"
+  }, {
+    "source" : "BiGG",
+    "entry" : "met-L"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MET"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "met__L"
+  } ],
+  "inchi" : "InChI=1S/C5H11NO2S/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m0/s1",
+  "inchikey" : "FFEARJCKVFRZRR-BYPYZUCNSA-N",
+  "smiles" : "CSCC[C@@H](C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:O-ACETYLHOMOSERINE-THIOL-LYASE-RXN", "META:ACETYLHOMOSER-CYS-RXN", "META:HOMOCYSMETB12-RXN", "META:2.8.1.6-RXN", "META:RXN-9756", "META:L-3-CYANOALANINE-SYNTHASE-RXN", "META:CYSPH-RXN", "META:GLUTAMATESYN-RXN", "META:HOMOSERINE-O-ACETYLTRANSFERASE-RXN", "META:HOMSUCTRAN-RXN", "META:MMUM-RXN", "META:TRANS-RXN0-202" ],
+      "activators" : [ "META:FORMYLTHFDEFORMYL-RXN", "META:GLUTAMATE-DEHYDROGENASE-RXN", "META:HOMOCYSTEINE-S-METHYLTRANSFERASE-RXN", "META:PREPHENATEDEHYDRAT-RXN" ],
+      "instances" : [ "META:L-Amino-Acids", "META:Amino-Acids-20", "META:Non-polar-amino-acids" ],
+      "reactions" : [ "META:METHIONINE-S-METHYLTRANSFERASE-RXN", "META:3.4.11.18-RXN", "META:RXN-14950", "META:HOMOCYSMETB12-RXN", "META:RXN-13221", "META:RXN-17025", "META:RXN0-6734", "META:RXN-18519", "META:HEMN-RXN", "META:RXN0-6974", "META:2.5.1.63-RXN", "META:RXN-18516", "META:RXN-14957", "META:RXN-18515", "META:RXN-18518", "META:RXN-18517", "META:R15-RXN", "META:RXN-11714", "META:RXN-11319", "META:TDCEACT-RXN", "META:RXN-8340", "META:RXN-14164", "META:RXN-14685", "META:RXN-15650", "META:RXN-17959", "META:RXN-13638", "META:RXN-17956", "META:HOMOCYSMET-RXN", "META:RXN-14959", "META:RXN-15806", "META:RXN-15808", "META:RXN-15809", "META:RXN-18413", "META:METHIONINE-RACEMASE-RXN", "META:RXN-18412", "META:RXN-18415", "META:RXN-18414", "META:RXN-15264", "META:RXN-11586", "META:RXN0-7007", "META:RXN-18417", "META:RXN-13528", "META:RXN-18416", "META:RXN-15942", "META:RXN-18419", "META:RXN-18418", "META:RXN0-5063", "META:RXN-16470", "META:MMUM-RXN", "META:RXN-9010", "META:RXN-18424", "META:RXN-17456", "META:RXN-18423", "META:RXN-17458", "META:RXN-17457", "META:RXN-18420", "META:RXN-18422", "META:RXN-17454", "META:HOMOCYSTEINE-S-METHYLTRANSFERASE-RXN", "META:RXN-18421", "META:RXN-13535", "META:RXN0-4522", "META:RXN-13534", "META:S-ADENMETSYN-RXN", "META:RXN-13532", "META:METHIONINE--GLYOXYLATE-TRANSAMINASE-RXN", "META:RXN0-6948", "META:RXN-17459", "META:2.8.1.6-RXN", "META:RXN-8799", "META:RXN-8798", "META:RXN-8797", "META:METHIONINE-DECARBOXYLASE-RXN", "META:RXN-10431", "META:RNTRACTIV-RXN", "META:2.1.1.5-RXN", "META:RXN-14516", "META:RXN0-7188", "META:O-ACETYLHOMOSERINE-THIOL-LYASE-RXN", "META:RXN-17874", "META:RXN-17873", "META:RXN-17876", "META:RXN-18602", "META:RXN-17875", "META:RXN-16941", "META:RXN-17199", "META:RXN-17473", "META:RXN-12465", "META:RXN-17878", "META:RXN-15732", "META:RXN-17877", "META:RXN-10839", "META:RXN0-6366", "META:RXN-17197", "META:RXN-17472", "META:RXN-14480", "META:METHIONINE-GAMMA-LYASE-RXN", "META:RXN0-7050", "META:RXN-17004", "META:RXN-18337", "META:RXN-17122", "META:RXN-14531", "META:1.8.4.13-RXN", "META:RXN-14652", "META:1.8.4.14-RXN", "META:RXN0-1342", "META:RXN-7708", "META:3.4.13.12-RXN", "META:RXN-14301", "META:RXN-14147", "META:RXN-16165", "META:RXN-13852", "META:RXN0-6985", "META:RXN-10620", "META:2.1.1.3-RXN", "META:RXN-12769", "META:METHIONINE--TRNA-LIGASE-RXN", "META:FORMYLMETHIONINE-DEFORMYLASE-RXN", "META:RXN0-949", "META:RXN-8079", "META:PYRIMSYN1-RXN" ],
+      "gibbs" : 37.072315,
+      "cmlMolWeight" : 149.207,
+      "molWeight" : 149.207,
+      "parents" : [ "META:L-Amino-Acids", "META:Amino-Acids-20", "META:Non-polar-amino-acids" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   24.5047  -19.4197    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.3598  -18.6719    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7313  -18.7361    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5455  -20.8273    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1332  -19.3553    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3772  -17.2641    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9405  -19.4546    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1672  -18.7712    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3647  -19.4896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00073\n\n$$$$",
+  "reactions" : [ "irxn2616", "irxn2938", "irxn1926", "irxn1105", "irxn2139", "irxn491", "irxn1229", "irxn4017", "irxn1300", "irxn3920", "irxn3700", "irxn6315", "irxn3127", "irxn212", "irxn4584", "irxn3432", "irxn2145", "irxn6067", "irxn6167", "irxn5573", "irxn4241", "irxn4280", "irxn4080", "irxn1419", "irxn2927", "irxn3559", "irxn1897", "irxn5519", "irxn4309", "irxn2989", "irxn3337", "irxn4992", "irxn2131", "irxn2154", "irxn4056", "irxn6212", "irxn6135", "irxn4333", "irxn4891", "irxn4055", "irxn4450" ]
+}

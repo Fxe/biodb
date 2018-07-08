@@ -1,0 +1,49 @@
+{
+  "id" : "irxn420",
+  "equation" : "ksi + h2o <=> fuc__L + ksi_deg1",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd6486" : ""
+    },
+    "r" : {
+      "icpd7660" : "",
+      "icpd4330" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FUCASE2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FUCASE2e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FUCASE2ly"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FUCASE2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

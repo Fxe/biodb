@@ -1,0 +1,42 @@
+{
+  "id" : "irxn4757",
+  "equation" : "345523 <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "345523" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SK_Ser_Thr_g",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DM_Ser_Thr_l"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SK_Ser_Thr_g"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

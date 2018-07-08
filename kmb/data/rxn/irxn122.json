@@ -1,0 +1,54 @@
+{
+  "id" : "irxn122",
+  "equation" : "suchms + h2o <=> 2obut + n2 + succ + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5063" : ""
+    },
+    "r" : {
+      "icpd3298" : "",
+      "icpd1851" : "",
+      "icpd7085" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.3.1; 2.5.1.48",
+  "otherNames" : [ ],
+  "alias" : "SHSL4h",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:METBALT-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SHSL4r"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00999"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SHSL4h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -13.555344,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ "K01739" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iRC1080", "iIT341", "iND750", "iNJ661", "iMM904", "iSB619", "iYO844", "iJN746" ]
+    }
+  }
+}

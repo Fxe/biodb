@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5502",
+  "equation" : "h2o + 1agpe18111Z <=> ocdcea + h + g3pe",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4646" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5524" : "",
+      "icpd3274" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.1.5",
+  "otherNames" : [ ],
+  "alias" : "LPLPS1AGPE18111Z",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15035"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LPLPS1AGPE18111Z"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-1484", "META:FE+3", "META:MG+2", "META:CA+2" ],
+      "activators" : [ "META:CPD-8876", "META:CPD-16010", "META:CPD-7988" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7409" ],
+      "orphan" : "NO",
+      "gibbs" : -2.7671814,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

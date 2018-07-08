@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7687",
+  "formula" : "C6H10O2",
+  "name" : "2-hydroxycyclohexan-1-one",
+  "synonyms" : [ "2-hydroxycyclohexanone" ],
+  "alias" : "icpd7687",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-HYDROXYCYCLOHEXAN-1-ONE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01147"
+  } ],
+  "inchi" : "InChI=1S/C6H10O2/c7-5-3-1-2-4-6(5)8/h5,7H,1-4H2",
+  "inchikey" : "ODZTXUXIYGJLMC-UHFFFAOYSA-N",
+  "smiles" : "C1CCC(=O)C(C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:CYCLOHEXANE-12-DIOL-DEHYDROGENASE-RXN", "META:1.14.13.66-RXN" ],
+      "gibbs" : 48.671204,
+      "cmlMolWeight" : 114.144,
+      "molWeight" : 114.144
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   29.4676  -16.9744    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.2613  -16.2718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4676  -18.3737    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6796  -16.2776    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0435  -16.9744    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2613  -14.8723    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2613  -19.0764    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0435  -18.3737    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01147\n\n$$$$",
+  "reactions" : [ "irxn6039", "irxn5571" ]
+}

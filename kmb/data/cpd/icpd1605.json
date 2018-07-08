@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1605",
+  "formula" : "C3H9N3O3S",
+  "name" : "taurocyamine",
+  "synonyms" : [ "2-[(diaminomethylidene)amino]ethane-1-sulfonic acid", "2-[(diaminomethylidene)amino]ethanesulfonic acid", "2-{carbamimidamido}ethanesulfonic acid" ],
+  "alias" : "icpd1605",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01959"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TAUROCYAMINE"
+  } ],
+  "inchi" : "InChI=1S/C3H9N3O3S/c4-3(5)6-1-2-10(7,8)9/h1-2H2,(H4,4,5,6)(H,7,8,9)",
+  "inchikey" : "JKLRIMRKZBSSED-UHFFFAOYSA-N",
+  "smiles" : "C(CS(=O)(=O)O)N=C(N)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:TAUROCYAMINE-KINASE-RXN" ],
+      "gibbs" : -4.4699154,
+      "cmlMolWeight" : 167.182,
+      "molWeight" : 167.182
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   14.7000  -19.7400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9124  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1249  -19.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3373  -19.0400    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5497  -19.7400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5373  -18.1201    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0674  -18.1901    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4876  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.2921  -19.7304    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4875  -17.6402    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  4  6  2  0     0  0\n  4  7  2  0     0  0\n  1  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01959\n\n$$$$",
+  "reactions" : [ "irxn5272" ]
+}

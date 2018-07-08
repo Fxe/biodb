@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4945",
+  "formula" : "C4H10O2S2",
+  "name" : "dithioerythritol",
+  "synonyms" : [ "(2r,3s)-1,4-dimercaptobutane-2,3-diol" ],
+  "alias" : "icpd4945",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DITHIOERYTHRITOL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00950"
+  } ],
+  "inchi" : "InChI=1S/C4H10O2S2/c5-3(1-7)4(6)2-8/h3-8H,1-2H2/t3-,4+",
+  "inchikey" : "VHJLVAABSRFDPM-ZXZARUISSA-N",
+  "smiles" : "C([C@@H]([C@@H](CS)O)O)S",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GLYCDEH-RXN", "META:RXN-13281", "META:2.3.1.90-RXN" ],
+      "activators" : [ "META:RXN-13231", "META:RXN-8963", "META:RXN-17062", "META:RXN-9312", "META:2.3.1.164-RXN", "META:RXN-17061" ],
+      "reactions" : [ "META:2.8.1.5-RXN" ],
+      "gibbs" : 31.631197,
+      "cmlMolWeight" : 154.242,
+      "molWeight" : 154.242
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  1  0  0  0  0  0999 V2000\n   27.0213  -16.9918    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.1330  -16.2955    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.8576  -16.3775    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9907  -18.5409    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2915  -16.9071    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0811  -14.6093    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7484  -17.0823    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4030  -16.2105    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00950\n\n$$$$",
+  "reactions" : [ "irxn417" ]
+}

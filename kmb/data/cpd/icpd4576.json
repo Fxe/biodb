@@ -1,0 +1,39 @@
+{
+  "id" : "icpd4576",
+  "formula" : "CH4NO3P",
+  "name" : "aminomethylphosphonate",
+  "synonyms" : [ ],
+  "alias" : "ampnt",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11033"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ampnt"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1074"
+  } ],
+  "inchi" : "InChI=1S/CH6NO3P/c2-1-6(3,4)5/h1-2H2,(H2,3,4,5)/p-2",
+  "inchikey" : "MGRVRXRGTBOSHW-UHFFFAOYSA-L",
+  "smiles" : "C(N)P(=O)([O-])[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2.6.1.37-RXN", "META:AKBLIG-RXN" ],
+      "instances" : [ "META:Aminoalkylphosphonates" ],
+      "reactions" : [ "META:RXN-17951", "META:RXN-17950", "META:RXN0-7014" ],
+      "gibbs" : -158.58647,
+      "cmlMolWeight" : 110.029,
+      "molWeight" : 110.029,
+      "parents" : [ "META:Aminoalkylphosphonates" ]
+    },
+    "bigg" : {
+      "models" : [ "iML1515" ]
+    }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   33.1572  -28.8492    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   34.3682  -28.1450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.5724  -28.8492    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   35.5654  -27.4478    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   35.5654  -30.2505    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   36.9737  -28.8492    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  3  4  2  0     0  0\n  3  5  1  0     0  0\n  2  3  1  0     0  0\n  3  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11033\n\n$$$$",
+  "reactions" : [ "irxn3414", "irxn3842" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6663",
+  "equation" : "f6p_B + ppi <=> h + fdp_B + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1231" : "",
+      "icpd3606" : ""
+    },
+    "r" : {
+      "icpd1130" : "",
+      "icpd1851" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.90; 2.7.1.90",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.7.1.90-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02073"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Pi", "META:PHOSPHO-ENOL-PYRUVATE" ],
+      "activators" : [ "META:CPD-535" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1042" ],
+      "orphan" : "NO",
+      "gibbs" : -2.746582,
+      "uniprot" : [ "P29495", "O81437", "Q41141", "Q9STQ7", "Q27651", "O83146", "Q41140", "Q9M076", "Q27659", "P21343", "P21342", "O84210", "O51669" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01110", "rn00010", "rn00051", "rn01130", "rn00030" ],
+      "orthologs" : [ "K21071", "K00895" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

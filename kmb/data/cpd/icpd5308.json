@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5308",
+  "formula" : "C9H9NO4",
+  "name" : "2-carboxy-2,3-dihydro-5,6-dihydroxyindole",
+  "synonyms" : [ ],
+  "alias" : "2c23dh56dhoxin",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8652"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2c23dh56dhoxin"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05604"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2c23dh56dhoxin"
+  } ],
+  "inchi" : "InChI=1S/C9H9NO4/c11-7-2-4-1-6(9(13)14)10-5(4)3-8(7)12/h2-3,6,10-12H,1H2,(H,13,14)",
+  "inchikey" : "JDWYRSDDJVCWPB-UHFFFAOYSA-N",
+  "smiles" : "C1C2=C(C=C(C(=C2)O)O)NC1C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ALKALOID" ],
+      "reactions" : [ "META:RXN-8481", "META:RXN-8478", "META:RXN-8483", "META:RXN-11369" ],
+      "gibbs" : -48.282097,
+      "cmlMolWeight" : 194.166,
+      "molWeight" : 194.166,
+      "parents" : [ "META:ALKALOID" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 14 15  0  0  1  0  0  0  0  0999 V2000\n   24.6103  -16.0921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6746  -17.4961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9502  -15.6649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4052  -15.3958    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9385  -17.9351    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4052  -18.1925    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7692  -16.8058    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   22.1882  -16.0921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1882  -17.4961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1676  -16.8117    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9771  -15.3958    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9771  -18.1925    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8637  -18.0228    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8754  -15.6006    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  6  9  1  0     0  0\n  7 10  1  1     0  0\n  8 11  1  0     0  0\n  9 12  1  0     0  0\n 10 13  1  0     0  0\n 10 14  2  0     0  0\n  5  7  1  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05604\n\n$$$$",
+  "reactions" : [ "irxn6224", "irxn6198", "irxn6738", "irxn2036" ]
+}

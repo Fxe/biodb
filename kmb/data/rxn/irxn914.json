@@ -1,0 +1,47 @@
+{
+  "id" : "irxn914",
+  "equation" : "abt + nadp <=> nadph + arab__L + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2220" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd7503" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.21",
+  "otherNames" : [ ],
+  "alias" : "ARABR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01759"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARABR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ "K00011" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1", "iHN637" ]
+    }
+  }
+}

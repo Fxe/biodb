@@ -1,0 +1,39 @@
+{
+  "id" : "icpd889",
+  "formula" : "C10H9NO2",
+  "name" : "5-hydroxyindoleacetaldehyde",
+  "synonyms" : [ ],
+  "alias" : "5hoxindact",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05634"
+  }, {
+    "source" : "BiGG",
+    "entry" : "5hoxindact"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "5hoxindact"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-HYDROXYINDOLE_ACETALDEHYDE"
+  } ],
+  "inchi" : "InChI=1S/C10H9NO2/c12-4-3-8-5-7-6-9(13)1-2-10(7)11-8/h1-2,4-6,11,13H,3H2",
+  "inchikey" : "CVANVGGCJAVFQS-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C(CC=O)N2)C=C1O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-10779", "META:RXN-10781", "META:RXN-10780", "META:RXN-10778" ],
+      "gibbs" : 72.08009,
+      "cmlMolWeight" : 175.187,
+      "molWeight" : 175.187
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1200  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3100  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5000  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5000  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3100  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8300  -19.1800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6700  -18.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8300  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8600  -16.5900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2500  -15.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6500  -15.1900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0700  -13.8600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  5  9  1  0     0  0\n  1 10  1  0     0  0\n  9 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05634\n\n$$$$",
+  "reactions" : [ "irxn489", "irxn1496", "irxn5069", "irxn2419" ]
+}

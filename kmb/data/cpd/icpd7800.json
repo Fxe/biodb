@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7800",
+  "formula" : "C6H7NO",
+  "name" : "4-aminophenol",
+  "synonyms" : [ "1-amino-4-hydroxybenzene", "4-amino-1-hydroxybenzene", "4-aminobenzenol", "4-hydroxyaniline", "p-aminobenzenol", "p-aminophenol", "p-hydroxyaniline", "p-hydroxyphenylamine" ],
+  "alias" : "icpd7800",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02372"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-259"
+  } ],
+  "inchi" : "InChI=1S/C6H7NO/c7-5-1-3-6(8)4-2-5/h1-4,8H,7H2",
+  "inchikey" : "PLIKAWJENQZMHA-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=CC(=C1)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aryl-Alcohol" ],
+      "reactions" : [ "META:RXN-13560", "META:AMINOPARATHION-PHOSPHATASE-RXN", "META:4-AMINOBENZOATE-1-MONOOXYGENASE-RXN" ],
+      "gibbs" : 66.05784,
+      "cmlMolWeight" : 109.127,
+      "molWeight" : 109.127,
+      "parents" : [ "META:Aryl-Alcohol" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   30.0522  -16.2373    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0522  -17.6427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -15.5405    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2644  -15.5405    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -18.3395    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6278  -16.2373    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6278  -17.6427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4156  -18.3395    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  6  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02372\n\n$$$$",
+  "reactions" : [ "irxn1195" ]
+}

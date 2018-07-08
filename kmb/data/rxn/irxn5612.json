@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5612",
+  "equation" : "icpd5597 + h2o <=> glcur + icpd1829",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5597" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1947" : "",
+      "icpd1829" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.1.93; 3.1.1.93",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13605"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10134"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:BIS-P-NITROPHENOLPHOSPHATE", "META:CPD-5541", "META:CU+2", "META:CPD-1486", "META:DITHIO-NITROBENZOATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -2.7671204,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

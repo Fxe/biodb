@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6045",
+  "equation" : "2.0 nadph + o2 + 2.0 h <=> 2.0 h2o + 2.0 nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "2.0",
+      "icpd1851" : "2.0"
+    },
+    "r" : {
+      "icpd4016" : "2.0",
+      "icpd5537" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.6.3.2",
+  "otherNames" : [ ],
+  "alias" : "MEHLER_1",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10518"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MEHLER_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

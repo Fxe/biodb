@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1593",
+  "equation" : "udpglcur <=> udpxyl + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd886" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.35",
+  "otherNames" : [ ],
+  "alias" : "UDPGLDC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UDPGLDCg"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UDPGLDC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01384"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100" ],
+      "orthologs" : [ "K12449", "K08678" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "RECON1", "iAF987", "iJB785" ]
+    }
+  }
+}

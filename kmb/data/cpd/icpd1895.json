@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1895",
+  "formula" : "C4H7NO2",
+  "name" : "2-aminobutan-4-olide",
+  "synonyms" : [ "2(3h)-furanone, 3-aminodihydro-", "3-aminooxolan-2-one", "alphal-lmino-aglmml-butyroplctone" ],
+  "alias" : "icpd1895",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOSERINE-LACTONE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02926"
+  } ],
+  "inchi" : "InChI=1S/C4H7NO2/c5-3-1-2-7-4(3)6/h3H,1-2,5H2",
+  "inchikey" : "QJPWUUJVYOJNMH-UHFFFAOYSA-N",
+  "smiles" : "C1COC(=O)C1N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-15554" ],
+      "reactions" : [ "META:TRANS-RXN-242A" ],
+      "gibbs" : 13.856909,
+      "cmlMolWeight" : 102.113,
+      "molWeight" : 102.113,
+      "parents" : [ "META:Gamma-lactones", "META:CPD-15554" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  7  0  0  0  0  0  0  0  0999 V2000\n   28.7609  -17.1267    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1680  -18.4662    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5678  -18.4929    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0257  -17.1699    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9090  -16.3255    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.3561  -16.7653    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.3700  -19.6426    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  4  6  2  0     0  0\n  3  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02926\n\n$$$$",
+  "reactions" : [ ]
+}

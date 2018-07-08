@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6426",
+  "equation" : "pyr + hop <=> icpd7760",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd2967" : ""
+    },
+    "r" : {
+      "icpd7760" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.20; EC-4.1.2.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.2.20-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03277"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 1.164093,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00053" ],
+      "orthologs" : [ "K01630" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

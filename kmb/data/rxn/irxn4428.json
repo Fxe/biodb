@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4428",
+  "equation" : "h2o + n6all26d <=> ac + icpd3559",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8024" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3559" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.47; 3.5.1.47",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:N-ACETYLDIAMINOPIMELATE-DEACETYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02733"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2941" ],
+      "orphan" : "NO",
+      "gibbs" : -1.9829865,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01230", "rn01110" ],
+      "orthologs" : [ "K05823" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

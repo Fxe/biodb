@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1276",
+  "equation" : "udpg + phenol <=> udp + icpd7421",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd771" : ""
+    },
+    "r" : {
+      "icpd7421" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.35; EC-2.4.1.35",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01240"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENOL-BETA-GLUCOSYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -95.8136,
+      "uniprot" : [ "P41713" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn272",
+  "equation" : "nadph + o2 + cinnm + h <=> h2o + icpd2199 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd719" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd2199" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.14; EC-1.14.13.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-CINNAMATE-2-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02254"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:GLC-6-P" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5176" ],
+      "orphan" : null,
+      "gibbs" : -91.90057,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01110", "rn00360", "rn00940" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

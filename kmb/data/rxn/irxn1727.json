@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1727",
+  "equation" : "icpd662 + h2o <=> galctn__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd662" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6820" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.1.25; 3.1.1.25",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03034"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GALACTONOLACTONASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GALDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -6.347122,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00052" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

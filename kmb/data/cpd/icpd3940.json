@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3940",
+  "formula" : "CCl4",
+  "name" : "tetrachloromethane",
+  "synonyms" : [ "carbon chloride", "carbon tetrachloride", "carbontetrachloride", "perchloromethane", "tetrachloro-methane", "tetrachloromethane, 9ci" ],
+  "alias" : "icpd3940",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07561"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-842"
+  } ],
+  "inchi" : "InChI=1S/CCl4/c2-1(3,4)5",
+  "inchikey" : "VZGDMQKNWNREIO-UHFFFAOYSA-N",
+  "smiles" : "C(Cl)(Cl)(Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8401", "META:R525-RXN", "META:RXN-8394" ],
+      "gibbs" : -10.800001,
+      "cmlMolWeight" : 153.823,
+      "molWeight" : 153.823
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   28.8225  -16.9517    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.8225  -15.5239    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   28.8283  -18.3150    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   30.2678  -16.9575    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   27.4590  -16.9517    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07561\n\n$$$$",
+  "reactions" : [ ]
+}

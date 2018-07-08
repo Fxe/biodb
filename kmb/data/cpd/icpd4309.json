@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4309",
+  "formula" : "C2H4N4",
+  "name" : "aminotriazole",
+  "synonyms" : [ ],
+  "alias" : "icpd4309",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1491"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11261"
+  } ],
+  "inchi" : "InChI=1S/C2H4N4/c3-2-1-4-6-5-2/h1H,(H3,3,4,5,6)",
+  "inchikey" : "JSIAIROWMJGMQZ-UHFFFAOYSA-N",
+  "smiles" : "C1=C(N)NN=N1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:IMIDPHOSDEHYD-RXN", "META:RXN-10469" ],
+      "gibbs" : 67.574486,
+      "cmlMolWeight" : 84.08,
+      "molWeight" : 84.08
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  0  0  0  0  0  0999 V2000\n   28.6879  -15.3282    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5494  -16.1439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9755  -17.4792    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3774  -17.4840    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8130  -16.1517    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1973  -18.6187    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  2  0     0  0\n  1  2  1  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  5  1  1  0     0  0\n  4  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11261\n\n$$$$",
+  "reactions" : [ ]
+}

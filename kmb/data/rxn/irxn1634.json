@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1634",
+  "equation" : "icpd1152 + nad <=> nadh + h + ohexa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1152" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd5414" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.172; EC-1.1.1.172",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-OXOADIPATE-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01932"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "YES-CONFIRMED",
+      "gibbs" : 3.5417786,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

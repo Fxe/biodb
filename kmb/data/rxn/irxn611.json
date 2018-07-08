@@ -1,0 +1,54 @@
+{
+  "id" : "irxn611",
+  "equation" : "o2 + h2o + 13dampp <=> n2 + h2o2 + aproa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd7497" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd4748" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.21; 1.4.3.22; EC-1.4.3.22",
+  "otherNames" : [ ],
+  "alias" : "PAO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PAO"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "13DAMPPOX"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-6381"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03139"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DIETHYLDITHIOCARBAMATE", "META:N-ETHYLMALEIMIDE", "META:CPD-5401", "META:CPD-8819", "META:PHENYLHYDRAZINE", "META:O-PHENANTHROLINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3981" ],
+      "orphan" : "NO",
+      "gibbs" : -23.338886,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410" ],
+      "orthologs" : [ "K00276" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

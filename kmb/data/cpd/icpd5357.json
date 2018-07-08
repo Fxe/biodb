@@ -1,0 +1,37 @@
+{
+  "id" : "icpd5357",
+  "formula" : "C5H12N2O2",
+  "name" : "d-ornithine",
+  "synonyms" : [ "(2r)-2,5-diaminopentanoic acid", "(r)-ornithine", "d -2,5-diaminopentanoic acid" ],
+  "alias" : "icpd5357",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-217"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00515"
+  }, {
+    "source" : "BiGG",
+    "entry" : "orn-D"
+  } ],
+  "inchi" : "InChI=1S/C5H12N2O2/c6-3-1-2-4(7)5(8)9/h4H,1-3,6-7H2,(H,8,9)/t4-/m1/s1",
+  "inchikey" : "AHLPHDHHMVZTML-SCSAIBSYSA-N",
+  "smiles" : "C(C[C@]([H])(C(=O)O)N)CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ARGININE-N-SUCCINYLTRANSFERASE-RXN", "META:RXN-7561" ],
+      "instances" : [ "META:D-Amino-Acids", "META:25-DIAMINOPENTANOATE" ],
+      "reactions" : [ "META:ORNITHINE-RACEMASE-RXN", "META:D-ARGINASE-RXN", "META:ORNMUTST-RXN", "META:RXN-13083" ],
+      "gibbs" : 47.5525,
+      "cmlMolWeight" : 133.17,
+      "molWeight" : 133.17,
+      "parents" : [ "META:D-Amino-Acids", "META:25-DIAMINOPENTANOATE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   14.3500  -24.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5624  -24.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.1376  -24.8500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3500  -22.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7579  -24.1596    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9453  -24.8451    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1365  -24.1571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3260  -24.8438    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5625  -26.2498    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  2  9  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C00515\n\n$$$$",
+  "reactions" : [ "irxn5919", "irxn4743", "irxn5535" ]
+}

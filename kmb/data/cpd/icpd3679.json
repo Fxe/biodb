@@ -1,0 +1,39 @@
+{
+  "id" : "icpd3679",
+  "formula" : "NO3",
+  "name" : "peroxynitrite",
+  "synonyms" : [ ],
+  "alias" : "CE5643",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C16845"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE5643"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1395"
+  } ],
+  "inchi" : "InChI=1S/HNO3/c2-1-4-3/h3H/p-1",
+  "inchikey" : "CMFNMSMUKZHDEY-UHFFFAOYSA-M",
+  "smiles" : "N(=O)O[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RIBONUCLEOSIDE-DIP-REDUCTI-RXN" ],
+      "instances" : [ "META:Inorganic-Anions" ],
+      "reactions" : [ "META:RXN-18723" ],
+      "gibbs" : -89.11207,
+      "cmlMolWeight" : 62.005,
+      "molWeight" : 62.005,
+      "parents" : [ "META:Inorganic-Anions" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   29.5101  -22.9654    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3437  -22.2723    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7638  -22.2504    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0626  -23.1613    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  2  4  1  0     0  0\nM  CHG  1   4  -1\nM  END\n\n> <ENTRY>\ncpd:C16845\n\n$$$$",
+  "reactions" : [ ]
+}

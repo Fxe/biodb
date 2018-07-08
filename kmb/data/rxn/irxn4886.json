@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4886",
+  "equation" : "cchoxod + h2o <=> ac + op4en + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd8043" : ""
+    },
+    "r" : {
+      "icpd2447" : "",
+      "icpd1851" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.7.1; 3.7.1.-",
+  "otherNames" : [ ],
+  "alias" : "HMSH3",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-OH-6-OXOHEPTA-2-4-DIENOATE-HYDR-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMSH3"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05138"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TOLUENE-DEG-DIOL-PWY", "META:TOLUENE-DEG-3-OH-PWY", "META:PWY-5641", "META:TOLUENE-DEG-2-OH-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -19.01712,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K10702" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

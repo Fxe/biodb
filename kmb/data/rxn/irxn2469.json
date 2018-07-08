@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2469",
+  "equation" : "coa + adhlam <=> accoa + dhlam",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd3778" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd832" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PDHbr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PDHe2r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PDHbr"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PDHe2hr"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iNJ661", "iLB1027_lipid", "iJN678", "iJN746" ]
+    }
+  }
+}

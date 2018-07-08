@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1979",
+  "formula" : "C9H5I2O4",
+  "name" : "3,5-diiodo-4-hydroxyphenylpyruvate",
+  "synonyms" : [ "3-(3,5-diiodo-4-hydroxyphenyl)pyruvate", "beta-(3,5-diiodo-4-hydroxyphtnyl)pyruvat" ],
+  "alias" : "icpd1979",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01244"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIIODO-4-HYDROXYPHENYLPYRUVATE"
+  } ],
+  "inchi" : "InChI=1S/C9H6I2O4/c10-5-1-4(2-6(11)8(5)13)3-7(12)9(14)15/h1-2,13H,3H2,(H,14,15)/p-1",
+  "inchikey" : "TZPLBTUUWSVGCY-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C(=C(C=C1CC(=O)C(=O)O)I)[O-])I",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Iodoaromtic-Compounds" ],
+      "reactions" : [ "META:DIIODOPHENYLPYRUVATE-REDUCTASE-RXN", "META:DIIODOTYROSINE-AMINOTRANSFERASE-RXN" ],
+      "gibbs" : -29.523756,
+      "cmlMolWeight" : 429.937,
+      "molWeight" : 429.937,
+      "parents" : [ "META:Iodoaromtic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 15  0  0  0  0  0  0  0  0999 V2000\n   21.5464  -15.4995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5464  -16.9002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3249  -14.8025    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7489  -14.7960    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3249  -17.6165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1225  -15.4995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9576  -15.4932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1225  -16.9002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3249  -19.1444    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9137  -14.8025    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1600  -14.7897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9576  -16.8811    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9137  -17.5909    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3624  -15.4867    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1093  -13.5478    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  2  0     0  0\n  5  9  1  0     0  0\n  6 10  1  0     0  0\n  7 11  1  0     0  0\n  7 12  2  0     0  0\n  8 13  1  0     0  0\n 11 14  1  0     0  0\n 11 15  2  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01244\n\n$$$$",
+  "reactions" : [ "irxn2373", "irxn6320" ]
+}

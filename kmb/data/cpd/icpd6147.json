@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6147",
+  "formula" : "C5H8O5",
+  "name" : "d-xylono-1,4-lactone",
+  "synonyms" : [ ],
+  "alias" : "icpd6147",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-XYLONO-14-LACTONE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02753"
+  } ],
+  "inchi" : "InChI=1S/C5H8O5/c6-1-2-3(7)4(8)5(9)10-2/h2-4,6-8H,1H2/t2-,3+,4-/m1/s1",
+  "inchikey" : "CUOKHACJLGPRHD-FLRLBIABSA-N",
+  "smiles" : "C([C@@H]1[C@@H]([C@H](C(=O)O1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:XYLONO-14-LACTONASE-RXN" ],
+      "gibbs" : -97.19104,
+      "cmlMolWeight" : 148.115,
+      "molWeight" : 148.115
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   23.0181  -21.9001    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4379  -23.2357    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8379  -23.2490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2832  -21.9218    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1585  -21.0881    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7045  -21.4594    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6100  -21.5046    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6374  -22.4015    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6065  -24.3574    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6497  -24.3892    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  1  6  1  1     0  0\n  4  7  2  0     0  0\n  6  8  1  0     0  0\n  2  9  1  1     0  0\n  3 10  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C02753\n\n$$$$",
+  "reactions" : [ "irxn1002" ]
+}

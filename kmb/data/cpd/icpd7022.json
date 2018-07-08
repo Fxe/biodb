@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7022",
+  "formula" : "C7H7NO",
+  "name" : "benzamide",
+  "synonyms" : [ "benzenecarboxamide", "benzoic acid amide", "phenylcarboxamide" ],
+  "alias" : "icpd7022",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C09815"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-17683"
+  } ],
+  "inchi" : "InChI=1S/C7H7NO/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H2,8,9)",
+  "inchikey" : "KXDAEFPNCMNJSK-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)C(=O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Amides", "META:Aromatics" ],
+      "gibbs" : 61.28784,
+      "cmlMolWeight" : 121.138,
+      "molWeight" : 121.138,
+      "parents" : [ "META:Amides", "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   28.8400  -16.6301    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6240  -17.3259    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0502  -17.3259    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -15.2329    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6240  -18.7290    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0502  -18.7290    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0560  -14.5313    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6298  -14.5313    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -19.4247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  6  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C09815\n\n$$$$",
+  "reactions" : [ ]
+}

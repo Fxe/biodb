@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5482",
+  "formula" : "C5H9O4",
+  "name" : "2,3-dihydroxy-isovalerate",
+  "synonyms" : [ "2,3-dihydroxy-3-methylbutanoate", "blph,beta-dihydroxy-isovltrat" ],
+  "alias" : "icpd5482",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DIOH-ISOVALERATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04039"
+  } ],
+  "inchi" : "InChI=1S/C5H10O4/c1-5(2,9)3(6)4(7)8/h3,6,9H,1-2H3,(H,7,8)/p-1",
+  "inchikey" : "JTEYKUFKXGDTEU-UHFFFAOYSA-M",
+  "smiles" : "CC(C)(C(C(=O)[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ACETOLACTREDUCTOISOM-RXN" ],
+      "instances" : [ "META:CPD-13357" ],
+      "gibbs" : -69.071976,
+      "cmlMolWeight" : 133.124,
+      "molWeight" : 133.124,
+      "parents" : [ "META:CPD-13357" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   18.4699  -15.1134    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   17.2618  -14.4128    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   19.6782  -14.4128    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4699  -16.5081    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0470  -15.1134    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0406  -13.7059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2618  -13.0118    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8865  -15.1134    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6782  -13.0118    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  2  7  1  0     0  0\n  3  8  1  0     0  0\n  3  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04039\n\n$$$$",
+  "reactions" : [ ]
+}

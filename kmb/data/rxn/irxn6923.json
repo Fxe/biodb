@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6923",
+  "equation" : "h2o + icpd6014 <=> mma + urea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6014" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd269" : "",
+      "icpd376" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.3.16; 3.5.3.16",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLGUANIDINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01589"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4741" ],
+      "orphan" : null,
+      "gibbs" : 15.267002,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

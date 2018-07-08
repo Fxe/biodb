@@ -1,0 +1,45 @@
+{
+  "id" : "irxn678",
+  "equation" : "h2o + icpd999 <=> icpd6125 + glc__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd999" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6125" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.2.1.45; 3.2.1.45; 3.2.1.62",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01498"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCOSYLCERAMIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 99.598206,
+      "uniprot" : [ "Q9XTB0", "P04062", "P17439" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00600" ],
+      "orthologs" : [ "K01201", "K17108" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

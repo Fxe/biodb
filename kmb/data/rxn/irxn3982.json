@@ -1,0 +1,43 @@
+{
+  "id" : "irxn3982",
+  "equation" : "icpd2912 <=> icpd7362",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2912" : ""
+    },
+    "r" : {
+      "icpd7362" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.99.4; EC-5.4.99.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03908"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-METHYLENEGLUTARATE-MUTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ITACONATE", "META:SUC", "META:GLUTACONATE", "META:CIT", "META:MESACONATE", "META:MAL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5055" ],
+      "orphan" : "NO",
+      "gibbs" : -1.81,
+      "uniprot" : [ "Q59268" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00760", "rn01120" ],
+      "orthologs" : [ "K20450" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

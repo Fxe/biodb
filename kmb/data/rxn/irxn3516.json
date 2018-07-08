@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3516",
+  "equation" : "accoa + sprm <=> coa + h + N1sprm",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd2495" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd3382" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.57",
+  "otherNames" : [ ],
+  "alias" : "DIAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DIAT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE1238X"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9939"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6117" ],
+      "orphan" : "NO",
+      "gibbs" : -3.4176483,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM904" ]
+    }
+  }
+}

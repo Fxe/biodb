@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7181",
+  "formula" : "C5H4N2O4",
+  "name" : "uracil 5-carboxylic acid",
+  "synonyms" : [ "5-carboxyuracil" ],
+  "alias" : "icpd7181",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03030"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-629"
+  } ],
+  "inchi" : "InChI=1S/C5H4N2O4/c8-3-2(4(9)10)1-6-5(11)7-3/h1H,(H,9,10)(H2,6,7,8,11)",
+  "inchikey" : "ZXYAAVBXHKCJJB-UHFFFAOYSA-N",
+  "smiles" : "C1=NC(=NC(=C1C(=O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Modified-Bases" ],
+      "reactions" : [ "META:URACIL-5-CARBOXYLATE-DECARBOXYLASE-RXN" ],
+      "gibbs" : -122.208694,
+      "cmlMolWeight" : 155.09,
+      "molWeight" : 155.09,
+      "parents" : [ "META:Modified-Bases" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   25.4805  -17.4309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2519  -16.7327    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4805  -18.8533    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6960  -16.7261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0300  -17.4309    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2456  -15.3936    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2519  -19.5711    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9180  -17.4309    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6897  -15.3936    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0300  -18.8533    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8080  -19.5516    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n 10 11  2  0     0  0\n  7 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03030\n\n$$$$",
+  "reactions" : [ "irxn6484" ]
+}

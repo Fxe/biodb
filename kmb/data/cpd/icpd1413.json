@@ -1,0 +1,38 @@
+{
+  "id" : "icpd1413",
+  "formula" : "C7H14O",
+  "name" : "heptanal",
+  "synonyms" : [ "1-heptaldehyde", "1-heptanal", "enanthaldehyde", "heptaldehyde", "heptan-1-al", "heptanaldehyde", "n-heptaldehyde" ],
+  "alias" : "hptal",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7620"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C14390"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "hptal"
+  } ],
+  "inchi" : "InChI=1S/C7H14O/c1-2-3-4-5-6-7-8/h7H,2-6H2,1H3",
+  "inchikey" : "FXHGMKSSBGDXIY-UHFFFAOYSA-N",
+  "smiles" : "CCCCCCC=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:n-Alkanals" ],
+      "reactions" : [ "META:RXN-8094", "META:RXN-13286" ],
+      "gibbs" : 117.84569,
+      "cmlMolWeight" : 114.187,
+      "molWeight" : 114.187,
+      "parents" : [ "META:n-Alkanals" ]
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   24.1500  -17.6401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3624  -18.3401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5749  -17.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7874  -18.3401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9998  -17.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2123  -18.3401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.4247  -17.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.6371  -18.3401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C14390\n\n$$$$",
+  "reactions" : [ ]
+}

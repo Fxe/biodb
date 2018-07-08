@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6853",
+  "equation" : "h2o + pnto__R <=> ala_B + pant__R",
+  "stoichiometry" : {
+    "l" : {
+      "icpd800" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4887" : "",
+      "icpd7989" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.22; EC-3.5.1.22",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PANTOTHENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02474"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -0.4630127,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00770", "rn01100", "rn01110" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

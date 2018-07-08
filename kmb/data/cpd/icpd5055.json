@@ -1,0 +1,32 @@
+{
+  "id" : "icpd5055",
+  "formula" : "C2H6AsO2",
+  "name" : "dimethylarsinate",
+  "synonyms" : [ "cacodylate" ],
+  "alias" : "icpd5055",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07308"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIMETHYLARSINATE"
+  } ],
+  "inchi" : "InChI=1S/C2H7AsO2/c1-3(2,4)5/h1-2H3,(H,4,5)/p-1",
+  "inchikey" : "OGGXGZAMXPVRFZ-UHFFFAOYSA-M",
+  "smiles" : "C[As](=O)(C)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GALACTARDEHYDRA-RXN" ],
+      "reactions" : [ "META:RXN-6981", "META:2.1.1.138-RXN" ],
+      "gibbs" : -11.58534,
+      "cmlMolWeight" : 136.99,
+      "molWeight" : 136.99
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   16.1000  -15.0500    0.0000 As  0  0  0  0  0  0  0  0  0  0  0  0\n   16.1000  -16.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7000  -15.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7800  -15.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1000  -13.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07308\n\n$$$$",
+  "reactions" : [ "irxn1234" ]
+}

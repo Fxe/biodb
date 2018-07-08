@@ -1,0 +1,45 @@
+{
+  "id" : "icpd4387",
+  "formula" : "C5H4O4",
+  "name" : "itaconate",
+  "synonyms" : [ "2-methylenesuccinate", "2-propene-1,2-dicarboxylate", "methylenebutanedioate", "methylenesuccinate" ],
+  "alias" : "itacon",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "itacon"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-2461"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "itacon"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ITACONATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00490"
+  } ],
+  "inchi" : "InChI=1S/C5H6O4/c1-3(5(8)9)2-4(6)7/h1-2H2,(H,6,7)(H,8,9)/p-2",
+  "inchikey" : "LVHBHZANLOWSRM-UHFFFAOYSA-L",
+  "smiles" : "C=C(CC(=O)[O-])C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ISOCIT-CLEAV-RXN", "META:2-METHYLENEGLUTARATE-MUTASE-RXN" ],
+      "instances" : [ "META:C4-dicarboxylates" ],
+      "reactions" : [ "META:RXN-8988", "META:RXN-8987", "META:ACONITATE-DECARBOXYLASE-RXN" ],
+      "gibbs" : -103.723755,
+      "cmlMolWeight" : 128.084,
+      "molWeight" : 128.084,
+      "parents" : [ "META:C4-dicarboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   23.1700  -16.0300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -16.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -16.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8100  -16.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0000  -16.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2600  -16.7300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -18.1300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -14.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0000  -14.6300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  2  7  2  0     0  0\n  3  8  2  0     0  0\n  5  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00490\n\n$$$$",
+  "reactions" : [ "irxn84", "irxn1428", "irxn5792", "irxn6283" ]
+}

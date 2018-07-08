@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2066",
+  "equation" : "h2o + raffin <=> gal + sucr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd7901" : ""
+    },
+    "r" : {
+      "icpd1558" : "",
+      "icpd5746" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.22",
+  "otherNames" : [ ],
+  "alias" : "RGH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RGH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01103"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RAFGH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K07407", "K01189", "K07406" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iPC815", "iND750", "iMM904" ]
+    }
+  }
+}

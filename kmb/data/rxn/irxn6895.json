@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6895",
+  "equation" : "o2 + caro <=> 2.0 retinal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1591" : ""
+    },
+    "r" : {
+      "icpd7129" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "BCDO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BCDO"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CAROMO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

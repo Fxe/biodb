@@ -1,0 +1,34 @@
+{
+  "id" : "icpd4691",
+  "formula" : "C3H4NO4",
+  "name" : "3-nitropropanoate",
+  "synonyms" : [ "3-nitropropionate", "beta-nitropropanoate" ],
+  "alias" : "icpd4691",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8147"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05669"
+  } ],
+  "inchi" : "InChI=1S/C3H5NO4/c5-3(6)1-2-4(7)8/h1-2H2,(H,5,6)/p-1",
+  "inchikey" : "WBLZUCOIBUDNBV-UHFFFAOYSA-M",
+  "smiles" : "C(C[N+](=O)[O-])C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ISOCIT-CLEAV-RXN", "META:NITROETHANE-OXIDASE-RXN" ],
+      "instances" : [ "META:C-nitro-compounds" ],
+      "reactions" : [ "META:BETA-NITROACRYLATE-REDUCTASE-RXN" ],
+      "gibbs" : -104.687584,
+      "cmlMolWeight" : 118.069,
+      "molWeight" : 118.069,
+      "parents" : [ "META:C-nitro-compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n    9.2624   -6.4400    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   10.4749   -7.1400    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   11.6873   -6.4400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8997   -7.1400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1122   -6.4400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3246   -7.1400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4749   -8.5398    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1122   -5.0403    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  2  7  2  0     0  0\n  5  8  2  0     0  0\nM  CHG  2   1  -1   2   1\nM  END\n\n> <ENTRY>\ncpd:C05669\n\n$$$$",
+  "reactions" : [ "irxn6903" ]
+}

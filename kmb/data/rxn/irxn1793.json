@@ -1,0 +1,53 @@
+{
+  "id" : "irxn1793",
+  "equation" : "gly + cholcoa <=> coa + h + gchola",
+  "stoichiometry" : {
+    "l" : {
+      "icpd855" : "",
+      "icpd3545" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1539" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.65; 2.3.1.65",
+  "otherNames" : [ ],
+  "alias" : "r0629",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BAAT1x"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCINE-N-CHOLOYLTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0629"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03718"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DITHIO-NITROBENZOATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6061" ],
+      "orphan" : "NO",
+      "gibbs" : -5.044174,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K00659" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

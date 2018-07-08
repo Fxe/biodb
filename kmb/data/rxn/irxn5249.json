@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5249",
+  "equation" : "chor <=> 3hbz + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5207" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd35" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.3.45; EC-4.1.3.45",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14940"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10597"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -28.43589,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00400" ],
+      "orthologs" : [ "K18240" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

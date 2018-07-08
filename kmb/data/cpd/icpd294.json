@@ -1,0 +1,31 @@
+{
+  "id" : "icpd294",
+  "formula" : "C8H8O",
+  "name" : "4-vinylphenol",
+  "synonyms" : [ "4-ethenylphenol", "4-hydroxystyrene", "p-hydroxystyrene", "p-vinylphenol" ],
+  "alias" : "icpd294",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1075"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05627"
+  } ],
+  "inchi" : "InChI=1S/C8H8O/c1-2-7-3-5-8(9)6-4-7/h2-6,9H,1H2",
+  "inchikey" : "FUGYGGDSWSUORM-UHFFFAOYSA-N",
+  "smiles" : "C=CC1=CC=C(C=C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9837", "META:RXN-802" ],
+      "gibbs" : 89.13897,
+      "cmlMolWeight" : 120.151,
+      "molWeight" : 120.151
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   21.1400  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1400  -21.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3524  -22.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5649  -21.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5649  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3524  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7960  -22.6910    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9276  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7321  -20.5704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  1  8  1  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05627\n\n$$$$",
+  "reactions" : [ "irxn3997" ]
+}

@@ -1,0 +1,42 @@
+{
+  "id" : "icpd8124",
+  "formula" : "C3H6O",
+  "name" : "acetone",
+  "synonyms" : [ "2-propanone", "beta-ketopropane", "dimethyl ketone", "dimethylformaldehyde", "dimethylketone", "methyl ketone", "propan-2-one", "propanone" ],
+  "alias" : "acetone",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETONE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "acetone"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "acetone"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00207"
+  } ],
+  "inchi" : "InChI=1S/C3H6O/c1-3(2)4/h1-2H3",
+  "inchikey" : "CSCPPACGZOOCGX-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:RXN-8630" ],
+      "instances" : [ "META:KETONE" ],
+      "reactions" : [ "META:RXN-17567", "META:ISOPROPANOL-DEHYDROGENASE-NADP+-RXN", "META:RXN-12237", "META:RXN-17569", "META:R462-RXN", "META:ACETONE-CYANHYDRIN-LYASE-RXN", "META:6.4.1.6-RXN", "META:ACETOACETATE-DECARBOXYLASE-RXN", "META:RXN-9689", "META:OXIMINOTRANSFERASE-RXN", "META:RXN-17571", "META:RXN-8630", "META:RXN-9475", "META:RXN-8386" ],
+      "gibbs" : 23.456724,
+      "cmlMolWeight" : 58.08,
+      "molWeight" : 58.08,
+      "parents" : [ "META:KETONE" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iCHOv1", "iMM1415", "RECON1", "iAF987" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9101  -17.2215    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3299  -17.2215    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1200  -15.1171    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00207\n\n$$$$",
+  "reactions" : [ "irxn5951", "irxn6710", "irxn5289", "irxn1446", "irxn3415", "irxn1437", "irxn5824", "irxn6702", "irxn4940" ]
+}

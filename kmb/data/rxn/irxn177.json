@@ -1,0 +1,56 @@
+{
+  "id" : "irxn177",
+  "equation" : "gdp + h2o <=> h + pi + gmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd166" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7485" : "",
+      "icpd2316" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.42; 3.6.1.6; EC-3.6.1.42; 3.6.1.5",
+  "otherNames" : [ ],
+  "alias" : "NDP3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NDP3ex"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NDP3g"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00328"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NDP3"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GUANOSINE-DIPHOSPHATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-14201" ],
+      "orphan" : "NO",
+      "gibbs" : -6.8129883,
+      "uniprot" : [ "P32621" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230" ],
+      "orthologs" : [ "K14642", "K14641", "K12305", "K01510", "K12304", "K01511" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "iML1515", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

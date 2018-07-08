@@ -1,0 +1,42 @@
+{
+  "id" : "irxn5380",
+  "equation" : "paf_hs <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd700" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SK_paf_hs_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EX_paf_hs_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SK_paf_hs_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

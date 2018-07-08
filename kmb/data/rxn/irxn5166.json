@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5166",
+  "equation" : "13dpg + h2o <=> pi + 3pg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd3088" : ""
+    },
+    "r" : {
+      "icpd6074" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.7",
+  "otherNames" : [ ],
+  "alias" : "ACYP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACYP"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01515"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACPh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K01512" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6682",
+  "equation" : "glu__L + 10fthf + atp <=> pi + adp + 10fthfglu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2642" : "",
+      "icpd514" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1688" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.2.17; 6.3.2.12",
+  "otherNames" : [ ],
+  "alias" : "10FTHFGLULL",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01654"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "10FTHFGLULLm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "10FTHFGLULL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

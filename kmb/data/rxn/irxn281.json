@@ -1,0 +1,48 @@
+{
+  "id" : "irxn281",
+  "equation" : "o2 + akg + icpd4226 <=> h2o + icpd5176 + succ + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : "",
+      "icpd4226" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd5176" : "",
+      "icpd2454" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.11.14; 1.14.11.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:6-BETA-HYDROXYHYOSCYAMINE-EPOXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03737"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7341", "META:PWY-5317" ],
+      "orphan" : "NO",
+      "gibbs" : -93.866974,
+      "uniprot" : [ "Q12560" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960", "rn01100", "rn01110" ],
+      "orthologs" : [ "K12692" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

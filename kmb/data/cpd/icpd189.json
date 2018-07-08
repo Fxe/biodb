@@ -1,0 +1,31 @@
+{
+  "id" : "icpd189",
+  "formula" : "C5H8O",
+  "name" : "cyclopentanone",
+  "synonyms" : [ "ketocyclopentane" ],
+  "alias" : "icpd189",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00557"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CYCLOPENTANONE"
+  } ],
+  "inchi" : "InChI=1S/C5H8O/c6-5-3-1-2-4-5/h1-4H2",
+  "inchikey" : "BGTOWKSIORTVQH-UHFFFAOYSA-N",
+  "smiles" : "C1CCC(=O)C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:CYCLOPENTANOL-DEHYDROGENASE-RXN", "META:CYCLOPENTANONE-MONOOXYGENASE-RXN" ],
+      "gibbs" : 64.78896,
+      "cmlMolWeight" : 84.118,
+      "molWeight" : 84.118
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  0  0  0  0  0  0999 V2000\n   21.6300  -23.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0300  -23.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4626  -21.6985    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3300  -20.8756    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1974  -21.6985    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3300  -19.4600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  4  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00557\n\n$$$$",
+  "reactions" : [ "irxn105", "irxn1885" ]
+}

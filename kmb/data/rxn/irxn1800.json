@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1800",
+  "equation" : "ppi + oaa <=> co2 + pi + pep",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1231" : "",
+      "icpd7306" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd2454" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.38; EC-4.1.1.38",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00346"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.1.38-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 4.7299805,
+      "uniprot" : [ "Q42631" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00620" ],
+      "orthologs" : [ "K20370" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

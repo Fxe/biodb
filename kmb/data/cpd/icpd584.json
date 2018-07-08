@@ -1,0 +1,43 @@
+{
+  "id" : "icpd584",
+  "formula" : "C4H10O2S2",
+  "name" : "dithiothreitol",
+  "synonyms" : [ ],
+  "alias" : "dtt",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00265"
+  }, {
+    "source" : "BiGG",
+    "entry" : "dtt"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DITHIOTHREITOL"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dtt"
+  } ],
+  "inchi" : "InChI=1S/C4H10O2S2/c5-3(1-7)4(6)2-8/h3-8H,1-2H2/t3-,4-/m1/s1",
+  "inchikey" : "VHJLVAABSRFDPM-QWWZWVQMSA-N",
+  "smiles" : "C([C@]([H])([C@@]([H])(CS)O)O)S",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:MANNPISOM-RXN", "META:RXN-13553", "META:RXN-11562", "META:ADENOSINE-NUCLEOSIDASE-RXN", "META:RIBITOL-2-DEHYDROGENASE-RXN", "META:2.3.1.103-RXN", "META:1.5.3.12-RXN", "META:HISTIDINE-DECARBOXYLASE-RXN", "META:3.5.1.91-RXN", "META:RIBONUCLEOSIDE-TRIP-REDUCT-RXN", "META:ALLANTOINASE-RXN", "META:ARYLDIALKYL-PHOSPHATASE-RXN", "META:RXN-8922", "META:AGMATINE-N4-COUMAROYLTRANSFERASE-RXN", "META:RXN-7984", "META:RXN-7985", "META:2.7.7.13-RXN", "META:AKBLIG-RXN", "META:DIGLUCO-DOCOSANOATE-ACETYLATION-RXN", "META:6.3.2.26-RXN", "META:ORNCARBAMTRANSFER-RXN" ],
+      "activators" : [ "META:RXN-15269", "META:3-OCTAPRENYL-4-OHBENZOATE-DECARBOX-RXN", "META:RXN-11565", "META:DHHB-METHYLTRANSFER-RXN", "META:RXN-2202", "META:1.14.11.26-RXN", "META:1.14.20.1-RXN", "META:1.1.1.283-RXN", "META:5.1.1.17-RXN", "META:F16BDEPHOS-RXN", "META:2.3.1.132-RXN", "META:RXN-9990", "META:L-GULONOLACTONE-OXIDASE-RXN", "META:RXN-9380", "META:RXN-13555", "META:3.1.4.38-RXN", "META:RXN-10600", "META:4.3.1.14-RXN", "META:3.1.3.40-RXN", "META:TRNA-S-TRANSFERASE-RXN", "META:SEQUOYITOL-DEHYDROGENASE-RXN", "META:1.21.3.1-RXN", "META:2.4.1.123-RXN", "META:CDPREDUCT-RXN", "META:RXN-9446", "META:RXN-8871", "META:RXN-9387", "META:RXN-9000" ],
+      "instances" : [ "META:Thiols" ],
+      "reactions" : [ "META:1.1.4.1-RXN", "META:1.1.4.2-RXN" ],
+      "gibbs" : 31.631197,
+      "cmlMolWeight" : 154.242,
+      "molWeight" : 154.242,
+      "parents" : [ "META:Thiols" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iNJ661", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  8  7  0  0  1  0  0  0  0  0999 V2000\n   21.5147  -16.5177    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   22.7253  -15.8223    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   20.2974  -15.8223    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5147  -17.9216    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9426  -16.5177    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7253  -14.4184    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0869  -16.5177    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1531  -15.8223    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00265\n\n$$$$",
+  "reactions" : [ "irxn6335", "irxn1530" ]
+}

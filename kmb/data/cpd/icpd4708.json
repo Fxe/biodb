@@ -1,0 +1,34 @@
+{
+  "id" : "icpd4708",
+  "formula" : "Cr",
+  "name" : "chromium (iii)",
+  "synonyms" : [ "chromium(3+)", "chromium(iii)" ],
+  "alias" : "icpd4708",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19368"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CR+3"
+  } ],
+  "inchi" : "InChI=1S/Cr/q+3",
+  "inchikey" : "BFGKITSFLPAWGI-UHFFFAOYSA-N",
+  "smiles" : "[Cr+3]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN", "META:AMINO-CARBOXYMUCONATE-SEMIALDEHYDE-RXN" ],
+      "instances" : [ "META:Metal-Ions" ],
+      "reactions" : [ "META:RXN0-3381" ],
+      "gibbs" : -2.8085344,
+      "cmlMolWeight" : 52.0,
+      "molWeight" : 52.0,
+      "parents" : [ "META:Metal-Ions" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   16.1700  -14.9800    0.0000 Cr  0  1  0  0  0  0  0  0  0  0  0  0\nM  CHG  1   1   3\nM  END\n\n> <ENTRY>\ncpd:C19368\n\n$$$$",
+  "reactions" : [ ]
+}

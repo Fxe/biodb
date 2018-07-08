@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6662",
+  "equation" : "ibcoa <=> btcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7932" : ""
+    },
+    "r" : {
+      "icpd1529" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.4.99.13; 5.4.99.13",
+  "otherNames" : [ ],
+  "alias" : "IBTMr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "IBTMr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01181"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ISOBUTYRYL-COA-MUTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 1.81,
+      "uniprot" : [ "O66005", "Q9X949" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

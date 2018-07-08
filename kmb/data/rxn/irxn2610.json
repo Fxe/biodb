@@ -1,0 +1,55 @@
+{
+  "id" : "irxn2610",
+  "equation" : "akg + Lcyst <=> glu__L + 3spyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd44" : ""
+    },
+    "r" : {
+      "icpd7234" : "",
+      "icpd514" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.1; EC-2.6.1.1",
+  "otherNames" : [ ],
+  "alias" : "AATC",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02433"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LCYSTAT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11737"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AATC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LCYSTATm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6643", "META:PWY-6642", "META:PWY-6638" ],
+      "orphan" : "NO",
+      "gibbs" : 0.7000122,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00270" ],
+      "orthologs" : [ "K14455", "K14454", "K00812", "K00813", "K00811", "K11358" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7152",
+  "formula" : "C3H7NO6S",
+  "name" : "l-serine o-sulfate",
+  "synonyms" : [ ],
+  "alias" : "icpd7152",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-673"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02703"
+  } ],
+  "inchi" : "InChI=1S/C3H7NO6S/c4-2(3(5)6)1-10-11(7,8)9/h2H,1,4H2,(H,5,6)(H,7,8,9)/t2-/m0/s1",
+  "inchikey" : "LFZGUGJDVUUGLK-REOHCLBHSA-N",
+  "smiles" : "C([C@@H](C(=O)O)N)OS(=O)(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:SERINE-SULFATE-AMMONIA-LYASE-RXN" ],
+      "gibbs" : -142.93535,
+      "cmlMolWeight" : 184.143,
+      "molWeight" : 184.143
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   22.7158  -17.5467    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   24.1192  -17.5467    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7158  -16.1496    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3124  -17.5467    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7729  -19.0201    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3167  -16.8514    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5334  -17.5467    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.7567  -16.8514    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5334  -18.9567    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9670  -17.5530    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7567  -15.4609    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  1  1     0  0\n  8 10  1  0     0  0\n  8 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02703\n\n$$$$",
+  "reactions" : [ "irxn447" ]
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn445",
+  "equation" : "o2 + h2o + tyr__L <=> 34hpp + n2 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd7576" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd3343" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.2; EC-1.4.3.2",
+  "otherNames" : [ ],
+  "alias" : "TYROX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TYROX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00729"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12487"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -25.517124,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350", "rn00950", "rn00400" ],
+      "orthologs" : [ "K03334" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

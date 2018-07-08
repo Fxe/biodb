@@ -1,0 +1,47 @@
+{
+  "id" : "irxn863",
+  "equation" : "h2o + 334528 <=> h + lnlc + chsterol",
+  "stoichiometry" : {
+    "l" : {
+      "334528" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd8204" : "",
+      "icpd1851" : "",
+      "icpd4645" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "r1179",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r1180"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r1179"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

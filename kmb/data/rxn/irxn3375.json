@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3375",
+  "equation" : "gly + benzcoa <=> coa + bgly",
+  "stoichiometry" : {
+    "l" : {
+      "icpd855" : "",
+      "icpd2811" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd7933" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.71; EC-2.3.1.71",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02452"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCINE-N-BENZOYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -5.0441895,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00360" ],
+      "orthologs" : [ "K00628" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

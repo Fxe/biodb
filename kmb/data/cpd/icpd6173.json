@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6173",
+  "formula" : "C6H7NO5",
+  "name" : "n-acetyl-l-aspartate",
+  "synonyms" : [ "(2s)-2-acetamidobutanedioate", "(s)-2-(acetylamino)butanedioate", "acetyl-l-aspartate", "acetylaspartate", "l-n-acetylaspartate", "n-acetylaspartate" ],
+  "alias" : "Nacasp",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-420"
+  }, {
+    "source" : "BiGG",
+    "entry" : "Nacasp"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "Nacasp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01042"
+  } ],
+  "inchi" : "InChI=1S/C6H9NO5/c1-3(8)7-4(6(11)12)2-5(9)10/h4H,2H2,1H3,(H,7,8)(H,9,10)(H,11,12)/p-2/t4-/m0/s1",
+  "inchikey" : "OTCCIMWXFLJLIA-BYPYZUCNSA-L",
+  "smiles" : "CC(=N[C@@]([H])(CC(=O)[O-])C(=O)O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-576", "META:N-Acetyl-Amino-Acids" ],
+      "reactions" : [ "META:RXN-15267", "META:RXN-13680", "META:ASPARTATE-N-ACETYLTRANSFERASE-RXN", "META:RXN-15265" ],
+      "gibbs" : -124.7004,
+      "cmlMolWeight" : 173.125,
+      "molWeight" : 173.125,
+      "parents" : [ "META:CPD-576", "META:N-Acetyl-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   17.2200  -18.9000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4324  -19.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6449  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8573  -19.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0697  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2822  -19.6000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0697  -17.5001    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4324  -20.9998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8573  -21.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0724  -21.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2849  -21.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0731  -23.0998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  5  7  2  0     0  0\n  2  8  2  0     0  0\n  4  9  1  1     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01042\n\n$$$$",
+  "reactions" : [ "irxn2440", "irxn4740", "irxn2439", "irxn1845" ]
+}

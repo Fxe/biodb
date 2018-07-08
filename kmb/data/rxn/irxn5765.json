@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5765",
+  "equation" : "icpd835 + nadp <=> nadph + h + icpd6724",
+  "stoichiometry" : {
+    "l" : {
+      "icpd835" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd6724" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.238; EC-1.1.1.238",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:12-BETA-HYDROXYSTEROID-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03495"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6518" ],
+      "orphan" : null,
+      "gibbs" : -1.6264954,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

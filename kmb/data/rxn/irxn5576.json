@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5576",
+  "equation" : "6dhf + glu__L + atp <=> 7dhf + h + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd514" : "",
+      "icpd6530" : "",
+      "icpd7093" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd7173" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FPGS6",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FPGS6m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FPGS6"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

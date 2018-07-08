@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5182",
+  "equation" : "nad + 2.0 coa <=> nadh + h + icpd3568",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "2.0",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd3568" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.8.1.M1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00091"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16679"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -9.754028,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id" : "icpd551",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd551",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Aryl-Dialkyl-Phosphate"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03254"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-8973", "META:AMINO-PARATHION", "META:PARATHION" ],
+      "reactions" : [ "META:ARYLDIALKYLPHOSPHATASE-RXN" ],
+      "parents" : [ "META:CPD-8973", "META:AMINO-PARATHION", "META:Aromatics", "META:PARATHION" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   26.5643  -15.3098    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3759  -16.0089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3759  -17.4070    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1875  -15.3098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1875  -18.1060    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9292  -16.0089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9292  -17.4070    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9625  -15.3098    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3606  -15.3098    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9625  -13.9117    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9625  -16.7079    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0596  -16.5206    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7517  -17.4070    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  2  0     0  0\n  5  7  2  0     0  0\n  6  7  1  0     0  0\n  1  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\n  8 11  1  0     0  0\n  9 12  1  0     0  0\n 11 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03254\n\n$$$$",
+  "reactions" : [ "irxn4903" ]
+}

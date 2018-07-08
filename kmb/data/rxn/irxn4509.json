@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4509",
+  "equation" : "icpd3463 + akg <=> pphn + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3463" : "",
+      "icpd7043" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd4697" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.79; 2.6.1.79",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PREPHENATE-TRANSAMINE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07276"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6120", "META:PWY-3462", "META:PWY-3461" ],
+      "orphan" : "NO",
+      "gibbs" : 0.7000122,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01230", "rn00400" ],
+      "orthologs" : [ "K15849" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

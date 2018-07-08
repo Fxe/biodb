@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1343",
+  "equation" : "h2o + citac <=> r3mmal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4282" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7871" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CITCIb",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03897"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CITCIb"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "C5", "rn00660" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987", "iJB785" ]
+    }
+  }
+}

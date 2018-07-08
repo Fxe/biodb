@@ -1,0 +1,57 @@
+{
+  "id" : "irxn3950",
+  "equation" : "nadh + h + gln__L + akg <=> nad + 2.0 glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd929" : ""
+    },
+    "r" : {
+      "icpd514" : "2.0",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.4.1.14; 1.4.1.14",
+  "otherNames" : [ ],
+  "alias" : "GLUS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GLTS_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUS"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTAMATE-SYNTHASE-NADH-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUSx"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00093"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:L-ASPARTATE", "META:NAD", "META:GLT", "META:OXALACETIC_ACID", "META:ASN" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GLUGLNSYN-PWY", "META:PWY-6963" ],
+      "orphan" : "NO",
+      "gibbs" : 4.8976746,
+      "uniprot" : [ "Q9C102", "O61143", "Q9P540", "Q9RXX2", "Q03460", "Q22275" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01110", "rn01130", "rn00250", "rn00910" ],
+      "orthologs" : [ "K00265", "K00266", "K00264" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iLB1027_lipid", "iMM904", "iJN678", "iAF987", "iSB619" ]
+    }
+  }
+}

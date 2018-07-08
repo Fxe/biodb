@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5495",
+  "formula" : "C5H8O5",
+  "name" : "d-xylono-1,5-lactone",
+  "synonyms" : [ "(3r,4s,5r)-3,4,5-trihydroxyoxan-2-one" ],
+  "alias" : "icpd5495",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02266"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-360"
+  } ],
+  "inchi" : "InChI=1S/C5H8O5/c6-2-1-10-5(9)4(8)3(2)7/h2-4,6-8H,1H2/t2-,3+,4-/m1/s1",
+  "inchikey" : "XXBSUZSONOQQGK-FLRLBIABSA-N",
+  "smiles" : "C1[C@H]([C@@H]([C@H](C(=O)O1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:D-XYLOSE-1-DEHYDROGENASE-RXN", "META:RXN-14641", "META:D-XYLOSE-1-DEHYDROGENASE-NADP+-RXN", "META:RXN-12246" ],
+      "gibbs" : -95.63104,
+      "cmlMolWeight" : 148.115,
+      "molWeight" : 148.115
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   18.4468  -15.4697    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   19.6632  -14.7654    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   17.2365  -14.7782    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   18.4468  -16.8654    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6697  -13.3631    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8669  -15.4632    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2237  -13.3759    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0329  -15.4825    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4403  -12.6651    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8734  -12.6651    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  3  8  1  6     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02266\n\n$$$$",
+  "reactions" : [ "irxn2672", "irxn2564" ]
+}

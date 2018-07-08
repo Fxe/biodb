@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6457",
+  "formula" : "C7H5NO4",
+  "name" : "4-nitrobenzoic acid",
+  "synonyms" : [ "p-nitrobenzoic acid" ],
+  "alias" : "icpd6457",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-704"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18625"
+  } ],
+  "inchi" : "InChI=1S/C7H5NO4/c9-7(10)5-1-3-6(4-2-5)8(11)12/h1-4H,(H,9,10)",
+  "inchikey" : "OTLNPYWUJOZPPA-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=CC(=C1)N(=O)=O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C-nitro-compounds", "META:Aromatics" ],
+      "reactions" : [ "META:R363-RXN", "META:RXN-12213", "META:R364-RXN" ],
+      "gibbs" : -75.857574,
+      "cmlMolWeight" : 166.113,
+      "molWeight" : 166.113,
+      "parents" : [ "META:C-nitro-compounds", "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   36.1900  -22.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   36.1900  -23.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3800  -24.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.6400  -23.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.6400  -22.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3800  -21.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3800  -19.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3800  -25.5500    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   36.1900  -26.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   38.5700  -26.2500    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   38.5700  -19.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   36.1900  -19.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  3  8  1  0     0  0\n  8  9  2  0     0  0\n  8 10  1  0     0  0\n  7 11  1  0     0  0\n  7 12  2  0     0  0\nM  CHG  2   8   1  10  -1\nM  END\n\n> <ENTRY>\ncpd:C18625\n\n$$$$",
+  "reactions" : [ ]
+}

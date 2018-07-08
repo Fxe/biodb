@@ -1,0 +1,51 @@
+{
+  "id" : "irxn4400",
+  "equation" : "2.0 h2o + 5oxpro + atp <=> glu__L + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "2.0",
+      "icpd7255" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd514" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.2.9; EC-3.5.2.9",
+  "otherNames" : [ ],
+  "alias" : "OPAH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OPAH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-OXOPROLINASE-ATP-HYDROLYSING-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00251"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2", "META:K+" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4041" ],
+      "orphan" : "NO",
+      "gibbs" : -2.9719238,
+      "uniprot" : [ "P97608" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00480" ],
+      "orthologs" : [ "K01469" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iNJ661", "iMM1415", "iAT_PLT_636", "RECON1", "iJB785", "iAB_RBC_283" ]
+    }
+  }
+}

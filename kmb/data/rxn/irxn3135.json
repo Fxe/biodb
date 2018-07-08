@@ -1,0 +1,51 @@
+{
+  "id" : "irxn3135",
+  "equation" : "coa + atp + cholate <=> amp + ppi + cholcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd108" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3545" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.7; EC-6.2.1.7",
+  "otherNames" : [ ],
+  "alias" : "r0573",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0573"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHOLATE--COA-LIGASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02794"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PPI" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7754" ],
+      "orphan" : "NO",
+      "gibbs" : -12.71167,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K08748" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

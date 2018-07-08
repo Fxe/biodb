@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4827",
+  "equation" : "icpd1501 <=> co2 + dhap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1501" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd6046" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.104; EC-4.1.1.104",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11716"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18588"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-18600" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

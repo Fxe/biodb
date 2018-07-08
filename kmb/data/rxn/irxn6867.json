@@ -1,0 +1,54 @@
+{
+  "id" : "irxn6867",
+  "equation" : "6.0 fdxrd + slnt <=> seln + 3.0 h2o + 6.0 h + 6.0 fdxox",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7935" : "",
+      "icpd930" : "6.0"
+    },
+    "r" : {
+      "icpd3498" : "",
+      "icpd321" : "6.0",
+      "icpd1851" : "6.0",
+      "icpd4016" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.8.7.1",
+  "otherNames" : [ ],
+  "alias" : "SELTORc",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SELTORc"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03600"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SELTOR_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SELTORm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00392" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

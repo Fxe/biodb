@@ -1,0 +1,37 @@
+{
+  "id" : "icpd6105",
+  "formula" : "C6H12O5",
+  "name" : "6-deoxy-d-galactopyranose",
+  "synonyms" : [ "d-fucopyranose" ],
+  "alias" : "icpd6105",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-Fucoses"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Fucopyranoses"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01018"
+  } ],
+  "inchi" : "InChI=1S/C6H12O5/c1-2-3(7)4(8)5(9)6(10)11-2/h2-10H,1H3/t2-,3+,4+,5-,6?/m1/s1",
+  "inchikey" : "SHZGCJCMOBCMKK-SVZMEOIVSA-N",
+  "smiles" : "C[C@]1([H])[C@@]([H])([C@@]([H])([C@]([H])(C([H])(O)O1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:GALACTODEHYDROG-RXN" ],
+      "instances" : [ "META:CPD-15618" ],
+      "reactions" : [ "META:RXN-9826" ],
+      "gibbs" : -58.79656,
+      "cmlMolWeight" : 164.158,
+      "molWeight" : 164.158,
+      "parents" : [ "META:Fucoses", "META:Fucofuranoses", "META:CPD-15618", "META:D-Hexoses", "META:Fucopyranoses" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   25.6143  -16.5488    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.4071  -15.8432    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.8329  -15.8432    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.6200  -17.9484    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4071  -14.4437    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.2000  -16.5488    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8329  -14.4437    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.0459  -16.5488    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6143  -13.7439    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2000  -13.7496    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0459  -13.7439    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  3  8  1  6     0  0\n  5  9  1  0     0  0\n  5 10  1  1     0  0\n  7 11  1  4     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01018\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd8185",
+  "formula" : "C6H13NO3",
+  "name" : "(4s)-4-hydroxy-l-isoleucine",
+  "synonyms" : [ "(2s,3r,4s)-4-hydroxy-l-isoleucine" ],
+  "alias" : "icpd8185",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20802"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14635"
+  } ],
+  "inchi" : "InChI=1S/C6H13NO3/c1-3(4(2)8)5(7)6(9)10/h3-5,8H,7H2,1-2H3,(H,9,10)/t3-,4-,5-/m0/s1",
+  "inchikey" : "OSCCDBFHNMXNME-YUPRTTJUSA-N",
+  "smiles" : "C[C@@]([H])([C@]([H])(C)O)[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Branched-Amino-Acids", "META:Hydroxy-L-Amino-Acids" ],
+      "reactions" : [ "META:RXN-13637", "META:RXN-13635" ],
+      "gibbs" : 10.614565,
+      "cmlMolWeight" : 147.174,
+      "molWeight" : 147.174,
+      "parents" : [ "META:Branched-Amino-Acids", "META:Hydroxy-L-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   18.0123  -16.5797    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   19.1997  -15.8429    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   16.7782  -15.9189    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9892  -17.9777    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4338  -16.5037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1588  -14.4449    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6202  -16.7142    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8016  -14.5209    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6270  -15.7668    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4073  -17.9195    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C20802\n\n$$$$",
+  "reactions" : [ "irxn4555" ]
+}

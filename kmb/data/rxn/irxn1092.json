@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1092",
+  "equation" : "23dhmb + nadp <=> nadph + icpd7441 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2409" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7441" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.383; 1.1.1.86; EC-1.1.1.86",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETOLACTREDUCTOISOM-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04439"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1220", "META:VAL", "META:ILE", "META:NADP", "META:LEU", "META:DIOH-ISOVALERATE", "META:CPD0-1218" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7111", "META:VALSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -0.16644287,
+      "uniprot" : [ "Q9JTI3", "Q9PHN5", "P78827", "Q01292", "P44822", "Q05758", "P38674", "O25097", "Q02138", "P06168", "P05793", "Q57179", "O82043", "Q59500" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00053" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

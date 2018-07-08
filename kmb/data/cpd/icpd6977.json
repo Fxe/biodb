@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6977",
+  "formula" : "C4H9NO3",
+  "name" : "d-allothreonine",
+  "synonyms" : [ "d-allo-threonine" ],
+  "alias" : "icpd6977",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10303"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C12317"
+  } ],
+  "inchi" : "InChI=1S/C4H9NO3/c1-2(6)3(5)4(7)8/h2-3,6H,5H2,1H3,(H,7,8)/t2-,3-/m1/s1",
+  "inchikey" : "AYFVYJQAPQTCCC-PWNYCUMCSA-N",
+  "smiles" : "C[C@H]([C@H](C(=O)O)N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ALLO-THR" ],
+      "reactions" : [ "META:RXN-9702" ],
+      "gibbs" : -31.8999,
+      "cmlMolWeight" : 119.12,
+      "molWeight" : 119.12,
+      "parents" : [ "META:ALLO-THR" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  1  0  0  0  0  0999 V2000\n   22.5407  -18.2704    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7531  -17.5704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9657  -18.2704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1781  -17.5704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3906  -18.2704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7531  -16.1705    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1781  -16.1703    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9657  -19.6698    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  6  2  0     0  0\n  4  7  1  6     0  0\n  3  8  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C12317\n\n$$$$",
+  "reactions" : [ "irxn3061" ]
+}

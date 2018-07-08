@@ -1,0 +1,30 @@
+{
+  "id" : "icpd3618",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd3618",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01812"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Haloacetates"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CHLOROACETIC-ACID" ],
+      "reactions" : [ "META:HALOACETATE-DEHALOGENASE-RXN" ],
+      "parents" : [ "META:CHLOROACETIC-ACID" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   24.7106  -21.7707    0.0000 X   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9230  -22.4708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1356  -21.7707    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3480  -22.4708    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1356  -20.3709    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01812\n\n$$$$",
+  "reactions" : [ "irxn5063" ]
+}

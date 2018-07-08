@@ -1,0 +1,43 @@
+{
+  "id" : "icpd2297",
+  "formula" : "C7H5O3",
+  "name" : "salicylate",
+  "synonyms" : [ "2-hydroxybenzenecarboxylate", "2-hydroxybenzoate", "o-hydroxybenzoate" ],
+  "alias" : "salc",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "salc"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-110"
+  }, {
+    "source" : "BiGG",
+    "entry" : "salc"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00805"
+  } ],
+  "inchi" : "InChI=1S/C7H6O3/c8-6-4-2-1-3-5(6)7(9)10/h1-4,8H,(H,9,10)/p-1",
+  "inchikey" : "YGSDEFSMJLZEOE-UHFFFAOYSA-M",
+  "smiles" : "C1=CC(=C(C=C1)O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN", "META:ARYLAMINE-N-ACETYLTRANSFERASE-RXN", "META:4.2.2.2-RXN", "META:RXN-10886" ],
+      "activators" : [ "META:RXN-7062", "META:RXN1F-93", "META:NARINGENIN-3-DIOXYGENASE-RXN", "META:DIHYDROKAEMPFEROL-4-REDUCTASE-RXN", "META:RXN-7063" ],
+      "instances" : [ "META:Aromatic-Acid" ],
+      "reactions" : [ "META:RXN-11271", "META:1.2.1.65-RXN", "META:RXN-11114", "META:RXN-11113", "META:RXNQT-4366", "META:RXN-10446", "META:RXN-2009", "META:RXN-11658", "META:SALICYLATE-1-MONOOXYGENASE-RXN", "META:RXN-6723", "META:RXN-11736", "META:RXN-11659", "META:RXN-11748", "META:RXN-1981", "META:ACETYLSALICYLATE-DEACETYLASE-RXN", "META:R608-RXN" ],
+      "gibbs" : -41.486458,
+      "cmlMolWeight" : 137.115,
+      "molWeight" : 137.115,
+      "parents" : [ "META:Aromatic-Acid" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iETEC_1333", "iECUMN_1333", "iEC55989_1330", "iECIAI39_1322", "iECED1_1282", "iECSF_1327", "iNRG857_1313", "iUMN146_1321", "iLF82_1304", "iECABU_c1320", "iUTI89_1310", "iPC815", "iNJ661", "iAPECO1_1312", "iECP_1309", "iECNA114_1301", "iECS88_1305", "iEC042_1314" ]
+    }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   25.1668  -17.0718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3896  -17.7698    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9631  -17.7698    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2303  -15.6826    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3896  -19.1783    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5933  -17.0718    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9631  -19.1783    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4403  -14.9847    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0202  -14.9910    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1668  -19.8890    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00805\n\n$$$$",
+  "reactions" : [ "irxn2144", "irxn3761", "irxn3442", "irxn3702", "irxn6904", "irxn4419", "irxn4534", "irxn3788", "irxn5634", "irxn6558" ]
+}

@@ -1,0 +1,32 @@
+{
+  "id" : "icpd15",
+  "formula" : "C7H14N2O3",
+  "name" : "l-theanine",
+  "synonyms" : [ "(+)-theanine", "n5-ethyl-l-glutamine", "theanine" ],
+  "alias" : "icpd15",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01047"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9384"
+  } ],
+  "inchi" : "InChI=1S/C7H14N2O3/c1-2-9-6(10)4-3-5(8)7(11)12/h5H,2-4,8H2,1H3,(H,9,10)(H,11,12)/t5-/m0/s1",
+  "inchikey" : "DATAGRPVKZEWHA-YFKPBYRVSA-N",
+  "smiles" : "CCN=C(CC[C@@]([H])(C(=O)O)N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GLUTAMIN-RXN" ],
+      "reactions" : [ "META:RXN-12905", "META:THEANINE-HYDROLASE-RXN" ],
+      "gibbs" : 28.535677,
+      "cmlMolWeight" : 174.199,
+      "molWeight" : 174.199
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   11.6900  -19.1100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9024  -18.4100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1149  -19.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3273  -18.4100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5397  -19.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7522  -18.4100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9646  -19.1100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1770  -18.4100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3895  -19.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9024  -17.0102    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7522  -17.0103    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1149  -20.5098    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  2 10  2  0     0  0\n  6 11  2  0     0  0\n  3 12  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C01047\n\n$$$$",
+  "reactions" : [ "irxn4045", "irxn2216" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1513",
+  "equation" : "o2 + akg <=> ethe + h2o + 3.0 co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : ""
+    },
+    "r" : {
+      "icpd271" : "",
+      "icpd4016" : "",
+      "icpd2454" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.12.19; 1.13.12.19",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09784"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12538"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DITHIO-NITROBENZOATE", "META:TIRON", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-12535" ],
+      "orphan" : "NO",
+      "gibbs" : -107.35463,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

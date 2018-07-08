@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5542",
+  "equation" : "amet + icpd4736 <=> ahcys + icpd2720",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd4736" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd2720" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.82; 2.1.1.82",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05323"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.1.1.82-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CU+2", "META:345-TRIHYDROXY-37-DIMETHOXYFLAVONE", "META:CO+2", "META:ADENOSYL-HOMO-CYS", "META:CA+2", "META:ZN+2", "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7150", "META:PWY-7161" ],
+      "orphan" : "NO",
+      "gibbs" : -2.9058914,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00944" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

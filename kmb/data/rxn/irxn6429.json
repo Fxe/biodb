@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6429",
+  "equation" : "ptcoa + glx + h2o <=> coa + h + icpd1723",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7700" : "",
+      "icpd4016" : "",
+      "icpd941" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd1723" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.3.12; EC-2.3.3.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-PROPYLMALATE-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03040"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -11.061218,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

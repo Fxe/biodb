@@ -1,0 +1,34 @@
+{
+  "id" : "icpd4931",
+  "formula" : "C5H7O5",
+  "name" : "2-dehydro-3-deoxy-l-arabinonate",
+  "synonyms" : [ "2-dehydro-3-deoxy-l-xylonate" ],
+  "alias" : "icpd4931",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00684"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1134"
+  } ],
+  "inchi" : "InChI=1S/C5H8O5/c6-2-3(7)1-4(8)5(9)10/h3,6-7H,1-2H2,(H,9,10)/p-1/t3-/m1/s1",
+  "inchikey" : "UQIGQRSJIKIPKZ-GSVOUGTGSA-M",
+  "smiles" : "C([C@]([H])(CO)O)C(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:3.5.4.22-RXN" ],
+      "instances" : [ "META:Ketoaldonates" ],
+      "reactions" : [ "META:4.2.1.43-RXN", "META:L-ARABINONATE-DEHYDRATASE-RXN", "META:RXN-15590", "META:4.1.2.18-RXN" ],
+      "gibbs" : -112.134224,
+      "cmlMolWeight" : 147.107,
+      "molWeight" : 147.107,
+      "parents" : [ "META:Ketoaldonates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   18.5033  -15.8200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7157  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9282  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1406  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3530  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5655  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7779  -15.8200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7157  -18.0600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9282  -14.4200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3530  -14.4200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  3  9  2  0     0  0\n  5 10  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C00684\n\n$$$$",
+  "reactions" : [ "irxn5785", "irxn3187", "irxn1889" ]
+}

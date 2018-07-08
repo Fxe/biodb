@@ -1,0 +1,54 @@
+{
+  "id" : "irxn5572",
+  "equation" : "o2 + h2o + sprm <=> spmd + h2o2 + aproa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd2495" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd4748" : "",
+      "icpd7650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.5.3.16; EC-1.5.3.17; 1.5.3.17; 1.5.3.16",
+  "otherNames" : [ ],
+  "alias" : "SMOX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "POLYAO3"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SMOX"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9015"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09076"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GUAZATINE", "META:CPD-12210", "META:PUTRESCINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6441", "META:PWY-5760", "META:PWY-6117" ],
+      "orphan" : "NO",
+      "gibbs" : -21.580688,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410", "rn00330" ],
+      "orthologs" : [ "K13367", "K13366", "K17839", "K12259" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM904" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3848",
+  "equation" : "nadph + 324668 + 336001 <=> 347131 + amp + nadp + 335998",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "324668" : "",
+      "336001" : ""
+    },
+    "r" : {
+      "347131" : "",
+      "335998" : "",
+      "icpd7180" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "THII",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "THII_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "THII"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

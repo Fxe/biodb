@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6338",
+  "equation" : "sphings + atp <=> adp + sphs1p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7636" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3035" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.91; 2.7.1.91",
+  "otherNames" : [ ],
+  "alias" : "SPHK21c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SPHK21c"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01926"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN3DJ-11417"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY3DJ-11470" ],
+      "orphan" : "NO",
+      "gibbs" : -13.567642,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00600" ],
+      "orthologs" : [ "K04718" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

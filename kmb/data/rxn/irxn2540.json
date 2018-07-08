@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2540",
+  "equation" : "pyr <=> acald + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd6658" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.1; EC-4.1.1.1",
+  "otherNames" : [ ],
+  "alias" : "PYRDC",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-6161"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00224"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYRDC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYRDC_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:KCL", "META:K+" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6330", "META:PWY3O-440", "META:PWY-6873", "META:PWY-5486", "META:PWY-7118", "META:PWY-5768" ],
+      "orphan" : "NO",
+      "gibbs" : -2.6058807,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iRC1080", "iIT341", "iND750", "iNJ661", "iMM904" ]
+    }
+  }
+}

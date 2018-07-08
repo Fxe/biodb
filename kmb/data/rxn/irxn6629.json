@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6629",
+  "equation" : "o2 + indole <=> icpd654",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7077" : ""
+    },
+    "r" : {
+      "icpd654" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.17; 1.13.11.17",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02338"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:INDOLE-23-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ATABRINE", "META:DIETHYLDITHIOCARBAMATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7430" ],
+      "orphan" : "NO",
+      "gibbs" : -89.94,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

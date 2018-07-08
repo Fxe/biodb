@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2244",
+  "equation" : "h2o + icpd5283 <=> icpd187 + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5283" : ""
+    },
+    "r" : {
+      "icpd187" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.53; EC-3.1.3.53",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03151"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MYOSIN-LIGHT-CHAIN-PHOSPHATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -3.4442444,
+      "uniprot" : [ "Q17718", "Q9TV77", "Q90623" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id" : "irxn747",
+  "equation" : "ahcys <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6782" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SK_ahcys_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EX_ahcys_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SK_ahcys_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iIT341", "iAT_PLT_636", "iSB619" ]
+    }
+  }
+}

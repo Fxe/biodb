@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5661",
+  "equation" : "tol + fum <=> icpd5838",
+  "stoichiometry" : {
+    "l" : {
+      "icpd590" : "",
+      "icpd5185" : ""
+    },
+    "r" : {
+      "icpd5838" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.99.11; 4.1.99.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05598"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-863"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:BENZYL-ALCOHOL", "META:BENZALDEHYDE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-81" ],
+      "orphan" : "NO",
+      "gibbs" : -14.21,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00623" ],
+      "orthologs" : [ "K07540" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

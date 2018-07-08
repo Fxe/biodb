@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5896",
+  "formula" : "C6H11NO2",
+  "name" : "4-aminohex-5-enoic acid",
+  "synonyms" : [ ],
+  "alias" : "icpd5896",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07500"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:VIGABATRIN"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO2/c1-2-5(7)3-4-6(8)9/h2,5H,1,3-4,7H2,(H,8,9)",
+  "inchikey" : "PJDFLNIOAUIZSL-UHFFFAOYSA-N",
+  "smiles" : "C=CC(CCC(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GABATRANSAM-RXN" ],
+      "gibbs" : 51.622314,
+      "cmlMolWeight" : 129.158,
+      "molWeight" : 129.158
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   23.6410  -19.0753    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   24.8557  -18.3746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4264  -18.3805    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6469  -20.4768    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0703  -19.0636    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2119  -19.0812    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2850  -18.3688    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4938  -19.0579    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2791  -16.9614    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07500\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,34 @@
+{
+  "id" : "icpd6738",
+  "formula" : "C10H14N2O2",
+  "name" : "1-(6-hydroxypyridin-3-yl)-4-(methylamino)butan-1-one",
+  "synonyms" : [ "1-(6-hydroxypyrid-3-yl)-4-(methylamino)butan-1-one" ],
+  "alias" : "icpd6738",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-107"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01297"
+  } ],
+  "inchi" : "InChI=1S/C10H14N2O2/c1-11-6-2-3-9(13)8-4-5-10(14)12-7-8/h4-5,7,11H,2-3,6H2,1H3,(H,12,14)",
+  "inchikey" : "UMLOUOBDBGOHHR-UHFFFAOYSA-N",
+  "smiles" : "CNCCCC(=O)C1=CC=C(N=C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-16528" ],
+      "instances" : [ "META:KETONE" ],
+      "reactions" : [ "META:R162-RXN", "META:S-6-HYDROXYNICOTINE-OXIDASE-RXN", "META:RXN-16529", "META:R-6-HYDROXYNICOTINE-OXIDASE-RXN", "META:RXN-16527" ],
+      "gibbs" : 120.37475,
+      "cmlMolWeight" : 195.241,
+      "molWeight" : 195.241,
+      "parents" : [ "META:KETONE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   27.6773  -26.2278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4877  -25.5383    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8792  -25.5318    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6773  -27.6135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2920  -26.2278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4877  -24.3805    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0752  -26.2216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8792  -28.3158    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1025  -25.5383    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0752  -27.6135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9129  -26.2995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2709  -28.2905    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2912  -25.4750    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0955  -26.1647    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  7 10  1  0     0  0\n  9 11  1  0     0  0\n 10 12  1  0     0  0\n 11 13  1  0     0  0\n 13 14  1  0     0  0\n  8 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01297\n\n$$$$",
+  "reactions" : [ "irxn457", "irxn1989", "irxn1191", "irxn1663" ]
+}

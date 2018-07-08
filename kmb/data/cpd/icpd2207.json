@@ -1,0 +1,44 @@
+{
+  "id" : "icpd2207",
+  "formula" : "C6H12O5",
+  "name" : "l-fuculose",
+  "synonyms" : [ "(3r,4r,5s)-1,3,4,5-tetrahydroxyhexan-2-one", "6-deoxy-l-tagatose", "fuculose" ],
+  "alias" : "fcl__L",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01721"
+  }, {
+    "source" : "BiGG",
+    "entry" : "fcl-L"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "HC00832"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "fcl__L"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-FUCULOSE"
+  } ],
+  "inchi" : "InChI=1S/C6H12O5/c1-3(8)5(10)6(11)4(9)2-7/h3,5-8,10-11H,2H2,1H3/t3-,5+,6-/m0/s1",
+  "inchikey" : "QZNPNKJXABGCRC-LFRDXLMFSA-N",
+  "smiles" : "C[C@@]([H])([C@]([H])([C@]([H])(C(=O)CO)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:L-Hexoses" ],
+      "reactions" : [ "META:FUCISOM-RXN", "META:FUCULOKIN-RXN" ],
+      "gibbs" : -57.936565,
+      "cmlMolWeight" : 164.158,
+      "molWeight" : 164.158,
+      "parents" : [ "META:L-Hexoses" ]
+    },
+    "bigg" : {
+      "models" : [ "iEKO11_1354", "ic_1306", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iECDH10B_1368", "iSF_1195", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iLJ478", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   20.0900  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2800  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5400  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7300  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9200  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1800  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3700  -17.5700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2800  -15.4700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5400  -18.9700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7300  -15.4700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9200  -18.9700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  1  6     0  0\n  3  9  1  6     0  0\n  4 10  1  1     0  0\n  5 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01721\n\n$$$$",
+  "reactions" : [ "irxn2825", "irxn5799" ]
+}

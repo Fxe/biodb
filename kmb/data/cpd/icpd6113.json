@@ -1,0 +1,48 @@
+{
+  "id" : "icpd6113",
+  "formula" : "C7H8O",
+  "name" : "benzyl alcohol",
+  "synonyms" : [ "(hydroxymethyl)benzene", ".alpha.-hydroxytoluene", ".alpha.-toluenol", "alpha-hydroxytoluene", "alpha-toluenol", "alphal-aydroxytopuene", "benzenemethanol", "benzenmethanol", "benzyl-alcohol", "benzylalcohol", "hydroxymethylbenzene", "hydroxytoluene", "phenylcarbinol", "phenylmethanol", "phenylmethyl alcohol" ],
+  "alias" : "bzalc",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "bzalc"
+  }, {
+    "source" : "BiGG",
+    "entry" : "bzalc"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Aromatic-Primary-Alcohols"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03485"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00556"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BENZYL-ALCOHOL"
+  } ],
+  "inchi" : "InChI=1S/C7H8O/c8-6-7-4-2-1-3-5-7/h1-5,8H,6H2",
+  "inchikey" : "WVDDGKGOMKODPV-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-863", "META:PHENYLALANINE--TRNA-LIGASE-RXN", "META:MANDELONITRILE-LYASE-RXN" ],
+      "instances" : [ "META:Alcohols", "META:Aromatics" ],
+      "reactions" : [ "META:N-BENZYLOXYCARBONYLGLYCINE-HYDROLASE-RXN", "META:RXN-11272", "META:RXN-6724", "META:RXN-13696", "META:RXN-12253", "META:RXN-13693", "META:RXN-6762", "META:CETRAXATE-BENZYLESTERASE-RXN", "META:RXN-12256", "META:BENZYL-ALC-DEHYDROGENASE-RXN", "META:3.5.1.64-RXN", "META:TOLUENE-SIDE-CHAIN-MONOOXYGENASE-RXN" ],
+      "gibbs" : 75.56896,
+      "cmlMolWeight" : 108.14,
+      "molWeight" : 108.14,
+      "parents" : [ "META:Alcohols", "META:Aromatics" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF987", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   18.4505  -14.0488    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4505  -15.4556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2291  -13.3517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6527  -13.3517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2291  -16.1653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0269  -14.0488    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8613  -14.0423    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0269  -15.4556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  2  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03485\n\n$$$$",
+  "reactions" : [ "irxn3782", "irxn3130", "irxn486", "irxn706", "irxn1730", "irxn3996", "irxn5623" ]
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4274",
+  "equation" : "o2 + icpd7884 + atp <=> icpd3356 + amp + co2 + ppi + icpd2532",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7884" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3356" : "",
+      "icpd2532" : "",
+      "icpd2454" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.12.7; 1.13.12.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.13.12.7-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04036"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PPI" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "Q7M4K1", "Q26304", "P08659", "Q01158", "Q27688", "Q7M4K3", "Q7M4K2", "P13129" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

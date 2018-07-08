@@ -1,0 +1,38 @@
+{
+  "id" : "icpd642",
+  "formula" : "C3H4O5P",
+  "name" : "(2s)-2-phospholactate",
+  "synonyms" : [ "2-phospho-l-lactate" ],
+  "alias" : "2plac__L",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "2plac__L"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2plac-L"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:S-PHOSPHOLACTATE"
+  } ],
+  "inchi" : "InChI=1S/C3H5O5P/c1-2(3(4)5)8-9(6)7/h2H,1H3,(H,4,5)/p-1/t2-/m0/s1",
+  "inchikey" : "JSHQYKRTBFIDOL-REOHCLBHSA-M",
+  "smiles" : "C[C@@]([H])(C(=O)[O-])OP(=O)=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:DL-Phospholactate" ],
+      "reactions" : [ "META:RXN-8077", "META:RXN-8076" ],
+      "gibbs" : -297.3941,
+      "cmlMolWeight" : 167.035,
+      "molWeight" : 167.035,
+      "parents" : [ "META:DL-Phospholactate" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn6496", "irxn5391" ]
+}

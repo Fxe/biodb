@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3284",
+  "equation" : "icpd5630 + h2o <=> pyr + h + male",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5630" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd1851" : "",
+      "icpd3385" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.7.1.23; EC-3.7.1.23",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11257"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10447"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NI+2" ],
+      "activators" : [ "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7469" ],
+      "orphan" : "NO",
+      "gibbs" : -14.357147,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00350" ],
+      "orthologs" : [ "K20758" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

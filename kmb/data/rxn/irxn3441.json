@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3441",
+  "equation" : "amet + Nacsertn <=> ahcys + melatn + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd5851" : ""
+    },
+    "r" : {
+      "icpd4813" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.4; EC-2.1.1.4",
+  "otherNames" : [ ],
+  "alias" : "ACSRTNMT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETYLSEROTONIN-O-METHYLTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACSRTNMT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03130"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6030" ],
+      "orphan" : "NO",
+      "gibbs" : -4.3600006,
+      "uniprot" : [ "Q92056", "P46597", "P10950" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K00543" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "RECON1" ]
+    }
+  }
+}

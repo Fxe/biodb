@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1321",
+  "equation" : "o2 + gullac <=> icpd1481 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd938" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd1481" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.3.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03184"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-GULONOLACTONE-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29", "META:HG+2" ],
+      "activators" : [ "META:DITHIOTHREITOL", "META:2-MERCAPTOETHANOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13689" ],
+      "orphan" : "NO",
+      "gibbs" : -29.36,
+      "uniprot" : [ "P10867" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053" ],
+      "orthologs" : [ "K00103" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

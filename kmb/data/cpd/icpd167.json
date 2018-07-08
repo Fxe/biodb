@@ -1,0 +1,32 @@
+{
+  "id" : "icpd167",
+  "formula" : "C4H6O6",
+  "name" : "mesotartaric acid",
+  "synonyms" : [ ],
+  "alias" : "icpd167",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00552"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MESO-TARTRATE"
+  } ],
+  "inchi" : "InChI=1S/C4H6O6/c5-1(3(7)8)2(6)4(9)10/h1-2,5-6H,(H,7,8)(H,9,10)/t1-,2+",
+  "inchikey" : "FEWJPZIEWOKRBE-XIXRPRMCSA-N",
+  "smiles" : "[C@]([H])([C@]([H])(C(=O)O)O)(C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:L-ASPARTATE-OXID-RXN", "META:FUMHYDR-RXN" ],
+      "reactions" : [ "META:TARTRATE-EPIMERASE-RXN", "META:MESO-TARTRATE-DEHYDROGENASE-RXN", "META:RXN-8643", "META:TRANS-EPOXYSUCCINATE-HYDROLASE-RXN", "META:RXN-15359" ],
+      "gibbs" : -199.20375,
+      "cmlMolWeight" : 148.072,
+      "molWeight" : 148.072
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   19.2024   -8.3300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4149   -9.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6273   -8.3300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8397   -9.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0522   -8.3300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2646   -9.0300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4149  -10.4298    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6273   -6.9300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8397  -10.4299    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0522   -6.9303    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  2  7  2  0     0  0\n  3  8  1  6     0  0\n  4  9  1  1     0  0\n  5 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00552\n\n$$$$",
+  "reactions" : [ "irxn1939", "irxn2211", "irxn5728", "irxn2226" ]
+}

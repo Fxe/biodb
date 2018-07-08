@@ -1,0 +1,36 @@
+{
+  "id" : "icpd1094",
+  "formula" : "H2O2P",
+  "name" : "phosphinate",
+  "synonyms" : [ "hypophosphite" ],
+  "alias" : "icpd1094",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05339"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Phosphinates"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-27"
+  } ],
+  "inchi" : "InChI=1S/H3O2P/c1-3-2/h3H2,(H,1,2)/p-1",
+  "inchikey" : "ACVYVLVWPXVTIT-UHFFFAOYSA-M",
+  "smiles" : "O=[PH2][O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PYRUVFORMLY-RXN" ],
+      "instances" : [ "META:CPD-10011", "META:CPD-11742", "META:CPD-11743", "META:CPD-11744", "META:CPD-11735", "META:CPD-11746", "META:CPD-18587", "META:3-HYDROHYDROXYPHOSPHORYLPYRUVATE", "META:L-PHOSPHINOTHRICIN", "META:CPD-18932" ],
+      "gibbs" : -45.369816,
+      "cmlMolWeight" : 64.988,
+      "molWeight" : 64.988,
+      "parents" : [ "META:CPD-10011", "META:CPD-11742", "META:CPD-11743", "META:CPD-11744", "META:CPD-11735", "META:CPD-11746", "META:CPD-18587", "META:3-HYDROHYDROXYPHOSPHORYLPYRUVATE", "META:L-PHOSPHINOTHRICIN", "META:CPD-18932", "META:Phosphorus-oxoacids-And-Derivatives" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   25.9000  -17.9900    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9000  -16.5900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9000  -19.3900    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3000  -17.9900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5000  -17.9900    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05339\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,55 @@
+{
+  "id" : "irxn2518",
+  "equation" : "idp + atp <=> itp + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3658" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3761" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.4.6; 2.7.4.6",
+  "otherNames" : [ ],
+  "alias" : "NDPK9",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NDPK9n"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14120"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00722"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NDPK9m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NDPK9"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 94.98999,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230" ],
+      "orthologs" : [ "K18533", "K00940" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iRC1080", "iND750", "iNJ661", "iMM1415", "iLB1027_lipid", "iJN678", "iMM904", "RECON1", "iSB619", "iYO844" ]
+    }
+  }
+}

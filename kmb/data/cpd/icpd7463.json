@@ -1,0 +1,37 @@
+{
+  "id" : "icpd7463",
+  "formula" : "C3H7NO2",
+  "name" : "2-nitropropane",
+  "synonyms" : [ "beta-nitropropane", "dimethylnitromethane", "propane, 2-nitro-" ],
+  "alias" : "n2ppn",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-244"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02116"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "n2ppn"
+  } ],
+  "inchi" : "InChI=1S/C3H7NO2/c1-3(2)4(5)6/h3H,1-2H3",
+  "inchikey" : "FGLBSLMDCBOPQK-UHFFFAOYSA-N",
+  "smiles" : "CC(C)N(=O)=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C-nitro-compounds" ],
+      "gibbs" : 4.0778403,
+      "cmlMolWeight" : 89.094,
+      "molWeight" : 89.094,
+      "parents" : [ "META:C-nitro-compounds" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF987" ]
+    }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   18.3162  -15.5343    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   18.3162  -14.2466    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   17.1946  -16.1812    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4320  -16.1812    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0463  -13.3054    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7346  -13.3113    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\nM  CHG  2   2   1   6  -1\nM  END\n\n> <ENTRY>\ncpd:C02116\n\n$$$$",
+  "reactions" : [ ]
+}

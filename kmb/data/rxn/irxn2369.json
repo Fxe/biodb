@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2369",
+  "equation" : "glu__L + nal2a6o <=> n6all26d + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd514" : "",
+      "icpd1731" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd8024" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.-",
+  "otherNames" : [ ],
+  "alias" : "ADAPAT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04467"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ADAPAT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-4822"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2941" ],
+      "orphan" : "NO",
+      "gibbs" : -0.7000122,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01230", "rn01110" ],
+      "orthologs" : [ "K00841" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478" ]
+    }
+  }
+}

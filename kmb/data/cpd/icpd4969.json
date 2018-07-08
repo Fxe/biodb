@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4969",
+  "formula" : "C6Cl4O2",
+  "name" : "2,3,5,6-tetrachloro-1,4-benzoquinone",
+  "synonyms" : [ "tetrachloro-1,4-benzoquinone" ],
+  "alias" : "icpd4969",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19762"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18933"
+  } ],
+  "inchi" : "InChI=1S/C6Cl4O2/c7-1-2(8)6(12)4(10)3(9)5(1)11",
+  "inchikey" : "UGNWTBMOAKPKBL-UHFFFAOYSA-N",
+  "smiles" : "C1(=C(C(=O)C(=C(C1=O)Cl)Cl)Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-18404", "META:PCP4MONO-RXN" ],
+      "gibbs" : -88.98,
+      "cmlMolWeight" : 245.877,
+      "molWeight" : 245.877
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   24.4300  -17.7800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4300  -19.1800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6424  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8549  -19.1800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8549  -17.7800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6424  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2176  -19.8800    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   23.2176  -17.0800    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   28.0860  -17.0690    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   28.0860  -19.8910    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   25.6424  -15.6802    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6424  -21.2798    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  1  8  1  0     0  0\n  5  9  1  0     0  0\n  4 10  1  0     0  0\n  6 11  2  0     0  0\n  3 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18933\n\n$$$$",
+  "reactions" : [ "irxn2464", "irxn739" ]
+}

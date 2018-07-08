@@ -1,0 +1,45 @@
+{
+  "id" : "irxn336",
+  "equation" : "2ins <=> dkdi + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7818" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd3936" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "2INSD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "2INSD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05659"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K03335" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iECED1_1282", "STM_v1_0" ]
+    }
+  }
+}

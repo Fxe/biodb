@@ -1,0 +1,37 @@
+{
+  "id" : "icpd2686",
+  "formula" : "C4H7O5P",
+  "name" : "butanoyl phosphate",
+  "synonyms" : [ "butanoylphosphate", "butyryl phosphate" ],
+  "alias" : "butpi",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BUTYRYL-P"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "butpi"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02527"
+  } ],
+  "inchi" : "InChI=1S/C4H9O5P/c1-2-3-4(5)9-10(6,7)8/h2-3H2,1H3,(H2,6,7,8)/p-2",
+  "inchikey" : "JSHMCUNOMIZJDJ-UHFFFAOYSA-L",
+  "smiles" : "CCCC(=O)OP(=O)([O-])[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PHOSPHATE-BUTYRYLTRANSFERASE-RXN" ],
+      "reactions" : [ "META:PHOSPHATE-BUTYRYLTRANSFERASE-RXN", "META:BUTYRATE-KINASE-RXN" ],
+      "gibbs" : -212.16039,
+      "cmlMolWeight" : 166.07,
+      "molWeight" : 166.07
+    },
+    "bigg" : {
+      "models" : [ "iLJ478", "iAF987", "iHN637", "iYO844" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   24.0800  -20.9300    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   25.4800  -20.9300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6800  -20.9300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0800  -22.3300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0800  -19.5300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6700  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9300  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6700  -18.8300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1200  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3100  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  7  9  1  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02527\n\n$$$$",
+  "reactions" : [ "irxn1479", "irxn307" ]
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5934",
+  "equation" : "o2 + 3mcat <=> cchoxod + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1736" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd8043" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.2; EC-1.13.11.2; 1.13.11.-",
+  "otherNames" : [ ],
+  "alias" : "3MCAT23DOX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "3MCAT23DOX"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CATECHOL-2-3-DIOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04089"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TOLUENE-DEG-DIOL-PWY", "META:PWY-5641", "META:TOLUENE-DEG-2-OH-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -73.534134,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00622" ],
+      "orthologs" : [ "K07104", "K16270", "K00446" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

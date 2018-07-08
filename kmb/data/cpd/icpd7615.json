@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7615",
+  "formula" : "C14H15N3",
+  "name" : "para-(dimethylamino)azobenzene",
+  "synonyms" : [ "4-(dimethylamino)azobenzene", "4-(n,n-dimethylamino)azobenzene", "4-(phenylazo)-n,n-dimethylaniline", "n,n-dimethyl-4-(phenylazo)aniline", "n,n-dimethyl-4-(phenylazo)benzenamine", "n,n-dimethyl-4-(phenylazo)benzenamine, 9ci", "n,n-dimethyl-p-(phenylazo)aniline, 8ci", "p-dimethylaminoazobenzene" ],
+  "alias" : "icpd7615",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-DIMETHYLAMINOPHENYLAZOBENZENE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03764"
+  } ],
+  "inchi" : "InChI=1S/C14H15N3/c1-17(2)14-10-8-13(9-11-14)16-15-12-6-4-3-5-7-12/h3-11H,1-2H3",
+  "inchikey" : "JCYPECIVGRXBMO-UHFFFAOYSA-N",
+  "smiles" : "CN(C)C1=CC=C(C=C1)N=NC2=CC=CC=C2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Dyes" ],
+      "reactions" : [ "META:1.6.6.12-RXN", "META:AZOBENZENE-REDUCTASE-RXN" ],
+      "gibbs" : 211.9868,
+      "cmlMolWeight" : 225.293,
+      "molWeight" : 225.293,
+      "parents" : [ "META:Dyes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 17 18  0  0  0  0  0  0  0  0999 V2000\n   14.4900  -16.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4900  -17.4300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7024  -18.1300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9149  -17.4300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9149  -16.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7024  -15.3300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1524  -15.3300    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3649  -16.0300    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5773  -15.3300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7918  -16.0312    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0042  -15.3312    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0042  -13.9312    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7897  -13.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5773  -13.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2363  -13.2196    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4410  -13.9150    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2361  -11.8301    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\n 10 11  1  0     0  0\n 11 12  2  0     0  0\n 12 13  1  0     0  0\n 13 14  2  0     0  0\n  9 14  1  0     0  0\n 12 15  1  0     0  0\n 15 16  1  0     0  0\n 15 17  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03764\n\n$$$$",
+  "reactions" : [ "irxn3092", "irxn5868" ]
+}

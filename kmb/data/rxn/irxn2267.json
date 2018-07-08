@@ -1,0 +1,60 @@
+{
+  "id" : "irxn2267",
+  "equation" : "aacoa + h2o + accoa <=> coa + h + hmgcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd4016" : "",
+      "icpd726" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5434" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.3.10; EC-2.3.3.10",
+  "otherNames" : [ ],
+  "alias" : "MHGS",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYMETHYLGLUTARYL-COA-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01978"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MHGS"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0463"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMGCOASm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMGCOAS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:CPD-763", "META:N-ETHYLMALEIMIDE", "META:ACETOACETYL-COA", "META:3-HYDROXY-3-METHYL-GLUTARYL-COA", "META:CO-A", "META:CPD-29", "META:CPD-19602", "META:CPD-19601" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6174", "META:PWY-7571", "META:PWY66-367", "META:PWY-7524", "META:PWY-922", "META:PWY-7391" ],
+      "orphan" : "NO",
+      "gibbs" : -9.583496,
+      "uniprot" : [ "P54874", "P54961", "P54873", "P22791", "Q7LZE7", "P54870", "P13704", "Q01581", "P54839", "P54869", "P54868", "P17425", "P93773", "Q9CFA9", "O51626" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650", "rn01110", "rn01130", "rn00280", "rn00072", "rn00900" ],
+      "orthologs" : [ "K01641" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iNF517", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1", "iSB619", "iYO844" ]
+    }
+  }
+}

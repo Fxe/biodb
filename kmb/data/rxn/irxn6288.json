@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6288",
+  "equation" : "lys__L <=> lys__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4807" : ""
+    },
+    "r" : {
+      "icpd2283" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.1.5; 5.1.1.9; EC-5.1.1.5",
+  "otherNames" : [ ],
+  "alias" : "LYSRC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LYSRC"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LYSINE-RACEMASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00460"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5283" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2537",
+  "equation" : "h2o + 337921 <=> 2.0 icpd476",
+  "stoichiometry" : {
+    "l" : {
+      "337921" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd476" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.2.1; EC-3.2.1.91",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12289"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12305"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CELLOBIOSE", "META:Alpha-lactose" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -2.4329834,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

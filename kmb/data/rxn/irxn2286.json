@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2286",
+  "equation" : "glc__D + atp <=> g6p_B + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2392" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd4976" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GLUK",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GLUKBh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUK_syn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUK"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iMM904", "iJN678" ]
+    }
+  }
+}

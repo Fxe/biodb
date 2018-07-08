@@ -1,0 +1,31 @@
+{
+  "id" : "icpd8025",
+  "formula" : "C6H11O2",
+  "name" : "4-methylpentanoate",
+  "synonyms" : [ "4,4-dimethylbutanoate", "4-methyl-pentanoate", "4-methyl-valerate", "4-methylvalerate", "isocaproate", "isohexanoate" ],
+  "alias" : "icpd8025",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-17493"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21399"
+  } ],
+  "inchi" : "InChI=1S/C6H12O2/c1-5(2)3-4-6(7)8/h5H,3-4H2,1-2H3,(H,7,8)/p-1",
+  "inchikey" : "FGKJLKRYENPLQH-UHFFFAOYSA-M",
+  "smiles" : "CC(C)CCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-16246" ],
+      "gibbs" : 30.59026,
+      "cmlMolWeight" : 115.152,
+      "molWeight" : 115.152
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   19.2206  -15.8002    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   18.0187  -16.4971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4289  -16.4971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8169  -15.8002    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   20.4545  -17.9483    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6309  -15.7937    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6084  -16.4971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8169  -14.4065    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21399\n\n$$$$",
+  "reactions" : [ "irxn1172" ]
+}

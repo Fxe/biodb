@@ -1,0 +1,46 @@
+{
+  "id" : "irxn87",
+  "equation" : "nadh + atp <=> nadph + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.86; 2.7.1.86",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00105"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NADH-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-14535", "META:CU+2", "META:FE+2", "META:LI+", "META:NADPH", "META:ZN+2", "META:CPD-29", "META:NA+" ],
+      "activators" : [ "META:MG+2", "META:CO+2", "META:CA+2", "META:ZN+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7269", "META:PWY-7268", "META:PWY-5083" ],
+      "orphan" : "NO",
+      "gibbs" : -17.312378,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

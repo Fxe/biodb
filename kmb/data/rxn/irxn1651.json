@@ -1,0 +1,55 @@
+{
+  "id" : "irxn1651",
+  "equation" : "glu__L + h <=> co2 + 4abut",
+  "stoichiometry" : {
+    "l" : {
+      "icpd514" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd7403" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.15; EC-4.1.1.15",
+  "otherNames" : [ ],
+  "alias" : "GLUDC",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00261"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARGDh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUDC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUDC_m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTDECARBOX-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-205", "META:3-4-DIHYDROXYBENZOATE", "META:CPD-1831", "META:CPD-183", "META:MALONATE", "META:ADIPATE", "META:CPD0-1269", "META:CPD0-1267", "META:CD+2", "META:CPD0-1276", "META:CPD0-1274", "META:CPD0-1271", "META:CPD0-1272", "META:OXALATE", "META:MALEATE", "META:PHTHALATE", "META:CPD-7673", "META:TEREPHTHALATE", "META:SUC", "META:CU+2", "META:FUM", "META:ZN+2", "META:HG+2", "META:CPD0-1264", "META:CPD0-1265", "META:CPD0-1262", "META:CPD0-1263", "META:GLUTACONATE", "META:GLUTARATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY0-1305", "META:PWY-4321", "META:GLUDEG-I-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -2.465866,
+      "uniprot" : [ "P48321", "P14748", "P48320", "Q24062", "P18088", "Q07346", "Q05683", "Q49863", "P20228", "Q05329", "Q9CG20", "Q49854", "O81101", "P69910", "Q49855", "Q99259", "P69908", "Q59956", "P48318", "P48319" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650", "rn01120", "rn00250" ],
+      "orthologs" : [ "K01580" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iNF517", "iETEC_1333", "iECD_1391", "iECED1_1282", "iECIAI1_1343", "iBWG_1329", "iJR904", "iML1515", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECO26_1355", "iECP_1309", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iNRG857_1313", "iEcSMS35_1347", "iE2348C_1286", "iECO111_1330", "iAT_PLT_636", "iECH74115_1262", "iECB_1328", "iSbBS512_1146", "iECBD_1354", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iECO103_1326", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iSFxv_1172", "iECNA114_1301", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

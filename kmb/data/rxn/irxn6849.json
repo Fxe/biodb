@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6849",
+  "equation" : "amet + gudac <=> ahcys + creat",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd5300" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd6341" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.2; EC-2.1.1.2",
+  "otherNames" : [ ],
+  "alias" : "GACMTRc",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GUANIDINOACETATE-N-METHYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01883"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GACMTRc"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DITHIO-NITROBENZOATE", "META:OXIDIZED-GLUTATHIONE", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GLYCGREAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -5.019989,
+      "uniprot" : [ "P10868", "O35969", "Q14353" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100", "rn00260" ],
+      "orthologs" : [ "K00542" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

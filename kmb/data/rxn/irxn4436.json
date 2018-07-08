@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4436",
+  "equation" : "2ameph + h + ctp <=> ppi + cmp2amep",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd7776" : "",
+      "icpd4369" : ""
+    },
+    "r" : {
+      "icpd7078" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.7.14",
+  "otherNames" : [ ],
+  "alias" : "EPCTX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EPCTX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04247"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00440" ],
+      "orthologs" : [ "K00967" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

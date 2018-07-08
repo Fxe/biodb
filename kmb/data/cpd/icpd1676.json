@@ -1,0 +1,39 @@
+{
+  "id" : "icpd1676",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "pc_EC",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "pc_EC"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00157"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "pc_EC"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHATIDYLCHOLINE"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:RXN-13281", "META:RXN-2081" ],
+      "instances" : [ "META:1-2-DIPALMITOYLPHOSPHATIDYLCHOLINE", "META:L-1-LECITHIN" ],
+      "reactions" : [ "META:RXN-15211", "META:RXN-12386", "META:RXN-12563", "META:RXN-14899", "META:2.3.1.23-RXN", "META:2.7.8.27-RXN", "META:RXN4FS-2", "META:PHOSPHOLIPASE-C-RXN", "META:2.3.1.135-RXN", "META:RXN-1641", "META:2.7.8.24-RXN", "META:PHOSPHOLIPASE-A1-RXN", "META:2.3.1.62-RXN", "META:RXN-10638", "META:2.3.1.83-RXN", "META:2.3.1.43-RXN", "META:PHOSCHOL-RXN", "META:RXN-5781", "META:PHOSPHOLIPASE-A2-RXN" ],
+      "parents" : [ "META:Phosphatidylcholines-40-2", "META:CPD-17523", "META:Phosphatidylcholines-40-3", "META:Phosphatidylcholines-40-4", "META:Phosphatidylcholines-40-5", "META:1-ACYL-2-LINOLEOYL-SN-GLYCERO-3-PHOSPHOC", "META:L-1-LECITHIN", "META:1-ACYL-2-OLEOYL-SN-GLYCERO-3-PHOSPHOCHOL", "META:Phosphatidylcholines-34-1", "META:1-2-DIPALMITOYLPHOSPHATIDYLCHOLINE", "META:Phosphatidylcholines-32-0", "META:Phosphatidylcholines-36-3", "META:Phosphatidylcholines-34-4", "META:Phosphatidylcholines-36-2", "META:Phosphatidylcholines-34-3", "META:Phosphatidylcholines-36-1", "META:Phosphatidylcholines-34-2", "META:Phosphatidylcholines-38-5", "META:Phosphatidylcholines-36-6", "META:Phosphatidylcholines-38-4", "META:Phosphatidylcholines-38-3", "META:Phosphatidylcholines-36-5", "META:Phosphatidylcholines-38-2", "META:Phosphatidylcholines-36-4", "META:Phosphoglycerides", "META:Phosphatidylcholines-38-6" ]
+    },
+    "bigg" : {
+      "models" : [ "iJR904" ]
+    }
+  },
+  "mol" : " \n \n \n 22 21  0  0  0  0  0  0  0  0999 V2000\n   22.3185  -17.9800    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   20.9987  -17.9800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6441  -17.9800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3126  -19.3173    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   22.3243  -16.6602    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6787  -17.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7888  -17.3260    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6671  -16.1522    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   25.9334  -17.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1137  -16.1813    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6787  -14.4409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0840  -17.3260    0.0000 N   0  3  3  0  0  0  0  0  0  0  0  0\n   16.7879  -16.1813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9987  -14.4409    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8301  -17.8574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0840  -16.0062    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4227  -18.6048    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7763  -14.8555    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4681  -16.1813    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3185  -14.4409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.3126  -13.1211    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6441  -14.4409    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n  8 11  1  0     0  0\n  9 12  1  0     0  0\n 10 13  1  0     0  0\n 11 14  1  0     0  0\n 12 15  1  0     0  0\n 12 16  1  0     0  0\n 12 17  1  0     0  0\n 13 18  2  0     0  0\n 13 19  1  0     0  0\n 14 20  1  0     0  0\n 20 21  2  0     0  0\n 20 22  1  0     0  0\nM  CHG  2   4  -1  12   1\nM  END\n\n> <ENTRY>\ncpd:C00157\n\n$$$$",
+  "reactions" : [ "irxn6720", "irxn1351", "irxn3119", "irxn1205", "irxn2713", "irxn898", "irxn865", "irxn4357", "irxn1401" ]
+}

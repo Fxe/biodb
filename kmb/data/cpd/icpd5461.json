@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5461",
+  "formula" : "AsNa3O3",
+  "name" : "sodium arsenite",
+  "synonyms" : [ ],
+  "alias" : "icpd5461",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11906"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1496"
+  } ],
+  "inchi" : "InChI=1S/AsO3.3Na/c2-1(3)4;;;/q-3;3*+1",
+  "inchikey" : "FJDHVPHQDPJCHK-UHFFFAOYSA-N",
+  "smiles" : "[As]([O-])([O-])[O-].[Na+].[Na+].[Na+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN0-6277" ],
+      "gibbs" : -32.8,
+      "cmlMolWeight" : 129.91,
+      "molWeight" : 129.91
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   29.4145  -18.7236    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7208  -17.7234    0.0000 As  0  0  0  0  0  0  0  0  0  0  0  0\n   30.8128  -17.5414    0.0000 Na  0  0  0  0  0  0  0  0  0  0  0  0\n   26.3937  -18.4027    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11906\n\n$$$$",
+  "reactions" : [ ]
+}

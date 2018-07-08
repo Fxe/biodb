@@ -1,0 +1,56 @@
+{
+  "id" : "irxn4272",
+  "equation" : "nad + etoh <=> acald + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd2624" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd6658" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.1; 1.1.1.71; EC-1.1.1.1",
+  "otherNames" : [ ],
+  "alias" : "ALCD2x",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ALCD2irm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00754"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALCD2x"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALCOHOL-DEHYDROG-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALCD2ir"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-11434", "META:CPD-11435", "META:PYRAZOLE", "META:CPD0-1652", "META:EDTA" ],
+      "activators" : [ "META:ZN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6587", "META:FERMENTATION-PWY", "META:PWY66-21", "META:PWY-6333", "META:PWY4LZ-257", "META:PWY-5486", "META:P122-PWY", "META:PWY-7118", "META:PWY-5480", "META:P161-PWY", "META:ETOH-ACETYLCOA-ANA-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 3.1017761,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00010", "rn01110", "rn01130" ],
+      "orthologs" : [ "K18857", "K00001", "K13980", "K00121", "K04072", "K04022", "K13953", "K13954", "K13951", "K13952" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iNF517", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iWFL_1372", "iECED1_1282", "iECIAI1_1343", "iBWG_1329", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcDH1_1363", "iEcHS_1320", "e_coli_core", "iECO26_1355", "iECP_1309", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iEcSMS35_1347", "iECW_1372", "iECO111_1330", "iNRG857_1313", "iE2348C_1286", "iECH74115_1262", "iECB_1328", "iSB619", "iSbBS512_1146", "iECBD_1354", "iCHOv1", "iECUMN_1333", "iND750", "iECSF_1327", "iSDY_1059", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iHN637", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECNA114_1301", "iECS88_1305", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

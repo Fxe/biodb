@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5989",
+  "equation" : "338349 + atp <=> h + adp + 5pmev",
+  "stoichiometry" : {
+    "l" : {
+      "338349" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5506" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "MEVK1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MEVK1x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MEVK1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iNF517", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "iSB619", "RECON1" ]
+    }
+  }
+}

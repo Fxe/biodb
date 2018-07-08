@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3009",
+  "equation" : "nadph + h2o + h + amuco <=> n2 + ohexa + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd3204" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd5414" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.-",
+  "otherNames" : [ ],
+  "alias" : "AMCOXO",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01938"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMCOXO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

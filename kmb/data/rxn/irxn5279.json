@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5279",
+  "equation" : "retinal + o2 + h2o <=> retn + h + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7129" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd1851" : "",
+      "icpd1715" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.3.1; 1.2.3.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02125"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13681"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -42.08719,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00830" ],
+      "orthologs" : [ "K00157" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

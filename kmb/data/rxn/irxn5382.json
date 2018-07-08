@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5382",
+  "equation" : "nad + h2o + tma <=> tmao + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2828" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd6229" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.6.6.9; EC-1.6.6.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TMAOREDUCT-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02559"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 12.431183,
+      "uniprot" : [ "P33225" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

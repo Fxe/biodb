@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1722",
+  "formula" : "C10H12O2",
+  "name" : "eugenol",
+  "synonyms" : [ "1-hydroxy-2-methoxy-4-allylbenzene", "1-hydroxy-2-methoxy-4-prop-2-enylbenzene", "2-hydroxy-5-allylanisole", "2-methoxy-1-hydroxy-4-allylbenzene", "2-methoxy-4-(2-propenyl)phenol", "2-methoxy-4-(prop-2-en-1-yl)phenol", "2-methoxy-4-allylphenol", "2-methoxy-4-prop-2-enylphenol", "4-allyl-1-hydroxy-2-methoxybenzene", "4-allyl-2-methoxy-phenol", "4-allyl-2-methoxyphenol", "4-hydroxy-3-methoxy-1-allylbenzene", "5-allylguaiacol" ],
+  "alias" : "icpd1722",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-6481"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C10453"
+  } ],
+  "inchi" : "InChI=1S/C10H12O2/c1-3-4-8-5-6-9(11)10(7-8)12-2/h3,5-7,11H,1,4H2,2H3",
+  "inchikey" : "RRAFCDWBNXTKKO-UHFFFAOYSA-N",
+  "smiles" : "C=CCC1=CC=C(C(=C1)OC)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:RXN-13695", "META:RXN-6741", "META:RXN-12939", "META:RXN-9245" ],
+      "gibbs" : 111.83345,
+      "cmlMolWeight" : 164.204,
+      "molWeight" : 164.204,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   19.4613  -12.6079    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6629  -11.8819    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4847  -14.0097    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2332  -11.9274    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8831  -12.5606    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7227  -14.6843    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2880  -14.7328    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0316  -12.6535    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9162  -13.9563    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0718  -11.8355    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2989  -12.5032    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4956  -11.7801    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  2  0     0  0\n  5 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  2  0     0  0\n  6  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C10453\n\n$$$$",
+  "reactions" : [ "irxn283", "irxn4786" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5650",
+  "equation" : "icpd8107 + nadph + h <=> icpd8139 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd8139" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.6.99.1; 1.6.99.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00282"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NADPH-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "Q03558", "Q02899", "P43084", "P41816", "Q42850", "P40952" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00354", "NADPH2" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

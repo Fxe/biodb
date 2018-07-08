@@ -1,0 +1,31 @@
+{
+  "id" : "icpd8104",
+  "formula" : "C5H10O",
+  "name" : "2-methylbutanal",
+  "synonyms" : [ "(+/-)-2-methylbutanal", "(+/-)-2-methylbutyraldehyde", "(rs)-2-methylbutanal", "2-methylbutyraldehyde", "methyl butanal" ],
+  "alias" : "icpd8104",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLBUT-CPD"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02223"
+  } ],
+  "inchi" : "InChI=1S/C5H10O/c1-3-5(2)4-6/h4-5H,3H2,1-2H3",
+  "inchikey" : "BYGQBDHUGHBGMD-UHFFFAOYSA-N",
+  "smiles" : "CCC(C)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:4.1.1.72-RXN", "META:RXN-7694" ],
+      "gibbs" : 71.711205,
+      "cmlMolWeight" : 86.133,
+      "molWeight" : 86.133
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   28.0629  -19.8896    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   26.8594  -19.1918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2663  -19.1918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0629  -21.2849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6497  -19.8896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4702  -19.8838    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02223\n\n$$$$",
+  "reactions" : [ "irxn2674" ]
+}

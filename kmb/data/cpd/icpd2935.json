@@ -1,0 +1,34 @@
+{
+  "id" : "icpd2935",
+  "formula" : "C4H8O4",
+  "name" : "d-erythrose",
+  "synonyms" : [ "(r*,r*)-2,3,4-trihydroxybutanal", "butanal, 2,3,4-trihydroxy-, (2r,3r)-rel-", "d-erythro-tetrose" ],
+  "alias" : "erthrs",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ERYTHROSE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "erthrs"
+  } ],
+  "inchi" : "InChI=1S/C4H8O4/c5-1-3(7)4(8)2-6/h1,3-4,6-8H,2H2/t3-,4+/m0/s1",
+  "inchikey" : "YTBSYETUWUMLBZ-IUYQGCFVSA-N",
+  "smiles" : "C(=O)[C@@]([H])([C@@]([H])(CO)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aldotetraoses" ],
+      "gibbs" : -60.83104,
+      "cmlMolWeight" : 120.105,
+      "molWeight" : 120.105,
+      "parents" : [ "META:Aldotetraoses" ]
+    },
+    "bigg" : {
+      "models" : [ "iML1515" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ ]
+}

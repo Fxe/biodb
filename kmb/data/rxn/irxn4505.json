@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4505",
+  "equation" : "h2o + Lfmkynr <=> for + Lkynr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd1344" : ""
+    },
+    "r" : {
+      "icpd7803" : "",
+      "icpd1650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.9; EC-3.5.1.9",
+  "otherNames" : [ ],
+  "alias" : "FKYNH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ARYLFORMAMIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01959"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FKYNH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:F-", "META:CU+2", "META:ARSENATE", "META:ZN+2", "META:HG+2", "META:SO3", "META:S2O4", "META:AG+", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7765", "META:PWY-5651", "META:TRPCAT-PWY", "META:PWY-6309", "META:PWY-7717" ],
+      "orphan" : "NO",
+      "gibbs" : -1.1171227,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100", "rn00380" ],
+      "orthologs" : [ "K01432", "K07130", "K14263" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

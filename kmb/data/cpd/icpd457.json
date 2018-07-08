@@ -1,0 +1,33 @@
+{
+  "id" : "icpd457",
+  "formula" : "C2H3Cl",
+  "name" : "chloroethene",
+  "synonyms" : [ "chloroethylene", "vinyl chloride" ],
+  "alias" : "icpd457",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06793"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:VINYL-CHLORIDE"
+  } ],
+  "inchi" : "InChI=1S/C2H3Cl/c1-2-3/h2H,1H2",
+  "inchikey" : "BZHJMEDXRYGGRV-UHFFFAOYSA-N",
+  "smiles" : "C=CCl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:1-Alkenes" ],
+      "reactions" : [ "META:VCREDCHLOR-RXN", "META:RXN-17953", "META:DCEREDCHLOR-RXN", "META:RXN-10752", "META:RXN-17581" ],
+      "gibbs" : 40.283363,
+      "cmlMolWeight" : 62.499,
+      "molWeight" : 62.499,
+      "parents" : [ "META:1-Alkenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   29.2136  -16.3269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8115  -16.3269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9147  -17.5363    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06793\n\n$$$$",
+  "reactions" : [ ]
+}

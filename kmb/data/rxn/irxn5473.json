@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5473",
+  "equation" : "zymst <=> chlstol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2984" : ""
+    },
+    "r" : {
+      "icpd4515" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.3.5",
+  "otherNames" : [ ],
+  "alias" : "EBP1r",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CHLSTI_1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN66-320"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EBP1r"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-4541", "META:CPD-4543", "META:CPD-4542", "META:CPD-4505" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-4", "META:PWY66-341" ],
+      "orphan" : "NO",
+      "gibbs" : 24.629,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

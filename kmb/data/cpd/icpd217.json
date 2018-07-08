@@ -1,0 +1,34 @@
+{
+  "id" : "icpd217",
+  "formula" : "C5H10O",
+  "name" : "3-methyl-2-buten-1-ol",
+  "synonyms" : [ "3,3-dimethylallyl alcohol", "3-methyl-2-butene-1-ol", "3-methyl-2-butenol", "3-methyl-2-butenyl alcohol", "3-methylbut-2-en-1-ol", "3-methylcrotyl alcohol", "dimethylallyl alcohol", "dimethylvinylcarbinol", "dimethylvinylmethanol", "isobutenylcarbinol", "prenyl alcohol" ],
+  "alias" : "icpd217",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01390"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C17628"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PRENOL"
+  } ],
+  "inchi" : "InChI=1S/C5H10O/c1-5(2)3-4-6/h3,6H,4H2,1-2H3",
+  "inchikey" : "ASUAYTHWZCLXAN-UHFFFAOYSA-N",
+  "smiles" : "CC(=CCO)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:PRENYL-PYROPHOSPHATASE-RXN" ],
+      "gibbs" : 84.031204,
+      "cmlMolWeight" : 86.133,
+      "molWeight" : 86.133
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   25.1353  -18.2948    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3518  -17.5930    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9247  -17.5930    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5623  -18.2948    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3518  -16.1953    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7141  -18.2948    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01390\n\n$$$$",
+  "reactions" : [ "irxn4717" ]
+}

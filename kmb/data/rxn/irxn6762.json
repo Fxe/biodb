@@ -1,0 +1,61 @@
+{
+  "id" : "irxn6762",
+  "equation" : "succ + fad <=> fadh2 + fum",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd5108" : ""
+    },
+    "r" : {
+      "icpd590" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FRD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SUCDHh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FRDcm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FRD"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SUCD1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00408"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FRDm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SUCD1m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iCHOv1", "iND750", "iJR904", "iAT_PLT_636", "iYO844", "iJN746", "iLJ478", "iRC1080", "iNJ661", "iMM1415", "iMM904", "iSB619", "RECON1" ]
+    }
+  }
+}

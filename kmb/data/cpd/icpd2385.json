@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2385",
+  "formula" : "C5H10O5",
+  "name" : "beta-l-reinofurnost",
+  "synonyms" : [ "beta-l-arabinofuranose" ],
+  "alias" : "icpd2385",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12046"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20569"
+  } ],
+  "inchi" : "InChI=1S/C5H10O5/c6-1-2-3(7)4(8)5(9)10-2/h2-9H,1H2/t2-,3-,4+,5-/m0/s1",
+  "inchikey" : "HMFHBZSHGGEWLO-KLVWXMOXSA-N",
+  "smiles" : "C([C@H]1[C@@H]([C@H]([C@@H](O)O1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:L-arabinofuranose" ],
+      "reactions" : [ "META:RXN-14089" ],
+      "gibbs" : -78.908806,
+      "cmlMolWeight" : 150.131,
+      "molWeight" : 150.131,
+      "parents" : [ "META:L-arabinofuranose" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   18.2198  -18.6282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5745  -18.6282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9931  -17.3398    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8971  -16.5434    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8011  -17.3398    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3708  -19.7243    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5242  -16.9248    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4234  -19.7243    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5136  -17.8346    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3426  -16.9009    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  2  6  1  6     0  0\n  5  7  1  6     0  0\n  1  8  1  1     0  0\n  7  9  1  0     0  0\n  3 10  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C20569\n\n$$$$",
+  "reactions" : [ "irxn2952" ]
+}

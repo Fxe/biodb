@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4569",
+  "equation" : "amet + caffcoa <=> ahcys + ferulcoa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd3652" : ""
+    },
+    "r" : {
+      "icpd2601" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.104; 2.1.1.104",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01942"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CAFFEOYL-COA-O-METHYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2" ],
+      "activators" : [ "META:MG+2", "META:CO+2", "META:CA+2", "META:ZN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7398", "META:PWY-6792", "META:PWY-1121", "META:PWY-7498", "META:PWY-6039", "META:PWY-5710", "META:PWY-361" ],
+      "orphan" : "NO",
+      "gibbs" : -4.3601074,
+      "uniprot" : [ "O65362", "O24149", "Q40313", "P28034", "O49499", "O24144", "Q42945", "O65307", "O04899", "O04854", "Q43095", "O24151", "Q9SVI7", "O24150", "O65162" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00360", "rn00945", "rn00941", "rn00940" ],
+      "orthologs" : [ "K00588" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

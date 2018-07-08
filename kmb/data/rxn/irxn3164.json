@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3164",
+  "equation" : "h2o + meglyxyl <=> egly + 26dmani",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4218" : ""
+    },
+    "r" : {
+      "icpd3333" : "",
+      "icpd296" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.1",
+  "otherNames" : [ ],
+  "alias" : "MEGLYXYLAMH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08295"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MEGLYXYLAMH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00982", "P450" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

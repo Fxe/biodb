@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4748",
+  "equation" : "h + icpd8087 <=> co2 + 34dhbz",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd8087" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4862" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.55; EC-4.1.1.55",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:45-DIHYDROXYPHTHALATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01635"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 1.1482391,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00624" ],
+      "orthologs" : [ "K04102" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

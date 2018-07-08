@@ -1,0 +1,34 @@
+{
+  "id" : "icpd8120",
+  "formula" : "C13H20O3",
+  "name" : "methyl 2-[(1r,2r)-3-oxo-2-[(2z)-pent-2-en-1-yl]cyclopentyl]acetate",
+  "synonyms" : [ ],
+  "alias" : "icpd8120",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11512"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD1F-2"
+  } ],
+  "inchi" : "InChI=1S/C13H20O3/c1-3-4-5-6-11-10(7-8-12(11)14)9-13(15)16-2/h4-5,10-11H,3,6-9H2,1-2H3/b5-4-/t10-,11-/m1/s1",
+  "inchikey" : "GEWDNTWNSAZUDX-WQMVXFAESA-N",
+  "smiles" : "CC/C(/[H])=C(/[H])\\C[C@]1([H])[C@]([H])(CCC1=O)CC(=O)OC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:RXN-15444", "META:RXN-15441", "META:RXN-13821", "META:RXN-13801", "META:RXN-13823", "META:RXN-13800", "META:RXN-6723", "META:RXN-6722", "META:RXN-13819", "META:RXN-15381", "META:RXN-15382", "META:RXN-7062", "META:RXN-15379", "META:RXN-15394", "META:RXN-15452", "META:RXN-13799", "META:RXN-13798", "META:RXN-13831", "META:RXN-13797", "META:RXN-13830", "META:RXN-12884", "META:RXN-13814", "META:RXN-13813", "META:RXN-7628", "META:RXN-7067", "META:RXN-7065", "META:RXN-7063", "META:RXN-7064" ],
+      "instances" : [ "META:Methyl-Jasmonates" ],
+      "reactions" : [ "META:RXN-10768", "META:RXN-10767" ],
+      "gibbs" : 139.22243,
+      "cmlMolWeight" : 224.299,
+      "molWeight" : 224.299,
+      "parents" : [ "META:Methyl-Jasmonates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 16 16  0  0  1  0  0  0  0  0999 V2000\n   24.3800  -20.4336    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.3740  -21.8221    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.0615  -20.0135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7859  -19.1909    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0789  -22.2480    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5700  -22.5046    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2563  -21.1394    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6123  -18.6659    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9761  -19.8910    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7602  -21.8221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3413  -19.8910    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9503  -22.5046    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5256  -19.1909    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7040  -19.8736    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7535  -20.6195    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1571  -21.8033    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  4  9  1  0     0  0\n  6 10  1  0     0  0\n  9 11  2  0     0  0\n 10 12  1  0     0  0\n 11 13  1  0     0  0\n 13 14  1  0     0  0\n  5  7  1  0     0  0\n 10 15  2  0     0  0\n  1  2  1  0     0  0\n 12 16  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11512\n\n$$$$",
+  "reactions" : [ "irxn4624" ]
+}

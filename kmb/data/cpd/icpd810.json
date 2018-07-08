@@ -1,0 +1,44 @@
+{
+  "id" : "icpd810",
+  "formula" : "C10H9NO",
+  "name" : "indole-3-acetaldehyde",
+  "synonyms" : [ "(indol-3-yl)acetaldehyde", "1h-indol-3-ylacetaldehyde", "1h-indole-3-acetaldehyde", "2-(1h-indol-3-yl)acetaldehyde", "2-(3-indolyl)acetaldehyde", "2-(indol-3-yl)acetaldehyde", "indol-3-ylacetaldehyde" ],
+  "alias" : "id3acald",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "id3acald"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "id3acald"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00637"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-20108"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:INDOLE_ACETALDEHYDE"
+  } ],
+  "inchi" : "InChI=1S/C10H9NO/c12-6-5-8-7-11-10-4-2-1-3-9(8)10/h1-4,6-7,11H,5H2",
+  "inchikey" : "WHOOUMGHGSPMGR-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C1)NC=C2CC([H])=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Indoles" ],
+      "reactions" : [ "META:RXN-5603", "META:RXN-10715", "META:RXN-5422", "META:1.1.1.190-RXN", "META:4.1.1.74-RXN", "META:INDOLE-3-ACETALDEHYDE-OXIDASE-RXN", "META:RXN-1401", "META:RXN-10717", "META:RXN-5402", "META:1.1.1.191-RXN", "META:RXN-5581" ],
+      "gibbs" : 99.44109,
+      "cmlMolWeight" : 159.187,
+      "molWeight" : 159.187,
+      "parents" : [ "META:Indoles" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iNJ661", "iMM1415", "iMM904", "iJN678", "iAT_PLT_636", "RECON1", "iSB619" ]
+    }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   21.5600  -16.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5600  -17.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7724  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9849  -17.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9849  -16.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7724  -15.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3164  -18.2826    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1393  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3164  -16.0174    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7475  -14.6906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1269  -14.3974    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0895  -15.4669    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5563  -13.0773    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  5  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  2  0     0  0\n 11 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00637\n\n$$$$",
+  "reactions" : [ "irxn1394", "irxn4213", "irxn1166", "irxn6560", "irxn5086", "irxn6229", "irxn1376", "irxn1574" ]
+}

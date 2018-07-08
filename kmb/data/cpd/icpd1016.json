@@ -1,0 +1,34 @@
+{
+  "id" : "icpd1016",
+  "formula" : "Ba",
+  "name" : "barium(2+)",
+  "synonyms" : [ ],
+  "alias" : "icpd1016",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C13881"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BA+2"
+  } ],
+  "inchi" : "InChI=1S/Ba/q+2",
+  "inchikey" : "XDFCIPNJCBUZJN-UHFFFAOYSA-N",
+  "smiles" : "[Ba+2]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:5-AMINOPENTANAMIDASE-RXN", "META:RXN-10749", "META:RXN-16483", "META:DIHYDROFOLATEREDUCT-RXN", "META:HYPOXANPRIBOSYLTRAN-RXN", "META:ADENPRIBOSYLTRAN-RXN" ],
+      "activators" : [ "META:ACETOINDEHYDROG-RXN", "META:SS-BUTANEDIOL-DEHYDROGENASE-RXN", "META:RXN-9710", "META:PHOSPHOENOLPYRUVATE-PHOSPHATASE-RXN" ],
+      "instances" : [ "META:Divalent-Inorganic-Cations" ],
+      "gibbs" : -1.2482376,
+      "cmlMolWeight" : 137.34,
+      "molWeight" : 137.34,
+      "parents" : [ "META:Divalent-Inorganic-Cations" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   10.9667   -7.4200    0.0000 Ba  0  2  0  0  0  0  0  0  0  0  0  0\nM  CHG  1   1   2\nM  END\n\n> <ENTRY>\ncpd:C13881\n\n$$$$",
+  "reactions" : [ ]
+}

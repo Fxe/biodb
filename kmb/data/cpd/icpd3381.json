@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3381",
+  "formula" : "C6H3Cl4N",
+  "name" : "2-chloro-6-(trichloromethyl)pyridine",
+  "synonyms" : [ ],
+  "alias" : "icpd3381",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NITRAPYRIN"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18751"
+  } ],
+  "inchi" : "InChI=1S/C6H3Cl4N/c7-5-3-1-2-4(11-5)6(8,9)10/h1-3H",
+  "inchikey" : "DCUJJWWUNKIJPH-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=NC(=C1)C(Cl)(Cl)Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:AMONITRO-RXN" ],
+      "gibbs" : 41.993366,
+      "cmlMolWeight" : 230.908,
+      "molWeight" : 230.908
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   17.4300  -19.1800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4300  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6424  -21.2800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8549  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8549  -19.1800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6424  -18.4800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2176  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0221  -20.5896    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   16.2175  -22.6798    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   15.0051  -21.9800    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   21.0860  -21.2910    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  1  0     0  0\n  7 10  1  0     0  0\n  4 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18751\n\n$$$$",
+  "reactions" : [ ]
+}

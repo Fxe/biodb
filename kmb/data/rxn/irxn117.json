@@ -1,0 +1,45 @@
+{
+  "id" : "irxn117",
+  "equation" : "o2 + hqn <=> icpd5991 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5225" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5991" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.66; 1.13.11.66",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05246"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8740"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDROGEN-PEROXIDE", "META:CPD-8819", "META:4-hydroxybenzoate", "META:O-PHENANTHROLINE" ],
+      "activators" : [ "META:FE+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7002", "META:PWY-5487" ],
+      "orphan" : "NO",
+      "gibbs" : -73.51412,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00361" ],
+      "orthologs" : [ "K15240" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

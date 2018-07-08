@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4667",
+  "equation" : "prpp + 4abz <=> Brfap + co2 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd977" : "",
+      "icpd3930" : ""
+    },
+    "r" : {
+      "icpd3539" : "",
+      "icpd2454" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.2.54",
+  "otherNames" : [ ],
+  "alias" : "BRFAPS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10337"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BRFAPS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K06984" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

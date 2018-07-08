@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3895",
+  "formula" : "C3H4O6S",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd3895",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11537"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-367"
+  } ],
+  "inchi" : "InChI=1S/C3H6O6S/c4-2(3(5)6)1-10(7,8)9/h2,4H,1H2,(H,5,6)(H,7,8,9)/p-2",
+  "inchikey" : "CQQGIWJSICOUON-UHFFFAOYSA-L",
+  "smiles" : "C(C(C(=O)[O-])O)S(=O)(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:RS-3-Sulfolactate" ],
+      "reactions" : [ "META:RXN-11727", "META:RXN-11690", "META:RXN-15670", "META:RXN-11691", "META:R230-RXN", "META:R229-RXN" ],
+      "gibbs" : -176.46376,
+      "cmlMolWeight" : 168.121,
+      "molWeight" : 168.121,
+      "parents" : [ "META:RS-3-Sulfolactate" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   23.2400  -20.2300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5000  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6900  -20.2300    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.8800  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2800  -20.9300    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   24.5000  -22.3300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6900  -18.8300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2800  -22.3300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6800  -20.9300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2800  -19.5300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0     0  0\n  2  6  2  0     0  0\n  1  2  1  0     0  0\n  3  7  1  1     0  0\n  3  4  1  0     0  0\n  5  8  2  0     0  0\n  5  9  2  0     0  0\n  4  5  1  0     0  0\n  5 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11537\n\n$$$$",
+  "reactions" : [ "irxn6533", "irxn5880", "irxn5072", "irxn5083" ]
+}

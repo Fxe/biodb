@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6806",
+  "equation" : "alaala + uAgl + atp <=> pi + adp + uAgla",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6473" : "",
+      "icpd2100" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd6832" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.3.2.10",
+  "otherNames" : [ ],
+  "alias" : "UGLDDS1",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:6.3.2.10-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UGLDDS1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6386" ],
+      "orphan" : "NO",
+      "gibbs" : -7.1358643,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iNJ661" ]
+    }
+  }
+}

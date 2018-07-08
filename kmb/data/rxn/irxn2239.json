@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2239",
+  "equation" : "gtp + 2.0 h2o <=> 2.0 h + 2.0 pi + gmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1365" : "",
+      "icpd4016" : "2.0"
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd7485" : "2.0",
+      "icpd2316" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1.5",
+  "otherNames" : [ ],
+  "alias" : "GTPH1",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14201"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GTPH1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -109.40204,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661", "iMM904" ]
+    }
+  }
+}

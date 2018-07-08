@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3538",
+  "equation" : "nad + inost <=> nadh + 2ins + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd4293" : ""
+    },
+    "r" : {
+      "icpd7818" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.18; 1.1.1.18",
+  "otherNames" : [ ],
+  "alias" : "INS2D",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01183"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MYO-INOSITOL-2-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "INS2D"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-365" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7241", "META:PWY-7237", "META:PWY-5940", "META:P562-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -0.37820435,
+      "uniprot" : [ "P26935" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562", "rn01120", "rn01130", "rn00521" ],
+      "orthologs" : [ "K00010" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iAF692", "iYO844" ]
+    }
+  }
+}

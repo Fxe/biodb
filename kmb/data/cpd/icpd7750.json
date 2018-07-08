@@ -1,0 +1,35 @@
+{
+  "id" : "icpd7750",
+  "formula" : "C41H64N7O17P3S",
+  "name" : "eicosa-2e,8z,11z,14z,17z-pentaenoyl-coa",
+  "synonyms" : [ "(2e,8z,11z,14z,17z)-icosa-2,8,11,14,17-pentaenoyl-coa" ],
+  "alias" : "CE4812",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-17264"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE4812"
+  } ],
+  "inchi" : "InChI=1S/C41H64N7O17P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-32(50)69-25-24-43-31(49)22-23-44-39(53)36(52)41(2,3)27-62-68(59,60)65-67(57,58)61-26-30-35(64-66(54,55)56)34(51)40(63-30)48-29-47-33-37(42)45-28-46-38(33)48/h5-6,8-9,11-12,14-15,20-21,28-30,34-36,40,51-52H,4,7,10,13,16-19,22-27H2,1-3H3,(H,43,49)(H,44,53)(H,57,58)(H,59,60)(H2,42,45,46)(H2,54,55,56)/b6-5-,9-8-,12-11-,15-14-,21-20+/t30-,34-,35-,36+,40-/m1/s1",
+  "inchikey" : "PTROMSLVPFEIQJ-QPYOYMCKSA-N",
+  "smiles" : "CC/C(/[H])=C(/[H])\\C/C(/[H])=C(/[H])\\C/C(/[H])=C(/[H])\\C/C(/[H])=C(/[H])\\CCCC/C(/[H])=C(\\[H])/C(=O)SCCN=C(CCN=C([C@@]([H])(C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:All-Coas" ],
+      "reactions" : [ "META:RXN-16021", "META:RXN-16022" ],
+      "gibbs" : -100.404785,
+      "cmlMolWeight" : 1047.943,
+      "molWeight" : 1047.943,
+      "parents" : [ "META:All-Coas" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn6661" ]
+}

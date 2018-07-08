@@ -1,0 +1,52 @@
+{
+  "id" : "irxn4820",
+  "equation" : "estrone + nadph + o2 + h <=> h2o + 325232 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2533" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "325232" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RE1587L",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE1587R"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE1587C"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE1587L"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

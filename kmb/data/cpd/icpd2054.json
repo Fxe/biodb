@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2054",
+  "formula" : "C7H15NO",
+  "name" : "n-methylhexanamide",
+  "synonyms" : [ "n-methyl hexanamide", "n-methyl hexanoyl amine" ],
+  "alias" : "icpd2054",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02722"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-METHYLHEXANAMIDE"
+  } ],
+  "inchi" : "InChI=1S/C7H15NO/c1-3-4-5-6-7(9)8-2/h3-6H2,1-2H3,(H,8,9)",
+  "inchikey" : "RSPBQSYWXAROOO-UHFFFAOYSA-N",
+  "smiles" : "CCCCCC(=O)NC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Amides" ],
+      "reactions" : [ "META:ALKYLAMIDASE-RXN" ],
+      "gibbs" : 121.0468,
+      "cmlMolWeight" : 129.202,
+      "molWeight" : 129.202,
+      "parents" : [ "META:Amides" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   26.7055  -17.5342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5602  -18.1980    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8508  -18.1980    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7055  -16.2123    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4089  -17.5342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2637  -18.1980    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1185  -17.5342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9672  -18.1980    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0704  -17.4966    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  3  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02722\n\n$$$$",
+  "reactions" : [ "irxn3513" ]
+}

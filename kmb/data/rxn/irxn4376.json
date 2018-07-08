@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4376",
+  "equation" : "icpd5343 <=> 2.0 icpd1537",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5343" : ""
+    },
+    "r" : {
+      "icpd1537" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.2.6; 4.2.2.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OLIGOGALACTURONIDE-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04382"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06249"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 3.77417,
+      "uniprot" : [ "Q59418", "P21258" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00040" ],
+      "orthologs" : [ "K01730" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

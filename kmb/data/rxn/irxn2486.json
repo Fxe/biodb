@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2486",
+  "equation" : "Rtotalcoa + glyc1p <=> coa + 323798",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2196" : "",
+      "icpd3391" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "323798" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GPAM_cho",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GPAM_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GPAMm_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

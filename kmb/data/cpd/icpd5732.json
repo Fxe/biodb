@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5732",
+  "formula" : "C9H9O4",
+  "name" : "homovanillate",
+  "synonyms" : [ "(4-hydroxy-3-methoxyphenyl)acetate", "3-methoxy-4-hydroxyphenylacetate", "4-hydroxy-3-methoxybenzeneacetate" ],
+  "alias" : "homoval",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "homoval"
+  }, {
+    "source" : "BiGG",
+    "entry" : "homoval"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05582"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7651"
+  } ],
+  "inchi" : "InChI=1S/C9H10O4/c1-13-8-4-6(5-9(11)12)2-3-7(8)10/h2-4,10H,5H2,1H3,(H,11,12)/p-1",
+  "inchikey" : "QRMZSPFSDQBLIX-UHFFFAOYSA-M",
+  "smiles" : "COC1=CC(=CC=C1O)CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Guaiacols" ],
+      "reactions" : [ "META:RXN6666-6", "META:RXN-10877" ],
+      "gibbs" : -22.06197,
+      "cmlMolWeight" : 181.168,
+      "molWeight" : 181.168,
+      "parents" : [ "META:Guaiacols" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   12.9500   -6.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9500   -8.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1624   -8.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3749   -8.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3749   -6.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1624   -5.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6124   -5.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8249   -6.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0560   -5.9390    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8250   -8.0498    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1624  -10.1498    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.7376   -8.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9332  -10.8597    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  8 10  1  0     0  0\n  3 11  1  0     0  0\n  2 12  1  0     0  0\n 11 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05582\n\n$$$$",
+  "reactions" : [ "irxn3230", "irxn558", "irxn5513" ]
+}

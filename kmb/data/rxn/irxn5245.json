@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5245",
+  "equation" : "h2 + mqn8 <=> mql8",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4178" : "",
+      "icpd3917" : ""
+    },
+    "r" : {
+      "icpd8176" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.12.5.1; EC-1.12.5.1",
+  "otherNames" : [ ],
+  "alias" : "HYD4pp",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.12.5.1-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02965"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HYD4pp"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -44.45224,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

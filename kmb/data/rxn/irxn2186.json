@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2186",
+  "equation" : "Ncbmpts + 2.0 h2o + 2.0 h <=> ptrc + n2 + hco3",
+  "stoichiometry" : {
+    "l" : {
+      "icpd863" : "",
+      "icpd1851" : "2.0",
+      "icpd4016" : "2.0"
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd4511" : "",
+      "icpd1484" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CBPAH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NCPA_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CBPAH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iAF987" ]
+    }
+  }
+}

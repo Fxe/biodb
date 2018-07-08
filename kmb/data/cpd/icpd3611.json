@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3611",
+  "formula" : "C6H4Cl4",
+  "name" : "1,3,4,6-tetrachloro-1,4-cyclohexadiene",
+  "synonyms" : [ ],
+  "alias" : "icpd3611",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06597"
+  } ],
+  "inchi" : "InChI=1S/C6H4Cl4/c7-3-1-4(8)6(10)2-5(3)9/h1-3,6H",
+  "inchikey" : "HKAJKOBDBFGGIU-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C(C=C(C1Cl)Cl)Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:LINABSPON-RXN", "META:LINA2-RXN", "META:LINB1-RXN" ],
+      "gibbs" : 36.364487,
+      "cmlMolWeight" : 217.91,
+      "molWeight" : 217.91
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   27.6465  -17.6736    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.6816  -16.2704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8749  -18.3430    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2431  -18.4071    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   28.7993  -15.5428    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3832  -15.6010    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   30.0041  -17.6096    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0335  -16.2064    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   31.3026  -18.2733    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   31.2269  -15.4788    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  1     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06597\n\n$$$$",
+  "reactions" : [ "irxn3146", "irxn3807", "irxn6789" ]
+}

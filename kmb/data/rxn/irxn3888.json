@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3888",
+  "equation" : "h2o + thdp + glu__L + h <=> 318093 + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd514" : "",
+      "icpd5711" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "318093" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "LDAPAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LDAPAT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DAPAT_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iAF987", "iHN637", "iJB785" ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2069",
+  "equation" : "o2 + pro__L + akg <=> succ + co2 + 321206",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : "",
+      "icpd4081" : ""
+    },
+    "r" : {
+      "321206" : "",
+      "icpd2454" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PROAKGOX1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PROAKGOX1r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PROAKGOX1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid", "iMM1415", "RECON1", "iJB785" ]
+    }
+  }
+}

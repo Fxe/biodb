@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3031",
+  "formula" : "C2H2Cl2",
+  "name" : "trans-1,2-dichloroethene",
+  "synonyms" : [ ],
+  "alias" : "icpd3031",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06791"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-12-DCE"
+  } ],
+  "inchi" : "InChI=1S/C2H2Cl2/c3-1-2-4/h1-2H/b2-1+",
+  "inchikey" : "KFUSEUYYWQURPO-OWOJBTEDSA-N",
+  "smiles" : "C(=C\\Cl)/Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-10752" ],
+      "gibbs" : 27.662241,
+      "cmlMolWeight" : 96.944,
+      "molWeight" : 96.944
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   28.1386  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5414  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4371  -15.7300    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   30.2429  -18.1500    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06791\n\n$$$$",
+  "reactions" : [ ]
+}

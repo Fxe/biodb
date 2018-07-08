@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1325",
+  "equation" : "4.0 ipdp + frdp <=> hepdp + 4.0 ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4227" : "4.0",
+      "icpd3179" : ""
+    },
+    "r" : {
+      "icpd2678" : "",
+      "icpd1231" : "4.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.30; 2.5.1.30",
+  "otherNames" : [ ],
+  "alias" : "PREN",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09247"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PREN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-HEXAPRENYLTRANSTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5807" ],
+      "orphan" : "NO",
+      "gibbs" : -52.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00900" ],
+      "orthologs" : [ "K00805" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517" ]
+    }
+  }
+}

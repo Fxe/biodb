@@ -1,0 +1,35 @@
+{
+  "id" : "icpd5429",
+  "formula" : "C28H48N7O17P3S",
+  "name" : "heptanoyl-coa",
+  "synonyms" : [ "enanthyl-coa", "enanthyl-coenzyme a" ],
+  "alias" : "hptcoa",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14432"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "hptcoa"
+  } ],
+  "inchi" : "InChI=1S/C28H48N7O17P3S/c1-4-5-6-7-8-19(37)56-12-11-30-18(36)9-10-31-26(40)23(39)28(2,3)14-49-55(46,47)52-54(44,45)48-13-17-22(51-53(41,42)43)21(38)27(50-17)35-16-34-20-24(29)32-15-33-25(20)35/h15-17,21-23,27,38-39H,4-14H2,1-3H3,(H,30,36)(H,31,40)(H,44,45)(H,46,47)(H2,29,32,33)(H2,41,42,43)/t17-,21-,22-,23+,27-/m1/s1",
+  "inchikey" : "CHVYGJMBUXUTSX-SVHODSNWSA-N",
+  "smiles" : "CCCCCCC(=O)SCCN=C(CCN=C([C@@]([H])(C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Medium-Chain-234-Saturated-acyl-CoAs" ],
+      "reactions" : [ "META:RXN-17206" ],
+      "gibbs" : -396.05273,
+      "cmlMolWeight" : 875.674,
+      "molWeight" : 875.674,
+      "parents" : [ "META:Medium-Chain-234-Saturated-acyl-CoAs" ]
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn5009" ]
+}

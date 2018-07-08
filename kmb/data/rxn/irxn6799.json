@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6799",
+  "equation" : "h2o + icpd6859 <=> 2.0 cl + fald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6859" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7455" : "",
+      "icpd8186" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "4.5.1.3; EC-4.5.1.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00603"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DICHLOROMETHANE-DEHALOGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 20.97876,
+      "uniprot" : [ "P21161", "Q7M134", "Q7M126" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00625" ],
+      "orthologs" : [ "K17070" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

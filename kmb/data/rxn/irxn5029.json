@@ -1,0 +1,54 @@
+{
+  "id" : "irxn5029",
+  "equation" : "nad + 4hglusa + h2o <=> e4hglu + nadh + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd1579" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd3404" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1; 1.2.1.88",
+  "otherNames" : [ ],
+  "alias" : "4HGLSD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "4HGLSDm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "4HGLSD"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14472"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05051"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:HYDROXYPRODEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -13.105316,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ "K00294", "K13821" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iIT341", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

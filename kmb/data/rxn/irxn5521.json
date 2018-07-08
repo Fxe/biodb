@@ -1,0 +1,42 @@
+{
+  "id" : "irxn5521",
+  "equation" : "adprbp <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5586" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SK_adprbp_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EX_adprbp_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SK_adprbp_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

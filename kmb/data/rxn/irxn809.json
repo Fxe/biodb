@@ -1,0 +1,49 @@
+{
+  "id" : "irxn809",
+  "equation" : "h + phpyr <=> pacald + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd3407" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4822" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.-; 4.1.1.43; EC-4.1.1.43",
+  "otherNames" : [ ],
+  "alias" : "PPYRDC",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENYLPYRUVATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPYRDC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01377"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ANAPHENOXI-PWY", "META:PWY-5079" ],
+      "orphan" : "NO",
+      "gibbs" : -3.46588,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00360" ],
+      "orthologs" : [ "K12732" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iMM904" ]
+    }
+  }
+}

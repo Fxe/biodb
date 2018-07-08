@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1502",
+  "equation" : "h2o + glu__L + 2.0 fdxox <=> 2.0 fdxrd + n2 + 2.0 h + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd321" : "2.0",
+      "icpd4016" : "",
+      "icpd514" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd1851" : "2.0",
+      "icpd7085" : "",
+      "icpd930" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.7.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10086"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12878"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GLUTAMATE-SYNTHASE-FERREDOXIN-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -6.802994,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00284" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

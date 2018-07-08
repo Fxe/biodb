@@ -1,0 +1,54 @@
+{
+  "id" : "irxn3771",
+  "equation" : "o2 + h2o + gly <=> glx + n2 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd855" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd941" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.4.3.19; 1.4.3.3; 1.4.3.19",
+  "otherNames" : [ ],
+  "alias" : "GLYO1",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.4.3.19-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLYO1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLYOp"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00366"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7396" ],
+      "orphan" : "NO",
+      "gibbs" : -22.217125,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00260" ],
+      "orthologs" : [ "K00273" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iYO844" ]
+    }
+  }
+}

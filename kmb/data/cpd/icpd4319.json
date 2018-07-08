@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4319",
+  "formula" : "C4H8O2S2",
+  "name" : "4,5-cis-dihydroxy-1,2-dithiacyclohexane",
+  "synonyms" : [ ],
+  "alias" : "icpd4319",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06484"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:45-CIS-DIHYDROXY-12-DITHIACYCLOHEXANE"
+  } ],
+  "inchi" : "InChI=1S/C4H8O2S2/c5-3-1-7-8-2-4(3)6/h3-6H,1-2H2/t3-,4+",
+  "inchikey" : "YPGMOWHXEQDBBV-ZXZARUISSA-N",
+  "smiles" : "C1[C@@H]([C@@H](CSS1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:2.8.1.5-RXN" ],
+      "gibbs" : 16.648966,
+      "cmlMolWeight" : 152.226,
+      "molWeight" : 152.226
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  1  0  0  0  0  0999 V2000\n   15.1900  -13.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1900  -15.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4024  -15.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6149  -15.0500    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6149  -13.6500    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4024  -12.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9776  -12.9500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9776  -15.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  1  7  1  1     0  0\n  2  8  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C06484\n\n$$$$",
+  "reactions" : [ "irxn417" ]
+}

@@ -1,0 +1,38 @@
+{
+  "id" : "icpd2792",
+  "formula" : "C6H10N4",
+  "name" : "4-amino-5-aminomethyl-2-methylpyrimidine",
+  "synonyms" : [ "2-methyl-4-amino-5-aminomethylpyrimidine" ],
+  "alias" : "4aammp",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20267"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "4aammp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13578"
+  } ],
+  "inchi" : "InChI=1S/C6H10N4/c1-4-9-3-5(2-7)6(8)10-4/h3H,2,7H2,1H3,(H2,8,9,10)",
+  "inchikey" : "OZOHTVFCSKFMLL-UHFFFAOYSA-N",
+  "smiles" : "CC1=NC=C(CN)C(=N)N1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Pyrimidines" ],
+      "reactions" : [ "META:RXN-12612", "META:RXN-12613" ],
+      "gibbs" : 138.60027,
+      "cmlMolWeight" : 139.18,
+      "molWeight" : 139.18,
+      "parents" : [ "META:Pyrimidines" ]
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   18.0180  -16.1618    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2161  -16.8690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0180  -14.7598    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8139  -16.8499    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4330  -16.1618    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2098  -18.3276    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2161  -14.0718    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6160  -16.1491    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4330  -14.7598    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6309  -14.0655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  9 10  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20267\n\n$$$$",
+  "reactions" : [ "irxn2128", "irxn5735" ]
+}

@@ -1,0 +1,53 @@
+{
+  "id" : "irxn6239",
+  "equation" : "h2o + thmtp <=> h + pi + thmpp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1527" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6523" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1.28; 3.6.1.28",
+  "otherNames" : [ ],
+  "alias" : "THMTP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "THMTP"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THIAMIN-TRIPHOSPHATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00618"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TMTP_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7369" ],
+      "orphan" : null,
+      "gibbs" : -103.21301,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00730" ],
+      "orthologs" : [ "K05307" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

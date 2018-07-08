@@ -1,0 +1,39 @@
+{
+  "id" : "icpd1243",
+  "formula" : "C13H16N2O3",
+  "name" : "n-[2-(6-hydroxy-5-methoxy-1h-indol-3-yl)ethyl]acetamide",
+  "synonyms" : [ "3-(n-acetylaminoethyl)-6-hydroxy-5-methoxyindole", "n-(2(6-hydroxy-5-methoxy-1h-indol-3-yl)ethyl)acetamide", "n-(2-(6-hydroxy-5-methoxy-1h-indol-3-yl)ethyl)-acetamide", "n-(2-(6-hydroxy-5-methoxyindol-3-yl)ethyl)-acetamide", "n-[2-(6-hydroxy-5-methoxy-1h-indol-3-yl)ethyl]-acetamide", "n-[2-(6-hydroxy-5-methoxyindol-3-yl)ethyl]-acetamide" ],
+  "alias" : "6hoxmelatn",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05643"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "6hoxmelatn"
+  }, {
+    "source" : "BiGG",
+    "entry" : "6hoxmelatn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12014"
+  } ],
+  "inchi" : "InChI=1S/C13H16N2O3/c1-8(16)14-4-3-9-7-15-11-6-12(17)13(18-2)5-10(9)11/h5-7,15,17H,3-4H2,1-2H3,(H,14,16)",
+  "inchikey" : "OMYMRCXOJJZYKE-UHFFFAOYSA-N",
+  "smiles" : "CC(=NCCC1=CNC2=C1C=C(C(=C2)O)OC)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-11056", "META:RXN-11058" ],
+      "gibbs" : 115.31794,
+      "cmlMolWeight" : 248.281,
+      "molWeight" : 248.281
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 18 19  0  0  0  0  0  0  0  0999 V2000\n   13.6500  -23.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.6500  -24.4300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8624  -25.1300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0749  -24.4300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0749  -23.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8624  -22.3300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4064  -24.8626    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2293  -23.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4064  -22.5974    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.4376  -25.1300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2421  -24.4396    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8375  -26.1894    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2169  -26.4826    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1795  -25.4131    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5297  -25.6998    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4844  -24.6386    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9626  -27.0309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.4376  -22.3300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  5  9  1  0     0  0\n  2 10  1  0     0  0\n 10 11  1  0     0  0\n  7 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 14 15  1  0     0  0\n 15 16  2  0     0  0\n 15 17  1  0     0  0\n  1 18  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05643\n\n$$$$",
+  "reactions" : [ ]
+}

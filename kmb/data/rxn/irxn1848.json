@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1848",
+  "equation" : "h + akg <=> sucsal + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7343" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.71; 4.1.1.71",
+  "otherNames" : [ ],
+  "alias" : "OXGDC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OXGDC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00272"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7774"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P105-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -2.1417694,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661", "iYO844" ]
+    }
+  }
+}

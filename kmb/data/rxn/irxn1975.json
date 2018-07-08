@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1975",
+  "equation" : "gtp + ump <=> udp + gdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1365" : "",
+      "icpd290" : ""
+    },
+    "r" : {
+      "icpd166" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "UMPK4",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UMPK4"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UMPK4n"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

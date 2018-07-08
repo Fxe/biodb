@@ -1,0 +1,30 @@
+{
+  "id" : "icpd4602",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4602",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Acetate-esters"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01883"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-6501", "META:CPD-13346", "META:CPD-19628", "META:CPD-19627", "META:CPD-18484", "META:CPD-524", "META:CPD-12846", "META:ETHYLACETATE", "META:CPD-19626", "META:CPD-18998", "META:CPD-19624" ],
+      "reactions" : [ "META:ACETYLESTERASE-RXN", "META:ALCOHOL-O-ACETYLTRANSFERASE-RXN" ],
+      "parents" : [ "META:CPD-6501", "META:CPD-13346", "META:CPD-19628", "META:CPD-19627", "META:Carboxylic-esters", "META:CPD-18484", "META:CPD-524", "META:CPD-12846", "META:ETHYLACETATE", "META:CPD-19626", "META:CPD-18998", "META:CPD-19624" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   21.4977  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7068  -17.2210    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2823  -17.2210    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4977  -15.1881    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9156  -16.5200    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01883\n\n$$$$",
+  "reactions" : [ "irxn2536", "irxn1856" ]
+}

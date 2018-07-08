@@ -1,0 +1,54 @@
+{
+  "id" : "irxn1286",
+  "equation" : "o2 + h2o + pydx <=> 4pyrdx + h + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5696" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd1851" : "",
+      "icpd3469" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.3.8; EC-1.2.3.8; 1.2.3.1",
+  "otherNames" : [ ],
+  "alias" : "PYDXDH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRIDOXAL-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01709"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYDXDH_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYDXDH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -42.087135,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00750", "rn01100", "rn01120", "B6" ],
+      "orthologs" : [ "K00157" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1706",
+  "formula" : "C5H10N2O3",
+  "name" : "d-glutamine",
+  "synonyms" : [ "(2r)-2-amino-4-carbamoylbutanoic acid", "d-2-aminoglutaramic acid", "d-glutaminic acid" ],
+  "alias" : "icpd1706",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00819"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTAMIDE"
+  } ],
+  "inchi" : "InChI=1S/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)/t3-/m1/s1",
+  "inchikey" : "ZDXPYRJPNDTMRX-GSVOUGTGSA-N",
+  "smiles" : "C(CC(=O)N)[C@H](C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:D-Amino-Acids" ],
+      "reactions" : [ "META:D-GLUTAMINASE-RXN", "META:2.3.2.1-RXN", "META:D-GLUTAMYLTRANSFERASE-RXN" ],
+      "gibbs" : -18.978802,
+      "cmlMolWeight" : 146.146,
+      "molWeight" : 146.146,
+      "parents" : [ "META:D-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   23.8378  -17.4606    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.0254  -16.7178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6035  -16.7995    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8787  -18.8587    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2597  -17.3787    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4451  -17.5952    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6209  -15.4015    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4472  -16.6416    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6814  -17.3027    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4704  -15.2435    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00819\n\n$$$$",
+  "reactions" : [ "irxn4371", "irxn6382" ]
+}

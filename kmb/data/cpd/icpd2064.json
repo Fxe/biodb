@@ -1,0 +1,39 @@
+{
+  "id" : "icpd2064",
+  "formula" : "CH5O3P",
+  "name" : "methylphosphonic acid",
+  "synonyms" : [ ],
+  "alias" : "mepn",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20396"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1068"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "mepn"
+  } ],
+  "inchi" : "InChI=1S/CH5O3P/c1-5(2,3)4/h1H3,(H2,2,3,4)",
+  "inchikey" : "YACKEPLHDIMKIO-UHFFFAOYSA-N",
+  "smiles" : "CP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2.6.1.37-RXN" ],
+      "instances" : [ "META:Alkylphosphonates" ],
+      "reactions" : [ "META:RXN0-6732", "META:RXN-13856" ],
+      "gibbs" : -170.87756,
+      "cmlMolWeight" : 95.015,
+      "molWeight" : 95.015,
+      "parents" : [ "META:Alkylphosphonates" ]
+    },
+    "bigg" : {
+      "models" : [ "iML1515" ]
+    }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   19.0123  -16.1799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6205  -16.1682    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   16.1821  -16.1566    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6205  -17.5543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6205  -14.7705    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20396\n\n$$$$",
+  "reactions" : [ "irxn3109", "irxn3279" ]
+}

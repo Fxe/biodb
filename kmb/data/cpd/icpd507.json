@@ -1,0 +1,31 @@
+{
+  "id" : "icpd507",
+  "formula" : "C5H6O2",
+  "name" : "furfuryl alcohol",
+  "synonyms" : [ "(2-furyl)-methanol", "(2-furyl)methanol", "2-(hydroxymethyl)furan", "2-furane-methanol", "2-furanemethanol", "2-furanmethanol", "2-furanylmethanol", "2-furylcarbinol", "2-furylmethanol", "2-hydroxymethylfuran", "2-hydroxymethylfurane", "5-hydroxymethylfuran", "furan-2-methanol", "furan-2-yl-methanol", "furan-2-ylmethanol", "furanmethanol", "furfurol", "furfuryl alcohol, 8ci", "furylcarbinol" ],
+  "alias" : "icpd507",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14102"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20441"
+  } ],
+  "inchi" : "InChI=1S/C5H6O2/c6-4-5-2-1-3-7-5/h1-3,6H,4H2",
+  "inchikey" : "XPFVYQJUAUNWIW-UHFFFAOYSA-N",
+  "smiles" : "C1=COC(=C1)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-13099", "META:RXN-13103" ],
+      "gibbs" : 4.936725,
+      "cmlMolWeight" : 98.101,
+      "molWeight" : 98.101
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  7  0  0  0  0  0  0  0  0999 V2000\n   18.1623  -17.2601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5980  -15.9296    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4625  -15.1040    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3271  -15.9296    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7627  -17.2601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8024  -15.2241    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0112  -15.9239    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  5  1  1  0     0  0\n  1  2  2  0     0  0\n  2  6  1  0     0  0\n  2  3  1  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20441\n\n$$$$",
+  "reactions" : [ "irxn2002" ]
+}

@@ -1,0 +1,42 @@
+{
+  "id" : "icpd8140",
+  "formula" : "C6H5O7",
+  "name" : "isocitrate",
+  "synonyms" : [ "1-hydroxy-1,2,3-propanetricarboxylate", "1-hydroxypropane-1,2,3-tricarboxylate" ],
+  "alias" : "icit",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "icit"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "icit"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00311"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Isocitrate"
+  } ],
+  "inchi" : "InChI=1S/C6H8O7/c7-3(8)1-2(5(10)11)4(9)6(12)13/h2,4,9H,1H2,(H,7,8)(H,10,11)(H,12,13)/p-3",
+  "inchikey" : "ODBLHEXUDAPZAU-UHFFFAOYSA-K",
+  "smiles" : "C(C(C(C(=O)[O-])O)C(=O)[O-])C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PHOSICITDEHASE-RXN" ],
+      "activators" : [ "META:DEPHOSICITDEHASE-RXN" ],
+      "instances" : [ "META:THREO-DS-ISO-CITRATE", "META:CPD-10748", "META:CPD-10747", "META:CPD-10745" ],
+      "gibbs" : -227.75293,
+      "cmlMolWeight" : 189.101,
+      "molWeight" : 189.101,
+      "parents" : [ "META:THREO-DS-ISO-CITRATE", "META:CPD-10748", "META:CPD-10747", "META:CPD-10745", "META:Tricarboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "e_coli_core", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 13 12  0  0  0  0  0  0  0  0999 V2000\n   25.1466  -22.8102    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   26.3527  -23.5115    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   23.9334  -23.5115    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1466  -21.4133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3527  -24.9142    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5715  -22.8102    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7216  -22.8102    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3584  -20.7178    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9276  -20.7178    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1466  -25.6099    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5715  -25.6099    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7273  -21.4133    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5084  -23.5175    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  2  0     0  0\n  7 12  1  0     0  0\n  7 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00311\n\n$$$$",
+  "reactions" : [ "irxn6324", "irxn2738", "irxn1360", "irxn4296", "irxn194", "irxn5954", "irxn4129" ]
+}

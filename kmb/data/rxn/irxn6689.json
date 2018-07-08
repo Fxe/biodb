@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6689",
+  "equation" : "o2 + ga <=> icpd1670 + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd6591" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd1670" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.57; EC-1.13.11.57; 1.13.11.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09565"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GALLATE-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GALLATE-DEGRADATION-II-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -102.8306,
+      "uniprot" : [ "P22636", "P22635" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627" ],
+      "orthologs" : [ "K04099", "K04100", "K04101" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

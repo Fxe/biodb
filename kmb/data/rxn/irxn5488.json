@@ -1,0 +1,52 @@
+{
+  "id" : "irxn5488",
+  "equation" : "succoa + acac <=> aacoa + succ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd267" : "",
+      "icpd5739" : ""
+    },
+    "r" : {
+      "icpd726" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.3.5; 2.8.3.5",
+  "otherNames" : [ ],
+  "alias" : "OCOAT1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OCOAT1m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OCOAT1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00410"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXNI-2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:REDCITCYC", "META:PWY66-368" ],
+      "orphan" : "NO",
+      "gibbs" : 4.302368,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00650", "rn00280", "rn00072" ],
+      "orthologs" : [ "K01028", "K01029", "K01027" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iIT341", "iNJ661", "iECIAI1_1343", "iEcE24377_1341", "iLB1027_lipid", "iMM1415", "iAT_PLT_636", "iAF987", "RECON1", "iYO844", "iJN746" ]
+    }
+  }
+}

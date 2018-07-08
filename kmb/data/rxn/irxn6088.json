@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6088",
+  "equation" : "h2o + 5apentam <=> n2 + 5aptn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4547" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd860" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.30; 3.5.1.30",
+  "otherNames" : [ ],
+  "alias" : "APENTAMAH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "APENTAMAH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-AMINOPENTANAMIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02273"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-763", "META:CU+2", "META:MG+2", "META:CO+2", "META:ZN+2", "META:HG+2", "META:CD+2", "META:PHMB", "META:FE+2", "META:BA+2", "META:CA+2", "META:CPD-1490", "META:PB+2" ],
+      "activators" : [ "META:CPD-1484", "META:FE+3" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5280" ],
+      "orphan" : "NO",
+      "gibbs" : -4.713009,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

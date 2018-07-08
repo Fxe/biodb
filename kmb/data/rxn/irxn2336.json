@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2336",
+  "equation" : "2.0 ascb__L + h2o2 <=> 2.0 h2o + 2.0 icpd1771",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2494" : "",
+      "icpd285" : "2.0"
+    },
+    "r" : {
+      "icpd1771" : "2.0",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.11.1.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-3521"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09540"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HCN", "META:PHMB", "META:CPD0-1313" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-12440" ],
+      "orphan" : "NO",
+      "gibbs" : -78.46576,
+      "uniprot" : [ "Q39843", "O46921", "Q42459", "O49159", "Q43824", "Q05431", "O81604", "O81603", "Q96399", "Q41371", "O49122", "O49822", "Q42564", "Q41772", "Q7M287", "O65634", "Q42661", "P93404", "O81333", "Q9FE01", "Q7M3G0", "Q9STM9", "P48534", "Q39780", "Q42909" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00053" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

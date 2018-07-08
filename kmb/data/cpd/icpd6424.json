@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6424",
+  "formula" : "CH2BrCl",
+  "name" : "bromochloromethane",
+  "synonyms" : [ ],
+  "alias" : "icpd6424",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-614"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02661"
+  } ],
+  "inchi" : "InChI=1S/CH2BrCl/c2-1-3/h1H2",
+  "inchikey" : "JPOXNPPZZKNXOV-UHFFFAOYSA-N",
+  "smiles" : "C(Br)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chlorides", "META:Bromoalkanes" ],
+      "reactions" : [ "META:ALKYLHALIDASE-RXN" ],
+      "gibbs" : 22.162243,
+      "cmlMolWeight" : 129.384,
+      "molWeight" : 129.384,
+      "parents" : [ "META:Chlorides", "META:Bromoalkanes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   18.5211  -14.4008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6924  -15.0230    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   17.2218  -15.0962    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02661\n\n$$$$",
+  "reactions" : [ "irxn3860" ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2510",
+  "equation" : "utp + h + gal1p <=> ppi + udpgal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd115" : "",
+      "icpd1851" : "",
+      "icpd3649" : ""
+    },
+    "r" : {
+      "icpd5440" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.7.10; 2.7.7.64",
+  "otherNames" : [ ],
+  "alias" : "GALT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00502"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GALT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100", "rn00052" ],
+      "orthologs" : [ "K12447" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNF517", "iIT341", "iND750", "iAT_PLT_636", "iYO844", "iAB_RBC_283", "iLJ478", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

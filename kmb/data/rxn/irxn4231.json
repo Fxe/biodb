@@ -1,0 +1,53 @@
+{
+  "id" : "irxn4231",
+  "equation" : "ptcys + atp <=> 4ppcys + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6815" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd2738" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.33",
+  "otherNames" : [ ],
+  "alias" : "r0680",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "APCPT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0679"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04391"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0680"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00770" ],
+      "orthologs" : [ "K09680", "K01947", "K00867", "K03525" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080" ]
+    }
+  }
+}

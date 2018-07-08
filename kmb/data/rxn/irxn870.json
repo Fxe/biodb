@@ -1,0 +1,47 @@
+{
+  "id" : "irxn870",
+  "equation" : "o2 + icpd1167 + akg <=> icpd5330 + succ + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7043" : "",
+      "icpd1167" : ""
+    },
+    "r" : {
+      "icpd5330" : "",
+      "icpd2454" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.11.26; 1.14.11.26",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05229"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.14.11.26-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:N-ETHYLMALEIMIDE", "META:CU+2", "META:NI+2", "META:CO+2", "META:DITHIO-NITROBENZOATE", "META:ZN+2", "META:PENICILLIN-N", "META:O-PHENANTHROLINE", "META:IODOACETATE", "META:MN+2", "META:EDTA" ],
+      "activators" : [ "META:GLUTATHIONE", "META:ASCORBATE", "META:ATP", "META:DITHIOTHREITOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5631" ],
+      "orphan" : "NO",
+      "gibbs" : -107.80998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00311", "rn01100", "rn01130" ],
+      "orthologs" : [ "K12745" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

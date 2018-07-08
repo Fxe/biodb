@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3986",
+  "formula" : "C8H8O3",
+  "name" : "4-hydroxy-3-methylbenzoic acid",
+  "synonyms" : [ "3-methyl-4-hydroxybenzoic acid", "4,3-cresotic acid", "4-hydroxy-3-methyl-benzoic acid" ],
+  "alias" : "icpd3986",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C21167"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-18291"
+  } ],
+  "inchi" : "InChI=1S/C8H8O3/c1-5-4-6(8(10)11)2-3-7(5)9/h2-4,9H,1H3,(H,10,11)",
+  "inchikey" : "LTFHNKUKQYVHDX-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC(=CC=C1O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Benzoates" ],
+      "reactions" : [ "META:RXN-16971", "META:RXN-16970" ],
+      "gibbs" : -22.574223,
+      "cmlMolWeight" : 151.141,
+      "molWeight" : 151.141,
+      "parents" : [ "META:Benzoates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   16.8011  -17.2211    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8011  -15.8211    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9912  -15.1210    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1813  -15.8211    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1813  -17.2211    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9912  -17.9212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9912  -19.3213    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4413  -17.9912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9912  -13.7209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2037  -13.0209    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7775  -13.0202    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  5  8  1  0     0  0\n  3  9  1  0     0  0\n  9 10  2  0     0  0\n  9 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21167\n\n$$$$",
+  "reactions" : [ "irxn5814" ]
+}

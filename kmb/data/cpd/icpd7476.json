@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7476",
+  "formula" : "C6H4Cl2",
+  "name" : "o-dichlorobenzene",
+  "synonyms" : [ "1,2-dichlorobenzene", "dichlorobenzene", "ortho-dichlorobenzene" ],
+  "alias" : "icpd7476",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:O-DICHLOROBENZENE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C14328"
+  } ],
+  "inchi" : "InChI=1S/C6H4Cl2/c7-5-3-1-2-4-6(5)8/h1-4H",
+  "inchikey" : "RFFLAFLAYFXFSW-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C=C1)Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds" ],
+      "reactions" : [ "META:RXN-9878" ],
+      "gibbs" : 61.184486,
+      "cmlMolWeight" : 147.004,
+      "molWeight" : 147.004,
+      "parents" : [ "META:Chloroaromatic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   29.4372  -16.8888    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2088  -16.2173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0130  -16.9453    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0457  -18.3450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2741  -19.0165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4699  -18.2884    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6331  -16.1608    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   28.1762  -14.8177    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  2  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C14328\n\n$$$$",
+  "reactions" : [ ]
+}

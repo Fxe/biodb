@@ -1,0 +1,40 @@
+{
+  "id" : "icpd8162",
+  "formula" : "C7H6NO3",
+  "name" : "3-hydroxyanthranilate",
+  "synonyms" : [ "2-amino-3-hydroxy-benzoate", "2-amino-3-hydroxybenzoate", "3-hydroxy-2-aminobenzoate", "3-hydroxy-anthranilate" ],
+  "alias" : "3hanthrn",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "3hanthrn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXY-ANTHRANILATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00632"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3hanthrn"
+  } ],
+  "inchi" : "InChI=1S/C7H7NO3/c8-6-4(7(10)11)2-1-3-5(6)9/h1-3,9H,8H2,(H,10,11)/p-1",
+  "inchikey" : "WJXSWCUQABXPFS-UHFFFAOYSA-M",
+  "smiles" : "C1=CC(=C(C(=C1)C(=O)O)N)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-8665" ],
+      "reactions" : [ "META:RXN-10724", "META:2.1.1.97-RXN", "META:RXN-8846", "META:1.13.11.6-RXN", "META:1.14.16.3-RXN", "META:3-HYDROXY-KYNURENINASE-RXN", "META:3-HYDROXYANTHRANILATE-OXIDASE-RXN" ],
+      "gibbs" : -27.155338,
+      "cmlMolWeight" : 152.129,
+      "molWeight" : 152.129
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   26.9283  -18.1777    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1511  -18.8757    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9218  -16.7820    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7180  -18.8757    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1511  -20.2779    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3549  -18.1714    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1318  -16.0905    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7117  -16.0968    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7180  -20.2779    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9283  -20.9950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3549  -20.9757    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  4  9  1  0     0  0\n  5 10  1  0     0  0\n  5 11  1  0     0  0\n  9 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00632\n\n$$$$",
+  "reactions" : [ "irxn2121", "irxn5432", "irxn593", "irxn4193", "irxn4316", "irxn6910" ]
+}

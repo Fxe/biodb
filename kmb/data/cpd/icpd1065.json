@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1065",
+  "formula" : "C20H33O5",
+  "name" : "(5z,9e,12s,14z)-8,11,12-trihydroxyicosa-5,9,14-trienoate",
+  "synonyms" : [ "(5z,9e,14z)-(8&xi;,11&xi;,12s)-8,11,12-trihydroxyicosa-5,9,14-trienoate", "(5z,9e,14z)-(8xi,11xi,12s)-8,11,12-trihydroxyicosa-5,9,14-trienoate" ],
+  "alias" : "C04843",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-2046"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "C04843"
+  } ],
+  "inchi" : "InChI=1S/C20H34O5/c1-2-3-4-5-6-10-13-18(22)19(23)16-15-17(21)12-9-7-8-11-14-20(24)25/h6-7,9-10,15-19,21-23H,2-5,8,11-14H2,1H3,(H,24,25)/p-1/b9-7-,10-6-,16-15+/t17?,18-,19?/m0/s1",
+  "inchikey" : "WPLPEZUSILBTGP-UIKNIFMXSA-M",
+  "smiles" : "CCCCC/C(/[H])=C(/[H])\\C[C@@]([H])(C([H])(/C(/[H])=C(\\[H])/C([H])(C/C(/[H])=C(/[H])\\CCCC(=O)[O-])O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:HEPOXILIN-EPOXIDE-HYDROLASE-RXN" ],
+      "gibbs" : 234.00493,
+      "cmlMolWeight" : 353.478,
+      "molWeight" : 353.478
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn3993" ]
+}

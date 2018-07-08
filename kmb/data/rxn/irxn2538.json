@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2538",
+  "equation" : "2.0 focytc + h2o2 <=> 2.0 h2o + 2.0 ficytc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2494" : "",
+      "icpd6262" : "2.0"
+    },
+    "r" : {
+      "icpd7807" : "2.0",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.11.1.5",
+  "otherNames" : [ ],
+  "alias" : "CCP2m",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00017"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CCP2m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CCP2_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iMM904" ]
+    }
+  }
+}

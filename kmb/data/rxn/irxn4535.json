@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4535",
+  "equation" : "dnad + h2o <=> amp + 2.0 h + nicrnt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4383" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd4249" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.9; 3.6.1.22",
+  "otherNames" : [ ],
+  "alias" : "DNADDP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DNADDP"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03004"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00760" ],
+      "orthologs" : [ "K03426", "K01513", "K04765" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  }
+}

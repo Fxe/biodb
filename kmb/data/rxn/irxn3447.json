@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3447",
+  "equation" : "o2 + arachd <=> icpd3158",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1270" : ""
+    },
+    "r" : {
+      "icpd3158" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.31; 1.13.11.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01596"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ARACHIDONATE-12-LIPOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -69.979996,
+      "uniprot" : [ "P39654", "Q64042", "P18054", "Q02759", "Q16120", "P39655", "P16469", "P27479" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "K00458" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

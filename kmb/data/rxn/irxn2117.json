@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2117",
+  "equation" : "h2o + icpd4877 <=> h + cl + icpd3028",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4877" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd8186" : "",
+      "icpd3028" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.8.1.5; EC-3.8.1.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05284"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DHLAXANAU-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:IODOACETAMIDE", "META:CPD-29", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:12DICHLORETHDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 13.972875,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00625" ],
+      "orthologs" : [ "K01563" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

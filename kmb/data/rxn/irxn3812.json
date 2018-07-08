@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3812",
+  "equation" : "340937 + h + ctp <=> 325857 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "340937" : "",
+      "icpd4369" : ""
+    },
+    "r" : {
+      "325857" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CDS_cho",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CDS_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CDSm_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

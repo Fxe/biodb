@@ -1,0 +1,42 @@
+{
+  "id" : "icpd3290",
+  "formula" : "C3H5O4",
+  "name" : "(r)-glycerate",
+  "synonyms" : [ ],
+  "alias" : "glyc__R",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCERATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "glyc__R"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00258"
+  }, {
+    "source" : "BiGG",
+    "entry" : "glyc-R"
+  } ],
+  "inchi" : "InChI=1S/C3H6O4/c4-1-2(5)3(6)7/h2,4-5H,1H2,(H,6,7)/p-1/t2-/m1/s1",
+  "inchikey" : "RBNPOMFGQQGHHO-UWTATZPHSA-M",
+  "smiles" : "C([C@]([H])(C(=O)[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:L-LACTATE-DEHYDROGENASE-CYTOCHROME-RXN" ],
+      "instances" : [ "META:Glycerates", "META:D-2-hydroxyacids" ],
+      "reactions" : [ "META:GLY3KIN-RXN", "META:RXN-15115", "META:GLYCERATE-DEHYDROGENASE-RXN", "META:PHOSPHOGLYCERATE-PHOSPHATASE-RXN", "META:3-PHOSPHOGLYCERATE-PHOSPHATASE-RXN", "META:RXN0-5216", "META:RXN-12028", "META:GKI-RXN", "META:HYDROXYPYRUVATE-REDUCTASE-RXN", "META:1.1.1.92-RXN", "META:RXN-14902", "META:RXN-14901", "META:TRANS-RXN0-523", "META:RXN-14900", "META:RXN-8849", "META:TSA-REDUCT-RXN", "META:RXN0-5289", "META:RXN0-300", "META:GLYCERALDEHYDE-DEHYDRO-RXN", "META:TARTRATE-DECARBOXYLASE-RXN" ],
+      "gibbs" : -106.256454,
+      "cmlMolWeight" : 105.07,
+      "molWeight" : 105.07,
+      "parents" : [ "META:Glycerates", "META:D-2-hydroxyacids" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  7  6  0  0  1  0  0  0  0  0999 V2000\n   24.5354  -23.5384    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   23.3187  -22.8422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7463  -22.8422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5354  -24.9423    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1078  -23.5384    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3187  -21.4382    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9572  -23.5384    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00258\n\n$$$$",
+  "reactions" : [ "irxn2806", "irxn2767", "irxn4988", "irxn5538", "irxn3978", "irxn1933", "irxn2531", "irxn5722", "irxn1020", "irxn3289", "irxn5384", "irxn3080", "irxn2291", "irxn514" ]
+}

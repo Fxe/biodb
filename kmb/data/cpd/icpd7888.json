@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7888",
+  "formula" : "C5H8NO3",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd7888",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01073"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-580"
+  } ],
+  "inchi" : "InChI=1S/C5H9NO3/c1-4(7)6-3-2-5(8)9/h2-3H2,1H3,(H,6,7)(H,8,9)/p-1",
+  "inchikey" : "LJLLAWRMBZNPMO-UHFFFAOYSA-M",
+  "smiles" : "CC(=O)NCCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN" ],
+      "gibbs" : -33.853096,
+      "cmlMolWeight" : 130.123,
+      "molWeight" : 130.123
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   17.4300  -19.4600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6424  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8549  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0673  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2797  -19.4600    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4922  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7046  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6424  -17.3602    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4922  -17.3603    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  6  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01073\n\n$$$$",
+  "reactions" : [ "irxn4809" ]
+}

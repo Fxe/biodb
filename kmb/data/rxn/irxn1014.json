@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1014",
+  "equation" : "udpglcur <=> udpgalur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd886" : ""
+    },
+    "r" : {
+      "icpd232" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.3.6",
+  "otherNames" : [ ],
+  "alias" : "UGE",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01385"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UGE"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100" ],
+      "orthologs" : [ "K08679" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

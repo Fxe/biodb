@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2016",
+  "equation" : "2.0 catechol + o2 <=> 2.0 h2o + 2.0 icpd1793",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd2941" : "2.0"
+    },
+    "r" : {
+      "icpd1793" : "2.0",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.18.1; EC-1.10.3.1; 1.10.3.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CATECHOL-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00058"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6752" ],
+      "orphan" : "NO",
+      "gibbs" : -77.454,
+      "uniprot" : [ "Q41428", "Q12543", "O49912", "Q41429", "Q08296", "P25161", "Q41427", "Q08305", "Q41486", "Q41388", "Q06215", "Q08304", "Q06355", "Q08303", "P43309", "Q08307" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

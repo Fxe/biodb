@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6883",
+  "equation" : "2.0 nadph + o2 + 2.0 h + icpd3309 <=> no2 + catechol + h2o + 2.0 nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "2.0",
+      "icpd1851" : "2.0",
+      "icpd3309" : ""
+    },
+    "r" : {
+      "icpd2941" : "",
+      "icpd7710" : "",
+      "icpd4016" : "",
+      "icpd5537" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.31; 1.14.13.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-NITROPHENOL-2-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00828"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-8179" ],
+      "activators" : [ "META:MG+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5636" ],
+      "orphan" : "NO",
+      "gibbs" : -94.43408,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

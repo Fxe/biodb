@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1152",
+  "equation" : "h2o + icpd550 <=> ac + icpd2190",
+  "stoichiometry" : {
+    "l" : {
+      "icpd550" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd2190" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.51; 3.5.1.51",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-ACETAMIDOBUTYRYL-COA-DEACETYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04056"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -0.11065674,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

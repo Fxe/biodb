@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4433",
+  "formula" : "C11H14N2",
+  "name" : "(1h-indol-3-ylmethyl)dimethylamine",
+  "synonyms" : [ "(1h-indol-3-yl)-n,n-dimethylmethanamine", "(1h-indol-3-ylmethyl)-dimethyl-amine", "(indol-3-ylmethyl)dimethylamine", "1-(1h-indol-3-yl)-n,n-dimethylmethanamine", "1h-indol-3-yl-n,n-dimethylmethanamine", "3-((dimethylamino)methyl)-indole", "3-(n,n-dimethylaminomethyl)indole", "3-[(dimethylamino)methyl]-indole", "3-[(dimethylamino)methyl]indole", "indol-3-ylmethyldimethylamine", "n,n-dimethyl-1h-indole-3-methanamine", "n,n-dimethyl-1h-indole-3-methanamine, 9ci", "n,n-dimethyl-1h-indole-3-methylamine" ],
+  "alias" : "icpd4433",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8915"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C08304"
+  } ],
+  "inchi" : "InChI=1S/C11H14N2/c1-13(2)8-9-7-12-11-6-4-3-5-10(9)11/h3-7,12H,8H2,1-2H3",
+  "inchikey" : "OCDGBSUVYYVKQZ-UHFFFAOYSA-N",
+  "smiles" : "CN(C)CC1=CNC2=C1C=CC=C2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ALKALOID" ],
+      "reactions" : [ "META:RXN-18224", "META:RXN-8687" ],
+      "gibbs" : 211.47475,
+      "cmlMolWeight" : 175.253,
+      "molWeight" : 175.253,
+      "parents" : [ "META:ALKALOID" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   18.7701  -15.1934    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7760  -13.7932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1005  -15.6369    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5565  -15.8996    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1122  -13.3731    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5565  -13.0930    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9231  -14.5048    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7949  -16.8390    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3370  -15.1934    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3370  -13.7932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1064  -18.0469    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   20.8065  -19.2597    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4064  -19.2593    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  6 10  2  0     0  0\n  8 11  1  0     0  0\n  5  7  1  0     0  0\n  9 10  1  0     0  0\n 11 12  1  0     0  0\n 11 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C08304\n\n$$$$",
+  "reactions" : [ "irxn2646", "irxn2632" ]
+}

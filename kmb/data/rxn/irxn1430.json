@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1430",
+  "equation" : "h2o + bgly <=> gly + bz",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7933" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7278" : "",
+      "icpd855" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.32; 3.5.1.32",
+  "otherNames" : [ ],
+  "alias" : "NBAH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01424"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NBAH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HIPPURATE-HYDROLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.3329926,
+      "uniprot" : [ "P45493" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00360" ],
+      "orthologs" : [ "K01451" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iSB619" ]
+    }
+  }
+}

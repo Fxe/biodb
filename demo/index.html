@@ -8,8 +8,13 @@
   <link rel="stylesheet" type="text/css" href="https://cookieconsent.insites.com/app/themes/insites-cookie-consent/cookieconsent/cookieconsent.min.css" />
   <link rel="stylesheet" type="text/css" href="css/clusterize.min.css">
   <link rel="stylesheet" type="text/css" href="css/idatabase.css">
+  <style>
+    .clusterize-headers {
+      overflow: hidden;
+    }
+  </style>
 </head>
-<body>
+<body style="margin-top: 70px">
 
 <!-- Trigger the modal with a button -->
 <!-- Metabolite Modal -->
@@ -35,7 +40,32 @@
     </div>
   </div>
 </div>
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">BioDB</a>
+    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Example Database</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Docker</a></li>
+        <li><a href="#">Docs</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
@@ -58,9 +88,26 @@
               </div>
               <div class="row">
                 <div class="col-md-12">
+
                   <div class="clusterize">
+                    <div class="clusterize-headers">
+                      <table id="ctable-cpd-headers">
+                        <thead>
+                        <tr>
+                          <th>Id</th>
+                          <th>Name</th>
+                          <th>Alias</th>
+                          <th>Formula</th>
+                          <th>#</th>
+                          <th>References</th>
+                          <th></th>
+                        </tr>
+                        </thead>
+                      </table>
+                    </div>
+
                     <div id="ctable-cpd-scroll" class="clusterize-scroll" style="max-height: 600px">
-                      <table class="table">
+                      <table class="table table-striped">
                         <tbody id="ctable-cpd-content" class="clusterize-content">
                         </tbody>
                       </table>
@@ -81,7 +128,7 @@
                 <div class="col-md-12">
                   <div class="clusterize">
                     <div id="ctable-rxn-scroll" class="clusterize-scroll" style="max-height: 600px">
-                      <table class="table">
+                      <table class="table table-striped">
                         <tbody id="ctable-rxn-content" class="clusterize-content">
                         </tbody>
                       </table>

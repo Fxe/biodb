@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1778",
+  "formula" : "C13H22O",
+  "name" : "4-(2,6,6-trimethylcyclohex-1-en-1-yl)butan-2-one",
+  "synonyms" : [ "4-(2,6,6-trimethyl-1-cyclohexen-1-yl)-2-butanone", "4-(2,6,6-trimethyl-1-cyclohexen-1-yl)-2-butanone, 9ci", "4-(2,6,6-trimethyl-1-cyclohexen-1-yl)butan-2-one", "4-(2,6,6-trimethyl-1-cyclohexenyl)-2-butanone" ],
+  "alias" : "icpd1778",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OXIDIZED-LATIA-LUCIFERIN"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03527"
+  } ],
+  "inchi" : "InChI=1S/C13H22O/c1-10-6-5-9-13(3,4)12(10)8-7-11(2)14/h5-9H2,1-4H3",
+  "inchikey" : "QJJDNZGPQDGNDX-UHFFFAOYSA-N",
+  "smiles" : "CC1=C(CCC(=O)C)C(C)(C)CCC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Oxyluciferins" ],
+      "reactions" : [ "META:1.14.99.21-RXN" ],
+      "gibbs" : 202.91464,
+      "cmlMolWeight" : 194.316,
+      "molWeight" : 194.316,
+      "parents" : [ "META:Oxyluciferins" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  0  0  0  0  0  0999 V2000\n   19.1490  -16.0906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9311  -15.3982    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   19.1490  -17.5007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3542  -15.3918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7197  -16.0906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2132  -14.1867    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6107  -14.1867    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9311  -18.2186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3605  -18.1992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5656  -16.0841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7197  -17.5007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7707  -15.3855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9821  -16.0778    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7642  -14.1344    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  2  7  1  0     0  0\n  3  8  1  0     0  0\n  3  9  1  0     0  0\n  4 10  1  0     0  0\n  5 11  1  0     0  0\n 10 12  1  0     0  0\n 12 13  2  0     0  0\n 12 14  1  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03527\n\n$$$$",
+  "reactions" : [ "irxn4862" ]
+}

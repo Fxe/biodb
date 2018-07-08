@@ -1,0 +1,53 @@
+{
+  "id" : "irxn5385",
+  "equation" : "h2o + n2 + co2 + 2.0 atp <=> cbp + 3.0 h + pi + 2.0 adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7085" : "",
+      "icpd4016" : "",
+      "icpd2454" : "",
+      "icpd6530" : "2.0"
+    },
+    "r" : {
+      "icpd1851" : "3.0",
+      "icpd2511" : "",
+      "icpd5753" : "2.0",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.4.16",
+  "otherNames" : [ ],
+  "alias" : "CPS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00149"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CPS"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CPS_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00220", "rn01200", "rn01120", "rn01230", "rn00250", "rn00910" ],
+      "orthologs" : [ "K01948" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

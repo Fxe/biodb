@@ -1,0 +1,51 @@
+{
+  "id" : "irxn531",
+  "equation" : "C03413 + o2 + h2o <=> N1aspmd + 3aap + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4815" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd3219" : "",
+      "icpd1235" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.5.3.13",
+  "otherNames" : [ ],
+  "alias" : "RE1538C",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE1538X"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE1538C"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10460"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -23.452995,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

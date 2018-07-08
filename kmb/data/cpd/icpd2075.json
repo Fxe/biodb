@@ -1,0 +1,34 @@
+{
+  "id" : "icpd2075",
+  "formula" : "C6H12O6",
+  "name" : "beta-d-glcaost",
+  "synonyms" : [ "(2r,3r,4s,5r,6r)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol", "beta-d-galactopyranose", "beta-d-galactose", "beta-d-glcaopyrnost", "beta-galactose", "β-d-galactose" ],
+  "alias" : "icpd2075",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00962"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GALACTOSE"
+  } ],
+  "inchi" : "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3+,4+,5-,6-/m1/s1",
+  "inchikey" : "WQZGKKKJIJFFOK-FPRJBGLDSA-N",
+  "smiles" : "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O)O1)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:BETAGALACTOSID-RXN" ],
+      "instances" : [ "META:D-galactopyranose" ],
+      "reactions" : [ "META:BETAGALACTOSID-RXN", "META:ALDOSE1EPIM-RXN", "META:RXN0-7219", "META:RXN-15171", "META:RXN-14885", "META:RXN-17726" ],
+      "gibbs" : -95.02656,
+      "cmlMolWeight" : 180.157,
+      "molWeight" : 180.157,
+      "parents" : [ "META:D-galactopyranose" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   20.9196  -13.5286    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   20.9196  -14.9268    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   22.1255  -12.8238    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7137  -12.8238    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1255  -15.6317    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   19.7137  -15.6317    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3431  -13.5286    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   18.6475  -13.7326    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3431  -14.9268    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   22.1313  -17.0299    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5548  -12.8238    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5548  -15.6317    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  5 10  1  1     0  0\n  7 11  1  1     0  0\n  9 12  1  6     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00962\n\n$$$$",
+  "reactions" : [ ]
+}

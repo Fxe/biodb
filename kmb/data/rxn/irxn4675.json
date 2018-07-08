@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4675",
+  "equation" : "nad + CE5168 <=> cholcoaone + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7822" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd5721" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1",
+  "otherNames" : [ ],
+  "alias" : "RE3250C",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9799"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE3250C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6061" ],
+      "orphan" : "NO",
+      "gibbs" : 1.0817261,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

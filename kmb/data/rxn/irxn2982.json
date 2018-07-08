@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2982",
+  "equation" : "nadph + o2 + 335154 + 2.0 h <=> 2.0 h2o + nadp + 340399",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "2.0",
+      "335154" : ""
+    },
+    "r" : {
+      "icpd4016" : "2.0",
+      "340399" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "MPOMMM",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MPOMMM"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MPMECY2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iJN678", "iJB785" ]
+    }
+  }
+}

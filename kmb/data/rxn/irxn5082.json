@@ -1,0 +1,63 @@
+{
+  "id" : "irxn5082",
+  "equation" : "4hbutcoa <=> h2o + b2coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2808" : ""
+    },
+    "r" : {
+      "icpd6997" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.55; 4.2.1.17; 4.2.1.120; EC-4.2.1.120; 4.2.1.55",
+  "otherNames" : [ ],
+  "alias" : "HBCHLR",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18382"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10782"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3HBCDm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXBUTYRYL-COA-DEHYDRATASE-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8890"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05595"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HBCHLR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03027"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5022", "META:PWY-5741", "META:PWY-5789", "META:PWY-5676", "META:PWY-7854", "META:PWY-5677" ],
+      "orphan" : "NO",
+      "gibbs" : 0.35305786,
+      "uniprot" : [ "P52046" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100", "rn01200", "rn00650", "rn01120", "rn00720" ],
+      "orthologs" : [ "K17865", "K01692", "K07511", "K07515", "K14534", "K07514" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

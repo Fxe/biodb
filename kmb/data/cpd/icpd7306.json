@@ -1,0 +1,41 @@
+{
+  "id" : "icpd7306",
+  "formula" : "C4H3O5",
+  "name" : "oxaloacetate",
+  "synonyms" : [ "oxaloethanoate" ],
+  "alias" : "oaa",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00036"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:OXALACETIC_ACID"
+  }, {
+    "source" : "BiGG",
+    "entry" : "oaa"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "oaa"
+  } ],
+  "inchi" : "InChI=1S/C4H4O5/c5-2(4(8)9)1-3(6)7/h1H2,(H,6,7)(H,8,9)/p-1",
+  "inchikey" : "KHPXUQMNIQBQEV-UHFFFAOYSA-M",
+  "smiles" : "C(C(=O)C(=O)O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:4OH2OXOGLUTARALDOL-RXN", "META:ACETYLPYRUVATE-HYDROLASE-RXN", "META:GLUTAMATE-SYNTHASE-NADH-RXN", "META:RXN-14971", "META:PHOSICITDEHASE-RXN", "META:SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN", "META:R601-RXN", "META:GLUTAMATE-DEHYDROGENASE-NADP+-RXN", "META:GSADENYLATION-RXN", "META:RXN-8529", "META:ISOCITDEH-RXN", "META:PEPSYNTH-RXN", "META:GLUTAMATE-DEHYDROGENASE-RXN", "META:RXN-2464", "META:ATP-CITRATE-PRO-S--LYASE-RXN", "META:MALIC-NADP-RXN", "META:CITLY-RXN", "META:CITSYN-RXN", "META:1.1.1.39-RXN" ],
+      "activators" : [ "META:DEPHOSICITDEHASE-RXN" ],
+      "reactions" : [ "META:DECYLCITRATE-SYNTHASE-RXN", "META:4.3.1.16-RXN", "META:RXN-18433", "META:1.4.1.21-RXN", "META:RXN-11767", "META:MALATE-DEH-RXN", "META:RXN-7929", "META:RXN-14905", "META:TRANS-RXN-226", "META:ATP-CITRATE-PRO-S--LYASE-RXN", "META:RXN-6562", "META:2.1.3.1-RXN", "META:PREPHENATE-ASP-TRANSAMINE-RXN", "META:OXALOACETATE-TAUTOMERASE-RXN", "META:MALATE-DEHYDROGENASE-ACCEPTOR-RXN", "META:OXALOMALATE-LYASE-RXN", "META:CITRYLY-RXN", "META:ASPAMINOTRANS-RXN", "META:RXN-11457", "META:4.1.1.38-RXN", "META:LACTATE-MALATE-TRANSHYDROGENASE-RXN", "META:RXNI-3", "META:D--TARTRATE-DEHYDRATASE-RXN", "META:4-METHYLOXALOACETATE-ESTERASE-RXN", "META:4.3.1.20-RXN", "META:OXALOACETASE-RXN", "META:RXN-16718", "META:RXN-13407", "META:RXN-15545", "META:PEPCARBOXYKIN-RXN", "META:LTARTDEHYDRA-RXN", "META:RXN-2464", "META:2-METHYLCITRATE-SYNTHASE-RXN", "META:CITLY-RXN", "META:RXN-9771", "META:PEPCARBOX-RXN", "META:RXN-12481", "META:4.1.1.32-RXN", "META:RXN-13697", "META:MALATE-DEHYDROGENASE-NADP+-RXN", "META:RXN-16329", "META:RXN-10813", "META:2.6.1.70-RXN", "META:D-ASPARTATE-OXIDASE-RXN", "META:2.6.1.35-RXN", "META:PYRUVATE-CARBOXYLASE-RXN", "META:OXALODECARB-RXN", "META:PYROXALTRANSAM-RXN", "META:CITSYN-RXN" ],
+      "gibbs" : -170.30602,
+      "cmlMolWeight" : 130.057,
+      "molWeight" : 130.057
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "e_coli_core", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   17.9200  -20.5800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1324  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3449  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5573  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7697  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9822  -21.2800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1324  -22.6798    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5573  -22.6800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7697  -19.1801    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  2  7  2  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00036\n\n$$$$",
+  "reactions" : [ "irxn3727", "irxn4819", "irxn2579", "irxn3", "irxn3668", "irxn271", "irxn1800", "irxn5888", "irxn1201", "irxn2341", "irxn3352", "irxn5830", "irxn4243", "irxn2100", "irxn5013", "irxn3695", "irxn5278", "irxn5135", "irxn6683", "irxn6263", "irxn6681", "irxn5593", "irxn755", "irxn2508", "irxn4922", "irxn2868", "irxn2824", "irxn3835", "irxn3879", "irxn6406", "irxn3931", "irxn6007", "irxn3952", "irxn4255", "irxn6138", "irxn4331", "irxn2430", "irxn2298", "irxn6573", "irxn825", "irxn6291" ]
+}

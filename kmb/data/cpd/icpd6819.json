@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6819",
+  "formula" : "C6H8O3",
+  "name" : "4-hydroxy-2,5-dimethyl-3(2h)-furanone",
+  "synonyms" : [ "4-hydroxy-2,5-dimethyl-2,3-dihydrofuran-3-one", "4-hydroxy-2,5-dimethylfuran-3(2h)-one", "4-hydroxy-2,5-dimethylfuran-3-one" ],
+  "alias" : "icpd6819",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20717"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10198"
+  } ],
+  "inchi" : "InChI=1S/C6H8O3/c1-3-5(7)6(8)4(2)9-3/h3,8H,1-2H3",
+  "inchikey" : "INAXVXBDKKUCGI-UHFFFAOYSA-N",
+  "smiles" : "CC1C(=O)C(=C(C)O1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-20130", "META:CPD-20129" ],
+      "reactions" : [ "META:RXN-9577", "META:RXN-9563", "META:RXN-9571" ],
+      "gibbs" : -31.924221,
+      "cmlMolWeight" : 128.127,
+      "molWeight" : 128.127,
+      "parents" : [ "META:CPD-20130", "META:LONG-CHAIN-KETONE", "META:CPD-20129" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   17.9200  -16.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5000  -15.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6200  -14.5600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8100  -15.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3200  -16.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1500  -17.8500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1700  -14.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0700  -14.9100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2300  -17.8500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20717\n\n$$$$",
+  "reactions" : [ ]
+}

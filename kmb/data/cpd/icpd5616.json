@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5616",
+  "formula" : "C10H17O7P2",
+  "name" : "neryl diphosphate",
+  "synonyms" : [ "neryl pyrophosphate" ],
+  "alias" : "icpd5616",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02569"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-461"
+  } ],
+  "inchi" : "InChI=1S/C10H20O7P2/c1-9(2)5-4-6-10(3)7-8-16-19(14,15)17-18(11,12)13/h5,7H,4,6,8H2,1-3H3,(H,14,15)(H2,11,12,13)/p-3/b10-7-",
+  "inchikey" : "GVVPGTZRZFNKDS-YFHOEESVSA-K",
+  "smiles" : "CC(=CCC/C(=C(/[H])\\COP(=O)([O-])OP(=O)([O-])[O-])/C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monoterpenyl-Diphosphates", "META:CIS-TRANS-POLYISOPRENYL-PP" ],
+      "reactions" : [ "META:RXN-11282", "META:RXN-11286", "META:RXN-11284", "META:DIMETHYLALLYLCISTRANSFERASE-RXN", "META:RXN-11279", "META:RXN-11973", "META:RXN-11288", "META:RXN-7860", "META:RXN-8584" ],
+      "gibbs" : -239.2895,
+      "cmlMolWeight" : 311.188,
+      "molWeight" : 311.188,
+      "parents" : [ "META:Monoterpenyl-Diphosphates", "META:CIS-TRANS-POLYISOPRENYL-PP" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 19 18  0  0  0  0  0  0  0  0999 V2000\n   19.8663  -16.2044    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2630  -16.1981    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   18.6497  -15.5093    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6661  -16.1981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2630  -14.8014    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2694  -17.6012    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6497  -14.1063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0626  -16.1981    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   17.4398  -13.4046    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4659  -16.1981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0626  -14.8014    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0626  -17.6012    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2297  -14.1063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4398  -12.0081    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0133  -13.4046    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8032  -14.1063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5932  -13.4046    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.3767  -14.1063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5932  -12.0081    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  7  9  2  0     0  0\n  8 10  1  0     0  0\n  8 11  1  0     0  0\n  8 12  2  0     0  0\n  9 13  1  0     0  0\n  9 14  1  0     0  0\n 13 15  1  0     0  0\n 15 16  1  0     0  0\n 16 17  2  0     0  0\n 17 18  1  0     0  0\n 17 19  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02569\n\n$$$$",
+  "reactions" : [ "irxn4065", "irxn3675" ]
+}

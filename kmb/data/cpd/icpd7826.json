@@ -1,0 +1,37 @@
+{
+  "id" : "icpd7826",
+  "formula" : "C6H12N2O4S2",
+  "name" : "l-cystine",
+  "synonyms" : [ "(-)-cystine", "(2r)-2-amino-3-{[(2r)-2-amino-2-carboxyethyl]disulfanyl}propanoic acid", "3,3'-dithiobis-l-alanine", "3,3'-dithiodialanine", "beta,beta'-dithiobisalanine", "beta,beta'-dithiodialanine", "cystin", "cystine", "l-(-)-cystine", "l-cystin" ],
+  "alias" : "icpd7826",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "Lcystin"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00491"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CYSTINE"
+  } ],
+  "inchi" : "InChI=1S/C6H12N2O4S2/c7-3(5(9)10)1-13-14-2-4(8)6(11)12/h3-4H,1-2,7-8H2,(H,9,10)(H,11,12)/t3-,4-/m0/s1",
+  "inchikey" : "LEVWYRKDKASIDU-IMJSIDKUSA-N",
+  "smiles" : "C([C@@]([H])(C(=O)O)N)SSC[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:DIAMINOPIMDECARB-RXN", "META:ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN" ],
+      "instances" : [ "META:Non-standard-amino-acids" ],
+      "reactions" : [ "META:TRANS-RXN0-593", "META:TRANS-RXN-285", "META:TRANS-RXN-211", "META:CYSTINE-REDUCTASE-NADH-RXN", "META:1.8.4.4-RXN", "META:TRANS-RXN0-507", "META:RXN-14498", "META:CYSTHIOCYS-RXN", "META:RXN-15128" ],
+      "gibbs" : -36.046562,
+      "cmlMolWeight" : 240.292,
+      "molWeight" : 240.292,
+      "parents" : [ "META:Non-standard-amino-acids", "META:cystine" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 13  0  0  1  0  0  0  0  0999 V2000\n   25.0113  -15.1902    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   23.7988  -15.8898    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2238  -15.8898    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0113  -13.7911    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5862  -15.1902    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4364  -15.1902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2238  -17.2889    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3795  -15.8898    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1612  -15.1902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9487  -15.8898    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   17.7362  -15.1902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9487  -17.2889    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5179  -15.8898    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7362  -13.7911    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  1  6     0  0\n 11 13  1  0     0  0\n 11 14  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00491\n\n$$$$",
+  "reactions" : [ "irxn236", "irxn5575", "irxn1997" ]
+}

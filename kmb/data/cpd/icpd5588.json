@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5588",
+  "formula" : "C8H15NO6",
+  "name" : "n-acetyl-beta-d-galactosamine",
+  "synonyms" : [ "2-acetylamino-2-deoxy-beta-d-galactopyranose", "2-deoxy-2-acetamido-beta-d-galactopyranose", "n-[(2r,3r,4r,5r,6r)-2,4,5-trihydroxy-6-(hydroxymethyl)oxan-3-yl]acetamide" ],
+  "alias" : "icpd5588",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12557"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05021"
+  } ],
+  "inchi" : "InChI=1S/C8H15NO6/c1-3(11)9-5-7(13)6(12)4(2-10)15-8(5)14/h4-8,10,12-14H,2H2,1H3,(H,9,11)/t4-,5-,6+,7-,8-/m1/s1",
+  "inchikey" : "OVRNDRQMDRJTHS-JAJWTYFOSA-N",
+  "smiles" : "CC(=N[C@]1([H])[C@]([H])([C@]([H])([C@@]([H])(CO)O[C@@]1([H])O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-acetyl-D-galactosamine", "META:N-acetyl-beta-D-hexosamines" ],
+      "reactions" : [ "META:RXN-14881", "META:RXN-14886" ],
+      "gibbs" : -58.563206,
+      "cmlMolWeight" : 221.21,
+      "molWeight" : 221.21,
+      "parents" : [ "META:N-acetyl-D-galactosamine", "META:N-acetyl-beta-D-hexosamines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 15  0  0  1  0  0  0  0  0999 V2000\n   27.1366  -17.0333    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.9584  -17.7159    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.1366  -15.6800    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.7976  -17.0333    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.9641  -19.0633    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9584  -14.9975    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3151  -14.9275    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7976  -15.6800    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.6308  -17.7159    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6308  -14.9975    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5984  -15.8842    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3724  -17.7100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5849  -17.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7973  -17.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5849  -15.8902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  1     0  0\n  3  6  1  0     0  0\n  3  7  1  1     0  0\n  4  8  1  0     0  0\n  4  9  1  1     0  0\n  8 10  1  1     0  0\n 10 11  1  0     0  0\n  6  8  1  0     0  0\n  1 12  1  6     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 13 15  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05021\n\n$$$$",
+  "reactions" : [ ]
+}

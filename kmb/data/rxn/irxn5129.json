@@ -1,0 +1,55 @@
+{
+  "id" : "irxn5129",
+  "equation" : "s + achms <=> hcys__L + ac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5284" : "",
+      "icpd6075" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd2606" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.49; 2.5.1.49",
+  "otherNames" : [ ],
+  "alias" : "AHHST",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AHSERL2_1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01287"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AHSERL2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETYLHOMOSER-CYS-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AHHST"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HOMO-SER", "META:L-PENICILLAMINE", "META:O-SUCCINYL-L-HOMOSERINE", "META:S-ADENOSYLMETHIONINE", "META:HYDROXYLAMINE", "META:SEMICARBAZIDE", "META:MET", "META:ACETYLSERINE", "META:PHENYLHYDRAZINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5344" ],
+      "orphan" : "NO",
+      "gibbs" : -13.5541,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ "K01740" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNF517", "iIT341", "iND750", "iJN678", "iAF987", "iHN637", "iJB785", "iJN746", "iLJ478", "iRC1080", "iLB1027_lipid", "iMM904" ]
+    }
+  }
+}

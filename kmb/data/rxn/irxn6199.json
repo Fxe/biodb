@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6199",
+  "equation" : "34hpl <=> h2o + T4hcinnm",
+  "stoichiometry" : {
+    "l" : {
+      "icpd419" : ""
+    },
+    "r" : {
+      "icpd3365" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.-",
+  "otherNames" : [ ],
+  "alias" : "T4HCINNMFM",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "T4HCINNMFM"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN3O-1118"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08766"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5754" ],
+      "orphan" : null,
+      "gibbs" : -2.657013,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00130", "rn01110" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  }
+}

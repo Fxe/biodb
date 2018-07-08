@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5719",
+  "equation" : "gsn + h2o <=> gua + rib__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4824" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2719" : "",
+      "icpd3512" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.2.2.1; 3.2.2.8; 3.2.2.1",
+  "otherNames" : [ ],
+  "alias" : "GNNUC",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-366"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GNNUC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01677"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6599", "META:PWY-6606" ],
+      "orphan" : "NO",
+      "gibbs" : -0.73301315,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230" ],
+      "orthologs" : [ "K01239", "K10213" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iIT341", "iND750", "iMM904", "iJN746" ]
+    }
+  }
+}

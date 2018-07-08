@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3400",
+  "equation" : "h2o + sucr <=> Glc_aD + fru_B",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5746" : ""
+    },
+    "r" : {
+      "icpd1683" : "",
+      "icpd1050" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.48; 3.2.1.26; 3.2.1.20",
+  "otherNames" : [ ],
+  "alias" : "SGHA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SGHA"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SAGH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00802"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K01187", "K12047", "K12317", "K01193", "K12316", "K15922", "K01203" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3084",
+  "equation" : "cbp + ptrc <=> Ncbmpts + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2511" : "",
+      "icpd4511" : ""
+    },
+    "r" : {
+      "icpd863" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.3.6; 2.1.3.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01399"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PUTRESCINE-CARBAMOYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -14.425919,
+      "uniprot" : [ "Q7M114" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

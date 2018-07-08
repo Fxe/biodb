@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6437",
+  "formula" : "C10H9ClN2",
+  "name" : "2-chloro-6-(1h-pyrrol-3-yl)aniline",
+  "synonyms" : [ "2-chloro-6-(1h-pyrrol-3-yl)benzenamine", "4-(2-amino-3-chlorophenyl)pyrrole" ],
+  "alias" : "icpd6437",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C21110"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12774"
+  } ],
+  "inchi" : "InChI=1S/C10H9ClN2/c11-9-3-1-2-8(10(9)12)7-4-5-13-6-7/h1-6,13H,12H2",
+  "inchikey" : "VLWKKIHFPGKVHZ-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C(=C1)Cl)N)C2=CNC=C2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds", "META:Enamines" ],
+      "reactions" : [ "META:RXN-11793", "META:RXN-11795" ],
+      "gibbs" : 148.71011,
+      "cmlMolWeight" : 192.647,
+      "molWeight" : 192.647,
+      "parents" : [ "META:Chloroaromatic-Compounds", "META:Enamines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   18.7600  -14.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7600  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9500  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1400  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1400  -14.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9500  -14.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5000  -17.0800    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   19.9500  -18.4800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4000  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9800  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1700  -19.2500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2900  -18.4100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7300  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  1  0     0  0\n  9 10  2  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  2  0     0  0\n  9 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21110\n\n$$$$",
+  "reactions" : [ ]
+}

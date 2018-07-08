@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5601",
+  "equation" : "dhf + 4.0 glu__L + 4.0 atp <=> 5dhf + 4.0 h + 4.0 pi + 4.0 adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd824" : "",
+      "icpd514" : "4.0",
+      "icpd6530" : "4.0"
+    },
+    "r" : {
+      "icpd1851" : "4.0",
+      "icpd5753" : "4.0",
+      "icpd6908" : "",
+      "icpd7485" : "4.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FPGS4",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FPGS4m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FPGS4"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

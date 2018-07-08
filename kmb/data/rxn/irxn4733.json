@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4733",
+  "equation" : "laccoa <=> pp2coa + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2139" : ""
+    },
+    "r" : {
+      "icpd989" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.54",
+  "otherNames" : [ ],
+  "alias" : "LCD",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02963"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LCD"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn01100", "rn01120", "rn00643" ],
+      "orthologs" : [ "K20627", "K20626" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

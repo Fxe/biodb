@@ -1,0 +1,42 @@
+{
+  "id" : "icpd6744",
+  "formula" : "C5H11NO2Se",
+  "name" : "selenomethionine",
+  "synonyms" : [ "(+-)-selenomethionine", "(2s)-2-amino-4-(methylseleno)butanoic acid", "(s)-2-amino-4-(methylseleno)-butanoic acid", "(s)-2-amino-4-(methylseleno)butanoic acid", "(s)-2-amino-4-(methylseleno)butyric acid", "l-2-amino-4-(methylselenyl)-butyric acid", "l-selenomethionine" ],
+  "alias" : "selmeth",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "selmeth"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SELENOMETHIONINE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "selmeth"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05335"
+  } ],
+  "inchi" : "InChI=1S/C5H11NO2Se/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m0/s1",
+  "inchikey" : "RJFAYQIBOAGBLC-BYPYZUCNSA-N",
+  "smiles" : "C[Se]CC[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN0-4522", "META:HOMOSERINE-O-ACETYLTRANSFERASE-RXN" ],
+      "instances" : [ "META:Modified-Amino-Acids" ],
+      "reactions" : [ "META:RXN-11062", "META:RXN-12730" ],
+      "gibbs" : 28.30232,
+      "cmlMolWeight" : 196.107,
+      "molWeight" : 196.107,
+      "parents" : [ "META:Modified-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "RECON1", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   27.5100  -25.3400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6300  -24.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8200  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9400  -24.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.0600  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6300  -23.3800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8200  -26.6700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2500  -24.6400    0.0000 Se  0  0  0  0  0  0  0  0  0  0  0  0\n   35.0700  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  6     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05335\n\n$$$$",
+  "reactions" : [ "irxn6003", "irxn3399", "irxn5320", "irxn6010", "irxn1239", "irxn6073", "irxn2203" ]
+}

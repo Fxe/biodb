@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4641",
+  "equation" : "thrp <=> co2 + applp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6594" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd8155" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.81; 4.1.1.81",
+  "otherNames" : [ ],
+  "alias" : "THRPDC",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.1.81-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "THRPDC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06530"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5443" ],
+      "orphan" : "NO",
+      "gibbs" : -1.8418121,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860" ],
+      "orthologs" : [ "K04720" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iJN678", "iAF987", "STM_v1_0", "iHN637", "iJB785" ]
+    }
+  }
+}

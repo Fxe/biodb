@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2407",
+  "equation" : "tmao + h <=> dma + fald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6229" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd7455" : "",
+      "icpd1757" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.32; EC-4.1.2.32",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02512"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRIMETHYLAMINE-OXIDE-ALDOLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6968" ],
+      "orphan" : "NO",
+      "gibbs" : 21.279999,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00680", "rn01120" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

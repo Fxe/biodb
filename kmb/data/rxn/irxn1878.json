@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1878",
+  "equation" : "udpg + icpd2803 <=> udp + icpd5933",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd2803" : ""
+    },
+    "r" : {
+      "icpd6858" : "",
+      "icpd5933" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.186; EC-2.4.1.186",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCOGENIN-GLUCOSYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03681"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:MALTOSE", "META:UDP", "META:UTP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5067" ],
+      "orphan" : "NO",
+      "gibbs" : -95.8136,
+      "uniprot" : [ "P13280", "P46976" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00750" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1104",
+  "equation" : "nad + crtsl <=> nadh + h + cortsn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1382" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd1390" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "HSD11B2r",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HSD11B2r"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02834"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00140" ],
+      "orthologs" : [ "K00071" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

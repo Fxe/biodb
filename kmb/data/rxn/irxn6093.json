@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6093",
+  "equation" : "glyc <=> h2o + 3hppnl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1727" : ""
+    },
+    "r" : {
+      "icpd192" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.30; EC-4.2.1.30",
+  "otherNames" : [ ],
+  "alias" : "GLYCDH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01047"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLYCDH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCEROL-DEHYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29", "META:HG+2", "META:AG+" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7385", "META:PWY-6130" ],
+      "orphan" : "NO",
+      "gibbs" : -6.4469986,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00561" ],
+      "orthologs" : [ "K06121", "K06120", "K06122" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iECUMN_1333", "iEcE24377_1341", "iNRG857_1313", "iE2348C_1286", "iLF82_1304", "iSSON_1240" ]
+    }
+  }
+}

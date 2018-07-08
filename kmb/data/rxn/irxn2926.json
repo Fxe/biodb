@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2926",
+  "equation" : "icpd8107 + spmd + h2o <=> icpd8139 + 13dampp + 4abutn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd4016" : "",
+      "icpd7650" : ""
+    },
+    "r" : {
+      "icpd8139" : "",
+      "icpd902" : "",
+      "icpd7497" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.99.6; EC-1.5.99.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01915"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SPERMIDINE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330" ],
+      "orthologs" : [ "K00316" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

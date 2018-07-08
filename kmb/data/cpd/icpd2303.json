@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2303",
+  "formula" : "ClO3",
+  "name" : "chlorate",
+  "synonyms" : [ ],
+  "alias" : "icpd2303",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01485"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHLORATE"
+  } ],
+  "inchi" : "InChI=1S/ClHO3/c2-1(3)4/h(H,2,3,4)/p-1",
+  "inchikey" : "XTEGARKTQYYJKE-UHFFFAOYSA-M",
+  "smiles" : "Cl(=O)(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.97.1.1-RXN" ],
+      "gibbs" : 9.471122,
+      "cmlMolWeight" : 84.459,
+      "molWeight" : 84.459
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   22.0871  -15.9183    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   22.0871  -17.5820    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5454  -14.9138    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9052  -15.0013    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01485\n\n$$$$",
+  "reactions" : [ "irxn5822" ]
+}

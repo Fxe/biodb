@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6523",
+  "equation" : "2hmc <=> oxalc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6463" : ""
+    },
+    "r" : {
+      "icpd5857" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.2.6",
+  "otherNames" : [ ],
+  "alias" : "4OT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "4OT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12354"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03966"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -4.95,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00362", "rn01220", "rn00621" ],
+      "orthologs" : [ "K01821" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

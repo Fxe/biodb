@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5764",
+  "formula" : "C6H11NO",
+  "name" : "epsilon-caprolactam",
+  "synonyms" : [ "&epsilon;-caprolactam", "2-azacycloheptanone", "2-perhydroazepinone", "6-caprolactam", "6-hexanelactam", "azepan-2-one", "hexahydro-2-azepinone", "hexahydro-2h-azepin-2-one", "hexanolactam", "perhydroazepin-2-one" ],
+  "alias" : "icpd5764",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06593"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-883"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO/c8-6-4-2-1-3-5-7-6/h1-5H2,(H,7,8)",
+  "inchikey" : "JBKVHLHDHHXQEQ-UHFFFAOYSA-N",
+  "smiles" : "C1CCC(=NCC1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Lactams" ],
+      "reactions" : [ "META:R561-RXN" ],
+      "gibbs" : 90.66232,
+      "cmlMolWeight" : 113.159,
+      "molWeight" : 113.159,
+      "parents" : [ "META:Lactams" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   28.9217  -16.1250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1802  -16.7454    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6575  -16.7162    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9334  -14.7262    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4786  -18.1092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3297  -18.0799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5947  -19.1920    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1901  -19.1862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  1  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06593\n\n$$$$",
+  "reactions" : [ "irxn2199" ]
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5030",
+  "equation" : "nad + uacgam <=> uacgamo + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd2540" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd2115" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.374; 1.1.1.374",
+  "otherNames" : [ ],
+  "alias" : "UACGAMDH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10785"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UACGAMDH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15615"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -0.37823486,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6004",
+  "equation" : "akg + taur <=> glu__L + 2saa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd7999" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd5831" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.55; 2.6.1.55",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01684"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2301"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-2483", "META:HYDROXYLAMINE", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TAURINEDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 20.674103,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00430" ],
+      "orthologs" : [ "K15372" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

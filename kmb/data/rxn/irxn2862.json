@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2862",
+  "equation" : "icpd387 + caffcoa <=> coa + icpd386",
+  "stoichiometry" : {
+    "l" : {
+      "icpd387" : "",
+      "icpd3652" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd386" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.153; 2.3.1.153",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07944"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8233"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29" ],
+      "activators" : [ "META:ZN+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5307" ],
+      "orphan" : "NO",
+      "gibbs" : -3.6099243,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00942" ],
+      "orthologs" : [ "K12936" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

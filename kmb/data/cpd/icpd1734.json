@@ -1,0 +1,41 @@
+{
+  "id" : "icpd1734",
+  "formula" : "C5H14NO4S",
+  "name" : "choline sulfate",
+  "synonyms" : [ ],
+  "alias" : "chols",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "chols"
+  }, {
+    "source" : "BiGG",
+    "entry" : "chols"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00919"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-543"
+  } ],
+  "inchi" : "InChI=1S/C5H13NO4S/c1-6(2,3)4-5-10-11(7,8)9/h4-5H2,1-3H3/p+1",
+  "inchikey" : "WXCQAWGXWVRCGP-UHFFFAOYSA-O",
+  "smiles" : "C[N+](C)(C)CCO[S-](=O)(=O)=O.[H+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Quaternary-Amines" ],
+      "reactions" : [ "META:CHOLINE-SULFATASE-RXN", "META:CHOLINE-SULFOTRANSFERASE-RXN" ],
+      "gibbs" : 4.214568,
+      "cmlMolWeight" : 183.222,
+      "molWeight" : 183.222,
+      "parents" : [ "META:Quaternary-Amines" ]
+    },
+    "bigg" : {
+      "models" : [ "iYO844", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   22.9407  -16.8746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2912  -16.8746    0.0000 N   0  3  3  0  0  0  0  0  0  0  0  0\n   22.2655  -15.7045    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2524  -18.4003    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1824  -15.3545    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0432  -16.8978    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9093  -15.7045    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5529  -15.7103    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   19.5413  -14.2841    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2084  -15.7045    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5529  -17.0607    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  8 10  2  0     0  0\n  8 11  1  0     0  0\nM  CHG  2   2   1  11  -1\nM  END\n\n> <ENTRY>\ncpd:C00919\n\n$$$$",
+  "reactions" : [ "irxn4273", "irxn5625" ]
+}

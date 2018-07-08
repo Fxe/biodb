@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6174",
+  "equation" : "h2o + coke <=> egme + bz + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1996" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd8239" : "",
+      "icpd1851" : "",
+      "icpd7278" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.84; 3.1.1.1; EC-3.1.1.84",
+  "otherNames" : [ ],
+  "alias" : "COKECBESr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "COKECBESr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11192"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06728"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -2.7670975,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960", "rn01100", "rn01110" ],
+      "orthologs" : [ "K01044" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6135",
+  "equation" : "hcys__L + mmet <=> 2.0 met__L + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2188" : "",
+      "icpd2606" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5870" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.10; EC-2.1.1.10",
+  "otherNames" : [ ],
+  "alias" : "HCYSMT2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HCYSMT2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11063"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MMUM-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:MET" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5441", "META:ADENOSYLHOMOCYSCAT-PWY", "META:PWY-702" ],
+      "orphan" : "NO",
+      "gibbs" : -13.150009,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iAF1260", "iAF1260b", "iJO1366", "iY75_1357", "iEcDH1_1363", "iML1515", "iECDH10B_1368", "iECDH1ME8569_1439" ]
+    }
+  }
+}

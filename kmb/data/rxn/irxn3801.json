@@ -1,0 +1,54 @@
+{
+  "id" : "irxn3801",
+  "equation" : "2.0 fdxrd + 2mecdp + h <=> h2mb4p + h2o + 2.0 fdxox",
+  "stoichiometry" : {
+    "l" : {
+      "icpd566" : "",
+      "icpd1851" : "",
+      "icpd930" : "2.0"
+    },
+    "r" : {
+      "icpd321" : "2.0",
+      "icpd4016" : "",
+      "icpd7058" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.17.7.1; 1.17.7.1",
+  "otherNames" : [ ],
+  "alias" : "MECDPDHf",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MECDPDHf"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMBDPO_h"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08689"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-882"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7560" ],
+      "orphan" : "NO",
+      "gibbs" : 214.84761,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn01130", "rn00900" ],
+      "orthologs" : [ "K03526" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

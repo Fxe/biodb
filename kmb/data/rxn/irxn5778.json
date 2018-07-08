@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5778",
+  "equation" : "h2o + amp <=> n2 + imp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7180" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4047" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.4.17; 3.5.4.6; EC-3.5.4.6; 3.5.4.17",
+  "otherNames" : [ ],
+  "alias" : "AMPDA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AMPDA"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AMP-DEAMINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00181"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GTP" ],
+      "activators" : [ "META:ATP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6596" ],
+      "orphan" : "NO",
+      "gibbs" : -50.88202,
+      "uniprot" : [ "P10759", "P15274", "Q01432", "P23109", "Q02356", "Q01433", "Q7M3H8" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230", "rn01110", "rn01130" ],
+      "orthologs" : [ "K01490" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

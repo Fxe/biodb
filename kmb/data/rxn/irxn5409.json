@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5409",
+  "equation" : "rhcys <=> hcys__L + icpd1513",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1544" : ""
+    },
+    "r" : {
+      "icpd2606" : "",
+      "icpd1513" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.4.1.21; 4.4.1.21",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01291"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RIBOSYLHOMOCYSTEINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6154", "META:PWY-6153", "META:PWY-I9", "META:PWY-6151" ],
+      "orphan" : "NO",
+      "gibbs" : -3.68,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01230", "rn00270" ],
+      "orthologs" : [ "K07173" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6872",
+  "equation" : "2obut + nad + coa <=> nadh + co2 + ppcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3298" : "",
+      "icpd2377" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd2454" : "",
+      "icpd3011" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "OBDHm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OBDHc"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OBDHm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7790"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5130", "META:PWY66-428" ],
+      "orphan" : "NO",
+      "gibbs" : -10.19397,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iMM904", "iAF987", "RECON1", "iJN746" ]
+    }
+  }
+}

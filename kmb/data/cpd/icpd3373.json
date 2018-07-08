@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3373",
+  "formula" : "C20H33O7P2",
+  "name" : "geranylgeranyl diphosphate",
+  "synonyms" : [ "(2e,6e,10e)-3,7,11,15-tetramethylhexadeca-2,6,10,14-tetraen-1-yl diphosphate", "geranylgeranyl pyrophosphate", "geranylgeranyl-diphosphate" ],
+  "alias" : "ggdp",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00353"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GERANYLGERANYL-PP"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ggdp"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ggdp"
+  } ],
+  "inchi" : "InChI=1S/C20H36O7P2/c1-17(2)9-6-10-18(3)11-7-12-19(4)13-8-14-20(5)15-16-26-29(24,25)27-28(21,22)23/h9,11,13,15H,6-8,10,12,14,16H2,1-5H3,(H,24,25)(H2,21,22,23)/p-3/b18-11+,19-13+,20-15+",
+  "inchikey" : "OINNEUNVOZHBOX-QIRCYJPOSA-K",
+  "smiles" : "CC(=CCC/C(=C(\\[H])/CC/C(=C(\\[H])/CC/C(=C(\\[H])/COP(=O)([O-])OP(=O)([O-])[O-])/C)/C)/C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:TRANS-POLYISOPRENYL-PP" ],
+      "reactions" : [ "META:5.5.1.13-RXN", "META:RXN-18811", "META:RXN-11485", "META:RXN-11488", "META:RXN-15429", "META:RXN-11486", "META:RXN-15705", "META:RXN-10631", "META:RXN-15706", "META:RXN-10630", "META:RXN-18812", "META:RXN-10632", "META:RXN-14929", "META:RXN-10625", "META:2.5.1.41-RXN", "META:RXN-7658", "META:RXN-8528", "META:RXN-10627", "META:RXN-4861", "META:RXN-8788", "META:RXN-17085", "META:RXN-9457", "META:RXN-17480", "META:RXN-9456", "META:RXN-7673", "META:FARNESYLTRANSTRANSFERASE-RXN", "META:RXN-18786", "META:RXN-15494", "META:2.5.1.32-RXN", "META:RXN-18785", "META:RXN1F-144", "META:CASBENE-SYNTHASE-RXN", "META:RXN-10441", "META:RXN-11772", "META:4.2.3.17-RXN", "META:RXN-11778", "META:RXN-11779", "META:RXN-11458", "META:RXN-11628", "META:RXN-8813", "META:RXN-3701", "META:RXN-15707", "META:RXN-15708", "META:RXN-7663", "META:2.5.1.42-RXN" ],
+      "gibbs" : -18.771564,
+      "cmlMolWeight" : 447.424,
+      "molWeight" : 447.424,
+      "parents" : [ "META:TRANS-POLYISOPRENYL-PP" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iRC1080", "iLB1027_lipid", "iMM1415", "iMM904", "iJN678", "RECON1", "iHN637", "iJB785", "iYO844" ]
+    }
+  },
+  "mol" : " \n \n \n 29 28  0  0  0  0  0  0  0  0999 V2000\n   36.9896  -24.9340    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   38.2959  -24.9280    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   39.6081  -24.9280    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   38.2959  -23.6157    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   38.3020  -26.2341    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   40.9143  -24.9280    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   42.2265  -24.9280    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   40.9143  -23.6157    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   40.9143  -26.2341    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0894  -24.9923    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3332  -24.2722    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5770  -24.9849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8207  -24.2649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0645  -24.9776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3083  -24.2575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5520  -24.9704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7958  -24.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0395  -24.9631    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2833  -24.2430    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5271  -24.9558    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7708  -24.2357    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.0146  -24.9486    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2583  -24.2285    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.5021  -24.9413    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.7459  -24.2212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3259  -22.8320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3009  -22.8174    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2760  -22.8029    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2510  -22.7884    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  6  7  1  0     0  0\n 15 16  2  0     0  0\n  6  8  1  0     0  0\n 16 17  1  0     0  0\n  6  9  2  0     0  0\n 17 18  1  0     0  0\n 18 19  1  0     0  0\n  1  2  1  0     0  0\n 19 20  2  0     0  0\n 10 11  1  0     0  0\n 20 21  1  0     0  0\n  2  3  1  0     0  0\n 21 22  1  0     0  0\n 11 12  2  0     0  0\n 22 23  1  0     0  0\n  2  4  1  0     0  0\n 23 24  2  0     0  0\n 12 13  1  0     0  0\n 24 25  1  0     0  0\n 25  1  1  0     0  0\n  2  5  2  0     0  0\n 11 26  1  0     0  0\n 13 14  1  0     0  0\n 15 27  1  0     0  0\n  3  6  1  0     0  0\n 19 28  1  0     0  0\n 14 15  1  0     0  0\n 23 29  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00353\n\n$$$$",
+  "reactions" : [ "irxn4519", "irxn4857", "irxn3921", "irxn691", "irxn2058", "irxn2675", "irxn3128", "irxn5532", "irxn5059", "irxn111", "irxn3570", "irxn3936", "irxn4706", "irxn3955", "irxn4406", "irxn3638", "irxn2620", "irxn1751", "irxn2984", "irxn786", "irxn104", "irxn2431", "irxn4696", "irxn6796", "irxn143", "irxn1260", "irxn5184" ]
+}

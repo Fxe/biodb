@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1378",
+  "equation" : "gullac + nadp <=> nadph + glac + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd938" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd3446" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.20; EC-1.1.1.20",
+  "otherNames" : [ ],
+  "alias" : "GLRASE",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUCURONOLACTONE-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03183"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLRASE"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 1.2935181,
+      "uniprot" : [ "Q8X6I9" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00053" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

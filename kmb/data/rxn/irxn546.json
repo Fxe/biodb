@@ -1,0 +1,48 @@
+{
+  "id" : "irxn546",
+  "equation" : "fmnh2 + o2 + icpd2903 <=> icpd3356 + h2o + icpd4790 + fmn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1059" : "",
+      "icpd2903" : ""
+    },
+    "r" : {
+      "icpd7712" : "",
+      "icpd3356" : "",
+      "icpd4016" : "",
+      "icpd4790" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.14.3; 1.14.14.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10551"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALKANAL-MONOOXYGENASE-FMN-LINKED-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7723" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "P07739", "P12744", "P19840", "P19839", "P09140", "P09141", "P19907", "Q56699", "P19908", "Q56821", "Q56822", "Q52098", "P07740", "P24113", "P23146", "P29238", "P29239" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00494", "K15854" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

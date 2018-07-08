@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2094",
+  "formula" : "C6H11NO3S",
+  "name" : "n-formyl-l-methionine",
+  "synonyms" : [ "formyl-l-methionine", "formylmethionine", "n-formyl-methionine", "n-formylmethionine" ],
+  "alias" : "icpd2094",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03145"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-FORMYLMETHIONINE"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO3S/c1-11-3-2-5(6(9)10)7-4-8/h4-5H,2-3H2,1H3,(H,7,8)(H,9,10)/t5-/m0/s1",
+  "inchikey" : "PYUSHNKNPOHWEZ-YFKPBYRVSA-N",
+  "smiles" : "CSCC[C@@]([H])(C(=O)O)N=CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-Acylated-Aliphatic-Amino-Acids" ],
+      "reactions" : [ "META:3.4.19.7-RXN", "META:FORMYLMETHIONINE-DEFORMYLASE-RXN" ],
+      "gibbs" : -1.4608558,
+      "cmlMolWeight" : 176.21,
+      "molWeight" : 176.21,
+      "parents" : [ "META:N-Acylated-Aliphatic-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   31.6624  -18.8574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4046  -18.1586    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2167  -18.8574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0288  -18.1586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7711  -18.8574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5832  -18.1586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3953  -18.8574    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5832  -16.7611    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7711  -20.2549    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9590  -20.9536    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1647  -20.2701    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  5  9  1  6     0  0\n  9 10  1  0     0  0\n 10 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03145\n\n$$$$",
+  "reactions" : [ "irxn3337" ]
+}

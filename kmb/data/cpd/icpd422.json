@@ -1,0 +1,35 @@
+{
+  "id" : "icpd422",
+  "formula" : "C45H53CoN4O14",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "codscl8x",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "codscl8x"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9045"
+  } ],
+  "inchi" : "InChI=1S/C45H60N4O14.Co/c1-21-36-24(9-12-29(50)51)23(3)44(7,48-36)18-28-25(10-13-30(52)53)42(5,19-34(60)61)39(46-28)22(2)37-26(11-14-31(54)55)43(6,20-35(62)63)45(8,49-37)40-27(17-33(58)59)41(4,38(21)47-40)16-15-32(56)57;/h21,26-27,40,49H,9-20H2,1-8H3,(H,50,51)(H,52,53)(H,54,55)(H,56,57)(H,58,59)(H,60,61)(H,62,63);/q;+2/p-7",
+  "inchikey" : "VRQQVVAJGCEBJL-UHFFFAOYSA-G",
+  "smiles" : "CC1C2=[N+]3C(C)(CC4=C(CCC(=O)[O-])C(C)(CC(=O)[O-])C5=[N+]4[Co-2]63[N+]7=C1C(C)(CCC(=O)[O-])C(CC(=O)[O-])C7C8(C)C(C)(CC(=O)[O-])C(CCC(=O)[O-])C(=C5C)[N+]86)C(=C2CCC(=O)[O-])C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Precorrins", "META:Organometallics" ],
+      "reactions" : [ "META:RXN-8768", "META:RXN-8767" ],
+      "gibbs" : 43.09789,
+      "cmlMolWeight" : 932.862,
+      "molWeight" : 932.862,
+      "parents" : [ "META:Precorrins", "META:Organometallics" ]
+    },
+    "bigg" : {
+      "models" : [ "STM_v1_0" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn4721" ]
+}

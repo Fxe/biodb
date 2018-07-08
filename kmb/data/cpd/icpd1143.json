@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1143",
+  "formula" : "C4H6NO2",
+  "name" : "2-iminobutanoate",
+  "synonyms" : [ ],
+  "alias" : "icpd1143",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20905"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-16013"
+  } ],
+  "inchi" : "InChI=1S/C4H7NO2/c1-2-3(5)4(6)7/h5H,2H2,1H3,(H,6,7)/p-1",
+  "inchikey" : "WRBRCYPPGUCRHW-UHFFFAOYSA-M",
+  "smiles" : "CCC(=N)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Imines" ],
+      "reactions" : [ "META:RXN-15123", "META:RXN-15121" ],
+      "gibbs" : -32.83534,
+      "cmlMolWeight" : 100.097,
+      "molWeight" : 100.097,
+      "parents" : [ "META:Imines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   16.2401  -16.5201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4525  -15.8201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6650  -16.5201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8774  -15.8201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0898  -16.5201    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6650  -17.9201    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8774  -14.4201    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20905\n\n$$$$",
+  "reactions" : [ "irxn6134", "irxn5832" ]
+}

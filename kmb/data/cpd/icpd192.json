@@ -1,0 +1,36 @@
+{
+  "id" : "icpd192",
+  "formula" : "C3H6O2",
+  "name" : "3-hydroxypropanal",
+  "synonyms" : [ "3-hydroxypropionaldehyde", "3-oxo-1-propanol", "beta-hydroxypropanal", "beta-hydroxypropionaldehyde" ],
+  "alias" : "3hppnl",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "3hppnl"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00969"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYPROPANAL"
+  } ],
+  "inchi" : "InChI=1S/C3H6O2/c4-2-1-3-5/h2,5H,1,3H2",
+  "inchikey" : "AKXKFZDCRYJKTF-UHFFFAOYSA-N",
+  "smiles" : "C(C=O)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:GLYCEROL-DEHYDRATASE-RXN", "META:RXN0-5455", "META:RXN0-6487", "META:13-PROPANEDIOL-DEHYDROGENASE-RXN" ],
+      "gibbs" : -7.0332847,
+      "cmlMolWeight" : 74.079,
+      "molWeight" : 74.079
+    },
+    "bigg" : {
+      "models" : [ "iYL1228", "iECUMN_1333", "iEcE24377_1341", "iNRG857_1313", "iE2348C_1286", "iML1515", "iAF987", "iLF82_1304", "iSSON_1240" ]
+    }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   27.9135  -20.5210    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7270  -19.8367    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0937  -19.8367    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5468  -20.5210    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3151  -20.5391    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00969\n\n$$$$",
+  "reactions" : [ "irxn3476", "irxn1085", "irxn6093" ]
+}

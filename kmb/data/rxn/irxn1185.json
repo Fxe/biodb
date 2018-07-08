@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1185",
+  "equation" : "acACP + malon <=> ac + malACP",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6988" : "",
+      "icpd1036" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd3534" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.187",
+  "otherNames" : [ ],
+  "alias" : "MACPT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08944"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MACPT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K13929" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228" ]
+    }
+  }
+}

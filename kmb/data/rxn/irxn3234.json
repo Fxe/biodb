@@ -1,0 +1,58 @@
+{
+  "id" : "irxn3234",
+  "equation" : "pyr + pi + atp <=> amp + ppi + 2.0 h + pep",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd7485" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd1851" : "2.0",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.9.1; 2.7.9.1",
+  "otherNames" : [ ],
+  "alias" : "PPDK",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00206"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRUVATEORTHOPHOSPHATE-DIKINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPDK_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPDKh"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPDK"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7115", "META:PWY-7117", "META:PWY-241", "META:PWY-6549" ],
+      "orphan" : "NO",
+      "gibbs" : -13.72406,
+      "uniprot" : [ "Q41846", "Q39734", "O24612", "Q39735", "Q42910", "Q9WYA9", "Q42736", "Q42367", "Q42368", "P37213", "O23404", "O85840", "Q7M0I6", "P22221", "P22983" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00710", "rn00620", "rn00720" ],
+      "orthologs" : [ "K01006" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iLJ478", "iRC1080", "iNJ661", "iLB1027_lipid", "iAF987", "iHN637" ]
+    }
+  }
+}

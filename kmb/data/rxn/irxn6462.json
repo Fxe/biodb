@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6462",
+  "equation" : "ferulcoa + tym <=> coa + icpd2004",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2601" : "",
+      "icpd2865" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd2004" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.110; 2.3.1.110",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TYRAMINE-N-FERULOYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02385"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:FE+2", "META:ZN+2", "META:CPD-19544" ],
+      "activators" : [ "META:CU+2", "META:ETOH", "META:MG+2", "META:CA+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5474", "META:PWY-1121" ],
+      "orphan" : "NO",
+      "gibbs" : -5.2900085,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

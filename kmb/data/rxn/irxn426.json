@@ -1,0 +1,47 @@
+{
+  "id" : "irxn426",
+  "equation" : "itp + uri <=> idp + h + ump",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3761" : "",
+      "icpd2329" : ""
+    },
+    "r" : {
+      "icpd3658" : "",
+      "icpd1851" : "",
+      "icpd290" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.48",
+  "otherNames" : [ ],
+  "alias" : "URIK3",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00970"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "URIK3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K00876" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iRC1080", "iLB1027_lipid", "iSB619", "iHN637", "iYO844" ]
+    }
+  }
+}

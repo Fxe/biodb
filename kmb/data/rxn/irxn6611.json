@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6611",
+  "equation" : "h2o + itaccoa <=> citmcoa__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7746" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7594" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.56",
+  "otherNames" : [ ],
+  "alias" : "CITMCOAHm",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02490"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CITMCOAHm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

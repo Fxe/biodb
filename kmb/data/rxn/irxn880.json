@@ -1,0 +1,46 @@
+{
+  "id" : "irxn880",
+  "equation" : "hpdcacoa + crn <=> coa + hpdcacrn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6570" : "",
+      "icpd1256" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd4832" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "HPDCACRNCPT2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HPDCACRNCPT2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HPDCACRNCPT1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

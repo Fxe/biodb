@@ -1,0 +1,41 @@
+{
+  "id" : "icpd2283",
+  "formula" : "C6H14N2O2",
+  "name" : "d-lysine",
+  "synonyms" : [ "(2r)-2,6-diaminohexanoic acid", "d-2,6-diaminohexanoic acid" ],
+  "alias" : "lys__D",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "lys__D"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-219"
+  }, {
+    "source" : "BiGG",
+    "entry" : "lys-D"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00739"
+  } ],
+  "inchi" : "InChI=1S/C6H14N2O2/c7-4-2-1-3-5(8)6(9)10/h5H,1-4,7-8H2,(H,9,10)/t5-/m1/s1",
+  "inchikey" : "KDXKERNSBIXSRK-RXMQYKEDSA-N",
+  "smiles" : "C(CCN)C[C@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:D-Amino-Acids" ],
+      "reactions" : [ "META:LYSINE-RACEMASE-RXN", "META:RXN-12042", "META:D-LYSINE-56-AMINOMUTASE-RXN", "META:RXN-8163" ],
+      "gibbs" : 69.714745,
+      "cmlMolWeight" : 147.197,
+      "molWeight" : 147.197,
+      "parents" : [ "META:D-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   23.7745  -16.2289    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.9897  -15.5511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6236  -15.4810    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8154  -17.6369    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1991  -16.2639    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3967  -16.1647    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5768  -14.0787    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4262  -15.5803    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6356  -16.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8625  -15.6153    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00739\n\n$$$$",
+  "reactions" : [ "irxn6288", "irxn3590", "irxn3216" ]
+}

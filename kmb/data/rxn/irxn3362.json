@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3362",
+  "equation" : "2hog + fad <=> fadh2 + akg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd2386" : ""
+    },
+    "r" : {
+      "icpd7043" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.99.2",
+  "otherNames" : [ ],
+  "alias" : "HGDm",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03534"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HGDH_m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14103"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HGDm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -22.255554,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00650" ],
+      "orthologs" : [ "K00109" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid" ]
+    }
+  }
+}

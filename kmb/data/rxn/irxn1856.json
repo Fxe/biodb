@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1856",
+  "equation" : "accoa + icpd4732 <=> coa + icpd4602",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4732" : "",
+      "icpd5825" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd4602" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.84; 2.3.1.84",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00627"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALCOHOL-O-ACETYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -24.152222,
+      "uniprot" : [ "P40353", "Q12304" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

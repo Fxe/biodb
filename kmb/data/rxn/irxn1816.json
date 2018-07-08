@@ -1,0 +1,54 @@
+{
+  "id" : "irxn1816",
+  "equation" : "4izp + h2o <=> forglu",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd3132" : ""
+    },
+    "r" : {
+      "icpd951" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.2.7; EC-3.5.2.7",
+  "otherNames" : [ ],
+  "alias" : "IZPN",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "IZPN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:IMIDAZOLONEPROPIONASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "4IZ5PPH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02288"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "IZPN_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDROXYLAMINE", "META:SEMICARBAZIDE", "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5030", "META:HISHP-PWY", "META:PWY-5028", "META:HISDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.016998291,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00340" ],
+      "orthologs" : [ "K01468" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iCHOv1", "iECIAI39_1322", "iMM1415", "RECON1", "iSB619", "STM_v1_0", "iHN637", "iYO844", "iJN746" ]
+    }
+  }
+}

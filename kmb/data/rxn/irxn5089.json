@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5089",
+  "equation" : "HC01652 + 4.0 h <=> HC01710",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2285" : "",
+      "icpd1851" : "4.0"
+    },
+    "r" : {
+      "icpd3166" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.4.16",
+  "otherNames" : [ ],
+  "alias" : "r0777",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05048"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0777"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00790" ],
+      "orthologs" : [ "K01495", "K09007" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

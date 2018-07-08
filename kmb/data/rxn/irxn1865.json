@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1865",
+  "equation" : "h2o + tyr__L <=> n2 + pyr + phenol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7576" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7085" : "",
+      "icpd771" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.99.2; EC-4.1.99.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00728"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TYROSINE-PHENOL-LYASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 0.35287666,
+      "uniprot" : [ "O30971", "Q08897", "P31012" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00350" ],
+      "orthologs" : [ "K01668" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

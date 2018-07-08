@@ -1,0 +1,43 @@
+{
+  "id" : "irxn6417",
+  "equation" : "r1p <=> icpd7674",
+  "stoichiometry" : {
+    "l" : {
+      "icpd96" : ""
+    },
+    "r" : {
+      "icpd7674" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.2.7; 5.4.2.2; EC-5.4.2.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PPENTOMUT-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01057"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY0-661", "META:PWY0-1296" ],
+      "orphan" : "NO",
+      "gibbs" : -1.9299927,
+      "uniprot" : [ "O24821", "Q9CH12", "P0A6K6" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230", "rn00030" ],
+      "orthologs" : [ "K01839", "K22199", "K01835", "K15779", "K15778" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

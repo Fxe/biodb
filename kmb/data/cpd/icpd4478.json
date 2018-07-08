@@ -1,0 +1,32 @@
+{
+  "id" : "icpd4478",
+  "formula" : "Cl2Hg",
+  "name" : "dichloromercury",
+  "synonyms" : [ "mercury(ii) chloride", "mercury(ii)chloride" ],
+  "alias" : "icpd4478",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C13377"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14535"
+  } ],
+  "inchi" : "InChI=1S/2ClH.Hg/h2*1H;/q;;+2/p-2",
+  "inchikey" : "LWJROJCJINYWOX-UHFFFAOYSA-L",
+  "smiles" : "[Cl-].[Cl-].[Hg+2]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:NAD-KIN-RXN", "META:RXN-9162", "META:RXN-15335", "META:RXN-15320", "META:RXN-15318", "META:RXN-15507", "META:NADH-KINASE-RXN", "META:CYTOCHROME-B5-REDUCTASE-RXN" ],
+      "activators" : [ "META:ACETONE-CYANHYDRIN-LYASE-RXN" ],
+      "gibbs" : 0.0,
+      "cmlMolWeight" : 271.496,
+      "molWeight" : 271.496
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  0  0  0  0  0  0  0  0  0999 V2000\n   21.6116  -15.7165    0.0000 Hg  0  2  0  0  0  0  0  0  0  0  0  0\n   19.6700  -16.5900    0.0000 Cl  0  5  0  0  0  0  0  0  0  0  0  0\n   24.5700  -16.5900    0.0000 Cl  0  5  0  0  0  0  0  0  0  0  0  0\nM  CHG  3   1   2   2  -1   3  -1\nM  END\n\n> <ENTRY>\ncpd:C13377\n\n$$$$",
+  "reactions" : [ ]
+}

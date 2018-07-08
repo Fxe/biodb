@@ -1,0 +1,30 @@
+{
+  "id" : "icpd2777",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd2777",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00801"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Nucleosides"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ACID-PHOSPHATASE-RXN" ],
+      "reactions" : [ "META:RXN-14473", "META:NUCLEOTIDASE-RXN", "META:RXN-17947", "META:NUCLEOSIDE-PHOSPHOTRANSFERASE-RXN", "META:TRANS-RXN-108", "META:RXN-17945", "META:TRANS-RXN0-468" ],
+      "parents" : [ "META:D-Ribosyl-Base", "META:5-Phospho-DNA", "META:3-Phospho-DNA", "META:Nucleosides-in-Nucleic-Acids", "META:All-Nucleosides", "META:2-Deoxy-D-Ribosyl-Base", "META:Purine-Nucleosides", "META:Ribonucleosides", "META:Pyrimidine-Nucleosides", "META:Dinucleoside-polyphosphates", "META:dCpdG-DNAs", "META:Modified-Nucleosides", "META:5-Dephospho-DNA", "META:METHYL-dCpdG-DNAs", "META:Deoxy-Ribonucleosides" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   26.9375  -17.7677    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.3697  -19.1048    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.0644  -16.9561    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6122  -17.3298    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7710  -19.1048    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.5347  -20.2376    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2089  -17.7677    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.5728  -18.2640    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6001  -20.2376    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5285  -17.3298    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  6     0  0\n  7 10  1  1     0  0\n  5  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00801\n\n$$$$",
+  "reactions" : [ "irxn4123", "irxn1067" ]
+}

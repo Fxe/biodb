@@ -1,0 +1,35 @@
+{
+  "id" : "icpd5302",
+  "formula" : "C6H10O6",
+  "name" : "d-glucono-1,5-lactone",
+  "synonyms" : [ "(3r,4s,5s,6r)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-one", "glucono 1,5-lactone", "glucono-1,5-lactone" ],
+  "alias" : "icpd5302",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLC-D-LACTONE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00198"
+  } ],
+  "inchi" : "InChI=1S/C6H10O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-5,7-10H,1H2/t2-,3-,4+,5-/m1/s1",
+  "inchikey" : "PHOQVHQSTUBQQK-SQOUGZDYSA-N",
+  "smiles" : "C([C@]1([H])[C@]([H])([C@@]([H])([C@]([H])(C(=O)O1)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:CONIFERIN-BETA-GLUCOSIDASE-RXN", "META:RXN-9162", "META:RXN-13464", "META:RXN-13453", "META:RXN-5341", "META:RXN-9674", "META:VICIANIN-BETA-GLUCOSIDASE-RXN", "META:RXN-13603", "META:RXN3O-9782", "META:RXN-13602" ],
+      "activators" : [ "META:RXN-13470", "META:RXN-13454" ],
+      "instances" : [ "META:Delta-lactones" ],
+      "reactions" : [ "META:1.1.99.28-RXN", "META:GLUCOSE-OXIDASE-RXN", "META:RXN0-6372", "META:RXN0-6373", "META:GLUCOSE-DEHYDROGENASE-ACCEPTOR-RXN", "META:RXN-11334", "META:GLUCOSE-1-DEHYDROGENASE-NADP+-RXN", "META:GLUCONOLACT-RXN", "META:GLUCOSE-1-DEHYDROGENASE-NAD+-RXN", "META:GLUCOSE-1-DEHYDROGENASE-RXN", "META:RXN-17229" ],
+      "gibbs" : -113.30881,
+      "cmlMolWeight" : 178.141,
+      "molWeight" : 178.141,
+      "parents" : [ "META:Delta-lactones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   24.2097  -17.5024    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.1945  -18.9060    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.4400  -16.8141    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0119  -16.7920    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3954  -19.6219    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   22.9841  -19.5904    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6553  -17.5294    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6958  -18.9337    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.3740  -21.0144    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8434  -16.7918    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8210  -19.6527    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8019  -17.4721    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  5  9  1  1     0  0\n  7 10  2  0     0  0\n  8 11  1  6     0  0\n  7  8  1  0     0  0\n  4 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00198\n\n$$$$",
+  "reactions" : [ "irxn950", "irxn1760", "irxn5351", "irxn6140", "irxn2091", "irxn5924" ]
+}

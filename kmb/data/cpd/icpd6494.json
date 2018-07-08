@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6494",
+  "formula" : "C6H5N5O",
+  "name" : "2-amino-4-oxopteridine",
+  "synonyms" : [ "2-amino-1h-pteridin-4-one", "2-amino-3,4-dihydropteridin-4-one", "2-amino-3h-pteridin-4-one", "2-amino-4(1h)-pteridinone", "2-amino-4(3h)-pteridinone", "2-amino-4-hydroxypteridine", "2-amino-4-pteridinol", "2-amino-4-pteridone", "2-aminopteridin-4(3h)-one", "2-aminopteridin-4-one", "4-oxo-2-aminopteridine", "pterin" ],
+  "alias" : "icpd6494",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00715"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-16478"
+  } ],
+  "inchi" : "InChI=1S/C6H5N5O/c7-6-10-4-3(5(12)11-6)8-1-2-9-4/h1-2H,(H3,7,9,10,11,12)",
+  "inchikey" : "HNXQXTQTPAJEJL-UHFFFAOYSA-N",
+  "smiles" : "C1=CN=C2C(=N1)C(=O)NC(=N2)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Pterins" ],
+      "reactions" : [ "META:RXN-15269" ],
+      "gibbs" : 46.1156,
+      "cmlMolWeight" : 163.138,
+      "molWeight" : 163.138,
+      "parents" : [ "META:Pterins" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 13  0  0  0  0  0  0  0  0999 V2000\n   25.7347  -17.2456    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7347  -15.8451    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5251  -17.9523    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9633  -17.9460    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5251  -15.1513    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9506  -15.1321    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3220  -17.2456    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5188  -19.3338    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1157  -17.2456    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3220  -15.8451    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1729  -15.8324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1251  -15.1513    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  4  9  2  0     0  0\n  5 10  2  0     0  0\n  6 11  2  0     0  0\n 10 12  1  0     0  0\n  7 10  1  0     0  0\n  9 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00715\n\n$$$$",
+  "reactions" : [ ]
+}

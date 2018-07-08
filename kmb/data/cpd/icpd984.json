@@ -1,0 +1,34 @@
+{
+  "id" : "icpd984",
+  "formula" : "Sr",
+  "name" : "strontium(2+)",
+  "synonyms" : [ ],
+  "alias" : "icpd984",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C13884"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8886"
+  } ],
+  "inchi" : "InChI=1S/Sr/q+2",
+  "inchikey" : "PWYYWQHXAPXYMF-UHFFFAOYSA-N",
+  "smiles" : "[Sr+2]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PGLUCISOM-RXN" ],
+      "activators" : [ "META:RXN-1824" ],
+      "instances" : [ "META:Divalent-Inorganic-Cations" ],
+      "gibbs" : -1.2482376,
+      "cmlMolWeight" : 87.62,
+      "molWeight" : 87.62,
+      "parents" : [ "META:Divalent-Inorganic-Cations" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   10.4067   -9.7533    0.0000 Sr  0  2  0  0  0  0  0  0  0  0  0  0\nM  CHG  1   1   2\nM  END\n\n> <ENTRY>\ncpd:C13884\n\n$$$$",
+  "reactions" : [ ]
+}

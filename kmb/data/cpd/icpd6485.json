@@ -1,0 +1,42 @@
+{
+  "id" : "icpd6485",
+  "formula" : "C5H11NO2",
+  "name" : "trimethylammonioacetate",
+  "synonyms" : [ "(trimethylammonio)acetate", "2-(trimethylazaniumyl)acetate", "trimethylglycine" ],
+  "alias" : "glyb",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BETAINE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "glyb"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00719"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "glyb"
+  } ],
+  "inchi" : "InChI=1S/C5H11NO2/c1-6(2,3)4-5(7)8/h4H2,1-3H3",
+  "inchikey" : "KWIUHFFTVRNATP-UHFFFAOYSA-N",
+  "smiles" : "C[N+](C)(C)CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:BADH-RXN" ],
+      "instances" : [ "META:Methylated-methyl-acceptors", "META:Quaternary-Amines", "META:Monocarboxylates" ],
+      "reactions" : [ "META:RXN-9680", "META:1.21.4.4-RXN", "META:TRANS-RXN0-490", "META:RXN-13178", "META:BADH-RXN", "META:RXN-13406", "META:TRANS-RXN0-532", "META:RXN-17759", "META:RXN-13405", "META:2.1.1.5-RXN", "META:TRANS-RXN-283", "META:RXN0-7231", "META:CHOLINE-OXIDASEII-RXN", "META:RXN-5882", "META:TRANS-RXN-29A" ],
+      "gibbs" : 20.552322,
+      "cmlMolWeight" : 117.147,
+      "molWeight" : 117.147,
+      "parents" : [ "META:Methylated-methyl-acceptors", "META:Quaternary-Amines", "META:Monocarboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iJN746", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   25.9158  -16.0186    0.0000 N   0  3  3  0  0  0  0  0  0  0  0  0\n   27.1247  -16.7218    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7013  -16.7218    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9158  -14.6182    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3392  -16.0186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3392  -14.6182    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5478  -16.7218    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   24.6962  -15.3153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  5  6  2  0     0  0\n  5  7  1  0     0  0\n  1  8  1  0     0  0\nM  CHG  2   1   1   7  -1\nM  END\n\n> <ENTRY>\ncpd:C00719\n\n$$$$",
+  "reactions" : [ "irxn501", "irxn155", "irxn5087", "irxn2498", "irxn5657", "irxn5092", "irxn3700", "irxn4415" ]
+}

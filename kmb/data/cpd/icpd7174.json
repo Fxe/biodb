@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7174",
+  "formula" : "C5H7NO3",
+  "name" : "5-oxo-d-proline",
+  "synonyms" : [ "(2r)-2-carboxy-5-pyrrolidinone", "(r)-(+)-2-pyrrolidone-5-carboxylic acid", "(r)-2-pyrrolidone-5-carboxylic acid", "(r)-5-oxopyrrolidine-2-carboxylic acid", "d-pyroglutamic acid" ],
+  "alias" : "icpd7174",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-656"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02237"
+  } ],
+  "inchi" : "InChI=1S/C5H7NO3/c7-4-2-1-3(6-4)5(8)9/h3H,1-2H2,(H,6,7)(H,8,9)/t3-/m1/s1",
+  "inchikey" : "ODHCTXKNWHHXJC-GSVOUGTGSA-N",
+  "smiles" : "C1CC(=O)N[C@H]1C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:D-GLUTAMATE-CYCLASE-RXN" ],
+      "gibbs" : -50.755337,
+      "cmlMolWeight" : 128.107,
+      "molWeight" : 128.107
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  1  0  0  0  0  0999 V2000\n   18.2972  -14.3602    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   18.2972  -15.6936    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0151  -13.8090    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4958  -13.6551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8292  -16.0525    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1370  -14.8218    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7072  -14.3474    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4958  -12.2258    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2716  -17.3281    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\n  5  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02237\n\n$$$$",
+  "reactions" : [ "irxn6715" ]
+}

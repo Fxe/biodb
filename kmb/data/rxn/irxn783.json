@@ -1,0 +1,45 @@
+{
+  "id" : "irxn783",
+  "equation" : "icpd7890 + atp <=> pail3p_hs + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7890" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3493" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.137; 2.7.1.154; 2.7.1.137",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1-PHOSPHATIDYLINOSITOL-3-KINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03362"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-11924" ],
+      "activators" : [ "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6352" ],
+      "orphan" : "NO",
+      "gibbs" : -5.7929687,
+      "uniprot" : [ "P54677", "P54675", "P54674", "P54673", "Q13315", "O04269", "P35169", "P32871", "P50520", "P32600", "P91634", "Q92213", "O35904", "P42338", "P42336", "P22543" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562" ],
+      "orthologs" : [ "K00914", "K00923", "K02649" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

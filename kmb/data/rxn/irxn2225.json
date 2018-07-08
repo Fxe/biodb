@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2225",
+  "equation" : "o2 + h2o + pydam <=> n2 + pydx + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7920" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd5696" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.5; EC-1.4.3",
+  "otherNames" : [ ],
+  "alias" : "PYDXO_1",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14203"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYDXO_1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01710"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -25.512989,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00750", "rn01100", "B6", "rn01120" ],
+      "orthologs" : [ "K00275" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

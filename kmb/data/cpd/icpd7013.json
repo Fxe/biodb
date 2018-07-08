@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7013",
+  "formula" : "C9H7NO",
+  "name" : "indole-3-carbaldehyde",
+  "synonyms" : [ "1h-indole-3-carbaldehyde", "3-formylindole", "3-indolealdehyde", "3-indolecarbaldehyde", "3-indolecarboxaldehyde", "3-indolemethanal", "indol-3-carbaldehyd", "indol-3-carbaldehyde", "indol-3-carboxaldehyde", "indole-3-aldehyde", "indole-3-carboxaldehyde" ],
+  "alias" : "icpd7013",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C08493"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:INDOLE-3-CARBOXALDEHYDE"
+  } ],
+  "inchi" : "InChI=1S/C9H7NO/c11-6-7-5-10-9-4-2-1-3-8(7)9/h1-6,10H",
+  "inchikey" : "OLNJUISKUQQNIM-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C1)NC=C2C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Indole-Phytoalexins" ],
+      "reactions" : [ "META:RXN1F-13", "META:RXNQT-4355", "META:RXN-12205" ],
+      "gibbs" : 75.72884,
+      "cmlMolWeight" : 145.16,
+      "molWeight" : 145.16,
+      "parents" : [ "META:Indole-Phytoalexins" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   27.9998  -19.3550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0291  -17.9542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3250  -19.8164    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7799  -20.0265    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3718  -17.5513    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8265  -17.2303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1715  -18.6955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3250  -21.2115    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5773  -19.3085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5306  -17.9074    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5334  -21.9178    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  6 10  2  0     0  0\n  8 11  2  0     0  0\n  5  7  1  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C08493\n\n$$$$",
+  "reactions" : [ ]
+}

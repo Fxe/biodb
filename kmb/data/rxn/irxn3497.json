@@ -1,0 +1,43 @@
+{
+  "id" : "irxn3497",
+  "equation" : "icpd5894 <=> icpd3654",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5894" : ""
+    },
+    "r" : {
+      "icpd3654" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.2.2; EC-5.1.2.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXY-MANDELATE-RACEMASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04161"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:F-", "META:Pi", "META:PPI", "META:EDTA" ],
+      "activators" : [ "META:MG+2", "META:NI+2", "META:CO+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:4-HYDROXYMANDELATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ "P11444" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120" ],
+      "orthologs" : [ "K01781" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6050",
+  "equation" : "icpd8101 + atp <=> icpd5367 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8101" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5367" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.65; 2.7.1.65",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SCYLLO-INOSAMINE-KINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03384"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29", "META:CPD-10146" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5940" ],
+      "orphan" : null,
+      "gibbs" : -13.567627,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01130", "rn00521" ],
+      "orthologs" : [ "K04339" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

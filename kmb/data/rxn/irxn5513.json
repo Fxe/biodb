@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5513",
+  "equation" : "amet + 34dhpha <=> ahcys + homoval",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd8210" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd5732" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.6; 2.1.1.6",
+  "otherNames" : [ ],
+  "alias" : "34DHPHAMT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN6666-6"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "34DHPHAMT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03304"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY6666-2" ],
+      "orphan" : null,
+      "gibbs" : -4.3600006,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350" ],
+      "orthologs" : [ "K00545" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

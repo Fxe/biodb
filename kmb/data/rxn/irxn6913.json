@@ -1,0 +1,54 @@
+{
+  "id" : "irxn6913",
+  "equation" : "nad + coa + msa <=> nadh + accoa + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd206" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd5825" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.27; 1.2.1.18; EC-1.2.1",
+  "otherNames" : [ ],
+  "alias" : "MMSAD3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MMSAD3m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00705"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2902"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MMSAD3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NADH" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7574", "META:PWY-1781", "META:P562-PWY", "META:BETA-ALA-DEGRADATION-I-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -11.004089,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn00410", "rn01100", "rn01200", "rn00562" ],
+      "orthologs" : [ "K00140" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iCHOv1", "iRC1080", "iECED1_1282", "iNJ661", "iMM1415", "iAT_PLT_636", "RECON1", "STM_v1_0", "iYO844" ]
+    }
+  }
+}

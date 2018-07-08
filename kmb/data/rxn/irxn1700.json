@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1700",
+  "equation" : "cys__L + phom <=> pi + cyst__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4873" : "",
+      "icpd1693" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd7567" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1",
+  "otherNames" : [ ],
+  "alias" : "CYSTS_1",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CYSPH-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSTS_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:MET", "META:CPD-19547" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-702" ],
+      "orphan" : "NO",
+      "gibbs" : -0.64001465,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

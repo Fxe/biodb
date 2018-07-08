@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3289",
+  "equation" : "glyc__R + adpglc <=> icpd5450 + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3290" : "",
+      "icpd2868" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd5450" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.268; 2.4.1.268",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09665"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12028"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ZN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6687", "META:PWY-6685" ],
+      "orphan" : "NO",
+      "gibbs" : 50.53659,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

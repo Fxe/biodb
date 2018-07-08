@@ -1,0 +1,45 @@
+{
+  "id" : "icpd5742",
+  "formula" : "C5H5N5",
+  "name" : "adenine",
+  "synonyms" : [ "1,6-dihydro-6-iminopurine", "1h-purin-6-amine", "1h-purine-6-amine", "3,6-dihydro-6-iminopurine", "6-amino-1h-purine", "6-amino-3h-purine", "6-amino-7h-purine", "6-amino-9h-purine", "6-amino-purine", "6-aminopurine", "7h-purin-6-amine", "9h-purin-6-amine", "9h-purin-6-yl-amin", "9h-purin-6-ylamine", "9h-purine-6-amine", "adenin" ],
+  "alias" : "ade",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00147"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ade"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ADENINE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ade"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ADENINE-RING"
+  } ],
+  "inchi" : "InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10)",
+  "inchikey" : "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+  "smiles" : "C1=NC2=C(N)N=CNC2=N1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:5-METHYLTHIORIBOSE-KINASE-RXN", "META:GUANINE-DEAMINASE-RXN", "META:ADENOSINE-NUCLEOSIDASE-RXN", "META:DAPASYN-RXN", "META:URONATE-DEHYDROGENASE-RXN", "META:METHYLTHIOADENOSINE-NUCLEOSIDASE-RXN", "META:RXN-15261" ],
+      "instances" : [ "META:Purines", "META:Purine-Bases" ],
+      "reactions" : [ "META:ADENINE-DEAMINASE-RXN", "META:ADENOSINE-NUCLEOSIDASE-RXN", "META:1.5.99.12-RXN", "META:RXN-15660", "META:AMP-NUCLEOSID-RXN", "META:TRANS-RXN0-447", "META:METHYLTHIOADENOSINE-NUCLEOSIDASE-RXN", "META:RXN0-1342", "META:RXN0-6732", "META:RXN-11743", "META:RXN0-6550", "META:RXN-11715", "META:RXN-4662", "META:RXN-8800", "META:RXN-4621", "META:ADENPHOSPHOR-RXN", "META:RXN-4661", "META:2.7.8.25-RXN", "META:RXN-12346", "META:RXN-14304", "META:RXN-15139", "META:RXN-17954", "META:TRANS-RXN0-577", "META:RXN-17957", "META:TRANS-RXN-198", "META:RXN0-984", "META:5-METHYLTHIOADENOSINE-PHOSPHORYLASE-RXN", "META:RXN-13529", "META:ADENOSYLHOMOCYSTEINE-NUCLEOSIDASE-RXN", "META:DEOXYADENPHOSPHOR-RXN", "META:RXN0-2661", "META:ADENPRIBOSYLTRAN-RXN" ],
+      "gibbs" : 125.6056,
+      "cmlMolWeight" : 135.128,
+      "molWeight" : 135.128,
+      "parents" : [ "META:Purines", "META:Purine-Bases" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iEcSMS35_1347", "iECO111_1330", "iE2348C_1286", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 10 11  0  0  0  0  0  0  0  0999 V2000\n   13.0900  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.0900  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3024  -19.0400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5149  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5149  -16.9400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3024  -16.2400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.7585  -16.5074    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   10.9356  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.7585  -18.7726    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3024  -14.8402    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  2  9  1  0     0  0\n  6 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00147\n\n$$$$",
+  "reactions" : [ "irxn6917", "irxn5408", "irxn3913", "irxn1218", "irxn3730", "irxn3279", "irxn1", "irxn565", "irxn5368", "irxn5445", "irxn5244", "irxn5146", "irxn5058", "irxn2152", "irxn238" ]
+}

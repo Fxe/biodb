@@ -1,0 +1,46 @@
+{
+  "id" : "irxn544",
+  "equation" : "coa + dmhptcrn <=> dmhptcoa + crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd2402" : ""
+    },
+    "r" : {
+      "icpd2831" : "",
+      "icpd6570" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DMHPTCRNCPT2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DMHPTCRNCPT1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DMHPTCRNCPT2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

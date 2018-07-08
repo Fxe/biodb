@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1121",
+  "formula" : "C9H8O",
+  "name" : "(2e)-3-phenylacrylaldehyde",
+  "synonyms" : [ "(2e)-3-phenyl-2-propenal", "(2e)-3-phenylprop-2-enal", "(e)-3-phenyl-2-propenal", "(e)-3-phenylpropenal", "(e)-cinnamaldehyde", "trans-3-phenyl-2-propenal", "trans-cinnamaldehyde" ],
+  "alias" : "icpd1121",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CINNAMALDEHYDE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00903"
+  } ],
+  "inchi" : "InChI=1S/C9H8O/c10-8-4-7-9-5-2-1-3-6-9/h1-8H/b7-4+",
+  "inchikey" : "KJPRLNWUNMBNBZ-QPJJXVBHSA-N",
+  "smiles" : "C1=CC=C(C=C1)/C=C/C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Unsaturated-aldehydes", "META:Aryl-Aldehyde" ],
+      "reactions" : [ "META:CINNAMOYL-COA-REDUCTASE-RXN", "META:RXN-8089", "META:CINNAMYL-ALCOHOL-DEHYDROGENASE-RXN" ],
+      "gibbs" : 102.59897,
+      "cmlMolWeight" : 132.162,
+      "molWeight" : 132.162,
+      "parents" : [ "META:Unsaturated-aldehydes", "META:Aryl-Aldehyde" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   26.8800  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8800  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -21.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4300  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4300  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0700  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2600  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4500  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6681  -19.5201    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00903\n\n$$$$",
+  "reactions" : [ "irxn5630", "irxn4936" ]
+}

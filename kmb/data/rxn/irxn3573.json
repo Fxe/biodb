@@ -1,0 +1,54 @@
+{
+  "id" : "irxn3573",
+  "equation" : "o2 + h2o + ala__D <=> n2 + pyr + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd185" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd3122" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.4.3.19; 1.4.3.3; 1.4.3.19",
+  "otherNames" : [ ],
+  "alias" : "DALAOX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DALAOXx"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DALAOX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05861"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8672"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -23.79712,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNJ661", "iMM1415", "RECON1", "iYO844" ]
+    }
+  }
+}

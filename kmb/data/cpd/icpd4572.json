@@ -1,0 +1,32 @@
+{
+  "id" : "icpd4572",
+  "formula" : "C6H7N5",
+  "name" : "n6-methyladenine",
+  "synonyms" : [ "6-(methylamino)purine", "6-methylaminopurine", "6-monomethylaminopurine", "methyl(purin-6-yl)amine", "n(sup6)-methyladenine", "n(sup6)-monomethyladenine", "n-methyl-7h-purin-6-amine", "n-methyl-9h-purin-6-amine", "n-methyl-adenine", "n-methyl-n-(9h-purin-6-yl)amine", "n-methyladenine", "n6-monomethyladenine" ],
+  "alias" : "icpd4572",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C08434"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19180"
+  } ],
+  "inchi" : "InChI=1S/C6H7N5/c1-7-5-4-6(10-2-8-4)11-3-9-5/h2-3H,1H3,(H2,7,8,9,10,11)",
+  "inchikey" : "CKOMXBHMKXXTNW-UHFFFAOYSA-N",
+  "smiles" : "CNC1=C2C(=NC=N1)N=CN2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Alkylated-Bases" ],
+      "gibbs" : 110.29884,
+      "cmlMolWeight" : 149.155,
+      "molWeight" : 149.155,
+      "parents" : [ "META:Alkylated-Bases" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   23.7300  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7300  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9200  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4000  -16.8700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4000  -19.1800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9900  -19.3900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1800  -17.2900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9200  -15.1900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6300  -18.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1800  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1324  -14.4900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  6 10  2  0     0  0\n  5  9  1  0     0  0\n  7 10  1  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C08434\n\n$$$$",
+  "reactions" : [ ]
+}

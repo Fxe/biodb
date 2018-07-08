@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6095",
+  "equation" : "icpd4431 + nad <=> nadh + h + icpd3448",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4431" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd3448" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.18; EC-1.5.1.18",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03614"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:EPHEDRINE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -6.818207,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00360" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

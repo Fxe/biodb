@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5752",
+  "equation" : "h2o + crtn <=> creat",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1774" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6341" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.2.10; 3.5.2.10",
+  "otherNames" : [ ],
+  "alias" : "CRTNh",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01884"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CREATININASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CRTNh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CRNFORCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 1.6469994,
+      "uniprot" : [ "Q52548", "P74740" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ "K01470" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478" ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id" : "irxn5055",
+  "equation" : "frmd + h2o <=> n2 + for",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3454" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1650" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.49; 3.5.1.49",
+  "otherNames" : [ ],
+  "alias" : "FORA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FORAMD"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FORAMDx"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FORA"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00524"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FORMAMIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7142" ],
+      "orphan" : "NO",
+      "gibbs" : -4.1271286,
+      "uniprot" : [ "Q9SZE9", "Q50228", "Q9SZF0" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01200", "rn00460", "rn00910" ],
+      "orthologs" : [ "K01455" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iRC1080", "iIT341", "iLB1027_lipid", "iYO844" ]
+    }
+  }
+}

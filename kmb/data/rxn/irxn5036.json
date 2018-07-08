@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5036",
+  "equation" : "h2o + sucr <=> glc__D + fru",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5746" : ""
+    },
+    "r" : {
+      "icpd2151" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.48; 3.2.1.26; 3.2.1.20; 3.2.1.10",
+  "otherNames" : [ ],
+  "alias" : "SUCR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SUCRe"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00801"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SUCR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00052", "rn00500" ],
+      "orthologs" : [ "K12047", "K01187", "K12317", "K01193", "K12316", "K01182", "K01203" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNF517", "iEKO11_1354", "iECUMN_1333", "iND750", "iECIAI1_1343", "iECSF_1327", "iWFL_1372", "iSDY_1059", "iZ_1308", "iECO103_1326", "iUMNK88_1353", "iEcE24377_1341", "iS_1188", "iECO26_1355", "iECP_1309", "iMM904", "iSF_1195", "RECON1", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "iG2583_1286", "iEC55989_1330", "iECSP_1301", "iECIAI39_1322", "iECs_1301", "iEcSMS35_1347", "iECW_1372", "iE2348C_1286", "iECO111_1330", "iJB785", "iYO844", "iLJ478", "iECH74115_1262", "iMM1415", "iSFV_1184", "iECSE_1348", "iSB619" ]
+    }
+  }
+}

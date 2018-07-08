@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5522",
+  "equation" : "glu__L + 10fthf5glu + atp <=> 10fthf6glu + h + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4480" : "",
+      "icpd514" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd4490" : "",
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FPGS8",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FPGS8m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FPGS8"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

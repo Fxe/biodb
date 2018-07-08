@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3696",
+  "formula" : "C5H8O",
+  "name" : "3-methylbut-2-enal",
+  "synonyms" : [ "3,3-dimethyl-acrylaldehyde", "3,3-dimethylacrolein", "3-methyl-2-butenal", "3-methylcrotonaldehyde", "beta-methylcrotonaldehyde", "senecialdehyde", "senecioaldehyde" ],
+  "alias" : "icpd3696",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07330"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PRENAL"
+  } ],
+  "inchi" : "InChI=1S/C5H8O/c1-5(2)3-4-6/h3-4H,1-2H3",
+  "inchikey" : "SEPQTYODOKLVSB-UHFFFAOYSA-N",
+  "smiles" : "CC(=CC=O)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-11989", "META:RXN-4641", "META:RXN-4621", "META:1.5.99.12-RXN", "META:1.8.3.5-RXN" ],
+      "gibbs" : 71.41897,
+      "cmlMolWeight" : 84.118,
+      "molWeight" : 84.118
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   28.0591  -20.6056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8526  -19.9028    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2714  -19.9028    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6403  -20.6056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8526  -18.5031    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4838  -20.6056    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07330\n\n$$$$",
+  "reactions" : [ "irxn3730" ]
+}

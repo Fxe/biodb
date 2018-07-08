@@ -1,0 +1,39 @@
+{
+  "id" : "icpd2960",
+  "formula" : "C12H22O11",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "6dg",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "6dg"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MELIBIOSE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "6dg"
+  } ],
+  "inchi" : "InChI=1S/C12H22O11/c13-1-3-5(14)8(17)10(19)12(23-3)21-2-4-6(15)7(16)9(18)11(20)22-4/h3-20H,1-2H2/t3-,4-,5+,6-,7+,8+,9-,10-,11-,12+/m1/s1",
+  "inchikey" : "DLRVVLDZNNYCBX-ZZFZYMBESA-N",
+  "smiles" : "C([C@]1([H])[C@@]([H])([C@@]([H])([C@]([H])([C@@]([H])(OC[C@]2([H])[C@]([H])([C@@]([H])([C@]([H])([C@]([H])(O)O2)O)O)O)O1)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2.4.1.67-RXN" ],
+      "instances" : [ "META:Disaccharides" ],
+      "reactions" : [ "META:TRANS-RXN-94A", "META:ALPHAGALACTOSID-RXN", "META:RXN-8433", "META:TRANS-RXN-94B", "META:TRANS-RXN-94" ],
+      "gibbs" : -150.79538,
+      "cmlMolWeight" : 342.299,
+      "molWeight" : 342.299,
+      "parents" : [ "META:Disaccharides" ]
+    },
+    "bigg" : {
+      "models" : [ "iND750", "iMM904" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn3654" ]
+}

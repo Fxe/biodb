@@ -1,0 +1,36 @@
+{
+  "id" : "icpd5407",
+  "formula" : "C6H11O6",
+  "name" : "l-rhamnonate",
+  "synonyms" : [ ],
+  "alias" : "rhmn",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "rhmn"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01934"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-RHAMNONATE"
+  } ],
+  "inchi" : "InChI=1S/C6H12O6/c1-2(7)3(8)4(9)5(10)6(11)12/h2-5,7-10H,1H3,(H,11,12)/p-1/t2-,3-,4+,5+/m0/s1",
+  "inchikey" : "NBFWIISVIFCMDK-QMKXCQHVSA-M",
+  "smiles" : "C[C@@]([H])([C@@]([H])([C@]([H])([C@]([H])(C(=O)[O-])O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:L-RHAMNONO-14-LACTONASE-RXN", "META:L-RHAMNONATE-DEHYDRATASE-RXN" ],
+      "gibbs" : -119.75975,
+      "cmlMolWeight" : 179.149,
+      "molWeight" : 179.149
+    },
+    "bigg" : {
+      "models" : [ "iML1515" ]
+    }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   16.7300  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9424  -18.2000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1549  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3673  -18.2000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5797  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7922  -18.2000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0046  -18.9000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9424  -16.8002    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5797  -20.2999    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1549  -20.2998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7922  -16.8003    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3673  -16.8000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  1  6     0  0\n  5  9  1  6     0  0\n  3 10  1  1     0  0\n  6 11  2  0     0  0\n  4 12  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C01934\n\n$$$$",
+  "reactions" : [ "irxn1035", "irxn5941" ]
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd1455",
+  "formula" : "C9H21N2O3",
+  "name" : "[(5s)-5-amino-5-carboxy-4-hydroxypentyl]trimethylazanium",
+  "synonyms" : [ ],
+  "alias" : "3htmelys",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01259"
+  }, {
+    "source" : "BiGG",
+    "entry" : "3htmelys"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3htmelys"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXY-N6N6N6-TRIMETHYL-L-LYSINE"
+  } ],
+  "inchi" : "InChI=1S/C9H20N2O3/c1-11(2,3)6-4-5-7(12)8(10)9(13)14/h7-8,12H,4-6,10H2,1-3H3/p+1/t7?,8-/m0/s1",
+  "inchikey" : "ZRJHLGYVUCPZNH-MQWKRIRWSA-O",
+  "smiles" : "C[N+](C)(C)CCCC([H])([C@@]([H])(C(=O)O)N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-Methyl-L-Amino-Acids" ],
+      "reactions" : [ "META:TRIMETHYLLYSINE-DIOXYGENASE-RXN", "META:RXN-9896" ],
+      "gibbs" : 88.60148,
+      "cmlMolWeight" : 205.276,
+      "molWeight" : 205.276,
+      "parents" : [ "META:N-Methyl-L-Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 14 13  0  0  1  0  0  0  0  0999 V2000\n   25.0600  -20.5100    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   26.1800  -21.1400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9400  -21.1400    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.0600  -19.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3000  -20.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8200  -20.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9400  -22.4000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3500  -21.1400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7700  -21.1400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8200  -19.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4700  -20.5100    0.0000 N   0  3  3  0  0  0  0  0  0  0  0  0\n   31.0800  -21.4900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4700  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1500  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  1  6     0  0\n  5  8  1  0     0  0\n  6  9  1  0     0  0\n  6 10  2  0     0  0\n  8 11  1  0     0  0\n 11 12  1  0     0  0\n 11 13  1  0     0  0\n 11 14  1  0     0  0\nM  CHG  1  11   1\nM  END\n\n> <ENTRY>\ncpd:C01259\n\n$$$$",
+  "reactions" : [ "irxn3269", "irxn2852" ]
+}

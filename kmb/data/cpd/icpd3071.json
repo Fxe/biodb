@@ -1,0 +1,38 @@
+{
+  "id" : "icpd3071",
+  "formula" : "C6H13O9P",
+  "name" : "alpha-d-glucose 6-phosphate",
+  "synonyms" : [ "alpha-d-glucose 6 phosphate", "alpha-d-glucose 6- phosphate", "alphal-d-gpucose 6-haoshalte", "alphal-gpucose 6-haoshalte" ],
+  "alias" : "g6p_A",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "g6p_A"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00668"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALPHA-GLC-6-P"
+  } ],
+  "inchi" : "InChI=1S/C6H13O9P/c7-3-2(1-14-16(11,12)13)15-6(10)5(9)4(3)8/h2-10H,1H2,(H2,11,12,13)/t2-,3-,4+,5-,6+/m1/s1",
+  "inchikey" : "NBSCHQHZLSJFNQ-DVKNGEFBSA-N",
+  "smiles" : "C([C@]1([H])[C@]([H])([C@@]([H])([C@]([H])([C@@]([H])(O)O1)O)O)O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:D-glucopyranose-6-phosphate" ],
+      "reactions" : [ "META:GLUCOSE-6-PHOSPHATE-1-EPIMERASE-RXN", "META:2.4.1.36-RXN", "META:RXN-15312" ],
+      "gibbs" : -319.04593,
+      "cmlMolWeight" : 258.121,
+      "molWeight" : 258.121,
+      "parents" : [ "META:D-glucopyranose-6-phosphate" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080" ]
+    }
+  },
+  "mol" : " \n \n \n 16 16  0  0  1  0  0  0  0  0999 V2000\n   19.1737  -15.2287    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   20.5769  -15.2350    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7706  -15.2287    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1737  -13.8319    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1610  -16.6318    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6517  -14.3340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8489  -15.0291    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   22.8489  -16.4259    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.0653  -14.3340    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0653  -17.1339    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   21.6517  -17.1339    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2883  -15.0291    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.2883  -16.4259    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.0653  -18.5306    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4984  -14.3340    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4984  -17.1339    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  7  6  1  1     0  0\n  7  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n  8 11  1  6     0  0\n  9 12  1  0     0  0\n 10 13  1  0     0  0\n 10 14  1  1     0  0\n 12 15  1  6     0  0\n 13 16  1  6     0  0\n 12 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00668\n\n$$$$",
+  "reactions" : [ "irxn2992", "irxn765", "irxn918", "irxn594", "irxn4063", "irxn4929", "irxn5339", "irxn1367" ]
+}

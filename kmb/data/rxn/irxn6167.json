@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6167",
+  "equation" : "met__L + amet <=> ahcys + mmet",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd5870" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd2188" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.12; EC-2.1.1.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00649"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHIONINE-S-METHYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6055", "META:PWY-6054", "META:PWY-5441" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ "Q9LTB2" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

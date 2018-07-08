@@ -1,0 +1,43 @@
+{
+  "id" : "irxn3255",
+  "equation" : "2.0 ppal <=> icpd3192",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6292" : "2.0"
+    },
+    "r" : {
+      "icpd3192" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2.35; 4.1.2.35",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PROPIOIN-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00038"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "YES-CONFIRMED",
+      "gibbs" : -4.02,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

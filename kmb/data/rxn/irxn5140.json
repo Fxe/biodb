@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5140",
+  "equation" : "icpd5435 + 2.0 h2o <=> acald + coa + co2 + ch4s",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5435" : "",
+      "icpd4016" : "2.0"
+    },
+    "r" : {
+      "icpd6225" : "",
+      "icpd2377" : "",
+      "icpd2454" : "",
+      "icpd6658" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.155; EC-4.2.1.155",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10936"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12573"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6048" ],
+      "orphan" : "NO",
+      "gibbs" : -15.656067,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00920" ],
+      "orthologs" : [ "K20036" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

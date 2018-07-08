@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2484",
+  "formula" : "C6H5NO4",
+  "name" : "4-nitrocatechol",
+  "synonyms" : [ "1,2-dihydroxy-4-nitrobenzene", "3,4-dihydroxy-1-nitrobenzene", "3,4-dihydroxynitrobenzene", "4-nitro-1,2-benzenediol", "4-nitro-1,2-dihydroxybenzene", "4-nitrobenzene-1,2-diol", "p-nitrocatechol" ],
+  "alias" : "icpd2484",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02235"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-158"
+  } ],
+  "inchi" : "InChI=1S/C6H5NO4/c8-5-2-1-4(7(10)11)3-6(5)9/h1-3,8-9H",
+  "inchikey" : "XJNPNXSISMKQEX-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)O)O)N(=O)=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C-nitro-compounds", "META:Catechols", "META:Nitroaromatic-Compounds" ],
+      "reactions" : [ "META:RXN-14162", "META:RXN-11965", "META:RXN-16800", "META:4-NITROPHENOL-2-MONOOXYGENASE-RXN", "META:RXN-16801" ],
+      "gibbs" : -61.604393,
+      "cmlMolWeight" : 155.11,
+      "molWeight" : 155.11,
+      "parents" : [ "META:C-nitro-compounds", "META:Catechols", "META:Nitroaromatic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   28.3453  -17.8195    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5106  -17.1388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1863  -17.1388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3393  -19.1564    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   29.5106  -15.7896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1863  -15.7896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7252  -20.1438    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8685  -20.2285    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   28.3453  -15.1274    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6635  -15.1211    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3393  -13.7905    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  5 10  1  0     0  0\n  9 11  1  0     0  0\n  6  9  2  0     0  0\nM  CHG  2   4   1   8  -1\nM  END\n\n> <ENTRY>\ncpd:C02235\n\n$$$$",
+  "reactions" : [ "irxn6178" ]
+}

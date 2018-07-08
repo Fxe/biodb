@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4441",
+  "formula" : "C5H5O4",
+  "name" : "4,5-dioxopentanoate",
+  "synonyms" : [ "4,5-dioxovalerate" ],
+  "alias" : "icpd4441",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-473"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02800"
+  } ],
+  "inchi" : "InChI=1S/C5H6O4/c6-3-4(7)1-2-5(8)9/h3H,1-2H2,(H,8,9)/p-1",
+  "inchikey" : "YHUFRVYVNKGICT-UHFFFAOYSA-M",
+  "smiles" : "C(CC(=O)[O-])C(=O)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:AMINOLEVULINATE-AMINOTRANSFERASE-RXN" ],
+      "gibbs" : -85.156456,
+      "cmlMolWeight" : 129.092,
+      "molWeight" : 129.092
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   26.8122  -19.1828    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0260  -19.8765    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6047  -19.8765    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8122  -17.7829    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2335  -19.1828    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4407  -19.8765    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4664  -21.2831    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6482  -19.1764    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4068  -19.1813    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  2  0     0  0\n  6  8  1  0     0  0\n  3  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02800\n\n$$$$",
+  "reactions" : [ "irxn5375" ]
+}

@@ -1,0 +1,53 @@
+{
+  "id" : "irxn6127",
+  "equation" : "nadp + 4hbutcoa <=> aacoa + nadph + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2808" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd726" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.36; 1.1.1.157; 1.1.1.36",
+  "otherNames" : [ ],
+  "alias" : "AACOAR_syn",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05576"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01977"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AACOAR_syn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-5901"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5741", "META:PWY-5676", "META:PWY-7216", "META:PWY1-3" ],
+      "orphan" : "NO",
+      "gibbs" : -0.1665039,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01200", "rn00650", "rn01120" ],
+      "orthologs" : [ "K00023", "K00074" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN678" ]
+    }
+  }
+}

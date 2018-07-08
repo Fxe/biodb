@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2237",
+  "equation" : "com + tma <=> mcom + dma",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2216" : "",
+      "icpd2828" : ""
+    },
+    "r" : {
+      "icpd4941" : "",
+      "icpd1757" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.247; 2.1.1.250",
+  "otherNames" : [ ],
+  "alias" : "TMAMT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09124"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TMAMT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01200", "rn00680", "rn01120" ],
+      "orthologs" : [ "K14084", "K14082", "K14083" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

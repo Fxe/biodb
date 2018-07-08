@@ -1,0 +1,45 @@
+{
+  "id" : "irxn629",
+  "equation" : "icpd5027 + accoa <=> icpd3410 + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd5027" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd3410" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.48; 2.3.1.48",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HISTONE-ACETYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03552"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -15.561096,
+      "uniprot" : [ "Q02908", "Q12341" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

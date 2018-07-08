@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2554",
+  "equation" : "h2o + icpd6415 <=> icpd7853 + urea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6415" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd269" : "",
+      "icpd7853" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.3.22; 3.5.3.22",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05357"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.5.3.22-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5679" ],
+      "orphan" : "NO",
+      "gibbs" : -3.572998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00331", "rn01130" ],
+      "orthologs" : [ "K12676" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

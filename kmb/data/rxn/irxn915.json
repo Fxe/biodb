@@ -1,0 +1,50 @@
+{
+  "id" : "irxn915",
+  "equation" : "sphgn + nadp <=> nadph + h + 3dsphgn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3085" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd761" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.102; 1.1.1.102",
+  "otherNames" : [ ],
+  "alias" : "3DSPHR",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-DEHYDROSPHINGANINE-REDUCTASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3DSPHR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02978"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY3DJ-12", "META:PWY-5129", "META:SPHINGOLIPID-SYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -0.16648865,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00600" ],
+      "orthologs" : [ "K04708" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id" : "icpd8112",
+  "formula" : "C5H10N",
+  "name" : "1-methyl-3,4-dihydro-2h-pyrrol-1-ium",
+  "synonyms" : [ ],
+  "alias" : "1mpyr",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06178"
+  }, {
+    "source" : "BiGG",
+    "entry" : "1mpyr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7994"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "1mpyr"
+  } ],
+  "inchi" : "InChI=1S/C5H10N/c1-6-4-2-3-5-6/h4H,2-3,5H2,1H3/q+1",
+  "inchikey" : "FDWZAOGDOVQOLD-UHFFFAOYSA-N",
+  "smiles" : "C[N+]1=CCCC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9195", "META:RXN-8246", "META:RXN-9202", "META:RXN-13059", "META:RXN-8252" ],
+      "gibbs" : 138.84915,
+      "cmlMolWeight" : 84.141,
+      "molWeight" : 84.141
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  6  6  0  0  0  0  0  0  0  0999 V2000\n   22.4604  -20.4192    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8699  -21.7579    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2697  -21.7822    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7253  -20.4584    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6071  -19.6160    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   23.6071  -18.2160    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  2  0     0  0\n  5  6  1  0     0  0\nM  CHG  1   5   1\nM  END\n\n> <ENTRY>\ncpd:C06178\n\n$$$$",
+  "reactions" : [ "irxn5555", "irxn2722" ]
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd1530",
+  "formula" : "C5H4O6",
+  "name" : "4-hydroxy-2-oxoglutarate",
+  "synonyms" : [ "(+/-)-2-hydroxy-4-oxopentanedioate", "2-hydroxy-4-oxopentanedioate", "2-keto-4-hydroxyglutarate", "2-oxo-4-hydroxyglutarate", "4-hydroxy-2-keto-glutarate", "4-hydroxy-2-ketoglutarate" ],
+  "alias" : "4h2oglt",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "4h2oglt"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01127"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15015"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4h2oglt"
+  } ],
+  "inchi" : "InChI=1S/C5H6O6/c6-2(4(8)9)1-3(7)5(10)11/h2,6H,1H2,(H,8,9)(H,10,11)/p-2",
+  "inchikey" : "WXSKVKPSMAHCSG-UHFFFAOYSA-L",
+  "smiles" : "C(C(C(=O)[O-])O)C(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:D-4-HYDROXY-2-KETO-GLUTARATE", "META:CPD-15016" ],
+      "reactions" : [ "META:4OH2OXOGLUTARALDOL-RXN", "META:4-HYDROXYGLUTAMATE-AMINOTRANSFERASE-RXN" ],
+      "gibbs" : -187.10376,
+      "cmlMolWeight" : 160.083,
+      "molWeight" : 160.083,
+      "parents" : [ "META:dicarboxylate", "META:D-4-HYDROXY-2-KETO-GLUTARATE", "META:2-Oxo-carboxylates", "META:CPD-15016" ]
+    },
+    "bigg" : {
+      "models" : [ "iLJ478", "iCHOv1", "iIT341", "iND750", "iMM1415", "iJN678", "iMM904", "RECON1", "iHN637", "iJB785" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   27.6303  -17.2554    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   26.4141  -16.5604    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8401  -16.5604    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6303  -18.6582    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4205  -15.1575    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2043  -17.2617    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0499  -17.2554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2661  -16.5604    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0499  -18.6582    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4759  -17.2617    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2597  -15.1575    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  8 10  1  0     0  0\n  8 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01127\n\n$$$$",
+  "reactions" : [ "irxn2794", "irxn53" ]
+}

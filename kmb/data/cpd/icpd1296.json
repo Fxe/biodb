@@ -1,0 +1,43 @@
+{
+  "id" : "icpd1296",
+  "formula" : "C10H8NO2",
+  "name" : "indole-3-acetate",
+  "synonyms" : [ "(1h-indol-3-yl)-acetate", "(indol-3-yl)acetate", "1h-indol-3-ylacetate", "1h-indole-3-acetate", "2-(1h-indol-3-yl)acetate", "2-(3-indolyl)acetate", "3-indoleacetate", "3-indolylacetate", "indol-3-ylacetate" ],
+  "alias" : "ind3ac",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "ind3ac"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:INDOLE_ACETATE_AUXIN"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00954"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ind3ac"
+  } ],
+  "inchi" : "InChI=1S/C10H9NO2/c12-10(13)5-7-6-11-9-4-2-1-3-8(7)9/h1-4,6,11H,5H2,(H,12,13)/p-1",
+  "inchikey" : "SEOVTRFCIGRIMH-UHFFFAOYSA-M",
+  "smiles" : "C1=CC2=C(C=C1)NC=C2CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2.6.1.7-RXN", "META:TRYPTOPHAN-2-MONOOXYGENASE-RXN", "META:1.8.5.1-RXN" ],
+      "activators" : [ "META:2.1.1.143-RXN", "META:2.7.7.15-RXN" ],
+      "instances" : [ "META:Auxins" ],
+      "reactions" : [ "META:RXN-10431", "META:RXN-14711", "META:RXN-10430", "META:RXN-1404", "META:RXN-10433", "META:RXN-10432", "META:RXN-10434", "META:RXN-1408", "META:RXN-10711", "META:RXN-10429", "META:RXN-2981", "META:RXN-2982", "META:RXN-9076", "META:INDOLEACETATE--LYSINE-LIGASE-RXN", "META:2.4.1.121-RXN", "META:RXN-9084", "META:RXN-9083", "META:INDOLE-3-ACETALDEHYDE-OXIDASE-RXN", "META:RXN-2947", "META:RXN-2948", "META:RXN-2944", "META:RXN-2945", "META:RXN-2946", "META:RXN-12206", "META:RXN-9825", "META:RXN-10715", "META:RXN-3166", "META:RXN-5421", "META:RXNDQC-2", "META:RXN-3163", "META:RXN-3164", "META:RXN-3165", "META:RXN-3181", "META:RXNN-404", "META:RXN-5581" ],
+      "gibbs" : 36.15791,
+      "cmlMolWeight" : 174.179,
+      "molWeight" : 174.179,
+      "parents" : [ "META:Auxins" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iCHOv1", "iND750", "iMM1415", "iMM904", "iJN678", "iAT_PLT_636", "iAF987", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   17.2200  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2200  -19.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4324  -20.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6449  -19.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6449  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4324  -17.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9764  -20.3826    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7993  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9764  -18.1174    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4076  -16.7906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7869  -16.4974    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7495  -17.5669    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2163  -15.1773    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  5  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  2  0     0  0\n 11 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00954\n\n$$$$",
+  "reactions" : [ "irxn1394", "irxn1166", "irxn2947", "irxn4728", "irxn4351", "irxn949", "irxn1376", "irxn205", "irxn5966", "irxn3810", "irxn3688" ]
+}

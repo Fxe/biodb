@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4435",
+  "equation" : "icpd3823 + atp <=> adp + 5pmev",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3823" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5506" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.36; EC-2.7.1.36",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02245"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MEVALONATE-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GERANYL-PP" ],
+      "activators" : [ "META:FARNESYL-PP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6174", "META:PWY-922", "META:PWY-7391" ],
+      "orphan" : "NO",
+      "gibbs" : -16.064087,
+      "uniprot" : [ "Q03426", "Q58487", "P17256", "Q09780", "P46086", "P07277" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn01130", "rn00900" ],
+      "orthologs" : [ "K00869" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

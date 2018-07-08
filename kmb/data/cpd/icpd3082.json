@@ -1,0 +1,39 @@
+{
+  "id" : "icpd3082",
+  "formula" : "C5H10N3O2",
+  "name" : "4-guanidinobutanoate",
+  "synonyms" : [ "&gamma;-guanidinobutyrate", "4-(carbamimidamido)butanoate", "4-guanidinobutyrate", "gamma-guanidinobutyrate" ],
+  "alias" : "4gudbutn",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "4gudbutn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-592"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01035"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "4gudbutn"
+  } ],
+  "inchi" : "InChI=1S/C5H11N3O2/c6-5(7)8-3-1-2-4(9)10/h1-3H2,(H,9,10)(H4,6,7,8)/p-1",
+  "inchikey" : "TUHVEAJXIMEOSA-UHFFFAOYSA-M",
+  "smiles" : "C(CC(=O)[O-])CNC(=N)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:GUANIDINOBUTYRASE-RXN", "META:GUANIDINOBUTANAMIDE-NH3-RXN", "META:1.2.1.54-RXN", "META:RXN-15646" ],
+      "gibbs" : 40.282322,
+      "cmlMolWeight" : 145.161,
+      "molWeight" : 145.161
+    },
+    "bigg" : {
+      "models" : [ "iND750", "iJN678", "iMM904", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   32.9700  -25.3400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7800  -24.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5200  -25.3400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3300  -24.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1400  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8800  -24.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6900  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4300  -24.6400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7800  -23.2400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6900  -26.7400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  2  9  2  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01035\n\n$$$$",
+  "reactions" : [ "irxn6145", "irxn2350", "irxn1580" ]
+}

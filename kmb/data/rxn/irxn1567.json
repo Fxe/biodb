@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1567",
+  "equation" : "icpd818 <=> fald + dhap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd818" : ""
+    },
+    "r" : {
+      "icpd7455" : "",
+      "icpd6046" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.2; EC-4.1.2.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01014"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:KETOTETROSE-PHOSPHATE-ALDOLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 8.289978,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2420",
+  "equation" : "nadph + o2 + h + C07535 <=> h2o + 327906 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd6145" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "327906" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RN0020R",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RN0020C"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RN0020R"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

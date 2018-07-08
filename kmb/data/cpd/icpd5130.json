@@ -1,0 +1,37 @@
+{
+  "id" : "icpd5130",
+  "formula" : "C5H9NO3",
+  "name" : "trans-4-hydroxy-l-proline",
+  "synonyms" : [ "(2s,4r)-4-hydroxy-2-pyrrolidinecarboxylic acid", "(2s,4r)-4-hydroxypyrrolidine-2-carboxylic acid", "(4r)-4-hydroxy-l-proline", "hydroxyproline", "l-hydroxyproline", "ls-hydroxyproline", "trans-4-hydroxyproline" ],
+  "alias" : "icpd5130",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXY-L-PROLINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01157"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4hpro-LT"
+  } ],
+  "inchi" : "InChI=1S/C5H9NO3/c7-3-1-4(5(8)9)6-2-3/h3-4,6-7H,1-2H2,(H,8,9)/t3-,4+/m1/s1",
+  "inchikey" : "PMMYEEVYMWASQN-DMTCNVIQSA-N",
+  "smiles" : "C1[C@H](CN[C@@H]1C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDROXYPYRROLINEDEH-RXN" ],
+      "instances" : [ "META:Hydroxy-L-Amino-Acids" ],
+      "reactions" : [ "META:HYDROXYPRODEHYDROG-RXN", "META:RXN-18502", "META:RXN490-3641", "META:RXN66-541", "META:4-OXOPROLINE-REDUCTASE-RXN", "META:RXN-16502", "META:4-HYDROXYPROLINE-EPIMERASE-RXN", "META:RXN66-545", "META:RXN66-546" ],
+      "gibbs" : -18.06991,
+      "cmlMolWeight" : 131.131,
+      "molWeight" : 131.131,
+      "parents" : [ "META:Hydroxy-L-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  1  0  0  0  0  0999 V2000\n   22.2873  -15.6249    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   21.1682  -16.4416    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4256  -16.4416    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2873  -14.2292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5925  -17.7794    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   22.9948  -17.7794    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4963  -13.5280    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0652  -13.5346    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7629  -18.9113    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  6     0  0\n  5  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01157\n\n$$$$",
+  "reactions" : [ "irxn3652", "irxn6425", "irxn3303" ]
+}

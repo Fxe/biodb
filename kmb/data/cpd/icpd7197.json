@@ -1,0 +1,40 @@
+{
+  "id" : "icpd7197",
+  "formula" : "C7H10O4",
+  "name" : "pimelate",
+  "synonyms" : [ "1,7-heptanedioate", "heptandioate", "heptane-1,7-dioate", "heptanedioate" ],
+  "alias" : "pime",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02656"
+  }, {
+    "source" : "BiGG",
+    "entry" : "pime"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-205"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "pime"
+  } ],
+  "inchi" : "InChI=1S/C7H12O4/c8-6(9)4-2-1-3-5-7(10)11/h1-5H2,(H,8,9)(H,10,11)/p-2",
+  "inchikey" : "WLJVNTCWHIRURA-UHFFFAOYSA-L",
+  "smiles" : "C(CCC(=O)[O-])CCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GLUTDECARBOX-RXN" ],
+      "reactions" : [ "META:6-CARBOXYHEXANOATE--COA-LIGASE-RXN" ],
+      "gibbs" : -56.637043,
+      "cmlMolWeight" : 158.154,
+      "molWeight" : 158.154
+    },
+    "bigg" : {
+      "models" : [ "iIT341", "iSB619", "iYO844" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   22.0480  -15.1256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8374  -15.8275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0414  -13.7283    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2585  -15.8275    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6205  -15.1256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4100  -15.8275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1995  -15.1256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9826  -15.8275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7720  -15.1256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5615  -15.8275    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7720  -13.7283    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02656\n\n$$$$",
+  "reactions" : [ "irxn2090" ]
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3647",
+  "equation" : "gly + dcholcoa <=> coa + gdchola",
+  "stoichiometry" : {
+    "l" : {
+      "icpd855" : "",
+      "icpd7023" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd1307" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.65; 2.3.1.65",
+  "otherNames" : [ ],
+  "alias" : "BAAT4x",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BAAT4x"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08744"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9851"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6061" ],
+      "orphan" : "NO",
+      "gibbs" : -5.044174,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00120" ],
+      "orthologs" : [ "K00659" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

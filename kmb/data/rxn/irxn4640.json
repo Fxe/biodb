@@ -1,0 +1,51 @@
+{
+  "id" : "irxn4640",
+  "equation" : "o2 + h2o + aprut <=> n2 + n4abutn + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd5151" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd2282" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.4; EC-1.4.3.4",
+  "otherNames" : [ ],
+  "alias" : "APRTO2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "APRTO2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04025"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-0" ],
+      "orphan" : "NO",
+      "gibbs" : -23.963001,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330" ],
+      "orthologs" : [ "K00274" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn951",
+  "equation" : "h2o + icpd2978 <=> cl + glyclt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2978" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2315" : "",
+      "icpd8186" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.8.1.3; 3.8.1.2; EC-3.8.1.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DHLBXANAU-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05287"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7771", "META:12DICHLORETHDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 12.812874,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00361", "rn00625" ],
+      "orthologs" : [ "K01561", "K01560" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

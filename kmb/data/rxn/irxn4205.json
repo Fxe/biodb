@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4205",
+  "equation" : "amet + ethamp <=> ahcys + methamp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd2046" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd1233" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.103; EC-2.1.1.103",
+  "otherNames" : [ ],
+  "alias" : "PETHMT_c",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02037"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PETHMT_c"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.1.1.103-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3385", "META:PWY4FS-2", "META:PWY4FS-4", "META:PWY4FS-3" ],
+      "orphan" : "NO",
+      "gibbs" : -10.459991,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564" ],
+      "orthologs" : [ "K05929" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

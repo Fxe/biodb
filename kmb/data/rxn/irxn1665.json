@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1665",
+  "equation" : "dudp + h2o <=> h + pi + dump",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4623" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1358" : "",
+      "icpd1851" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "NDP8",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NDP8"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14220"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-14199" ],
+      "orphan" : "NO",
+      "gibbs" : -6.8130493,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "icpd3554",
+  "formula" : "C5H10O5",
+  "name" : "d-arabinose",
+  "synonyms" : [ "(+/-)-arabinose", "(2s,3r,4r)-2,3,4,5-tetrahydroxypentanal", "arabinose" ],
+  "alias" : "icpd3554",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "arab-D"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-ARABINOSE"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Arabinoses"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-arabinopyranose"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00216"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15700"
+  } ],
+  "inchi" : "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4-,5+/m1/s1",
+  "inchikey" : "PYMYPHUHKUWMLA-WDCZJNDASA-N",
+  "smiles" : "C(=O)[C@H]([C@@H]([C@@H](CO)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN0-6373" ],
+      "instances" : [ "META:CPD-15700" ],
+      "reactions" : [ "META:RXN0-7219" ],
+      "gibbs" : -76.8288,
+      "cmlMolWeight" : 150.131,
+      "molWeight" : 150.131,
+      "parents" : [ "META:Arabinopyranoses", "META:Aldopentoses", "META:D-ARABINOSE", "META:Arabinofuranoses", "META:L-ARABINOSE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   25.6491  -16.5200    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.8684  -15.8200    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.4475  -15.8200    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.6608  -17.9201    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8684  -14.4199    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.0819  -16.5200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4475  -14.4199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2399  -16.5200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6491  -13.7141    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0819  -13.7141    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  3  7  1  0     0  0\n  3  8  1  6     0  0\n  5  9  1  0     0  0\n  5 10  1  4     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00216\n\n$$$$",
+  "reactions" : [ "irxn5566", "irxn5292" ]
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4609",
+  "equation" : "icpd8107 + glyclt <=> glx + icpd8139",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd2315" : ""
+    },
+    "r" : {
+      "icpd941" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.99.14; 1.1.99.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00476"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCOLATEDEHYDRO-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CUSO4", "META:CPD-7082", "META:ZN+2", "META:CPD-29", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GLYOXDEG-PWY", "META:GLYCOLATEMET-PWY", "META:PWY-6649" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01120" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

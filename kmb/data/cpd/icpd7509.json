@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7509",
+  "formula" : "C6H10O3S",
+  "name" : "5-(methylthio)-2-oxo-pentanoic acid",
+  "synonyms" : [ "5-(methylthio)-2-oxopentanoic-acid" ],
+  "alias" : "icpd7509",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C17211"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-OXO-5-METHYLTHIOPENTANOIC-ACID"
+  } ],
+  "inchi" : "InChI=1S/C6H10O3S/c1-10-4-2-3-5(7)6(8)9/h2-4H2,1H3,(H,8,9)",
+  "inchikey" : "MPJMAJLPWRBNBU-UHFFFAOYSA-N",
+  "smiles" : "CSCCCC(=O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-19485" ],
+      "reactions" : [ "META:RXN-2205", "META:RXN-18198", "META:RXNQT-4163" ],
+      "gibbs" : -6.9319687,
+      "cmlMolWeight" : 161.195,
+      "molWeight" : 161.195,
+      "parents" : [ "META:CPD-19485" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   15.3300  -14.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5424  -13.3000    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7549  -14.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9673  -13.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1797  -14.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3922  -13.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6046  -14.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3922  -11.9003    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8211  -13.2977    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6046  -15.4000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  7  9  1  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17211\n\n$$$$",
+  "reactions" : [ "irxn3633" ]
+}

@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5041",
+  "equation" : "xu1p__D <=> gcald + dhap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd487" : ""
+    },
+    "r" : {
+      "icpd2538" : "",
+      "icpd6046" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.19",
+  "otherNames" : [ ],
+  "alias" : "FBA4",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FBA4"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DARABALDOL-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01785"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1102" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:DARABCATK12-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 5.630005,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00040" ],
+      "orthologs" : [ "K01629" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

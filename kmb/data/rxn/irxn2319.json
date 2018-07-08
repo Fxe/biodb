@@ -1,0 +1,42 @@
+{
+  "id" : "irxn2319",
+  "equation" : "co <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4891" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "EX_co_e",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EX_co_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_co_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iAF692", "iCHOv1", "iNJ661", "iMM1415", "iLB1027_lipid", "iJN678", "iAT_PLT_636", "RECON1", "iHN637", "iJB785", "iAB_RBC_283" ]
+    }
+  }
+}

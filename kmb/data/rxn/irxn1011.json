@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1011",
+  "equation" : "nad + 1p3h5c + 2.0 h2o <=> 4hglu + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2284" : "",
+      "icpd4016" : "2.0",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd5227" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "HP5CD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HP5CD"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HP5CD_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987", "iYO844" ]
+    }
+  }
+}

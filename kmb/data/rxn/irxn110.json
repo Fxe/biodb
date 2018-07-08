@@ -1,0 +1,48 @@
+{
+  "id" : "irxn110",
+  "equation" : "Rtotal2 + coa + atp <=> amp + ppi + Rtotal2coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd585" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd2183" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RTOTAL2FATPc",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "R_group_phosphotase_2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RTOTAL2FATPc"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

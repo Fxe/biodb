@@ -1,0 +1,32 @@
+{
+  "id" : "icpd5141",
+  "formula" : "C13H18O2",
+  "name" : "ibuprofen",
+  "synonyms" : [ "(+-)-ibuprofen", "2-[4-(2-methylpropyl)phenyl]propanoic acid", "alpha-(4-isobutylphenyl)propionic acid", "alpha-p-isobutylphenylpropionic acid", "p-isobutyl-2-phenylpropionic acid", "p-isobutylhydratropic acid" ],
+  "alias" : "icpd5141",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Ibuprofen"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01588"
+  } ],
+  "inchi" : "InChI=1S/C13H18O2/c1-9(2)8-11-4-6-12(7-5-11)10(3)13(14)15/h4-7,9-10H,8H2,1-3H3,(H,14,15)",
+  "inchikey" : "HEFNNWSXXWATRW-UHFFFAOYSA-N",
+  "smiles" : "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-15516", "META:CPD-15517" ],
+      "gibbs" : 125.647,
+      "cmlMolWeight" : 205.276,
+      "molWeight" : 205.276,
+      "parents" : [ "META:CPD-15516", "META:CPD-15517", "META:Monocarboxylates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 15  0  0  0  0  0  0  0  0999 V2000\n   26.6332  -16.3239    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4211  -17.0246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2081  -16.3251    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   25.4217  -18.4247    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9960  -17.0258    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7888  -16.3235    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5768  -17.0243    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5774  -18.4244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7903  -19.1237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0023  -18.4229    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3652  -19.1249    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1523  -18.4256    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   16.9402  -19.1262    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1516  -17.0255    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2073  -14.9197    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  4  2  0     0  0\n  3  5  1  0     0  0\n  5  6  2  0     0  0\n  6  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\n 10  5  1  0     0  0\n  8 11  1  0     0  0\n  1  2  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n  2  3  1  0     0  0\n 12 14  1  0     0  0\n  3 15  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01588\n\n$$$$",
+  "reactions" : [ ]
+}

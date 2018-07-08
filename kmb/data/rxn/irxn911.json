@@ -1,0 +1,45 @@
+{
+  "id" : "irxn911",
+  "equation" : "h2o + icpd5406 <=> ac + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5406" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.7.1.6; 3.7.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETYLPYRUVATE-HYDROLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00324"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:OXALACETIC_ACID", "META:OXALATE", "META:PYRUVATE" ],
+      "activators" : [ "META:MG+2", "META:CO+2", "META:CA+2", "META:ZN+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P342-PWY" ],
+      "orphan" : null,
+      "gibbs" : -15.1671295,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

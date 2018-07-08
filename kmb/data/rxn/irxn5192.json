@@ -1,0 +1,52 @@
+{
+  "id" : "irxn5192",
+  "equation" : "h + oxa <=> co2 + for",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd1429" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd1650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.2; EC-4.1.1.2",
+  "otherNames" : [ ],
+  "alias" : "OXADC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OXADCm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:OXALATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OXADC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00522"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6698" ],
+      "orphan" : "NO",
+      "gibbs" : -4.2717743,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100" ],
+      "orthologs" : [ "K01569" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iLJ478", "iRC1080", "iJN678", "iJB785", "iYO844" ]
+    }
+  }
+}

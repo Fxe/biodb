@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2910",
+  "equation" : "galgluside_hs + udpgal <=> udp + h + thcrm_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5440" : "",
+      "icpd2688" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1598" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "A4GALTg",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "A4GALTc"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "A4GALTg"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

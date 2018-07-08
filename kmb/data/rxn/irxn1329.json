@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1329",
+  "equation" : "h2o + fad + h + sql <=> fadh2 + icpd7063",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd2581" : "",
+      "icpd1851" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7063" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.17.8.1; EC-1.17.8.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-17128"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11401"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7072" ],
+      "orphan" : "NO",
+      "gibbs" : -17.068542,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

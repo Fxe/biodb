@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4668",
+  "equation" : "o2 + h2o + ch4s <=> s + fald + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd6225" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd5284" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.8.3.4; 1.8.3.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01851"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHANETHIOL-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HS" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6047" ],
+      "orphan" : "NO",
+      "gibbs" : -12.702999,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00920" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

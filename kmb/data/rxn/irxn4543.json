@@ -1,0 +1,52 @@
+{
+  "id" : "irxn4543",
+  "equation" : "h2o + sphs1p <=> pi + sphings",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3035" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd7636" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.4; 3.1.3.-",
+  "otherNames" : [ ],
+  "alias" : "SBPP3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SBPP3"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SBPP3er"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN3DJ-25"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06521"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY3DJ-11470" ],
+      "orphan" : "NO",
+      "gibbs" : 5.9687653,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00600" ],
+      "orthologs" : [ "K01080" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid", "iMM1415", "RECON1" ]
+    }
+  }
+}

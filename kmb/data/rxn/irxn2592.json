@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2592",
+  "equation" : "coa + akg + 2.0 fdxox <=> 2.0 fdxrd + co2 + h + succoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd321" : "2.0",
+      "icpd2377" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5739" : "",
+      "icpd2454" : "",
+      "icpd930" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.7.3; 1.2.7.3; 1.2.7.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01197"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-OXOGLUTARATE-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CO-A" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:REDCITCYC", "META:P23-PWY", "META:P42-PWY", "META:PWY-6969", "META:PWY-5392" ],
+      "orphan" : "NO",
+      "gibbs" : -22.23999,
+      "uniprot" : [ "Q9PHX9", "O29782", "O27113", "O27114", "O29779", "Q57956", "O25313", "Q9PHX7", "Q9PHX6" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00020", "rn01130", "rn00720" ],
+      "orthologs" : [ "K00177", "K00175", "K00176", "K00174" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

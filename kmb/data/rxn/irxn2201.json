@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2201",
+  "equation" : "icpd804 <=> dhap + icpd469",
+  "stoichiometry" : {
+    "l" : {
+      "icpd804" : ""
+    },
+    "r" : {
+      "icpd6046" : "",
+      "icpd469" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2.57; 4.1.2.57",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10760"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15298"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7446" ],
+      "orphan" : "NO",
+      "gibbs" : 8.628235,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K01671" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

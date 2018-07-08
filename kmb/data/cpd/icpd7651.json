@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7651",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd7651",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-3-4-Saturated-L-Phosphatidates"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-PHOSPHATIDATE"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:CARDIOLIPSYN-RXN", "META:2.4.1.121-RXN" ],
+      "activators" : [ "META:2.7.1.68-RXN" ],
+      "instances" : [ "META:CPD-17319", "META:CPD-18390", "META:CPD-17373", "META:CPD-17374", "META:CPD0-1424", "META:CPD0-1425", "META:CPD0-1423" ],
+      "reactions" : [ "META:RXN0-5514", "META:RXN0-5515" ],
+      "parents" : [ "META:L-PHOSPHATIDATE", "META:1-Linoleoyl-2-acyl-glycerolipids", "META:1-alpha-Linolenoyl-2-acyl-glycerolipids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn4924" ]
+}

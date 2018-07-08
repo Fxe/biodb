@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2442",
+  "equation" : "udpglcur <=> icpd6963 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd886" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd6963" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01386"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7770"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:KCL", "META:UDP-D-GALACTURONATE", "META:NH42SO4", "META:UDP", "META:UTP", "META:MG+2", "META:NH4CL", "META:UDP-D-XYLOSE", "META:2-MERCAPTOETHANOL", "META:NADH", "META:CPD-12575" ],
+      "activators" : [ "META:NAD" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5113" ],
+      "orphan" : "NO",
+      "gibbs" : -0.3076172,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "K12449" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

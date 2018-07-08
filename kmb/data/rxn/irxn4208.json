@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4208",
+  "equation" : "mi145p + 2.0 atp <=> 2.0 h + mi13456p + 2.0 adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd710" : "",
+      "icpd6530" : "2.0"
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd5753" : "2.0",
+      "icpd6072" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.151; 2.7.1.151",
+  "otherNames" : [ ],
+  "alias" : "IPMK_c",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13197"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "IPMK_c"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10065"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -47.106934,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00915" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

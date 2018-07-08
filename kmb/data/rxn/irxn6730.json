@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6730",
+  "equation" : "g3p + s7p <=> e4p + f6p_B",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4806" : "",
+      "icpd7589" : ""
+    },
+    "r" : {
+      "icpd796" : "",
+      "icpd3606" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.2.1.2; EC-2.2.1.2",
+  "otherNames" : [ ],
+  "alias" : "TAh",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANSALDOL-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01827"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TAh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Pi", "META:Arabinose-5P", "META:TRIS", "META:ARABINOSE-5P", "META:L-GLYCERALDEHYDE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P185-PWY", "META:NONOXIPENT-PWY", "META:PWY-5723", "META:PWY-1861", "META:P124-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -2.920044,
+      "uniprot" : [ "P78865", "P37837", "Q58370", "P45055", "P72797", "P51778", "Q9PIL5", "P15019", "O04894", "P53228", "P34214", "Q9JSU1", "P17441", "P17440", "P0A870", "P0A867" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn01230", "rn01110", "rn00030", "rn01130" ],
+      "orthologs" : [ "K00616", "K13810" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

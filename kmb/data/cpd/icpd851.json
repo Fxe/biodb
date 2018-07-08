@@ -1,0 +1,35 @@
+{
+  "id" : "icpd851",
+  "formula" : "C10H13NO4",
+  "name" : "2-amino-3-(4-hydroxy-3-methoxyphenyl)propanoic acid",
+  "synonyms" : [ ],
+  "alias" : "CE2176",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11496"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE2176"
+  } ],
+  "inchi" : "InChI=1S/C10H13NO4/c1-15-9-5-6(2-3-8(9)12)4-7(11)10(13)14/h2-3,5,7,12H,4,11H2,1H3,(H,13,14)",
+  "inchikey" : "PFDUUKDQEHURQC-UHFFFAOYSA-N",
+  "smiles" : "COC1=CC(=CC=C1O)CC(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Guaiacols" ],
+      "reactions" : [ "META:RXN-10871", "META:RXN-10870" ],
+      "gibbs" : 18.164566,
+      "cmlMolWeight" : 211.217,
+      "molWeight" : 211.217,
+      "parents" : [ "META:Guaiacols" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn1295" ]
+}

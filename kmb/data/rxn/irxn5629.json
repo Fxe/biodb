@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5629",
+  "equation" : "h2o + icpd4396 + dma <=> icpd5312 + mma + fald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd1757" : "",
+      "icpd4396" : ""
+    },
+    "r" : {
+      "icpd5312" : "",
+      "icpd376" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.8.1; EC-1.5.8.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01588"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.5.8.1-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:TRIMETHYLAMINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 35.656757,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01200", "rn01120", "rn00680" ],
+      "orthologs" : [ "K00317" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

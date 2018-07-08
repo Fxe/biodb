@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2173",
+  "equation" : "Rtotal3 + coa + atp <=> amp + ppi + Rtotal3coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd576" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd2189" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RTOTAL3FATPc",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "R_group_phosphotase_3"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RTOTAL3FATPc"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

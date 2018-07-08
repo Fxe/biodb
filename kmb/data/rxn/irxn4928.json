@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4928",
+  "equation" : "nad + 344850 <=> 344793 + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "344850" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "344793" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RDH3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CRETINOLOR1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RDH3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

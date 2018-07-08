@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3754",
+  "formula" : "C9H18N2O4",
+  "name" : "d-lysopine",
+  "synonyms" : [ "lysopine", "n2-(d-1-carboxyethyl)-l-lysine" ],
+  "alias" : "icpd3754",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-306"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04020"
+  } ],
+  "inchi" : "InChI=1S/C9H18N2O4/c1-6(8(12)13)11-7(9(14)15)4-2-3-5-10/h6-7,11H,2-5,10H2,1H3,(H,12,13)(H,14,15)/t6-,7+/m1/s1",
+  "inchikey" : "ZZYYVZYAZCMNPG-RQJHMYQMSA-N",
+  "smiles" : "C[C@H](C(=O)O)N[C@@H](CCCCN)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-Substituted-Amino-Acids" ],
+      "reactions" : [ "META:D-LYSOPINE-DEHYDROGENASE-RXN" ],
+      "gibbs" : 31.370186,
+      "cmlMolWeight" : 218.252,
+      "molWeight" : 218.252,
+      "parents" : [ "META:N-Substituted-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 14  0  0  1  0  0  0  0  0999 V2000\n   25.5724  -27.5100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7849  -28.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.9973  -27.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2097  -28.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4222  -27.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6346  -28.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8470  -27.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.0595  -28.2100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.8470  -26.1101    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6346  -30.1700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4262  -30.8677    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2327  -30.1784    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0444  -30.8645    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4261  -32.2698    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2803  -29.0584    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  6 10  1  1     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 11 14  1  6     0  0\n 12 15  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04020\n\n$$$$",
+  "reactions" : [ "irxn2956" ]
+}

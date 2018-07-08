@@ -1,0 +1,34 @@
+{
+  "id" : "icpd2847",
+  "formula" : "C5H8O2",
+  "name" : "acetylacetone",
+  "synonyms" : [ "2,4-dioxopentane", "2,4-pentandione", "2,4-pentanedione", "acetyl 2-propanone", "acetyl acetone", "acetyl-2-propanone", "acetyl-acetone", "diacetylmethane", "pentan-2,4-dione", "pentane-2,4-dione" ],
+  "alias" : "icpd2847",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15499"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8879"
+  } ],
+  "inchi" : "InChI=1S/C5H8O2/c1-4(6)3-5(2)7/h3H2,1-2H3",
+  "inchikey" : "YRKCREAYFQTBPV-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)CC(=O)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ACETOACETATE-DECARBOXYLASE-RXN", "META:TETRAHYDROBERBERINE-OXIDASE-RXN" ],
+      "instances" : [ "META:LONG-CHAIN-KETONE" ],
+      "reactions" : [ "META:RXN-12017" ],
+      "gibbs" : 19.688967,
+      "cmlMolWeight" : 100.117,
+      "molWeight" : 100.117,
+      "parents" : [ "META:LONG-CHAIN-KETONE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   28.7700  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9840  -21.2827    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5619  -21.2827    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7700  -19.1803    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3598  -20.5937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1781  -21.2809    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3550  -19.1804    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  3  5  1  0     0  0\n  5  6  1  0     0  0\n  5  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15499\n\n$$$$",
+  "reactions" : [ "irxn2162" ]
+}

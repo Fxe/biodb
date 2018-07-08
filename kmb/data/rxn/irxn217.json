@@ -1,0 +1,50 @@
+{
+  "id" : "irxn217",
+  "equation" : "gtp + man1p + h <=> gdpmann + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1284" : "",
+      "icpd1851" : "",
+      "icpd1365" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd1993" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.13; 2.7.7.13",
+  "otherNames" : [ ],
+  "alias" : "MAN1PT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MAN1PT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00885"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.7.7.13-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DITHIOTHREITOL" ],
+      "activators" : [ "META:MG+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-882", "META:PWY-5659" ],
+      "orphan" : "NO",
+      "gibbs" : -103.30353,
+      "uniprot" : [ "O22287", "Q9TRF4", "O74484", "Q59427", "P41940" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100", "rn01110", "rn00051" ],
+      "orthologs" : [ "K16881", "K16011", "K00966", "K00971" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iNJ661", "iLB1027_lipid", "iMM904", "iJN678", "iAF987", "iJB785" ]
+    }
+  }
+}

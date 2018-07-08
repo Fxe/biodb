@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2199",
+  "formula" : "C9H7O3",
+  "name" : "2-hydroxycinnamate",
+  "synonyms" : [ "3-(2-hydroxyphenyl)prop-2-enoate", "ortho-hydroxycinnamate" ],
+  "alias" : "icpd2199",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-COUMARATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01772"
+  } ],
+  "inchi" : "InChI=1S/C9H8O3/c10-8-4-2-1-3-7(8)5-6-9(11)12/h1-6,10H,(H,11,12)/p-1",
+  "inchikey" : "PMOWTIHVNWZYFI-UHFFFAOYSA-M",
+  "smiles" : "C1=CC(=C(C=C1)O)C=CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:2.4.1.114-RXN", "META:TRANS-CINNAMATE-2-MONOOXYGENASE-RXN", "META:COUMARATE-REDUCTASE-RXN" ],
+      "gibbs" : -0.16421776,
+      "cmlMolWeight" : 163.152,
+      "molWeight" : 163.152,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   23.6600  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6600  -21.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8724  -21.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0849  -21.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0849  -19.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8724  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4476  -18.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2521  -19.6604    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0647  -18.9749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8735  -19.6629    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0645  -17.5702    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8724  -17.5702    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  2  0     0  0\n  6 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01772\n\n$$$$",
+  "reactions" : [ "irxn6841", "irxn3220", "irxn272" ]
+}

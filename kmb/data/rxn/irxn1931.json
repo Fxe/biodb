@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1931",
+  "equation" : "nadph + h + mthgxl <=> lald__D + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd302" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2878" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "LALDD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LALDD"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LALDO2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

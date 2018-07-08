@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5524",
+  "formula" : "C5H14NO6P",
+  "name" : "sn-glycero-3-phosphoethanolamine",
+  "synonyms" : [ ],
+  "alias" : "g3pe",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "g3pe"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:L-1-GLYCEROPHOSPHORYLETHANOL-AMINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01233"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "g3pe"
+  } ],
+  "inchi" : "InChI=1S/C5H14NO6P/c6-1-2-11-13(9,10)12-4-5(8)3-7/h5,7-8H,1-4,6H2,(H,9,10)/t5-/m1/s1",
+  "inchikey" : "JZNWSCPGTDBMEW-RXMQYKEDSA-N",
+  "smiles" : "C(COP(=O)(O)OC[C@@]([H])(CO)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Glycerophosphodiesters" ],
+      "reactions" : [ "META:RXN-15035", "META:RXN0-7122", "META:3.3.2.5-RXN", "META:RXN-14160" ],
+      "gibbs" : -187.89435,
+      "cmlMolWeight" : 215.142,
+      "molWeight" : 215.142,
+      "parents" : [ "META:Glycerophosphodiesters" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   24.0035  -22.4905    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3144  -22.4905    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   26.6375  -22.4905    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3144  -21.1733    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3085  -23.8135    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7785  -23.1519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9258  -22.4905    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0667  -23.1519    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7976  -23.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5851  -22.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3727  -23.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1603  -22.4700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5851  -21.0702    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  1  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 10 13  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C01233\n\n$$$$",
+  "reactions" : [ "irxn1907", "irxn5793", "irxn5001", "irxn694", "irxn2333", "irxn2621", "irxn5579", "irxn5502" ]
+}

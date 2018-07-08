@@ -1,0 +1,41 @@
+{
+  "id" : "icpd44",
+  "formula" : "C3H6NO5S",
+  "name" : "l-cysteate",
+  "synonyms" : [ "cysteate" ],
+  "alias" : "Lcyst",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-CYSTEATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "Lcyst"
+  }, {
+    "source" : "BiGG",
+    "entry" : "Lcyst"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00506"
+  } ],
+  "inchi" : "InChI=1S/C3H7NO5S/c4-2(3(5)6)1-10(7,8)9/h2H,1,4H2,(H,5,6)(H,7,8,9)/p-1/t2-/m0/s1",
+  "inchikey" : "XVOYSCVBGLVSOL-REOHCLBHSA-M",
+  "smiles" : "C([C@@]([H])(C(=O)[O-])N)S(=O)(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:SULFONATES" ],
+      "reactions" : [ "META:CYSTAUR-RXN", "META:4.4.1.25-RXN", "META:RXN-11737", "META:RXN-18356", "META:RXN-15583", "META:CYSTEINE-LYASE-RXN", "META:RXN-11108" ],
+      "gibbs" : -119.73535,
+      "cmlMolWeight" : 168.144,
+      "molWeight" : 168.144,
+      "parents" : [ "META:SULFONATES" ]
+    },
+    "bigg" : {
+      "models" : [ "iLJ478", "iCHOv1", "iRC1080", "iMM1415", "iAF987", "RECON1", "iYO844" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   27.9684  -16.7883    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   26.7742  -16.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2036  -16.1299    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5683  -16.7533    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.3507  -16.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5683  -18.1572    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1390  -16.7533    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3507  -14.6560    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2684  -18.0007    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9584  -17.7782    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  4  5  1  0     0  0\n  4  6  1  6     0  0\n  5  7  1  0     0  0\n  5  8  2  0     0  0\n  1  9  2  0     0  0\n  1 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00506\n\n$$$$",
+  "reactions" : [ "irxn1242", "irxn2342", "irxn5373", "irxn5639", "irxn2213", "irxn2610" ]
+}

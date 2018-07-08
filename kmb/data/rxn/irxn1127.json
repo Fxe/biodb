@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1127",
+  "equation" : "teo2 + amet <=> ahcys + mteo2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd1268" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd5469" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.265",
+  "otherNames" : [ ],
+  "alias" : "TEO2M",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TEO2M"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-6576"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -11.881783,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

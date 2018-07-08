@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6292",
+  "equation" : "fru + atp <=> f1p + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2151" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd4465" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.3",
+  "otherNames" : [ ],
+  "alias" : "KHK",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00866"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "KHK"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00051" ],
+      "orthologs" : [ "K00846" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

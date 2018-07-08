@@ -1,0 +1,39 @@
+{
+  "id" : "icpd7886",
+  "formula" : "C6H10NO3",
+  "name" : "4-acetamidobutanoate",
+  "synonyms" : [ "4-(acetylamino)butanoate", "4-acetamidobutyrate", "n-acetyl-4-aminobutanoate", "n-acetyl-gamma-aminobutyrate" ],
+  "alias" : "4aabutn",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "4aabutn"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4aabutn"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02946"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-35"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO3/c1-5(8)7-4-2-3-6(9)10/h2-4H2,1H3,(H,7,8)(H,9,10)/p-1",
+  "inchikey" : "UZTFMUBKZQVKLK-UHFFFAOYSA-M",
+  "smiles" : "CC(=O)NCCCC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-36", "META:RXN-37" ],
+      "gibbs" : -11.690853,
+      "cmlMolWeight" : 144.15,
+      "molWeight" : 144.15
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "iJN678", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   24.5000  -24.6400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6900  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9500  -24.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1400  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3300  -24.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5900  -25.3400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7800  -24.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.9700  -25.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6900  -26.7400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7800  -23.2400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  2  9  2  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02946\n\n$$$$",
+  "reactions" : [ "irxn5481", "irxn6062" ]
+}

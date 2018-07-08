@@ -1,0 +1,40 @@
+{
+  "id" : "icpd917",
+  "formula" : "C6H12NO2",
+  "name" : "6-aminohexanoate",
+  "synonyms" : [ "&epsilon;-aminocaproate", "6-amino-hexanoate", "6-aminocaproate", "epsilon-aminocaproate", "epsilon-aminohexanoate" ],
+  "alias" : "6ax",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02378"
+  }, {
+    "source" : "BiGG",
+    "entry" : "6ax"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "6ax"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-884"
+  } ],
+  "inchi" : "InChI=1S/C6H13NO2/c7-5-3-1-2-4-6(8)9/h1-5,7H2,(H,8,9)/p-1",
+  "inchikey" : "SLXKOJJOQWFEFD-UHFFFAOYSA-M",
+  "smiles" : "C(CCC(=O)[O-])CCN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:LYSDECARBOX-RXN", "META:LYSINE-2-MONOOXYGENASE-RXN", "META:L-LYSINE-OXIDASE-RXN", "META:1.5.1.11-RXN" ],
+      "reactions" : [ "META:RXN-3962", "META:RXN-14377", "META:R561-RXN", "META:R562-RXN" ],
+      "gibbs" : 52.274563,
+      "cmlMolWeight" : 131.174,
+      "molWeight" : 131.174
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   21.8300  -17.6973    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0454  -18.3901    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6147  -18.3960    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2549  -17.6855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4054  -17.7032    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4702  -18.3843    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2549  -16.2824    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1900  -18.4018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9747  -17.7090    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02378\n\n$$$$",
+  "reactions" : [ "irxn2199", "irxn263", "irxn945" ]
+}

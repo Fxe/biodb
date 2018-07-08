@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6299",
+  "formula" : "C6H8O5",
+  "name" : "(r)-3,3-dimethylmalate",
+  "synonyms" : [ ],
+  "alias" : "icpd6299",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01088"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1088"
+  } ],
+  "inchi" : "InChI=1S/C6H10O5/c1-6(2,5(10)11)3(7)4(8)9/h3,7H,1-2H3,(H,8,9)(H,10,11)/p-2/t3-/m0/s1",
+  "inchikey" : "KSAIICDEQGEQBK-VKHMYHEASA-L",
+  "smiles" : "CC(C)([C@]([H])(C(=O)[O-])O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:DIMETHYLMALATE-DEHYDROGENASE-RXN", "META:R-DEHYDROPANTOATE-DEHYDROGENASE-RXN" ],
+      "gibbs" : -121.87928,
+      "cmlMolWeight" : 160.126,
+      "molWeight" : 160.126
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   12.4600  -20.2300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.6500  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9100  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1000  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2900  -20.2300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5500  -20.9300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2900  -18.8300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.6500  -22.3300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0800  -21.9100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1200  -21.9100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9100  -18.8300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  5  7  2  0     0  0\n  2  8  2  0     0  0\n  4  9  1  0     0  0\n  4 10  1  0     0  0\n  3 11  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C01088\n\n$$$$",
+  "reactions" : [ "irxn3120", "irxn1323" ]
+}

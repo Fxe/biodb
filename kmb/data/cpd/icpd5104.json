@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5104",
+  "formula" : "C11H12O5",
+  "name" : "3,5-dimethoxy-4-hydroxycinnamic acid",
+  "synonyms" : [ "3-(4-hydroxy-3,5-dimethoxyphenyl)-2-propenoic acid", "3-(4-hydroxy-3,5-dimethoxyphenyl)acrylic acid", "4-hydroxy-3,5-dimethoxycinnamic acid" ],
+  "alias" : "icpd5104",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SINAPATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00482"
+  } ],
+  "inchi" : "InChI=1S/C11H12O5/c1-15-8-5-7(3-4-10(12)13)6-9(16-2)11(8)14/h3-6,14H,1-2H3,(H,12,13)",
+  "inchikey" : "PCMORTLOPMLEFB-UHFFFAOYSA-N",
+  "smiles" : "COC1=CC(=CC(=C1O)OC)C=CC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:RXN-15333", "META:SINAPINE-ESTERASE-RXN", "META:RXN-3422", "META:RXN-10919", "META:SINAPATE-1-GLUCOSYLTRANSFERASE-RXN", "META:RXN-8014", "META:RXN-13967" ],
+      "gibbs" : -8.739745,
+      "cmlMolWeight" : 223.205,
+      "molWeight" : 223.205,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 16 16  0  0  0  0  0  0  0  0999 V2000\n   25.3400  -18.4800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3400  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5524  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7649  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7649  -18.4800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5524  -17.7800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9960  -17.7690    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9960  -16.3690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9960  -20.5910    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5524  -21.9798    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3232  -22.6897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1276  -17.7800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9321  -18.4704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7447  -17.7849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5535  -18.4729    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7445  -16.3802    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  4  9  1  0     0  0\n  3 10  1  0     0  0\n 10 11  1  0     0  0\n  1 12  1  0     0  0\n 12 13  2  0     0  0\n 13 14  1  0     0  0\n 14 15  1  0     0  0\n 14 16  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00482\n\n$$$$",
+  "reactions" : [ "irxn2485", "irxn6651", "irxn3790", "irxn1006", "irxn5282", "irxn2802" ]
+}

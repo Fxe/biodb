@@ -1,0 +1,60 @@
+{
+  "id" : "irxn6018",
+  "equation" : "nad + g3p + pi <=> 13dpg + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4806" : "",
+      "icpd5131" : "",
+      "icpd7485" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd3088" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.59; EC-1.2.1.12; 1.2.1.12",
+  "otherNames" : [ ],
+  "alias" : "GAPD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GAPDHh"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GAPOXNPHOSPHN-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GAPD"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GAPDHf"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GAPDHm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01061"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMP", "META:FRUCTOSE-16-DIPHOSPHATE", "META:CU+2", "META:ATP", "META:ARSENATE", "META:PHOSPHO-ENOL-PYRUVATE", "META:IODOACETAMIDE", "META:CPD-29", "META:HG+2", "META:IODOACETATE", "META:GAP", "META:L-GLYCERALDEHYDE-3-PHOSPHATE", "META:ADP", "META:CAMP", "META:NADH", "META:23-DIPHOSPHOGLYCERATE" ],
+      "activators" : [ "META:ARSENATE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5484", "META:P185-PWY", "META:GLYCOLYSIS", "META:PWY-1042", "META:PWY-7003", "META:P122-PWY", "META:GLUCONEO-PWY", "META:ANAGLYCOLYSIS-PWY", "META:SUCSYN-PWY", "META:P124-PWY", "META:PWY66-399", "META:PWY-6901" ],
+      "orphan" : "NO",
+      "gibbs" : -15.19458,
+      "uniprot" : [ "P08439", "P29497", "Q9JWT8", "P16858", "Q9JX51", "Q07234", "Q48335", "O04106", "Q59906", "P35143", "P39460", "P24750", "P24751", "P32810", "Q43833", "P04406", "Q27890", "O34425", "P10097", "P25858", "Q01597", "P20287", "P07486", "P49644", "P28844", "P20445", "P07487", "O25902", "P26520", "P10618", "P34783", "Q01077", "P54118", "Q7LZR1", "P46406", "P26519", "P26518", "P26517", "P32809", "Q59800", "P32635", "P50321", "P32637", "P32636", "P55971", "P32638", "P0A9B6", "P50322", "P0A9B2", "P78958", "O83816", "Q27820", "Q46450", "P24748", "P24749", "O59841", "P09124", "P17819", "P24746", "P26521", "Q58546", "P04796", "P34924", "P04797", "P34922", "Q09054", "Q43247", "P75358", "P34920", "Q60143", "Q42671", "Q64467", "P64178", "O49222", "Q59309", "P80534", "P34917", "P34918", "Q43359", "Q01558", "P17244", "P17878", "Q00584", "P26988", "P54270", "P47543", "O67161", "P04970", "P08735", "Q9UW96", "Q08060", "P29272", "P17329", "P17721", "Q7M516", "P17331", "P17330", "Q7M517", "P17729", "P23722", "P22513", "O32755", "P25861", "P09316", "P22512", "P44304", "P00361", "P00362", "P09317", "P00360", "P19089", "Q7M188", "Q7M187", "Q7M2K2", "Q01651", "P00358", "P46795", "P00359", "P00356", "P00357", "Q37264", "Q37265", "O68075", "P08477", "P46713" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01230", "rn01120", "rn01110", "rn00010", "rn01130", "rn00710" ],
+      "orthologs" : [ "K00134", "K10705", "K00150" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iNF517", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iWFL_1372", "iECED1_1282", "iECIAI1_1343", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "e_coli_core", "iEcDH1_1363", "iECO26_1355", "iECP_1309", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iEcSMS35_1347", "iE2348C_1286", "iNRG857_1313", "iECO111_1330", "iECW_1372", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iSbBS512_1146", "iECBD_1354", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iHN637", "iECO103_1326", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

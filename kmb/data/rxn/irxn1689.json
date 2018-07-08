@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1689",
+  "equation" : "6txan5mp + h2o + gln__L + atp <=> 6tgsnmp + amp + glu__L + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4773" : "",
+      "icpd4016" : "",
+      "icpd929" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd1231" : "",
+      "icpd7180" : "",
+      "icpd4767" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.5.2",
+  "otherNames" : [ ],
+  "alias" : "6TXAN5MPAML",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "6TXAN5MPAML"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08244"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00983" ],
+      "orthologs" : [ "K01951" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

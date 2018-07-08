@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5281",
+  "equation" : "nadh + 2.0 aqcobal + h <=> nad + 2.0 h2o + 2.0 cbl2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd702" : "2.0"
+    },
+    "r" : {
+      "icpd6543" : "2.0",
+      "icpd4016" : "2.0",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.16.1.3",
+  "otherNames" : [ ],
+  "alias" : "CBL2OR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CBL2OR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00097"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K05368" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5689",
+  "equation" : "o2 + nadh + 4hphac + h <=> nad + h2o + 34dhpha",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd1660" : ""
+    },
+    "r" : {
+      "icpd8210" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.14.9",
+  "otherNames" : [ ],
+  "alias" : "HPA3MO",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02698"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HPA3MO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00350", "rn01220" ],
+      "orthologs" : [ "K00483", "K00484", "K16901" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iECBD_1354", "iSbBS512_1146", "iEKO11_1354", "iB21_1397", "iECD_1391", "iECUMN_1333", "iECIAI1_1343", "iWFL_1372", "iECO111_1330", "iECW_1372", "iSBO_1134", "iECO103_1326", "iYL1228", "iEcHS_1320", "iS_1188", "iECO26_1355", "iSFV_1184", "iECB_1328", "iECSE_1348", "iSF_1195", "iSFxv_1172", "iSSON_1240", "iEcolC_1368" ]
+    }
+  }
+}

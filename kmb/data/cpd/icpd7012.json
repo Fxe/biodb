@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7012",
+  "formula" : "C10H16",
+  "name" : "(1r,5r)-6,6-dimethyl-2-methylidenebicyclo[3.1.1]heptane",
+  "synonyms" : [ ],
+  "alias" : "icpd7012",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8755"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20244"
+  } ],
+  "inchi" : "InChI=1S/C10H16/c1-7-4-5-8-6-9(7)10(8,2)3/h8-9H,1,4-6H2,2-3H3/t8-,9-/m1/s1",
+  "inchikey" : "WTARULDDTDQWMU-RKDXNWHRSA-N",
+  "smiles" : "C=C1CC[C@@H]2C[C@H]1C2(C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:PINENE" ],
+      "reactions" : [ "META:RXN-8564" ],
+      "gibbs" : 190.13794,
+      "cmlMolWeight" : 136.236,
+      "molWeight" : 136.236,
+      "parents" : [ "META:PINENE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 11  0  0  1  0  0  0  0  0999 V2000\n    9.1700  -15.3300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.1700  -16.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.3824  -17.4300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.5949  -16.7300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.5949  -15.3300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.3824  -14.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.3824  -16.0300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.3824  -13.2302    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8260  -17.4410    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8261  -16.0191    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  5  7  1  1     0  0\n  3  7  1  1     0  0\n  6  8  2  0     0  0\n  4  9  1  0     0  0\n  4 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20244\n\n$$$$",
+  "reactions" : [ "irxn97" ]
+}

@@ -1,0 +1,53 @@
+{
+  "id" : "irxn3416",
+  "equation" : "h2o + 342665 <=> 2.0 h + pi + 342556",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "342665" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd7485" : "",
+      "342556" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PGPP1819Z160",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PGPP1819Z160"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PGPP_OLE_PALM_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PGPP_OLE_PALM"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PGPP1819Z160h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

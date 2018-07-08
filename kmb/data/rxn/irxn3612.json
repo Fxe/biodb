@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3612",
+  "equation" : "gal + nadp <=> nadph + icpd7158 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1558" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7158" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.360; EC-1.1.1.120; 1.1.1.359; EC-1.1.1.360; 1.1.1.48; 1.1.1.120",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GALACTOSE-1-DEHYDROGENASE-NADP+-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01096"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -5.9264526,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K18124", "K18125" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

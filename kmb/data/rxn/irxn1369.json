@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1369",
+  "equation" : "akg + icpd6516 <=> icpd3000 + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd6516" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd3000" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7751"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04269"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HCN", "META:HYDROXYLAMINE", "META:CARBOXYMETHOXYLAMINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5103" ],
+      "orphan" : null,
+      "gibbs" : 0.6999817,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "C5", "rn00660" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

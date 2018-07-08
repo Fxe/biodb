@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5566",
+  "formula" : "C6H6ClNO",
+  "name" : "2-amino-5-chlorophenol",
+  "synonyms" : [ ],
+  "alias" : "icpd5566",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20669"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9158"
+  } ],
+  "inchi" : "InChI=1S/C6H6ClNO/c7-4-1-2-5(8)6(9)3-4/h1-3,9H,8H2",
+  "inchikey" : "FZCQMIRJCGWWCL-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)N)O)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds", "META:Aryl-Amines" ],
+      "reactions" : [ "META:RXN-8836", "META:RXN-18091", "META:RXN-8835" ],
+      "gibbs" : 50.426727,
+      "cmlMolWeight" : 143.572,
+      "molWeight" : 143.572,
+      "parents" : [ "META:Chloroaromatic-Compounds", "META:Aryl-Amines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   15.6800  -14.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6800  -15.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8924  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1049  -15.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1049  -14.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8924  -13.5100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8924  -12.1100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3360  -13.4990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8924  -17.7100    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  5  8  1  0     0  0\n  3  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20669\n\n$$$$",
+  "reactions" : [ "irxn2310" ]
+}

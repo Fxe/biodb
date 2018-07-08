@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2853",
+  "formula" : "C4H6NO5",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd2853",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03961"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-655"
+  } ],
+  "inchi" : "InChI=1S/C4H7NO5/c5-1(3(7)8)2(6)4(9)10/h1-2,6H,5H2,(H,7,8)(H,9,10)/p-1",
+  "inchikey" : "YYLQUHNPNCGKJQ-UHFFFAOYSA-M",
+  "smiles" : "C(C(C(=O)[O-])O)(C(=O)[O-])[N+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:3-Hydroxy-L-aspartate" ],
+      "reactions" : [ "META:RXN-11769", "META:4.3.1.20-RXN" ],
+      "gibbs" : -142.47534,
+      "cmlMolWeight" : 148.095,
+      "molWeight" : 148.095,
+      "parents" : [ "META:3-Hydroxy-L-aspartate" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   24.1564  -21.7317    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3438  -21.0332    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6010  -21.7317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7884  -21.0332    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9758  -21.7317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2330  -21.0332    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3438  -19.6363    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6010  -23.1286    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9758  -23.1286    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7884  -19.6332    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  2  7  2  0     0  0\n  3  8  1  6     0  0\n  5  9  2  0     0  0\n  4 10  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C03961\n\n$$$$",
+  "reactions" : [ "irxn3892", "irxn3" ]
+}

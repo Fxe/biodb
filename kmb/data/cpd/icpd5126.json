@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5126",
+  "formula" : "C80H130O",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "dedol",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19965"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "dedol"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Ditrans-polycis-polyprenols"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10713"
+  } ],
+  "inchi" : "InChI=1S/C80H130O/c1-65(2)33-18-34-66(3)35-19-36-67(4)37-20-38-68(5)39-21-40-69(6)41-22-42-70(7)43-23-44-71(8)45-24-46-72(9)47-25-48-73(10)49-26-50-74(11)51-27-52-75(12)53-28-54-76(13)55-29-56-77(14)57-30-58-78(15)59-31-60-79(16)61-32-62-80(17)63-64-81/h33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63,81H,18-32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64H2,1-17H3/b66-35+,67-37+,68-39-,69-41-,70-43-,71-45-,72-47-,73-49-,74-51-,75-53-,76-55-,77-57-,78-59-,79-61-,80-63-",
+  "inchikey" : "XUOPFYDSJOSZBT-HIQRJCTMSA-N",
+  "smiles" : "CC(=CCC/C(=C(\\[H])/CC/C(=C(\\[H])/CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CC/C(=C(/[H])\\CO)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Ditrans-polycis-polyprenols" ],
+      "reactions" : [ "META:RXN-9971", "META:RXN-9970" ],
+      "gibbs" : 1737.9158,
+      "cmlMolWeight" : 1107.906,
+      "molWeight" : 1107.906,
+      "parents" : [ "META:Ditrans-polycis-polyprenols" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iLB1027_lipid" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn3762" ]
+}

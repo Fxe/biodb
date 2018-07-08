@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6208",
+  "equation" : "agm + coucoa <=> coa + icpd7277 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5815" : "",
+      "icpd439" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd7277" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.64; 2.3.1.64",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01617"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AGMATINE-N4-COUMAROYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CUSO4", "META:CPD0-2393", "META:CPD0-2394", "META:DITHIOTHREITOL" ],
+      "activators" : [ "META:2-MERCAPTOETHANOL", "META:CPD0-1951" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6448" ],
+      "orphan" : "NO",
+      "gibbs" : 20.074066,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ "K14329" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

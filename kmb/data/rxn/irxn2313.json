@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2313",
+  "equation" : "gtspmd + atp + gthrd <=> icpd3892 + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5454" : "",
+      "icpd1977" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3892" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.3.1.9; 6.3.1.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03822"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:6.3.1.9-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TRYPANOSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -5.887665,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00480" ],
+      "orthologs" : [ "K01833" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

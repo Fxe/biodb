@@ -1,0 +1,40 @@
+{
+  "id" : "icpd4891",
+  "formula" : "CO",
+  "name" : "carbon monoxide",
+  "synonyms" : [ "carbon monooxide", "carbon oxide" ],
+  "alias" : "co",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00237"
+  }, {
+    "source" : "BiGG",
+    "entry" : "co"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CARBON-MONOXIDE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "co"
+  } ],
+  "inchi" : "InChI=1S/CO/c1-2",
+  "inchikey" : "UGFAIRIUMAVXCW-UHFFFAOYSA-N",
+  "smiles" : "[C-]#[O+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:NITROGENASE-RXN", "META:CHOLESTEROL-7-ALPHA-MONOOXYGENASE-RXN", "META:RXN-11621", "META:RXN3O-227", "META:RXN-10746", "META:RXN-8507", "META:NITROGENASE-FLAVODOXIN-RXN", "META:RXN-8665", "META:RXN-9830", "META:RXN-8387", "META:1.1.3.35-RXN", "META:RXN-8386", "META:R141-RXN", "META:RXN-8383", "META:RXN-11271", "META:RXN-11851", "META:RXN-13898", "META:RXN-13556", "META:CHOLESTANETRIOL-26-MONOOXYGENASE-RXN", "META:R621-RXN", "META:RXN-8735", "META:RXN0-5256", "META:RXN-9206", "META:RXN-8633", "META:CALCIDIOL-1-MONOOXYGENASE-RXN", "META:RXN-7487", "META:RXN-8696", "META:RXN-7485", "META:RXN-8695", "META:RXN-7483", "META:RXN-7484", "META:RXN-7482" ],
+      "reactions" : [ "META:RXN-17357", "META:RXN-17522", "META:RXN-18338", "META:RXN-17523", "META:HEME-OXYGENASE-DECYCLIZING-RXN", "META:RXN-18342", "META:RXN-17971", "META:1.2.2.4-RXN", "META:1.2.7.4-RXN", "META:R146-RXN", "META:1.13.11.47-RXN", "META:RXN-18339", "META:TRANS-RXN0-556", "META:RXN-8407", "META:ACETYLSYNCLTH-RXN", "META:1.13.11.48-RXN", "META:RXN-12907", "META:RXN-1025", "META:QUERCETIN-23-DIOXYGENASE-RXN", "META:PYRIMSYN1-RXN", "META:RXN-13281" ],
+      "gibbs" : -32.8,
+      "cmlMolWeight" : 28.01,
+      "molWeight" : 28.01
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iCHOv1", "iJN678", "iAT_PLT_636", "iAF987", "iHN637", "iJB785", "iAB_RBC_283", "iYO844", "iYL1228", "iRC1080", "iNJ661", "iLB1027_lipid", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   22.5400  -12.3200    0.0000 O   0  3  0  0  0  0  0  0  0  0  0  0\n   21.1400  -12.3200    0.0000 C   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  3  0     0  0\nM  CHG  2   1   1   2  -1\nM  END\n\n> <ENTRY>\ncpd:C00237\n\n$$$$",
+  "reactions" : [ "irxn1670", "irxn2319", "irxn1382", "irxn4153", "irxn2139", "irxn491", "irxn3506", "irxn13", "irxn1779", "irxn3049" ]
+}

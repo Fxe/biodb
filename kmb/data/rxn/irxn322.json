@@ -1,0 +1,45 @@
+{
+  "id" : "irxn322",
+  "equation" : "h2o + gchola <=> gly + cholate",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd1539" : ""
+    },
+    "r" : {
+      "icpd855" : "",
+      "icpd108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.24; EC-3.5.1.24",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05835"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHOLOYLGLYCINE-HYDROLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CU+2", "META:CA+2", "META:CPD-29", "META:HG+2", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7754", "META:PWY-6518" ],
+      "orphan" : "NO",
+      "gibbs" : -1.3329926,
+      "uniprot" : [ "Q06115", "P54965" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K01442" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

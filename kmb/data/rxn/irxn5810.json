@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5810",
+  "equation" : "mma + com <=> n2 + mcom",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2216" : "",
+      "icpd376" : ""
+    },
+    "r" : {
+      "icpd4941" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.247; 2.1.1.248",
+  "otherNames" : [ ],
+  "alias" : "MMAMT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MMAMT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09998"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01200", "rn01120", "rn00680" ],
+      "orthologs" : [ "K16177", "K16176", "K14082" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

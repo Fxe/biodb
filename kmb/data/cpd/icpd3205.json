@@ -1,0 +1,32 @@
+{
+  "id" : "icpd3205",
+  "formula" : "CH4N2O2",
+  "name" : "hydroxyurea",
+  "synonyms" : [ "carbamohydroximic acid", "hydroxy-urea", "hydroxylurea", "n-carbamoylhydroxylamine", "n-hydroxyurea" ],
+  "alias" : "icpd3205",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXY-UREA"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C07044"
+  } ],
+  "inchi" : "InChI=1S/CH4N2O2/c2-1(4)3-5/h5H,(H3,2,3,4)",
+  "inchikey" : "VSNHCAURESNICA-UHFFFAOYSA-N",
+  "smiles" : "C(=N)(NO)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:CDPREDUCT-RXN" ],
+      "reactions" : [ "META:RXN-14458", "META:RXN-14457" ],
+      "gibbs" : -44.87552,
+      "cmlMolWeight" : 76.055,
+      "molWeight" : 76.055
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   25.2773  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4812  -19.0436    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0675  -19.0436    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2773  -16.9385    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6967  -18.3400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07044\n\n$$$$",
+  "reactions" : [ "irxn770" ]
+}

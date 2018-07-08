@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4942",
+  "equation" : "h2o + chsterols <=> h + so4 + chsterol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5449" : ""
+    },
+    "r" : {
+      "icpd5748" : "",
+      "icpd1851" : "",
+      "icpd4645" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.6.2",
+  "otherNames" : [ ],
+  "alias" : "STS3",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08941"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "STS3r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "STS3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00140" ],
+      "orthologs" : [ "K01131" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "RECON1" ]
+    }
+  }
+}

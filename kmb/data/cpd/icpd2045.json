@@ -1,0 +1,32 @@
+{
+  "id" : "icpd2045",
+  "formula" : "C3H4N2",
+  "name" : "pyrazole",
+  "synonyms" : [ "1,2-diazole", "diazol" ],
+  "alias" : "icpd2045",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00481"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRAZOLE"
+  } ],
+  "inchi" : "InChI=1S/C3H4N2/c1-2-4-5-3-1/h1-3H,(H,4,5)",
+  "inchikey" : "WTKZEGDFNFYCGP-UHFFFAOYSA-N",
+  "smiles" : "C1=CNN=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-11454", "META:ALCOHOL-DEHYDROG-RXN" ],
+      "reactions" : [ "META:RXN-7441", "META:PYRAZOLYLALANINE-SYNTHASE-RXN", "META:2.5.1.51-RXN" ],
+      "gibbs" : 64.27448,
+      "cmlMolWeight" : 68.078,
+      "molWeight" : 68.078
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  5  0  0  0  0  0  0  0  0999 V2000\n   10.1500  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.5500  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9826  -14.7685    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   10.8500  -13.9456    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7174  -14.7685    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00481\n\n$$$$",
+  "reactions" : [ "irxn1792", "irxn2095" ]
+}

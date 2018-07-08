@@ -1,0 +1,39 @@
+{
+  "id" : "icpd6541",
+  "formula" : "C7H5NO4",
+  "name" : "(s)-2,3-dihydropyridine-2,6-dicarboxylate",
+  "synonyms" : [ ],
+  "alias" : "23dhdp",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "23dhdp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-3-DIHYDRODIPICOLINATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "23dhdp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03340"
+  } ],
+  "inchi" : "InChI=1S/C7H7NO4/c9-6(10)4-2-1-3-5(8-4)7(11)12/h1-2,5H,3H2,(H,9,10)(H,11,12)/p-2/t5-/m0/s1",
+  "inchikey" : "UWOCFOFVIBZJGH-YFKPBYRVSA-L",
+  "smiles" : "C1=CC(=N[C@@]([H])(C1)C(=O)[O-])C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-5041" ],
+      "gibbs" : -92.06264,
+      "cmlMolWeight" : 167.121,
+      "molWeight" : 167.121
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   27.6920  -20.5634    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.4682  -21.2724    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6920  -19.1498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8913  -21.2550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2618  -20.5634    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4682  -18.4523    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8913  -22.6499    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0974  -20.5518    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2618  -19.1498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0566  -21.2550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8505  -20.5388    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0566  -22.6442    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\n  6  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03340\n\n$$$$",
+  "reactions" : [ "irxn833", "irxn2048", "irxn4502" ]
+}

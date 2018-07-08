@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3458",
+  "equation" : "o2 + gal + h2o <=> galctn__D + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd1558" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd6820" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.3.9",
+  "otherNames" : [ ],
+  "alias" : "GALO",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01098"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GALO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K04618" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

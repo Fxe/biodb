@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5873",
+  "formula" : "C5H4N2O2",
+  "name" : "pyrazinoic acid",
+  "synonyms" : [ "2-carboxypyrazine", "2-pyrazinecarboxylic acid", "paradiazinecarboxylic acid", "pyrazine-2-carboxylic acid", "pyrazinecarboxylic acid", "pyrazinemonocarboxylic acid", "pyrazinic acid" ],
+  "alias" : "icpd5873",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19915"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRAZINOIC-ACID"
+  } ],
+  "inchi" : "InChI=1S/C5H4N2O2/c8-5(9)4-3-6-1-2-7-4/h1-3H,(H,8,9)",
+  "inchikey" : "NIPZZXUFJPQHNH-UHFFFAOYSA-N",
+  "smiles" : "C1=NC=C(C(=O)O)N=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Antibiotics" ],
+      "reactions" : [ "META:PYRAZIN-RXN" ],
+      "gibbs" : -26.018698,
+      "cmlMolWeight" : 123.091,
+      "molWeight" : 123.091,
+      "parents" : [ "META:Antibiotics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   16.3100  -15.8900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3100  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5224  -17.9900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7349  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7349  -15.8900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5224  -15.1900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9724  -15.1900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.1849  -15.8900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9786  -13.7903    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19915\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4393",
+  "equation" : "nad + bz12diol <=> catechol + nadh + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd7991" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd2941" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.25; 1.3.1.25",
+  "otherNames" : [ ],
+  "alias" : "BZDIOLDH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.3.1.25-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BZDIOLDH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00813"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2503" ],
+      "orphan" : "NO",
+      "gibbs" : -18.174072,
+      "uniprot" : [ "O85961", "P23102" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00362" ],
+      "orthologs" : [ "K05783" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iJN746" ]
+    }
+  }
+}

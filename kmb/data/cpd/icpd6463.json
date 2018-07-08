@@ -1,0 +1,39 @@
+{
+  "id" : "icpd6463",
+  "formula" : "C6H4O5",
+  "name" : "2-hydroxymuconate",
+  "synonyms" : [ "(2z,4e)-2-hydroxyhexa-2,4-dienedioate" ],
+  "alias" : "2hmc",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "2hmc"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13339"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2hmc"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02501"
+  } ],
+  "inchi" : "InChI=1S/C6H6O5/c7-4(6(10)11)2-1-3-5(8)9/h1-3,7H,(H,8,9)(H,10,11)/p-2/b3-1+,4-2-",
+  "inchikey" : "JBEBGTMCZIGUTK-TZFCGSKZSA-L",
+  "smiles" : "C(\\[H])(=C(/[H])\\C(=O)[O-])/C(/[H])=C(/C(=O)O)\\[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8529", "META:3SC23OSPON-RXN", "META:RXN-8527", "META:RXN-8845", "META:RXN-12354", "META:PYROGALLOL-12-OXYGENASE-RXN", "META:RXN-10420", "META:RXN-13704", "META:R605-RXN" ],
+      "gibbs" : -121.683754,
+      "cmlMolWeight" : 156.095,
+      "molWeight" : 156.095
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   18.6507  -16.1458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8611  -15.4440    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6507  -17.5427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0778  -16.1458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8611  -14.0470    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4403  -18.2445    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0713  -17.5427    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2882  -15.4377    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2236  -17.5427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2299  -16.1458    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0132  -18.2511    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  6  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02501\n\n$$$$",
+  "reactions" : [ "irxn6523", "irxn5124", "irxn3958", "irxn2063", "irxn1554" ]
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2198",
+  "equation" : "tsul + 2.0 gthrd <=> s + gthox + so3",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7289" : "",
+      "icpd1977" : "2.0"
+    },
+    "r" : {
+      "icpd5284" : "",
+      "icpd2309" : "",
+      "icpd5833" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.1.3; EC-2.8.1.3",
+  "otherNames" : [ ],
+  "alias" : "TSULR3e",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TSULR3e"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THIOSULFATE--THIOL-SULFURTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01875"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "YES-CONFIRMED",
+      "gibbs" : -14.342392,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00480" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iPC815" ]
+    }
+  }
+}

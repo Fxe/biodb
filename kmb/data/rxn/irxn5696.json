@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5696",
+  "equation" : "coa + Rtotal + atp <=> Rtotalcoa + amp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd521" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd2196" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "RTOTALFATPc",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RTOTALFATPc"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "R_group_phosphotase_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6061",
+  "equation" : "icpd8107 + icpd6778 <=> icpd8139 + dhcholoylcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd6778" : ""
+    },
+    "r" : {
+      "icpd8122" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.17.99.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9846"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08740"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6061" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K10214" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

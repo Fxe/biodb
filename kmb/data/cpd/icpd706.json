@@ -1,0 +1,32 @@
+{
+  "id" : "icpd706",
+  "formula" : "C6H7N5O",
+  "name" : "3-methylguanine",
+  "synonyms" : [ "2-amino-3,7-dihydro-3-methyl-6h-purin-6-one", "2-amino-3-methyl-3,9-dihydro-6h-purin-6-one", "2-amino-3-methyl-6,7-dihydro-3h-purin-6-one", "n(3)-methylguanine", "n3-methylguanine" ],
+  "alias" : "icpd706",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13319"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02230"
+  } ],
+  "inchi" : "InChI=1S/C6H7N5O/c1-11-4-3(8-2-9-4)5(12)10-6(11)7/h2H,1H3,(H,8,9)(H2,7,10,12)",
+  "inchikey" : "XHBSBNYEHDQRCP-UHFFFAOYSA-N",
+  "smiles" : "CN1C2=C(C(=O)N=C1N)N=CN2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Alkylated-Bases" ],
+      "gibbs" : 68.88884,
+      "cmlMolWeight" : 165.154,
+      "molWeight" : 165.154,
+      "parents" : [ "META:Alkylated-Bases" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 13  0  0  0  0  0  0  0  0999 V2000\n   23.1700  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1700  -16.2400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -18.3400    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   21.8400  -18.1300    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -15.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8400  -15.8200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5500  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -19.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0000  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5500  -16.2400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -14.1400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8100  -18.3400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  1  0     0  0\n  5 10  1  0     0  0\n  5 11  2  0     0  0\n  7 12  1  0     0  0\n  6  9  2  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02230\n\n$$$$",
+  "reactions" : [ ]
+}

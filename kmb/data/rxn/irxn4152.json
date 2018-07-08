@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4152",
+  "equation" : "macchitppdol + gdpmann <=> gdp + m1macchitppdol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1993" : "",
+      "icpd4849" : ""
+    },
+    "r" : {
+      "icpd166" : "",
+      "icpd5402" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.132",
+  "otherNames" : [ ],
+  "alias" : "G13MTg",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05002"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "G13MTg"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

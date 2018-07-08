@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4264",
+  "equation" : "nadh + h + h2o2 <=> nad + 2.0 h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2494" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.11.1.1; 1.11.1.1",
+  "otherNames" : [ ],
+  "alias" : "NADHPO",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NADH-PEROXIDASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NADHPO"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00090"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -74.43582,
+      "uniprot" : [ "P37062", "Q7M1B1" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNF517", "iML1515" ]
+    }
+  }
+}

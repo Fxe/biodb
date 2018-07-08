@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2034",
+  "equation" : "icpd5027 + amet <=> ahcys + h + Nmelys",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd5027" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6782" : "",
+      "icpd4525" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.43; EC-2.1.1.43",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HISTONE-LYSINE-N-METHYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03938"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -31.002266,
+      "uniprot" : [ "Q43088" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K11431", "SETD2", "K11430", "SETD8", "ASH1", "SETD7", "SUV420", "K11433", "NSD3", "K11419", "K18494", "NSD1", "NSD2", "SETD1", "K15588", "MLL1", "MLL2", "K09186", "K11420", "MLL3", "MLL4", "SUV39", "SETDB1", "K09189", "K09187", "SETDB2", "K09188", "K14959", "K11425", "K11428", "H3", "K11427", "K11422", "MLL5", "K11421", "K11424", "K11423", "K11429", "K17451", "K06101", "EZH1", "EZH2" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

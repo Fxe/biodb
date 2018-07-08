@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2078",
+  "formula" : "C6H4O3",
+  "name" : "furan-2,5-dicarbaldehyde",
+  "synonyms" : [ "2,5-diformylfuran", "2,5-furandicarboxaldehyde" ],
+  "alias" : "icpd2078",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20899"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-17100"
+  } ],
+  "inchi" : "InChI=1S/C6H4O3/c7-3-5-1-2-6(4-8)9-5/h1-4H",
+  "inchikey" : "PXJJKVNIMAZHCB-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=O)OC(=C1)C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Furans" ],
+      "reactions" : [ "META:RXN-15852", "META:RXN-13090" ],
+      "gibbs" : -37.605522,
+      "cmlMolWeight" : 124.096,
+      "molWeight" : 124.096,
+      "parents" : [ "META:Furans" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   19.3548  -17.2872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7905  -15.9568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6549  -15.1308    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5194  -15.9568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9549  -17.2872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3077  -15.2511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0988  -15.9510    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9950  -15.2511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2039  -15.9510    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  4  5  2  0     0  0\n  5  1  1  0     0  0\n  4  6  1  0     0  0\n  1  2  2  0     0  0\n  6  7  2  0     0  0\n  2  3  1  0     0  0\n  2  8  1  0     0  0\n  3  4  1  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20899\n\n$$$$",
+  "reactions" : [ "irxn1572", "irxn612" ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2061",
+  "equation" : "341351 + atp <=> 341263 + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "341351" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "341263" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PI4P5K_cho",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PI4P5K_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PI4P5Kn_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1840",
+  "equation" : "ptrc + accoa <=> coa + h + aprut",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd4511" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5151" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.57; 2.3.1.57",
+  "otherNames" : [ ],
+  "alias" : "PTRCAT1",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01154"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-0"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PTRCAT1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-0" ],
+      "orphan" : "NO",
+      "gibbs" : -4.665924,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330" ],
+      "orthologs" : [ "K00657" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn840",
+  "equation" : "sphgn + atp <=> sph1p + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3085" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3645" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.91; 2.7.1.91",
+  "otherNames" : [ ],
+  "alias" : "SLCBK1",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02976"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SPHINGANINE-KINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SLCBK1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7119", "META:PWY-5129" ],
+      "orphan" : "NO",
+      "gibbs" : -13.567627,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00600" ],
+      "orthologs" : [ "K04718" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  }
+}

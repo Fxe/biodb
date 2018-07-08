@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2298",
+  "equation" : "icpd3463 + oaa <=> asp__L + pphn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3463" : "",
+      "icpd7306" : ""
+    },
+    "r" : {
+      "icpd4697" : "",
+      "icpd95" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.78; 2.6.1.78; 2.6.1.57",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01731"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PREPHENATE-ASP-TRANSAMINE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -2.2700195,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01230", "rn01110", "rn00400" ],
+      "orthologs" : [ "K15849", "K00832" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

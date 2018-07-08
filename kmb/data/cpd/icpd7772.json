@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7772",
+  "formula" : "C10H16O2",
+  "name" : "(1s,4r)-1-hydroxymenth-8-en-2-one",
+  "synonyms" : [ ],
+  "alias" : "icpd7772",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11937"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10057"
+  } ],
+  "inchi" : "InChI=1S/C10H16O2/c1-7(2)8-4-5-10(3,12)9(11)6-8/h8,12H,1,4-6H2,2-3H3/t8-,10+/m1/s1",
+  "inchikey" : "JEQLRDRDFLXSHY-SCZZXKLOSA-N",
+  "smiles" : "C=C(C)[C@@H]1CC[C@@](C)(C(=O)C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:1-Hydroxy-2-oxolimonenes" ],
+      "reactions" : [ "META:RXN-9949", "META:RXN-15255", "META:RXN-9415", "META:RXN-9410" ],
+      "gibbs" : 129.55794,
+      "cmlMolWeight" : 168.235,
+      "molWeight" : 168.235,
+      "parents" : [ "META:1-Hydroxy-2-oxolimonenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   28.2559  -15.0006    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   29.4578  -15.7008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0353  -15.7008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2563  -14.0174    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2300  -14.0091    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4578  -17.1023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0353  -17.1023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2559  -17.8095    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.2559  -19.2110    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0412  -19.9112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4637  -19.9112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6752  -15.0052    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  1  5  1  6     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  6  8  1  0     0  0\n  8  9  1  6     0  0\n  9 10  2  0     0  0\n  9 11  1  0     0  0\n  7  8  1  0     0  0\n  2 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11937\n\n$$$$",
+  "reactions" : [ "irxn4480" ]
+}

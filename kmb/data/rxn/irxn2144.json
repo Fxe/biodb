@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2144",
+  "equation" : "salc + o2 + nadh + h <=> nad + catechol + h2o + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2297" : ""
+    },
+    "r" : {
+      "icpd2941" : "",
+      "icpd4016" : "",
+      "icpd2454" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.1; 1.14.13.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00818"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SALICYLATE-1-MONOOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6183" ],
+      "orphan" : "NO",
+      "gibbs" : -92.624664,
+      "uniprot" : [ "P23262", "Q53552", "Q59700" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00626", "rn00624", "rn00621" ],
+      "orthologs" : [ "K00480" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

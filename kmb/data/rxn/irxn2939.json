@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2939",
+  "equation" : "o2 + h2o + bzal <=> bz + h + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd395" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd1851" : "",
+      "icpd7278" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.3.9; EC-1.2.3.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01489"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8088"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ARYL-ALDEHYDE-OXIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -24.133003,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

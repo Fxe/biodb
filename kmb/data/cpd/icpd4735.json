@@ -1,0 +1,41 @@
+{
+  "id" : "icpd4735",
+  "formula" : "C3H4NO2",
+  "name" : "2-aminoacrylate",
+  "synonyms" : [ "2-aminoprop-2-enoate", "alphal-lminolcryplte", "aminoacrylate" ],
+  "alias" : "2amac",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "2amac"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02218"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2amac"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-AMINOACRYLATE"
+  } ],
+  "inchi" : "InChI=1S/C3H5NO2/c1-2(4)3(5)6/h1,4H2,(H,5,6)/p-1",
+  "inchikey" : "UQBOJOOOTLPNST-UHFFFAOYSA-M",
+  "smiles" : "C=C(C(=O)[O-])N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Enamines" ],
+      "reactions" : [ "META:RXN-15124", "META:RXN-15125", "META:RXN-15137", "META:RXN-15577", "META:RXN-15581", "META:RXN-15131", "META:RXN-15582", "META:RXN-16176", "META:RXN-15583", "META:RXN-15584", "META:RXN-12632", "META:RXN-8909", "META:RXN-15578", "META:RXN-15128", "META:RXN-15579", "META:RXN-15129", "META:RXN-8916", "META:RXN-11524", "META:RXN-8899", "META:ALLIIN-LYASE-RXN", "META:RXN-8898", "META:RXN-16174", "META:RXN-15580" ],
+      "gibbs" : -19.267578,
+      "cmlMolWeight" : 86.07,
+      "molWeight" : 86.07,
+      "parents" : [ "META:Enamines" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   19.1800  -19.6000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3924  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6049  -19.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8173  -18.9000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3924  -17.5002    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6049  -20.9998    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02218\n\n$$$$",
+  "reactions" : [ "irxn3419", "irxn2734", "irxn1541", "irxn2841" ]
+}

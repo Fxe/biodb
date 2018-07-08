@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6228",
+  "equation" : "icpd6106 + o2 + 2.0 h + 2.0 rbrdxRD <=> h2o + 2.0 rbrdxOX + icpd5172",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd6106" : "",
+      "icpd6777" : "2.0",
+      "icpd1851" : "2.0"
+    },
+    "r" : {
+      "icpd5172" : "",
+      "icpd4016" : "",
+      "icpd7562" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.15.3; 1.14.15.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02879"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALKANE-1-MONOOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P221-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -83.953476,
+      "uniprot" : [ "P12691", "P08516", "P14580", "Q02928", "P14579" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

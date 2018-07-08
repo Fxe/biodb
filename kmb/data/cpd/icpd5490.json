@@ -1,0 +1,30 @@
+{
+  "id" : "icpd5490",
+  "formula" : "C3H8N2O",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd5490",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02297"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Aliphatic-N-Acetyl-Diamines"
+  } ],
+  "inchi" : "InChI=1S/C3H8N2O/c1-3(6)5-2-4/h2,4H2,1H3,(H,5,6)",
+  "inchikey" : "BLMIGVQIUUGRMY-UHFFFAOYSA-N",
+  "smiles" : "CC(=NCN)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N1-ACETYLSPERMINE", "META:CPD-3462", "META:CPD-569", "META:CPD-568", "META:CPD-10194", "META:CPD-11585" ],
+      "reactions" : [ "META:DIAMACTRANS-RXN" ],
+      "parents" : [ "META:N1-ACETYLSPERMINE", "META:CPD-3462", "META:CPD-569", "META:CPD-10194", "META:CPD-568", "META:Aliphatic-Diamines", "META:CPD-11585" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   26.2153  -21.6408    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3718  -22.2302    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1935  -22.2302    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2153  -20.4675    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1297  -21.3014    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9021  -22.4214    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  5  6  1  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1  1   5\nM  SDI   1  4   28.7700  -23.1700   28.7700  -20.9300\nM  SDI   1  4   29.4700  -20.9300   29.4700  -23.1700\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C02297\n\n$$$$",
+  "reactions" : [ "irxn6153" ]
+}

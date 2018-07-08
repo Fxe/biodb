@@ -1,0 +1,41 @@
+{
+  "id" : "icpd2547",
+  "formula" : "C9H9I2NO3",
+  "name" : "l-diiodotyrosine",
+  "synonyms" : [ "(2s)-2-amino-3-(4-hydroxy-3,5-diiodophenyl)propanoic acid", "3,5-diiodo-l-tyrosine", "3,5-diiodotyrosine", "4-hydroxy-3,5-diiodophenylalanine", "diiodotyrosine", "l-3,5-diiodotyrosine" ],
+  "alias" : "35diotyr",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01060"
+  }, {
+    "source" : "BiGG",
+    "entry" : "35diotyr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIIODO-L-TYROSINE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "35diotyr"
+  } ],
+  "inchi" : "InChI=1S/C9H9I2NO3/c10-5-1-4(2-6(11)8(5)13)3-7(12)9(14)15/h1-2,7,13H,3,12H2,(H,14,15)/t7-/m0/s1",
+  "inchikey" : "NYPYHUZRZVSYKL-ZETCQYMHSA-N",
+  "smiles" : "C1=C(C(=C(C=C1C[C@@]([H])(C(=O)O)N)I)O)I",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Iodoaromtic-Compounds", "META:Non-standard-amino-acids" ],
+      "reactions" : [ "META:RXN-11331", "META:RXN-13402", "META:DIIODOTYROSINE-AMINOTRANSFERASE-RXN" ],
+      "gibbs" : 37.26691,
+      "cmlMolWeight" : 431.976,
+      "molWeight" : 431.976,
+      "parents" : [ "META:Iodoaromtic-Compounds", "META:Non-standard-amino-acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 15 15  0  0  1  0  0  0  0  0999 V2000\n   26.2673  -15.1382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2673  -16.5420    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4847  -14.4392    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0615  -14.4508    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4847  -17.2410    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6963  -15.1382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8499  -15.1439    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.6963  -16.5420    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4847  -18.6449    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9080  -14.4449    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6325  -14.4508    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8499  -16.5479    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9080  -17.2410    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4208  -15.1439    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6325  -13.0470    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  2  0     0  0\n  5  9  1  0     0  0\n  6 10  1  0     0  0\n  7 11  1  0     0  0\n  7 12  1  6     0  0\n  8 13  1  0     0  0\n 11 14  1  0     0  0\n 11 15  2  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01060\n\n$$$$",
+  "reactions" : [ "irxn6356", "irxn6320", "irxn3716" ]
+}

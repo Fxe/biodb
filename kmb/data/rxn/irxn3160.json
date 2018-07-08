@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3160",
+  "equation" : "nad + xylt <=> nadh + xylu__D + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3485" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd647" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.9; 1.1.1.9; 1.1.1.14",
+  "otherNames" : [ ],
+  "alias" : "XYLTD_D",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01896"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-XYLULOSE-REDUCTASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "XYLTD_D"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-29" ],
+      "activators" : [ "META:CYS" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LARABITOLUTIL-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 1.0817566,
+      "uniprot" : [ "P22144" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ "K05351", "K00008" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

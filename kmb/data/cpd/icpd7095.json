@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7095",
+  "formula" : "C9H7NO",
+  "name" : "3-methyleneoxindole",
+  "synonyms" : [ "3-methylene-1h-indol-2-one" ],
+  "alias" : "icpd7095",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02796"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-METHYLENEOXINDOLE"
+  } ],
+  "inchi" : "InChI=1S/C9H7NO/c1-6-7-4-2-3-5-8(7)10-9(6)11/h2-5H,1H2,(H,10,11)",
+  "inchikey" : "IGXUUWYVUGBMFT-UHFFFAOYSA-N",
+  "smiles" : "C=C1C2=C(C=CC=C2)N=C1O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:3-METHYLENEOXINDOLE-REDUCTASE-RXN" ],
+      "gibbs" : 79.13785,
+      "cmlMolWeight" : 145.16,
+      "molWeight" : 145.16
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   20.3700  -17.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3700  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5824  -19.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7949  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7949  -17.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5824  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1264  -19.3326    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9493  -18.2000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1264  -17.0674    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5575  -15.7406    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3200  -18.2000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  5  9  1  0     0  0\n  9 10  2  0     0  0\n  8 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02796\n\n$$$$",
+  "reactions" : [ "irxn229" ]
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3219",
+  "formula" : "C9H23N3O",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "N1aspmd",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "N1aspmd"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-568"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00612"
+  }, {
+    "source" : "BiGG",
+    "entry" : "N1aspmd"
+  } ],
+  "inchi" : "InChI=1S/C9H21N3O/c1-9(13)12-8-4-7-11-6-3-2-5-10/h11H,2-8,10H2,1H3,(H,12,13)/p+2",
+  "inchikey" : "MQTAVJHICJWXBR-UHFFFAOYSA-P",
+  "smiles" : "CC(=O)NCCC[N+]CCCC[N+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aliphatic-N-Acetyl-Diamines" ],
+      "reactions" : [ "META:SPERMACTRAN-RXN", "META:POLYAMINE-OXIDASE-RXN", "META:RXN-10460", "META:RXN-12091" ],
+      "gibbs" : 210.17755,
+      "cmlMolWeight" : 189.3,
+      "molWeight" : 189.3,
+      "parents" : [ "META:Aliphatic-N-Acetyl-Diamines" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iYL1228", "iPC815", "iJO1366", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 13 12  0  0  0  0  0  0  0  0999 V2000\n   22.6868  -15.8540    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3645  -15.0331    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8426  -15.1838    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0626  -15.9162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0683  -15.9270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9768  -15.1061    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4327  -15.1032    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8150  -15.9162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5885  -15.9133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6592  -15.1061    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7503  -15.1032    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5885  -17.3934    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5034  -15.9162    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n  9 11  1  0     0  0\n  9 12  2  0     0  0\n 10 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00612\n\n$$$$",
+  "reactions" : [ "irxn531", "irxn1484", "irxn557", "irxn1135" ]
+}

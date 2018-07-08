@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6145",
+  "equation" : "h2o + 4gudbutn <=> 4abut + urea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3082" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7403" : "",
+      "icpd269" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.3.7; EC-3.5.3.7",
+  "otherNames" : [ ],
+  "alias" : "GUDBUTNAH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01990"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GUANIDINOBUTYRASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GUDBUTNAH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:THIOGLYCOLATE", "META:5-AMINOPENTANOATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ARGDEG-IV-PWY", "META:PWY-7523", "META:ARGDEG-V-PWY", "META:PWY-5742" ],
+      "orphan" : "NO",
+      "gibbs" : -3.572998,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330" ],
+      "orthologs" : [ "K12255" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

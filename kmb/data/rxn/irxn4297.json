@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4297",
+  "equation" : "nad + icpd828 <=> nadh + h + icpd3875",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd828" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd3875" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.223; 1.1.1.223",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03261"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ISOPIPERITENOL-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3061" ],
+      "orphan" : "NO",
+      "gibbs" : -1.9282074,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn01130", "rn00902" ],
+      "orthologs" : [ "K15090" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

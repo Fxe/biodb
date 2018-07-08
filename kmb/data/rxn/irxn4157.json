@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4157",
+  "equation" : "icpd431 + h2o <=> alltt + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd431" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd3345" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.2.5; 3.5.2.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02425"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALLANTOINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:DITHIOTHREITOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5697", "META:PWY-5698" ],
+      "orphan" : "NO",
+      "gibbs" : -4.34713,
+      "uniprot" : [ "P77671", "P32375" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00230" ],
+      "orthologs" : [ "K16842", "K01466" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

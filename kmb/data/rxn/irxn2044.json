@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2044",
+  "equation" : "accoa + malon <=> ac + malcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6988" : "",
+      "icpd5825" : ""
+    },
+    "r" : {
+      "icpd5488" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.3.3; EC-2.8.3.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00743"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MALONATE-COA-TRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -3.392334,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

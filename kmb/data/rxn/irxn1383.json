@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1383",
+  "equation" : "h2o + 34dphacoa <=> coa + h + 34dhpha",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd8021" : ""
+    },
+    "r" : {
+      "icpd8210" : "",
+      "icpd1851" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.2",
+  "otherNames" : [ ],
+  "alias" : "HPACOAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HPACOAT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-5065"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -6.377136,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

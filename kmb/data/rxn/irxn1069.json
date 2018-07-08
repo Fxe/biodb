@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1069",
+  "equation" : "lys__L <=> 36dahx",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4807" : ""
+    },
+    "r" : {
+      "icpd8229" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.4.3.2; 5.4.3.2",
+  "otherNames" : [ ],
+  "alias" : "LYSAM",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00461"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LYSAM"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LYSINE-23-AMINOMUTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:S-2-AMINOETHYL-L-CYSTEINE", "META:ADENOSYL-HOMO-CYS" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P163-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ "K01843" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iSbBS512_1146", "iECIAI39_1322", "iWFL_1372", "iY75_1357", "iECW_1372", "iECO111_1330", "iNRG857_1313", "iML1515", "iLF82_1304", "iYO844", "iECH74115_1262", "iS_1188", "iECS88_1305" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6581",
+  "equation" : "rbl__D + atp <=> h + ru5p__D + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd6406" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd5906" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.47; EC-2.7.1.47; 2.7.1.16",
+  "otherNames" : [ ],
+  "alias" : "RBK_Dr",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-RIBULOKIN-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RBK_Dr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01526"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RIBITOLUTIL-PWY", "META:DARABCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815857,
+      "uniprot" : [ "O52716" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ "K00875", "K00853" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iECBD_1354", "iB21_1397", "iCHOv1", "iUMNK88_1353", "iETEC_1333", "iECD_1391", "iNJ661", "iMM1415", "iECB_1328", "RECON1", "iYO844" ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2580",
+  "equation" : "o2 + arg__L <=> h2o + co2 + 4gudbd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd90" : ""
+    },
+    "r" : {
+      "icpd2863" : "",
+      "icpd4016" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.12.1; EC-1.13.12.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ARGININE-2-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00559"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:BH4NA", "META:HYDROXYLAMINE", "META:OXYGEN-MOLECULE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ARGDEG-V-PWY" ],
+      "orphan" : null,
+      "gibbs" : -109.256996,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

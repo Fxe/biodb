@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5638",
+  "formula" : "C9H8O2",
+  "name" : "p-coumaraldehyde",
+  "synonyms" : [ "(2e)-3-(4-hydroxyphenyl)prop-2-enal", "4-coumaraldehyde", "coumaraldehyde", "trans-p-hydroxycinnamaldehyde" ],
+  "alias" : "icpd5638",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:COUMARALDEHYDE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05608"
+  } ],
+  "inchi" : "InChI=1S/C9H8O2/c10-7-1-2-8-3-5-9(11)6-4-8/h1-7,11H/b2-1+",
+  "inchikey" : "CJXMVKYNVIGQBS-OWOJBTEDSA-N",
+  "smiles" : "C(\\[H])(=C(/[H])\\C1=CC=C(C=C1)O)/C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:RXN-1101", "META:RXN-1102", "META:RXN-16806" ],
+      "gibbs" : 63.11897,
+      "cmlMolWeight" : 148.161,
+      "molWeight" : 148.161,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   28.0700  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0700  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8100  -21.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -20.9300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8100  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -21.6300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2600  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4500  -19.5300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6400  -18.8300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6400  -17.4300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  1  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n 10 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05608\n\n$$$$",
+  "reactions" : [ "irxn1918", "irxn4470" ]
+}

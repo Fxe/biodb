@@ -1,0 +1,45 @@
+{
+  "id" : "irxn288",
+  "equation" : "icpd6157 + nadp <=> nadph + icpd1058",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6157" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1058" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.36; 1.3.1.36",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GEISSOSCHIZINE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03860"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5301" ],
+      "orphan" : null,
+      "gibbs" : -33.814514,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00901" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

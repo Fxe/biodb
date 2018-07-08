@@ -1,0 +1,46 @@
+{
+  "id" : "irxn656",
+  "equation" : "h2o + 2hptcoa <=> 2hptcl + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4134" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd1950" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.2",
+  "otherNames" : [ ],
+  "alias" : "2HPTCOAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "2HPTCOAT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-7103"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -6.3771667,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn953",
+  "equation" : "2.0 no + mql8 <=> h2o + n2o + mqn8",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8176" : "",
+      "icpd4286" : "2.0"
+    },
+    "r" : {
+      "icpd4178" : "",
+      "icpd4016" : "",
+      "icpd5243" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.7.5.2; 1.7.5.2",
+  "otherNames" : [ ],
+  "alias" : "NORZpp",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09445"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NORZpp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12129"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6748" ],
+      "orphan" : "NO",
+      "gibbs" : 27.655243,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987" ]
+    }
+  }
+}

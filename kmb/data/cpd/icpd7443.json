@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7443",
+  "formula" : "C6H6O4S",
+  "name" : "4-sulfophenol",
+  "synonyms" : [ "4-hydroxybenzenesulfonic acid", "p-hydroxybenzenesulfonic acid" ],
+  "alias" : "icpd7443",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-16868"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C12849"
+  } ],
+  "inchi" : "InChI=1S/C6H6O4S/c7-5-1-3-6(4-2-5)11(8,9)10/h1-4,7H,(H,8,9,10)",
+  "inchikey" : "FEPBITJSIHRMRT-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=CC(=C1)S(=O)(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:SULFONATES" ],
+      "reactions" : [ "META:RXN-15638" ],
+      "gibbs" : -55.236458,
+      "cmlMolWeight" : 173.163,
+      "molWeight" : 173.163,
+      "parents" : [ "META:SULFONATES" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   30.8700  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8700  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.0600  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3200  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3200  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.0600  -16.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.0600  -15.0500    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   32.0600  -13.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.4600  -15.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6600  -15.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.0600  -20.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  6  1  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  1  2  2  0     0  0\n  7  9  2  0     0  0\n  2  3  1  0     0  0\n  7 10  2  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  3 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12849\n\n$$$$",
+  "reactions" : [ ]
+}

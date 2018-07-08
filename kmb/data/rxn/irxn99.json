@@ -1,0 +1,46 @@
+{
+  "id" : "irxn99",
+  "equation" : "o2 + trp__L <=> h2o + co2 + iad",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7287" : ""
+    },
+    "r" : {
+      "icpd54" : "",
+      "icpd4016" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.12.3; EC-1.13.12.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00679"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRYPTOPHAN-2-MONOOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-237", "META:INDOLE_ACETATE_AUXIN", "META:HYDROXYLAMINE", "META:IODOACETAMIDE", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3161" ],
+      "orphan" : "NO",
+      "gibbs" : -128.71599,
+      "uniprot" : [ "P06617", "Q09109", "P0A3V2", "P0A3V3", "Q04564", "Q52367", "Q44520" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ "K00466" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

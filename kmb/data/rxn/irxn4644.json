@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4644",
+  "equation" : "h2o + icpd1934 <=> icpd8158 + gly",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1934" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd8158" : "",
+      "icpd855" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.4.11.2; 3.4.13.-; 3.4.11.2; 3.4.11.1; 3.4.11.23",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04951"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-6642"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:BESTATIN" ],
+      "activators" : [ "META:ZN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6842", "META:PWY-4061" ],
+      "orphan" : "NO",
+      "gibbs" : 29.480354,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00480" ],
+      "orthologs" : [ "K01255", "K11142", "K01256", "K11140", "K07751", "K01270", "DUG1", "K15428" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

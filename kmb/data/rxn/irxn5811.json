@@ -1,0 +1,52 @@
+{
+  "id" : "irxn5811",
+  "equation" : "nadph + o2 + h + 2oph <=> h2o + 2ohph + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7250" : ""
+    },
+    "r" : {
+      "icpd7187" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.-; EC-1.14.13.M55",
+  "otherNames" : [ ],
+  "alias" : "OPHHXy",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-OCTAPRENYLPHENOL-HYDROX-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04987"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OPHHXy"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6708" ],
+      "orphan" : "NO",
+      "gibbs" : -91.900604,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00130", "rn01110" ],
+      "orthologs" : [ "K18800" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

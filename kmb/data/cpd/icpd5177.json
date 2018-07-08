@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5177",
+  "formula" : "C8H10",
+  "name" : "p-methyltoluene",
+  "synonyms" : [ "1,4-dimethylbenzene", "1,4-dimethylbenzol", "1,4-xylene", "4-methyltoluene", "p-dimethylbenzene", "p-xylene", "p-xylol", "para-xylene" ],
+  "alias" : "p_xyl",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06756"
+  }, {
+    "source" : "BiGG",
+    "entry" : "p-xyl"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1422"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "p_xyl"
+  } ],
+  "inchi" : "InChI=1S/C8H10/c1-7-3-5-8(2)6-4-7/h3-6H,1-2H3",
+  "inchikey" : "URLKBWYHVLBVBO-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=C(C)C=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:RXN-8579" ],
+      "gibbs" : 132.71121,
+      "cmlMolWeight" : 106.167,
+      "molWeight" : 106.167,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   26.3900  -18.4800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3900  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6024  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8149  -19.8800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8149  -18.4800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6024  -17.7800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1776  -17.7800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0460  -20.5910    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  4  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06756\n\n$$$$",
+  "reactions" : [ "irxn3679" ]
+}

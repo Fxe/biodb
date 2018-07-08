@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2100",
+  "equation" : "pydam + oaa <=> asp__L + pydx",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7920" : "",
+      "icpd7306" : ""
+    },
+    "r" : {
+      "icpd5696" : "",
+      "icpd95" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.31; EC-2.6.1.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01713"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYROXALTRANSAM-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -3.5717468,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00750", "rn01120", "B6" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

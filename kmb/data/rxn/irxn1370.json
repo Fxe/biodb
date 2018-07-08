@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1370",
+  "equation" : "13dpg <=> 23dpg",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3088" : ""
+    },
+    "r" : {
+      "icpd7274" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.4.2.4; 5.4.2.4",
+  "otherNames" : [ ],
+  "alias" : "DPGM",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DPGM"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BISPHOSPHOGLYCERATE-MUTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01662"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6405" ],
+      "orphan" : "NO",
+      "gibbs" : -13.560547,
+      "uniprot" : [ "P07738", "P15327", "P07952" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00010" ],
+      "orthologs" : [ "K01837" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iJN678", "iMM904", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd8184",
+  "formula" : "C6H10O",
+  "name" : "cyclohexanone",
+  "synonyms" : [ "cyclohexanon", "ketocyclohexane", "oxocyclohexane" ],
+  "alias" : "icpd8184",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CYCLOHEXANONE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00414"
+  } ],
+  "inchi" : "InChI=1S/C6H10O/c7-6-4-2-1-3-5-6/h1-5H2",
+  "inchikey" : "JHIVVAPYMSGYDF-UHFFFAOYSA-N",
+  "smiles" : "C1CCC(=O)CC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:CYCLOHEXANONE-MONOOXYGENASE-RXN", "META:CYCLOHEXYLAMINE-OXIDASE-RXN", "META:4.1.3.35-RXN", "META:CYCLOHEXANOL-DEHYDROGENASE-RXN", "META:CYCLOHEXANONE-DEHYDROGENASE-RXN" ],
+      "gibbs" : 88.51121,
+      "cmlMolWeight" : 98.144,
+      "molWeight" : 98.144
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  7  0  0  0  0  0  0  0  0999 V2000\n   26.4600  -19.1589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2482  -19.8614    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6718  -19.8614    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4658  -17.7599    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2482  -21.2606    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6718  -21.2606    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4600  -21.9630    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00414\n\n$$$$",
+  "reactions" : [ "irxn3144", "irxn6164", "irxn3719", "irxn4939", "irxn5826" ]
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5703",
+  "equation" : "Stmyn + atp <=> 3AStmyn + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd253" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7881" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.47; 2.7.7.47",
+  "otherNames" : [ ],
+  "alias" : "S3AdT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02226"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:STREPTOMYCIN-3-ADENYLYLTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "S3AdT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -47.76532,
+      "uniprot" : [ "Q02865", "Q51348", "P08881", "P0AG05", "Q08674" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iSB619" ]
+    }
+  }
+}

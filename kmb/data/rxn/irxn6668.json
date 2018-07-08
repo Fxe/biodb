@@ -1,0 +1,58 @@
+{
+  "id" : "irxn6668",
+  "equation" : "pyr + gln__L <=> ala__L + 2ogm",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd929" : ""
+    },
+    "r" : {
+      "icpd5646" : "",
+      "icpd7336" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.15; 2.6.1.15",
+  "otherNames" : [ ],
+  "alias" : "r0156",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0157"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLUTAMINE--PYRUVATE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00576"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GOATA_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GOATA_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0156"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 3.9700012,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00250" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid" ]
+    }
+  }
+}

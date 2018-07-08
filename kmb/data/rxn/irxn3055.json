@@ -1,0 +1,56 @@
+{
+  "id" : "irxn3055",
+  "equation" : "h + mi13456p + atp <=> adp + minohp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd6072" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3329" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.158; 2.7.1.158",
+  "otherNames" : [ ],
+  "alias" : "IPKK",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7163"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05202"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MI13456PK"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "IPKK"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MI13456PKn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:KCL", "META:CA+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6361", "META:PWY-6372", "META:PWY-6362", "META:PWY-6554", "META:PWY-4661", "META:PWY-6369" ],
+      "orphan" : "NO",
+      "gibbs" : -27.29834,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562" ],
+      "orthologs" : [ "K10572", "K19786" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

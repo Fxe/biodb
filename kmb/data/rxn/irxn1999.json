@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1999",
+  "equation" : "quln + h2o <=> cmusa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5144" : ""
+    },
+    "r" : {
+      "icpd5371" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "QUILSYN",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "QUILSYN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04293"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

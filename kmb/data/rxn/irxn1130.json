@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1130",
+  "equation" : "accoa + dhap <=> coa + dhptdd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd6046" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd225" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.245; EC-2.3.1.245",
+  "otherNames" : [ ],
+  "alias" : "PAI2T",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11182"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PAI2T"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15943"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY0-1569" ],
+      "orphan" : "NO",
+      "gibbs" : 2.1800537,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

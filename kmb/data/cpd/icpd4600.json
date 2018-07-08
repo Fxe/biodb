@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4600",
+  "formula" : "C11H10O2",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4600",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07126"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MENADIOL"
+  } ],
+  "inchi" : "InChI=1S/C11H10O2/c1-7-6-10(12)8-4-2-3-5-9(8)11(7)13/h2-6,12-13H,1H3",
+  "inchikey" : "ZJTLZYDQJHKRMQ-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC(=C2C=CC=CC2=C1O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Reduced-Quinones" ],
+      "reactions" : [ "META:RXN0-3441", "META:NADH-DEHYDROGENASE-QUINONE-RXN" ],
+      "gibbs" : 89.22121,
+      "cmlMolWeight" : 174.199,
+      "molWeight" : 174.199,
+      "parents" : [ "META:Reduced-Quinones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   25.0839  -18.2999    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0839  -19.7041    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2958  -17.6066    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8778  -17.6066    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2899  -20.4089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8778  -20.4089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5075  -18.3115    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3015  -16.2084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6603  -18.2999    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5018  -19.7098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3541  -21.8130    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6603  -19.7041    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7252  -17.6183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  1  0     0  0\n  6 12  2  0     0  0\n  7 13  1  0     0  0\n  7 10  2  0     0  0\n  9 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07126\n\n$$$$",
+  "reactions" : [ ]
+}

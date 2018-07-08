@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3652",
+  "equation" : "nad + icpd5130 <=> icpd1064 + nadh + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd5130" : ""
+    },
+    "r" : {
+      "icpd1064" : "",
+      "icpd5377" : "",
+      "icpd1851" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.104; 1.1.1.104",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-OXOPROLINE-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03290"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -4.352295,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

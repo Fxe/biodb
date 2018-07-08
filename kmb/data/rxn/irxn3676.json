@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3676",
+  "equation" : "o2 + coa + dhcholestancoa <=> h2o + dcholcoa + ppcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd2377" : "",
+      "icpd6833" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd7023" : "",
+      "icpd3011" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SCP3x",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SCP3x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE1836C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

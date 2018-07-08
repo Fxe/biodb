@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5057",
+  "equation" : "fuc__L + atp <=> icpd3542 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7660" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3542" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.52; 2.7.1.52",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FUCOKINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03161"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815796,
+      "uniprot" : [ "P11553" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100", "rn00051" ],
+      "orthologs" : [ "K05305" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

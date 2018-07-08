@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6830",
+  "equation" : "h2o + lcts <=> gal + Glc_aD",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6179" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1683" : "",
+      "icpd1558" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.108; 3.2.1.23",
+  "otherNames" : [ ],
+  "alias" : "LCGH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01678"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LCGH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00052" ],
+      "orthologs" : [ "K12111", "K12112", "K12309", "K01190", "K01229" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

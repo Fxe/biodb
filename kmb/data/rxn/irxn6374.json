@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6374",
+  "equation" : "hcys__L + ser__L <=> h2o + cyst__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4818" : "",
+      "icpd2606" : ""
+    },
+    "r" : {
+      "icpd7567" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.22; 4.2.1.22",
+  "otherNames" : [ ],
+  "alias" : "CYSTS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01290"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSTS"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CYSTATHIONINE-BETA-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:HYDROXYLAMINE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-I9", "META:PWY-801", "META:HOMOCYSDEGR-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -7.727005,
+      "uniprot" : [ "O59701", "P72662", "Q12633", "P32582", "P35520", "P32232", "Q9YCN5" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01230", "rn00260", "rn01130", "rn00270" ],
+      "orthologs" : [ "K10150", "K01697" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iCHOv1", "iND750", "iNJ661", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1", "iHN637", "iYO844" ]
+    }
+  }
+}

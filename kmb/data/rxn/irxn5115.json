@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5115",
+  "equation" : "udp + 322595 + h <=> 332918 + udpacgal",
+  "stoichiometry" : {
+    "l" : {
+      "322595" : "",
+      "icpd1851" : "",
+      "icpd6858" : ""
+    },
+    "r" : {
+      "icpd7201" : "",
+      "332918" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GBGT1_cho",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NAGAly_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GBGT1_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

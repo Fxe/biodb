@@ -1,0 +1,48 @@
+{
+  "id" : "icpd395",
+  "formula" : "C7H6O",
+  "name" : "benzaldehyde",
+  "synonyms" : [ "benzene carbaldehyde", "benzene carboxaldehyde", "benzenecarboxaldehyde", "benzoyl hydride", "phenylformaldehyde", "phenylmethanal" ],
+  "alias" : "bzal",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00261"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Aryl-Aldehyde"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "bzal"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BENZALDEHYDE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "bzal"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00193"
+  } ],
+  "inchi" : "InChI=1S/C7H6O/c8-6-7-4-2-1-3-5-7/h1-6H",
+  "inchikey" : "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)C([H])=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-863", "META:BENZALDEHYDE-DEHYDROGENASE-NAD+-RXN", "META:BADH-RXN", "META:ACETALD-DEHYDROG-RXN" ],
+      "instances" : [ "META:CPD-12426", "META:CPD-703", "META:BENZALDEHYDE", "META:CPD-19226", "META:PHENYLACETALDEHYDE", "META:CPD-19228", "META:CPD-8489", "META:CPD-7616", "META:CPD-7614", "META:HYDRPHENYLAC-CPD", "META:CPD-1003", "META:CINNAMALDEHYDE", "META:CPD-8773" ],
+      "reactions" : [ "META:ARYL-ALDEHYDE-OXIDASE-RXN", "META:ARYL-ALDEHYDE-DEHYDROGENASE-RXN", "META:ARALKYLAMINE-DEHYDROGENASE-RXN", "META:ARYL-ALCOHOL-DEHYDROGENASE-RXN", "META:ARYL-ALCOHOL-DEHYDROGENASE-NADP+-RXN", "META:ARYL-ALCOHOL-OXIDASE-RXN", "META:1.2.1.30-RXN", "META:RXN-11732" ],
+      "gibbs" : 61.276726,
+      "cmlMolWeight" : 106.124,
+      "molWeight" : 106.124,
+      "parents" : [ "META:CPD-12426", "META:CPD-703", "META:BENZALDEHYDE", "META:CPD-19226", "META:PHENYLACETALDEHYDE", "META:Aromatics", "META:CPD-19228", "META:CPD-8489", "META:CPD-7616", "META:CPD-7614", "META:HYDRPHENYLAC-CPD", "META:CPD-1003", "META:CINNAMALDEHYDE", "META:CPD-8773", "META:Aldehydes" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "iAF987", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   27.2003  -20.6285    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2003  -22.0353    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9788  -19.9314    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.4024  -19.9314    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9788  -22.7450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7766  -20.6285    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6110  -20.6220    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7766  -22.0353    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  2  0     0  0\n  5  8  2  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00193\n\n$$$$",
+  "reactions" : [ "irxn3782", "irxn2939", "irxn4352", "irxn1041", "irxn2042", "irxn486", "irxn6162", "irxn6845", "irxn6438", "irxn1610" ]
+}

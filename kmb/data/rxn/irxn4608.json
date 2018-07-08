@@ -1,0 +1,51 @@
+{
+  "id" : "irxn4608",
+  "equation" : "nad + h2o + fald <=> nadh + for + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd7455" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd1650" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.46; EC-1.2.1.46",
+  "otherNames" : [ ],
+  "alias" : "ALDD1",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FORMALDEHYDE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALDD1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00604"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:PD+2", "META:NI+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:FORMASS-PWY", "META:PWY-7616" ],
+      "orphan" : "NO",
+      "gibbs" : -13.095337,
+      "uniprot" : [ "Q45604", "P46154" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00680", "rn00625" ],
+      "orthologs" : [ "K00148" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iNJ661", "iYO844" ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "icpd1009",
+  "formula" : "C9H7O4",
+  "name" : "caffeate",
+  "synonyms" : [ "(2e)-3-(3,4-dihydroxyphenyl)prop-2-enoate", "3,4-dihydroxy-trans-cinnamate", "trans-caffeate" ],
+  "alias" : "34dhcinm",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "34dhcinm"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01481"
+  }, {
+    "source" : "BiGG",
+    "entry" : "34dhcinm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-676"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01197"
+  } ],
+  "inchi" : "InChI=1S/C9H8O4/c10-7-3-1-6(5-8(7)11)2-4-9(12)13/h1-5,10-11H,(H,12,13)/p-1/b4-2+",
+  "inchikey" : "QAIPRVGONGVQAS-DUXPYHPUSA-M",
+  "smiles" : "C1=C(/C(/[H])=C(\\[H])/C(=O)O)C=C(C(=C1)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CAFFEATE" ],
+      "reactions" : [ "META:CAFFEATE-34-DIOXYGENASE-RXN", "META:RXN-1104", "META:RXN-1126", "META:RXN-1103", "META:RXN-8336", "META:RXN-14987", "META:CHLOROGENATE-HYDROLASE-RXN", "META:RXN-16745", "META:RXN-14988" ],
+      "gibbs" : -39.644222,
+      "cmlMolWeight" : 179.152,
+      "molWeight" : 179.152,
+      "parents" : [ "META:CAFFEATE" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   27.4635  -17.6069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6643  -16.8968    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4594  -18.9908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2592  -16.9211    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8767  -17.5944    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6719  -19.6884    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8827  -18.9989    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0734  -16.9040    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0808  -19.6955    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0359  -17.6370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8389  -16.9552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6603  -17.6448    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9004  -15.5406    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  5  7  2  0     0  0\n  5  8  1  0     0  0\n  7  9  1  0     0  0\n  6  7  1  0     0  0\n  4 10  2  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 11 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01481\n\n$$$$",
+  "reactions" : [ "irxn545", "irxn4140", "irxn6880", "irxn4902", "irxn1102" ]
+}

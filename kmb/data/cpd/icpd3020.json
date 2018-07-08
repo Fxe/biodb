@@ -1,0 +1,30 @@
+{
+  "id" : "icpd3020",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd3020",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00375"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Primary-Amines"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CARBAMOYL-P" ],
+      "reactions" : [ "META:ARYLAMINE-SULFOTRANSFERASE-RXN", "META:RXN-9598", "META:RXN-9597" ],
+      "parents" : [ "META:CARBAMOYL-P", "META:All-Amines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -16.5003    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3312  -15.7981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9088  -15.7981    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00375\n\n$$$$",
+  "reactions" : [ "irxn2818" ]
+}

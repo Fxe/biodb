@@ -1,0 +1,52 @@
+{
+  "id" : "irxn170",
+  "equation" : "coa + pyr + 3.0 h + 2.0 fdxox <=> 2.0 fdxrd + accoa + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd321" : "2.0",
+      "icpd1851" : "3.0",
+      "icpd2377" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd2454" : "",
+      "icpd930" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.7.1; 1.2.7.1; 1.2.7.11",
+  "otherNames" : [ ],
+  "alias" : "PYRShi",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01196"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRUFLAVREDUCT-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYRShi"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NITRITE", "META:CO-A", "META:ACETYL-COA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5483", "META:PWY-6583", "META:CENTFERM-PWY", "META:PWY-5493", "META:PWY-6142", "META:PWY-6863", "META:PWY-6588", "META:P142-PWY", "META:PWY-6587", "META:PWY-5497", "META:P42-PWY", "META:GLUDEG-II-PWY", "META:PWY-5392", "META:NPGLUCAT-PWY", "META:P23-PWY", "META:PWY-6876", "META:PWY-5600", "META:PWY-5538" ],
+      "orphan" : "NO",
+      "gibbs" : -20.857666,
+      "uniprot" : [ "P80524", "P80523", "Q59455", "P56810", "P80522", "P80521", "Q9UYZ4", "Q9UYZ3", "Q51805", "Q9UWL1", "Q51800", "Q9UWL2", "Q51803", "O27771", "Q51804", "Q51802", "Q56316", "Q56317", "O25738", "O25739", "O25312", "P95904", "P95903", "Q9R503", "Q51799", "O58411", "O28572", "O05651", "O28571", "O28574", "Q57715", "Q57957", "Q57717", "Q57714", "Q59456" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650", "rn01200", "rn00020", "rn00680", "rn01120", "rn00010", "rn01130", "rn00620", "rn00720" ],
+      "orthologs" : [ "K00175", "K00174", "K00171", "K00172", "K00170", "K03737", "K00169" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

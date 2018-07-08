@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5541",
+  "equation" : "actp + lys__L <=> icpd7676 + h + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd631" : "",
+      "icpd4807" : ""
+    },
+    "r" : {
+      "icpd7676" : "",
+      "icpd1851" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.32; 2.3.1.32",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LYSINE-N-ACETYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01620"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 1.9799805,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ "K18854" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

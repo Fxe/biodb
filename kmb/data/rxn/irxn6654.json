@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6654",
+  "equation" : "ocdcaACP + 2.0 fdxrd + o2 + 2.0 h <=> 2.0 h2o + octeACP + 2.0 fdxox",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1851" : "2.0",
+      "icpd1561" : "",
+      "icpd930" : "2.0"
+    },
+    "r" : {
+      "icpd321" : "2.0",
+      "icpd1433" : "",
+      "icpd4016" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.19.2",
+  "otherNames" : [ ],
+  "alias" : "ACP1819ZD9DS_h",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACP1819ZD9DS_h"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03370"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01212", "rn00061", "rn01040" ],
+      "orthologs" : [ "K03922", "K03921" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3706",
+  "equation" : "fe3 + HC02114 <=> fe2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5514" : "",
+      "icpd4870" : ""
+    },
+    "r" : {
+      "icpd5423" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15596"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15826"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-12075", "META:RXN-15598" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

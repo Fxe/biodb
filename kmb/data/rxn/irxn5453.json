@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5453",
+  "equation" : "h + atp + 347128 <=> 324668 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "347128" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "324668" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "THISAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "THISAT_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "THISAT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

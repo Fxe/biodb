@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4693",
+  "equation" : "accoa + icpd6307 <=> coa + icpd6243",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd6307" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd6243" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.59; 2.3.1.59",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03056"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GENTAMICIN-2-N-ACETYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -2.793518,
+      "uniprot" : [ "Q52424" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

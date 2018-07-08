@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3725",
+  "formula" : "C7H9N",
+  "name" : "benzylamine",
+  "synonyms" : [ "(aminomethyl)benzene", "(phenylmethyl)amine", "1-phenylmethanamine", "alpha-aminotoluene", "aminotoluene", "benzenemethanamine", "benzenemethanamine, 9ci", "monobenzylamine", "n-benzylamine", "phenylmethanamine" ],
+  "alias" : "icpd3725",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BENZYLAMINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C15562"
+  } ],
+  "inchi" : "InChI=1S/C7H9N/c8-6-7-4-2-1-3-5-7/h1-5H,6,8H2",
+  "inchikey" : "WGQKYBSKWIADBV-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:3.5.1.91-RXN" ],
+      "gibbs" : 129.36916,
+      "cmlMolWeight" : 108.163,
+      "molWeight" : 108.163
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   23.5200  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5200  -20.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7100  -21.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9000  -20.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9000  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7100  -18.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1600  -18.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3500  -19.3200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15562\n\n$$$$",
+  "reactions" : [ "irxn4372" ]
+}

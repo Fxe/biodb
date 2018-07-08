@@ -1,0 +1,47 @@
+{
+  "id" : "irxn926",
+  "equation" : "no2 + acald + h2o2 <=> o2 + h2o + icpd1563",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2494" : "",
+      "icpd7710" : "",
+      "icpd6658" : ""
+    },
+    "r" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd1563" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.7.3.1; 1.7.3.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NITROETHANE-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00799"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CPD-7082", "META:DITHIO-NITROBENZOATE", "META:CPD-29", "META:HG+2", "META:CPD-8147" ],
+      "activators" : [ "META:IMIDAZOLE-RING" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5355" ],
+      "orphan" : "NO",
+      "gibbs" : -20.757126,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

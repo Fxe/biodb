@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6276",
+  "equation" : "but + coa + atp <=> amp + btcoa + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2697" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1529" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.2",
+  "otherNames" : [ ],
+  "alias" : "FACOAL40im",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01176"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL40im"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650" ],
+      "orthologs" : [ "K01896" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

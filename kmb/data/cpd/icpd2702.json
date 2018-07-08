@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2702",
+  "formula" : "C10H16N4O3",
+  "name" : "(2s)-2-(4-aminobutanamido)-3-(1h-imidazol-4-yl)propanoic acid",
+  "synonyms" : [ "&gamma;-aminobutyrylhistidine", "gamma-aminobutyryl histidine", "gamma-aminobutyryl-l-histidine", "gamma-aminobutyrylhistidine", "n-(4-aminobutyryl)-histidine", "n-(4-aminobutyryl)-l-histidine" ],
+  "alias" : "icpd2702",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12185"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00884"
+  } ],
+  "inchi" : "InChI=1S/C10H16N4O3/c11-3-1-2-9(15)14-8(10(16)17)4-7-5-12-6-13-7/h5-6,8H,1-4,11H2,(H,12,13)(H,14,15)(H,16,17)/t8-/m0/s1",
+  "inchikey" : "CCLQKVKJOGVQLU-QMMMGPOBSA-N",
+  "smiles" : "C(CC(=O)N[C@@H](CC1=CNC=N1)C(=O)O)CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:DIPEPTIDES" ],
+      "reactions" : [ "META:RXN-11222" ],
+      "gibbs" : 79.55794,
+      "cmlMolWeight" : 240.261,
+      "molWeight" : 240.261,
+      "parents" : [ "META:DIPEPTIDES" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 17 17  0  0  1  0  0  0  0  0999 V2000\n   16.2995  -24.2734    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7129  -25.6109    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1128  -25.6310    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5645  -24.3058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4438  -23.4668    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3424  -26.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5549  -25.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7673  -26.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9797  -25.6200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5549  -24.2202    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7673  -27.7200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7861  -23.5092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9911  -24.2048    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1735  -23.5219    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3674  -24.2112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5554  -23.5252    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7858  -22.1201    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  7 10  1  6     0  0\n  8 11  2  0     0  0\n 10 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 14 15  1  0     0  0\n 15 16  1  0     0  0\n 12 17  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00884\n\n$$$$",
+  "reactions" : [ "irxn5606" ]
+}

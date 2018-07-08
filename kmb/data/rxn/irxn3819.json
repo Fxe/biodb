@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3819",
+  "equation" : "amp + so3 + trdox <=> aps + trdrd",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5833" : "",
+      "icpd1835" : "",
+      "icpd7180" : ""
+    },
+    "r" : {
+      "icpd1665" : "",
+      "icpd7857" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.8.4.10",
+  "otherNames" : [ ],
+  "alias" : "APSR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07176"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "APSR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987", "iHN637", "iYO844", "iJN746" ]
+    }
+  }
+}

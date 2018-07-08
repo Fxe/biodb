@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2750",
+  "formula" : "C8H7ClO2",
+  "name" : "4-chlorophenylacetic acid",
+  "synonyms" : [ "4-chlorophenyl acetic acid" ],
+  "alias" : "icpd2750",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1786"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03077"
+  } ],
+  "inchi" : "InChI=1S/C8H7ClO2/c9-7-3-1-6(2-4-7)5-8(10)11/h1-4H,5H2,(H,10,11)",
+  "inchikey" : "CDPKJZJVTHSESZ-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=CC(=C1)Cl)CC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.14.12.9-RXN", "META:3.5.5.5-RXN" ],
+      "gibbs" : 6.074663,
+      "cmlMolWeight" : 169.587,
+      "molWeight" : 169.587
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   28.8111  -16.2269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8111  -17.6246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6005  -15.5251    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0217  -15.5309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6005  -18.3264    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3841  -16.2269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2323  -16.2269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3841  -17.6246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4487  -15.5309    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2323  -17.6305    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1735  -18.3264    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  7  9  1  0     0  0\n  7 10  2  0     0  0\n  8 11  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03077\n\n$$$$",
+  "reactions" : [ "irxn6175", "irxn1005" ]
+}

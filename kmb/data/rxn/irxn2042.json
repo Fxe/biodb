@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2042",
+  "equation" : "icpd2643 <=> co2 + bzal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2643" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd395" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.7; 4.1.1.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01764"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BENZOYLFORMATE-DECARBOXYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1501" ],
+      "orphan" : "NO",
+      "gibbs" : -5.015877,
+      "uniprot" : [ "P20906" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627" ],
+      "orthologs" : [ "K01576" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id" : "icpd6823",
+  "formula" : "C5H7O4",
+  "name" : "4-hydroxy-2-oxopentanoate",
+  "synonyms" : [ "2-oxo-4-hydroxyvalerate", "4-hydroxy-2-keto-pentanoate", "4-hydroxy-2-ketovalerate", "4-hydroxy-2-oxo-pentanoate", "4-hydroxy-2-oxo-valerate", "4-hydroxy-2-oxovalerate" ],
+  "alias" : "4h2opntn",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03589"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "4h2opntn"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4h2oxov"
+  }, {
+    "source" : "BiGG",
+    "entry" : "4h2opntn"
+  } ],
+  "inchi" : "InChI=1S/C5H8O4/c1-3(6)2-4(7)5(8)9/h3,6H,2H2,1H3,(H,8,9)/p-1",
+  "inchikey" : "HFKQINMYQUXOCH-UHFFFAOYSA-M",
+  "smiles" : "CC(CC(=O)C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : { },
+    "bigg" : {
+      "models" : [ "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iJN746", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iECUMN_1333", "iECSF_1327", "iECDH1ME8569_1439", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iEcE24377_1341", "iS_1188", "iSF_1195", "iECDH10B_1368", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iSFV_1184", "iECSE_1348" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   14.2800  -14.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4924  -13.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7049  -14.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9173  -13.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1297  -14.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3422  -13.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4924  -12.2502    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9173  -12.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1297  -15.7499    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  2  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03589\n\n$$$$",
+  "reactions" : [ "irxn807", "irxn6461" ]
+}

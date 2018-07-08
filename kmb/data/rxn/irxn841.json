@@ -1,0 +1,49 @@
+{
+  "id" : "irxn841",
+  "equation" : "estrone + paps <=> estrones + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd2533" : ""
+    },
+    "r" : {
+      "icpd3124" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.2.4; 2.8.2.15; EC-2.8.2.4",
+  "otherNames" : [ ],
+  "alias" : "ESTSULT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ESTRONE-SULFOTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ESTSULT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02350"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -5.4431763,
+      "uniprot" : [ "P19217", "P49889" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00140" ],
+      "orthologs" : [ "K01016" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

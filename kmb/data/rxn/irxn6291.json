@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6291",
+  "equation" : "coa + atp + cit <=> accoa + pi + adp + oaa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd4436" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd5753" : "",
+      "icpd7485" : "",
+      "icpd7306" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.3.8; 2.3.3.8",
+  "otherNames" : [ ],
+  "alias" : "ACITL",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00352"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACITL"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ATP-CITRATE-PRO-S--LYASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ADP", "META:OXALACETIC_ACID" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P23-PWY", "META:PWY-5172" ],
+      "orphan" : "NO",
+      "gibbs" : -2.9163818,
+      "uniprot" : [ "P16638" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn00020", "rn01120", "rn01110", "rn01130", "rn00720" ],
+      "orthologs" : [ "K15230", "K15231", "K01648" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1", "iAF987" ]
+    }
+  }
+}

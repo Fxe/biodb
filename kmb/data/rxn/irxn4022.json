@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4022",
+  "equation" : "icpd882 + h <=> indole + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd882" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7077" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.92; 4.1.1.92",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12341"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09488"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:PHENYLHYDRAZINE", "META:O-PHENANTHROLINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 20.25312,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3087",
+  "equation" : "h + sel + atp <=> adsel + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd202" : "",
+      "icpd1851" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd2708" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.4; 2.7.7.4",
+  "otherNames" : [ ],
+  "alias" : "SELADT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12720"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04929"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SELADT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6932" ],
+      "orphan" : "NO",
+      "gibbs" : -65.17432,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00450" ],
+      "orthologs" : [ "K00957", "K00958", "K00955", "K00956", "K13811" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

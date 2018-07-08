@@ -1,0 +1,33 @@
+{
+  "id" : "icpd135",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd135",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:N-Methyl-L-Amino-Acids"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-Alpha-Methyl-L-Amino-Acids"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03148"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-404", "META:NALPHANALPHA-DIMETHYL-L-HISTIDINE", "META:CPD-15285", "META:N-METHYLTRYPTOPHAN", "META:CPD-298" ],
+      "reactions" : [ "META:N-METHYL-L-AMINO-ACID-OXIDASE-RXN" ],
+      "parents" : [ "META:N-Methyl-L-Amino-Acids", "META:CPD-404", "META:NALPHANALPHA-DIMETHYL-L-HISTIDINE", "META:CPD-15285", "META:N-METHYLTRYPTOPHAN", "META:CPD-298" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  1  0  0  0  0  0999 V2000\n   14.2800  -12.6700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4924  -11.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7049  -12.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9173  -11.9700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4924  -10.5702    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7049  -14.0698    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.0676  -11.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  1  1     0  0\n  3  6  2  0     0  0\n  1  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03148\n\n$$$$",
+  "reactions" : [ "irxn15" ]
+}

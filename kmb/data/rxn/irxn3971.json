@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3971",
+  "equation" : "h2o + ACP <=> pan4p + apoACP",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4069" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5715" : "",
+      "icpd729" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.4.14",
+  "otherNames" : [ ],
+  "alias" : "ACPpds",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01623"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACPpds"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00770" ],
+      "orthologs" : [ "K08682" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iSB619", "iYO844" ]
+    }
+  }
+}

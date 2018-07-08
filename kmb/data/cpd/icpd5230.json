@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5230",
+  "formula" : "C7H7O4",
+  "name" : "(2s,3s)-2,3-dihydro-2,3-dihydroxybenzoate",
+  "synonyms" : [ ],
+  "alias" : "icpd5230",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04171"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIHYDRO-DIOH-BENZOATE"
+  } ],
+  "inchi" : "InChI=1S/C7H8O4/c8-5-3-1-2-4(6(5)9)7(10)11/h1-3,5-6,8-9H,(H,10,11)/p-1/t5-,6-/m0/s1",
+  "inchikey" : "INCSWYKICIYAHB-WDSKDSINSA-M",
+  "smiles" : "C1=C[C@@]([H])([C@]([H])(C(=C1)C(=O)[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:ISOCHORMAT-RXN", "META:DHBDEHYD-RXN" ],
+      "gibbs" : -61.004215,
+      "cmlMolWeight" : 155.13,
+      "molWeight" : 155.13
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   20.0683  -17.9677    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2911  -18.6657    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   20.0618  -16.5720    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8580  -18.6657    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2911  -20.0679    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   22.4949  -17.9614    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2718  -15.8805    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8517  -15.8868    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8580  -20.0679    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0683  -20.7850    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4949  -20.7657    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  4  9  1  0     0  0\n  5 10  1  0     0  0\n  5 11  1  1     0  0\n  9 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04171\n\n$$$$",
+  "reactions" : [ "irxn543", "irxn3940" ]
+}

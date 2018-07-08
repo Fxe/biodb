@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3221",
+  "equation" : "amet + icpd2286 <=> ahcys + icpd7483 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd2286" : ""
+    },
+    "r" : {
+      "icpd7483" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.79; 2.1.1.79",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03411"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.1.1.79-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:N-ETHYLMALEIMIDE", "META:ADENOSYL-HOMO-CYS", "META:DITHIO-NITROBENZOATE", "META:BORATE", "META:CPD0-1631", "META:SINEFUNGIN", "META:CPD0-2355" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY0-541" ],
+      "orphan" : "NO",
+      "gibbs" : -37.892273,
+      "uniprot" : [ "O69687", "P0A9H7", "O25171", "Q9XTE1", "Q9PNB2", "O53732", "O67624", "Q9ZKG8" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

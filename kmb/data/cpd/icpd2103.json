@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2103",
+  "formula" : "C8H8N2O2",
+  "name" : "4-methoxy-1-methyl-2-oxo-1,2-dihydropyridine-3-carbonitrile",
+  "synonyms" : [ "1,2-dihydro-4-methoxy-1-methyl-2-oxo-nicotinonitrile", "1,2-dihydro-4-methoxy-1-methyl-2-oxonicotinonitrile" ],
+  "alias" : "icpd2103",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RICININE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01526"
+  } ],
+  "inchi" : "InChI=1S/C8H8N2O2/c1-10-4-3-7(12-2)6(5-9)8(10)11/h3-4H,1-2H3",
+  "inchikey" : "PETSAYFQSGAEQY-UHFFFAOYSA-N",
+  "smiles" : "CN1C=CC(=C(C#N)C1=O)OC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ALKALOID", "META:Nitriles" ],
+      "reactions" : [ "META:3.5.5.2-RXN" ],
+      "gibbs" : 59.12897,
+      "cmlMolWeight" : 164.163,
+      "molWeight" : 164.163,
+      "parents" : [ "META:ALKALOID", "META:Nitriles" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   22.1801  -15.7929    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9626  -15.0946    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1801  -17.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3847  -15.0881    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7517  -15.7929    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9563  -13.6977    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9626  -17.9138    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   23.3910  -17.8947    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5957  -14.3896    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7517  -17.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1608  -12.9994    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9563  -19.3042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  4  9  3  0     0  0\n  5 10  2  0     0  0\n  6 11  1  0     0  0\n  7 12  1  0     0  0\n  7 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01526\n\n$$$$",
+  "reactions" : [ "irxn6057" ]
+}

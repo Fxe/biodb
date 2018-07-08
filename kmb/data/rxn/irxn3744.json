@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3744",
+  "equation" : "hista + amet <=> ahcys + mhista",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd7006" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd7089" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.8; 2.1.1.8",
+  "otherNames" : [ ],
+  "alias" : "SAMHISTA",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HISTAMINE-N-METHYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02155"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SAMHISTA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:CPD-10891", "META:TYRAMINE", "META:CPD-10890", "META:5-METHYLTHIOADENOSINE", "META:TRYPTAMINE", "META:ADENOSYL-HOMO-CYS", "META:CPD-10889", "META:CPD-10887" ],
+      "activators" : [ "META:IODOACETAMIDE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6181" ],
+      "orphan" : "NO",
+      "gibbs" : -6.7400055,
+      "uniprot" : [ "Q01984", "P50135" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00340" ],
+      "orthologs" : [ "K00546" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

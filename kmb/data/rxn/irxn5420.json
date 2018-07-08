@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5420",
+  "equation" : "pyr + asn__L <=> 2oxosucc + ala__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd1244" : ""
+    },
+    "r" : {
+      "icpd7336" : "",
+      "icpd7196" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AOATA_h",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AOATA_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AOATA_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

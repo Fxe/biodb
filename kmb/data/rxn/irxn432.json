@@ -1,0 +1,46 @@
+{
+  "id" : "irxn432",
+  "equation" : "icpd451 + nadp <=> nadph + h + icpd4904",
+  "stoichiometry" : {
+    "l" : {
+      "icpd451" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd4904" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.184; EC-1.1.1.184",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CARBONYL-REDUCTASE-NADPH-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03557"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 20.375793,
+      "uniprot" : [ "Q9ZFY9", "Q9C4B3", "P47727", "P17264", "Q7M4W0", "P16152", "Q7LZH9", "P08074", "Q29529", "O08559" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

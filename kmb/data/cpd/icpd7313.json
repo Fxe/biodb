@@ -1,0 +1,34 @@
+{
+  "id" : "icpd7313",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd7313",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-Oxo-Acids"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-Oxo-carboxylates"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00161"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:THREDEHYD-RXN" ],
+      "instances" : [ "META:CPD-186", "META:4-OH-4-ACETYL-2-OXOGLUTARATE", "META:4-OXALOMESACONATE" ],
+      "reactions" : [ "META:RXN-16496", "META:RXN-14931", "META:RXN-15778" ],
+      "parents" : [ "META:Aromatic-Oxoacids", "META:Carboxylates", "META:CPD-186", "META:2-Oxo-carboxylates", "META:4-OH-4-ACETYL-2-OXOGLUTARATE", "META:4-OXALOMESACONATE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   25.8155  -17.4605    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5820  -16.7517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8155  -18.9623    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9779  -16.7451    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5820  -15.4639    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3483  -17.4605    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00161\n\n$$$$",
+  "reactions" : [ "irxn5861", "irxn424", "irxn6345", "irxn1810", "irxn2835", "irxn2135", "irxn2378", "irxn3510" ]
+}

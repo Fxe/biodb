@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5911",
+  "equation" : "327191 + h2o <=> 2.0 glc__D",
+  "stoichiometry" : {
+    "l" : {
+      "327191" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2392" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "BGLA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BG_CELLB"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BGLA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNF517", "iYO844" ]
+    }
+  }
+}

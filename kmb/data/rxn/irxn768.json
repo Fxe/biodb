@@ -1,0 +1,47 @@
+{
+  "id" : "irxn768",
+  "equation" : "acnamp + pi <=> h2o + pep + acmanap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7485" : "",
+      "icpd7798" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd7286" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.56; 2.5.1.57",
+  "otherNames" : [ ],
+  "alias" : "ACNAM9PL",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04435"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACNAM9PL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100" ],
+      "orthologs" : [ "K05304", "K01654" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

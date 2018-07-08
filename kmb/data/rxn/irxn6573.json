@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6573",
+  "equation" : "ala__L + oaa <=> asp__L + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7306" : "",
+      "icpd7336" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd95" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.12",
+  "otherNames" : [ ],
+  "alias" : "ASPTA6",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00400"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPTA6"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00250" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478" ]
+    }
+  }
+}

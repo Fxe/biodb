@@ -1,0 +1,40 @@
+{
+  "id" : "icpd7592",
+  "formula" : "C6H13O9P",
+  "name" : "d-fructose 6-phosphate",
+  "synonyms" : [ "[(2r,3r,4s)-2,3,4,6-tetrahydroxy-5-oxohexyl]oxyphosphonic acid", "d-fructose 6-phosphorate", "d-fructose-6-phosphate", "fructose 6-phosphate", "fructose-6-phosphate", "{[(2r,3r,4s)-2,3,4,6-tetrahydroxy-5-oxohexyl]oxy}phosphonic acid" ],
+  "alias" : "f6p",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15709"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00085"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "f6p"
+  }, {
+    "source" : "BiGG",
+    "entry" : "f6p"
+  } ],
+  "inchi" : "InChI=1S/C6H13O9P/c7-1-3(8)5(10)6(11)4(9)2-15-16(12,13)14/h4-7,9-11H,1-2H2,(H2,12,13,14)/t4-,5-,6-/m1/s1",
+  "inchikey" : "GSXOAOHZAIYLCY-HSUXUTPPSA-N",
+  "smiles" : "C(C(=O)[C@]([H])([C@@]([H])([C@@]([H])(COP(=O)(O)O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-15662", "META:RXN-15790", "META:RXN-18477", "META:SORB6PDEHYDROG-RXN", "META:RXN-14812" ],
+      "gibbs" : -318.18594,
+      "cmlMolWeight" : 258.121,
+      "molWeight" : 258.121,
+      "parents" : [ "META:HEXOSE-6-PHOSPHATES", "META:CPD-18719" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iJN746", "iAF1260b", "e_coli_core", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 16 16  0  0  1  0  0  0  0  0999 V2000\n   25.8126  -15.0611    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.9397  -14.2493    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2622  -16.3867    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.4750  -14.6405    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1077  -15.0902    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.6814  -16.3867    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.4504  -17.5373    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6339  -15.7677    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0889  -14.0856    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3868  -15.5575    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5049  -17.5315    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2264  -15.7619    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   30.4381  -14.4361    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8306  -15.7502    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2907  -17.1577    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2907  -14.3602    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  1  6     0  0\n  4  8  1  0     0  0\n  5  9  1  4     0  0\n  5 10  1  0     0  0\n  6 11  1  1     0  0\n  8 12  1  0     0  0\n  9 13  1  0     0  0\n 12 14  1  0     0  0\n 12 15  1  0     0  0\n 12 16  2  0     0  0\n  5  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00085\n\n$$$$",
+  "reactions" : [ "irxn2707", "irxn5307", "irxn1668", "irxn5305", "irxn1784", "irxn6615", "irxn1169", "irxn5534", "irxn4612", "irxn6459", "irxn3980", "irxn6038", "irxn5841", "irxn587", "irxn864", "irxn5421", "irxn6585", "irxn6640", "irxn4396", "irxn6660", "irxn3070" ]
+}

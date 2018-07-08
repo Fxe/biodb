@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6063",
+  "equation" : "icpd7552 + h <=> co2 + 4hbald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd7552" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd1490" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.7; 4.1.1.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYBENZOYLFORMATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02672"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:4-HYDROXYMANDELATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -1.0058823,
+      "uniprot" : [ "P20906" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627" ],
+      "orthologs" : [ "K01576" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

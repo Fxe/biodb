@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1467",
+  "equation" : "nadph + o2 + cinnm + h <=> h2o + T4hcinnm + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd719" : ""
+    },
+    "r" : {
+      "icpd3365" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.11; 1.14.13.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-CINNAMATE-4-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02253"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1121", "META:PWY1F-467" ],
+      "orphan" : "NO",
+      "gibbs" : -91.90057,
+      "uniprot" : [ "O24315", "Q9S8R8", "Q04468", "Q42895", "P48522", "O81928", "Q43033", "P37115" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00130", "rn01110", "rn01220", "rn00360", "rn00940" ],
+      "orthologs" : [ "K00487" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

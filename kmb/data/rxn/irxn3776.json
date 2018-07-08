@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3776",
+  "equation" : "trp__L + phpyr <=> indpyr + phe__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7287" : "",
+      "icpd3407" : ""
+    },
+    "r" : {
+      "icpd6456" : "",
+      "icpd2269" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.28; 2.6.1.28",
+  "otherNames" : [ ],
+  "alias" : "araphe3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "araphe3"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.6.1.28-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01376"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7520", "META:PWY-5081" ],
+      "orphan" : "NO",
+      "gibbs" : -17.909004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517" ]
+    }
+  }
+}

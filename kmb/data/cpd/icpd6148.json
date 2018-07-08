@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6148",
+  "formula" : "C10H17NO6",
+  "name" : "2-(beta-d-glucopyranosyloxy)-2-methyl-propanenitrile",
+  "synonyms" : [ "2-(beta-d-glucopyranosyloxy)-2-methylpropanenitrile", "2-(beta-d-glucopyrnosyloxy)-2-mtahylpropntniarilt", "2-methyl-2-{[(2s,3r,4s,5s,6r)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}propanenitrile" ],
+  "alias" : "icpd6148",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LINAMARIN"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01594"
+  } ],
+  "inchi" : "InChI=1S/C10H17NO6/c1-10(2,4-11)17-9-8(15)7(14)6(13)5(3-12)16-9/h5-9,12-15H,3H2,1-2H3/t5-,6-,7+,8-,9+/m1/s1",
+  "inchikey" : "QLTCHMYAEJEXBT-ZEBDFXRSSA-N",
+  "smiles" : "CC(C)(C#N)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Beta-D-glucosides", "META:Nitriles" ],
+      "reactions" : [ "META:RXN-5341", "META:LINAMARIN-SYNTHASE-RXN", "META:RXN-13602" ],
+      "gibbs" : -16.050951,
+      "cmlMolWeight" : 247.247,
+      "molWeight" : 247.247,
+      "parents" : [ "META:Beta-D-glucosides", "META:Nitriles" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 17 17  0  0  1  0  0  0  0  0999 V2000\n   26.7835  -20.2459    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.5932  -19.5631    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7835  -21.6050    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.1649  -18.8157    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4095  -20.2459    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.5932  -22.2877    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.9610  -22.2877    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5303  -18.8157    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   24.4095  -21.6050    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.2445  -19.5631    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5932  -23.7829    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5449  -20.1248    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5303  -17.4503    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8216  -18.8157    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2445  -22.2877    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1985  -20.4401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5553  -21.4841    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  1  6     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  5 10  1  1     0  0\n  6 11  1  1     0  0\n  8 12  1  0     0  0\n  8 13  1  0     0  0\n  8 14  1  0     0  0\n  9 15  1  6     0  0\n 10 16  1  0     0  0\n 12 17  3  0     0  0\n  6  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01594\n\n$$$$",
+  "reactions" : [ "irxn5234" ]
+}

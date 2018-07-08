@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3224",
+  "equation" : "acnam + ctp <=> ppi + cmpacna",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4369" : "",
+      "icpd768" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd4317" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.7.43",
+  "otherNames" : [ ],
+  "alias" : "ACNMCT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CMPSASn"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01117"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACNMCT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100" ],
+      "orthologs" : [ "K21749", "K00983" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iUTI89_1310", "iEC55989_1330", "iECIAI39_1322", "iMM1415", "iEcSMS35_1347", "iAPECO1_1312", "iUMN146_1321", "RECON1", "iECOK1_1307", "iECS88_1305" ]
+    }
+  }
+}

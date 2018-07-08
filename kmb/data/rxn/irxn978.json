@@ -1,0 +1,48 @@
+{
+  "id" : "irxn978",
+  "equation" : "2ahethmpp <=> acald + thmpp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7992" : ""
+    },
+    "r" : {
+      "icpd6658" : "",
+      "icpd6523" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.1",
+  "otherNames" : [ ],
+  "alias" : "PDCh",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PDCh"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00755"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PDCm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00010" ],
+      "orthologs" : [ "K01568" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

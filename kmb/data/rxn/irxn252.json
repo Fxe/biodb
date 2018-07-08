@@ -1,0 +1,49 @@
+{
+  "id" : "irxn252",
+  "equation" : "suc6p + h2o <=> sucr + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1541" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd5746" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.3.24; 3.1.3.24",
+  "otherNames" : [ ],
+  "alias" : "SPP",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00805"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SUCROSE-PHOSPHATASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SPP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMP", "META:SUCROSE", "META:GLC-6-P", "META:ZN+2", "META:FRU1P" ],
+      "activators" : [ "META:FRUCTOSE-16-DIPHOSPHATE", "META:ATP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7347", "META:PWY-7238", "META:SUCSYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 10.897034,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00500" ],
+      "orthologs" : [ "K07024" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iRC1080", "iJN678", "iJB785" ]
+    }
+  }
+}

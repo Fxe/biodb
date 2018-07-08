@@ -1,0 +1,34 @@
+{
+  "id" : "icpd3984",
+  "formula" : "C8H4O5",
+  "name" : "4-hydroxyisophthalate",
+  "synonyms" : [ "4-hydroxy-1,3-benzenedicarboxylate" ],
+  "alias" : "icpd3984",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C21168"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-18294"
+  } ],
+  "inchi" : "InChI=1S/C8H6O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h1-3,9H,(H,10,11)(H,12,13)/p-2",
+  "inchikey" : "BCEQKAQCUWUNML-UHFFFAOYSA-L",
+  "smiles" : "C1=C(C=C(C(=C1)[O-])C(=O)O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-10897" ],
+      "instances" : [ "META:Benzoates" ],
+      "reactions" : [ "META:RXN-16973", "META:RXN-16974" ],
+      "gibbs" : -135.32376,
+      "cmlMolWeight" : 180.117,
+      "molWeight" : 180.117,
+      "parents" : [ "META:Benzoates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   16.7996  -17.2195    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7996  -15.8196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9895  -15.1196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1795  -15.8196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1795  -17.2195    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9895  -17.9196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9895  -19.3195    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4394  -17.9895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9895  -13.7196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2019  -13.0197    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7760  -13.0190    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6692  -17.3199    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4744  -19.3895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  5  8  1  0     0  0\n  3  9  1  0     0  0\n  9 10  2  0     0  0\n  9 11  1  0     0  0\n  8 12  2  0     0  0\n  8 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21168\n\n$$$$",
+  "reactions" : [ "irxn5766" ]
+}

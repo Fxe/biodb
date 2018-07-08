@@ -1,0 +1,56 @@
+{
+  "id" : "irxn5236",
+  "equation" : "hco3 <=> h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1484" : ""
+    },
+    "r" : {
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "H2CO3D2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "H2CO3D2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18032"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "H2CO3D2m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EX_h2co3_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EX_hco3_e"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18031"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -50.29413,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iIT341", "iJN678", "iAT_PLT_636", "iJB785", "iAB_RBC_283", "iJN746", "iLJ478", "iRC1080", "iNJ661", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  }
+}

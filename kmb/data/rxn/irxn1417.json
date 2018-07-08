@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1417",
+  "equation" : "nadph + o2 + h + Lkynr <=> h2o + nadp + hLkynr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7803" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd1187" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.9; EC-1.14.13.9",
+  "otherNames" : [ ],
+  "alias" : "KYN3OX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01960"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:KYNURENINE-3-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "KYN3OX"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CL-", "META:PYRIDOXAL_PHOSPHATE", "META:CPD-11569" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7765", "META:PWY-5651", "META:PWY-6309", "META:PWY-7717" ],
+      "orphan" : "NO",
+      "gibbs" : -91.90054,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K00486" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

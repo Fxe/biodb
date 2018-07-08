@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5722",
+  "equation" : "nadph + h + hop <=> glyc__R + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2967" : ""
+    },
+    "r" : {
+      "icpd3290" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.60",
+  "otherNames" : [ ],
+  "alias" : "TRSARyr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TRSARyr"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01747"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100" ],
+      "orthologs" : [ "K00042" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

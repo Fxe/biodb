@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2746",
+  "equation" : "nadph + h + biliverd <=> bilirub + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5876" : ""
+    },
+    "r" : {
+      "icpd5767" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.24",
+  "otherNames" : [ ],
+  "alias" : "BILIRED",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02393"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BILIRED_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BILIRED"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ "K05901", "K00214" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iJN678", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

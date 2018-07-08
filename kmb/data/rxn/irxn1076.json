@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1076",
+  "equation" : "o2 + 34dhbz <=> icpd2566",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4862" : ""
+    },
+    "r" : {
+      "icpd2566" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.8; 1.13.11.8",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01632"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PROTOCATECHUATE-45-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P184-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -73.25825,
+      "uniprot" : [ "P22636", "P22635" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00362", "rn00627", "rn00624" ],
+      "orthologs" : [ "K04100", "K04101" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

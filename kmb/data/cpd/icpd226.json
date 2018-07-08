@@ -1,0 +1,31 @@
+{
+  "id" : "icpd226",
+  "formula" : "C5H9N",
+  "name" : "2-methyl-1-pyrroline",
+  "synonyms" : [ ],
+  "alias" : "icpd226",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20808"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-16510"
+  } ],
+  "inchi" : "InChI=1S/C5H9N/c1-5-3-2-4-6-5/h2-4H2,1H3",
+  "inchikey" : "CTSZPNIMMLSKDV-UHFFFAOYSA-N",
+  "smiles" : "CC1=NCCC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-15301" ],
+      "gibbs" : 114.46915,
+      "cmlMolWeight" : 84.141,
+      "molWeight" : 84.141
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  0  0  0  0  0  0999 V2000\n   16.3060  -16.5827    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7205  -17.9205    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1209  -17.9397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5720  -16.6138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4503  -15.7750    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7706  -15.8982    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  1  5  1  0     0  0\n  4  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20808\n\n$$$$",
+  "reactions" : [ "irxn2595" ]
+}

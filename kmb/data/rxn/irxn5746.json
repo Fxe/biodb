@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5746",
+  "equation" : "itp + cytd <=> idp + cmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3761" : "",
+      "icpd78" : ""
+    },
+    "r" : {
+      "icpd3658" : "",
+      "icpd3421" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.48",
+  "otherNames" : [ ],
+  "alias" : "ITCY",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00962"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ITCY"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K00876" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iRC1080", "iLB1027_lipid", "iYO844" ]
+    }
+  }
+}

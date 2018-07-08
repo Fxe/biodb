@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3223",
+  "equation" : "glucys <=> cys__L + 5oxpro",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6004" : ""
+    },
+    "r" : {
+      "icpd4873" : "",
+      "icpd7255" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.2.4",
+  "otherNames" : [ ],
+  "alias" : "r0568",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02743"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0568"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00480" ],
+      "orthologs" : [ "K00682" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

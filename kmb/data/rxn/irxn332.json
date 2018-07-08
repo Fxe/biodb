@@ -1,0 +1,43 @@
+{
+  "id" : "irxn332",
+  "equation" : "icpd3078 <=> icpd2969",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3078" : ""
+    },
+    "r" : {
+      "icpd2969" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.5.1.6; 5.5.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-3221"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06556"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NARINGENIN-CMPD", "META:CPD-520", "META:PHMB", "META:CPD1F-90", "META:CPD-11779", "META:KIEVITONE-CPD", "META:CPD-19565" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2002", "META:PWY-6325" ],
+      "orphan" : "NO",
+      "gibbs" : -9.92,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00941" ],
+      "orthologs" : [ "K01859" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

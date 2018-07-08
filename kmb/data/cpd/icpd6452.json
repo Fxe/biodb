@@ -1,0 +1,36 @@
+{
+  "id" : "icpd6452",
+  "formula" : "C5H11O8P",
+  "name" : "beta-l-arabinose 1-phosphate",
+  "synonyms" : [ "1-o-phosphono-beta-l-arabinopyranose", "[(2r,3r,4s,5s)-3,4,5-trihydroxyoxan-2-yl]oxyphosphonic acid", "beta-l-arabinopyranose 1-(dihydrogen phosphate)", "beta-l-reinost 1-phosphat", "{[(2r,3r,4s,5s)-3,4,5-trihydroxyoxan-2-yl]oxy}phosphonic acid" ],
+  "alias" : "B_ara1p",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1825"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "B_ara1p"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03906"
+  } ],
+  "inchi" : "InChI=1S/C5H11O8P/c6-2-1-12-5(4(8)3(2)7)13-14(9,10)11/h2-8H,1H2,(H2,9,10,11)/t2-,3-,4+,5+/m0/s1",
+  "inchikey" : "ILXHFXFPPZGENN-QMKXCQHVSA-N",
+  "smiles" : "C1[C@@]([H])([C@@]([H])([C@]([H])([C@]([H])(O1)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-7381", "META:RXN-7401", "META:L-ARABINOKINASE-RXN" ],
+      "gibbs" : -301.36816,
+      "cmlMolWeight" : 228.095,
+      "molWeight" : 228.095
+    },
+    "bigg" : {
+      "models" : [ "iRC1080" ]
+    }
+  },
+  "mol" : " \n \n \n 14 14  0  0  1  0  0  0  0  0999 V2000\n   28.9960  -19.1818    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   27.6070  -19.1818    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3781  -19.1818    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9960  -17.7871    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9960  -20.5639    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2591  -19.8759    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.2591  -21.2649    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.0549  -19.1818    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0549  -21.9646    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.4702  -21.9646    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8438  -19.8759    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8438  -21.2649    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.0549  -23.3537    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6325  -21.9529    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  6  2  1  6     0  0\n  6  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  7 10  1  6     0  0\n  8 11  1  0     0  0\n  9 12  1  0     0  0\n  9 13  1  1     0  0\n 12 14  1  1     0  0\n 11 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03906\n\n$$$$",
+  "reactions" : [ "irxn2849", "irxn4616" ]
+}

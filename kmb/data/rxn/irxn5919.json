@@ -1,0 +1,43 @@
+{
+  "id" : "irxn5919",
+  "equation" : "icpd5357 <=> icpd6596",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5357" : ""
+    },
+    "r" : {
+      "icpd6596" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.3.5; EC-5.4.3.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02461"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ORNMUTST-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:HYDROXYLAMINE", "META:OXYGEN-MOLECULE", "META:ISONIAZIDE", "META:CPD-29", "META:L-ORNITHINE", "META:IODOACETATE", "META:LYS", "META:CPD-233" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6344" ],
+      "orphan" : "NO",
+      "gibbs" : -1.81,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00472" ],
+      "orthologs" : [ "K17899", "K17898" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

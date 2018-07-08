@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6778",
+  "equation" : "o2 + 2.0 h + lthstrl + 2.0 icpd1857 <=> 7dhchsterol + 2.0 h2o + 2.0 icpd1812",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1851" : "2.0",
+      "icpd1857" : "2.0",
+      "icpd1955" : ""
+    },
+    "r" : {
+      "icpd4016" : "2.0",
+      "icpd3041" : "",
+      "icpd1812" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.19.20; EC-1.14.19.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07215"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.14.21.6-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-3", "META:PWY66-341" ],
+      "orphan" : "NO",
+      "gibbs" : -86.28757,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100" ],
+      "orthologs" : [ "Delta7", "K00227" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4690",
+  "equation" : "udpg + icpd5888 <=> udp + icpd7465",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd5888" : ""
+    },
+    "r" : {
+      "icpd7465" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.91; 2.4.1.91",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03267"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FLAVONOL-3-O-GLUCOSYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:UDP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -94.17456,
+      "uniprot" : [ "P16167", "P16166", "P16165", "P14726", "Q9LFK0", "O22603", "Q9LFJ9", "Q9LFJ8" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

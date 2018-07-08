@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4081",
+  "equation" : "zymst + amet <=> fecost + ahcys + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd2984" : ""
+    },
+    "r" : {
+      "icpd1052" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.41; EC-2.1.1.41",
+  "otherNames" : [ ],
+  "alias" : "SAM24MT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SAM24MT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN3O-178"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04427"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6075" ],
+      "orphan" : "NO",
+      "gibbs" : -19.86,
+      "uniprot" : [ "Q39227", "P25087", "O49215", "P93852", "O24154", "Q43445", "O14321", "O24153", "Q41586", "O24328" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100", "rn01130" ],
+      "orthologs" : [ "K00559" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

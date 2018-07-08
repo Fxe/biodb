@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1109",
+  "equation" : "4ppan + cys__L + atp <=> 4ppcys + amp + ppi + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2457" : "",
+      "icpd4873" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2738" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.3.2.51; 6.3.2.51",
+  "otherNames" : [ ],
+  "alias" : "PPNCL3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PPNCL3"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04230"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN66-555"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7851", "META:PWY-7850" ],
+      "orphan" : "NO",
+      "gibbs" : -20.805786,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00770" ],
+      "orthologs" : [ "K01922" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iNJ661", "iMM1415", "RECON1", "iJB785" ]
+    }
+  }
+}

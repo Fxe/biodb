@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7697",
+  "formula" : "C6H9O5",
+  "name" : "2-dehydro-3-deoxy-l-fuconate",
+  "synonyms" : [ ],
+  "alias" : "icpd7697",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03827"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DEHYDFUC-CPD"
+  } ],
+  "inchi" : "InChI=1S/C6H10O5/c1-3(7)4(8)2-5(9)6(10)11/h3-4,7-8H,2H2,1H3,(H,10,11)/p-1/t3-,4-/m0/s1",
+  "inchikey" : "FRIWJYNKZPJVRL-IMJSIDKUSA-M",
+  "smiles" : "C[C@@]([H])([C@]([H])(CC(=O)C(=O)[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Ketoaldonates" ],
+      "reactions" : [ "META:L-FUCONATE-HYDRATASE-RXN" ],
+      "gibbs" : -91.78197,
+      "cmlMolWeight" : 161.134,
+      "molWeight" : 161.134,
+      "parents" : [ "META:Ketoaldonates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   26.4494  -15.6725    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.6389  -16.3723    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.2598  -16.3723    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.8985  -15.6725    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.6389  -17.7718    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0003  -15.6725    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2598  -17.7718    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0880  -16.3723    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8985  -14.2731    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8107  -16.3723    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0003  -14.2731    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  1     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  4  9  1  1     0  0\n  6 10  1  0     0  0\n  6 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03827\n\n$$$$",
+  "reactions" : [ "irxn3973" ]
+}

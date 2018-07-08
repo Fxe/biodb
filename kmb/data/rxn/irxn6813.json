@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6813",
+  "equation" : "nad + tartr__L <=> nadh + h + icpd2236",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd4469" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2236" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.93; EC-1.1.1.93",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TARTRATE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06180"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-640" ],
+      "activators" : [ "META:RB+", "META:K+", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 3.541748,
+      "uniprot" : [ "P42958", "Q51945", "P76251" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630" ],
+      "orthologs" : [ "K07246" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

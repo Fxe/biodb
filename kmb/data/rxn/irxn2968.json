@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2968",
+  "equation" : "nad + icpd4124 + h2o <=> nadh + gly + pyr + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4124" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd855" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.22; EC-1.5.1.22",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:STROMBINE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00368"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7351" ],
+      "orphan" : "NO",
+      "gibbs" : 5.4487915,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

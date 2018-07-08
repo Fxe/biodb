@@ -1,0 +1,53 @@
+{
+  "id" : "irxn3138",
+  "equation" : "nad + dhor__S <=> nadh + h + orot",
+  "stoichiometry" : {
+    "l" : {
+      "icpd231" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2068" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.14; 1.3.1.14",
+  "otherNames" : [ ],
+  "alias" : "DHORD6",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OROTATE-REDUCTASE-NADH-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHORD6"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01869"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHORD_NAD"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:OROTATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7791" ],
+      "orphan" : "NO",
+      "gibbs" : -6.178192,
+      "uniprot" : [ "Q12610" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K17828" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNF517" ]
+    }
+  }
+}

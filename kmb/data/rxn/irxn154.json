@@ -1,0 +1,43 @@
+{
+  "id" : "irxn154",
+  "equation" : "phpyr <=> icpd5431",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3407" : ""
+    },
+    "r" : {
+      "icpd5431" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.2.1; 5.3.2.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENYLPYRUVATE-TAUTOMERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01378"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 4.95,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00360" ],
+      "orthologs" : [ "K07253" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3860",
+  "equation" : "icpd6424 + h2o <=> icpd3950 + 2.0 h + cl + fald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6424" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd3950" : "",
+      "icpd8186" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.8.1.1; EC-3.8.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03523"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALKYLHALIDASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 3.5587578,
+      "uniprot" : [ "Q9X3R1", "Q9X3Q8" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn232",
+  "equation" : "h2o + h + 5mcsn <=> n2 + thym",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd7329" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd7944" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.4.1; 3.5.4.1",
+  "otherNames" : [ ],
+  "alias" : "MCSNAH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14197"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MCSNAH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01411"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 8.626999,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00240" ],
+      "orthologs" : [ "K01485" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iAF987", "iYO844" ]
+    }
+  }
+}

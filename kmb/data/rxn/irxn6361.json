@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6361",
+  "equation" : "fmnh2 + o2 + icpd7572 <=> h2o + icpd6232 + fmn + so3",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd7572" : "",
+      "icpd1059" : ""
+    },
+    "r" : {
+      "icpd7712" : "",
+      "icpd4016" : "",
+      "icpd6232" : "",
+      "icpd5833" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.14.5; EC-1.14.14.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-280"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07210"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ALKANEMONOX-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -153.37541,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00920" ],
+      "orthologs" : [ "K04091", "K00299" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

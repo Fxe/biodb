@@ -1,0 +1,44 @@
+{
+  "id" : "irxn726",
+  "equation" : "icpd4782 <=> h2o + icpd7959",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4782" : ""
+    },
+    "r" : {
+      "icpd7959" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.45; 4.2.1.45",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02426"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CDP-GLUCOSE-46-DEHYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5833" ],
+      "orphan" : "NO",
+      "gibbs" : -13.897034,
+      "uniprot" : [ "Q9L7V9" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "K01709" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

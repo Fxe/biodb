@@ -1,0 +1,30 @@
+{
+  "id" : "icpd2512",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd2512",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Long-Chain-Acyl-Ethyl-Esters"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04202"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-19848", "META:CPD-14388" ],
+      "reactions" : [ "META:RXN-12639", "META:FATTY-ACYL-ETHYL-ESTER-SYNTHASE-RXN" ],
+      "parents" : [ "META:CPD-19848", "META:Carboxylic-esters", "META:CPD-14388" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   11.5500  -17.9900    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7624  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9749  -17.9900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.1873  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3997  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7624  -15.8902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04202\n\n$$$$",
+  "reactions" : [ "irxn492" ]
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1308",
+  "equation" : "icpd335 + h2o + pep <=> pi + icpd1769",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1790" : "",
+      "icpd335" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1769" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.97; 2.5.1.97",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09841"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10002"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:CO+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6143" ],
+      "orphan" : "NO",
+      "gibbs" : -6.2347717,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "K15898" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

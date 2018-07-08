@@ -1,0 +1,33 @@
+{
+  "id" : "icpd586",
+  "formula" : "C11H14O2S",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd586",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1242"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11165"
+  } ],
+  "inchi" : "InChI=1S/C11H14O2S/c1-5-7(2)6-11(4)9(12)8(3)10(13)14-11/h5-6,12H,1H2,2-4H3/b7-6+/t11-/m1/s1",
+  "inchikey" : "SYQNUQSGEWNWKV-XUIVZRPNSA-N",
+  "smiles" : "C=C/C(=C(\\[H])/[C@]1(C)C(=C(C)C(=O)S1)O)/C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2.3.1.180-RXN", "META:ACP-S-ACETYLTRANSFER-RXN", "META:3-OXOACYL-ACP-SYNTH-RXN", "META:3-OXOACYL-ACP-SYNTH-BASE-RXN" ],
+      "instances" : [ "META:Antibiotics" ],
+      "gibbs" : 110.93569,
+      "cmlMolWeight" : 210.29,
+      "molWeight" : 210.29,
+      "parents" : [ "META:Antibiotics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  1  0  0  0  0  0999 V2000\n   29.0764  -20.3946    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6427  -19.0707    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   29.7729  -18.2488    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9028  -19.0707    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4694  -20.3946    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4363  -18.3741    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2300  -19.0707    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0235  -18.3741    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8171  -19.0707    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2300  -20.4637    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7066  -17.5903    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.2283  -18.6419    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2870  -21.5226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2589  -21.5226    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  6  7  2  0     0  0\n  2  3  1  0     0  0\n  7  8  1  0     0  0\n  3  4  1  0     0  0\n  8  9  2  0     0  0\n  4  5  1  0     0  0\n  7 10  1  0     0  0\n  5  1  2  0     0  0\n  2 11  1  6     0  0\n  4 12  2  0     0  0\n  2  6  1  0     0  0\n  5 13  1  0     0  0\n  1  2  1  0     0  0\n  1 14  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11165\n\n$$$$",
+  "reactions" : [ ]
+}

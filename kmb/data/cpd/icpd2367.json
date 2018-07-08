@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2367",
+  "formula" : "C3H6O",
+  "name" : "(s)-1,2-epoxypropane",
+  "synonyms" : [ "(s)-(-)-propylene oxide", "methyl-(s)-oxirane" ],
+  "alias" : "icpd2367",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11507"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:S-12-EPOXYPROPANE"
+  } ],
+  "inchi" : "InChI=1S/C3H6O/c1-3-2-4-3/h3H,2H2,1H3/t3-/m0/s1",
+  "inchikey" : "GOOHAUXETOMSMM-VKHMYHEASA-N",
+  "smiles" : "C[C@H]1CO1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:12-EPOXYPROPANE" ],
+      "reactions" : [ "META:RXN-8805", "META:RXN-8806" ],
+      "gibbs" : 43.796722,
+      "cmlMolWeight" : 58.08,
+      "molWeight" : 58.08,
+      "parents" : [ "META:12-EPOXYPROPANE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  4  0  0  1  0  0  0  0  0999 V2000\n   23.5648  -17.8053    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9632  -17.8053    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.2571  -16.5905    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1753  -18.5026    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  3  2  1  0     0  0\n  2  4  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C11507\n\n$$$$",
+  "reactions" : [ "irxn1494", "irxn1521" ]
+}

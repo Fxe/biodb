@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2566",
+  "equation" : "o2 + dhpyr <=> nfmalm",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5159" : ""
+    },
+    "r" : {
+      "icpd3030" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.9; 1.13.11.9",
+  "otherNames" : [ ],
+  "alias" : "PYRDOX",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.13.11.9-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYRDOX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09125"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:HYDROGEN-PEROXIDE", "META:CPD-69", "META:CPD-8819", "META:CPD-29", "META:O-PHENANTHROLINE", "META:EDTA" ],
+      "activators" : [ "META:FE+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-722", "META:PWY-6993", "META:PWY-7128" ],
+      "orphan" : "NO",
+      "gibbs" : -85.18412,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00760", "rn01120" ],
+      "orthologs" : [ "K18028" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

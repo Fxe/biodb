@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3811",
+  "equation" : "nadp + sbt6p <=> g6p + nadph + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4063" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1569" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.200; 1.1.1.200",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALDOSE-6-PHOSPHATE-REDUCTASE-NADPH-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00834"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ATP", "META:ADP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5054" ],
+      "orphan" : "NO",
+      "gibbs" : -1.0264893,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

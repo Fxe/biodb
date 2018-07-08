@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5959",
+  "equation" : "udpg + icpd4532 <=> udp + icpd7692",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd4532" : ""
+    },
+    "r" : {
+      "icpd7692" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18095"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10638"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7824" ],
+      "orphan" : "NO",
+      "gibbs" : 6.897583,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00460", "rn01110" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7934",
+  "formula" : "C6H5FO2",
+  "name" : "3-fluorocatechol",
+  "synonyms" : [ ],
+  "alias" : "icpd7934",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10613"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16472"
+  } ],
+  "inchi" : "InChI=1S/C6H5FO2/c7-4-2-1-3-5(8)6(4)9/h1-3,8-9H",
+  "inchikey" : "DXOSJQLIRGXWCF-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C(=C1)F)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Fluoroaromatic-Compounds", "META:Catechols" ],
+      "reactions" : [ "META:RXN-10118" ],
+      "gibbs" : -39.004406,
+      "cmlMolWeight" : 128.103,
+      "molWeight" : 128.103,
+      "parents" : [ "META:Fluoroaromatic-Compounds", "META:Catechols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   26.3552  -22.3956    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5769  -23.0865    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1460  -23.0865    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4187  -21.0011    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5769  -24.4937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1460  -24.4937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3552  -25.2101    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7795  -25.1908    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7826  -22.3832    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  5  8  1  0     0  0\n  6  7  2  0     0  0\n  2  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16472\n\n$$$$",
+  "reactions" : [ "irxn3478" ]
+}

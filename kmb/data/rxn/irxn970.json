@@ -1,0 +1,53 @@
+{
+  "id" : "irxn970",
+  "equation" : "pyr + h + thmpp <=> co2 + 2ahethmpp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd1851" : "",
+      "icpd6523" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7992" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.1; 1.2.4.1; 2.2.1.6",
+  "otherNames" : [ ],
+  "alias" : "ACLSa",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PDHam1mi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PDHam1hi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACLSa"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00014"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00020", "rn00010", "rn01110", "rn01130", "rn00620" ],
+      "orthologs" : [ "K01652", "K00162", "K00163", "K00161", "E1", "K01568", "K11258", "K01653" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

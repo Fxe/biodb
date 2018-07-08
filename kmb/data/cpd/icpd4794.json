@@ -1,0 +1,42 @@
+{
+  "id" : "icpd4794",
+  "formula" : "C4H10O",
+  "name" : "butan-1-ol",
+  "synonyms" : [ "1-butanol", "1-butyl alcohol", "1-hydroxybutane", "1-hydroxymethylpropane", "butanol", "butyl alcohol", "methylolpropane", "n-butanol", "n-butyl alcohol", "propylcarbinol" ],
+  "alias" : "btoh",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06142"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BUTANOL"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "btoh"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "1btol"
+  } ],
+  "inchi" : "InChI=1S/C4H10O/c1-2-3-4-5/h5H,2-4H2,1H3",
+  "inchikey" : "LRHPLDYGYMQRHN-UHFFFAOYSA-N",
+  "smiles" : "CCCCO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-161" ],
+      "instances" : [ "META:Short-Chain-Primary-Alcohols", "META:Short-Chain-Alcohols" ],
+      "reactions" : [ "META:RXN-17642", "META:ENZRXN-201-RXN", "META:RXN-18668", "META:RXN-18667", "META:RXN-18672", "META:RXN-17641", "META:RXN-12362", "META:RXN-161", "META:RXN-17638", "META:RXN-17538" ],
+      "gibbs" : 61.641205,
+      "cmlMolWeight" : 74.122,
+      "molWeight" : 74.122,
+      "parents" : [ "META:Short-Chain-Primary-Alcohols", "META:Short-Chain-Alcohols" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080", "iAF987", "iHN637" ]
+    }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   24.4358  -15.4702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2158  -14.7756    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6384  -14.7639    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0074  -15.4761    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8526  -15.4702    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06142\n\n$$$$",
+  "reactions" : [ "irxn2120", "irxn5112", "irxn1403" ]
+}

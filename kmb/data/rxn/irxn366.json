@@ -1,0 +1,49 @@
+{
+  "id" : "irxn366",
+  "equation" : "h + mal__L <=> co2 + lac__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6269" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd5544" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.101; 4.1.1.101",
+  "otherNames" : [ ],
+  "alias" : "MALLAC",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11074"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16819"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MALLAC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:L-LACTATE", "META:ETOH" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7685" ],
+      "orphan" : "NO",
+      "gibbs" : -4.081772,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517" ]
+    }
+  }
+}

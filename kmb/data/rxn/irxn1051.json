@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1051",
+  "equation" : "lys__L + apoC <=> h2o + h + 324142",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6731" : "",
+      "icpd4807" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "324142" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "APOCF",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "APOCFm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "APOCF"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5452",
+  "formula" : "C6H11O3",
+  "name" : "6-hydroxyhexanoate",
+  "synonyms" : [ "hexan-1-ol-6-oate" ],
+  "alias" : "icpd5452",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06103"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-102"
+  } ],
+  "inchi" : "InChI=1S/C6H12O3/c7-5-3-1-2-4-6(8)9/h7H,1-5H2,(H,8,9)/p-1",
+  "inchikey" : "IWHLYPDWHHPVAA-UHFFFAOYSA-M",
+  "smiles" : "C(CCC(=O)[O-])CCO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:OMEGA-HYDROXY-FATTY-ACID" ],
+      "reactions" : [ "META:6-HYDROXYHEXANOATE-OXIDATION-RXN", "META:6-HEXANOLIDE-HYDROLYSIS-RXN" ],
+      "gibbs" : -3.829741,
+      "cmlMolWeight" : 131.151,
+      "molWeight" : 131.151,
+      "parents" : [ "META:OMEGA-HYDROXY-FATTY-ACID" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   29.4600  -17.2773    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6754  -17.9701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2447  -17.9760    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.8849  -17.2655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0354  -17.2832    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.1002  -17.9643    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.8849  -15.8624    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8200  -17.9818    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6047  -17.2890    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06103\n\n$$$$",
+  "reactions" : [ "irxn5202", "irxn1576" ]
+}

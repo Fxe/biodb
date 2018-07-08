@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3469",
+  "equation" : "icpd289 + pi <=> glc__D + g1p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7485" : "",
+      "icpd289" : ""
+    },
+    "r" : {
+      "icpd402" : "",
+      "icpd2392" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.31; EC-2.4.1.31",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LAMINARIBIOSE-PHOSPHORYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00953"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6778" ],
+      "orphan" : "NO",
+      "gibbs" : -10.330017,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6225",
+  "formula" : "CH4S",
+  "name" : "methanethiol",
+  "synonyms" : [ "mercaptomethane", "methanthiol", "methyl mercaptan", "methyl thiol", "methyl-mercaptan", "methylmercaptan" ],
+  "alias" : "ch4s",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7671"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00409"
+  }, {
+    "source" : "BiGG",
+    "entry" : "ch4s"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ch4s"
+  } ],
+  "inchi" : "InChI=1S/CH4S/c1-2/h2H,1H3",
+  "inchikey" : "LSDPWZHWYPCBBB-UHFFFAOYSA-N",
+  "smiles" : "CS",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Thiols" ],
+      "reactions" : [ "META:RXN-18602", "META:RXN-12573", "META:RXN-14301", "META:RXN-16011", "META:RXN-14007", "META:RXN-13229", "META:RXN-17813", "META:RXN-12539", "META:O-ACETYLHOMOSERINE-THIOL-LYASE-RXN", "META:METHANETHIOL-OXIDASE-RXN", "META:RXN-8128", "META:RXN-8125", "META:RXN-9740", "META:METHIONINE-GAMMA-LYASE-RXN" ],
+      "gibbs" : 36.694485,
+      "cmlMolWeight" : 48.103,
+      "molWeight" : 48.103,
+      "parents" : [ "META:Thiols" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iNF517", "iCHOv1", "iND750", "iMM904", "iYO844", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   21.1400  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8200  -16.1700    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00409\n\n$$$$",
+  "reactions" : [ "irxn5664", "irxn212", "irxn4584", "irxn3670", "irxn1105", "irxn3559", "irxn5140", "irxn2180", "irxn4668", "irxn5105" ]
+}

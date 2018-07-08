@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4431",
+  "equation" : "icpd3653 <=> co2 + lys__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3653" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4807" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.20; EC-4.1.1.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DIAMINOPIMDECARB-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00451"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GLT", "META:CPD-9793", "META:cystine", "META:CPD0-1578", "META:CPD0-1577", "META:CYSTINE", "META:LYS" ],
+      "activators" : [ "META:23-DIMERCAPTOPROPAN-1-OL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5097", "META:DAPLYSINESYN-PWY", "META:PWY-2942", "META:PWY-2941" ],
+      "orphan" : "NO",
+      "gibbs" : -3.0900116,
+      "uniprot" : [ "P56129", "Q55484", "Q58497", "P19572", "O29458", "Q9CG26", "Q9PII5", "P44316", "O05321", "P41023", "P09890", "Q9JWA6", "P0A5M4", "P00861", "P23630", "O67262", "O27390" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01120", "rn01230", "rn01110", "rn01130" ],
+      "orthologs" : [ "K01586", "K12526" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1919",
+  "formula" : "C8H7NS",
+  "name" : "benzyl thiocyanate",
+  "synonyms" : [ "alpha -thiocyanatotoluene", "alpha-thiocyanato-toluene", "alpha-thiocyanatotoluene", "benzyl-thiocyanate", "benzylthiocyanate", "phenylmethyl thiocyanate", "phenylmethyl thiocyanate, 9ci", "thiocyanic acid benzyl ester", "thiocyanic acid, benzyl ester", "thiocyanic acid, phenylmethyl ester" ],
+  "alias" : "icpd1919",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02660"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-65"
+  } ],
+  "inchi" : "InChI=1S/C8H7NS/c9-7-10-6-8-4-2-1-3-5-8/h1-5H,6H2",
+  "inchikey" : "ABNDFSOIUFLJAH-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)CSC#N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:THIOCYANATE-ISOMERASE-RXN", "META:RXN-12026" ],
+      "gibbs" : 123.387856,
+      "cmlMolWeight" : 149.21,
+      "molWeight" : 149.21
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   17.2362  -14.4191    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2362  -15.8278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0133  -13.7213    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4399  -13.7213    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0133  -16.5384    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8095  -14.4191    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6436  -14.4128    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8095  -15.8278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8537  -13.7085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0574  -13.0105    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  2  0     0  0\n  7  9  1  0     0  0\n  9 10  3  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02660\n\n$$$$",
+  "reactions" : [ "irxn552" ]
+}

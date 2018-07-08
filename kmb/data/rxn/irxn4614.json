@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4614",
+  "equation" : "coa + gthrd + nadp <=> icpd7833 + nadph + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd1977" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd7833" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.8.1.10; 1.8.1.10",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:COA-GLUTATHIONE-REDUCTASE-NADPH-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05714"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -3.5130615,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

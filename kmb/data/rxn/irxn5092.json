@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5092",
+  "equation" : "2.0 o2 + h2o + chol <=> 2.0 h2o2 + glyb",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "2.0",
+      "icpd3647" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "2.0",
+      "icpd6485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.3.17; 1.1.3.17",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13178"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08212"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -67.90299,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K17755" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

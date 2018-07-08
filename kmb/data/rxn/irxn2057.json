@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2057",
+  "equation" : "o2 + icpd3830 <=> icpd4103",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd3830" : ""
+    },
+    "r" : {
+      "icpd4103" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.-; EC-1.13.11.M6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05409"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CHLOROCATDIOXY-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:14DICHLORBENZDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -96.63236,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00361", "rn01120" ],
+      "orthologs" : [ "K15253" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

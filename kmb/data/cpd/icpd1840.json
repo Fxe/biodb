@@ -1,0 +1,38 @@
+{
+  "id" : "icpd1840",
+  "formula" : "C2H6OS",
+  "name" : "2-mercaptoethanol",
+  "synonyms" : [ "beta-mtrcpaotahnol" ],
+  "alias" : "mercpeth",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-MERCAPTOETHANOL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00928"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "mercpeth"
+  } ],
+  "inchi" : "InChI=1S/C2H6OS/c3-1-2-4/h3-4H,1-2H2",
+  "inchikey" : "DGVVWUTYPXICAM-UHFFFAOYSA-N",
+  "smiles" : "C(CS)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:RXN-15542", "META:BETAGALACTOSID-RXN", "META:METHYLENETHFDEHYDROG-NADP-RXN", "META:RXN-13553", "META:RIBITOL-2-DEHYDROGENASE-RXN", "META:2.3.1.103-RXN", "META:GLYCDEH-RXN", "META:GLUCUROISOM-RXN", "META:RXN-1403", "META:THIOSULFATE-SULFURTRANSFERASE-RXN", "META:1.5.3.12-RXN", "META:UDP-GLUCURONATE-DECARBOXYLASE-RXN", "META:RXN-8719", "META:2.3.1.90-RXN", "META:THREODEHYD-RXN", "META:RXN-11819", "META:RXN-8720", "META:GALACTUROISOM-RXN", "META:RXN-7770" ],
+      "activators" : [ "META:GALACTOKIN-RXN", "META:RXN-15269", "META:ALPHAGALACTOSID-RXN", "META:RXN-13474", "META:RXN-13473", "META:THYMIDYLATESYN-RXN", "META:RXN-13466", "META:3.1.4.38-RXN", "META:1.1.1.283-RXN", "META:AGMATINE-N4-COUMAROYLTRANSFERASE-RXN", "META:RXN-8458", "META:5.1.1.17-RXN", "META:IMIDPHOSDEHYD-RXN", "META:GALACTARDEHYDRA-RXN", "META:RXN-9000", "META:RXN-9990", "META:ORNCARBAMTRANSFER-RXN", "META:L-GULONOLACTONE-OXIDASE-RXN" ],
+      "reactions" : [ "META:RXN0-6256" ],
+      "gibbs" : 22.626724,
+      "cmlMolWeight" : 78.129,
+      "molWeight" : 78.129
+    },
+    "bigg" : {
+      "models" : [ "iML1515" ]
+    }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   22.7253  -15.8223    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5147  -16.5177    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9426  -16.5177    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2974  -15.8223    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00928\n\n$$$$",
+  "reactions" : [ "irxn5968" ]
+}

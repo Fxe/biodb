@@ -1,0 +1,44 @@
+{
+  "id" : "icpd5988",
+  "formula" : "HO",
+  "name" : "hydroxide",
+  "synonyms" : [ "oxidanide" ],
+  "alias" : "oh1",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "oh1"
+  }, {
+    "source" : "BiGG",
+    "entry" : "oh1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:OH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYL-GROUP"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01328"
+  } ],
+  "inchi" : "InChI=1S/H2O/h1H2/p-1",
+  "inchikey" : "XLYOFNOQVPJJNP-UHFFFAOYSA-M",
+  "smiles" : "[OH-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Simple-Groups" ],
+      "reactions" : [ "META:RXN-12540", "META:RXN-16809", "META:RXN-1761", "META:RXN-16805", "META:RXN-10688" ],
+      "gibbs" : 9.959062,
+      "cmlMolWeight" : 17.007,
+      "molWeight" : 17.007,
+      "parents" : [ "META:Simple-Groups" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "iAT_PLT_636", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   25.1300  -17.2200    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\nM  CHG  1   1  -1\nM  END\n\n> <ENTRY>\ncpd:C01328\n\n$$$$",
+  "reactions" : [ "irxn2278" ]
+}

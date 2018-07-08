@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2994",
+  "formula" : "C7H6O4",
+  "name" : "4-hydroxy-4h-furo(3,2-c)pyran-2(6h)-one",
+  "synonyms" : [ "4,6-dihydro-4-hydroxy-2h-furo(3,2-c)pyran-2-one", "4-hydroxy-2h,4h,6h-furo[3,2-c]pyran-2-one", "4-hydroxy-4,6-dihydrofuro[4,5-c]pyran-2-one", "4-hydroxy-4h-furo[3,2-c]pyran-2(6h)-one", "4-hydroxy-4h-furo[3,2-c]pyran-2(6h)-one, 9ci, 8ci" ],
+  "alias" : "icpd2994",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-16726"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16748"
+  } ],
+  "inchi" : "InChI=1S/C7H6O4/c8-6-3-4-5(11-6)1-2-10-7(4)9/h1,3,7,9H,2H2",
+  "inchikey" : "ZRWPUFFVAOMMNM-UHFFFAOYSA-N",
+  "smiles" : "C1=C2C(=CC(=O)O2)C(O)OC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Mycotoxins", "META:Antibiotics" ],
+      "reactions" : [ "META:RXN-15485" ],
+      "gibbs" : -56.023285,
+      "cmlMolWeight" : 154.122,
+      "molWeight" : 154.122,
+      "parents" : [ "META:Mycotoxins", "META:Antibiotics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   30.7722  -21.3168    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7705  -19.9143    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5551  -19.2146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3414  -19.9173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3431  -21.3199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5586  -22.0195    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0070  -19.4856    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1841  -20.6212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0098  -21.7548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8110  -20.6229    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5604  -23.4218    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  5  9  2  0     0  0\n  8 10  2  0     0  0\n  6 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16748\n\n$$$$",
+  "reactions" : [ ]
+}

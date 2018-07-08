@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3247",
+  "formula" : "C5H9NO4S",
+  "name" : "(r)-s-(carboxymethyl)cysteine",
+  "synonyms" : [ "3-((carboxymethyl)thio)alanine", "3-(carboxymethylthio)-l-alanine", "3-(carboxymethylthio)alanine", "3-[(carboxymethyl)thio]-l-alanine", "3-[(carboxymethyl)thio]alanine", "s-(carboxymethyl)-(r)-cysteine", "s-(carboxymethyl)-l-cysteine", "s-(carboxymethyl)cysteine", "s-carboxylmethyl-l-cysteine", "s-carboxymethyl-l-cysteine", "s-carboxymethylcysteine" ],
+  "alias" : "icpd3247",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-44"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03727"
+  } ],
+  "inchi" : "InChI=1S/C5H9NO4S/c6-3(5(9)10)1-11-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)/t3-/m0/s1",
+  "inchikey" : "GBFLZEXEOZUWRN-VKHMYHEASA-N",
+  "smiles" : "C([C@@]([H])(C(=O)O)N)SCC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:S-CARBOXYMETHYLCYSTEINE-SYNTHASE-RXN" ],
+      "gibbs" : -73.5031,
+      "cmlMolWeight" : 178.182,
+      "molWeight" : 178.182
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   36.3300  -16.8000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   35.1400  -17.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.8800  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.6900  -17.5000    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   31.5000  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2400  -17.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0500  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8600  -17.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   35.1400  -18.9000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2400  -18.9000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0500  -15.4000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  2  9  2  0     0  0\n  6 10  1  6     0  0\n  7 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03727\n\n$$$$",
+  "reactions" : [ "irxn1905" ]
+}

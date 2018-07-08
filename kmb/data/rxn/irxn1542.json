@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1542",
+  "equation" : "h2o + cyst__L <=> 2obut + cys__L + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7567" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3298" : "",
+      "icpd4873" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.4.1.1; EC-4.4.1.1",
+  "otherNames" : [ ],
+  "alias" : "CYSTGL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYSTGL"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01001"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15130"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-801" ],
+      "orphan" : "NO",
+      "gibbs" : -0.26712418,
+      "uniprot" : [ "P18757", "P32929", "Q47847", "P31373", "P21357" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01230", "rn00260", "rn01130", "rn00270" ],
+      "orthologs" : [ "K17217", "K01758" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iNF517", "iCHOv1", "iND750", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iHN637", "iYO844", "iJN746" ]
+    }
+  }
+}

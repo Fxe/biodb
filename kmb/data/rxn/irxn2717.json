@@ -1,0 +1,54 @@
+{
+  "id" : "irxn2717",
+  "equation" : "nad + L2aadp6sa + h2o <=> nadh + 2.0 h + L2aadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4839" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd1991" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.31; 1.2.1.31",
+  "otherNames" : [ ],
+  "alias" : "AASAD3",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03102"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AASAD3m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALLYSINE-DEHYDROG-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AASAD3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -13.105316,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310", "rn01100", "rn01110", "rn01130" ],
+      "orthologs" : [ "A1", "K14085" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6483",
+  "equation" : "air + atp + hco3 <=> pi + adp + icpd1119",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4071" : "",
+      "icpd1484" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd1119" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.4.18; EC-6.3.4.18",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-742"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07404"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6123", "META:PWY-7234" ],
+      "orphan" : "NO",
+      "gibbs" : -27.0224,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230", "rn01110", "rn01130" ],
+      "orthologs" : [ "K01589" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

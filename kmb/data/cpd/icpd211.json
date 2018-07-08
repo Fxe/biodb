@@ -1,0 +1,31 @@
+{
+  "id" : "icpd211",
+  "formula" : "C9H7N",
+  "name" : "isoquinoline",
+  "synonyms" : [ "2-azanaphthalene", "benzo(c)pyridine", "benzo[c]pyridine", "isochinolin" ],
+  "alias" : "icpd211",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06323"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ISOQUINOLINE"
+  } ],
+  "inchi" : "InChI=1S/C9H7N/c1-2-4-9-7-10-6-5-8(9)3-1/h1-7H",
+  "inchikey" : "AWJUIBRHMBBTKR-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C1)C=NC=C2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.3.99.16-RXN" ],
+      "gibbs" : 108.57884,
+      "cmlMolWeight" : 129.161,
+      "molWeight" : 129.161
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 11  0  0  0  0  0  0  0  0999 V2000\n   28.1400  -19.6717    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1400  -18.2683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9295  -20.3675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3505  -20.3675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9295  -17.5725    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3505  -17.5725    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7133  -19.6717    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5667  -19.6717    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7133  -18.2683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5667  -18.2683    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\n  6 10  2  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06323\n\n$$$$",
+  "reactions" : [ "irxn6085" ]
+}

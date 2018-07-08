@@ -1,0 +1,54 @@
+{
+  "id" : "irxn3562",
+  "equation" : "nad + 34dhmald + h2o <=> nadh + 34dhoxmand + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd6088" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd6110" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.3; 1.2.1.5",
+  "otherNames" : [ ],
+  "alias" : "r0752",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04882"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10912"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "34DHXMANDACOX"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0752"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6342" ],
+      "orphan" : "NO",
+      "gibbs" : -13.105316,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350" ],
+      "orthologs" : [ "K00129" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

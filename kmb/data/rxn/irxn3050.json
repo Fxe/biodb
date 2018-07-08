@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3050",
+  "equation" : "icpd7494 + icpd7460 <=> ppi + thmmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7494" : "",
+      "icpd7460" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd5892" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.3; 2.5.1.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03223"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THI-P-SYN-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GTP", "META:UTP", "META:CTP", "META:CREATINE-P", "META:ATP", "META:ADP", "META:PHOSPHO-ENOL-PYRUVATE", "META:CPD-29", "META:PPI", "META:ACETYL-P" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6908", "META:PWY-7357", "META:PWY-7356", "META:PWY-6897" ],
+      "orphan" : "NO",
+      "gibbs" : 9.77832,
+      "uniprot" : [ "Q9JWI2", "P30137", "P71350", "O34294", "Q9PNL3", "O25514", "P72965", "P40386", "P39594", "P41835", "O48881", "Q9ZBL5", "Q9ZL01" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00730" ],
+      "orthologs" : [ "K21219", "K14154", "K21220", "K14153", "K00788" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

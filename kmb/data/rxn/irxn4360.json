@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4360",
+  "equation" : "321007 <=> op4en + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "321007" : ""
+    },
+    "r" : {
+      "icpd2447" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1; EC-4.2.1.80",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13458"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-OXOPENT-4-ENOATE-HYDRATASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:OXALATE", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5162" ],
+      "orphan" : "NO",
+      "gibbs" : 3.0530167,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id" : "irxn4793",
+  "equation" : "2m6phol + amet <=> ahcys + h + 23dmphol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4057" : "",
+      "icpd7007" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6782" : "",
+      "icpd3313" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.295; EC-2.1.1.295",
+  "otherNames" : [ ],
+  "alias" : "MPBQ",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2542"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07501"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MPQMT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MPBQ"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1422" ],
+      "orphan" : "NO",
+      "gibbs" : -20.640007,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00130", "rn01110" ],
+      "orthologs" : [ "K18534", "K12502" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJN678" ]
+    }
+  }
+}

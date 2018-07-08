@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6823",
+  "equation" : "uacgam + uaGgla <=> udp + uaaGgla",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2540" : "",
+      "icpd528" : ""
+    },
+    "r" : {
+      "icpd1892" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.227",
+  "otherNames" : [ ],
+  "alias" : "UAGPT2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05662"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UAGPT2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00550" ],
+      "orthologs" : [ "K02563" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNJ661" ]
+    }
+  }
+}

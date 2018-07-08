@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5658",
+  "equation" : "f1p <=> glyald + dhap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4465" : ""
+    },
+    "r" : {
+      "icpd5552" : "",
+      "icpd6046" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.13",
+  "otherNames" : [ ],
+  "alias" : "FBA2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FBA2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FPGPL"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02568"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00051" ],
+      "orthologs" : [ "K11645", "K01624", "K01622", "K01623", "K16306", "K16305" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iAF692", "iCHOv1", "iRC1080", "iIT341", "iND750", "iMM1415", "iJN678", "iMM904", "iAT_PLT_636", "RECON1", "iYO844" ]
+    }
+  }
+}

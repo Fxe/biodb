@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6576",
+  "equation" : "h2o + accoa + thdp <=> coa + nal2a6o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd4016" : "",
+      "icpd5711" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd1731" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.89; 2.3.1.-; 2.3.1.89",
+  "otherNames" : [ ],
+  "alias" : "THPAT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "THPAT"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.89-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04364"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2941" ],
+      "orphan" : "NO",
+      "gibbs" : 23.146973,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00300", "rn01100", "rn01230", "rn01110", "rn00261", "rn01130" ],
+      "orthologs" : [ "K05822", "K19107" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478" ]
+    }
+  }
+}

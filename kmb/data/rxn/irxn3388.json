@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3388",
+  "equation" : "h2o + mi145p <=> mi14p + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd710" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3332" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.56; EC-3.1.3.56",
+  "otherNames" : [ ],
+  "alias" : "MITPn",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3.1.3.56-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MI145PP"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03394"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MITPn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6363" ],
+      "orphan" : "NO",
+      "gibbs" : 12.2099,
+      "uniprot" : [ "O54996", "Q9FUR2" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00562" ],
+      "orthologs" : [ "K01106" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

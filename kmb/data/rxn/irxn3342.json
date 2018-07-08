@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3342",
+  "equation" : "h + malon <=> ac + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6988" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.89; 4.1.1.88; 4.1.1.89; EC-4.1.1.88",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9774"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09483"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:NA+" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -5.171753,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

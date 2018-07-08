@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2978",
+  "equation" : "n2 + chor <=> 4adcho + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7085" : "",
+      "icpd5207" : ""
+    },
+    "r" : {
+      "icpd626" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PABB",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05552"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PABB"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iIT341", "iJN746" ]
+    }
+  }
+}

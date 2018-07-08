@@ -1,0 +1,50 @@
+{
+  "id" : "irxn974",
+  "equation" : "h2o + dhncoa <=> coa + h + dhna",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3603" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd3578" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.2.28; 3.1.2.28",
+  "otherNames" : [ ],
+  "alias" : "NPHS_x",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9311"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NPHS_x"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07262"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5837" ],
+      "orphan" : "NO",
+      "gibbs" : -2.6461182,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00130", "rn01110" ],
+      "orthologs" : [ "K12073", "K19222" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

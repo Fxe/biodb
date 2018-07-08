@@ -1,0 +1,40 @@
+{
+  "id" : "icpd4813",
+  "formula" : "C13H16N2O2",
+  "name" : "n-[2-(5-methoxy-1h-indol-3-yl)ethyl]acetamide",
+  "synonyms" : [ "5-methoxy-n-acetyltryptamine", "n-(2-(5-methoxy-1h-indol-3-yl)ethyl)acetamide", "n-(2-(5-methoxyindol-3-yl)ethyl)-acetamide", "n-(2-(5-methoxyindol-3-yl)ethyl)acetamide", "n-[2-(5-methoxy-1h-indol-3-yl)ethyl)acetamide", "n-[2-(5-methoxy-1h-indol-3-yl)ethyl]-acetamide", "n-[2-(5-methoxyindol-3-yl)ethyl]-acetamide", "n-[2-(5-methoxyindol-3-yl)ethyl]acetamide", "n-acetyl-5-methoxy-tryptamine", "n-acetyl-5-methoxytryptamine" ],
+  "alias" : "melatn",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "melatn"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "melatn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:N-ACETYL-5-METHOXY-TRYPTAMINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01598"
+  } ],
+  "inchi" : "InChI=1S/C13H16N2O2/c1-9(16)14-6-5-10-8-15-13-4-3-11(17-2)7-12(10)13/h3-4,7-8,15H,5-6H2,1-2H3,(H,14,16)",
+  "inchikey" : "DRLFMBDRBRZALE-UHFFFAOYSA-N",
+  "smiles" : "CC(=O)NCCC1=CNC2=C1C=C(C=C2)OC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-11066" ],
+      "reactions" : [ "META:RXN-11071", "META:RXN-11066", "META:RXN-11056", "META:RXN-11057", "META:ACETYLSEROTONIN-O-METHYLTRANSFERASE-RXN" ],
+      "gibbs" : 142.67892,
+      "cmlMolWeight" : 232.282,
+      "molWeight" : 232.282
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 17 18  0  0  0  0  0  0  0  0999 V2000\n   14.8400  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8400  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0300  -15.8900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2200  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2200  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0300  -18.6900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5500  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3900  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5500  -18.4800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5800  -15.8900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3900  -16.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9780  -14.8370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3381  -14.5430    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7644  -13.2167    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1544  -12.9163    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5687  -11.6239    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0957  -13.9540    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  5  9  1  0     0  0\n  2 10  1  0     0  0\n 10 11  1  0     0  0\n  7 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 14 15  1  0     0  0\n 15 16  1  0     0  0\n 15 17  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01598\n\n$$$$",
+  "reactions" : [ "irxn3441", "irxn1252" ]
+}

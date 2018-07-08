@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6761",
+  "equation" : "icpd5322 + cholate <=> cholcoa + icpd1712",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5322" : "",
+      "icpd108" : ""
+    },
+    "r" : {
+      "icpd3545" : "",
+      "icpd1712" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.8.3.25; 2.8.3.25",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-17406"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11539"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7754" ],
+      "orphan" : "NO",
+      "gibbs" : 4.5776367E-5,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K15871" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

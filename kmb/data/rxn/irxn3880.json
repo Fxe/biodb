@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3880",
+  "equation" : "h2o + 3php <=> hpyr + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd756" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3951" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "HPYRP",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-6562"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HPYRP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 8.4652405,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6131",
+  "equation" : "2.0 icpd8107 + h2o + 4crsol <=> 2.0 icpd8139 + 4hbald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "2.0",
+      "icpd2940" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd8139" : "2.0",
+      "icpd1490" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.17.99.1; EC-1.17.99.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.17.99.1-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07223"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ "P09787" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

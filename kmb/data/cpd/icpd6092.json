@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6092",
+  "formula" : "C2H7N",
+  "name" : "ethylamine",
+  "synonyms" : [ "1-aminoethane", "aminoethane", "ethanamine", "ethyl amine", "monoethylamine" ],
+  "alias" : "icpd6092",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00797"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ETHANAMINE"
+  } ],
+  "inchi" : "InChI=1S/C2H7N/c1-2-3/h2-3H2,1H3",
+  "inchikey" : "QUSNBJAOOMFDIB-UHFFFAOYSA-N",
+  "smiles" : "CCN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-13592", "META:R467-RXN", "META:RXN-12905", "META:RXN-13594", "META:R122-RXN", "META:RXN-8674", "META:THEANINE-HYDROLASE-RXN" ],
+      "gibbs" : 73.576904,
+      "cmlMolWeight" : 46.092,
+      "molWeight" : 46.092
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -15.8397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9088  -16.5419    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3312  -16.5419    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00797\n\n$$$$",
+  "reactions" : [ "irxn4045", "irxn6221", "irxn2216", "irxn172", "irxn2853" ]
+}

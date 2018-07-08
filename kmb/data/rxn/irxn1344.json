@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1344",
+  "equation" : "ascb__L + icpd3372 <=> h2o + icpd6475 + icpd7164",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3372" : "",
+      "icpd285" : ""
+    },
+    "r" : {
+      "icpd7164" : "",
+      "icpd4016" : "",
+      "icpd6475" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.23.5.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7984"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07178"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DITHIOTHREITOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-13185" ],
+      "orphan" : "NO",
+      "gibbs" : 49.697144,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00906" ],
+      "orthologs" : [ "K09839" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

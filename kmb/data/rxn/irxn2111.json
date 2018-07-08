@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2111",
+  "equation" : "glu__L + h + 5fthf <=> Nforglu + thf",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8110" : "",
+      "icpd1851" : "",
+      "icpd514" : ""
+    },
+    "r" : {
+      "icpd6412" : "",
+      "icpd6900" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.2.5",
+  "otherNames" : [ ],
+  "alias" : "GLUFT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03189"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLUFT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00670" ],
+      "orthologs" : [ "K13990", "K00603" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478" ]
+    }
+  }
+}

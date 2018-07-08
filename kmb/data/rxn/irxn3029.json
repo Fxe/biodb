@@ -1,0 +1,55 @@
+{
+  "id" : "irxn3029",
+  "equation" : "h2o + ggl <=> gal + glyc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7738" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1727" : "",
+      "icpd1558" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.22; 3.2.1.-",
+  "otherNames" : [ ],
+  "alias" : "GGGH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GGLGH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GGGH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01104"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03616"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0627"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K01189", "K07407", "K07406" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM904" ]
+    }
+  }
+}

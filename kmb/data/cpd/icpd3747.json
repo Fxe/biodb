@@ -1,0 +1,38 @@
+{
+  "id" : "icpd3747",
+  "formula" : "C25H49NO4",
+  "name" : "o-octadecanoyl-r-carnitine",
+  "synonyms" : [ ],
+  "alias" : "stcrn",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "stcrn"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "stcrn"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19742"
+  } ],
+  "inchi" : "InChI=1S/C25H49NO4/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-25(29)30-23(21-24(27)28)22-26(2,3)4/h23H,5-22H2,1-4H3/t23-/m1/s1",
+  "inchikey" : "FNPHNLNTJNMAEE-HSZRJFAPSA-N",
+  "smiles" : "CCCCCCCCCCCCCCCCCC(=O)O[C@]([H])(CC(=O)[O-])C[N+](C)(C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:O-Long-Chain-Acyl-L-Carnitines" ],
+      "reactions" : [ "META:RXN-18372" ],
+      "gibbs" : 364.52493,
+      "cmlMolWeight" : 427.666,
+      "molWeight" : 427.666,
+      "parents" : [ "META:O-Long-Chain-Acyl-L-Carnitines" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn3228" ]
+}

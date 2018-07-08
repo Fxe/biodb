@@ -1,0 +1,31 @@
+{
+  "id" : "icpd7272",
+  "formula" : "CH3Cl",
+  "name" : "methyl chloride",
+  "synonyms" : [ "chloromethane", "monochloromethane" ],
+  "alias" : "icpd7272",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-845"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19446"
+  } ],
+  "inchi" : "InChI=1S/CH3Cl/c1-2/h1H3",
+  "inchikey" : "NEHMKBQYUWJMIP-UHFFFAOYSA-N",
+  "smiles" : "CCl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8410", "META:RXN-11267", "META:R527-RXN" ],
+      "gibbs" : 18.213362,
+      "cmlMolWeight" : 50.488,
+      "molWeight" : 50.488
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   16.3100  -17.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7100  -17.5000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19446\n\n$$$$",
+  "reactions" : [ ]
+}

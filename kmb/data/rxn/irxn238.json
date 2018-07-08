@@ -1,0 +1,49 @@
+{
+  "id" : "irxn238",
+  "equation" : "pi + 5mta <=> ade + 5mdr1p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7485" : "",
+      "icpd7119" : ""
+    },
+    "r" : {
+      "icpd6078" : "",
+      "icpd5742" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.2.28; EC-2.4.2.28",
+  "otherNames" : [ ],
+  "alias" : "MTAP",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:5-METHYLTHIOADENOSINE-PHOSPHORYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01402"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MTAP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:5-CHLOROFORMYCIN", "META:5-METHYLTHIOTUBERCIDIN" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6756" ],
+      "orphan" : "NO",
+      "gibbs" : 13.640015,
+      "uniprot" : [ "Q13126", "Q60367", "P50389" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ "K00772" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iRC1080", "iMM1415", "iMM904", "iJN678", "iAF987", "RECON1", "iJB785", "iAB_RBC_283" ]
+    }
+  }
+}

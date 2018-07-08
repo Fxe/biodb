@@ -1,0 +1,50 @@
+{
+  "id" : "irxn627",
+  "equation" : "6.0 nadph + 12.0 h + ppcoa + 6.0 mmcoa__S <=> h2o + 7.0 coa + 6.0 co2 + 6.0 nadp + icpd1108",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "6.0",
+      "icpd1851" : "12.0",
+      "icpd3283" : "6.0",
+      "icpd3011" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd2377" : "7.0",
+      "icpd2454" : "6.0",
+      "icpd1108" : "",
+      "icpd5537" : "6.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.94; EC-2.3.1.94",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00918"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ERYTHRONOLIDE-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7106" ],
+      "orphan" : "NO",
+      "gibbs" : 18.444824,
+      "uniprot" : [ "Q03132", "Q03133" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01130", "rn00522" ],
+      "orthologs" : [ "K10817" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

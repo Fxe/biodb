@@ -1,0 +1,59 @@
+{
+  "id" : "irxn4453",
+  "equation" : "3sala + h + akg <=> 3snpyr + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd1851" : "",
+      "icpd1070" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd7511" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.1; EC-2.6.1",
+  "otherNames" : [ ],
+  "alias" : "AATG",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "3SALATAim"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "3SALATAi"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02619"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AATG"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AATGm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-SULFINOALANINE-AMINOTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CYSTEINE-DEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.6999817,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00270" ],
+      "orthologs" : [ "K14455", "K14454", "K00812", "K00813", "K00811", "K11358" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "irxn589",
+  "equation" : "udpglcur <=> icpd1272",
+  "stoichiometry" : {
+    "l" : {
+      "icpd886" : ""
+    },
+    "r" : {
+      "icpd1272" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.3.12; EC-5.1.3.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01387"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:UDP-GLUCURONATE-5-EPIMERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5558",
+  "equation" : "2.0 raffin <=> icpd6128 + sucr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7901" : "2.0"
+    },
+    "r" : {
+      "icpd6128" : "",
+      "icpd5746" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.166; EC-2.4.1.166",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15224"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08616"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6524" ],
+      "orphan" : null,
+      "gibbs" : 3.6800537,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

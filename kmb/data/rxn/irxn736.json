@@ -1,0 +1,52 @@
+{
+  "id" : "irxn736",
+  "equation" : "nad + h2o + gly <=> glx + nadh + n2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd855" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7085" : "",
+      "icpd941" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.1.10; EC-1.4.1.10; 1.4.1.1",
+  "otherNames" : [ ],
+  "alias" : "GLYDHDA",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCINE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00365"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLYDHDA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 6.764679,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

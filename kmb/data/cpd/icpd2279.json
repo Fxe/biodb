@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2279",
+  "formula" : "C6H6O3",
+  "name" : "5-(hydroxymethyl)-2-furaldehyde",
+  "synonyms" : [ "2-formyl-5-hydroxymethylfuran", "5-(hydroxymethyl)-2-formylfuran", "5-(hydroxymethyl)-2-furancarboxaldehyde", "5-(hydroxymethyl)furan-2-aldehyde", "5-(hydroxymethyl)furan-2-carbaldehyde", "5-(hydroxymethyl)furfural", "5-hydroxymethyl furaldehyde", "5-hydroxymethyl-2-formylfuran", "5-hydroxymethyl-2-furaldehyde", "5-hydroxymethyl-2-furancarbaldehyde", "5-hydroxymethyl-furfural", "5-hydroxymethylfuraldehyde", "5-hydroxymethylfuran-2-aldehyde", "5-hydroxymethylfurfural", "5-hydroxymethylfurfuraldehyde", "5-methylolfurfural" ],
+  "alias" : "icpd2279",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11101"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11572"
+  } ],
+  "inchi" : "InChI=1S/C6H6O3/c7-3-5-1-2-6(4-8)9-5/h1-3,8H,4H2",
+  "inchikey" : "NOEGNKMFWQHSLB-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=O)OC(=C1)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Furans" ],
+      "reactions" : [ "META:RXN-10738", "META:RXN-15851", "META:RXN-10739", "META:RXN-13090" ],
+      "gibbs" : -24.99328,
+      "cmlMolWeight" : 126.112,
+      "molWeight" : 126.112,
+      "parents" : [ "META:Furans" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   29.5750  -18.0573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0107  -16.7269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8751  -15.9009    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7396  -16.7269    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1751  -18.0573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5279  -16.0212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3190  -16.7211    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2152  -16.0212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.4241  -16.7211    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  4  5  2  0     0  0\n  5  1  1  0     0  0\n  4  6  1  0     0  0\n  1  2  2  0     0  0\n  6  7  1  0     0  0\n  2  3  1  0     0  0\n  2  8  1  0     0  0\n  3  4  1  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11101\n\n$$$$",
+  "reactions" : [ "irxn652", "irxn4530", "irxn612" ]
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4808",
+  "equation" : "uacgam + icpd6947 <=> icpd3213 + ump",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6947" : "",
+      "icpd2540" : ""
+    },
+    "r" : {
+      "icpd290" : "",
+      "icpd3213" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.8.33; 2.7.8.33",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08856"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLCNACPTRANS-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-5242" ],
+      "activators" : [ "META:CPD0-1088" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7530", "META:PWY-7819", "META:TEICHOICACID-PWY", "META:ECASYN-PWY", "META:PWY-7290", "META:PWY-7905", "META:PWY-7816", "META:PWY-7815" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K02851" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

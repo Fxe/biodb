@@ -1,0 +1,53 @@
+{
+  "id" : "irxn2675",
+  "equation" : "3.0 nadph + 3.0 h + ggdp <=> phdp + 3.0 nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "3.0",
+      "icpd1851" : "3.0",
+      "icpd3373" : ""
+    },
+    "r" : {
+      "icpd4059" : "",
+      "icpd5537" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.83; 1.3.1.83",
+  "otherNames" : [ ],
+  "alias" : "GGDR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GGDR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02063"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GGDPR"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10625"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 40.840576,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00900" ],
+      "orthologs" : [ "K10960" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid", "iJN678", "iJB785" ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4591",
+  "equation" : "trypta + icpd5086 <=> h2o + icpd4556",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2036" : "",
+      "icpd5086" : ""
+    },
+    "r" : {
+      "icpd4556" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.3.3.2; 4.3.3.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03738"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:STRICTOSIDINE-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:TRYPTAMINE", "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6326", "META:PWY-5290" ],
+      "orphan" : "NO",
+      "gibbs" : 24.98201,
+      "uniprot" : [ "P18417", "Q9VAQ9", "P68174", "P68175" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00901" ],
+      "orthologs" : [ "K01757" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

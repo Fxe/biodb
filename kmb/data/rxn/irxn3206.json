@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3206",
+  "equation" : "ac + atp <=> HC01672 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5921" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd2441" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.1",
+  "otherNames" : [ ],
+  "alias" : "r0097",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00316"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0097"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00620" ],
+      "orthologs" : [ "K01895" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

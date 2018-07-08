@@ -1,0 +1,44 @@
+{
+  "id" : "irxn962",
+  "equation" : "prostgh2 <=> txa2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6781" : ""
+    },
+    "r" : {
+      "icpd1549" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.99.5",
+  "otherNames" : [ ],
+  "alias" : "TXASr",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02268"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TXASr"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00590" ],
+      "orthologs" : [ "K01832" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

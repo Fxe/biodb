@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2463",
+  "equation" : "cmp + ctp <=> 2.0 cdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4369" : "",
+      "icpd3421" : ""
+    },
+    "r" : {
+      "icpd1985" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CPK1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CPK1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYTK6n"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iPC815", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1738",
+  "equation" : "3.0 malcoa + icpd3427 <=> 4.0 coa + 4.0 co2 + icpd7758",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5488" : "3.0",
+      "icpd3427" : ""
+    },
+    "r" : {
+      "icpd2377" : "4.0",
+      "icpd2454" : "4.0",
+      "icpd7758" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.146; EC-2.3.1.146",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02505"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PINOSYLVIN-SYNTHASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5045" ],
+      "orphan" : "NO",
+      "gibbs" : -16.518066,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00945" ],
+      "orthologs" : [ "K13231" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

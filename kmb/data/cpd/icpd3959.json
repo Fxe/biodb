@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3959",
+  "formula" : "C9H14NO",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd3959",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C08300"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9953"
+  } ],
+  "inchi" : "InChI=1S/C9H13NO/c1-7(10)9(11)8-5-3-2-4-6-8/h2-7,9,11H,10H2,1H3/p+1",
+  "inchikey" : "DLNKOYKMWOXYQA-UHFFFAOYSA-O",
+  "smiles" : "CC(C(C1=CC=CC=C1)O)[NH3+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ALKALOID" ],
+      "reactions" : [ "META:RXN-9342", "META:RXN-9340" ],
+      "gibbs" : 133.84363,
+      "cmlMolWeight" : 152.216,
+      "molWeight" : 152.216,
+      "parents" : [ "META:ALKALOID" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   26.9500  -21.1400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2100  -20.4400    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.7600  -20.4400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9500  -22.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4000  -21.1400    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.2100  -19.0400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5700  -21.1400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7600  -23.2400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6600  -20.4400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4000  -22.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5700  -22.5400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  1  1     0  0\n  7 11  2  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C08300\n\n$$$$",
+  "reactions" : [ "irxn5881" ]
+}

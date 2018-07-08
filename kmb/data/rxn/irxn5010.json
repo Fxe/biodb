@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5010",
+  "equation" : "vaccoa <=> b2coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1350" : ""
+    },
+    "r" : {
+      "icpd6997" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.3.3; 5.3.3.3",
+  "otherNames" : [ ],
+  "alias" : "VACOAI",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:VINYLACETYL-COA-DELTA-ISOMERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BUT3ZI_m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03031"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "VACOAI"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -0.89,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00650" ],
+      "orthologs" : [ "K14534" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iAF987" ]
+    }
+  }
+}

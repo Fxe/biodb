@@ -1,0 +1,36 @@
+{
+  "id" : "icpd5180",
+  "formula" : "C6H5O4P",
+  "name" : "phenylphosphate",
+  "synonyms" : [ "phenyl phosphate" ],
+  "alias" : "pphos",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "pphos"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHENOL-PHOSPHATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02734"
+  } ],
+  "inchi" : "InChI=1S/C6H7O4P/c7-11(8,9)10-6-4-2-1-3-5-6/h1-5H,(H2,7,8,9)/p-2",
+  "inchikey" : "CMPQUABWPXYYSH-UHFFFAOYSA-L",
+  "smiles" : "C1=CC=C(C=C1)OP(=O)([O-])[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:PHENYLPCARB-RXN", "META:PHENOLPHOS-RXN" ],
+      "gibbs" : -172.29263,
+      "cmlMolWeight" : 172.077,
+      "molWeight" : 172.077
+    },
+    "bigg" : {
+      "models" : [ "iAF987" ]
+    }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   28.8400  -17.6498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -16.2594    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6354  -18.3481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0638  -18.3481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8272  -14.8626    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   27.6354  -19.7577    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0638  -19.7577    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8272  -13.4722    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4367  -14.8689    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2239  -14.8561    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -20.4690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  1  0     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\n  6 11  2  0     0  0\n  7 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02734\n\n$$$$",
+  "reactions" : [ "irxn6300", "irxn180" ]
+}

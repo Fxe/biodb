@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4420",
+  "equation" : "icpd3993 + 2.0 h2o + atp <=> 2.0 h + pi + adp + icpd2658",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3993" : "",
+      "icpd4016" : "2.0",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd5753" : "",
+      "icpd7485" : "",
+      "icpd2658" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.2.14; EC-3.5.2.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03187"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.5.2.14-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2", "META:CO+2", "META:CPD-2", "META:K+", "META:RB+", "META:AMMONIUM", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4722" ],
+      "orphan" : "NO",
+      "gibbs" : -38.215942,
+      "uniprot" : [ "Q58374", "Q58373", "O67754" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330" ],
+      "orthologs" : [ "K01473", "K01474" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

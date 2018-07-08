@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6520",
+  "equation" : "icpd5599 + h2o <=> icpd543 + fer + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5599" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd543" : "",
+      "icpd1851" : "",
+      "icpd6170" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.73; EC-3.1.1.73",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07292"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.1.1.73-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6784" ],
+      "orphan" : "NO",
+      "gibbs" : 74.00185,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2476",
+  "equation" : "ptrc + amet <=> ahcys + h + nmptrc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd4511" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6782" : "",
+      "icpd4118" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.53; EC-2.1.1.53",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01153"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PUTRESCINE-N-METHYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-303", "META:CU+2", "META:ADENOSYL-HOMO-CYS", "META:ZN+2", "META:BUTYLAMINE", "META:CPD-29", "META:CADAVERINE", "META:AG+", "META:CPD-19536", "META:MN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5315" ],
+      "orphan" : "NO",
+      "gibbs" : -10.460007,
+      "uniprot" : [ "Q42963" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960", "rn01100", "rn01110" ],
+      "orthologs" : [ "K05353" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

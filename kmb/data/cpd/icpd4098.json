@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4098",
+  "formula" : "C8H11NO2",
+  "name" : "vanillylamine",
+  "synonyms" : [ "(3-methoxy-4-hydroxyphenyl)methylamine", "(4-hydroxy-3-methoxyphenyl)methanamine", "3-methoxy-4-hydroxybenzylamine", "4-(aminomethyl)-2-methoxyphenol", "4-aminomethyl-2-methoxy-phenol", "4-hydroxy-3-methoxybenzylamine", "alpha-amino-2-methoxy-p-cresol" ],
+  "alias" : "icpd4098",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9327"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C16666"
+  } ],
+  "inchi" : "InChI=1S/C8H11NO2/c1-11-8-4-6(5-9)2-3-7(8)10/h2-4,10H,5,9H2,1H3",
+  "inchikey" : "WRPWWVNUCXQDQV-UHFFFAOYSA-N",
+  "smiles" : "COC1=CC(=CC=C1O)CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ALKALOID" ],
+      "reactions" : [ "META:RXN-8925", "META:RXN-8927" ],
+      "gibbs" : 85.60139,
+      "cmlMolWeight" : 154.188,
+      "molWeight" : 154.188,
+      "parents" : [ "META:ALKALOID" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   14.5600  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.5600  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7724  -17.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9849  -16.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9849  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7724  -14.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3476  -14.4200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1521  -15.1104    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3476  -17.2200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2160  -14.4090    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4212  -15.1047    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  7  8  1  0     0  0\n  2  9  1  0     0  0\n  5 10  1  0     0  0\n 10 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C16666\n\n$$$$",
+  "reactions" : [ ]
+}

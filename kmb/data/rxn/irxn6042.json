@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6042",
+  "equation" : "o2 + icpd8139 + 3hbz <=> icpd8107 + h2o + 23dhb",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd8139" : "",
+      "icpd35" : ""
+    },
+    "r" : {
+      "icpd8107" : "",
+      "icpd4016" : "",
+      "icpd3269" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.99.23; EC-1.14.99.23",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXYBENZOATE-2-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01508"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00362" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

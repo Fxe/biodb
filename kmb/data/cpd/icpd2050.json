@@ -1,0 +1,38 @@
+{
+  "id" : "icpd2050",
+  "formula" : "C40H72N7O17P3S",
+  "name" : "pristanoyl coa",
+  "synonyms" : [ "2,6,10,14-tetramethylpentadecanoyl-coa", "2,6,10,14-tetramethylpentadecanoyl-coenzyme a", "pristanoyl coenzyme a", "pristanoyl-coa", "pristanoyl-coenzyme a" ],
+  "alias" : "pristcoa",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14675"
+  }, {
+    "source" : "BiGG",
+    "entry" : "pristcoa"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "pristcoa"
+  } ],
+  "inchi" : "InChI=1S/C40H72N7O17P3S/c1-25(2)11-8-12-26(3)13-9-14-27(4)15-10-16-28(5)39(52)68-20-19-42-30(48)17-18-43-37(51)34(50)40(6,7)22-61-67(58,59)64-66(56,57)60-21-29-33(63-65(53,54)55)32(49)38(62-29)47-24-46-31-35(41)44-23-45-36(31)47/h23-29,32-34,38,49-50H,8-22H2,1-7H3,(H,42,48)(H,43,51)(H,56,57)(H,58,59)(H2,41,44,45)(H2,53,54,55)/t26?,27?,28?,29-,32-,33-,34+,38-/m1/s1",
+  "inchikey" : "XYJPSQPVCBNZHT-TUKYSRJDSA-N",
+  "smiles" : "CC(C)CCCC([H])(C)CCCC([H])(C)CCCC([H])(C)C(=O)SCCN=C(CCN=C([C@@]([H])(C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@]1([H])[C@]([H])([C@]([H])([C@]([H])(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Me-Branched-234-Sat-Fatty-Acyl-CoA" ],
+      "reactions" : [ "META:RXN66-484" ],
+      "gibbs" : -137.34576,
+      "cmlMolWeight" : 1043.995,
+      "molWeight" : 1043.995,
+      "parents" : [ "META:2-Me-Branched-234-Sat-Fatty-Acyl-CoA" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn6844" ]
+}

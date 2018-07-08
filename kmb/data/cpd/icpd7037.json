@@ -1,0 +1,42 @@
+{
+  "id" : "icpd7037",
+  "formula" : "C12H22O11",
+  "name" : "alpha-d-glucopyranosyl-(1->4)-d-glucopyranose",
+  "synonyms" : [ "4-o-alpha-d-glucopyranosyl-d-glucopyranose" ],
+  "alias" : "malt",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "malt"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00208"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MALTOSE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "malt"
+  } ],
+  "inchi" : "InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5-,6+,7-,8-,9-,10-,11?,12-/m1/s1",
+  "inchikey" : "GUBGYTABKSRVRQ-PICCSMPSSA-N",
+  "smiles" : "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@@H](CO)OC([C@@H]([C@H]2O)O)O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TRANS-RXN-244", "META:RXN-7667", "META:GLYCOGENIN-GLUCOSYLTRANSFERASE-RXN" ],
+      "instances" : [ "META:ALPHA-MALTOSE", "META:CPD-15717" ],
+      "reactions" : [ "META:RXN-14351", "META:RXN-12193", "META:RXN-14354", "META:RXN-14475", "META:3.2.1.68-RXN", "META:MALTOSE-SYNTHASE-RXN", "META:RXN-12278", "META:RXN0-1741", "META:RXN-12279", "META:MALTACETYLTRAN-RXN", "META:TRANS-RXN-245", "META:3.6.3.19-RXN", "META:RXN0-5183", "META:RXN-12190", "META:AMYLOMALT-RXN", "META:RXN-14261", "META:RXN-12188", "META:RXN-12384", "META:MALTODEG-RXN", "META:TRANS-RXN0-575", "META:ABC-16-RXN", "META:RXN-15910", "META:3.2.1.1-RXN", "META:TRANS-RXN-239", "META:MALTOSE-PHOSPHORYLASE-RXN", "META:RXN-14260", "META:RXN-15092" ],
+      "gibbs" : -150.79538,
+      "cmlMolWeight" : 342.299,
+      "molWeight" : 342.299,
+      "parents" : [ "META:ALPHA-MALTOSE", "META:Disaccharides", "META:CPD-15717", "META:Linear-Malto-Oligosaccharides" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 23 24  0  0  1  0  0  0  0  0999 V2000\n   27.4952  -17.6709    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.4952  -16.2679    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.2844  -18.3695    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7120  -18.3638    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.7120  -15.5692    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2844  -15.5633    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0735  -19.0682    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   29.9231  -17.6709    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.7120  -19.7668    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9231  -16.2679    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   25.0735  -16.2679    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8684  -18.3638    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0735  -20.4712    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   31.1340  -18.3638    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1340  -15.5692    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6516  -19.0682    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   23.8684  -21.1641    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.2844  -21.1641    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6516  -20.4712    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   21.4348  -18.3638    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8684  -22.5671    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4348  -21.1641    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2239  -19.0682    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  6     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  1     0  0\n  7  3  1  6     0  0\n  4  8  1  0     0  0\n  4  9  1  1     0  0\n  5 10  1  0     0  0\n  6 11  1  0     0  0\n  7 12  1  0     0  0\n  7 13  1  0     0  0\n  8 14  1  6     0  0\n 10 15  1  4     0  0\n 12 16  1  0     0  0\n 13 17  1  0     0  0\n 13 18  1  6     0  0\n 16 19  1  0     0  0\n 16 20  1  1     0  0\n 17 21  1  1     0  0\n 19 22  1  6     0  0\n 20 23  1  0     0  0\n  8 10  1  0     0  0\n 17 19  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00208\n\n$$$$",
+  "reactions" : [ "irxn4908", "irxn5588", "irxn1033", "irxn1671", "irxn3470", "irxn5681", "irxn5923", "irxn5922" ]
+}

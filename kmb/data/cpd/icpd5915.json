@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5915",
+  "formula" : "C6H14O12P2",
+  "name" : "[(1s,2s,3s,4s,5r,6s)-2,3,4,5-tetrahydroxy-6-(phosphonooxy)cyclohexyl]oxyphosphonic acid",
+  "synonyms" : [ "{[(1s,2s,3s,4s,5r,6s)-2,3,4,5-tetrahydroxy-6-(phosphonooxy)cyclohexyl]oxy}phosphonic acid" ],
+  "alias" : "mi34p",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-MYO-INOSITOL-34-BISPHOSPHATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "mi34p"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04063"
+  }, {
+    "source" : "BiGG",
+    "entry" : "mi34p"
+  } ],
+  "inchi" : "InChI=1S/C6H14O12P2/c7-1-2(8)4(10)6(18-20(14,15)16)5(3(1)9)17-19(11,12)13/h1-10H,(H2,11,12,13)(H2,14,15,16)/t1-,2-,3-,4+,5-,6-/m0/s1",
+  "inchikey" : "MCKAJXMRULSUKI-CNWJWELYSA-N",
+  "smiles" : "[C@]1([H])([C@@]([H])([C@]([H])([C@@]([H])([C@]([H])([C@@]1([H])O)OP(=O)(O)O)OP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Myo-inositol-bisphosphates" ],
+      "reactions" : [ "META:RXN-7203", "META:RXN-10939", "META:RXN-7202", "META:RXN-10960" ],
+      "gibbs" : -547.2418,
+      "cmlMolWeight" : 336.085,
+      "molWeight" : 336.085,
+      "parents" : [ "META:Myo-inositol-bisphosphates" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 20 20  0  0  1  0  0  0  0  0999 V2000\n   20.3945  -17.2272    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   19.0081  -17.2144    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8001  -17.2272    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3818  -15.8344    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3945  -18.6136    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8069  -16.5309    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   16.5866  -17.2399    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   17.8069  -15.1253    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   15.3854  -16.5309    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   16.5866  -18.6201    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5866  -14.4288    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   19.1103  -14.3586    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3854  -15.1253    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   14.1779  -17.2209    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5994  -20.0129    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   16.5866  -13.0423    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1844  -14.4288    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0049  -20.0129    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2066  -20.0064    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5931  -21.3994    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  6  2  1  6     0  0\n  6  7  1  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  7 10  1  1     0  0\n  8 11  1  0     0  0\n  8 12  1  1     0  0\n  9 13  1  0     0  0\n  9 14  1  1     0  0\n 10 15  1  0     0  0\n 11 16  1  6     0  0\n 13 17  1  1     0  0\n 15 18  1  0     0  0\n 15 19  1  0     0  0\n 15 20  2  0     0  0\n 11 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04063\n\n$$$$",
+  "reactions" : [ "irxn6567", "irxn5300", "irxn5912" ]
+}

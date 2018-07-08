@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3509",
+  "equation" : "nadph + o2 + icpd7279 + h <=> h2o + icpd828 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7279" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd828" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.47; EC-1.14.13.47",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02469"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:--LIMONENE-3-MONOOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3061" ],
+      "orphan" : "NO",
+      "gibbs" : -92.52048,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00902" ],
+      "orthologs" : [ "K15089" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5267",
+  "equation" : "carn + h2o <=> ala_B + his__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2707" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3297" : "",
+      "icpd7989" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.4.13.20; 3.4.13.18",
+  "otherNames" : [ ],
+  "alias" : "HIDP",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01166"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HIDP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NBAHH_ir"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410", "rn01100", "rn00340" ],
+      "orthologs" : [ "K05604", "K08660" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

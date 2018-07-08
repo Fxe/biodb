@@ -1,0 +1,50 @@
+{
+  "id" : "irxn6534",
+  "equation" : "coa + h + sdhlam <=> dhlam + succoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd953" : ""
+    },
+    "r" : {
+      "icpd5739" : "",
+      "icpd832" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AKGDb",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AKGDb"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AKGDbm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AKGDHe2r"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iNJ661", "iLB1027_lipid", "iMM904", "iSB619", "iJN746" ]
+    }
+  }
+}

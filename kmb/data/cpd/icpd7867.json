@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7867",
+  "formula" : "C5H11NO",
+  "name" : "(1e,2s)-2-methylbutanal oxime",
+  "synonyms" : [ ],
+  "alias" : "icpd7867",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19491"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10273"
+  } ],
+  "inchi" : "InChI=1S/C5H11NO/c1-3-5(2)4-6-7/h4-5,7H,3H2,1-2H3/b6-4+/t5-/m0/s1",
+  "inchikey" : "SEWWFHKIKWFJNV-WHEKYOLUSA-N",
+  "smiles" : "CC[C@H](C)/C=N/O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aldoxime" ],
+      "reactions" : [ "META:RXN-14132", "META:RXN-9639", "META:1.14.13.117-RXN", "META:RXN-9640" ],
+      "gibbs" : 83.68233,
+      "cmlMolWeight" : 101.148,
+      "molWeight" : 101.148,
+      "parents" : [ "META:Aldoxime" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  1  0  0  0  0  0999 V2000\n   17.4652  -16.2093    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   18.6528  -15.4407    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   19.9103  -16.1393    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6528  -14.0435    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0282  -15.3709    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4652  -17.6065    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2534  -18.2995    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  1  1     0  0\n  3  5  1  0     0  0\n  1  6  2  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19491\n\n$$$$",
+  "reactions" : [ "irxn410", "irxn3704" ]
+}

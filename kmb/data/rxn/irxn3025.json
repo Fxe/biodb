@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3025",
+  "equation" : "h + ctp + pa180 <=> 325757 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4377" : "",
+      "icpd1851" : "",
+      "icpd4369" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "325757" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CDPDAGS_PALM_PALM_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CDPDAGS_PALM_PALM_m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CDPDAGS_PALM_PALM_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CDPDAGS_PALM_PALM_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

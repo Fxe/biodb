@@ -1,0 +1,55 @@
+{
+  "id" : "irxn3228",
+  "equation" : "coa + stcrn <=> crn + stcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd3747" : ""
+    },
+    "r" : {
+      "icpd5978" : "",
+      "icpd6570" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.21",
+  "otherNames" : [ ],
+  "alias" : "C180CPT1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "C180CPT1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C180CPT2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CATC180_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CAT2180_m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18372"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -3.6100082,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

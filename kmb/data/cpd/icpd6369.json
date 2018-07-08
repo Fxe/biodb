@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6369",
+  "formula" : "C4H7O5",
+  "name" : "l-threonate",
+  "synonyms" : [ "(2r,3s)-2,3,4-trihydroxybutanoate", "(r*,s*)-2,3,4-trihydroxy-butanoate" ],
+  "alias" : "thrnt",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-THREONATE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "thrnt"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01620"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "thrnt"
+  } ],
+  "inchi" : "InChI=1S/C4H8O5/c5-1-2(6)3(7)4(8)9/h2-3,5-7H,1H2,(H,8,9)/p-1/t2-,3+/m0/s1",
+  "inchikey" : "JPIJQSOTBSSVTP-STHAYSLISA-M",
+  "smiles" : "C([C@@]([H])([C@]([H])(C(=O)[O-])O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Hydroxy-fatty-acids" ],
+      "reactions" : [ "META:L-THREONATE-3-DEHYDROGENASE-RXN", "META:RXN-12874", "META:RXN-12875", "META:RXN-18590" ],
+      "gibbs" : -124.23424,
+      "cmlMolWeight" : 135.096,
+      "molWeight" : 135.096,
+      "parents" : [ "META:Hydroxy-fatty-acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  9  8  0  0  1  0  0  0  0  0999 V2000\n   19.0400  -18.7600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8500  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5900  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4000  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2100  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5900  -17.3600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4000  -20.8600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.0200  -19.4600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2100  -17.3600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  3  6  1  1     0  0\n  4  7  1  1     0  0\n  5  8  1  0     0  0\n  5  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01620\n\n$$$$",
+  "reactions" : [ "irxn644" ]
+}

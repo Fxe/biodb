@@ -1,0 +1,39 @@
+{
+  "id" : "icpd537",
+  "formula" : "C2H4O",
+  "name" : "ethylene oxide",
+  "synonyms" : [ "1,2-epoxyethane", "dihydro-oxirene", "dihydrooxirene", "dimethylene oxide", "epoxyethane", "ethene oxide", "ethylene oxide, 8ci", "oxacyclopropane", "oxiran", "oxirane" ],
+  "alias" : "icpd537",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19003"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00722"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06548"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:epoxides"
+  } ],
+  "inchi" : "InChI=1S/C2H4O/c1-2-3-1/h1-2H2",
+  "inchikey" : "IAYPIBMASNFSPL-UHFFFAOYSA-N",
+  "smiles" : "C1CO1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-19052", "META:CPD-14199", "META:CPD-19224", "META:CPD-19004", "META:CPD-14198", "META:CPD-17325" ],
+      "reactions" : [ "META:3.3.2.10-RXN" ],
+      "gibbs" : 23.294483,
+      "cmlMolWeight" : 44.053,
+      "molWeight" : 44.053,
+      "parents" : [ "META:CPD-19052", "META:CPD-14199", "META:CPD-19224", "META:CPD-19004", "META:CPD-14198", "META:CPD-17325" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  5  0  0  0  0  0  0  0  0999 V2000\n   26.6326  -19.1045    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.4050  -19.1045    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   27.4749  -17.5894    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6405  -19.7958    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3994  -19.8302    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  3  1  0     0  0\n  2  4  1  0     0  0\n  1  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00722\n\n$$$$",
+  "reactions" : [ "irxn4394", "irxn5963" ]
+}

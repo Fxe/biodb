@@ -1,0 +1,57 @@
+{
+  "id" : "irxn4801",
+  "equation" : "3mb2coa + atp + hco3 <=> pi + adp + 3mgcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7618" : "",
+      "icpd1484" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd278" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.4.1.4; EC-6.4.1.4",
+  "otherNames" : [ ],
+  "alias" : "MCCC",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLCROTONYL-COA-CARBOXYLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MCTC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04138"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MCCC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MCCCrm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LEU-DEG2-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -4.3723145,
+      "uniprot" : [ "Q42777", "Q40121" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00280" ],
+      "orthologs" : [ "K01969", "K01968" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "iAF987", "RECON1", "iJN746" ]
+    }
+  }
+}

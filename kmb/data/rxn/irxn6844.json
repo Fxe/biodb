@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6844",
+  "equation" : "coa + prist + atp <=> amp + ppi + pristcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd295" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd2050" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.3",
+  "otherNames" : [ ],
+  "alias" : "FACOAL191",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FAOXC15ATPx"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL191"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN66-484"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -12.71167,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

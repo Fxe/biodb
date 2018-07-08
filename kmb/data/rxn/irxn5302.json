@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5302",
+  "equation" : "paps + tre <=> h + tres + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd6246" : ""
+    },
+    "r" : {
+      "icpd1383" : "",
+      "icpd1851" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.2.37; EC-2.8.2.37",
+  "otherNames" : [ ],
+  "alias" : "TRESULT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10971"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15426"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TRESULT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:3-5-ADP" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7746" ],
+      "orphan" : "NO",
+      "gibbs" : 8.145935,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661" ]
+    }
+  }
+}

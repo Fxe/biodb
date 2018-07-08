@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6241",
+  "equation" : "h2o + Pald <=> acald + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4711" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd6658" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.11.1.1; EC-3.11.1.1",
+  "otherNames" : [ ],
+  "alias" : "PALDH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHONOACETALDEHYDE-HYDROLASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PALDH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00747"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PHOSPHONOTASE-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -12.681274,
+      "uniprot" : [ "Q9R4G3" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00440", "rn01120" ],
+      "orthologs" : [ "K05306" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "STM_v1_0" ]
+    }
+  }
+}

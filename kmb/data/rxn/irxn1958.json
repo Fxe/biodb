@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1958",
+  "equation" : "h2o + ethamp <=> acald + n2 + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2046" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd6658" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.3.2; 4.2.3.2",
+  "otherNames" : [ ],
+  "alias" : "r0186",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00748"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0186"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ETHANOLAMINE-PHOSPHATE-PHOSPHO-LYASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.8812561,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100" ],
+      "orthologs" : [ "K14286" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

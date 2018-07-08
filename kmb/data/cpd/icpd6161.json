@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6161",
+  "formula" : "C6H12",
+  "name" : "cyclohexane",
+  "synonyms" : [ "hexahydro-benzene", "hexahydrobenzene" ],
+  "alias" : "icpd6161",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11249"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8923"
+  } ],
+  "inchi" : "InChI=1S/C6H12/c1-2-4-6-5-3-1/h1-6H2",
+  "inchikey" : "XDTMQSROBMDMFD-UHFFFAOYSA-N",
+  "smiles" : "C1CCCCC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Carbohydrates" ],
+      "reactions" : [ "META:RXN-8697" ],
+      "gibbs" : 146.01346,
+      "cmlMolWeight" : 84.161,
+      "molWeight" : 84.161,
+      "parents" : [ "META:Carbohydrates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  0  0  0  0  0  0999 V2000\n   27.6404  -16.2552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6404  -17.6556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8561  -18.3558    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0646  -17.6556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0646  -16.2552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8561  -15.5551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  1  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11249\n\n$$$$",
+  "reactions" : [ ]
+}

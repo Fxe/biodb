@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5197",
+  "equation" : "12ppd__S <=> h2o + ppal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7071" : ""
+    },
+    "r" : {
+      "icpd6292" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.28",
+  "otherNames" : [ ],
+  "alias" : "PPDD",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PROPANEDIOL-DEHYDRATASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PPDD"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:GLYCOLALDEHYDE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7013" ],
+      "orphan" : "NO",
+      "gibbs" : -9.167007,
+      "uniprot" : [ "Q59472", "Q59470", "Q59471", "Q9ZFF1", "Q9ZFF0", "Q9ZFE9" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iECUMN_1333", "iNRG857_1313", "iE2348C_1286", "iLF82_1304", "iSSON_1240", "STM_v1_0" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4953",
+  "equation" : "icpd3463 + nadp <=> nadph + co2 + h + tyr__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3463" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd7576" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.78; 1.3.1.78; 1.3.1.79",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-5682"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00733"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NADPH", "META:TYR" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3461" ],
+      "orphan" : "NO",
+      "gibbs" : -17.49237,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01230", "rn01110", "rn00400" ],
+      "orthologs" : [ "K15226", "K15227" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

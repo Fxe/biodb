@@ -1,0 +1,36 @@
+{
+  "id" : "icpd2368",
+  "formula" : "C4H5N",
+  "name" : "pyrrole",
+  "synonyms" : [ "1-aza-2,4-cyclopentadiene", "1h-pyrrole", "azole", "pyrrol" ],
+  "alias" : "icpd2368",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19907"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Pyrroles"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13300"
+  } ],
+  "inchi" : "InChI=1S/C4H5N/c1-2-4-5-3-1/h1-5H",
+  "inchikey" : "KAESVJOAVNADME-UHFFFAOYSA-N",
+  "smiles" : "C1=CNC=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-13302", "META:CPD-17026", "META:CPD-17007", "META:CPD-17008", "META:CPD-13301", "META:CPD-13300" ],
+      "reactions" : [ "META:RXN-12342", "META:RXN-12388" ],
+      "gibbs" : 75.3056,
+      "cmlMolWeight" : 67.09,
+      "molWeight" : 67.09,
+      "parents" : [ "META:CPD-13302", "META:CPD-17026", "META:CPD-17007", "META:CPD-17008", "META:CPD-13301", "META:CPD-13300" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  5  0  0  0  0  0  0  0  0999 V2000\n   23.0086  -21.8168    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4281  -23.1455    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8267  -23.1455    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2463  -21.8168    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1274  -20.9777    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19907\n\n$$$$",
+  "reactions" : [ "irxn4362", "irxn4599" ]
+}

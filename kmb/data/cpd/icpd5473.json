@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5473",
+  "formula" : "C4H5O3",
+  "name" : "2-methyl-3-oxopropanoate",
+  "synonyms" : [ "3-oxo-2-methylpropanoate" ],
+  "alias" : "2mop",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "2mop"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00349"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2mop"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12179"
+  } ],
+  "inchi" : "InChI=1S/C4H6O3/c1-3(2-5)4(6)7/h2-3H,1H3,(H,6,7)/p-1",
+  "inchikey" : "VOKUMXABRRXHAR-UHFFFAOYSA-M",
+  "smiles" : "CC(C=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CH3-MALONATE-S-ALD", "META:CPD-12177" ],
+      "reactions" : [ "META:1.2.1.27-RXN", "META:RXN-8824" ],
+      "gibbs" : -61.026455,
+      "cmlMolWeight" : 101.082,
+      "molWeight" : 101.082,
+      "parents" : [ "META:CH3-MALONATE-S-ALD", "META:CPD-12177" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iNF517", "iNJ661", "iLB1027_lipid", "iMM1415", "iAT_PLT_636", "RECON1", "iYO844" ]
+    }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   22.1537  -16.5424    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   20.9444  -15.8412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3629  -15.8412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1537  -17.9380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7288  -16.5424    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9444  -14.4391    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5785  -16.5424    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00349\n\n$$$$",
+  "reactions" : [ "irxn2013", "irxn2129", "irxn2047" ]
+}

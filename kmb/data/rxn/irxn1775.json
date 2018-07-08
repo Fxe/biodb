@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1775",
+  "equation" : "h2o + raffin <=> melib + fru",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd7901" : ""
+    },
+    "r" : {
+      "icpd2605" : "",
+      "icpd2151" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.26",
+  "otherNames" : [ ],
+  "alias" : "RAFH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RAFH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02410"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RAFHpp"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K01193" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iEKO11_1354", "iECUMN_1333", "iECIAI1_1343", "iWFL_1372", "iECSF_1327", "iSDY_1059", "iECO103_1326", "iZ_1308", "iEcE24377_1341", "iS_1188", "iECP_1309", "iECO26_1355", "iSF_1195", "iSFxv_1172", "iECNA114_1301", "iSSON_1240", "iG2583_1286", "iEC55989_1330", "iECSP_1301", "iECIAI39_1322", "iECs_1301", "iECO111_1330", "iECW_1372", "iE2348C_1286", "iEcSMS35_1347", "iYO844", "iLJ478", "iECH74115_1262", "iSFV_1184", "iECSE_1348", "iSB619" ]
+    }
+  }
+}

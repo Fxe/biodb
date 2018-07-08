@@ -1,0 +1,42 @@
+{
+  "id" : "icpd7785",
+  "formula" : "C8H7O2",
+  "name" : "m-toluate",
+  "synonyms" : [ "3-methylbenzoate", "3-toluate", "3-toluenecarboxylate", "m-methylbenzoate" ],
+  "alias" : "m_tol",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "m-tol"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C07211"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8775"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "m_tol"
+  } ],
+  "inchi" : "InChI=1S/C8H8O2/c1-6-3-2-4-7(5-6)8(9)10/h2-5H,1H3,(H,9,10)/p-1",
+  "inchikey" : "GPSDUZXPYCFOSQ-UHFFFAOYSA-M",
+  "smiles" : "CC1=CC=CC(=C1)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:BENZOATE-4-MONOOXYGENASE-RXN" ],
+      "instances" : [ "META:toluates" ],
+      "reactions" : [ "META:RXN-8583" ],
+      "gibbs" : 16.905779,
+      "cmlMolWeight" : 135.142,
+      "molWeight" : 135.142,
+      "parents" : [ "META:toluates" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   28.2499  -16.5880    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4560  -17.2906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0323  -17.2906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2499  -15.1887    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4560  -18.6897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0323  -18.6897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0381  -14.4862    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4618  -14.4922    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2499  -19.3922    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6679  -19.3922    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\n  5 10  1  0     0  0\n  6  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07211\n\n$$$$",
+  "reactions" : [ "irxn5026", "irxn4032" ]
+}

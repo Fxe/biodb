@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6093",
+  "formula" : "C8H10O4",
+  "name" : "3,4-dihydroxyphenylethyleneglycol",
+  "synonyms" : [ "(3,4-dihydroxyphenyl)ethylene glycol", "1-(3,4-dihydroxyphenyl)-1,2-ethanediol", "4-(1,2-dihydroxyethyl)-1,2-benzenediol", "4-(1,2-dihydroxyethyl)benzene-1,2-diol" ],
+  "alias" : "34dhoxpeg",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05576"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11878"
+  }, {
+    "source" : "BiGG",
+    "entry" : "34dhoxpeg"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "34dhoxpeg"
+  } ],
+  "inchi" : "InChI=1S/C8H10O4/c9-4-8(12)5-1-2-6(10)7(11)3-5/h1-3,8-12H,4H2",
+  "inchikey" : "MTVWFVDWRVYDOR-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)O)O)C(CO)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Catechols" ],
+      "reactions" : [ "META:RXN-10911", "META:RXN-10914" ],
+      "gibbs" : -20.948797,
+      "cmlMolWeight" : 170.165,
+      "molWeight" : 170.165,
+      "parents" : [ "META:Catechols" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iJN678", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   14.8400  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8400  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0524  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2649  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2649  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0524  -16.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5024  -16.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7149  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9273  -16.4500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5086  -15.0503    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.6276  -19.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.6276  -16.4500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  7 10  1  0     0  0\n  2 11  1  0     0  0\n  1 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05576\n\n$$$$",
+  "reactions" : [ "irxn5286", "irxn4758" ]
+}

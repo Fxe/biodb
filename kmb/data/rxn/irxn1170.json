@@ -1,0 +1,54 @@
+{
+  "id" : "irxn1170",
+  "equation" : "nad + 2.0 h2o + glac <=> nadh + glcr + 3.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "2.0",
+      "icpd5131" : "",
+      "icpd3446" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd6887" : "",
+      "icpd1851" : "3.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.3; 1.2.1.3",
+  "otherNames" : [ ],
+  "alias" : "GLACO",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02957"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14225"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLACO"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLACOm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -20.0766,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053" ],
+      "orthologs" : [ "A1", "K14085", "K00128", "K00149" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

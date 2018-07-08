@@ -1,0 +1,53 @@
+{
+  "id" : "irxn2684",
+  "equation" : "2.0 h2o + atp <=> amp + 2.0 h + 2.0 pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "2.0",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "2.0",
+      "icpd7485" : "2.0",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1.5; 3.6.1.5",
+  "otherNames" : [ ],
+  "alias" : "ATPH1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ATPH1e"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00085"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:APYRASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ATPH1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -14.941956,
+      "uniprot" : [ "P80595" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

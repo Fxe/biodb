@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1176",
+  "equation" : "ad + h2o <=> ac + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3906" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.4; 3.5.1.4",
+  "otherNames" : [ ],
+  "alias" : "AMID4",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00321"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMID4"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14728"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMID_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -6.857111,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iIT341", "iNJ661" ]
+    }
+  }
+}

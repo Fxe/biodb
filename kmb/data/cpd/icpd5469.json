@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5469",
+  "formula" : "CH3O3Te",
+  "name" : "methanetelluronate",
+  "synonyms" : [ ],
+  "alias" : "mteo2",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "mteo2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-2381"
+  } ],
+  "inchi" : "InChI=1S/CH4O3Te/c1-5(2,3)4/h1H3,(H,2,3,4)/p-1",
+  "inchikey" : "DPPANEFZFQYGIG-UHFFFAOYSA-M",
+  "smiles" : "C[Te](=O)(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN0-6576" ],
+      "gibbs" : -71.5487,
+      "cmlMolWeight" : 190.633,
+      "molWeight" : 190.633
+    },
+    "bigg" : {
+      "models" : [ "iML1515" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn1127" ]
+}

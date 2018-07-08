@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2272",
+  "equation" : "coa + 340275 <=> occoa + crn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "340275" : ""
+    },
+    "r" : {
+      "icpd808" : "",
+      "icpd6570" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CAT280_m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CATCOC_x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CAT280_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

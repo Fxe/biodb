@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2462",
+  "equation" : "dolp + gdpmann <=> gdp + dolmanp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7026" : "",
+      "icpd1993" : ""
+    },
+    "r" : {
+      "icpd166" : "",
+      "icpd5405" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.83; 2.4.1.83",
+  "otherNames" : [ ],
+  "alias" : "DOLPMT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.4.1.83-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01009"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DOLPMTcer"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DOLPMT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CPD-5221" ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:MANNOSYL-CHITO-DOLICHOL-BIOSYNTHESIS" ],
+      "orphan" : "NO",
+      "gibbs" : -0.6237793,
+      "uniprot" : [ "Q26732", "P14020", "Q9TYJ7", "O14466", "P54856" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00510" ],
+      "orthologs" : [ "K09659", "K00721", "K09658" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM904" ]
+    }
+  }
+}

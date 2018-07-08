@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1889",
+  "equation" : "icpd4931 <=> gcald + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4931" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd2538" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.18; EC-4.1.2.18",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01784"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.2.18-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7295" ],
+      "orphan" : "NO",
+      "gibbs" : 0.54000854,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00053" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

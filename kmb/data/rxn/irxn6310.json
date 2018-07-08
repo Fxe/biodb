@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6310",
+  "equation" : "pyr + ctp <=> pep + cdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd4369" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd1985" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.40",
+  "otherNames" : [ ],
+  "alias" : "PYK4",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00572"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PYK4"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iML1515", "iJN678" ]
+    }
+  }
+}

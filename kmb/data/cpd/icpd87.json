@@ -1,0 +1,33 @@
+{
+  "id" : "icpd87",
+  "formula" : "C9H10O2",
+  "name" : "(2e,4e,6e)-4-methylocta-2,4,6-trienedial",
+  "synonyms" : [ ],
+  "alias" : "icpd87",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20697"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13370"
+  } ],
+  "inchi" : "InChI=1S/C9H10O2/c1-9(6-4-8-11)5-2-3-7-10/h2-8H,1H3/b3-2+,6-4+,9-5+",
+  "inchikey" : "HLZZDTVXNYNFKH-BNFXUGDESA-N",
+  "smiles" : "C/C(=C\\C=C\\C=O)/C=C/C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Apocarotenoids", "META:Aldehydes" ],
+      "reactions" : [ "META:RXN-12393" ],
+      "gibbs" : 105.2212,
+      "cmlMolWeight" : 150.177,
+      "molWeight" : 150.177,
+      "parents" : [ "META:Apocarotenoids", "META:Aldehydes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   16.8000  -15.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9900  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1800  -15.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4400  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6300  -15.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8200  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0100  -15.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2000  -16.3800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4400  -17.7800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5876  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3751  -15.6800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  6  7  1  0     0  0\n  7  8  2  0     0  0\n  4  9  1  0     0  0\n  1 10  1  0     0  0\n 10 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20697\n\n$$$$",
+  "reactions" : [ "irxn5213" ]
+}

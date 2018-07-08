@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6134",
+  "equation" : "h2o + icpd1143 + h <=> 2obut + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd4016" : "",
+      "icpd1143" : ""
+    },
+    "r" : {
+      "icpd3298" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.99; 3.5.99.10",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15123"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11098"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:THREDEHYD-RXN", "META:RXN-15130", "META:METBALT-RXN", "META:HOMOCYSTEINE-DESULFHYDRASE-RXN", "META:HOMOSERDEAM-RXN", "META:4.1.99.4-RXN", "META:METHIONINE-GAMMA-LYASE-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : 30.33699,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K09022" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

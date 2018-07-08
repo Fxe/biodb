@@ -1,0 +1,46 @@
+{
+  "id" : "irxn213",
+  "equation" : "actp + so3 + h <=> 2saa + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd631" : "",
+      "icpd1851" : "",
+      "icpd5833" : ""
+    },
+    "r" : {
+      "icpd5831" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.3.15; 2.3.3.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05651"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2364"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1281", "META:PWY-6637" ],
+      "orphan" : "NO",
+      "gibbs" : 50.858215,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00430" ],
+      "orthologs" : [ "K03852" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

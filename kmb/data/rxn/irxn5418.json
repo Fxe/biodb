@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5418",
+  "equation" : "nadh + h <=> nad + h2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd3917" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.12.1.5; EC-1.12.1.2; 1.12.1.2",
+  "otherNames" : [ ],
+  "alias" : "NAD_H2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROGEN-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NAD_H2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00700"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:NACL", "META:CU+2", "META:CPD-29", "META:HG+2", "META:NA+" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5382", "META:PWY-6758" ],
+      "orphan" : "NO",
+      "gibbs" : -11.148224,
+      "uniprot" : [ "P22319", "P22318", "P22317", "P22320" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K00436" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF987", "iJB785" ]
+    }
+  }
+}

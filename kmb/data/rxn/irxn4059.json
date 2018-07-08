@@ -1,0 +1,43 @@
+{
+  "id" : "irxn4059",
+  "equation" : "icpd645 <=> icpd7370",
+  "stoichiometry" : {
+    "l" : {
+      "icpd645" : ""
+    },
+    "r" : {
+      "icpd7370" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.1.3.20; 5.1.3.20",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:5.1.3.20-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05176"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ADP", "META:ADP-D-GLUCOSE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY0-1241" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ "P67910", "Q9JQX8", "Q9K002", "Q9PNE4", "O66675", "O25530", "Q06963", "P45048", "Q9ZKY9" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00540" ],
+      "orthologs" : [ "K03274" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

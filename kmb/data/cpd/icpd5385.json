@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5385",
+  "formula" : "C3H2ClO2",
+  "name" : "2-chloroacrylate",
+  "synonyms" : [ ],
+  "alias" : "icpd5385",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15408"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20609"
+  } ],
+  "inchi" : "InChI=1S/C3H3ClO2/c1-2(4)3(5)6/h1H2,(H,5,6)/p-1",
+  "inchikey" : "SZTBMYHIYNGYIA-UHFFFAOYSA-M",
+  "smiles" : "C=C(C(=O)[O-])Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chlorides" ],
+      "reactions" : [ "META:RXN-15141", "META:RXN-14536" ],
+      "gibbs" : -49.229816,
+      "cmlMolWeight" : 105.501,
+      "molWeight" : 105.501,
+      "parents" : [ "META:Chlorides" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   16.7928  -15.8139    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9824  -16.5136    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2419  -15.8139    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4315  -16.5136    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9824  -17.9131    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   19.2419  -14.4144    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20609\n\n$$$$",
+  "reactions" : [ "irxn1683" ]
+}

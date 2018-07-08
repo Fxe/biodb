@@ -1,0 +1,29 @@
+{
+  "id" : "icpd1220",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd1220",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C15565"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:S-2-Hydroxyacids1"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:S-2-HYDROXY-ACID-OXIDASE-RXN", "META:3.8.1.11-RXN", "META:RXN-6264" ],
+      "parents" : [ "META:Monocarboxylates" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  1  0  0  0  0  0999 V2000\n   25.4800  -17.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2200  -17.8500    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.4800  -15.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6700  -17.8500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2200  -19.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0300  -17.1500    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  1     0  0\n  2  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15565\n\n$$$$",
+  "reactions" : [ "irxn6188", "irxn4715", "irxn2135" ]
+}

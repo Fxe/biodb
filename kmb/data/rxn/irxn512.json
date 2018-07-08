@@ -1,0 +1,51 @@
+{
+  "id" : "irxn512",
+  "equation" : "mal__L <=> h2o + fum",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6269" : ""
+    },
+    "r" : {
+      "icpd590" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.2; 4.2.1.2",
+  "otherNames" : [ ],
+  "alias" : "FUM",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FUMHYDR-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01082"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FUMm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FUM"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:NAD", "META:ATP", "META:TUNGSTATE", "META:CIT", "META:ZN+2", "META:MESO-TARTRATE", "META:HG+2", "META:CPD0-2489", "META:AG+", "META:SUPER-OXIDE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7254", "META:PWY-5690", "META:PWY-7384", "META:P42-PWY", "META:PWY-5392", "META:PWY66-398", "META:REDCITCYC", "META:TCA", "META:PWY-561", "META:P105-PWY", "META:FERMENTATION-PWY", "META:P23-PWY", "META:PWY-6728", "META:PWY-5913", "META:P108-PWY", "META:PWY-6969" ],
+      "orphan" : "NO",
+      "gibbs" : 0.6130066,
+      "uniprot" : [ "P08417", "Q7M4Z3", "O25883", "Q60022", "Q9JTR0", "Q51404", "P39461", "P93033", "O69294", "Q04718", "Q9JTE3", "Q58034", "O94552", "P0AC33", "Q58690", "P14407", "P14408", "P10173", "Q43180", "O84863", "O53446", "P05042", "P07343", "O66271", "Q55674" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00020", "rn01110", "rn01130", "rn00620", "rn00720" ],
+      "orthologs" : [ "K01679", "K01677", "K01678", "K01676" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iEKO11_1354", "ic_1306", "iETEC_1333", "iECD_1391", "iWFL_1372", "iECIAI1_1343", "iECED1_1282", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcDH1_1363", "e_coli_core", "iEcHS_1320", "iECO26_1355", "iECP_1309", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iE2348C_1286", "iNRG857_1313", "iEcSMS35_1347", "iECO111_1330", "iECW_1372", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iSDY_1059", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iECO103_1326", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iECDH10B_1368", "iSF_1195", "iECS88_1305", "iSFxv_1172", "iECNA114_1301", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iAB_RBC_283", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iNJ661", "iMM1415", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

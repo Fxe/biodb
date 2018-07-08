@@ -1,0 +1,43 @@
+{
+  "id" : "irxn4743",
+  "equation" : "orn <=> icpd5357",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4560" : ""
+    },
+    "r" : {
+      "icpd5357" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.1.9; 5.1.1.10; 5.1.1.12; EC-5.1.1.12",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ORNITHINE-RACEMASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00672"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6344" ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00472" ],
+      "orthologs" : [ "K21898" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

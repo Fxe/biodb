@@ -1,0 +1,61 @@
+{
+  "id" : "irxn3051",
+  "equation" : "h2o + asn__L <=> asp__L + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1244" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd95" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.1; 3.5.5.4; EC-3.5.1.38; 3.5.1.38; 3.5.1.1",
+  "otherNames" : [ ],
+  "alias" : "ASNN",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ASNNe"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ASPARAGHYD-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASNN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASPSE"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASNNm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ASNNpp"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00485"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:L-ASPARTATE", "META:CU+2", "META:FE+2", "META:NI+2", "META:BR-", "META:CPD-3633", "META:IODOACETAMIDE", "META:ZN+2", "META:CPD-29", "META:HG+2", "META:CPD0-1541", "META:AMMONIA" ],
+      "activators" : [ "META:HCN", "META:GLUTATHIONE", "META:Pi", "META:HIS", "META:CYS", "META:RB+", "META:ASN", "META:NA+", "META:CPD-387", "META:EDTA" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:3.5.5.4-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : -4.297142,
+      "uniprot" : [ "P50286", "P50287", "Q9V262", "Q9UTS7", "Q9V2K1", "P06608", "P30362", "P30363", "O34482", "P30364", "O25424", "P38986", "Q9JT73", "P43843", "P37595", "P0A962", "P00805", "P11163", "Q9ZLB9", "P87015", "O57797", "P26900", "Q9PJ82" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00460", "rn01110", "rn00250" ],
+      "orthologs" : [ "K05597", "K01424" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iETEC_1333", "iECD_1391", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iECO111_1330", "iECW_1372", "iE2348C_1286", "iNRG857_1313", "iEcSMS35_1347", "iAT_PLT_636", "iJB785", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iSbBS512_1146", "iECBD_1354", "iCHOv1", "iECUMN_1333", "iND750", "iIT341", "iECSF_1327", "iSDY_1059", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iECDH10B_1368", "iSF_1195", "iSFxv_1172", "iECS88_1305", "iECNA114_1301", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

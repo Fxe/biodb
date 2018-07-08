@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1618",
+  "equation" : "lkdr <=> pyr + lald__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4586" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7673" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.53; EC-4.1.2.53",
+  "otherNames" : [ ],
+  "alias" : "LKDRA",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-5433"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02261"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LKDRA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6713" ],
+      "orphan" : "NO",
+      "gibbs" : 0.54000854,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00051" ],
+      "orthologs" : [ "K12660", "K18339" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iML1515" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3340",
+  "equation" : "h2o + icpd4396 + sarcs <=> icpd5312 + gly + fald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6194" : "",
+      "icpd4016" : "",
+      "icpd4396" : ""
+    },
+    "r" : {
+      "icpd5312" : "",
+      "icpd855" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.5.8.3; 1.5.8.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00611"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SARCOSINE-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-12993" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4722", "META:CRNFORCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 16.496758,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00260" ],
+      "orthologs" : [ "K00314" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

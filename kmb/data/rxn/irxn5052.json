@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5052",
+  "equation" : "0.01 cdpdag_SC + ser__L <=> 0.01 ps_SC + cmp + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4818" : "",
+      "icpd1062" : "0.01"
+    },
+    "r" : {
+      "icpd3421" : "",
+      "icpd1851" : "",
+      "icpd1909" : "0.01"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PSERS_SC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PSERSm_SC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PSERS_SC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2900",
+  "equation" : "acac + fum <=> 4fumacac + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd590" : "",
+      "icpd267" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd3161" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.7.1.2; 3.7.1.2",
+  "otherNames" : [ ],
+  "alias" : "FUMAC",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FUMARYLACETOACETASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FUMAC"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01364"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:TYRFUMCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -17.907135,
+      "uniprot" : [ "P35505", "P25093", "P16930" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00350", "rn00643" ],
+      "orthologs" : [ "K16171", "K01555" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  }
+}

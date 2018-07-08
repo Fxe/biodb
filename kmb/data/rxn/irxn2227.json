@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2227",
+  "equation" : "h + ccmuac <=> mucl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd5254" : ""
+    },
+    "r" : {
+      "icpd4653" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.5.1.1",
+  "otherNames" : [ ],
+  "alias" : "MUCCYCI",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03959"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MUCCYCI"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iJN746" ]
+    }
+  }
+}

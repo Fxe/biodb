@@ -1,0 +1,52 @@
+{
+  "id" : "irxn4866",
+  "equation" : "L2aadp + akg <=> glu__L + ohexa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd1991" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd5414" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.39; 2.6.1.39",
+  "otherNames" : [ ],
+  "alias" : "AATA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0450"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AATA"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-AMINOADIPATE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01939"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5283", "META:LYSINE-DEG1-PWY", "META:PWY66-425", "META:LYSINE-AMINOAD-PWY", "META:PWY-3081" ],
+      "orphan" : "NO",
+      "gibbs" : 0.6999817,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310", "rn00300", "rn01210", "rn01100", "rn01230", "rn01130" ],
+      "orthologs" : [ "K05825", "K00838", "K00825" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  }
+}

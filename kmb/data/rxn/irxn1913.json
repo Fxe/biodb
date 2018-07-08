@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1913",
+  "equation" : "2.0 ptrc <=> hspmd + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4511" : "2.0"
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd2132" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.44; EC-2.5.1.44",
+  "otherNames" : [ ],
+  "alias" : "HSPMS",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.5.1.44-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00018"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HSPMS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.1340942,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960", "rn01110" ],
+      "orthologs" : [ "K00808" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

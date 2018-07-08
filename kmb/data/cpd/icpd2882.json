@@ -1,0 +1,32 @@
+{
+  "id" : "icpd2882",
+  "formula" : "C5H5NO2",
+  "name" : "1h-pyrrole-2-carboxylic acid",
+  "synonyms" : [ "1h-pyrrole-2-carboxylic acid (9ci)", "2-pyrrolecarboxylic acid", "pyrrole-2-carboxylic acid" ],
+  "alias" : "icpd2882",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05942"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PYRROLE-2-CARBOXYLATE"
+  } ],
+  "inchi" : "InChI=1S/C5H5NO2/c7-5(8)4-2-1-3-6-4/h1-3,6H,(H,7,8)",
+  "inchikey" : "WRHZVMBBRYBTKZ-UHFFFAOYSA-N",
+  "smiles" : "C1=CNC(=C1)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PROLINE-RACEMASE-RXN", "META:4-HYDROXYPROLINE-EPIMERASE-RXN" ],
+      "reactions" : [ "META:RXN-12342", "META:RXN-12222", "META:RXN-12388" ],
+      "gibbs" : -17.907578,
+      "cmlMolWeight" : 110.092,
+      "molWeight" : 110.092
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   20.9300  -22.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3500  -23.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7500  -23.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1700  -22.6100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0500  -21.7700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -21.9100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6200  -22.6100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3600  -20.5100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  4  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05942\n\n$$$$",
+  "reactions" : [ "irxn4795", "irxn4362", "irxn4599" ]
+}

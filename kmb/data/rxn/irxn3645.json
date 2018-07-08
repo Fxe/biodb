@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3645",
+  "equation" : "h2o + psph1p <=> psphings + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2319" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4114" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.3",
+  "otherNames" : [ ],
+  "alias" : "SBPP2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN3O-504"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SBPP2er"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SBPP2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7119" ],
+      "orphan" : "NO",
+      "gibbs" : 5.968754,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

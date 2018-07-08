@@ -1,0 +1,46 @@
+{
+  "id" : "irxn492",
+  "equation" : "h2o + icpd2512 <=> icpd4790 + etoh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2512" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd4790" : "",
+      "icpd2624" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.67; EC-3.1.1.67",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FATTY-ACYL-ETHYL-ESTER-SYNTHASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02682"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 48.678482,
+      "uniprot" : [ "Q91YG2" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

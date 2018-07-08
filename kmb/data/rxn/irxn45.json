@@ -1,0 +1,49 @@
+{
+  "id" : "irxn45",
+  "equation" : "0.01 ps_SC + h <=> 0.01 pe_SC + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1909" : "0.01",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd1165" : "0.01"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PSERDv_SC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PSERDv_SC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PSERDm_SC"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PSERDg_SC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

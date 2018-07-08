@@ -1,0 +1,44 @@
+{
+  "id" : "irxn904",
+  "equation" : "h2o + icpd7462 <=> icpd892",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7462" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd892" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.1.15; 3.1.1.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-ARABINONOLACTONASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02526"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5517", "META:PWY-7295" ],
+      "orphan" : "NO",
+      "gibbs" : -6.347122,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053" ],
+      "orthologs" : [ "K13874" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

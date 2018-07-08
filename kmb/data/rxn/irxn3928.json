@@ -1,0 +1,53 @@
+{
+  "id" : "irxn3928",
+  "equation" : "tsul + acser + trdrd <=> cys__L + ac + so3 + h + trdox",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5848" : "",
+      "icpd7289" : "",
+      "icpd7857" : ""
+    },
+    "r" : {
+      "icpd4873" : "",
+      "icpd1851" : "",
+      "icpd5921" : "",
+      "icpd5833" : "",
+      "icpd1835" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.47; 2.5.1.49",
+  "otherNames" : [ ],
+  "alias" : "AHSERL4",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AHSERL4"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYSS_trdrd"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04859"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100" ],
+      "orthologs" : [ "K13034", "K01740", "K17069", "K10150", "K01738", "K12339" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iYO844" ]
+    }
+  }
+}

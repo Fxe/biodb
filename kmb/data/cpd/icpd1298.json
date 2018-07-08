@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1298",
+  "formula" : "C5H8N2O4",
+  "name" : "(2z)-3-(carbamoylamino)-2-methylprop-2-eneperoxoic acid",
+  "synonyms" : [ ],
+  "alias" : "icpd1298",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13927"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20232"
+  } ],
+  "inchi" : "InChI=1S/C5H8N2O4/c1-3(4(8)11-10)2-7-5(6)9/h2,10H,1H3,(H3,6,7,9)/b3-2-",
+  "inchikey" : "GHIKATUDZMBUJC-IHWYPQMZSA-N",
+  "smiles" : "C/C(=C(\\[H])/NC(=N)O)/C(=O)OO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Ureido-Compounds" ],
+      "reactions" : [ "META:RXN-12896", "META:RXN-12886", "META:RXN-12895" ],
+      "gibbs" : -55.791042,
+      "cmlMolWeight" : 160.129,
+      "molWeight" : 160.129,
+      "parents" : [ "META:Ureido-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   13.5800  -27.0200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3900  -26.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5800  -28.4200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3900  -29.1200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8400  -29.1900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3900  -24.9200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5800  -24.2200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7700  -24.9200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5800  -22.8200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9600  -24.2200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1747  -24.2249    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  3  4  2  0     0  0\n  3  5  1  0     0  0\n  2  6  2  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  8 10  1  0     0  0\n  6 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20232\n\n$$$$",
+  "reactions" : [ "irxn838", "irxn4853", "irxn954" ]
+}

@@ -1,0 +1,30 @@
+{
+  "id" : "icpd1786",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd1786",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:Glycerophosphodiesters"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03120"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD0-2030", "META:L-1-GLYCEROPHOSPHORYLETHANOL-AMINE", "META:L-1-GLYCERO-PHOSPHORYLCHOLINE", "META:GLYCEROPHOSPHOGLYCEROL" ],
+      "reactions" : [ "META:TRANS-RXN0-573", "META:GLYCPDIESTER-RXN" ],
+      "parents" : [ "META:CPD0-2030", "META:3-Glc-Phosphatidylglycerol", "META:L-1-GLYCEROPHOSPHORYLETHANOL-AMINE", "META:L-1-GLYCERO-PHOSPHORYLCHOLINE", "META:L-1-PHOSPHATIDYL-GLYCEROL", "META:GLYCEROPHOSPHOGLYCEROL", "META:CPD0-2229" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   14.4200  -20.1600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6324  -20.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8449  -20.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0573  -20.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2697  -20.1600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8449  -18.7602    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6697  -20.1600    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0697  -20.1600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6697  -18.7601    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6697  -21.5599    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4697  -20.1600    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  3  6  1  1     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\n  7 10  1  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03120\n\n$$$$",
+  "reactions" : [ "irxn6491" ]
+}

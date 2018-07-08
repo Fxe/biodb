@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5340",
+  "equation" : "aps + atp <=> ap4a + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1665" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5748" : "",
+      "icpd6868" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.7.53",
+  "otherNames" : [ ],
+  "alias" : "APATT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "APATT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01618"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230" ],
+      "orthologs" : [ "K00988", "K19710" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id" : "irxn1209",
+  "equation" : "h2o + coa <=> pan4p + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5715" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.-",
+  "otherNames" : [ ],
+  "alias" : "ACPS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "COAHLp"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R10747"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10811"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACPSm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACPS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -10.245422,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00332", "rn01130" ],
+      "orthologs" : [ "NUDT7", "K18568", "K17879" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iIT341", "iND750", "iMM904", "iAF987" ]
+    }
+  }
+}

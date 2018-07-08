@@ -1,0 +1,54 @@
+{
+  "id" : "irxn6695",
+  "equation" : "nad + 1p3h5c + 2.0 h2o <=> e4hglu + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2284" : "",
+      "icpd4016" : "2.0",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd3404" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.5.1; 1.2.1.88",
+  "otherNames" : [ ],
+  "alias" : "PHCD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PHCD"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYPYRROLINEDEH-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04444"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PHCDm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-763", "META:N-ETHYLMALEIMIDE", "META:4-HYDROXY-L-PROLINE", "META:IMIDAZOLE-RING", "META:PRO", "META:D-PROLINE", "META:CPD-29", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 3.375824,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100" ],
+      "orthologs" : [ "K00294", "K13821" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iIT341", "iMM1415", "iMM904", "iJN678", "RECON1" ]
+    }
+  }
+}

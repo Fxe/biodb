@@ -1,0 +1,45 @@
+{
+  "id" : "irxn537",
+  "equation" : "icpd4530 + h2o <=> icpd1174 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4530" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1174" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.45; EC-3.1.1.45",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DIENELACHYDRO-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05511"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:14DICHLORBENZDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 7.3887634,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00361" ],
+      "orthologs" : [ "K01061" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

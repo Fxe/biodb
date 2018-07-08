@@ -1,0 +1,46 @@
+{
+  "id" : "irxn43",
+  "equation" : "pre4 + amet <=> ahcys + pre5",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd1893" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd1936" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.133",
+  "otherNames" : [ ],
+  "alias" : "PC11M",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PC11M"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05181"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "C11", "K05936" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661", "iJN678", "iHN637", "iJB785", "iJN746" ]
+    }
+  }
+}

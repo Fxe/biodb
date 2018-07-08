@@ -1,0 +1,47 @@
+{
+  "id" : "irxn622",
+  "equation" : "paf_hs + h2o <=> ak2lgchol_hs + ac + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd700" : ""
+    },
+    "r" : {
+      "icpd80" : "",
+      "icpd1851" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PAFH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PAFH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PAFHe"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id" : "icpd6591",
+  "formula" : "C7H6O5",
+  "name" : "gallic acid",
+  "synonyms" : [ "3,4,5-trihydroxy-benzoic acid", "3,4,5-trihydroxybenzoic acid", "pyrogallol-5-carboxylic acid" ],
+  "alias" : "ga",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "ga"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01424"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-183"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ga"
+  } ],
+  "inchi" : "InChI=1S/C7H6O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1-2,8-10H,(H,11,12)",
+  "inchikey" : "LNTHITQWFMADLM-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C(=C(C=C1C(=O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GLUTDECARBOX-RXN" ],
+      "reactions" : [ "META:TANNASE-RXN", "META:GALLATE-DECARBOXYLASE-RXN", "META:GALLATE-DIOXYGENASE-RXN", "META:RXN-12132", "META:GALLATE-1-BETA-GLUCOSYLTRANSFERASE-RXN", "META:RXN-10892", "META:RXN-11861" ],
+      "gibbs" : -120.44646,
+      "cmlMolWeight" : 169.113,
+      "molWeight" : 169.113
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   22.1200  -15.1127    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9090  -15.8112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3375  -15.8112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -13.9323    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9090  -17.2208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3375  -17.2208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3182  -13.2338    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9025  -13.2401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1200  -17.9322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6978  -17.9128    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5485  -17.9128    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -19.3290    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\n  5 10  1  0     0  0\n  6 11  1  0     0  0\n  9 12  1  0     0  0\n  6  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01424\n\n$$$$",
+  "reactions" : [ "irxn1296", "irxn1919", "irxn6264", "irxn2753", "irxn6689" ]
+}

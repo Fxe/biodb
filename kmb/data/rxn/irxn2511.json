@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2511",
+  "equation" : "h2o + icpd7956 <=> icpd8203 + 4nph",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd7956" : ""
+    },
+    "r" : {
+      "icpd3511" : "",
+      "icpd8203" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.8.1; EC-3.1.8.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ARYLDIALKYL-PHOSPHATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05421"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-4841", "META:DITHIOTHREITOL", "META:O-PHENANTHROLINE", "META:EDTA" ],
+      "activators" : [ "META:CU+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PARATHION-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -6.02124,
+      "uniprot" : [ "P27169", "P52430", "P27170" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

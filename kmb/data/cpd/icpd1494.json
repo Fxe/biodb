@@ -1,0 +1,33 @@
+{
+  "id" : "icpd1494",
+  "formula" : "C3H4N4O2",
+  "name" : "2,4-dihydroxy-6-amino-1,3,5-triazine",
+  "synonyms" : [ "6-amino-1,3,5-triazine-2,4-diol" ],
+  "alias" : "icpd1494",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-7400"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C08734"
+  } ],
+  "inchi" : "InChI=1S/C3H4N4O2/c4-1-5-2(8)7-3(9)6-1/h(H4,4,5,6,7,8,9)",
+  "inchikey" : "YSKUZVBSHIWEFK-UHFFFAOYSA-N",
+  "smiles" : "C1(=NC(=NC(=N1)O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:RXN-8017", "META:RXN-8016" ],
+      "gibbs" : -32.4887,
+      "cmlMolWeight" : 127.082,
+      "molWeight" : 127.082,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   30.0508  -18.3443    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -19.0372    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0508  -16.9414    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2675  -19.0372    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6233  -18.3443    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -16.2371    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6233  -16.9414    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4125  -19.0372    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8457  -14.8399    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  5  7  2  0     0  0\n  5  8  1  0     0  0\n  6  9  1  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C08734\n\n$$$$",
+  "reactions" : [ "irxn796", "irxn806" ]
+}

@@ -1,0 +1,36 @@
+{
+  "id" : "icpd4574",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "glp",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCYL-PEPTIDE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "glp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02038"
+  }, {
+    "source" : "BiGG",
+    "entry" : "glp"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:2.3.1.97-RXN" ]
+    },
+    "bigg" : {
+      "models" : [ "iND750", "iMM904" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  1  0  0  0  0  0999 V2000\n   27.1600  -21.2800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3500  -20.5800    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   29.6100  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.8000  -20.5800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.6100  -22.6800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.9900  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.9900  -22.6800    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2500  -20.5800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.2500  -19.1800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   34.4400  -21.2800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\n  4  6  1  0     0  0\n  6  7  1  6     0  0\n  6  8  1  0     0  0\n  8  9  2  0     0  0\n  8 10  1  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1  5   3   4   5   6   7\nM  SDI   1  4   29.4700  -23.5900   29.4700  -19.1100\nM  SDI   1  4   32.1300  -19.1100   32.1300  -23.5900\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C02038\n\n$$$$",
+  "reactions" : [ "irxn11" ]
+}

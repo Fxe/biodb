@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6460",
+  "equation" : "coa + vacc + atp <=> amp + ppi + vacccoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5874" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd4091" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "OCT11EFATP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OCT11EFATP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL1812"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

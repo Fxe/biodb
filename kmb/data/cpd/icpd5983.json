@@ -1,0 +1,37 @@
+{
+  "id" : "icpd5983",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "gluala",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "gluala"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "gluala"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03740"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:5-L-GLUTAMYL-L-AMINO-ACID"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-6601", "META:GAMMA-GLUTAMYLCYCLOTRANSFERASE-RXN", "META:RXN66-336" ],
+      "parents" : [ "META:5-L-GLUTAMYL-AMINO-ACID" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iIT341", "iND750", "iNJ661", "iMM1415", "iMM904", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  },
+  "mol" : " \n \n \n 15 14  0  0  1  0  0  0  0  0999 V2000\n   21.0700  -11.9000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2824  -12.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4949  -11.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7073  -12.6000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9197  -11.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1322  -12.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3446  -11.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5570  -12.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7695  -11.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.9819  -12.6000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2824  -13.9998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4949  -10.5002    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9197  -10.5001    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5570  -13.9999    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7695  -10.5003    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  6     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  2 11  2  0     0  0\n  3 12  1  0     0  0\n  5 13  2  0     0  0\n  8 14  1  1     0  0\n  9 15  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03740\n\n$$$$",
+  "reactions" : [ "irxn135", "irxn3373", "irxn3437" ]
+}

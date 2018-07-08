@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5630",
+  "equation" : "coa + icpd1121 + nadp <=> nadph + icpd3427 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd1121" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd3427" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.44; 1.2.1.44",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02506"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CINNAMOYL-COA-REDUCTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -7.9764404,
+      "uniprot" : [ "O04878", "O04877" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00940" ],
+      "orthologs" : [ "K09753" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

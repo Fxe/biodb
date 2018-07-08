@@ -1,0 +1,31 @@
+{
+  "id" : "icpd445",
+  "formula" : "C6H12O5",
+  "name" : "1,5-anhydroglucitol",
+  "synonyms" : [ "(2r,3s,4r,5s)-2-(hydroxymethyl)oxane-3,4,5-triol", "1,5-anhydro-d-glucitol", "1,5-anhydro-d-sorbitol", "1-deoxy-d-glucopyranose" ],
+  "alias" : "icpd445",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07326"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:15-ANHYDRO-D-GLUCITOL"
+  } ],
+  "inchi" : "InChI=1S/C6H12O5/c7-1-4-6(10)5(9)3(8)2-11-4/h3-10H,1-2H2/t3-,4+,5+,6+/m0/s1",
+  "inchikey" : "MPCAJMNYNOGXPB-SLPGGIOYSA-N",
+  "smiles" : "C([C@@H]1[C@H]([C@@H]([C@H](CO1)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.1.1.263-RXN", "META:RXN-16613" ],
+      "gibbs" : -55.186558,
+      "cmlMolWeight" : 164.158,
+      "molWeight" : 164.158
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   27.4088  -18.1619    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.4088  -19.5603    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.6259  -17.4598    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1976  -17.4598    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6259  -20.2624    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.1976  -20.2624    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8311  -18.1619    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9806  -18.1619    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8311  -19.5603    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.6259  -21.6609    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0423  -20.2624    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  5 10  1  1     0  0\n  9 11  1  6     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07326\n\n$$$$",
+  "reactions" : [ "irxn3423" ]
+}

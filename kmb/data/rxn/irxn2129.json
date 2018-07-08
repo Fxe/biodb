@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2129",
+  "equation" : "nad + 3hmp <=> nadh + 2mop + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd890" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd5473" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.31",
+  "otherNames" : [ ],
+  "alias" : "HIBD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HIBD"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HIBDm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02047"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iCHOv1", "iLB1027_lipid", "iMM1415", "iAT_PLT_636", "RECON1", "iYO844" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2832",
+  "equation" : "paps + h2o <=> so4 + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5748" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.2.2; 3.6.2.2",
+  "otherNames" : [ ],
+  "alias" : "PAPSSH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHOADENYLYLSULFATASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PAPSSH"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00507"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -43.845398,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230", "rn00920" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iPC815" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5581",
+  "formula" : "C9H10N2",
+  "name" : "3-(aminomethyl)indole",
+  "synonyms" : [ "(1h-indol-3-yl)methanamine", "1h-indol-3-ylmethanamine", "3-aminomethylindole", "3-indolylmethylamine", "indol-3-ylmethylamine" ],
+  "alias" : "icpd5581",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8913"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21601"
+  } ],
+  "inchi" : "InChI=1S/C9H10N2/c10-5-7-6-11-9-4-2-1-3-8(7)9/h1-4,6,11H,5,10H2",
+  "inchikey" : "JXYGLMATGAAIBU-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C1)NC=C2CN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Indole-Derivatives" ],
+      "reactions" : [ "META:RXN-18224", "META:RXN-8686", "META:RXN-8685", "META:RXNQT-4364" ],
+      "gibbs" : 155.94026,
+      "cmlMolWeight" : 147.199,
+      "molWeight" : 147.199,
+      "parents" : [ "META:Indole-Derivatives" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   15.3817  -16.1584    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3817  -17.5575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5934  -18.2571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8052  -17.5575    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8052  -16.1584    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5934  -15.4589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1357  -17.9899    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9582  -16.8579    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1357  -15.7262    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5667  -14.4002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9453  -14.1072    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  2  0     0  0\n  5  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21601\n\n$$$$",
+  "reactions" : [ "irxn2638", "irxn2632" ]
+}

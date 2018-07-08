@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6229",
+  "equation" : "o2 + trypta + h2o <=> n2 + id3acald + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd2036" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd810" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.4; 1.4.3.22; EC-1.4.3.4",
+  "otherNames" : [ ],
+  "alias" : "TRYPTAOX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02173"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-1401"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TRYPTAOX"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-7656" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6307", "META:PWY-3181" ],
+      "orphan" : "NO",
+      "gibbs" : -23.962997,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ "K00274", "K11182" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

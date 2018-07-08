@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1239",
+  "equation" : "atp + trnamet + selmeth <=> amp + ppi + selmethtrna",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6744" : "",
+      "icpd6987" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5789" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.1.1.10",
+  "otherNames" : [ ],
+  "alias" : "SEMETTL_c",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04773"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SEMETTL_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00450" ],
+      "orthologs" : [ "K01874" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

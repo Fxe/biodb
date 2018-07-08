@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3722",
+  "equation" : "fad + chol <=> betald + fadh2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6481" : "",
+      "icpd3647" : ""
+    },
+    "r" : {
+      "icpd4924" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CHOLD2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CHOLD2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHOLD2m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iYO844" ]
+    }
+  }
+}

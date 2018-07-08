@@ -1,0 +1,51 @@
+{
+  "id" : "irxn3339",
+  "equation" : "nad + h2o + hxan <=> xan + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd5070" : ""
+    },
+    "r" : {
+      "icpd3221" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.17.1.4; 1.17.1.4",
+  "otherNames" : [ ],
+  "alias" : "HXAND",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HXAND"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01768"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7682"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:CPD-7082", "META:CPD-9024" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:SALVADEHYPOX-PWY", "META:PWY-6596", "META:P164-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -38.31024,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230" ],
+      "orthologs" : [ "K00087", "K11177", "K11178", "K13482", "K13481", "K13483", "K00106", "K13480", "K13479" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iEKO11_1354", "ic_1306", "iETEC_1333", "iECD_1391", "iWFL_1372", "iECED1_1282", "iECIAI1_1343", "iBWG_1329", "iML1515", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcDH1_1363", "iEcHS_1320", "iECO26_1355", "iECP_1309", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iE2348C_1286", "iNRG857_1313", "iEcSMS35_1347", "iECW_1372", "iECO111_1330", "iYO844", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iECO103_1326", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iECDH10B_1368", "iSF_1195", "iECNA114_1301", "iECS88_1305", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJO1366", "iLB1027_lipid", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

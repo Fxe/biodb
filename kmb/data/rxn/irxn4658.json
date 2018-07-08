@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4658",
+  "equation" : "h2o + tag_hs <=> Rtotal3 + h + dag_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd1450" : ""
+    },
+    "r" : {
+      "icpd576" : "",
+      "icpd1851" : "",
+      "icpd911" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "LPS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LPSe"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LPS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

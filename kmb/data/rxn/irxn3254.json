@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3254",
+  "equation" : "2.0 o2 + 2.0 nadh + icpd6585 + 4.0 h <=> 2.0 nad + 3.0 h2o + icpd1034 + 2.0 co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "2.0",
+      "icpd5377" : "2.0",
+      "icpd1851" : "4.0",
+      "icpd6585" : ""
+    },
+    "r" : {
+      "icpd4016" : "3.0",
+      "icpd2454" : "2.0",
+      "icpd1034" : "",
+      "icpd5131" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.12.-",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10924"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11121"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6345", "META:PWY-6346" ],
+      "orphan" : "NO",
+      "gibbs" : -210.94226,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01130", "rn00404" ],
+      "orthologs" : [ "K20077", "K20078", "P450" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

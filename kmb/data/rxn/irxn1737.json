@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1737",
+  "equation" : "udpg + icpd3903 <=> udp + h + icpd3958",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd3903" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd3958" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.91; 2.4.1.91",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02158"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN1F-462"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DIACETYL", "META:CPD-14842", "META:N-BROMOSUCCINIMIDE", "META:TETRANITROMETHANE", "META:UDP", "META:CU+2", "META:DIETHYLPYROCARBONATE", "META:FE+2", "META:DITHIO-NITROBENZOATE", "META:ZN+2", "META:CPD-8983" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7137", "META:PWY-5321", "META:PWY-7129", "META:PWY-7173", "META:PWY-7172", "META:PWY-5390" ],
+      "orphan" : "NO",
+      "gibbs" : 6.897583,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00944" ],
+      "orthologs" : [ "K10757" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

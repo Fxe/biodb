@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4872",
+  "equation" : "dgtp <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7693" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "EX_dgtp_e",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EX_dgtp_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_dgtp_n"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_dgtp_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id" : "irxn853",
+  "equation" : "uacgam <=> udpacgal",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2540" : ""
+    },
+    "r" : {
+      "icpd7201" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.1.3.2; 5.1.3.7",
+  "otherNames" : [ ],
+  "alias" : "UAG4Ei",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UAG4Ei"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00418"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100" ],
+      "orthologs" : [ "K02473" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iSbBS512_1146", "iCHOv1", "ic_1306", "iEKO11_1354", "iECSP_1301", "iEC55989_1330", "iECs_1301", "iWFL_1372", "iECIAI1_1343", "iECED1_1282", "iE2348C_1286", "iEcSMS35_1347", "iECW_1372", "iZ_1308", "iECO103_1326", "iECH74115_1262", "iEcE24377_1341", "iMM1415", "iECP_1309", "RECON1", "iSB619", "iEcolC_1368", "iG2583_1286" ]
+    }
+  }
+}

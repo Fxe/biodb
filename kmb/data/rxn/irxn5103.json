@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5103",
+  "equation" : "nadh + co2 + h + icpd4899 <=> nad + icpd4499 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd4899" : ""
+    },
+    "r" : {
+      "icpd4499" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1; 1.2.4.-",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:KETAMID-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04142"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LYSDEGII-PWY" ],
+      "orphan" : null,
+      "gibbs" : -16.571198,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3282",
+  "equation" : "4hbz + octdp <=> ppi + 3ophb",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7990" : "",
+      "icpd5989" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd616" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.39; EC-2.5.1.39",
+  "otherNames" : [ ],
+  "alias" : "HBZOPT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4OHBENZOATE-OCTAPRENYLTRANSFER-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05615"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HBZOPT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-3563", "META:CPD-7988", "META:DEOXYCHOLATE" ],
+      "activators" : [ "META:CPD0-1088" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6708", "META:PWY-5870" ],
+      "orphan" : "NO",
+      "gibbs" : -16.909973,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00130", "rn01110" ],
+      "orthologs" : [ "K03179" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iEKO11_1354", "iETEC_1333", "iECD_1391", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iECABU_c1320", "iAF1260b", "iEcDH1_1363", "iEcHS_1320", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECO111_1330", "iECW_1372", "iE2348C_1286", "iEcSMS35_1347", "iNRG857_1313", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iIT341", "iECSF_1327", "iSDY_1059", "iUMN146_1321", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iECDH10B_1368", "iSF_1195", "iSFxv_1172", "iECS88_1305", "iECNA114_1301", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

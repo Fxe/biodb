@@ -1,0 +1,43 @@
+{
+  "id" : "irxn5982",
+  "equation" : "tyr__L <=> icpd4747",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7576" : ""
+    },
+    "r" : {
+      "icpd4747" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.4.3.6; EC-5.4.3.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00739"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TYROSINE-23-AMINOMUTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.9300003,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00350" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

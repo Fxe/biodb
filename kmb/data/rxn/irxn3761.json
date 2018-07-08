@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3761",
+  "equation" : "ichor <=> salc + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1498" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd2297" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.99.21; EC-4.2.99.21",
+  "otherNames" : [ ],
+  "alias" : "SALSYN",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R06602"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-1981"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SALSYN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6406" ],
+      "orphan" : "NO",
+      "gibbs" : -28.43589,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn01053", "rn01130" ],
+      "orthologs" : [ "K04781", "K04782" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "ic_1306", "iECUMN_1333", "iETEC_1333", "iEC55989_1330", "iECIAI39_1322", "iECED1_1282", "iECSF_1327", "iNRG857_1313", "iUMN146_1321", "iLF82_1304", "iECABU_c1320", "iUTI89_1310", "iPC815", "iAPECO1_1312", "iECP_1309", "iECS88_1305", "iECNA114_1301", "iEC042_1314" ]
+    }
+  }
+}

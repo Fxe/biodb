@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2916",
+  "formula" : "C5H6N2O4",
+  "name" : "l-5-carboxymethylhydantoin",
+  "synonyms" : [ ],
+  "alias" : "icpd2916",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03703"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-587"
+  } ],
+  "inchi" : "InChI=1S/C5H6N2O4/c8-3(9)1-2-4(10)7-5(11)6-2/h2H,1H2,(H,8,9)(H2,6,7,10,11)/t2-/m0/s1",
+  "inchikey" : "DQQLZADYSWBCOX-REOHCLBHSA-N",
+  "smiles" : "C([C@@]1([H])C(=NC(=N1)O)O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:CARBOXYMETHYLHYDANTOINASE-RXN" ],
+      "gibbs" : -102.03647,
+      "cmlMolWeight" : 157.105,
+      "molWeight" : 157.105
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   14.6123  -20.4367    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0426  -21.7686    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4423  -21.7709    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8771  -20.4404    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7461  -19.6159    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2004  -20.0128    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2943  -20.0060    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2210  -22.8955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8214  -22.8955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1133  -21.6691    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1225  -24.1057    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  4  6  2  0     0  0\n  1  7  2  0     0  0\n  2  8  1  1     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\n  9 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03703\n\n$$$$",
+  "reactions" : [ "irxn1503" ]
+}

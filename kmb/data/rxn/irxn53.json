@@ -1,0 +1,51 @@
+{
+  "id" : "irxn53",
+  "equation" : "4h2oglt <=> glx + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1530" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd941" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.3.42; EC-4.1.3.16; 4.1.3.16",
+  "otherNames" : [ ],
+  "alias" : "DDPGA",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DDPGAm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00470"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4OH2OXOGLUTARALDOL-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DDPGA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:OH-PYR", "META:3-BROMOPYRUVATE", "META:OXALACETIC_ACID", "META:3-MERCAPTO-PYRUVATE", "META:PYRUVATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:HYDROXYPRODEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 2.6641083,
+      "uniprot" : [ "P94802", "Q9WXS1", "P44480", "O25729", "O83578", "P50846", "P0A955", "Q9JR44", "Q55872", "Q9ZKB4", "P38448" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630" ],
+      "orthologs" : [ "K18123", "K01625" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iIT341", "iMM1415", "iJN678", "RECON1", "iHN637", "iJB785" ]
+    }
+  }
+}

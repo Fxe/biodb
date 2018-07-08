@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4628",
+  "equation" : "h2o + seahcys <=> selhcys + adn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7756" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd239" : "",
+      "icpd602" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.3.1.1",
+  "otherNames" : [ ],
+  "alias" : "SEAHCYSHYD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SEAHCYSHYD_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SEAHCYSHYD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04936"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K01251" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  }
+}

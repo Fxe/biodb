@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4672",
+  "equation" : "sec + h2o <=> com + n2 + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd1414" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd2216" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "COMS",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R234-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "COMS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6643", "META:P261-PWY" ],
+      "orphan" : null,
+      "gibbs" : -2.6571426,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

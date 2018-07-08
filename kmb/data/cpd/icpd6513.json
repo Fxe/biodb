@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6513",
+  "formula" : "C9H7N",
+  "name" : "quinoline",
+  "synonyms" : [ "1-azanaphthalene", "benzo(b)pyridine", "benzo[b]pyridine", "benzopyridine", "chinolin", "chinoline", "quinolin", "quinoline (8ci,9ci)" ],
+  "alias" : "icpd6513",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06413"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:QUINOLINE"
+  } ],
+  "inchi" : "InChI=1S/C9H7N/c1-2-6-9-8(4-1)5-3-7-10-9/h1-7H",
+  "inchikey" : "SMWDFEZZVXVKRB-UHFFFAOYSA-N",
+  "smiles" : "C1=CC2=C(C=C1)N=CC=C2",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:1.3.99.17-RXN" ],
+      "gibbs" : 108.57884,
+      "cmlMolWeight" : 129.161,
+      "molWeight" : 129.161
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 11  0  0  0  0  0  0  0  0999 V2000\n   28.1343  -19.6690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1400  -18.2653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9285  -20.3679    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3457  -20.3679    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9285  -17.5663    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3574  -17.5721    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7169  -19.6690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5631  -19.6806    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7169  -18.2653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5688  -18.2769    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\n  6 10  2  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06413\n\n$$$$",
+  "reactions" : [ "irxn3273" ]
+}

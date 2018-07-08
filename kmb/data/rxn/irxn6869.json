@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6869",
+  "equation" : "coa + atp + crn <=> amp + ppi + icpd5238",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6570" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5238" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.48; 6.2.1.48",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LCARNCOALIG-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11632"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CARNMET-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -10.839233,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id" : "irxn5386",
+  "equation" : "coa + acac + atp <=> aacoa + amp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd267" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd726" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.16; 6.2.1.16",
+  "otherNames" : [ ],
+  "alias" : "r0321",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETOACETATE--COA-LIGASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01357"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AACOAT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0321"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -8.241699,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00650", "rn00280" ],
+      "orthologs" : [ "K01907" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

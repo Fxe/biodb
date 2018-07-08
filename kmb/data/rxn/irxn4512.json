@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4512",
+  "equation" : "o2 + icpd3315 <=> co2 + h + anth",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd3315" : ""
+    },
+    "r" : {
+      "icpd268" : "",
+      "icpd1851" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.13.11.23; 1.13.11.23",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00983"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:23-DIHYDROXYINDOLE-23-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -111.764114,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

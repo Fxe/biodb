@@ -1,0 +1,47 @@
+{
+  "id" : "irxn162",
+  "equation" : "amet + srtn <=> ahcys + nmthsrtn + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd2870" : ""
+    },
+    "r" : {
+      "icpd7954" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.49",
+  "otherNames" : [ ],
+  "alias" : "SRTNMTX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SRTNMTX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02910"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ "K00562" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

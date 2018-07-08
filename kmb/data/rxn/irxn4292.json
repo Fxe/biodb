@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4292",
+  "equation" : "dopa + icpd5086 <=> h2o + icpd349",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5086" : "",
+      "icpd4793" : ""
+    },
+    "r" : {
+      "icpd349" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.3.3.4; EC-4.3.3.4",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4.3.3.4-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05749"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -25.956024,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00950" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

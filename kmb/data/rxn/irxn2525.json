@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2525",
+  "equation" : "pacald + nadh + h <=> nad + pea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd4822" : ""
+    },
+    "r" : {
+      "icpd1633" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.1; 1.1.1.90",
+  "otherNames" : [ ],
+  "alias" : "AALDH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02611"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AALDH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7700"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5751", "META:PWY-5079" ],
+      "orphan" : "NO",
+      "gibbs" : 2.541809,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00360" ],
+      "orthologs" : [ "K00055" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517" ]
+    }
+  }
+}

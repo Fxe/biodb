@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2588",
+  "equation" : "nadph + xol7aone + h <=> xol7ah + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2845" : ""
+    },
+    "r" : {
+      "icpd2745" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.3.1.3; 1.3.1.3",
+  "otherNames" : [ ],
+  "alias" : "AKR1D",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04817"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AKR1D"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9840"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6061" ],
+      "orphan" : "NO",
+      "gibbs" : 3.816513,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00120" ],
+      "orthologs" : [ "K00251" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

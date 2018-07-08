@@ -1,0 +1,39 @@
+{
+  "id" : "icpd3673",
+  "formula" : "C4H12NO4P",
+  "name" : "phosphodimethylethanolamine",
+  "synonyms" : [ "[2-(dimethylamino)ethoxy]phosphonic acid", "dimethylethanolamine phosphate", "n,n-dimethylethanolamine phosphate" ],
+  "alias" : "HC01842",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "HC01842"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-5441"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "ethadmp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C13482"
+  } ],
+  "inchi" : "InChI=1S/C4H12NO4P/c1-5(2)3-4-9-10(6,7)8/h3-4H2,1-2H3,(H2,6,7,8)",
+  "inchikey" : "BLHVJAAEHMLMOI-UHFFFAOYSA-N",
+  "smiles" : "CN(C)CCOP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-5642", "META:RXN-5643", "META:RXN4FS-3" ],
+      "gibbs" : -129.88974,
+      "cmlMolWeight" : 168.109,
+      "molWeight" : 168.109
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iLB1027_lipid" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   27.6999  -20.7170    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9911  -20.7170    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   30.2822  -20.7170    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9911  -19.4257    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9911  -22.0542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5076  -20.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2951  -20.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0827  -20.0200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8682  -20.7212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0827  -18.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  1  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C13482\n\n$$$$",
+  "reactions" : [ "irxn4189", "irxn2990" ]
+}

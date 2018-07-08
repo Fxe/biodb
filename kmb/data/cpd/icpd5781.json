@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5781",
+  "formula" : "C10H8O3",
+  "name" : "7-hydroxy-4-methyl-2h-chromen-2-one",
+  "synonyms" : [ ],
+  "alias" : "icpd5781",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-182"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03081"
+  } ],
+  "inchi" : "InChI=1S/C10H8O3/c1-6-4-10(12)13-9-5-7(11)2-3-8(6)9/h2-5,11H,1H3",
+  "inchikey" : "HSHNITRMYYLLCV-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC(=O)OC2=C1C=CC(=C2)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Pyrone-substituted-coumarins" ],
+      "reactions" : [ "META:RXN-10769", "META:3.1.1.56-RXN" ],
+      "gibbs" : -3.9100356,
+      "cmlMolWeight" : 176.171,
+      "molWeight" : 176.171,
+      "parents" : [ "META:Pyrone-substituted-coumarins" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   18.4511  -13.3598    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4511  -14.7743    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6561  -12.6612    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2344  -12.6787    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6735  -15.4729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2344  -15.4788    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8845  -13.3540    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0350  -13.3598    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8378  -14.7802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6735  -16.8644    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0350  -14.7743    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0779  -12.6671    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8359  -12.6787    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  2  0     0  0\n  5  9  2  0     0  0\n  5 10  1  0     0  0\n  6 11  2  0     0  0\n  7 12  2  0     0  0\n  8 13  1  0     0  0\n  7  9  1  0     0  0\n  8 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03081\n\n$$$$",
+  "reactions" : [ "irxn2909" ]
+}

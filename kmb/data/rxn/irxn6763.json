@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6763",
+  "equation" : "icpd4396 + h + 2mbcoa <=> icpd5312 + 2mb2coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd4396" : "",
+      "icpd1818" : ""
+    },
+    "r" : {
+      "icpd5312" : "",
+      "icpd7434" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.8.5; EC-1.3.8.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-METHYLACYL-COA-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03169"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ACETOACETYL-COA", "META:CPD-1083", "META:CPD-1486", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:ILEUDEG-PWY", "META:PWY-5109" ],
+      "orphan" : "NO",
+      "gibbs" : 20.67978,
+      "uniprot" : [ "Q08523" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

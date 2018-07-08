@@ -1,0 +1,43 @@
+{
+  "id" : "icpd2495",
+  "formula" : "C10H26N4",
+  "name" : "spermine",
+  "synonyms" : [ "(3-aminopropyl)({4-[(3-aminopropyl)amino]butyl})amine", "1,5,10,14-tetraazatetradecane", "4,9-diaza-1,12-dodecanediamine", "4,9-diazadodecane-1,12-diamine", "n,n'-bis(3-aminopropyl)-1,4-butanediamine", "n,n'-bis(3-aminopropyl)butane-1,4-diamine", "n1,n4-bis(3-aminopropyl)-1,4-butanediamine", "spermin" ],
+  "alias" : "sprm",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00750"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "sprm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SPERMINE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "sprm"
+  } ],
+  "inchi" : "InChI=1S/C10H26N4/c11-5-3-9-13-7-1-2-8-14-10-4-6-12/h13-14H,1-12H2",
+  "inchikey" : "PFNFFQXMRSDOHW-UHFFFAOYSA-N",
+  "smiles" : "C(CCNCCCN)CNCCCN",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:DIHYDROFOLATEREDUCT-RXN", "META:SPERMINE-SYNTHASE-RXN" ],
+      "activators" : [ "META:2.7.1.68-RXN" ],
+      "instances" : [ "META:Aliphatic-Alpha-Omega-Diamines" ],
+      "reactions" : [ "META:RXN-6421", "META:RXN-9015", "META:SPERMINE-SYNTHASE-RXN", "META:RXN-9939" ],
+      "gibbs" : 318.74066,
+      "cmlMolWeight" : 206.374,
+      "molWeight" : 206.374,
+      "parents" : [ "META:Aliphatic-Alpha-Omega-Diamines" ]
+    },
+    "bigg" : {
+      "models" : [ "iLJ478", "iCHOv1", "iRC1080", "iND750", "iIT341", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iJB785", "iAB_RBC_283", "iYO844" ]
+    }
+  },
+  "mol" : " \n \n \n 14 13  0  0  0  0  0  0  0  0999 V2000\n   20.5800  -17.0800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7924  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0049  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2173  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4297  -17.0800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6422  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8546  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0670  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2795  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.4919  -16.3800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   32.7044  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   33.9168  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.1292  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   36.3417  -16.3800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00750\n\n$$$$",
+  "reactions" : [ "irxn5572", "irxn6463", "irxn6571", "irxn3516", "irxn5094" ]
+}

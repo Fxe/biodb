@@ -1,0 +1,35 @@
+{
+  "id" : "icpd649",
+  "formula" : "C15H13I2NO4",
+  "name" : "3,3'-diiodo-l-thyronine",
+  "synonyms" : [ "3,3'-diiodothyronine", "3-[4-(4-hydroxy-3-iodophenoxy)-3-iodophenyl]-l-alanine", "l-3-[4-(4-hydroxy-3-iodophenoxy)-3-iodophenyl]-alanine", "l-beta-[4-(4-hydroxy-3-iodophenoxy)-3-iodophenyl]-alanine", "o-(4-hydroxy-3-iodophenyl)-3-iodo-l-tyrosine", "o-(4-hydroxy-3-iodophenyl)-3-iodo-tyrosine", "o-(4-hydroxy-3-iodophenyl)-3-iodotyrosine" ],
+  "alias" : "CE2866",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE2866"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11395"
+  } ],
+  "inchi" : "InChI=1S/C15H13I2NO4/c16-10-7-9(2-3-13(10)19)22-14-4-1-8(5-11(14)17)6-12(18)15(20)21/h1-5,7,12,19H,6,18H2,(H,20,21)/t12-/m0/s1",
+  "inchikey" : "CPCJBZABTUOGNM-LBPRGKRZSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)OC2=CC=C(C(=C2)I)O)I)C[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Iodoaromtic-Compounds" ],
+      "reactions" : [ "META:RXN-12030", "META:RXN-10604", "META:RXN-10605", "META:RXN-12032" ],
+      "gibbs" : 90.65457,
+      "cmlMolWeight" : 525.081,
+      "molWeight" : 525.081,
+      "parents" : [ "META:Iodoaromtic-Compounds" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ ]
+}

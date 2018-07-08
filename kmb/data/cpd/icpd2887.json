@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2887",
+  "formula" : "C7H7ClO",
+  "name" : "2-chloro-4-methylphenol",
+  "synonyms" : [ "2-chloro-p-cresol" ],
+  "alias" : "icpd2887",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10649"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C15220"
+  } ],
+  "inchi" : "InChI=1S/C7H7ClO/c1-5-2-3-7(9)6(8)4-5/h2-4,9H,1H3",
+  "inchikey" : "AQJFATAFTQCRGC-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=C(C(=C1)Cl)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9901", "META:RXN-9900" ],
+      "gibbs" : 55.007847,
+      "cmlMolWeight" : 142.585,
+      "molWeight" : 142.585
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   19.3900  -17.3600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3900  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6024  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8149  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8149  -17.3600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6024  -16.6600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1776  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0460  -16.6490    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0460  -19.4710    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  5  8  1  0     0  0\n  4  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15220\n\n$$$$",
+  "reactions" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3688",
+  "equation" : "udpg + ind3ac <=> udp + icpd3306",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd1296" : ""
+    },
+    "r" : {
+      "icpd3306" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.121; EC-2.4.1.121",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03094"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.4.1.121-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-9009", "META:CPD-4210", "META:L-PHOSPHATIDATE", "META:UDP", "META:CPD-9567", "META:L-1-PHOSPHATIDYL-ETHANOLAMINE", "META:PPI", "META:L-1-phosphatidyl-inositols" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1782", "META:PWY-1741" ],
+      "orphan" : "NO",
+      "gibbs" : 6.551697,
+      "uniprot" : [ "Q41819" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

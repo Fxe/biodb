@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4372",
+  "equation" : "h2o + icpd8231 <=> for + icpd3725",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8231" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1650" : "",
+      "icpd3725" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.91; EC-3.5.1.91",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3.5.1.91-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07303"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CU+2", "META:CPD-29", "META:HG+2", "META:PHENYLHYDRAZINE", "META:DITHIOTHREITOL", "META:O-PHENANTHROLINE", "META:CPD-1490", "META:8-HYDROXYQUINOLINE", "META:AG+" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 0.122867584,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2019",
+  "equation" : "inost + cdpdddecg <=> cmp + icpd7890 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1341" : "",
+      "icpd4293" : ""
+    },
+    "r" : {
+      "icpd7890" : "",
+      "icpd3421" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.8.11; 2.7.8.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.7.8.11-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01802"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Pi", "META:CA+2", "META:ZN+2", "META:PPI" ],
+      "activators" : [ "META:MG+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6352", "META:PWY-6351", "META:PHOSLIPSYN2-PWY", "META:PWY-7625" ],
+      "orphan" : "NO",
+      "gibbs" : -4.3829956,
+      "uniprot" : [ "Q8LBA6", "P06197", "P70500" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100", "rn00562" ],
+      "orthologs" : [ "K00999" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

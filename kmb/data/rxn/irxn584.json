@@ -1,0 +1,45 @@
+{
+  "id" : "irxn584",
+  "equation" : "udpg + icpd1400 <=> udp + icpd2895",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7414" : "",
+      "icpd1400" : ""
+    },
+    "r" : {
+      "icpd6858" : "",
+      "icpd2895" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.128; 2.4.1.128",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SCOPOLETIN-GLUCOSYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03594"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7186" ],
+      "orphan" : "NO",
+      "gibbs" : -15.701355,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00940" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

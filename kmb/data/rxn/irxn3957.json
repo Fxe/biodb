@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3957",
+  "equation" : "fmnh2 + o2 + mso3 <=> h2o + fmn + so3 + fald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1059" : "",
+      "icpd2672" : ""
+    },
+    "r" : {
+      "icpd7712" : "",
+      "icpd4016" : "",
+      "icpd5833" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.14.5; EC-1.14.14.34; 1.14.14.34",
+  "otherNames" : [ ],
+  "alias" : "FDMO2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10206"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18086"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FDMO2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6059" ],
+      "orphan" : "NO",
+      "gibbs" : -159.17654,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00920" ],
+      "orthologs" : [ "K00299", "K04091" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iEKO11_1354", "ic_1306", "iECD_1391", "iETEC_1333", "iWFL_1372", "iECIAI1_1343", "iECED1_1282", "iBWG_1329", "iML1515", "iECABU_c1320", "iJN746", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECO26_1355", "iECP_1309", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iEC55989_1330", "iECIAI39_1322", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECW_1372", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iZ_1308", "iECO103_1326", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iECDH10B_1368", "iSF_1195", "iECNA114_1301", "iSFxv_1172", "iECS88_1305", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4877",
+  "formula" : "C2H4Cl2",
+  "name" : "1,2-dichloroethane",
+  "synonyms" : [ "ethylene chloride", "ethylene dichloride" ],
+  "alias" : "icpd4877",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C06752"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:12-DICHLOROETHANE"
+  } ],
+  "inchi" : "InChI=1S/C2H4Cl2/c3-1-2-4/h1-2H2",
+  "inchikey" : "WSLDOOZREJYCGB-UHFFFAOYSA-N",
+  "smiles" : "C(CCl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:DHLAXANAU-RXN" ],
+      "gibbs" : 23.684484,
+      "cmlMolWeight" : 98.96,
+      "molWeight" : 98.96
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   28.2380  -17.2907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4420  -16.5893    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0225  -16.5893    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   30.6575  -17.2907    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06752\n\n$$$$",
+  "reactions" : [ "irxn2117" ]
+}

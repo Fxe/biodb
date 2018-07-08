@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6164",
+  "equation" : "nadph + o2 + h + icpd8184 <=> h2o + icpd6878 + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd8184" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd6878" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.22; 1.14.13.22",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CYCLOHEXANONE-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02231"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CYCLOHEXANOL-OXIDATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -93.320526,
+      "uniprot" : [ "P12015" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01220", "rn00930" ],
+      "orthologs" : [ "K03379" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

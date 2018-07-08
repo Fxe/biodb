@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2004",
+  "equation" : "coa + atp + mal__L <=> icpd1099 + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6269" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd7485" : "",
+      "icpd1099" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.9; 6.2.1.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01256"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MALATE--COA-LIGASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5741", "META:PWY-1622" ],
+      "orphan" : "NO",
+      "gibbs" : -3.0939941,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01200", "rn00680", "rn01120" ],
+      "orthologs" : [ "K14067", "K08692" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

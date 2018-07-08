@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5547",
+  "equation" : "coa + h + icpd7804 <=> h2o + accoa + ohexa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd7804" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd4016" : "",
+      "icpd5414" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.3.-; EC-4.1.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R211-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08331"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P241-PWY" ],
+      "orphan" : null,
+      "gibbs" : 10.795349,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210", "rn01120", "rn00680" ],
+      "orthologs" : [ "K10977" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id" : "icpd3512",
+  "formula" : "C5H5N5O",
+  "name" : "guanine",
+  "synonyms" : [ "2-amino-1,7-dihydro-6h-purin-6-one", "2-amino-1,9-dihydro-6h-purin-6-one", "2-amino-1,9-dihydro-purin-6-one", "2-amino-3,7-dihydro-6h-purin-6-one", "2-amino-3,7-dihydropurin-6-one", "2-amino-6,7-dihydro-3h-purin-6-one", "2-amino-6-hydroxy-1h-purine", "2-amino-6-hydroxypurine", "2-amino-6-purinol", "2-amino-hypoxanthine", "2-aminohypoxanthine", "6-hydroxy-2-aminopurine", "guanin" ],
+  "alias" : "gua",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "gua"
+  }, {
+    "source" : "BiGG",
+    "entry" : "gua"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GUANINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00242"
+  } ],
+  "inchi" : "InChI=1S/C5H5N5O/c6-5-9-3-2(4(11)10-5)7-1-8-3/h1H,(H4,6,7,8,9,10,11)",
+  "inchikey" : "UYTPUPDQBNUYGX-UHFFFAOYSA-N",
+  "smiles" : "C1=NC2=C(N1)NC(=N)N=C2O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TRANS-RXN0-562" ],
+      "instances" : [ "META:Purines", "META:Purine-Bases" ],
+      "reactions" : [ "META:GUANPRIBOSYLTRAN-RXN", "META:DEOXYGUANPHOSPHOR-RXN", "META:RXN-12144", "META:GUANINE-DEAMINASE-RXN", "META:RXN0-5199", "META:RXN0-366", "META:RXN0-1321", "META:QUEUOSINE-TRNA-RIBOSYLTRANSFERASE-RXN", "META:3.6.3.37-RXN", "META:TRANS-RXN0-578" ],
+      "gibbs" : 36.0766,
+      "cmlMolWeight" : 151.127,
+      "molWeight" : 151.127,
+      "parents" : [ "META:Purines", "META:Purine-Bases" ]
+    },
+    "bigg" : {
+      "models" : [ "iNF517", "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iAF987", "iECABU_c1320", "iJN746", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iMM904", "RECON1", "iEcolC_1368", "iG2583_1286", "iAF692", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iYO844", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iIT341", "iND750", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iAB_RBC_283", "iLJ478", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iLB1027_lipid", "iMM1415", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   23.1102  -18.3653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1044  -16.8570    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3030  -19.0903    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9059  -18.7805    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2736  -16.1729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9117  -16.4303    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5424  -18.3887    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0699  -17.5703    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5541  -16.9155    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2736  -14.8399    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7526  -19.0962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\n  7 11  1  0     0  0\n  6  8  2  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00242\n\n$$$$",
+  "reactions" : [ "irxn5990", "irxn5719", "irxn4438", "irxn3825", "irxn4456" ]
+}

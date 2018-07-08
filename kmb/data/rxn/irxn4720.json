@@ -1,0 +1,48 @@
+{
+  "id" : "irxn4720",
+  "equation" : "n2 + atp + uaaGgla <=> uaaGgtla + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7085" : "",
+      "icpd1892" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd1911" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.5.-",
+  "otherNames" : [ ],
+  "alias" : "GLNSP2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05030"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLNSP2"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00550", "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNJ661" ]
+    }
+  }
+}

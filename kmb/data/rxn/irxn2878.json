@@ -1,0 +1,55 @@
+{
+  "id" : "irxn2878",
+  "equation" : "glx + ala__L <=> gly + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd941" : "",
+      "icpd7336" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd855" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.44; 2.6.1.44",
+  "otherNames" : [ ],
+  "alias" : "AGTi",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AGTim"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00369"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ALANINE--GLYOXYLATE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AGTi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AGTix"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:GLYSYN-ALA-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -0.83000183,
+      "uniprot" : [ "P31029", "Q94055", "P21549", "P31030", "Q56YA5", "P41689" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00250" ],
+      "orthologs" : [ "K00827", "K14272", "K00830" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "iJN678", "RECON1", "iJB785" ]
+    }
+  }
+}

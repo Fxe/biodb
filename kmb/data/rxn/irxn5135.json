@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5135",
+  "equation" : "h2o + oaa <=> ac + h + oxa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7306" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1429" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.7.1.1; 3.7.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00338"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:OXALOACETASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6699" ],
+      "orphan" : "NO",
+      "gibbs" : -13.237091,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

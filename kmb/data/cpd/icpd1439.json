@@ -1,0 +1,29 @@
+{
+  "id" : "icpd1439",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd1439",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00226"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Primary-Alcohols"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:ALKAN-1-OL-DEHYDROGENASE-ACCEPTOR-RXN", "META:RXN-11335", "META:RXN-11332", "META:ALCOHOL-DEHYDROG-GENERIC-RXN", "META:RXN-11333", "META:HALOALKANE-DEHALOGENASE-RXN", "META:ALCOHOL-OXIDASE-RXN" ],
+      "parents" : [ "META:Very-Long-Chain-Primary-Alcohols", "META:Terpenols", "META:Short-Chain-Primary-Alcohols", "META:Long-Chain-Primary-Alcohols", "META:Alcohols", "META:Medium-Chain-Primary-Alcohols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   24.5000  -22.8418    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7112  -23.5440    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2888  -23.5440    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00226\n\n$$$$",
+  "reactions" : [ "irxn2474", "irxn595", "irxn5490", "irxn1695" ]
+}

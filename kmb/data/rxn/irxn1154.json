@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1154",
+  "equation" : "icpd4070 <=> g3p + dhap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4070" : ""
+    },
+    "r" : {
+      "icpd4806" : "",
+      "icpd6046" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2.40; 4.1.2.40",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01069"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TAGAALDOL-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:BH4NA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7077", "META:PWY-7395", "META:LACTOSECAT-PWY", "META:GALACTITOLCAT-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 13.316467,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00052" ],
+      "orthologs" : [ "K08302", "K16371", "K01635" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

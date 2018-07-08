@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1194",
+  "equation" : "paps + icpd3903 <=> icpd1032 + h + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd3903" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1032" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.2.25; EC-2.8.2.25",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:FLAVONOL-3-SULFOTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02159"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6199" ],
+      "orphan" : "NO",
+      "gibbs" : 9.160706,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00944" ],
+      "orthologs" : [ "K13270" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6062",
+  "equation" : "h2o + 4aabutn <=> ac + 4abut",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7886" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7403" : "",
+      "icpd5921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.63; 3.5.1.63",
+  "otherNames" : [ ],
+  "alias" : "AABTN",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-36"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01987"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AABTN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-0" ],
+      "orphan" : null,
+      "gibbs" : -1.9830017,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00330" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iND750", "iMM904" ]
+    }
+  }
+}

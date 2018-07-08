@@ -1,0 +1,57 @@
+{
+  "id" : "irxn829",
+  "equation" : "h + 5fthf + atp <=> methf + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8110" : "",
+      "icpd1851" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd7485" : "",
+      "icpd3975" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.3.2",
+  "otherNames" : [ ],
+  "alias" : "FTCL",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02301"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FTHFCLm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FTHFCL_1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FTHFCL"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FTCL"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00670" ],
+      "orthologs" : [ "K01934" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNF517", "iRC1080", "iND750", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iAF987" ]
+    }
+  }
+}

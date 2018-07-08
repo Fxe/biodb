@@ -1,0 +1,49 @@
+{
+  "id" : "irxn6180",
+  "equation" : "2obut + 2ahethmpp <=> 2ahbut + thmpp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3298" : "",
+      "icpd7992" : ""
+    },
+    "r" : {
+      "icpd8134" : "",
+      "icpd6523" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.2.1.6",
+  "otherNames" : [ ],
+  "alias" : "ACHBSb",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACAS_2ahbut"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04673"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACHBSb"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K01652", "K11258", "K01653" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iJB785" ]
+    }
+  }
+}

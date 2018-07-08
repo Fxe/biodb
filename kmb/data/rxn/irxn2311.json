@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2311",
+  "equation" : "g3p <=> mthgxl + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4806" : ""
+    },
+    "r" : {
+      "icpd302" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.3",
+  "otherNames" : [ ],
+  "alias" : "MGSA2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MGSA2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8075"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5197", "META:PWY-6160" ],
+      "orphan" : "NO",
+      "gibbs" : 2.9100037,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

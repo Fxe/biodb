@@ -1,0 +1,46 @@
+{
+  "id" : "irxn928",
+  "equation" : "icpd6466 + hgentis <=> co2 + ppi + icpd3529",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6702" : "",
+      "icpd6466" : ""
+    },
+    "r" : {
+      "icpd3529" : "",
+      "icpd2454" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.5.1.117; EC-2.5.1.117",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08782"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2761"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1581" ],
+      "orphan" : "NO",
+      "gibbs" : -21.185822,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00130" ],
+      "orthologs" : [ "K12501" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

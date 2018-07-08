@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3385",
+  "equation" : "nadh + icpd7021 + h <=> nad + icpd5491",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7021" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd5491" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.6.5.7; 1.6.5.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.6.5.7-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05399"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DITHIO-NITROBENZOATE", "META:ZN+2", "META:CPD-29", "META:HG+2", "META:TIRON" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5488", "META:PWY-6200" ],
+      "orphan" : "NO",
+      "gibbs" : -1.047699,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00361", "rn01120", "rn00627" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

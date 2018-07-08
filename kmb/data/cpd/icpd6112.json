@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6112",
+  "formula" : "C2H6N2O2",
+  "name" : "methylazoxymethanol",
+  "synonyms" : [ ],
+  "alias" : "icpd6112",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-2421"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02390"
+  } ],
+  "inchi" : "InChI=1S/C2H6N2O2/c1-4(6)3-2-5/h5H,2H2,1H3",
+  "inchikey" : "BJNBRIBHKLJMAG-UHFFFAOYSA-N",
+  "smiles" : "C[N+](=NCO)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:2.4.1.171-RXN" ],
+      "gibbs" : -14.703277,
+      "cmlMolWeight" : 90.082,
+      "molWeight" : 90.082
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   13.1600  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3724  -18.5500    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   15.5849  -19.2500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7973  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0097  -19.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3724  -17.1502    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  6  1  0     0  0\nM  CHG  2   2   1   6  -1\nM  END\n\n> <ENTRY>\ncpd:C02390\n\n$$$$",
+  "reactions" : [ "irxn942" ]
+}

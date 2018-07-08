@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3027",
+  "equation" : "o2 + gal <=> h2o2 + icpd2955",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1558" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd2955" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.3.9; 1.1.3.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GALACTOSE-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01099"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -26.440002,
+      "uniprot" : [ "Q9M332", "Q9SVX6" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

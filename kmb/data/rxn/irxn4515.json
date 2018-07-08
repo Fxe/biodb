@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4515",
+  "equation" : "2.0 h2o + icpd3811 <=> n2 + acryl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "2.0",
+      "icpd3811" : ""
+    },
+    "r" : {
+      "icpd2731" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.5.7; EC-3.5.5.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R309-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05358"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7309" ],
+      "orphan" : "NO",
+      "gibbs" : -3.7801266,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00643" ],
+      "orthologs" : [ "K01502" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

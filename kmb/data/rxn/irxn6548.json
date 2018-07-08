@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6548",
+  "equation" : "2obut + nadh + co2 + h <=> nad + icpd7877",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3298" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2454" : ""
+    },
+    "r" : {
+      "icpd7877" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.85; EC-1.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-7745"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00994"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5101" ],
+      "orphan" : "NO",
+      "gibbs" : 1.7000427,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210", "rn01100", "C5", "rn00660", "rn01230", "rn00290" ],
+      "orthologs" : [ "K00052" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

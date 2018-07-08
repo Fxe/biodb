@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3691",
+  "equation" : "uamag + lys__L + atp <=> uGgl + h + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4807" : "",
+      "icpd6530" : "",
+      "icpd4614" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd2145" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.3.2.7",
+  "otherNames" : [ ],
+  "alias" : "UAAGLS2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "UAAGLS2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02786"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00550" ],
+      "orthologs" : [ "K05362" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iNJ661" ]
+    }
+  }
+}

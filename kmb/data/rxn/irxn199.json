@@ -1,0 +1,48 @@
+{
+  "id" : "irxn199",
+  "equation" : "nad + h2o + 6tins5mp <=> 6txan5mp + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd715" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd4773" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.205",
+  "otherNames" : [ ],
+  "alias" : "6TINS5MPOR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08240"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "6TINS5MPOR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00983" ],
+      "orthologs" : [ "K00088" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1903",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd1903",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00422"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Triacylglycerols"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:PHOSPHATIDATE-PHOSPHATASE-RXN" ],
+      "instances" : [ "META:CPD66-35", "META:CPD-11691", "META:CPD-13014" ],
+      "reactions" : [ "META:RXN-1641", "META:DIACYLGLYCEROL-O-ACYLTRANSFERASE-RXN", "META:RXN-12383", "META:2.3.1.77-RXN", "META:2.3.1.158-RXN", "META:LIPOPROTEIN-LIPASE-RXN" ],
+      "parents" : [ "META:TAG-18-2-32-1s", "META:TAG-18-2-36-1s", "META:TAG-18-2-34-3s", "META:TAG-18-3-34-0s", "META:TAG-18-3-32-2s", "META:TAG-18-3-38-0s", "META:TAG-18-3-38-4s", "META:TAG-18-3-36-6s", "META:TAG-18-2-40-4s", "META:TAG-18-2-36-5s", "META:TAG-18-2-38-3s", "META:TAG-18-2-40-0s", "META:TAG-18-3-40-1s", "META:TAG-18-3-32-1s", "META:TAG-18-2-32-2s", "META:TAG-18-2-34-0s", "META:TAG-18-2-36-2s", "META:TAG-18-2-38-0s", "META:TAG-18-2-34-4s", "META:TAG-18-3-36-1s", "META:CPD-11691", "META:TAG-18-3-36-5s", "META:TAG-18-3-38-3s", "META:TAG-18-3-34-3s", "META:CPD66-35", "META:TAG-18-2-36-6s", "META:TAG-18-2-40-3s", "META:TAG-18-3-40-2s", "META:TAG-18-2-34-1s", "META:TAG-18-3-32-0s", "META:TAG-18-2-36-3s", "META:TAG-18-2-38-1s", "META:TAG-18-3-36-0s", "META:TAG-18-3-38-2s", "META:TAG-18-3-36-4s", "META:TAG-18-3-34-2s", "META:TAG-18-2-40-2s", "META:Triacylglycerides", "META:TAG-18-2-38-5s", "META:TAG-18-3-40-3s", "META:TAG-18-2-34-2s", "META:TAG-18-2-36-0s", "META:TAG-18-3-34-1", "META:TAG-18-2-36-4s", "META:TAG-18-2-38-2s", "META:TAG-18-2-32-0s", "META:CPD-13014", "META:TAG-18-3-36-3s", "META:TAG-18-3-38-1s", "META:TAG-18-3-38-5s", "META:TAG-18-2-40-1s", "META:TAG-18-3-40-0s", "META:TAG-18-3-40-4s" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 15 14  0  0  0  0  0  0  0  0999 V2000\n   25.4742  -16.5259    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   25.4684  -15.0908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4684  -17.9550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0450  -16.5200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8975  -15.0908    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8975  -17.9550    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0300  -16.5259    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3383  -15.0908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3383  -17.9550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0358  -15.1316    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5950  -16.5259    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3326  -13.6558    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7675  -15.0908    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3326  -16.5259    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.7675  -17.9550    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  6  9  1  0     0  0\n  7 10  2  0     0  0\n  7 11  1  0     0  0\n  8 12  2  0     0  0\n  8 13  1  0     0  0\n  9 14  2  0     0  0\n  9 15  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00422\n\n$$$$",
+  "reactions" : [ ]
+}

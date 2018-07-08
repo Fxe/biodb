@@ -1,0 +1,60 @@
+{
+  "id" : "irxn6664",
+  "equation" : "hmgcoa <=> accoa + acac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5434" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd267" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.3.4; 4.1.3.4",
+  "otherNames" : [ ],
+  "alias" : "HMGL",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HMGLx"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMGL"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMGLm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMGLr"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMGL_1"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYMETHYLGLUTARYL-COA-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01360"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:O-PHENANTHROLINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5074", "META:LEU-DEG2-PWY", "META:PWY66-367" ],
+      "orphan" : "NO",
+      "gibbs" : -1.2635498,
+      "uniprot" : [ "P35915", "P35914", "Q8L7K2" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650", "rn00280", "rn00072" ],
+      "orthologs" : [ "K01640" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "iAF987", "RECON1", "iYO844", "iJN746" ]
+    }
+  }
+}

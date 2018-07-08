@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1703",
+  "equation" : "h2o + arg__L <=> orn + urea",
+  "stoichiometry" : {
+    "l" : {
+      "icpd90" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd269" : "",
+      "icpd4560" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.3.1; 3.5.3.1",
+  "otherNames" : [ ],
+  "alias" : "ARGN",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ARGINASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARGNm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARGN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00551"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HOMOARGININE", "META:ILE", "META:VAL", "META:LEU", "META:L-ORNITHINE", "META:PUTRESCINE", "META:L-ARGININO-SUCCINATE", "META:CANAVANINE", "META:L-CITRULLINE", "META:PRO", "META:CPD-309", "META:AGMATHINE", "META:BORATE", "META:L-2-AMINOPENTANOIC-ACID", "META:LYS" ],
+      "activators" : [ "META:L-ORNITHINE", "META:MN+2", "META:ARG" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CITRULBIO-PWY", "META:ARG-PRO-PWY", "META:PWY-6922", "META:PWY-6305", "META:ARGASEDEG-PWY", "META:ARG-GLU-PWY", "META:PWY-4984" ],
+      "orphan" : "NO",
+      "gibbs" : -3.572998,
+      "uniprot" : [ "Q10066", "Q7M0Z3", "P07824", "P40906", "P37818", "O76895", "P72703", "P39138", "P33280", "P14012", "P53608", "P00812", "O49046", "O68051", "P05089", "P49900" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn00220", "rn01100", "rn01230", "rn01110", "rn01130" ],
+      "orthologs" : [ "K01476" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iIT341", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "iJN678", "iAT_PLT_636", "iSB619", "RECON1", "iHN637", "iAB_RBC_283" ]
+    }
+  }
+}

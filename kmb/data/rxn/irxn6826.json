@@ -1,0 +1,52 @@
+{
+  "id" : "irxn6826",
+  "equation" : "ppcoa + crn <=> coa + pcrn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3011" : "",
+      "icpd6570" : ""
+    },
+    "r" : {
+      "icpd3607" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.7",
+  "otherNames" : [ ],
+  "alias" : "CSNAT3x",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CSNAT3x"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-18367"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C30CPT1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CSNAT2m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -3.610077,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

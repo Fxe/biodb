@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2198",
+  "formula" : "C7H15NO2S",
+  "name" : "6-(methylsulfanyl)norleucine",
+  "synonyms" : [ ],
+  "alias" : "icpd2198",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C17217"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPDQT-340"
+  } ],
+  "inchi" : "InChI=1S/C7H15NO2S/c1-11-5-3-2-4-6(8)7(9)10/h6H,2-5,8H2,1H3,(H,9,10)/t6-/m0/s1",
+  "inchikey" : "FBWIRBFZWNIGJC-LURJTMIESA-N",
+  "smiles" : "CSCCCC[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-homo-methionine" ],
+      "reactions" : [ "META:RXNQT-4309", "META:RXN-13017", "META:RXNQT-4345" ],
+      "gibbs" : 81.396805,
+      "cmlMolWeight" : 177.261,
+      "molWeight" : 177.261,
+      "parents" : [ "META:N-homo-methionine" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   13.7901  -16.5201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.0025  -15.8201    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2150  -16.5201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4274  -15.8201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6398  -16.5201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8523  -15.8201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0647  -16.5201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2772  -15.8201    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4897  -16.5201    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2772  -14.4202    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0647  -17.9201    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\n  7 11  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C17217\n\n$$$$",
+  "reactions" : [ ]
+}

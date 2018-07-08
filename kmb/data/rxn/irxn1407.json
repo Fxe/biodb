@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1407",
+  "equation" : "pail345p_hs + h2o <=> icpd7135 + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7103" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7135" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.86; EC-3.1.3.86; 3.1.3.36",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09827"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10036"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:23-DIPHOSPHOGLYCERATE" ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6368" ],
+      "orphan" : "NO",
+      "gibbs" : 3.1868896,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00562" ],
+      "orthologs" : [ "K01099", "K15909", "K20278", "INPP5", "K03084", "K20279" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

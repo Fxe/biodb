@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5813",
+  "equation" : "prpp + 5flura <=> ppi + h + 5flurimp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7961" : "",
+      "icpd3930" : ""
+    },
+    "r" : {
+      "icpd4596" : "",
+      "icpd1851" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.2.10",
+  "otherNames" : [ ],
+  "alias" : "5FLURAPRT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "5FLURAPRT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08231"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00983" ],
+      "orthologs" : [ "K13421" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3717",
+  "equation" : "nad + CE5456 <=> 4mop + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd4827" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7101" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.345",
+  "otherNames" : [ ],
+  "alias" : "RE2292C",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16245"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE2292C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7767" ],
+      "orphan" : "NO",
+      "gibbs" : 3.541809,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

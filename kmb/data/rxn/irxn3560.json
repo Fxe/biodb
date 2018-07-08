@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3560",
+  "equation" : "icpd102 + udpglcur <=> udp + icpd3942",
+  "stoichiometry" : {
+    "l" : {
+      "icpd886" : "",
+      "icpd102" : ""
+    },
+    "r" : {
+      "icpd6858" : "",
+      "icpd3942" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.4.1.191; 2.4.1.191",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.4.1.191-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06828"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:UDP", "META:5734-TETRAHYDROXYFLAVONE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7444" ],
+      "orphan" : null,
+      "gibbs" : 6.897583,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00944" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

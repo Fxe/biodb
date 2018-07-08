@@ -1,0 +1,50 @@
+{
+  "id" : "irxn1340",
+  "equation" : "dopa + amet <=> ahcys + 3moxtyr + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd4793" : ""
+    },
+    "r" : {
+      "icpd7346" : "",
+      "icpd1851" : "",
+      "icpd6782" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.6; 2.1.1.6",
+  "otherNames" : [ ],
+  "alias" : "DOPAMT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DOPAMT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04301"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN6666-7"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-7664", "META:ADENOSYL-HOMO-CYS", "META:CA+2", "META:CPD-7662", "META:CPD-7024", "META:CPD-7663", "META:CPD-7650", "META:CPD-7661" ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY6666-2", "META:PWY-5426" ],
+      "orphan" : "NO",
+      "gibbs" : -4.3600006,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00350", "rn00965" ],
+      "orthologs" : [ "K00545" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

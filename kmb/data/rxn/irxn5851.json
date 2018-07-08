@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5851",
+  "equation" : "nadph + hx2coa + h <=> hxcoa + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4651" : "",
+      "icpd5432" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd4676" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.38; 1.3.1.8",
+  "otherNames" : [ ],
+  "alias" : "ACOAR2m",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACOAR2m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06985"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01212", "rn01100", "rn00062" ],
+      "orthologs" : [ "K07512" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

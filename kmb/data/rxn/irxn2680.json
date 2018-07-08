@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2680",
+  "equation" : "utp + dcmp <=> udp + dcdp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd115" : "",
+      "icpd6810" : ""
+    },
+    "r" : {
+      "icpd6858" : "",
+      "icpd1043" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CYTK14",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CYTK14"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CYTK14n"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

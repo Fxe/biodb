@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4590",
+  "equation" : "nad + 2dglcn <=> 3ddgc + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7597" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2467" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.125; 1.1.1.125",
+  "otherNames" : [ ],
+  "alias" : "DGC3D",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DGC3D"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04049"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:KDUD-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 1.0817871,
+      "uniprot" : [ "P37769" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNJ661" ]
+    }
+  }
+}

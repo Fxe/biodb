@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2612",
+  "equation" : "lac__D + 2.0 ficytc <=> 2.0 focytc + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6203" : "",
+      "icpd7807" : "2.0"
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd6262" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.2.4",
+  "otherNames" : [ ],
+  "alias" : "D_LACDm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "D_LACDm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00197"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "D_LACDHm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "D_LACDcm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00620" ],
+      "orthologs" : [ "K00102" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iND750", "iMM904" ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6170",
+  "equation" : "icpd2031 + atp + hco3 <=> icpd880 + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2031" : "",
+      "icpd1484" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd880" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.4.1.5; EC-6.4.1.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GERANOYL-COA-CARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03494"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6672" ],
+      "orphan" : "NO",
+      "gibbs" : -4.3724365,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00281" ],
+      "orthologs" : [ "K13778", "K13777" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

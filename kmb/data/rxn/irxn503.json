@@ -1,0 +1,50 @@
+{
+  "id" : "irxn503",
+  "equation" : "nadp + estradiol <=> estrone + nadph + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5755" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2533" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.51; 1.1.1.62",
+  "otherNames" : [ ],
+  "alias" : "HSD17B1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HSD17B1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HSD17B7r"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02353"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00140" ],
+      "orthologs" : [ "K10251", "K00044", "K05296", "K13373", "K13370", "K13369", "K13368" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

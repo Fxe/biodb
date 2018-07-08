@@ -1,0 +1,43 @@
+{
+  "id" : "irxn4172",
+  "equation" : "icpd7354 <=> icpd3010",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7354" : ""
+    },
+    "r" : {
+      "icpd3010" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.1.1.14; 5.1.1.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NOCARDICIN-A-EPIMERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03073"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 0.0,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00261", "rn01130" ],
+      "orthologs" : [ "K19105" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd164",
+  "formula" : "C10H12O3",
+  "name" : "coniferol",
+  "synonyms" : [ "(e) 3-(4-hydroxy-3-methoxyphenyl)-2-propen-1-ol", "4-((1e)-3-hydroxy-1-propenyl)-2-methoxyphenol", "4-[(1e)-3-hydroxy-1-propenyl]-2-methoxyphenol", "4-[(1e)-3-hydroxyprop-1-en-1-yl]-2-methoxyphenol", "coniferyl alcohol", "coniferyl-alcohol", "e-coniferyl alcohol", "trans-coniferyl alcohol" ],
+  "alias" : "confrl",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "confrl"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00590"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "confrl"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CONIFERYL-ALCOHOL"
+  } ],
+  "inchi" : "InChI=1S/C10H12O3/c1-13-10-7-8(3-2-6-11)4-5-9(10)12/h2-5,7,11-12H,6H2,1H3/b3-2+",
+  "inchikey" : "JMFRWRFFLBVWSI-NSCUHMNNSA-N",
+  "smiles" : "COC1=CC(=CC=C1O)/C(/[H])=C(\\[H])/CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Phenylpropanoids" ],
+      "reactions" : [ "META:RXN-16476", "META:RXN-1144", "META:CONIFERIN-BETA-GLUCOSIDASE-RXN", "META:RXN-17352", "META:2.4.1.111-RXN", "META:RXN-17351", "META:RXN-9244", "META:RXN-2602", "META:RXN-9719" ],
+      "gibbs" : 71.44345,
+      "cmlMolWeight" : 180.203,
+      "molWeight" : 180.203,
+      "parents" : [ "META:Phenylpropanoids" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   34.6105  -18.6546    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   34.6105  -20.0569    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.8249  -20.7580    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.0393  -20.0569    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   37.0393  -18.6546    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   35.8249  -17.9535    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.2724  -17.9424    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   38.2724  -16.5402    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   38.2724  -20.7690    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.3961  -17.9535    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   32.1987  -18.6450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0094  -17.9584    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0094  -16.5584    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  4  9  1  0     0  0\n  1 10  1  0     0  0\n 10 11  2  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00590\n\n$$$$",
+  "reactions" : [ "irxn1949", "irxn287", "irxn2337", "irxn3734", "irxn4150" ]
+}

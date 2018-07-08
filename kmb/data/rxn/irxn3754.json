@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3754",
+  "equation" : "nad + 3hdd5coa <=> 3odd5coc + nadh + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd944" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd1326" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.M19",
+  "otherNames" : [ ],
+  "alias" : "HADH121_3H5Z_m",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14802"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HADH121_3H5Z_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7340" ],
+      "orphan" : "NO",
+      "gibbs" : 1.0817871,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

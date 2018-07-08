@@ -1,0 +1,41 @@
+{
+  "id" : "icpd6982",
+  "formula" : "O2S",
+  "name" : "sulfur dioxide",
+  "synonyms" : [ "(oxo-λ⁴-sulfanylidene)oxidane", "dioxidosulfur", "oxosulfane oxide", "sulfur-dioxide", "sulphur dioxide" ],
+  "alias" : "so2",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "so2"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "so2"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SULFUR-DIOXIDE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C09306"
+  } ],
+  "inchi" : "InChI=1S/O2S/c1-3-2",
+  "inchikey" : "RAHZWNYVWXNFOC-UHFFFAOYSA-N",
+  "smiles" : "O=S=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Non-Metabolic-Compounds" ],
+      "reactions" : [ "META:RXN-18720", "META:RXN-18713" ],
+      "gibbs" : -71.87101,
+      "cmlMolWeight" : 64.059,
+      "molWeight" : 64.059,
+      "parents" : [ "META:Non-Metabolic-Compounds" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  3  2  0  0  0  0  0  0  0  0999 V2000\n   26.2500  -16.7300    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6500  -16.7300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8500  -16.7300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C09306\n\n$$$$",
+  "reactions" : [ "irxn1468" ]
+}

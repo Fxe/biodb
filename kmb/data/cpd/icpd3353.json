@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3353",
+  "formula" : "C5H12N",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd3353",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-16509"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C20809"
+  } ],
+  "inchi" : "InChI=1S/C5H11N/c1-5-3-2-4-6-5/h5-6H,2-4H2,1H3/p+1",
+  "inchikey" : "RGHPCLZJAFCTIK-UHFFFAOYSA-O",
+  "smiles" : "CC1CCC[N+]1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-15301" ],
+      "gibbs" : 133.67139,
+      "cmlMolWeight" : 86.156,
+      "molWeight" : 86.156
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  1  0  0  0  0  0999 V2000\n   16.9400  -15.9600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3600  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.7600  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1800  -15.9600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0600  -15.1200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3700  -15.2600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  4  6  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C20809\n\n$$$$",
+  "reactions" : [ "irxn2595" ]
+}

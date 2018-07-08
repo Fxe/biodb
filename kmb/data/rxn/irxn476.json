@@ -1,0 +1,47 @@
+{
+  "id" : "irxn476",
+  "equation" : "r1p + nac + h <=> nicrns + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd825" : "",
+      "icpd96" : ""
+    },
+    "r" : {
+      "icpd3537" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.2.1",
+  "otherNames" : [ ],
+  "alias" : "NP1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "NP1"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02295"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00760" ],
+      "orthologs" : [ "K03784", "K03783" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

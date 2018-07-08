@@ -1,0 +1,33 @@
+{
+  "id" : "icpd3845",
+  "formula" : "C6H7N5",
+  "name" : "3-methyladenine",
+  "synonyms" : [ "3-methyl-3h-purin-6-amine", "3-methyl-adenine", "6-amino-3-methylpurine" ],
+  "alias" : "icpd3845",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00913"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-Methyl-Adenines"
+  } ],
+  "inchi" : "InChI=1S/C6H7N5/c1-11-3-10-5(7)4-6(11)9-2-8-4/h2-3H,7H2,1H3",
+  "inchikey" : "FSASIHFSFGAIJM-UHFFFAOYSA-N",
+  "smiles" : "CN1C=NC(=C2C1=NC=N2)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Alkylated-Bases" ],
+      "reactions" : [ "META:RXN0-5189" ],
+      "gibbs" : 136.82784,
+      "cmlMolWeight" : 149.155,
+      "molWeight" : 149.155,
+      "parents" : [ "META:Alkylated-Bases" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 12  0  0  0  0  0  0  0  0999 V2000\n   27.6634  -17.8589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6634  -19.2411    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4686  -17.1504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.0045  -17.4197    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4686  -19.9556    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   29.0045  -19.6803    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2505  -17.8589    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4686  -15.7448    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8302  -18.5442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2505  -19.2411    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4686  -21.3612    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  1  0     0  0\n  6  9  1  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00913\n\n$$$$",
+  "reactions" : [ ]
+}

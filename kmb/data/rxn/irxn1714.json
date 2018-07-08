@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1714",
+  "equation" : "dgtp + pyr <=> dgdp + pep",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd7693" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd8166" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.40; 2.7.1.40",
+  "otherNames" : [ ],
+  "alias" : "AGPOP",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AGPOP"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AGPOPm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01858"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14207"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -97.22412,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230" ],
+      "orthologs" : [ "K12406", "K00873" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

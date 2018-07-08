@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5602",
+  "equation" : "pi + xu5p__D <=> actp + h2o + g3p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2245" : "",
+      "icpd7485" : ""
+    },
+    "r" : {
+      "icpd631" : "",
+      "icpd4016" : "",
+      "icpd4806" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.2.9; 4.1.2.9",
+  "otherNames" : [ ],
+  "alias" : "PKETX",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01621"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PKETX"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHOKETOLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P122-PWY", "META:P124-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -20.057007,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00030", "rn00710" ],
+      "orthologs" : [ "K01621" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

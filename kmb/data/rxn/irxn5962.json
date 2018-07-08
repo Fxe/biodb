@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5962",
+  "equation" : "h2o + icpd2542 <=> 4h2kpi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2542" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1184" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.-; EC-4.2.1.163",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYHEPTA-DIENEDIOATE-HYDROXY-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04131"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:3-HYDROXYPHENYLACETATE-DEGRADATION-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.29699707,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

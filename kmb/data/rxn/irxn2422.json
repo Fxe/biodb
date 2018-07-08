@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2422",
+  "equation" : "dttp + cytd <=> dtdp + cmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2032" : "",
+      "icpd78" : ""
+    },
+    "r" : {
+      "icpd3421" : "",
+      "icpd1190" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.48",
+  "otherNames" : [ ],
+  "alias" : "DTTGY",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02096"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DTTGY"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00240" ],
+      "orthologs" : [ "K00876" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

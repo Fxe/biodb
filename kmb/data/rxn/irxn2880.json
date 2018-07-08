@@ -1,0 +1,42 @@
+{
+  "id" : "irxn2880",
+  "equation" : "atp <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "EX_atp_e",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "EX_atp_e"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DM_atp_c"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iNJ661", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id" : "icpd7356",
+  "formula" : "C5H9O6",
+  "name" : "l-lyxonate",
+  "synonyms" : [ ],
+  "alias" : "lyxnt",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "lyxnt"
+  }, {
+    "source" : "BiGG",
+    "entry" : "lyxnt"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1198"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C05412"
+  } ],
+  "inchi" : "InChI=1S/C5H10O6/c6-1-2(7)3(8)4(9)5(10)11/h2-4,6-9H,1H2,(H,10,11)/p-1/t2-,3+,4+/m0/s1",
+  "inchikey" : "QXKAIJAYHKCRRA-PZGQECOJSA-M",
+  "smiles" : "C([C@@]([H])([C@]([H])([C@]([H])(C(=O)[O-])O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-15590" ],
+      "gibbs" : -140.11198,
+      "cmlMolWeight" : 165.122,
+      "molWeight" : 165.122
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   24.5000  -19.3200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6900  -18.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9500  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1400  -18.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3300  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5900  -18.6200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7800  -19.3200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9500  -20.7200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1400  -17.2200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3300  -20.7200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5900  -17.2200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  3  8  1  1     0  0\n  4  9  1  1     0  0\n  5 10  1  6     0  0\n  6 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05412\n\n$$$$",
+  "reactions" : [ "irxn295" ]
+}

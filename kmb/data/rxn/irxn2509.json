@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2509",
+  "equation" : "paps + prgnlone <=> prgnlones + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd4410" : ""
+    },
+    "r" : {
+      "icpd5348" : "",
+      "icpd788" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.2.2; 2.8.2.14",
+  "otherNames" : [ ],
+  "alias" : "PRGNLONESULT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PRGNLONESULT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08978"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00140" ],
+      "orthologs" : [ "K01015" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

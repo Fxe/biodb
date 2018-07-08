@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4145",
+  "equation" : "amet + icpd153 <=> ahcys + icpd3597",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd153" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd3597" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.95; EC-2.1.1.95",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TOCOPHEROL-O-METHYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07236"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1422" ],
+      "orphan" : "NO",
+      "gibbs" : -20.639893,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00130", "rn01110" ],
+      "orthologs" : [ "K05928" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id" : "irxn4331",
+  "equation" : "nadp + mal__L <=> nadph + h + oaa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6269" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd7306" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.82; EC-1.1.1.82; 1.1.1.299",
+  "otherNames" : [ ],
+  "alias" : "MDHy",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MDH_nadp_fi"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00343"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MALATE-DEHYDROGENASE-NADP+-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MDH_nadp_hi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MDHy"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7117", "META:PWY-241" ],
+      "orphan" : "NO",
+      "gibbs" : 3.213501,
+      "uniprot" : [ "P15719", "Q08062", "P93104", "P17606", "P21528", "Q43830", "P37229", "Q05145", "P52426" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00710", "rn00620" ],
+      "orthologs" : [ "K00051" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iRC1080" ]
+    }
+  }
+}

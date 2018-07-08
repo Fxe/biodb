@@ -1,0 +1,36 @@
+{
+  "id" : "icpd2722",
+  "formula" : "C9H13NO",
+  "name" : "n-methyltyramine",
+  "synonyms" : [ "4-(2-(methylamino)ethyl)-phenol", "4-(2-methylaminoethyl)phenol", "4-[2-(methylamino)ethyl]-phenol", "4-[2-(methylamino)ethyl]phenol", "4-hydroxy-n-methylphenethylamine", "methyl tyramine", "p-(2-(methylamino)ethyl)phenol", "p-(2-methylaminoethyl)phenol", "p-[2-(methylamino)ethyl]-phenol", "{p-[2-(methylamino)ethyl]phenol}" ],
+  "alias" : "C02442",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-391"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02442"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "C02442"
+  } ],
+  "inchi" : "InChI=1S/C9H13NO/c1-10-7-6-8-2-4-9(11)5-3-8/h2-5,10-11H,6-7H2,1H3",
+  "inchikey" : "AXVZFRBSCNEKPQ-UHFFFAOYSA-N",
+  "smiles" : "CNCCC1=CC=C(C=C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:TYRAMINE-N-METHYLTRANSFERASE-RXN" ],
+      "gibbs" : 141.14362,
+      "cmlMolWeight" : 152.216,
+      "molWeight" : 152.216
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   18.1300  -22.1900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1300  -23.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3424  -24.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5549  -23.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5549  -22.1900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3424  -21.4900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9176  -24.2900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7860  -21.4790    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9912  -22.1747    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1735  -21.4919    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3675  -22.1812    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02442\n\n$$$$",
+  "reactions" : [ "irxn3970" ]
+}

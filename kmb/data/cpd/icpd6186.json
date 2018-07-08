@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6186",
+  "formula" : "C6H5NO",
+  "name" : "1,2-benzoquinone monoimine",
+  "synonyms" : [ "6-iminocyclohexa-2,4-dien-1-one", "6-iminocyclohexa-2,4-dienone" ],
+  "alias" : "icpd6186",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14152"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C17500"
+  } ],
+  "inchi" : "InChI=1S/C6H5NO/c7-5-3-1-2-4-6(5)8/h1-4,7H",
+  "inchikey" : "PEARLFKWERPXDA-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=N)C(=O)C=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Imines" ],
+      "reactions" : [ "META:RXN-13159", "META:RXN-13160" ],
+      "gibbs" : 36.785603,
+      "cmlMolWeight" : 107.112,
+      "molWeight" : 107.112,
+      "parents" : [ "META:Imines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   21.9100  -17.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9100  -18.4100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1224  -19.1100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3349  -18.4100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3349  -17.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1224  -16.3100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5473  -16.3100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5473  -19.1100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  2  0     0  0\n  5  7  2  0     0  0\n  4  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17500\n\n$$$$",
+  "reactions" : [ ]
+}

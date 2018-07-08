@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4391",
+  "equation" : "icpd25 <=> icpd2250 + icpd6608",
+  "stoichiometry" : {
+    "l" : {
+      "icpd25" : ""
+    },
+    "r" : {
+      "icpd2250" : "",
+      "icpd6608" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.3.3.1; 4.3.3.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04367"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-KETOVALIDOXYLAMINE-C-N-LYASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -11.444111,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

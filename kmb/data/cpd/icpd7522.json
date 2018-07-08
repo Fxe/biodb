@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7522",
+  "formula" : "C7H12O3S",
+  "name" : "6-(methylthio)-2-oxohexanoic acid",
+  "synonyms" : [ "6-(methylthio)-2-oxo-hexanoic acid" ],
+  "alias" : "icpd7522",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C17216"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPDQT-27"
+  } ],
+  "inchi" : "InChI=1S/C7H12O3S/c1-11-5-3-2-4-6(8)7(9)10/h2-5H2,1H3,(H,9,10)",
+  "inchikey" : "GRUGZHAOXOPASC-UHFFFAOYSA-N",
+  "smiles" : "CSCCCCC(=O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-19485" ],
+      "reactions" : [ "META:RXNQT-4165", "META:RXNQT-4345", "META:RXNQT-4166", "META:RXN-18209" ],
+      "gibbs" : 15.23026,
+      "cmlMolWeight" : 175.222,
+      "molWeight" : 175.222,
+      "parents" : [ "META:CPD-19485" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 10  0  0  0  0  0  0  0  0999 V2000\n   16.7300  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9424  -16.8000    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1549  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3673  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5797  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7922  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0046  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2170  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4295  -16.1000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0046  -14.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2170  -18.2000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  7 10  2  0     0  0\n  8 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17216\n\n$$$$",
+  "reactions" : [ "irxn3561", "irxn3632" ]
+}

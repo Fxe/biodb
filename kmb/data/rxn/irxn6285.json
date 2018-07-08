@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6285",
+  "equation" : "nadp + 3hpcoa <=> nadph + 3opcoa + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3125" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd251" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.-",
+  "otherNames" : [ ],
+  "alias" : "HPCOR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04919"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HPCOR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

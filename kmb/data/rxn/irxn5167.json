@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5167",
+  "equation" : "thmpp + atp <=> thmtp + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6523" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1527" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.4.15; EC-2.7.4.15",
+  "otherNames" : [ ],
+  "alias" : "TMDPPK",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00616"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TMDPPK"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:THIAMIN-DIPHOSPHATE-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7369" ],
+      "orphan" : null,
+      "gibbs" : 95.6142,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00730" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

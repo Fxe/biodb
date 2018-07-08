@@ -1,0 +1,35 @@
+{
+  "id" : "icpd478",
+  "formula" : "C3H4N2",
+  "name" : "imidazole",
+  "synonyms" : [ "1,3-diaza-2,4-cyclopentadiene", "1,3-diazole", "1h-imidazole", "imidazol" ],
+  "alias" : "icpd478",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01589"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:IMIDAZOLE-RING"
+  } ],
+  "inchi" : "InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5)",
+  "inchikey" : "RAXXELZNTBOGNW-UHFFFAOYSA-N",
+  "smiles" : "C1=CN=CN1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-7743", "META:HYDROXYPYRROLINEDEH-RXN", "META:HISTIDINE-DECARBOXYLASE-RXN" ],
+      "activators" : [ "META:PHOSPHOGLUCMUT-RXN", "META:NITROETHANE-OXIDASE-RXN" ],
+      "instances" : [ "META:Imidazoles" ],
+      "reactions" : [ "META:IMIDAZOLE-N-ACETYLTRANSFERASE-RXN" ],
+      "gibbs" : 64.27448,
+      "cmlMolWeight" : 68.078,
+      "molWeight" : 68.078,
+      "parents" : [ "META:Imidazoles" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  5  0  0  0  0  0  0  0  0999 V2000\n   20.9156  -24.4323    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3470  -25.7642    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7470  -25.7655    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1809  -24.4344    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0490  -23.6104    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01589\n\n$$$$",
+  "reactions" : [ "irxn1375" ]
+}

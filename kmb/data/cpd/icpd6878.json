@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6878",
+  "formula" : "C6H10O2",
+  "name" : "2-oxepanone",
+  "synonyms" : [ "&epsilon;-caprolactone", "6-caprolactone", "6-hexanolide", "caprolactone", "epsilon-caprolactone", "hexano-6-lactone", "hexanolactone", "oxepan-2-one" ],
+  "alias" : "icpd6878",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-101"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01880"
+  } ],
+  "inchi" : "InChI=1S/C6H10O2/c7-6-4-2-1-3-5-8-6/h1-5H2",
+  "inchikey" : "PAPBSGBWRJIAAV-UHFFFAOYSA-N",
+  "smiles" : "C1CCC(=O)OCC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:CYCLOHEXANONE-MONOOXYGENASE-RXN", "META:6-HEXANOLIDE-HYDROLYSIS-RXN" ],
+      "gibbs" : 47.611206,
+      "cmlMolWeight" : 114.144,
+      "molWeight" : 114.144
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  8  0  0  0  0  0  0  0  0999 V2000\n   28.9217  -16.1251    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6576  -16.7162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1800  -16.7454    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9334  -14.7264    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3299  -18.0798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4784  -18.1149    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1902  -19.1860    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5947  -19.1918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  6  8  1  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01880\n\n$$$$",
+  "reactions" : [ "irxn5202", "irxn6164" ]
+}

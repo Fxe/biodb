@@ -1,0 +1,46 @@
+{
+  "id" : "irxn86",
+  "equation" : "h + cmusa <=> am6sa + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd5371" : ""
+    },
+    "r" : {
+      "icpd1673" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.45",
+  "otherNames" : [ ],
+  "alias" : "PCLAD",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04323"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PCLAD"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K03392" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "RECON1" ]
+    }
+  }
+}

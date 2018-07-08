@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6322",
+  "equation" : "icpd8107 + cl + icpd5041 <=> icpd8139 + icpd5948",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd5041" : "",
+      "icpd8186" : ""
+    },
+    "r" : {
+      "icpd8139" : "",
+      "icpd5948" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.21.99.5; 1.21.99.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:1.97.1.8-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05753"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NITROUS-OXIDE", "META:CPD-2061", "META:SO3", "META:IODOETHANE" ],
+      "activators" : [ "META:CPD-2061" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PCEDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id" : "icpd4519",
+  "formula" : "C3H3O3S",
+  "name" : "mercaptopyruvate",
+  "synonyms" : [ "2-oxo-3-sulfanylpropanoate", "3-mercapto-pyruvate", "3-mercaptopyruvate", "beta-mercaptopyruvate", "beta-mtrcpaopyruvat" ],
+  "alias" : "mercppyr",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00957"
+  }, {
+    "source" : "BiGG",
+    "entry" : "mercppyr"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-MERCAPTO-PYRUVATE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "mercppyr"
+  } ],
+  "inchi" : "InChI=1S/C3H4O3S/c4-2(1-7)3(5)6/h7H,1H2,(H,5,6)/p-1",
+  "inchikey" : "OJOLFAIGOXZBCI-UHFFFAOYSA-M",
+  "smiles" : "C(C(=O)C(=O)[O-])S",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:4OH2OXOGLUTARALDOL-RXN" ],
+      "reactions" : [ "META:CYSTEINE-AMINOTRANSFERASE-RXN", "META:MERCAPYSTRANS-RXN", "META:RXN-18702", "META:RXN0-6945" ],
+      "gibbs" : -77.65871,
+      "cmlMolWeight" : 119.115,
+      "molWeight" : 119.115
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iNF517", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iECABU_c1320", "iRC1080", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "RECON1", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iAT_PLT_636", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iCHOv1", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iJN678", "iYL1228", "iLJ478", "iPC815", "iJO1366", "iLB1027_lipid", "iMM1415", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   27.4614  -15.9879    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6317  -16.6665    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2912  -16.6665    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4614  -14.6373    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.6317  -18.2943    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8081  -15.9879    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1148  -15.9879    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00957\n\n$$$$",
+  "reactions" : [ "irxn4154", "irxn4183", "irxn6657" ]
+}

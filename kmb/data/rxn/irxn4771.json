@@ -1,0 +1,53 @@
+{
+  "id" : "irxn4771",
+  "equation" : "ac + coa + h <=> h2o + accoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd5921" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.2.1; 3.1.2.1",
+  "otherNames" : [ ],
+  "alias" : "ACOAH",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETYL-COA-HYDROLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00227"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACOAHim"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACOAH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -7.8970947,
+      "uniprot" : [ "P32316" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00620" ],
+      "orthologs" : [ "K01067" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

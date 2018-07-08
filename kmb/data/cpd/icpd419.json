@@ -1,0 +1,41 @@
+{
+  "id" : "icpd419",
+  "formula" : "C9H9O4",
+  "name" : "3-(4-hydroxyphenyl)lactate",
+  "synonyms" : [ "(rs)-3-(4-hydroxyphenyl)lactate", "2-hydroxy-3-(4-hydroxyphenyl)propanoate", "2-hydroxy-3-(p-hydroxyphenyl)propionate", "3-(4-hydroxyphenyl)-dl-lactate", "3-(p-hydroxyphenyl)-lactate", "beta-(4-hydroxyphenyl)lactate", "beta-(p-hydroxyphenyl)-dl-lactate", "beta-(p-hydroxyphenyl)lactate", "dl-3-(4-hydroxyphenyl)lactate" ],
+  "alias" : "34hpl",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "34hpl"
+  }, {
+    "source" : "BiGG",
+    "entry" : "34hpl"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03672"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXYPHENYLLACTATE"
+  } ],
+  "inchi" : "InChI=1S/C9H10O4/c10-7-3-1-6(2-4-7)5-8(11)9(12)13/h1-4,8,10-11H,5H2,(H,12,13)/p-1",
+  "inchikey" : "JVGVDSSUAVXRDY-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=CC(=C1)[O-])CC(C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-2222" ],
+      "reactions" : [ "META:RXN3O-1118", "META:HYDROXYPHENYLPYRUVATE-REDUCTASE-RXN" ],
+      "gibbs" : -33.651962,
+      "cmlMolWeight" : 181.168,
+      "molWeight" : 181.168,
+      "parents" : [ "META:CPD-2222" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   18.9700  -26.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9700  -28.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1824  -28.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3949  -28.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3949  -26.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1824  -25.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7576  -28.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6260  -25.8890    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8312  -26.5847    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0135  -25.9019    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2075  -26.5912    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0135  -24.5002    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8316  -27.9996    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  5  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  2  0     0  0\n  9 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03672\n\n$$$$",
+  "reactions" : [ "irxn6199", "irxn6079" ]
+}

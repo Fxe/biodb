@@ -1,0 +1,37 @@
+{
+  "id" : "icpd1251",
+  "formula" : "C3H3N3O3",
+  "name" : "cyanuric acid",
+  "synonyms" : [ "1,3,5-triazin-2,4,6-triol", "1,3,5-triazine-2,4, 6(1h,3h,5h)-trione", "1,3,5-triazine-2,4,6(1h,3h,5h)-trione", "1,3,5-triazine-2,4,6-triol", "2,4,6-triazinetrione", "2,4,6-trihydroxy-1,3,5-triazine", "2,4,6-trihydroxy-s-triazine", "2,4,6-trioxohexahydro-1,3,5-triazine", "5-azabarbituric acid", "isocyanuric acid", "s-triazine-2,4,6(1h,3h,5h)-trione", "s-triazine-2,4,6-triol", "s-triazine-2,4,6-trione", "s-triazinetriol", "s-triazinetrione", "sym-triazine-2,4,6-triol", "sym-triazinetriol" ],
+  "alias" : "icpd1251",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CYANURIC-ACID"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19468"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06554"
+  } ],
+  "inchi" : "InChI=1S/C3H3N3O3/c7-1-4-2(8)6-3(9)5-1/h(H3,4,5,6,7,8,9)",
+  "inchikey" : "ZFSLODLOARCGLH-UHFFFAOYSA-N",
+  "smiles" : "C1(=NC(=NC(=N1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:BARBITURASE-RXN" ],
+      "instances" : [ "META:Aromatics" ],
+      "reactions" : [ "META:R467-RXN", "META:R123-RXN", "META:R468-RXN", "META:RXN-8017", "META:RXN-18157", "META:RXN-8020" ],
+      "gibbs" : -62.27664,
+      "cmlMolWeight" : 129.075,
+      "molWeight" : 129.075,
+      "parents" : [ "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   27.6278  -18.3427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6278  -16.9373    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -19.0395    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4156  -19.0395    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -16.2405    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0522  -18.3427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0522  -16.9373    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8458  -14.8407    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2644  -19.0395    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  5  7  2  0     0  0\n  5  8  1  0     0  0\n  6  9  1  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C06554\n\n$$$$",
+  "reactions" : [ "irxn6221", "irxn791", "irxn1846", "irxn3438", "irxn806" ]
+}

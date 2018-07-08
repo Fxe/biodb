@@ -1,0 +1,57 @@
+{
+  "id" : "irxn579",
+  "equation" : "ptrc + o2 + h2o <=> n2 + 4abutn + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4511" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd902" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.10; 1.4.3.22; EC-1.4.3.10",
+  "otherNames" : [ ],
+  "alias" : "PTOR",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PUTRESCINE-OXIDASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PTRCOX1"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0281"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PTOR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01151"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDROXYLAMINE", "META:SEMICARBAZIDE", "META:IPRONIAZID", "META:CPD-29", "META:PHENYLHYDRAZINE", "META:CADAVERINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2" ],
+      "orphan" : "NO",
+      "gibbs" : -23.338882,
+      "uniprot" : [ "P40974" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100" ],
+      "orthologs" : [ "K03343", "K11182" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

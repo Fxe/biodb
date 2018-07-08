@@ -1,0 +1,54 @@
+{
+  "id" : "irxn1376",
+  "equation" : "nad + h2o + id3acald <=> nadh + h + ind3ac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd810" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd1296" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1.3; 1.2.1.3",
+  "otherNames" : [ ],
+  "alias" : "ALDD20x",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10715"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALDD20x"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02678"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ALDD20xm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6307" ],
+      "orphan" : "NO",
+      "gibbs" : -13.105347,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "A1", "K14085", "K00128", "K00149" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "iJN678", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn4562",
+  "equation" : "nad + 3mop + coa <=> nadh + co2 + 2mbcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1057" : "",
+      "icpd2377" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd2454" : "",
+      "icpd1818" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.2.1",
+  "otherNames" : [ ],
+  "alias" : "OIVD3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "OIVD3m"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2KETO-3METHYLVALERATE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "OIVD3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5108", "META:ILEUDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -10.194092,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNF517", "iRC1080", "iLB1027_lipid", "iMM1415", "iAT_PLT_636", "RECON1", "iSB619", "iAF987", "iYO844", "iJN746" ]
+    }
+  }
+}

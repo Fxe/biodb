@@ -1,0 +1,46 @@
+{
+  "id" : "irxn142",
+  "equation" : "icpd5651 + nadp <=> nadph + h + icpd4704",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5651" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd4704" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.207; EC-1.1.1.207",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02177"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:--MENTHOL-DEHYDROGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3061" ],
+      "orphan" : "NO",
+      "gibbs" : -1.6264343,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01110", "rn00902" ],
+      "orthologs" : [ "K15094" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id" : "irxn2007",
+  "equation" : "h2o + idp <=> h + pi + imp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3658" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4047" : "",
+      "icpd1851" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.64; 3.6.1.6; 3.6.1.5; EC-3.6.1.64",
+  "otherNames" : [ ],
+  "alias" : "IDPA",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14003"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "IDPA"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00961"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NDP10ex"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -6.8130493,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00230" ],
+      "orthologs" : [ "K14642", "K14641", "U8", "K12305", "K01510", "K12304", "K16855", "K01511" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iLB1027_lipid", "RECON1" ]
+    }
+  }
+}

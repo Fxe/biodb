@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4740",
+  "equation" : "Nacasp + h2o <=> asp__L + ac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6173" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd95" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.15; 3.5.1.15",
+  "otherNames" : [ ],
+  "alias" : "NACASPAH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00488"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13680"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NACASPAH"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -2.7088928,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00250" ],
+      "orthologs" : [ "K01437" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

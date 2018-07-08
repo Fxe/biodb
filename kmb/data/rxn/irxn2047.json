@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2047",
+  "equation" : "nad + 2mop + coa <=> nadh + co2 + h + ppcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5473" : "",
+      "icpd2377" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2454" : "",
+      "icpd3011" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.27",
+  "otherNames" : [ ],
+  "alias" : "MMSAD1",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "MMSAD1m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00922"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MMSAD1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00280" ],
+      "orthologs" : [ "K00140" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iNJ661", "iLB1027_lipid", "iMM1415", "RECON1", "iYO844" ]
+    }
+  }
+}

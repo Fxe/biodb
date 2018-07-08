@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5467",
+  "equation" : "h2o + mnl1p <=> pi + mnl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3157" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1370" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.22; EC-3.1.3.22",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:MANNITOL-1-PHOSPHATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02167"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:F-", "META:DIETHYLPYROCARBONATE", "META:EDTA" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6531", "META:PWY-3881" ],
+      "orphan" : "NO",
+      "gibbs" : 7.2170105,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00051" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

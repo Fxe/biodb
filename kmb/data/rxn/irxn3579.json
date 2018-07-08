@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3579",
+  "equation" : "h2o + man6p + pep <=> pi + kdnp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1790" : "",
+      "icpd4016" : "",
+      "icpd6625" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd8142" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.132; 2.5.1.132",
+  "otherNames" : [ ],
+  "alias" : "ACNAM9PL2",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9991"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACNAM9PL2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R11439"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NACL", "META:EDTA" ],
+      "activators" : [ "META:MG+2", "META:NI+2", "META:CO+2", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6140" ],
+      "orphan" : "NO",
+      "gibbs" : -7.482971,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

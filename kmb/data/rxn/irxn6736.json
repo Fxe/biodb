@@ -1,0 +1,44 @@
+{
+  "id" : "irxn6736",
+  "equation" : "icpd7550 <=> 4hbald + cyan",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7550" : ""
+    },
+    "r" : {
+      "icpd1490" : "",
+      "icpd2921" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.2.11; EC-4.1.2.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYMANDELONITRILE-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02676"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5976" ],
+      "orphan" : "NO",
+      "gibbs" : 23.579998,
+      "uniprot" : [ "O23364" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00460", "rn01110" ],
+      "orthologs" : [ "K08249" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

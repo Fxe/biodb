@@ -1,0 +1,47 @@
+{
+  "id" : "irxn388",
+  "equation" : "r15bp <=> rb15bp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd712" : ""
+    },
+    "r" : {
+      "icpd1029" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.1.29; 5.3.1.29",
+  "otherNames" : [ ],
+  "alias" : "RBPI",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R10555"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8801"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RBPI"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:AMP" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5532" ],
+      "orphan" : "NO",
+      "gibbs" : 0.62,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

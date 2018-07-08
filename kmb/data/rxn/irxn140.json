@@ -1,0 +1,47 @@
+{
+  "id" : "irxn140",
+  "equation" : "ac + coa + atp <=> accoa + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd5921" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5825" : "",
+      "icpd5753" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.13; 6.2.1.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETATE--COA-LIGASE-ADP-FORMING-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00229"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5483", "META:P162-PWY", "META:PWY-5535" ],
+      "orphan" : "NO",
+      "gibbs" : 0.29833984,
+      "uniprot" : [ "Q9Y8L1", "Q9Y8L0" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00010", "rn00620" ],
+      "orthologs" : [ "K01905" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn3432",
+  "equation" : "cys__L + amet + dtbt <=> ala__L + dad_5 + met__L + h + btn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd4873" : "",
+      "icpd7614" : ""
+    },
+    "r" : {
+      "icpd1369" : "",
+      "icpd1851" : "",
+      "icpd7336" : "",
+      "icpd7903" : "",
+      "icpd5870" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "BTS6",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BTS6"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BTS_m"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

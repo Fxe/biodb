@@ -1,0 +1,49 @@
+{
+  "id" : "irxn2734",
+  "equation" : "h2o + 2amac <=> n2 + pyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4735" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "2AMACHYD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "2AMACHYD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08698"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8899"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5708", "META:PWY-5706", "META:PWY-5707", "META:PWY-7614", "META:PWY-6539" ],
+      "orphan" : null,
+      "gibbs" : -5.6030083,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

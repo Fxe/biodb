@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4401",
+  "formula" : "C6H10O",
+  "name" : "(e)-2-hexenal",
+  "synonyms" : [ "(2e)-hex-2-enal", "trans-2-hexenal" ],
+  "alias" : "icpd4401",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C08497"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-2-HEXENAL"
+  } ],
+  "inchi" : "InChI=1S/C6H10O/c1-2-3-4-5-6-7/h4-6H,2-3H2,1H3/b5-4+",
+  "inchikey" : "MBDOYVRWFFCFHM-SNAWJCMRSA-N",
+  "smiles" : "CCC/C=C/C=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Alk-2-enals" ],
+      "reactions" : [ "META:RXN-1346", "META:RXN-12299", "META:RXN-1348" ],
+      "gibbs" : 95.95121,
+      "cmlMolWeight" : 98.144,
+      "molWeight" : 98.144,
+      "parents" : [ "META:Alk-2-enals" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   28.0000  -19.2025    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7842  -19.9040    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.2158  -19.8923    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5681  -19.2084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.4319  -19.1967    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.3523  -19.9099    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.6420  -19.8865    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  4  6  1  0     0  0\n  5  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C08497\n\n$$$$",
+  "reactions" : [ ]
+}

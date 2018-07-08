@@ -1,0 +1,31 @@
+{
+  "id" : "icpd401",
+  "formula" : "C3H2N2O",
+  "name" : "imidazolone",
+  "synonyms" : [ "2h-imidazol-2-one", "imidazol-2-one" ],
+  "alias" : "icpd401",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20382"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14546"
+  } ],
+  "inchi" : "InChI=1S/C3H2N2O/c6-3-4-1-2-5-3/h1-2H",
+  "inchikey" : "WZELXJBMMZFDDU-UHFFFAOYSA-N",
+  "smiles" : "C1=NC(=O)N=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-13558" ],
+      "gibbs" : 2.6544824,
+      "cmlMolWeight" : 84.077,
+      "molWeight" : 84.077
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  0  0  0  0  0  0999 V2000\n   19.7497  -17.0267    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   19.3219  -18.3345    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6288  -16.2073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.9478  -18.3345    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5139  -17.0267    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6288  -14.8332    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  2  0     0  0\n  3  5  1  0     0  0\n  3  6  2  0     0  0\n  4  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20382\n\n$$$$",
+  "reactions" : [ "irxn5185" ]
+}

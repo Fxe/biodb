@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4495",
+  "equation" : "o2 + dhor__S + h <=> orot + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd1851" : "",
+      "icpd231" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd2068" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DHROm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHORDi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHROm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iRC1080", "iND750", "iMM904", "iJN678", "iYO844", "iJN746" ]
+    }
+  }
+}

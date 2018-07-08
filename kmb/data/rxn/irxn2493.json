@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2493",
+  "equation" : "tdcoa + crn <=> coa + ttdcrn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2373" : "",
+      "icpd6570" : ""
+    },
+    "r" : {
+      "icpd2146" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "TTDCPT2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "TTDCPT2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "TTDCPT1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "RECON1" ]
+    }
+  }
+}

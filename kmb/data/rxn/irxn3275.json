@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3275",
+  "equation" : "h2o + tton <=> tsul + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6922" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7289" : "",
+      "icpd5748" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.12.1.1; 3.12.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3.12.1.1-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01930"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -25.167114,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00920" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

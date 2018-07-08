@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1965",
+  "equation" : "mppp9 + amet <=> ahcys + icpd526",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd3797" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd526" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.11; EC-2.1.1.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04237"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-MG-PROTOPORPHYRIN-METHYLESTER-SYN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5531", "META:PWY-7159", "META:CHLOROPHYLL-SYN" ],
+      "orphan" : "NO",
+      "gibbs" : -4.0817566,
+      "uniprot" : [ "P26162", "Q9RFD7", "Q9RFD5" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100", "rn01110" ],
+      "orthologs" : [ "K03428" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

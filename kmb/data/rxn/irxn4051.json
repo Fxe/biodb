@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4051",
+  "equation" : "h2o + icpd3099 <=> asp__L + for",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd3099" : ""
+    },
+    "r" : {
+      "icpd1650" : "",
+      "icpd95" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.1.8; EC-3.5.1.8; 3.5.1.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00526"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FORMYLASPARTATE-DEFORMYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 0.021102905,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn00340" ],
+      "orthologs" : [ "K01437" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

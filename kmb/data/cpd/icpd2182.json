@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2182",
+  "formula" : "C8H17NO2S",
+  "name" : "2-amino-7-(methylsulfanyl)heptanoic acid",
+  "synonyms" : [ ],
+  "alias" : "icpd2182",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C17221"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPDQT-404"
+  } ],
+  "inchi" : "InChI=1S/C8H17NO2S/c1-12-6-4-2-3-5-7(9)8(10)11/h7H,2-6,9H2,1H3,(H,10,11)",
+  "inchikey" : "UKDJCWUSWYBRDM-UHFFFAOYSA-N",
+  "smiles" : "CSCCCCCC(C(=O)[O-])[N+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:N-homo-methionine" ],
+      "reactions" : [ "META:RXN-13021", "META:RXNQT-4346", "META:RXNQT-4310" ],
+      "gibbs" : 103.55905,
+      "cmlMolWeight" : 191.288,
+      "molWeight" : 191.288,
+      "parents" : [ "META:N-homo-methionine" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   13.1606  -15.8202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3730  -16.5202    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5855  -15.8202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7980  -16.5202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0104  -15.8202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2229  -16.5202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4354  -15.8202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6478  -16.5202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8603  -15.8202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0728  -16.5202    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8603  -14.4205    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6478  -17.9202    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  9 11  2  0     0  0\n  8 12  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C17221\n\n$$$$",
+  "reactions" : [ ]
+}

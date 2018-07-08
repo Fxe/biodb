@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2572",
+  "equation" : "h2o + pail45p_hs <=> mi145p + h + dag_hs",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd609" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd911" : "",
+      "icpd710" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "PI45PLC",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PI45PLCn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PI45PLC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id" : "icpd5033",
+  "formula" : "C8H10O",
+  "name" : "3-methylbenzyl alcohol",
+  "synonyms" : [ "3-methyl-benzenemethanol", "3-methylbenzylalcohol" ],
+  "alias" : "3mbzalc",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "3mbzalc"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C07216"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "3mbzalc"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-METHYLBENZYL-ALCOHOL"
+  } ],
+  "inchi" : "InChI=1S/C8H10O/c1-7-3-2-4-8(5-7)6-9/h2-5,9H,6H2,1H3",
+  "inchikey" : "JJCKHVUTVOPLBV-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=CC(=C1)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8580", "META:RXN-8578" ],
+      "gibbs" : 92.8012,
+      "cmlMolWeight" : 122.166,
+      "molWeight" : 122.166
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   25.8464  -20.2160    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0574  -20.9121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6295  -20.9121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8464  -18.8178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0574  -22.3161    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6295  -22.3161    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0574  -18.1158    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8464  -23.0121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2683  -23.0121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  8  2  0     0  0\n  5  9  1  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07216\n\n$$$$",
+  "reactions" : [ "irxn1822", "irxn5759" ]
+}

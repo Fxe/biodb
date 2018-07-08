@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5350",
+  "formula" : "C7H6N2O4",
+  "name" : "2,4-dinitrotoluene",
+  "synonyms" : [ ],
+  "alias" : "icpd5350",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11006"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9132"
+  } ],
+  "inchi" : "InChI=1S/C7H6N2O4/c1-5-2-3-6(8(10)11)4-7(5)9(12)13/h2-4H,1H3",
+  "inchikey" : "RMBFBMJGBANMMK-UHFFFAOYSA-N",
+  "smiles" : "CC1=CC=C(C=C1[N+](=O)[O-])[N+](=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:C-nitro-compounds", "META:Aromatics" ],
+      "reactions" : [ "META:RXN-16797", "META:RXN-8820" ],
+      "gibbs" : -37.58328,
+      "cmlMolWeight" : 182.135,
+      "molWeight" : 182.135,
+      "parents" : [ "META:C-nitro-compounds", "META:Aromatics" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 13  0  0  0  0  0  0  0  0999 V2000\n   26.4215  -15.8718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4215  -17.2721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6381  -17.9757    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8473  -17.2721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8473  -15.8718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6381  -15.1752    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6398  -13.7751    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0615  -15.1762    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   27.6398  -19.3758    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   31.2745  -15.8736    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0625  -13.7759    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n   26.4271  -20.0739    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8543  -20.0709    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  6  7  1  0     0  0\n  1  2  2  0     0  0\n  5  8  1  0     0  0\n  2  3  1  0     0  0\n  3  9  1  0     0  0\n  3  4  2  0     0  0\n  8 10  2  0     0  0\n  4  5  1  0     0  0\n  8 11  1  0     0  0\n  5  6  2  0     0  0\n  9 12  2  0     0  0\n  6  1  1  0     0  0\n  9 13  1  0     0  0\nM  CHG  4   8   1   9   1  11  -1  13  -1\nM  END\n\n> <ENTRY>\ncpd:C11006\n\n$$$$",
+  "reactions" : [ "irxn1705" ]
+}

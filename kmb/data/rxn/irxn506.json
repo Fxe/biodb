@@ -1,0 +1,46 @@
+{
+  "id" : "irxn506",
+  "equation" : "icpd1642 + nadp <=> nadph + mergtrol + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1642" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd1329" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.1.70; EC-1.3.1.70",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07483"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-4144"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-19567" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-2541" ],
+      "orphan" : "NO",
+      "gibbs" : 1.2635345,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100", "rn01110" ],
+      "orthologs" : [ "K00222", "Delta14" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

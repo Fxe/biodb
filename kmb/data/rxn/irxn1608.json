@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1608",
+  "equation" : "mnl + icpd1521 <=> mnl1p + icpd5516",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1370" : "",
+      "icpd1521" : ""
+    },
+    "r" : {
+      "icpd3157" : "",
+      "icpd5516" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.197; 2.7.1.197",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02704"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:TRANS-RXN-156"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:SORBITOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -33.6911,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00051" ],
+      "orthologs" : [ "K02800", "K02799", "K02798" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

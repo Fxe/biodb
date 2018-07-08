@@ -1,0 +1,45 @@
+{
+  "id" : "irxn593",
+  "equation" : "o2 + 3hanthrn <=> cmusa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd8162" : ""
+    },
+    "r" : {
+      "icpd5371" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.13.11.6",
+  "otherNames" : [ ],
+  "alias" : "3HAO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "3HAO"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02665"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K00452" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

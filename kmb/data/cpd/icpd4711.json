@@ -1,0 +1,39 @@
+{
+  "id" : "icpd4711",
+  "formula" : "C2H5O4P",
+  "name" : "phosphonoacetaldehyde",
+  "synonyms" : [ "2-phosphonoacetaldehyde", "phosphonic acid, (2-oxoethyl)-" ],
+  "alias" : "Pald",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03167"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "Pald"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-551"
+  } ],
+  "inchi" : "InChI=1S/C2H5O4P/c3-1-2-7(4,5)6/h1H,2H2,(H2,4,5,6)",
+  "inchikey" : "YEMKIGUKNDOZEG-UHFFFAOYSA-N",
+  "smiles" : "C(=O)CP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-11496" ],
+      "instances" : [ "META:Organophosphonates" ],
+      "reactions" : [ "META:2.6.1.37-RXN", "META:4.1.1.82-RXN", "META:PHOSPHONOACETALDEHYDE-HYDROLASE-RXN", "META:RXN-9009", "META:RXN-15545", "META:RXN-12513", "META:RXN-12524" ],
+      "gibbs" : -196.00757,
+      "cmlMolWeight" : 123.025,
+      "molWeight" : 123.025,
+      "parents" : [ "META:Organophosphonates" ]
+    },
+    "bigg" : {
+      "models" : [ "STM_v1_0" ]
+    }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   28.0033  -20.2829    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.1666  -19.6084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8362  -19.6120    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6673  -18.9372    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9600  -20.9164    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5099  -18.3077    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.3941  -20.3143    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  1  0     0  0\n  3  6  2  0     0  0\n  2  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03167\n\n$$$$",
+  "reactions" : [ "irxn4042", "irxn6241", "irxn2467", "irxn6008" ]
+}

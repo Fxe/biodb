@@ -1,0 +1,39 @@
+{
+  "id" : "icpd7688",
+  "formula" : "C6H5O4",
+  "name" : "(2z,4e)-2-hydroxy-6-oxohexa-2,4-dienoate",
+  "synonyms" : [ ],
+  "alias" : "2hmcnsad",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00682"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYMUCONATE-SALD"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2hmcnsad"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2hmcnsad"
+  } ],
+  "inchi" : "InChI=1S/C6H6O4/c7-4-2-1-3-5(8)6(9)10/h1-4,8H,(H,9,10)/p-1/b2-1+,5-3-",
+  "inchikey" : "KGLCZTRXNNGESL-WFTYEQLWSA-M",
+  "smiles" : "C(\\[H])(=C(/[H])\\C=O)/C(/[H])=C(/C(=O)O)\\[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:3.7.1.9-RXN", "META:RXN-15423", "META:RXN-8527", "META:RXN-10883", "META:CATECHOL-23-DIOXYGENASE-RXN" ],
+      "gibbs" : -57.776463,
+      "cmlMolWeight" : 141.103,
+      "molWeight" : 141.103
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   23.9091  -20.6401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1195  -19.9435    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3296  -20.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5400  -19.9365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5329  -18.5362    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7432  -17.8256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9535  -18.5291    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7402  -16.4253    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9464  -19.9295    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.1693  -17.8293    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0     0  0\n  5  6  2  0     0  0\n  1  2  2  0     0  0\n  6  7  1  0     0  0\n  3  4  2  0     0  0\n  6  8  1  0     0  0\n  7  9  1  0     0  0\n  4  5  1  0     0  0\n  7 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00682\n\n$$$$",
+  "reactions" : [ "irxn1692", "irxn4312", "irxn2063" ]
+}

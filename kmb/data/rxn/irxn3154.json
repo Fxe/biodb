@@ -1,0 +1,51 @@
+{
+  "id" : "irxn3154",
+  "equation" : "4aphdob <=> kynate + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2243" : ""
+    },
+    "r" : {
+      "icpd3927" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "KYNATESYN",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10720"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "KYNATESYNm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03445"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "KYNATESYN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6309" ],
+      "orphan" : null,
+      "gibbs" : -38.78524,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

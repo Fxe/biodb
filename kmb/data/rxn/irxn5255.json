@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5255",
+  "equation" : "4ahmmp + atp <=> icpd7931 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2370" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd7931" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.49; 2.7.1.49",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OHMETPYRKIN-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03471"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HMP", "META:PYRIDOXINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7357", "META:PWY-7356", "META:PWY-6910" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815887,
+      "uniprot" : [ "O48881" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00730" ],
+      "orthologs" : [ "K21219", "K14153", "K00877", "K00941" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

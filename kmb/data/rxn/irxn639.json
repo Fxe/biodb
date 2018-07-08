@@ -1,0 +1,52 @@
+{
+  "id" : "irxn639",
+  "equation" : "h2o + 1acpc <=> 2obut + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6968" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3298" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.99.7; EC-3.5.99.7",
+  "otherNames" : [ ],
+  "alias" : "ACCAHm",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ACCAHm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ACCAHh"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00997"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4.1.99.4-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -12.547131,
+      "uniprot" : [ "Q9URX3", "Q9WY68", "Q9V2L2", "P30297", "Q7M523" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00270" ],
+      "orthologs" : [ "K01505" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

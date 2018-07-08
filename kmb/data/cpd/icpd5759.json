@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5759",
+  "formula" : "C8H7O4",
+  "name" : "4-hydroxymandelate",
+  "synonyms" : [ "(+/-)-alpha,4-dihydroxy-benzeneacetate", "(rs)-p-hydroxymandelate", "2-(4-hydroxyphenyl)-2-hydroxyacetate", "4-hydroxy-dl-mandelate", "4-hydroxyphenylglycolate", "alpha,4-dihydroxy-benzeneacetate", "alpha,4-dihydroxybenzeneacetate", "dl-4-hydroxymandelate", "dl-p-hydroxymandelate", "dl-p-hydroxyphenylglycolate", "hydroxy(4-hydroxyphenyl)acetate", "p-hydroxy-mandelate", "p-hydroxymandelate", "p-hydroxyphenylglycolate" ],
+  "alias" : "icpd5759",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11527"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXYMANDELATE"
+  } ],
+  "inchi" : "InChI=1S/C8H8O4/c9-6-3-1-5(2-4-6)7(10)8(11)12/h1-4,7,9-10H,(H,11,12)/p-1",
+  "inchikey" : "YHXHKYRQLYQUIH-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=CC(=C1)[O-])C(C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-105", "META:CPD-106" ],
+      "reactions" : [ "META:1.13.11.46-RXN" ],
+      "gibbs" : -55.814228,
+      "cmlMolWeight" : 167.141,
+      "molWeight" : 167.141,
+      "parents" : [ "META:CPD-105", "META:CPD-106" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   25.7066  -18.9619    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7066  -20.3621    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9229  -21.0586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1322  -20.3621    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.1322  -18.9619    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9229  -18.2583    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5005  -21.0591    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3460  -18.2593    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   30.5540  -18.9619    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.7642  -18.2514    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.5469  -20.3621    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.3476  -16.8591    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  6  1  1  0     0  0\n  2  7  1  0     0  0\n  1  2  2  0     0  0\n  5  8  1  0     0  0\n  2  3  1  0     0  0\n  8  9  1  0     0  0\n  3  4  2  0     0  0\n  9 10  1  0     0  0\n  4  5  1  0     0  0\n  9 11  2  0     0  0\n  5  6  2  0     0  0\n  8 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11527\n\n$$$$",
+  "reactions" : [ "irxn5331" ]
+}

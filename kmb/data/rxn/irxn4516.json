@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4516",
+  "equation" : "h2o + icpd6826 <=> icpd3361 + so4",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6826" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3361" : "",
+      "icpd5748" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.6.9; 3.1.6.9",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CHONDRO-4-SULFATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03517"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6572", "META:PWY-7646" ],
+      "orphan" : null,
+      "gibbs" : -51.367126,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

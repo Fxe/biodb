@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4357",
+  "equation" : "dolichol + pc_EC <=> icpd4024 + icpd324",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1676" : "",
+      "icpd1157" : ""
+    },
+    "r" : {
+      "icpd4024" : "",
+      "icpd324" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.83; EC-2.3.1.83",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R04227"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.83-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1355.788,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

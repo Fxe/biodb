@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5486",
+  "equation" : "nad + icpd7814 <=> nadh + icpd5419 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7814" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5419" : "",
+      "icpd5377" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.403; EC-1.1.1.403",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11342"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ERYTHRULOSE-REDUCTASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7786" ],
+      "orphan" : "NO",
+      "gibbs" : 1.0818176,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

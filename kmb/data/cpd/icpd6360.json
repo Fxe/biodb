@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6360",
+  "formula" : "C10H16",
+  "name" : "1-methyl-4-(1-methylethyl)-1,3-cyclohexadiene",
+  "synonyms" : [ "1-isopropyl-4-methyl-1,3-cyclohexadiene", "1-isopropyl-4-methyl-cyclohexa-1,3-diene", "1-isopropyl-4-methylcyclohexa-1,3-diene", "1-methyl-4-(propan-2-yl)cyclohexa-1,3-diene", "1-methyl-4-isopropyl-1,3-cyclohexadiene" ],
+  "alias" : "icpd6360",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C09898"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-8735"
+  } ],
+  "inchi" : "InChI=1S/C10H16/c1-8(2)10-6-4-9(3)5-7-10/h4,6,8H,5,7H2,1-3H3",
+  "inchikey" : "YHQGMYUVUMAZJR-UHFFFAOYSA-N",
+  "smiles" : "CC(C)C1=CC=C(C)CC1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Monoterpenes" ],
+      "reactions" : [ "META:RXN-8546", "META:RXN-11279" ],
+      "gibbs" : 185.42793,
+      "cmlMolWeight" : 136.236,
+      "molWeight" : 136.236,
+      "parents" : [ "META:Monoterpenes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   24.6400  -16.1740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6400  -17.5706    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   23.4238  -15.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8503  -15.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4297  -18.2689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8562  -18.2632    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4238  -14.0677    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8503  -14.0677    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6400  -13.3751    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6400  -11.9727    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  4  8  1  0     0  0\n  7  9  1  0     0  0\n  9 10  1  0     0  0\n  8  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C09898\n\n$$$$",
+  "reactions" : [ "irxn214" ]
+}

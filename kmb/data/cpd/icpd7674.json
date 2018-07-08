@@ -1,0 +1,38 @@
+{
+  "id" : "icpd7674",
+  "formula" : "C5H11O8P",
+  "name" : "d-ribose 5-phosphate",
+  "synonyms" : [ "d-ribose-5-phosphate", "d-ribose-5-phosphorate", "ribose 5-phosphate", "ribose-5-phosphate", "ribose-5-phosphorate" ],
+  "alias" : "icpd7674",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15317"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00117"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RIBOSE-5P"
+  } ],
+  "inchi" : "InChI=1S/C5H11O8P/c6-1-3(7)5(9)4(8)2-13-14(10,11)12/h1,3-5,7-9H,2H2,(H2,10,11,12)/t3-,4+,5-/m0/s1",
+  "inchikey" : "PPQRONHOSHZGFQ-LMVFSUKVSA-N",
+  "smiles" : "C(=O)[C@@]([H])([C@@]([H])([C@@]([H])(COP(=O)(O)O)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:F16ALDOLASE-RXN", "META:PGLUCISOM-RXN", "META:KDO-8PSYNTH-RXN" ],
+      "activators" : [ "META:F16ALDOLASE-RXN", "META:RXN-3443", "META:PEPDEPHOS-RXN" ],
+      "instances" : [ "META:CPD-15318", "META:CPD-16551" ],
+      "reactions" : [ "META:RXN-4314", "META:RXN-14065", "META:RXN-4313", "META:INOSINATE-NUCLEOSIDASE-RXN", "META:RXN0-5398", "META:AMP-NUCLEOSID-RXN", "META:RXN-15912", "META:RXN0-1441", "META:NMNNUCLEOSID-RXN", "META:RXN-8444", "META:RXN-14996" ],
+      "gibbs" : -302.92813,
+      "cmlMolWeight" : 228.095,
+      "molWeight" : 228.095,
+      "parents" : [ "META:CPD-15318", "META:CPD-16551", "META:RIBOSE-5P" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 14 14  0  0  1  0  0  0  0  0999 V2000\n   19.2239  -16.0492    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0\n   20.6261  -16.0492    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8280  -16.0492    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2239  -17.5151    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2175  -14.5770    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4689  -14.9428    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7939  -15.3545    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.2377  -16.6926    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.9260  -14.5377    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6593  -16.6926    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   22.4337  -17.8310    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0838  -15.3739    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   25.4890  -17.8118    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4854  -14.8794    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  2  0     0  0\n  2  6  1  0     0  0\n  7  6  1  1     0  0\n  7  8  1  0     0  0\n  7  9  1  0     0  0\n  8 10  1  0     0  0\n  8 11  1  6     0  0\n  9 12  1  0     0  0\n 10 13  1  6     0  0\n 12 14  1  4     0  0\n 10 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00117\n\n$$$$",
+  "reactions" : [ "irxn345", "irxn1462", "irxn5058", "irxn2409", "irxn3395", "irxn4945", "irxn2415", "irxn6417", "irxn548", "irxn2523", "irxn3149", "irxn5348" ]
+}

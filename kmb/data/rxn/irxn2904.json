@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2904",
+  "equation" : "uacgam + h2o <=> udp + acmana + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2540" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd6858" : "",
+      "icpd5809" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.2.1.183; 5.1.3.14",
+  "otherNames" : [ ],
+  "alias" : "r0113",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0113"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00414"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UAG2EMA"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100" ],
+      "orthologs" : [ "K12409" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iMM1415", "iJN678", "RECON1", "iSB619", "iHN637", "iYO844" ]
+    }
+  }
+}

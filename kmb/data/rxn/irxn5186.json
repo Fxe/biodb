@@ -1,0 +1,44 @@
+{
+  "id" : "irxn5186",
+  "equation" : "Rtotal3coa <=> pmtcoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2189" : ""
+    },
+    "r" : {
+      "icpd3474" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "ARTPLM3",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ARTPLM3m"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARTPLM3"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

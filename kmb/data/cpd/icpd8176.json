@@ -1,0 +1,38 @@
+{
+  "id" : "icpd8176",
+  "formula" : "C21H26O2",
+  "name" : "2-[(2e)-3,7-dimethylocta-2,6-dien-1-yl]-3-methylnaphthalene-1,4-diol",
+  "synonyms" : [ ],
+  "alias" : "mql8",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05819"
+  }, {
+    "source" : "BiGG",
+    "entry" : "mql8"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Menaquinols"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "mql8"
+  } ],
+  "inchi" : "InChI=1S/C21H26O2/c1-14(2)8-7-9-15(3)12-13-17-16(4)20(22)18-10-5-6-11-19(18)21(17)23/h5-6,8,10-12,22-23H,7,9,13H2,1-4H3/b15-12+",
+  "inchikey" : "CZHYZLLLSCZMRL-NTCAYCPXSA-N",
+  "smiles" : "CC(=CCC/C(=C/CC1=C(C)C(=C2C=CC=CC2=C1O)O)/C)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-12125", "META:CPD-12126", "META:CPD-12127", "META:CPD-12128", "META:CPD-12129", "META:CPD-12130", "META:REDUCED-MENAQUINONE", "META:CPD-12124" ],
+      "reactions" : [ "META:DIMESULFREDUCT-RXN", "META:RXN-15740", "META:RXN0-3501", "META:RXN0-6259", "META:RXN-11046", "META:1.12.5.1-RXN", "META:RXN-15349", "META:RXN0-7123", "META:RXN0-5264", "META:RXN0-5388", "META:RXN0-6554", "META:RXN-18550", "META:RXN-16471", "META:FORMATEDEHYDROG-RXN", "META:RXN-16564", "META:RXN-18001", "META:RXN-12164", "META:RXN-14107", "META:R601-RXN", "META:RXN-18604", "META:TRANS-RXN0-234", "META:RXN-12129", "META:RXN0-5256", "META:RXNI-3", "META:RXN0-5254" ],
+      "parents" : [ "META:CPD-12125", "META:CPD-12126", "META:CPD-12127", "META:CPD-12128", "META:CPD-12129", "META:ETR-Quinols", "META:Dihydromenaquinols", "META:CPD-12130", "META:REDUCED-MENAQUINONE", "META:CPD-12124" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iJR904", "iAF987", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iSB619", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iHN637", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iNJ661", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 23 24  0  0  0  0  0  0  0  0999 V2000\n   13.4400  -14.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4400  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6524  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8649  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8649  -14.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6524  -14.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0773  -16.8700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2897  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2897  -14.7700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0773  -14.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0773  -12.6700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0773  -18.2700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4873  -14.0785    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4873  -16.8615    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6756  -14.7645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8664  -14.0769    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0560  -14.7637    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.2461  -14.0765    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.4362  -14.7635    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6261  -14.0763    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.8162  -14.7635    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6261  -12.6702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.8664  -12.6702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\n  5 10  1  0     0  0\n 10 11  1  0     0  0\n  7 12  1  0     0  0\n  9 13  1  0     0  0\n  8 14  1  0     0  0\n 13 15  1  0     0  0\n 15 16  2  0     0  0\n 16 17  1  0     0  0\n 17 18  1  0     0  0\n 18 19  1  0     0  0\n 19 20  2  0     0  0\n 20 21  1  0     0  0\n 20 22  1  0     0  0\n 16 23  1  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1  5  13  15  16  17  23\nM  SDI   1  4   19.0400  -15.6100   19.0400  -12.9500\nM  SDI   1  4   23.5900  -12.9500   23.5900  -15.6100\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C05819\n\n$$$$",
+  "reactions" : [ "irxn4819", "irxn2205", "irxn3631", "irxn4511", "irxn4379", "irxn1575", "irxn1313", "irxn6005", "irxn3462", "irxn6014", "irxn5245", "irxn5162", "irxn953", "irxn414", "irxn4090" ]
+}

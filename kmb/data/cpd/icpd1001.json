@@ -1,0 +1,28 @@
+{
+  "id" : "icpd1001",
+  "formula" : "H5O10P3",
+  "name" : "triphosphoric acid",
+  "synonyms" : [ "[hydroxy(phosphonooxy)phosphoryl]oxyphosphonic acid", "bis(phosphonooxy)phosphinic acid", "diphosphono hydrogen phosphate", "{[hydroxy(phosphonooxy)phosphoryl]oxy}phosphonic acid" ],
+  "alias" : "icpd1001",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OLIGOPHOSPHATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02174"
+  } ],
+  "inchi" : "InChI=1S/H5O10P3/c1-11(2,3)9-13(7,8)10-12(4,5)6/h(H,7,8)(H2,1,2,3)(H2,4,5,6)",
+  "inchikey" : "UNXRWKVEANCORM-UHFFFAOYSA-N",
+  "smiles" : "OP(=O)(O)OP(=O)(O)OP(=O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:ENDOPOLYPHOSPHATASE-RXN" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  0  0  0  0  0  0999 V2000\n   31.7800  -22.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.1800  -22.7500    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   33.1800  -21.3500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.1800  -24.1500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   35.9800  -22.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3800  -22.7500    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3800  -21.3500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   37.3800  -24.1500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   40.1800  -22.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   41.5800  -22.7500    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   41.5800  -21.3500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   42.9800  -22.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   41.5800  -24.1500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  2  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  2  5  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 10 12  1  0     0  0\n 10 13  2  0     0  0\n  6  9  1  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1  4   5   6   7   8\nM  SDI   1  4   35.0700  -23.5200   35.0700  -22.1200\nM  SDI   1  4   38.6400  -22.1200   38.6400  -23.5200\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C02174\n\n$$$$",
+  "reactions" : [ ]
+}

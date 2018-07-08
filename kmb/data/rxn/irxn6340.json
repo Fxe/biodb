@@ -1,0 +1,53 @@
+{
+  "id" : "irxn6340",
+  "equation" : "nad + 3hpp <=> nadh + h + msa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd3114" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd206" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.59; 1.1.1.59",
+  "otherNames" : [ ],
+  "alias" : "3HPPD",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "3HPPD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01608"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXYPROPIONATE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0365"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7574", "META:PWY-6373", "META:PWY-3941" ],
+      "orphan" : "NO",
+      "gibbs" : 5.081787,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn00410", "rn01100", "rn01200" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

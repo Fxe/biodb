@@ -1,0 +1,35 @@
+{
+  "id" : "icpd944",
+  "formula" : "C33H52N7O18P3S",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "3hdd5coa",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "3hdd5coa"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15690"
+  } ],
+  "inchi" : "InChI=1S/C33H56N7O18P3S/c1-4-5-6-7-8-9-10-11-21(41)16-24(43)62-15-14-35-23(42)12-13-36-31(46)28(45)33(2,3)18-55-61(52,53)58-60(50,51)54-17-22-27(57-59(47,48)49)26(44)32(56-22)40-20-39-25-29(34)37-19-38-30(25)40/h9-10,19-22,26-28,32,41,44-45H,4-8,11-18H2,1-3H3,(H,35,42)(H,36,46)(H,50,51)(H,52,53)(H2,34,37,38)(H2,47,48,49)/p-4",
+  "inchikey" : "AYORDFMYYBNSBO-UHFFFAOYSA-J",
+  "smiles" : "CCCCCCC=CCC(CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(N2C=NC3=C2N=CN=C3N)O1)O)OP(=O)([O-])[O-])O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:All-Coas", "META:Lipids" ],
+      "reactions" : [ "META:RXN-14802", "META:RXN-14801" ],
+      "gibbs" : -321.46365,
+      "cmlMolWeight" : 959.791,
+      "molWeight" : 959.791,
+      "parents" : [ "META:All-Coas", "META:Lipids" ]
+    },
+    "bigg" : {
+      "models" : [ "iLB1027_lipid" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn5494", "irxn3754" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7340",
+  "formula" : "CH3Br",
+  "name" : "methyl bromide",
+  "synonyms" : [ "bromo-methane", "bromomethane", "methylbromid", "methylbromide", "monobromomethane" ],
+  "alias" : "icpd7340",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C18447"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12221"
+  } ],
+  "inchi" : "InChI=1S/CH3Br/c1-2/h1H3",
+  "inchikey" : "GZUXJHMPEANEGY-UHFFFAOYSA-N",
+  "smiles" : "CBr",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Bromide" ],
+      "reactions" : [ "META:RXN-11268" ],
+      "gibbs" : 27.163363,
+      "cmlMolWeight" : 94.939,
+      "molWeight" : 94.939,
+      "parents" : [ "META:Bromide" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  2  1  0  0  0  0  0  0  0  0999 V2000\n   20.0900  -20.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4900  -20.6500    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18447\n\n$$$$",
+  "reactions" : [ ]
+}

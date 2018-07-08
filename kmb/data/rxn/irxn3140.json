@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3140",
+  "equation" : "icpd6516 <=> mescon + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6516" : ""
+    },
+    "r" : {
+      "icpd5745" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.3.1.2; 4.3.1.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03696"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:METHYLASPARTATE-AMMONIA-LYASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5087", "META:PWY-6728" ],
+      "orphan" : "NO",
+      "gibbs" : 1.2817688,
+      "uniprot" : [ "O66145", "Q05514" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100", "C5", "rn00660", "rn01200" ],
+      "orthologs" : [ "K04835" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

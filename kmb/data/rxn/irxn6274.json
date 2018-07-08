@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6274",
+  "equation" : "h2o + icpd5569 <=> pi + icpd4732",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5569" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd4732" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.3.1; 3.1.3.1; 3.1.3.2; EC-3.1.3.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ALKAPHOSPHA-RXN"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACID-PHOSPHATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00626"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:TUNGSTATE", "META:ARSENATE", "META:CYS", "META:CPD-3", "META:URIDINE", "META:Nucleosides", "META:EDTA", "META:CPD-4584", "META:CPD-4422", "META:Pi", "META:THIOGLYCOLATE", "META:CA+2", "META:GUANOSINE" ],
+      "activators" : [ "META:ETOH" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6348" ],
+      "orphan" : "NO",
+      "gibbs" : -3.0541382,
+      "uniprot" : [ "P51740", "P09889", "P09923", "P30887", "Q12546", "Q9UZV2", "O24319", "Q47489", "Q47488", "Q9SW12", "P19405", "P11491", "P44009", "P19406", "P15693", "Q05205", "Q7M1H4", "P24638", "P38693", "P08289", "Q9ZS50", "P26976", "P26975", "P14924", "Q01682", "P34755", "P35842", "Q47487", "P20646", "Q47486", "Q47485", "P72715", "P08091", "Q47484", "Q7M4U8", "Q05117", "P37274", "P05186", "Q9SDZ9", "P05187", "P52291", "P28581", "P15309", "P10696", "P19111", "Q29486", "Q7M4X4", "P13686", "P20611", "Q01343", "P21948", "Q9VAD0", "P24031", "Q9ZP14", "P29288", "Q8JZS4", "P27061", "P11117", "Q01652", "P00635", "P09487", "P00634", "P20584", "P24822", "Q7M2K9", "Q7M2K8", "Q9XF09", "P07102" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn19",
+  "equation" : "7mht + atp <=> cob + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3355" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5149" : "",
+      "icpd1851" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.-",
+  "otherNames" : [ ],
+  "alias" : "COBS",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08217"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:R227-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "COBS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P241-PWY" ],
+      "orphan" : null,
+      "gibbs" : -16.064087,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00680", "rn01120" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

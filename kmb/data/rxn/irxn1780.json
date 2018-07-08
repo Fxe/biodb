@@ -1,0 +1,49 @@
+{
+  "id" : "irxn1780",
+  "equation" : "cholp + ctp <=> cdpchol + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4369" : "",
+      "icpd7683" : ""
+    },
+    "r" : {
+      "icpd4502" : "",
+      "icpd1231" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.15; 2.7.7.15",
+  "otherNames" : [ ],
+  "alias" : "CHLPCTD",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.7.7.15-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHLPCTD"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01890"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CA+2" ],
+      "activators" : [ "META:INDOLE_ACETATE_AUXIN" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7782", "META:PWY-7818", "META:PWY-3561", "META:PWY-7886", "META:PWY3O-450", "META:PWY4FS-2" ],
+      "orphan" : "NO",
+      "gibbs" : -103.303406,
+      "uniprot" : [ "Q42619", "P19836", "P49587", "P49586", "P49585", "P49584", "Q42620", "Q42621", "P13259", "Q42622", "P93470" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100" ],
+      "orthologs" : [ "K00968" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

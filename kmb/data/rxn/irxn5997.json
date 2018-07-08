@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5997",
+  "equation" : "coa + atp + cit <=> pi + adp + icpd6009",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd4436" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd6009" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.18; 6.2.1.18",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01322"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CITRATE--COA-LIGASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5392" ],
+      "orphan" : "NO",
+      "gibbs" : -6.166504,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn00720" ],
+      "orthologs" : [ "K15232", "K15233" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

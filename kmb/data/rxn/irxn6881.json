@@ -1,0 +1,51 @@
+{
+  "id" : "irxn6881",
+  "equation" : "nad + coa + ohexa <=> nadh + glutcoa + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd5131" : "",
+      "icpd5414" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd5127" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.61; 1.2.4.2; 1.8.1.4",
+  "otherNames" : [ ],
+  "alias" : "2OXOADOXm",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01933"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-KETO-ADIPATE-DEHYDROG-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "2OXOADOXm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5652", "META:LYSINE-DEG1-PWY", "META:PWY66-425" ],
+      "orphan" : "NO",
+      "gibbs" : -12.066467,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00380" ],
+      "orthologs" : [ "K00164", "E1" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iLB1027_lipid", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

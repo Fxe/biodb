@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4027",
+  "formula" : "C6H4Cl2O",
+  "name" : "2,6-dichlorophenol",
+  "synonyms" : [ ],
+  "alias" : "icpd4027",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C07096"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10865"
+  } ],
+  "inchi" : "InChI=1S/C6H4Cl2O/c7-4-2-1-3-5(8)6(4)9/h1-3,9H",
+  "inchikey" : "HOLHYSJJBXSLMV-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C(=C1)Cl)O)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds" ],
+      "reactions" : [ "META:RXN-10114" ],
+      "gibbs" : 20.001303,
+      "cmlMolWeight" : 161.995,
+      "molWeight" : 161.995,
+      "parents" : [ "META:Chloroaromatic-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   28.8400  -16.2315    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6283  -16.9340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0517  -16.9340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8458  -14.8325    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6283  -18.3328    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4167  -16.2315    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   30.0517  -18.3328    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2633  -16.2315    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   28.8400  -19.0352    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  0     0  0\n  5  9  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C07096\n\n$$$$",
+  "reactions" : [ ]
+}

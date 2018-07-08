@@ -1,0 +1,54 @@
+{
+  "id" : "irxn1858",
+  "equation" : "coa + T4hcinnm + atp <=> amp + ppi + coucoa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3365" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5815" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.12; 6.2.1.12",
+  "otherNames" : [ ],
+  "alias" : "4CMCOAS",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-COUMARATE--COA-LIGASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "COUCOAFm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01616"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "4CMCOAS"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:MG+2", "META:K+" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7398", "META:PWY-7046", "META:PWY-7397", "META:PWY-6320", "META:PWY-7897", "META:PWY-5135", "META:PWY-6982", "META:PWY1F-FLAVSYN", "META:PWY-6920", "META:PWY-6435", "META:PWY-5754", "META:PWY-361" ],
+      "orphan" : "NO",
+      "gibbs" : -12.71167,
+      "uniprot" : [ "O48868", "Q42524", "Q42943", "O24146", "P14913", "Q42982", "P14912", "Q8S5C2", "P31685", "P31684", "O48869", "P31687", "P31686", "O81139", "P17814", "Q9SWH7", "P93361", "P41636", "P93360", "Q9SWH8", "O81140" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00130", "rn01110", "rn00360", "rn00940" ],
+      "orthologs" : [ "K01904" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iJN746" ]
+    }
+  }
+}

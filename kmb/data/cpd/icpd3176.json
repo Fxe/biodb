@@ -1,0 +1,32 @@
+{
+  "id" : "icpd3176",
+  "formula" : "C6H13N",
+  "name" : "cyclohexanamine",
+  "synonyms" : [ "1-amino-cyclohexane", "1-aminocyclohexane", "1-cyclohexylamine", "aminocyclohexane", "aminohexahydrobenzene", "cyclohexanamine, 9ci", "cyclohexyl amine", "cyclohexylamine", "hexahydro-aniline", "hexahydro-benzenamine", "hexahydroaniline", "hexahydrobenzenamine" ],
+  "alias" : "icpd3176",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00571"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-303"
+  } ],
+  "inchi" : "InChI=1S/C6H13N/c7-6-4-2-1-3-5-6/h6H,1-5,7H2",
+  "inchikey" : "PAFZNILMFXTMIY-UHFFFAOYSA-N",
+  "smiles" : "C1CCC(CC1)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-10747", "META:PUTRESCINE-N-METHYLTRANSFERASE-RXN" ],
+      "reactions" : [ "META:CYCLOHEXYLAMINE-OXIDASE-RXN", "META:CYCLAMATE-SULFOHYDROLASE-RXN" ],
+      "gibbs" : 157.97362,
+      "cmlMolWeight" : 100.183,
+      "molWeight" : 100.183
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  7  0  0  0  0  0  0  0  0999 V2000\n   22.1137  -15.4466    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   20.9122  -16.1433    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3343  -16.1433    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -14.0598    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9122  -17.5492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3343  -17.5492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1137  -18.2586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  5  7  1  0     0  0\n  6  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00571\n\n$$$$",
+  "reactions" : [ "irxn3905", "irxn5826" ]
+}

@@ -1,0 +1,37 @@
+{
+  "id" : "icpd7556",
+  "formula" : "C11H20N2O6",
+  "name" : "saccharopine",
+  "synonyms" : [ "(2s)-2-{[(5s)-5-amino-5-carboxypentyl]amino}pentanedioic acid", "l-saccharopin", "l-saccharopine", "n(6)-(l-1,3-dicarboxypropyl)-l-lysine", "n-[(5s)-5-amino-5-carboxypentyl]-l-glutamic acid", "n-[(s)-5-amino-5-carboxypentyl]-l-glutamic acid", "n6-(l-1,3-dicarboxypropyl)-l-lysine", "saccharopin" ],
+  "alias" : "icpd7556",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SACCHAROPINE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "saccrp-L"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00449"
+  } ],
+  "inchi" : "InChI=1S/C11H20N2O6/c12-7(10(16)17)3-1-2-6-13-8(11(18)19)4-5-9(14)15/h7-8,13H,1-6,12H2,(H,14,15)(H,16,17)(H,18,19)/t7-,8-/m0/s1",
+  "inchikey" : "ZDGJAHTZVHVLOT-YUMQZZPRSA-N",
+  "smiles" : "C(CCN[C@@H](CCC(=O)O)C(=O)O)C[C@@H](C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:1.5.1.8-RXN" ],
+      "instances" : [ "META:Modified-Amino-Acids" ],
+      "reactions" : [ "META:1.5.1.8-RXN", "META:RXN3O-127", "META:1.5.1.9-RXN", "META:1.5.1.7-RXN", "META:RXN-10744" ],
+      "gibbs" : -34.88078,
+      "cmlMolWeight" : 275.281,
+      "molWeight" : 275.281,
+      "parents" : [ "META:Modified-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 19 18  0  0  1  0  0  0  0  0999 V2000\n   15.4700  -20.8600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6824  -20.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8949  -20.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1073  -20.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3197  -20.8600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5322  -20.1600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7446  -20.8600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6824  -18.7602    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5322  -18.7603    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8949  -23.0998    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   19.1324  -23.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3449  -23.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5573  -23.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7697  -23.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9822  -23.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1946  -23.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4070  -23.8000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9822  -25.1997    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1946  -21.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  6  9  2  0     0  0\n  3 10  1  6     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n 14 15  1  0     0  0\n 15 16  1  0     0  0\n 16 17  1  0     0  0\n 15 18  1  1     0  0\n 16 19  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00449\n\n$$$$",
+  "reactions" : [ "irxn3121", "irxn6732", "irxn2903", "irxn3427", "irxn1940" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5485",
+  "formula" : "C6H4ClNO2",
+  "name" : "2-chloronitrobenzene",
+  "synonyms" : [ "1-chloro-2-nitrobenzene" ],
+  "alias" : "icpd5485",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C14407"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-18106"
+  } ],
+  "inchi" : "InChI=1S/C6H4ClNO2/c7-5-3-1-2-4-6(5)8(9)10/h1-4H",
+  "inchikey" : "BFCFYVKQTRLZHA-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C(C=C1)N(=O)=O)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chlorides", "META:C-nitro-compounds", "META:Nitroaromatic-Ox-Compounds" ],
+      "reactions" : [ "META:RXN-16792" ],
+      "gibbs" : 1.724484,
+      "cmlMolWeight" : 157.556,
+      "molWeight" : 157.556,
+      "parents" : [ "META:Chlorides", "META:C-nitro-compounds", "META:Nitroaromatic-Ox-Compounds" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   13.3400  -11.7608    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1193  -11.0604    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.9024  -11.7676    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.9064  -13.1751    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1273  -13.8753    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3441  -13.1681    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.5298  -11.0692    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0\n   12.1151   -9.6632    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   14.5255   -9.6757    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7486  -11.7681    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  1  7  1  0     0  0\n  2  8  1  0     0  0\n  7  9  2  0     0  0\n  7 10  1  0     0  0\nM  CHG  2   7   1  10  -1\nM  END\n\n> <ENTRY>\ncpd:C14407\n\n$$$$",
+  "reactions" : [ ]
+}

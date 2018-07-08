@@ -1,0 +1,34 @@
+{
+  "id" : "icpd6909",
+  "formula" : "C7H16N4O2",
+  "name" : "homoarginine",
+  "synonyms" : [ "(2s)-2-amino-6-carbamimidamidohexanoic acid", "l-homoarginine", "n6-amidino-l-lysine", "n6-amidino-lysine" ],
+  "alias" : "icpd6909",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOARGININE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01924"
+  } ],
+  "inchi" : "InChI=1S/C7H16N4O2/c8-5(6(12)13)3-1-2-4-11-7(9)10/h5H,1-4,8H2,(H,12,13)(H4,9,10,11)/t5-/m0/s1",
+  "inchikey" : "QUOGESRFPZDMMT-YFKPBYRVSA-N",
+  "smiles" : "C(CCNC(=N)N)C[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ARGININE--TRNA-LIGASE-RXN", "META:ARGINASE-RXN" ],
+      "instances" : [ "META:Amino-Acids" ],
+      "reactions" : [ "META:RXN-13073" ],
+      "gibbs" : 102.04699,
+      "cmlMolWeight" : 189.237,
+      "molWeight" : 189.237,
+      "parents" : [ "META:Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   13.5100  -21.2800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7224  -21.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9349  -21.2800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1473  -21.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3597  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5722  -21.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7846  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9970  -21.9800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2095  -21.2800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4219  -21.9800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7224  -23.3798    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9970  -23.3799    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2095  -19.8803    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  2 11  2  0     0  0\n  8 12  1  1     0  0\n  9 13  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01924\n\n$$$$",
+  "reactions" : [ ]
+}

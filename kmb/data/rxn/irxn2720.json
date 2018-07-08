@@ -1,0 +1,46 @@
+{
+  "id" : "irxn2720",
+  "equation" : "nadp + cholate <=> nadph + h + icpd6724",
+  "stoichiometry" : {
+    "l" : {
+      "icpd108" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd6724" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.1.176; 1.1.1.176",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02793"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.1.1.176-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB", "META:PYRIDOXAL_PHOSPHATE", "META:CU+2", "META:HG+2", "META:AG+" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6518" ],
+      "orphan" : "NO",
+      "gibbs" : -1.6264648,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

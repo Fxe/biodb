@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5710",
+  "equation" : "nad + h2o + lys__L <=> L2aadp6sa + nadh + n2 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4807" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7085" : "",
+      "icpd4839" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.1.18",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00446"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8808"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CU+2", "META:CPD-29", "META:HG+2", "META:PB+2" ],
+      "activators" : [ "META:LYS" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:LYSINE-6-DEHYDROGENASE-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : 5.018799,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00960", "rn01100" ],
+      "orthologs" : [ "K19064" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

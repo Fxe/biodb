@@ -1,0 +1,35 @@
+{
+  "id" : "icpd6985",
+  "formula" : "Na",
+  "name" : "sodium(1+)",
+  "synonyms" : [ ],
+  "alias" : "icpd6985",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01330"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:NA+"
+  } ],
+  "inchi" : "InChI=1S/Na/q+1",
+  "inchikey" : "FKNQFGJONOIPTF-UHFFFAOYSA-N",
+  "smiles" : "[Na+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:OHMETHYLBILANESYN-RXN", "META:PHOSACETYLTRANS-RXN", "META:LYSINE-2-MONOOXYGENASE-RXN", "META:TAGAKIN-RXN", "META:PROPIONYL-COA-CARBOXY-RXN", "META:RXN-11587", "META:DTMPKI-RXN", "META:PPPGPPHYDRO-RXN", "META:HYDROGEN-DEHYDROGENASE-RXN", "META:TRYPTOPHAN-RXN", "META:TREHALA-RXN", "META:NAD-KIN-RXN", "META:3.1.13.1-RXN", "META:ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN", "META:DIHYDROFOLATEREDUCT-RXN", "META:NADH-KINASE-RXN" ],
+      "activators" : [ "META:GLYOCARBOLIG-RXN", "META:RXN-12450", "META:3.6.3.15-RXN", "META:GLUCOSE-1-DEHYDROGENASE-NADP+-RXN", "META:1.2.1.9-RXN", "META:2.5.1.19-RXN", "META:3.1.4.38-RXN", "META:3.5.4.27-RXN", "META:RXN-12439", "META:RXN-10821", "META:RXN-2884", "META:ASPARAGHYD-RXN", "META:DIHYDROFOLATEREDUCT-RXN", "META:RXN-9774", "META:TREHALOSE6PSYN-RXN", "META:ACETYL-COA-ACETYLTRANSFER-RXN" ],
+      "instances" : [ "META:Monovalent-Inorganic-Cations" ],
+      "reactions" : [ "META:TRANS-RXN0-520", "META:TRANS-RXN-126B", "META:TRANS-RXN-101", "META:TRANS-RXN-189", "META:TRANS-RXN-122", "META:TRANS-RXN-188", "META:TRANS-RXN-125", "META:ACH1-RXN", "META:RXN-9777", "META:TRANS-RXN-126", "META:TRANS-RXN-126A", "META:TRANS-RXN-129", "META:3.6.3.9-RXN", "META:3.6.3.7-RXN", "META:TRANS-RXN-94A", "META:2.1.1.86-RXN", "META:3.6.3.15-RXN", "META:RXN-17739", "META:TRANS-RXN0-235", "META:TRANS-RXN-130", "META:TRANS-RXN-276", "META:TRANS-RXN-214", "META:TRANS-RXN-118", "META:TRANS-RXN-117", "META:RXN0-4083" ],
+      "gibbs" : -0.3120594,
+      "cmlMolWeight" : 22.99,
+      "molWeight" : 22.99,
+      "parents" : [ "META:Monovalent-Inorganic-Cations" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   25.1300  -17.2200    0.0000 Na  0  3  0  0  0  0  0  0  0  0  0  0\nM  CHG  1   1   1\nM  END\n\n> <ENTRY>\ncpd:C01330\n\n$$$$",
+  "reactions" : [ ]
+}

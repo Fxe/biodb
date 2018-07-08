@@ -1,0 +1,47 @@
+{
+  "id" : "irxn1921",
+  "equation" : "paps + chsterol <=> chsterols + h + pap",
+  "stoichiometry" : {
+    "l" : {
+      "icpd767" : "",
+      "icpd4645" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd788" : "",
+      "icpd5449" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.2.2; 2.8.2.14",
+  "otherNames" : [ ],
+  "alias" : "CHSTEROLSULT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08977"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHSTEROLSULT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00140" ],
+      "orthologs" : [ "K01015" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

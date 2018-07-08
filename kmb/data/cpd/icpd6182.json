@@ -1,0 +1,33 @@
+{
+  "id" : "icpd6182",
+  "formula" : "C6H12O6",
+  "name" : "alpha-l-sorbopyranose",
+  "synonyms" : [ "(2r,3s,4r,5s)-2-(hydroxymethyl)oxane-2,3,4,5-tetrol", "alphal-p-sorbohyrlnose", "α-l-sorbopyranose" ],
+  "alias" : "icpd6182",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C08356"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15986"
+  } ],
+  "inchi" : "InChI=1S/C6H12O6/c7-2-6(11)5(10)4(9)3(8)1-12-6/h3-5,7-11H,1-2H2/t3-,4+,5-,6+/m0/s1",
+  "inchikey" : "LKDRXBCSQODPBY-BGPJRJDNSA-N",
+  "smiles" : "C1[C@@]([H])([C@]([H])([C@@]([H])([C@](CO)(O)O1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-9569" ],
+      "reactions" : [ "META:RXN-15177" ],
+      "gibbs" : -94.35655,
+      "cmlMolWeight" : 180.157,
+      "molWeight" : 180.157,
+      "parents" : [ "META:CPD-9569" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   28.6191  -18.1927    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   28.6191  -19.5773    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.4273  -17.5034    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.8166  -17.5034    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0094  -18.9698    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4273  -20.2666    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   29.8166  -20.2666    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2298  -18.1927    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.0199  -18.1927    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2298  -19.5773    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.4332  -21.6509    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0265  -20.2666    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  1  5  1  1     0  0\n  2  6  1  0     0  0\n  2  7  1  1     0  0\n  3  8  1  0     0  0\n  4  9  1  0     0  0\n  6 10  1  0     0  0\n  6 11  1  6     0  0\n 10 12  1  1     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C08356\n\n$$$$",
+  "reactions" : [ ]
+}

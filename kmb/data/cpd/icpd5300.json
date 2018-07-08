@@ -1,0 +1,39 @@
+{
+  "id" : "icpd5300",
+  "formula" : "C3H6N3O2",
+  "name" : "guanidinoacetate",
+  "synonyms" : [ "2-[[amino(imino)methyl]amino]acetate", "alpha-guanidinoacetate" ],
+  "alias" : "gudac",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GUANIDOACETIC_ACID"
+  }, {
+    "source" : "BiGG",
+    "entry" : "gudac"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00581"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "gudac"
+  } ],
+  "inchi" : "InChI=1S/C3H7N3O2/c4-3(5)6-1-2(7)8/h1H2,(H,7,8)(H4,4,5,6)/p-1",
+  "inchikey" : "BPMFZUMJYQTVII-UHFFFAOYSA-M",
+  "smiles" : "C(C(=O)[O-])NC(=N)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:GUANIDOACETATE-KINASE-RXN", "META:GUANIDINOACETASE-RXN", "META:GLYCINE-AMIDINOTRANSFERASE-RXN", "META:RXN-16900", "META:RXN-16911", "META:GUANIDINOACETATE-N-METHYLTRANSFERASE-RXN" ],
+      "gibbs" : -4.0421624,
+      "cmlMolWeight" : 117.107,
+      "molWeight" : 117.107
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   28.2949  -20.1230    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0698  -20.8228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5131  -20.8228    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2949  -18.8510    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0628  -20.1230    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6266  -20.8228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6266  -22.3061    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4083  -20.1230    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  2  0     0  0\n  6  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00581\n\n$$$$",
+  "reactions" : [ "irxn82", "irxn6849", "irxn3107", "irxn3429" ]
+}

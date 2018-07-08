@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6857",
+  "formula" : "C9H10O",
+  "name" : "cinnamyl alcohol",
+  "synonyms" : [ "1-phenyl-1-propen-3-ol", "3-phenyl-2-propen-1-ol", "3-phenyl-2-propene-1-ol", "3-phenyl-2-propenol", "3-phenylallyl alcohol", "3-phenylprop-2-en-1-ol", "cinnamyl alcohol, 8ci", "gamma-phenylallyl alcohol", "phenylallyl alcohol", "styrylcarbinol" ],
+  "alias" : "icpd6857",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02394"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CINNAMYL-ALC"
+  } ],
+  "inchi" : "InChI=1S/C9H10O/c10-8-4-7-9-5-2-1-3-6-9/h1-7,10H,8H2",
+  "inchikey" : "OOCCDEMITAIZTP-UHFFFAOYSA-N",
+  "smiles" : "C1=CC=C(C=C1)C=CCO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-14454", "META:CINNAMYL-ALCOHOL-DEHYDROGENASE-RXN" ],
+      "gibbs" : 115.2112,
+      "cmlMolWeight" : 134.177,
+      "molWeight" : 134.177
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   11.0600  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.0600  -18.2000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.2724  -18.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4849  -18.2000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4849  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.2724  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7224  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.9349  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1473  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3597  -16.8000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  2  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02394\n\n$$$$",
+  "reactions" : [ "irxn4936", "irxn618" ]
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2399",
+  "equation" : "h2o + ppmi12346p <=> 2.0 h + pi + minohp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2030" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3329" : "",
+      "icpd1851" : "2.0",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.6.1.52",
+  "otherNames" : [ ],
+  "alias" : "PMI12346PH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PMI12346PHn"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PMI12346PH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10978"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -18.215332,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

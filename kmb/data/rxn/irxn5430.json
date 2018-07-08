@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5430",
+  "equation" : "h2o + cdpchol <=> cmp + 2.0 h + cholp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4502" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3421" : "",
+      "icpd1851" : "2.0",
+      "icpd7683" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.6.1.53; EC-3.6.1.53",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09538"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9614"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -10.245483,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

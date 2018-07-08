@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3399",
+  "equation" : "mhpglu + selhcys <=> hpglu + selmeth",
+  "stoichiometry" : {
+    "l" : {
+      "icpd239" : "",
+      "icpd219" : ""
+    },
+    "r" : {
+      "icpd3155" : "",
+      "icpd6744" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.1.1.14; 2.1.1.13; 2.1.1.14",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09365"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-12730"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6936" ],
+      "orphan" : "NO",
+      "gibbs" : -15.920031,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00450" ],
+      "orthologs" : [ "K00548", "K00549" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

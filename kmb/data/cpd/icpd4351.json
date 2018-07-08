@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4351",
+  "formula" : "C10H18O",
+  "name" : "(1r,2s,4s)-p-menth-8-en-2-ol",
+  "synonyms" : [ ],
+  "alias" : "icpd4351",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10033"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11410"
+  } ],
+  "inchi" : "InChI=1S/C10H18O/c1-7(2)9-5-4-8(3)10(11)6-9/h8-11H,1,4-6H2,2-3H3/t8-,9+,10+/m1/s1",
+  "inchikey" : "KRCZYMFUWVJCLI-UTLUCORTSA-N",
+  "smiles" : "C=C(C)[C@@]1([H])CC[C@@]([H])(C)[C@]([H])(C1)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Dihydrocarveols" ],
+      "reactions" : [ "META:RXN-9425" ],
+      "gibbs" : 182.71019,
+      "cmlMolWeight" : 154.252,
+      "molWeight" : 154.252,
+      "parents" : [ "META:Dihydrocarveols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   26.5561  -17.1807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5561  -18.5813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7731  -19.2852    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   28.9828  -18.5813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9828  -17.1807    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   27.7731  -16.4838    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.7748  -15.0831    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1903  -16.4847    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7748  -20.6860    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.5617  -21.3843    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9897  -21.3813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  1  0     0  0\n  6  1  1  0     0  0\n  6  7  1  1     0  0\n  1  2  1  0     0  0\n  5  8  1  1     0  0\n  2  3  1  0     0  0\n  3  9  1  1     0  0\n  3  4  1  0     0  0\n  9 10  1  0     0  0\n  4  5  1  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11410\n\n$$$$",
+  "reactions" : [ "irxn469" ]
+}

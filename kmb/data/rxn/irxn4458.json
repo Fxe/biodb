@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4458",
+  "equation" : "icpd5455 + nadp <=> nadph + icpd3294 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5455" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd3294" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.219; EC-1.1.1.219",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DIHYDROKAEMPFEROL-4-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03123"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:PHMB" ],
+      "activators" : [ "META:CPD-693", "META:CPD-110" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY1F-823" ],
+      "orphan" : "NO",
+      "gibbs" : -3.1764526,
+      "uniprot" : [ "O22589", "P51102", "P73212", "P51107", "O22605", "P51104", "P14720", "Q9SAY2", "P14721", "P51106", "P51105", "P93776", "Q9ZNV0", "P93777", "P93840", "P94105", "O82105", "Q9SAN4" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00941" ],
+      "orthologs" : [ "K13082" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

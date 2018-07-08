@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2419",
+  "equation" : "o2 + h2o + 5hoxindact <=> 5hoxindoa + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd889" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd903" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.3.1",
+  "otherNames" : [ ],
+  "alias" : "5HOXINDACTO2OX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "5HOXINDACTO2OX"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04904"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00380" ],
+      "orthologs" : [ "K00157" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

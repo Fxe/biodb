@@ -1,0 +1,48 @@
+{
+  "id" : "irxn3596",
+  "equation" : "crvnc + coa + atp <=> amp + c226coa + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd990" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd7504" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FACOAL226",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL_C226_x"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL226"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iLB1027_lipid", "iMM1415", "RECON1" ]
+    }
+  }
+}

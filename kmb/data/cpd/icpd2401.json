@@ -1,0 +1,32 @@
+{
+  "id" : "icpd2401",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "arso4",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "arso4"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Aryl-sulfates"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-10430", "META:CPD-16825", "META:CPD-16817", "META:CPD-16818", "META:CPD-10418", "META:CPD-16819", "META:3-SULFOCATECHOL", "META:CPD-16821" ],
+      "reactions" : [ "META:ARYL-SULFOTRANSFERASE-RXN", "META:ARYLSULFATE-SULFOTRANSFERASE-RXN" ],
+      "parents" : [ "META:CPD-10430", "META:CPD-16825", "META:CPD-16817", "META:CPD-16818", "META:CPD-10418", "META:ORGANOSULFUR", "META:CPD-16819", "META:3-SULFOCATECHOL", "META:CPD-16821" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn3914" ]
+}

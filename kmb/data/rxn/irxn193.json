@@ -1,0 +1,53 @@
+{
+  "id" : "irxn193",
+  "equation" : "o2 + nadh + vanlt + h <=> nad + h2o + fald + 34dhbz",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd1186" : ""
+    },
+    "r" : {
+      "icpd4862" : "",
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.82; 1.14.13.82",
+  "otherNames" : [ ],
+  "alias" : "VNTDM",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05274"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "VNTDM"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10891"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7098" ],
+      "orphan" : "NO",
+      "gibbs" : -99.51877,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00627" ],
+      "orthologs" : [ "K03863", "K03862" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

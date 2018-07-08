@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3904",
+  "formula" : "C4H11NO",
+  "name" : "isobutylhydroxylamine",
+  "synonyms" : [ "n-(2-methylpropanyl)hydroxylamine", "n-(2-methylpropyl)hydroxylamine", "n-hydroxy-2-methylpropanamine" ],
+  "alias" : "icpd3904",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-14697"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21369"
+  } ],
+  "inchi" : "InChI=1S/C4H11NO/c1-4(2)3-5-6/h4-6H,3H2,1-2H3",
+  "inchikey" : "NDCGVLJXFQKXOF-UHFFFAOYSA-N",
+  "smiles" : "CC(C)CNO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-18743", "META:RXN-13669" ],
+      "gibbs" : 81.382324,
+      "cmlMolWeight" : 89.137,
+      "molWeight" : 89.137
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   11.9000  -14.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.1124  -13.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3249  -14.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5373  -13.3000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   13.1124  -11.9002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7518  -14.0012    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  2  5  1  0     0  0\n  4  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21369\n\n$$$$",
+  "reactions" : [ "irxn5829", "irxn526" ]
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2430",
+  "formula" : "C4H8O2",
+  "name" : "2-hydroxy-2-methylpropanal",
+  "synonyms" : [ "2-hydroxyisobutyraldehyde" ],
+  "alias" : "icpd2430",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-19037"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21291"
+  } ],
+  "inchi" : "InChI=1S/C4H8O2/c1-4(2,6)3-5/h3,6H,1-2H3",
+  "inchikey" : "HNVAGBIANFAIIL-UHFFFAOYSA-N",
+  "smiles" : "CC(C)(C=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-17603", "META:RXN-17602" ],
+      "gibbs" : 10.088963,
+      "cmlMolWeight" : 88.106,
+      "molWeight" : 88.106
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   18.0324  -15.8775    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2482  -16.5212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4640  -15.8775    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2482  -17.9516    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2482  -15.0909    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0324  -14.4652    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  1  0     0  0\n  1  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21291\n\n$$$$",
+  "reactions" : [ "irxn3991", "irxn4099" ]
+}

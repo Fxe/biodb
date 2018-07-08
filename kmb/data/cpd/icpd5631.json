@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5631",
+  "formula" : "C7H6NO3",
+  "name" : "(5r)-carbapen-2-em-3-carboxylate",
+  "synonyms" : [ "(5r)-7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylate", "(5r)-carbapenem-3-carboxylate" ],
+  "alias" : "icpd5631",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9377"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C06669"
+  } ],
+  "inchi" : "InChI=1S/C7H7NO3/c9-6-3-4-1-2-5(7(10)11)8(4)6/h2,4H,1,3H2,(H,10,11)/p-1/t4-/m1/s1",
+  "inchikey" : "BSIMZHVOQZIAOY-SCSAIBSYSA-M",
+  "smiles" : "C1C=C(C(=O)[O-])N2[C@@]1([H])CC2=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Beta-Lactams" ],
+      "reactions" : [ "META:RXN-8952", "META:RXN-8949" ],
+      "gibbs" : -25.975342,
+      "cmlMolWeight" : 152.129,
+      "molWeight" : 152.129,
+      "parents" : [ "META:Beta-Lactams" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 13  0  0  1  0  0  0  0  0999 V2000\n   24.5051  -17.5346    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0\n   24.5051  -16.1323    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   25.8372  -17.9669    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1087  -17.5287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1087  -16.1323    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.8430  -15.7058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.6611  -16.8392    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2637  -19.2992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.1095  -18.5103    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6309  -19.5971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3231  -20.3391    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4934  -14.7241    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  4  9  2  0     0  0\n  8 10  1  0     0  0\n  8 11  2  0     0  0\n  4  5  1  0     0  0\n  6  7  1  0     0  0\n  2 12  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C06669\n\n$$$$",
+  "reactions" : [ "irxn79" ]
+}

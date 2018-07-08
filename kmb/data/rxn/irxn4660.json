@@ -1,0 +1,44 @@
+{
+  "id" : "irxn4660",
+  "equation" : "icpd2242 <=> co2 + icpd6035",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2242" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd6035" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.52; EC-4.1.1.52",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:6-METHYLSALICYLATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03567"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7490" ],
+      "orphan" : "NO",
+      "gibbs" : 0.52412796,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

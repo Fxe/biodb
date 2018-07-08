@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3519",
+  "equation" : "icpd8107 + icpd354 <=> icpd8139 + icpd3117",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd354" : ""
+    },
+    "r" : {
+      "icpd3117" : "",
+      "icpd8139" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.1.99.32; 1.1.99.32",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09551"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8782"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:QUININE", "META:IODOACETATE" ],
+      "activators" : [ "META:FE+3", "META:CO+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5521", "META:PWY-5782" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

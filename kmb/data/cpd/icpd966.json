@@ -1,0 +1,34 @@
+{
+  "id" : "icpd966",
+  "formula" : "C4H8N2O3",
+  "name" : "n-glycylglycine",
+  "synonyms" : [ "((aminoacetyl)amino)acetic acid", "2-(2-aminoacetamido)acetic acid", "[(aminoacetyl)amino]acetic acid", "glycyl-glycine", "glycylglycine", "n-glycyl- glycine" ],
+  "alias" : "icpd966",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02037"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYCYLGLYCINE"
+  } ],
+  "inchi" : "InChI=1S/C4H8N2O3/c5-1-3(7)6-2-4(8)9/h1-2,5H2,(H,6,7)(H,8,9)",
+  "inchikey" : "YMAWOPBAYDPSLA-UHFFFAOYSA-N",
+  "smiles" : "C(C(=O)NCC(=O)[O-])[N+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ALARACECAT-RXN" ],
+      "instances" : [ "META:DIPEPTIDES" ],
+      "reactions" : [ "META:25-DIOXOPIPERAZINE-HYDROLASE-RXN", "META:RXN-18093", "META:RXN-18092" ],
+      "gibbs" : -42.161034,
+      "cmlMolWeight" : 132.119,
+      "molWeight" : 132.119,
+      "parents" : [ "META:DIPEPTIDES" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  8  0  0  0  0  0  0  0  0999 V2000\n   20.1600  -20.0200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3724  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5849  -20.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7973  -19.3200    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0097  -20.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2222  -19.3200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4346  -20.0200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.2222  -17.9203    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.5849  -21.4198    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  3  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02037\n\n$$$$",
+  "reactions" : [ "irxn6064" ]
+}

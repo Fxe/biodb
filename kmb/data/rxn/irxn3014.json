@@ -1,0 +1,44 @@
+{
+  "id" : "irxn3014",
+  "equation" : "HC00460 <=> hqn + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7607" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd5225" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.62; 4.1.1.62",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GENTISATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02489"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 0.5241089,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00350" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

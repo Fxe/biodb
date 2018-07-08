@@ -1,0 +1,45 @@
+{
+  "id" : "irxn353",
+  "equation" : "icpd6172 + atp <=> gal1p + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6172" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3649" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.6; EC-2.7.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01092"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:GALACTOKIN-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:GALACTOSE-1P", "META:ADP", "META:ZN+2", "META:HG+2" ],
+      "activators" : [ "META:MG+2", "META:CO+2", "META:2-MERCAPTOETHANOL", "META:MN+2" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-422", "META:PWY-6317", "META:PWY-3821", "META:PWY-6527" ],
+      "orphan" : "NO",
+      "gibbs" : -14.815918,
+      "uniprot" : [ "Q9R7D7", "P31767", "P96993", "P09608", "Q9SEE5", "P13227", "P13045", "P39574", "Q01415", "P22713", "P0A6T3", "P04385", "Q8X7P4" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520", "rn01100", "rn00052" ],
+      "orthologs" : [ "K00849" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd607",
+  "formula" : "C10H10O2",
+  "name" : "cis-1,2-dihydronaphthalene-1,2-diol",
+  "synonyms" : [ "(1r,2s)-1,2-dihydronaphthalene-1,2-diol", "cis-1,2-dihydroxy-1,2-dihydronaphthalene" ],
+  "alias" : "icpd607",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CIS-12-DIHYDRONAPHTHALENE-12-DIOL"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04314"
+  } ],
+  "inchi" : "InChI=1S/C10H10O2/c11-9-6-5-7-3-1-2-4-8(7)10(9)12/h1-6,9-12H/t9-,10+/m0/s1",
+  "inchikey" : "QPUHWUSUBHNZCG-VHSXEESVSA-N",
+  "smiles" : "C1=CC2=C(C=C1)[C@H]([C@H](C=C2)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:NAPHTHALENE-12-DIOXYGENASE-RXN", "META:1.3.1.29-RXN" ],
+      "gibbs" : 79.571205,
+      "cmlMolWeight" : 162.188,
+      "molWeight" : 162.188
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 13  0  0  1  0  0  0  0  0999 V2000\n   17.3724  -17.2196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3724  -18.6209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5825  -16.5063    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   16.1560  -16.5255    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5952  -19.3215    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1560  -19.3277    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8116  -17.2134    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   18.5760  -15.1245    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9586  -17.2196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8181  -18.6272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9586  -18.6209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0026  -16.5128    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  1  1     0  0\n  4  9  2  0     0  0\n  5 10  2  0     0  0\n  6 11  2  0     0  0\n  7 12  1  1     0  0\n  7 10  1  0     0  0\n  9 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04314\n\n$$$$",
+  "reactions" : [ "irxn4894", "irxn6350" ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4746",
+  "formula" : "C4H8O2",
+  "name" : "(s)-acetoin",
+  "synonyms" : [ ],
+  "alias" : "icpd4746",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-255"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01769"
+  } ],
+  "inchi" : "InChI=1S/C4H8O2/c1-3(5)4(2)6/h3,5H,1-2H3/t3-/m0/s1",
+  "inchikey" : "ROWKJAVDOGWPAT-VKHMYHEASA-N",
+  "smiles" : "C[C@@]([H])(C(=O)C)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:ACETOIN" ],
+      "reactions" : [ "META:RXN-11034", "META:SS-BUTANEDIOL-DEHYDROGENASE-RXN", "META:RXN-11032", "META:ACETOIN-RACEMASE-RXN" ],
+      "gibbs" : 10.048964,
+      "cmlMolWeight" : 88.106,
+      "molWeight" : 88.106,
+      "parents" : [ "META:ACETOIN" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  1  0  0  0  0  0999 V2000\n   16.8009  -16.5212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0133  -15.8212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2259  -16.5212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4384  -15.8212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2259  -17.9211    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0133  -14.4213    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  1  6     0  0\n  2  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01769\n\n$$$$",
+  "reactions" : [ "irxn6245", "irxn1607", "irxn804", "irxn5669" ]
+}

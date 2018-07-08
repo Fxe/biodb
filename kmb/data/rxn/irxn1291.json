@@ -1,0 +1,52 @@
+{
+  "id" : "irxn1291",
+  "equation" : "o2 + nadh + h + pre3a <=> nad + h2o + pre3b",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7669" : ""
+    },
+    "r" : {
+      "icpd1649" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.83; EC-1.14.13.83",
+  "otherNames" : [ ],
+  "alias" : "PRE3BS",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R321-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PRE3BS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R05217"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7376" ],
+      "orphan" : "NO",
+      "gibbs" : -105.73871,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00860", "rn01100" ],
+      "orthologs" : [ "K02229" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

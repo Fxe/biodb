@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4568",
+  "equation" : "lipidAds + atp <=> icpd775 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd5526" : ""
+    },
+    "r" : {
+      "icpd775" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.130; 2.7.1.130",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:TETRAACYLDISACC4KIN-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04657"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:CARDIOLIPIN" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:NAGLIPASYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -17.31247,
+      "uniprot" : [ "P27300", "Q9ZCL0", "Q9PPA9", "O67572", "O25095", "P44491", "Q9KQX0", "Q9JVE4", "Q9HZM3", "Q9K0D7", "Q9ZMB1", "Q9PEE6" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00540" ],
+      "orthologs" : [ "K00912" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

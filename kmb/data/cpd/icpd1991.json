@@ -1,0 +1,41 @@
+{
+  "id" : "icpd1991",
+  "formula" : "C6H9NO4",
+  "name" : "l-2-aminoadipate",
+  "synonyms" : [ "l-2-aminohexanedioate", "l-alpha-aminoadipate", "p-alphal-lminoldihlte" ],
+  "alias" : "L2aadp",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "L2aadp"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00956"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "L2aadp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-468"
+  } ],
+  "inchi" : "InChI=1S/C6H11NO4/c7-4(6(10)11)2-1-3-5(8)9/h4H,1-3,7H2,(H,8,9)(H,10,11)/p-2/t4-/m0/s1",
+  "inchikey" : "OYIFNHCXNCRBQI-BYPYZUCNSA-L",
+  "smiles" : "C(C[C@@]([H])(C(=O)[O-])N)CC(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Amino-Acids" ],
+      "reactions" : [ "META:RXN-8162", "META:RXN-15002", "META:2-AMINOADIPATE-AMINOTRANSFERASE-RXN", "META:RXN-5181", "META:RXN-8809", "META:RXN-16756", "META:RXN-16757", "META:RXN-10855", "META:1.2.1.31-RXN", "META:ALLYSINE-DEHYDROG-RXN", "META:2.3.1.164-RXN", "META:6.3.2.26-RXN", "META:RXN-17061" ],
+      "gibbs" : -60.110855,
+      "cmlMolWeight" : 160.149,
+      "molWeight" : 160.149,
+      "parents" : [ "META:Amino-Acids" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 11 10  0  0  1  0  0  0  0  0999 V2000\n   25.2687  -21.9798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0457  -21.2707    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.4981  -21.2707    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8228  -21.9798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.7212  -21.9798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9442  -21.2707    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1672  -21.9865    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.9442  -20.0006    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6070  -21.2809    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8255  -23.3800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0459  -19.8804    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  2  0     0  0\n  4  9  1  0     0  0\n  4 10  2  0     0  0\n  2 11  1  1     0  0\nM  END\n\n> <ENTRY>\ncpd:C00956\n\n$$$$",
+  "reactions" : [ "irxn2717", "irxn6384", "irxn1290", "irxn2840", "irxn4866", "irxn5501" ]
+}

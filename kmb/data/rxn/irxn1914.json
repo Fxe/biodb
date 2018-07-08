@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1914",
+  "equation" : "palmACP + 317688 <=> 340689 + ACP",
+  "stoichiometry" : {
+    "l" : {
+      "317688" : "",
+      "icpd8032" : ""
+    },
+    "r" : {
+      "icpd4069" : "",
+      "340689" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AGPATACP_HDE_PALM",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AGPATACP_HDE_PALM_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AGPATACP_HDE_PALM"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid", "iJB785" ]
+    }
+  }
+}

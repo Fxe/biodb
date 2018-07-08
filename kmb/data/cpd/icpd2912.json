@@ -1,0 +1,31 @@
+{
+  "id" : "icpd2912",
+  "formula" : "C6H8O4",
+  "name" : "alphal-metaypene gputlrlte",
+  "synonyms" : [ "alpha-methylene glutarate" ],
+  "alias" : "icpd2912",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2-CH2-GLUTARATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02930"
+  } ],
+  "inchi" : "InChI=1S/C6H8O4/c7-5-2-1-3-6(8)10-4-9-5/h1-4H2",
+  "inchikey" : "DAMMCOFPNDKYBA-UHFFFAOYSA-N",
+  "smiles" : "C1CC(=O)OCOC(=O)C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:2-METHYLENEGLUTARATE-MUTASE-RXN", "META:RXN-7640" ],
+      "gibbs" : -81.561516,
+      "cmlMolWeight" : 142.111,
+      "molWeight" : 142.111
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   26.3635  -17.5689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1477  -16.8676    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5729  -16.8676    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3635  -18.9712    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9383  -17.5689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7824  -17.5752    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5664  -15.4716    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7225  -16.8676    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7288  -15.4716    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5130  -17.5752    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  3  6  1  0     0  0\n  3  7  2  0     0  0\n  5  8  1  0     0  0\n  8  9  2  0     0  0\n  8 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02930\n\n$$$$",
+  "reactions" : [ "irxn3982", "irxn5150" ]
+}

@@ -1,0 +1,31 @@
+{
+  "id" : "icpd620",
+  "formula" : "C4H8O2",
+  "name" : "p-dioxane",
+  "synonyms" : [ "1,4-dioxacyclohexane", "1,4-dioxan", "1,4-dioxane", "dioxane", "para-dioxane", "tetrahydro-1,4-dioxin", "tetrahydro-p-dioxin", "tetrahydro-para-dioxin" ],
+  "alias" : "icpd620",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C14440"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1682"
+  } ],
+  "inchi" : "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
+  "inchikey" : "RYHBNJHYFVUHQT-UHFFFAOYSA-N",
+  "smiles" : "C1COCCO1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "activators" : [ "META:PEPCARBOX-RXN" ],
+      "gibbs" : 21.688965,
+      "cmlMolWeight" : 88.106,
+      "molWeight" : 88.106
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  6  0  0  0  0  0  0  0  0999 V2000\n   27.6499  -16.2399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6499  -17.6399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8623  -18.3399    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0748  -17.6399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.0748  -16.2399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8623  -15.5399    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C14440\n\n$$$$",
+  "reactions" : [ ]
+}

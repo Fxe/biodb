@@ -1,0 +1,51 @@
+{
+  "id" : "irxn4488",
+  "equation" : "thcholstoic + coa + atp <=> amp + ppi + cholcoar",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7593" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd6122" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.7",
+  "otherNames" : [ ],
+  "alias" : "VLCSp",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "VLCSr"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "VLCSp"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04580"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K08748" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

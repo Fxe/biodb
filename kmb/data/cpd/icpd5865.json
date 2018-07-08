@@ -1,0 +1,31 @@
+{
+  "id" : "icpd5865",
+  "formula" : "C4H7NO3",
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd5865",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20250"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13930"
+  } ],
+  "inchi" : "InChI=1S/C4H7NO3/c1-3(2-5)4(6)8-7/h2,7H,5H2,1H3/b3-2-",
+  "inchikey" : "DYYSAMFOJRGAMQ-IHWYPQMZSA-N",
+  "smiles" : "C/C(=C/N)/C(=O)OO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-12896", "META:RXN-12895" ],
+      "gibbs" : -19.56216,
+      "cmlMolWeight" : 117.104,
+      "molWeight" : 117.104
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  8  7  0  0  0  0  0  0  0  0999 V2000\n   18.0369  -18.2998    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8108  -17.5924    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8108  -16.1765    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0011  -15.4896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2178  -16.1925    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0014  -14.0828    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4151  -15.5018    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5875  -15.4701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  4  6  2  0     0  0\n  5  7  1  0     0  0\n  3  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20250\n\n$$$$",
+  "reactions" : [ "irxn4853", "irxn954" ]
+}

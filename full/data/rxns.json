@@ -1,0 +1,214 @@
+{
+  "records" : [ {
+    "id" : "irxn0",
+    "equation" : "h + ctp + 0.02 pa_hs <=> 0.02 cdpdag_EC + ppi",
+    "ecn" : "2.7.7.41; EC-2.7.7.41",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "DASYN_EC",
+    "stoichiometry" : {
+      "l" : {
+        "icpd4" : "",
+        "icpd18" : "",
+        "icpd13" : "0.02"
+      },
+      "r" : {
+        "icpd5" : "",
+        "icpd2" : "0.02"
+      }
+    },
+    "references" : [ {
+      "source" : "MetaCyc",
+      "entry" : "META:CDPDIGLYSYN-RXN"
+    }, {
+      "source" : "LigandReaction",
+      "entry" : "R01799"
+    }, {
+      "source" : "BiGGReaction",
+      "entry" : "DASYN_EC"
+    } ]
+  }, {
+    "id" : "irxn1",
+    "equation" : "dag_hs + atp <=> h + adp + pa_hs",
+    "ecn" : "2.7.1.107; EC-2.7.1.107",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "DAGK_HP",
+    "stoichiometry" : {
+      "l" : {
+        "icpd19" : "",
+        "icpd12" : ""
+      },
+      "r" : {
+        "icpd18" : "",
+        "icpd0" : "",
+        "icpd13" : ""
+      }
+    },
+    "references" : [ {
+      "source" : "BiGGReaction",
+      "entry" : "DAGK_hs"
+    }, {
+      "source" : "BiGGReaction",
+      "entry" : "DAGK_HP"
+    }, {
+      "source" : "LigandReaction",
+      "entry" : "R02240"
+    }, {
+      "source" : "MetaCyc",
+      "entry" : "META:DIACYLGLYKIN-RXN"
+    }, {
+      "source" : "BiGGReaction",
+      "entry" : "DAGK_EC"
+    } ]
+  }, {
+    "id" : "irxn2",
+    "equation" : "h2o + 0.02 pa_hs <=> pi + 0.02 dag_hs",
+    "ecn" : "",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "PAPA_EC",
+    "stoichiometry" : {
+      "l" : {
+        "icpd17" : "",
+        "icpd13" : "0.02"
+      },
+      "r" : {
+        "icpd10" : "",
+        "icpd19" : "0.02"
+      }
+    },
+    "references" : [ {
+      "source" : "BiGGReaction",
+      "entry" : "PAPA_EC"
+    } ]
+  }, {
+    "id" : "irxn3",
+    "equation" : "h + pa120 + ctp <=> ppi + cdpdddecg",
+    "ecn" : "",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "DASYN120",
+    "stoichiometry" : {
+      "l" : {
+        "icpd4" : "",
+        "icpd18" : "",
+        "icpd6" : ""
+      },
+      "r" : {
+        "icpd5" : "",
+        "icpd9" : ""
+      }
+    },
+    "references" : [ {
+      "source" : "BiGGReaction",
+      "entry" : "DASYN120"
+    } ]
+  }, {
+    "id" : "irxn4",
+    "equation" : "2.0 h2o + 2.0 339470 + 2.0 coa + 335281 + 2.0 fad <=> 343293 + 2.0 339490 + 2.0 h + 2.0 fadh2 + 2.0 322522",
+    "ecn" : "",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "FAOXC70_m",
+    "stoichiometry" : {
+      "l" : {
+        "icpd17" : "2.0",
+        "335281" : "",
+        "icpd11" : "2.0",
+        "339470" : "2.0",
+        "icpd7" : "2.0"
+      },
+      "r" : {
+        "343293" : "",
+        "icpd18" : "2.0",
+        "339490" : "2.0",
+        "322522" : "2.0",
+        "icpd16" : "2.0"
+      }
+    },
+    "references" : [ {
+      "source" : "BiGGReaction",
+      "entry" : "FAOXC70_m"
+    } ]
+  }, {
+    "id" : "irxn5",
+    "equation" : "341715 + 317145 <=> 346492 + 317543",
+    "ecn" : "",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "PLDAGAT_OLE_HDE_OLE_PC_5_c",
+    "stoichiometry" : {
+      "l" : {
+        "341715" : "",
+        "317145" : ""
+      },
+      "r" : {
+        "317543" : "",
+        "346492" : ""
+      }
+    },
+    "references" : [ {
+      "source" : "BiGGReaction",
+      "entry" : "PLDAGAT_OLE_HDE_OLE_PC_5_c"
+    } ]
+  }, {
+    "id" : "irxn6",
+    "equation" : "pyr + atp <=> h + pep + adp",
+    "ecn" : "EC-2.7.1.40; 2.7.1.40",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "PYK",
+    "stoichiometry" : {
+      "l" : {
+        "icpd3" : "",
+        "icpd12" : ""
+      },
+      "r" : {
+        "icpd18" : "",
+        "icpd0" : "",
+        "icpd8" : ""
+      }
+    },
+    "references" : [ {
+      "source" : "BiGGReaction",
+      "entry" : "PYK_h"
+    }, {
+      "source" : "LigandReaction",
+      "entry" : "R00200"
+    }, {
+      "source" : "MetaCyc",
+      "entry" : "META:PEPDEPHOS-RXN"
+    }, {
+      "source" : "BiGGReaction",
+      "entry" : "PYKf"
+    }, {
+      "source" : "BiGGReaction",
+      "entry" : "PYKm"
+    }, {
+      "source" : "BiGGReaction",
+      "entry" : "PYK"
+    } ]
+  }, {
+    "id" : "irxn7",
+    "equation" : "ddcaACP + 1ddecg3p <=> pa120 + ACP",
+    "ecn" : "",
+    "name" : null,
+    "synonyms" : [ ],
+    "alias" : "AGPAT120",
+    "stoichiometry" : {
+      "l" : {
+        "icpd1" : "",
+        "icpd15" : ""
+      },
+      "r" : {
+        "icpd14" : "",
+        "icpd6" : ""
+      }
+    },
+    "references" : [ {
+      "source" : "BiGGReaction",
+      "entry" : "AGPAT120"
+    } ]
+  } ]
+}

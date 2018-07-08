@@ -1,0 +1,43 @@
+{
+  "id" : "irxn3149",
+  "equation" : "icpd7674 <=> ru5p__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7674" : ""
+    },
+    "r" : {
+      "icpd5906" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.1.6; 5.3.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RIB5PISOM-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01056"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:AMP", "META:Arabinose-5P", "META:ARABINOSE-5P", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:P185-PWY", "META:NONOXIPENT-PWY", "META:PWY-5723", "META:PWY-1861", "META:CALVIN-PWY", "META:P124-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -6.130005,
+      "uniprot" : [ "Q9PP08", "P44725", "Q9JTM5", "P74234", "P37351", "Q58998", "Q55766", "P0A7Z0", "Q9CDI7" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01230", "rn01120", "rn01110", "rn00030", "rn01130", "rn00710" ],
+      "orthologs" : [ "K01808", "K01807" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

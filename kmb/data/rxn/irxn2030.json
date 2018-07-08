@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2030",
+  "equation" : "pmtcoa + ser__L <=> coa + co2 + 3dsphgn",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3474" : "",
+      "icpd4818" : ""
+    },
+    "r" : {
+      "icpd761" : "",
+      "icpd2377" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.50; EC-2.3.1.50",
+  "otherNames" : [ ],
+  "alias" : "SERPT",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SERINE-C-PALMITOYLTRANSFERASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SERPT"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01281"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-2483", "META:CHLORALAN-CPD" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY3DJ-12", "META:PWY-5129", "META:SPHINGOLIPID-SYN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 0.11001587,
+      "uniprot" : [ "P48241", "P40970", "O15270", "P25045", "Q09925", "Q9XVI6", "Q9M304", "Q20375" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00600" ],
+      "orthologs" : [ "K00654" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1" ]
+    }
+  }
+}

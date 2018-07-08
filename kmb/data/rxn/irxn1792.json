@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1792",
+  "equation" : "icpd2045 + acser <=> ac + h + icpd3742",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5848" : "",
+      "icpd2045" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5921" : "",
+      "icpd3742" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.5.1.51; 2.5.1.51",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.5.1.51-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03134"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:HYDROXYLAMINE", "META:CPD-7082" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4961" ],
+      "orphan" : "NO",
+      "gibbs" : -3.5541153,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

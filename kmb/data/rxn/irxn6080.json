@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6080",
+  "equation" : "icpd3054 + accoa <=> coa + icpd7408",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd3054" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd7408" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.107; 2.3.1.107",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.107-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03230"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:VINDOLINE", "META:TRYPTAMINE", "META:SECOLOGANIN-CPD", "META:CO-A", "META:TABERSONINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5292" ],
+      "orphan" : "NO",
+      "gibbs" : -3.6099854,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00901" ],
+      "orthologs" : [ "K12698" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

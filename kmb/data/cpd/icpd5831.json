@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5831",
+  "formula" : "C2H4O4S",
+  "name" : "2-sulfoacetaldehyde",
+  "synonyms" : [ "sulfoacetaldehyde" ],
+  "alias" : "2saa",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SULFOACETALDEHYDE"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2saa"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2saa"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00593"
+  } ],
+  "inchi" : "InChI=1S/C2H4O4S/c3-1-2-7(4,5)6/h1H,2H2,(H,4,5,6)",
+  "inchikey" : "JTJIXCMSHWPJJE-UHFFFAOYSA-N",
+  "smiles" : "C(=O)CS(=O)(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:SULFONATES" ],
+      "reactions" : [ "META:RXN-2301", "META:RXN-9592", "META:RXN-2364", "META:RXN-9734", "META:TAURINE-DEHYDROGENASE-RXN", "META:RXN-12148", "META:RXN-11674", "META:TAURINE-AMINOTRANSFERASE-RXN", "META:R231-RXN", "META:R232-RXN", "META:RXN-4261" ],
+      "gibbs" : -96.678696,
+      "cmlMolWeight" : 123.103,
+      "molWeight" : 123.103,
+      "parents" : [ "META:SULFONATES" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692" ]
+    }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   28.3605  -23.4736    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9852  -23.4736    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0\n   27.1858  -22.7956    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9852  -22.1234    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9852  -24.8352    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.3411  -23.4736    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0169  -23.4736    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  2  5  2  0     0  0\n  2  6  2  0     0  0\n  3  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00593\n\n$$$$",
+  "reactions" : [ "irxn6028", "irxn213", "irxn6333", "irxn6004", "irxn3244", "irxn2490", "irxn909", "irxn2777", "irxn5704" ]
+}

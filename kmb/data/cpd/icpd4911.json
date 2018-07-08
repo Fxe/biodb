@@ -1,0 +1,31 @@
+{
+  "id" : "icpd4911",
+  "formula" : "C3H7NO",
+  "name" : "acetoxime",
+  "synonyms" : [ "acetone oxime", "acetone-oxime" ],
+  "alias" : "icpd4911",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETONE-OXIME"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01995"
+  } ],
+  "inchi" : "InChI=1S/C3H7NO/c1-3(2)4-5/h5H,1-2H3",
+  "inchikey" : "PXAJQJMDEXJWFB-UHFFFAOYSA-N",
+  "smiles" : "CC(=NO)C",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:OXIMINOTRANSFERASE-RXN" ],
+      "gibbs" : 38.797848,
+      "cmlMolWeight" : 73.094,
+      "molWeight" : 73.094
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   15.6248  -14.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9155  -13.6415    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6248  -16.0373    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.5868  -13.7568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4480  -14.4543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01995\n\n$$$$",
+  "reactions" : [ "irxn4940" ]
+}

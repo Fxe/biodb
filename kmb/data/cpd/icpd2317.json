@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2317",
+  "formula" : "C4H8NO2",
+  "name" : "2-aminoisobutyrate",
+  "synonyms" : [ "2-amino-2-methylpropanoate", "alpha-aminoisobutanoate", "alpha-aminoisobutyrate" ],
+  "alias" : "icpd2317",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-17880"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03665"
+  } ],
+  "inchi" : "InChI=1S/C4H9NO2/c1-4(2,5)3(6)7/h5H2,1-2H3,(H,6,7)/p-1",
+  "inchikey" : "FUOOLUPWFVMBKG-UHFFFAOYSA-M",
+  "smiles" : "CC(C)(C(=O)[O-])N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Non-standard-amino-acids" ],
+      "reactions" : [ "META:RXN-16584" ],
+      "gibbs" : 2.9100945,
+      "cmlMolWeight" : 103.121,
+      "molWeight" : 103.121,
+      "parents" : [ "META:Non-standard-amino-acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   16.1700  -15.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3824  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5949  -15.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8073  -16.1700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.5949  -14.0702    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3723  -17.1599    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3925  -17.1599    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  5  2  0     0  0\n  2  6  1  0     0  0\n  2  7  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03665\n\n$$$$",
+  "reactions" : [ ]
+}

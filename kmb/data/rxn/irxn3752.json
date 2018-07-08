@@ -1,0 +1,42 @@
+{
+  "id" : "irxn3752",
+  "equation" : "3mob <=> ",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5052" : ""
+    },
+    "r" : { }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "EX_3mob_e",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SK_3mob_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EX_3mob_e"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : true,
+      "models" : [ "iCHOv1", "iAT_PLT_636" ]
+    }
+  }
+}

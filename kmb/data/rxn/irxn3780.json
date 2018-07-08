@@ -1,0 +1,51 @@
+{
+  "id" : "irxn3780",
+  "equation" : "n2 + chor <=> h2o + pyr + h + anth",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7085" : "",
+      "icpd5207" : ""
+    },
+    "r" : {
+      "icpd268" : "",
+      "icpd3122" : "",
+      "icpd1851" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.3.27",
+  "otherNames" : [ ],
+  "alias" : "ANS2",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00985"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ANS2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ATNS_nh4"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01230", "rn01110", "rn01130", "rn00400" ],
+      "orthologs" : [ "K13497", "K01657", "K01658", "K13501", "K01656", "K13503" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iIT341", "iHN637", "iJB785" ]
+    }
+  }
+}

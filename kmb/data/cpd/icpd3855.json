@@ -1,0 +1,36 @@
+{
+  "id" : "icpd3855",
+  "formula" : "C4H7N",
+  "name" : "1-pyrroline",
+  "synonyms" : [ "3,4-dihydro-2h-pyrrole" ],
+  "alias" : "CE1944",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE1944"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-6124"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C15668"
+  } ],
+  "inchi" : "InChI=1S/C4H7N/c1-2-4-5-3-1/h3H,1-2,4H2",
+  "inchikey" : "ZVJHJDDKYZXRJI-UHFFFAOYSA-N",
+  "smiles" : "C1CCN=C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:2.6.1.82-RXN", "META:1.5.1.35-RXN", "META:RXN-6423" ],
+      "gibbs" : 106.03691,
+      "cmlMolWeight" : 70.114,
+      "molWeight" : 70.114
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : " \n \n \n  5  5  0  0  0  0  0  0  0  0999 V2000\n   20.2210  -13.5815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.7972  -14.9158    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9353  -15.7311    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0624  -14.9007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6209  -13.5721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C15668\n\n$$$$",
+  "reactions" : [ "irxn5312", "irxn1595" ]
+}

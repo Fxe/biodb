@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1097",
+  "equation" : "Rtotalcoa + dhap <=> 323178 + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2196" : "",
+      "icpd6046" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "323178" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "DHAPA_cho",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHAPA_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DHAPAx_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

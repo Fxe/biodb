@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6451",
+  "equation" : "coa + anth + atp <=> amp + icpd4231 + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd268" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1231" : "",
+      "icpd4231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-6.2.1.32; 6.2.1.32",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:AMINOBENZCOALIG-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00982"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6077", "META:PWY-6661", "META:PWY-6660", "META:2AMINOBENZDEG-PWY", "META:PWY-7405", "META:PWY-7407" ],
+      "orphan" : "NO",
+      "gibbs" : -12.711792,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn01130", "rn00627", "rn00405" ],
+      "orthologs" : [ "K08295", "K18000" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

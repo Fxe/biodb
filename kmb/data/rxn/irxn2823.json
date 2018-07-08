@@ -1,0 +1,43 @@
+{
+  "id" : "irxn2823",
+  "equation" : "ccmuac <=> icpd3700",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5254" : ""
+    },
+    "r" : {
+      "icpd3700" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.5.1.1; 5.5.1.1",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R06989"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MUCONATE-CYCLOISOMERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CATECHOL-ORTHO-CLEAVAGE-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -1.4282227,
+      "uniprot" : [ "P08310", "O33946", "Q9Z9Y1", "O33949" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00362", "rn01220" ],
+      "orthologs" : [ "K01856" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

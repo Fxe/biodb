@@ -1,0 +1,57 @@
+{
+  "id" : "irxn4934",
+  "equation" : "o2 + h2o + peamn <=> pacald + n2 + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd3503" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd7085" : "",
+      "icpd4822" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.4.3.4; 1.4.3.21; EC-1.4.3.21; EC-1.4.3.4",
+  "otherNames" : [ ],
+  "alias" : "PEAMNO",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PEAMNO"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02613"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PEAMNOpp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10817"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:AMINEPHEN-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-7656", "META:CPD-13898", "META:HYDROXYLAMINE", "META:ISONIAZIDE", "META:SEMICARBAZIDE", "META:IPRONIAZID", "META:HG+2", "META:CPD-13895" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5751", "META:2PHENDEG-PWY", "META:PWY-6318" ],
+      "orphan" : "NO",
+      "gibbs" : -23.96299,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00360" ],
+      "orthologs" : [ "K00276", "K00274" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iECBD_1354", "iCHOv1", "iEKO11_1354", "iETEC_1333", "iECD_1391", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iECDH1ME8569_1439", "iECO103_1326", "iUMNK88_1353", "iAF1260b", "iEcE24377_1341", "iEcDH1_1363", "iEcHS_1320", "iECO26_1355", "iECDH10B_1368", "RECON1", "iEcolC_1368", "iB21_1397", "iAF1260", "iEC55989_1330", "iY75_1357", "iECW_1372", "iECO111_1330", "iAT_PLT_636", "iYL1228", "iJO1366", "iNJ661", "iMM1415", "iECB_1328", "iECSE_1348" ]
+    }
+  }
+}

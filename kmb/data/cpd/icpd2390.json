@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2390",
+  "formula" : "C10H16O2",
+  "name" : "(4r,7r)-4-isopropenyl-7-methyloxepan-2-one",
+  "synonyms" : [ "(4r,7r)-7-methyl-4-(1-methylethen-1-yl)oxepan-2-one", "(4r,7r)-7-methyl-4-(1-methylethenyl)oxepan-2-one", "(4r,7r)-7-methyl-4-(prop-1-en-2-yl)oxepan-2-one" ],
+  "alias" : "icpd2390",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11402"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10044"
+  } ],
+  "inchi" : "InChI=1S/C10H16O2/c1-7(2)9-5-4-8(3)12-10(11)6-9/h8-9H,1,4-6H2,2-3H3/t8-,9-/m1/s1",
+  "inchikey" : "DNWZWUWUDAGNJB-RKDXNWHRSA-N",
+  "smiles" : "C=C(C)[C@]1([H])CC[C@@]([H])(C)OC(=O)C1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:4-isopropenyl-7-methyloxepan-2-one" ],
+      "reactions" : [ "META:RXN-9394", "META:RXN-9391" ],
+      "gibbs" : 127.82794,
+      "cmlMolWeight" : 168.235,
+      "molWeight" : 168.235,
+      "parents" : [ "META:4-isopropenyl-7-methyloxepan-2-one" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   22.8485  -17.7402    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.7034  -16.6415    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.1074  -16.6845    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1917  -19.1035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0072  -17.6822    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4683  -19.6917    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   25.7122  -19.0513    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.0763  -15.3894    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4976  -21.0925    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3670  -17.3455    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2980  -21.8146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7191  -21.7640    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  5  7  1  0     0  0\n  6  7  1  0     0  0\n  1  4  1  0     0  0\n  2  8  1  1     0  0\n  6  9  1  6     0  0\n  3  5  1  0     0  0\n  5 10  2  0     0  0\n  2  3  1  0     0  0\n  9 11  1  0     0  0\n  4  6  1  0     0  0\n  9 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11402\n\n$$$$",
+  "reactions" : [ "irxn1231" ]
+}

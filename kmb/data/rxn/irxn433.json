@@ -1,0 +1,47 @@
+{
+  "id" : "irxn433",
+  "equation" : "o2 + Lpipecol <=> h + h2o2 + thp2c",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd8172" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd3146" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "LPCOXp",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "LPCOXp"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LPCOXc"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iJN746" ]
+    }
+  }
+}

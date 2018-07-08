@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5438",
+  "equation" : "nad + rbt <=> nadh + rbl__D + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7847" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd6406" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.56; EC-1.1.1.56",
+  "otherNames" : [ ],
+  "alias" : "RBTDG",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RIBITOL-2-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01895"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RBTDG"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:DIETHYLDITHIOCARBAMATE", "META:CPD-29", "META:HG+2", "META:DITHIOTHREITOL", "META:O-PHENANTHROLINE", "META:2-MERCAPTOETHANOL" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RIBITOLUTIL-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : 1.0817566,
+      "uniprot" : [ "P00335" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ "K00039" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iUMNK88_1353", "iETEC_1333", "iE2348C_1286", "iG2583_1286" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn4416",
+  "equation" : "xylt + nadp <=> nadph + h + xylu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3485" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd2961" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.10; EC-1.1.1.10",
+  "otherNames" : [ ],
+  "alias" : "XYLUR",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:L-XYLULOSE-REDUCTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01904"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "XYLUR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:NADP", "META:NADPH", "META:L-XYLULOSE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5525", "META:PWY-5515" ],
+      "orphan" : "NO",
+      "gibbs" : -0.1665039,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ "K03331" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

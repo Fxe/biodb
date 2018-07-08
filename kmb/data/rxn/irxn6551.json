@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6551",
+  "equation" : "icpd7469 + dcyt <=> h + dcmp + icpd699",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7469" : "",
+      "icpd3223" : ""
+    },
+    "r" : {
+      "icpd6810" : "",
+      "icpd1851" : "",
+      "icpd699" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.74; 2.7.1.74",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DEOXYCYTIDINE-KINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02321"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7199" ],
+      "orphan" : "NO",
+      "gibbs" : -109.80597,
+      "uniprot" : [ "Q7M0X4", "P27707", "P43346" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5176",
+  "equation" : "amet + caphis <=> ahcys + cmaphis",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3243" : "",
+      "icpd7007" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd5265" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.98",
+  "otherNames" : [ ],
+  "alias" : "DIPS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DIPS"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04481"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K20215" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iND750", "iMM904" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7549",
+  "formula" : "C8H14O3S",
+  "name" : "7-(methylthio)-2-oxoheptanoic acid",
+  "synonyms" : [ "7-(methylthio)-2-oxo-heptanoic acid" ],
+  "alias" : "icpd7549",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C17220"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPDQT-28"
+  } ],
+  "inchi" : "InChI=1S/C8H14O3S/c1-12-6-4-2-3-5-7(9)8(10)11/h2-6H2,1H3,(H,10,11)",
+  "inchikey" : "TWAIOPPFLZEXCO-UHFFFAOYSA-N",
+  "smiles" : "CSCCCCCC(=O)C(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-19485" ],
+      "reactions" : [ "META:RXNQT-4346", "META:RXNQT-4168", "META:RXN-18207", "META:RXNQT-4169" ],
+      "gibbs" : 37.3925,
+      "cmlMolWeight" : 189.249,
+      "molWeight" : 189.249,
+      "parents" : [ "META:CPD-19485" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  0  0  0  0  0  0999 V2000\n   17.1500  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3624  -16.9400    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5749  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7873  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9997  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.2122  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.4246  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6370  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8495  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.0619  -16.9400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.6370  -15.5401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.8495  -19.0400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  8 11  2  0     0  0\n  9 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C17220\n\n$$$$",
+  "reactions" : [ "irxn3529", "irxn3545" ]
+}

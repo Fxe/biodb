@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7897",
+  "formula" : "C7H15N3O3",
+  "name" : "l-homocitrulline",
+  "synonyms" : [ "(2s)-2-amino-6-(carbamoylamino)hexanoic acid", "homocitrulline", "n6-carbamoyl-l-lysine", "n6-carbamoyl-lysine" ],
+  "alias" : "icpd7897",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02427"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-161"
+  } ],
+  "inchi" : "InChI=1S/C7H15N3O3/c8-5(6(11)12)3-1-2-4-10-7(9)13/h5H,1-4,8H2,(H,11,12)(H3,9,10,13)/t5-/m0/s1",
+  "inchikey" : "XIGSAGMEBXLVJJ-YFKPBYRVSA-N",
+  "smiles" : "C(CCNC(=N)O)C[C@@]([H])(C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:1.5.1.8-RXN" ],
+      "reactions" : [ "META:LYSINE-CARBAMOYLTRANSFERASE-RXN" ],
+      "gibbs" : 31.816801,
+      "cmlMolWeight" : 189.214,
+      "molWeight" : 189.214
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   11.6900  -19.4600    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9024  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.1149  -19.4600    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3273  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5397  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7522  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9646  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1770  -18.7600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3895  -19.4600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6019  -18.7600    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9024  -17.3602    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3895  -20.8597    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1770  -17.3601    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  2 11  2  0     0  0\n  9 12  2  0     0  0\n  8 13  1  6     0  0\nM  END\n\n> <ENTRY>\ncpd:C02427\n\n$$$$",
+  "reactions" : [ "irxn6893" ]
+}

@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1524",
+  "equation" : "h2o + icpd5274 <=> n2 + icpd7251",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5274" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd7251" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.3.15; EC-3.5.3.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PROTEIN-ARGININE-DEIMINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02621"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-3741", "META:LEUPEPTIN", "META:THIOCITRULLINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4921" ],
+      "orphan" : "NO",
+      "gibbs" : 8.269243,
+      "uniprot" : [ "P20717", "P70708", "Q08642" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

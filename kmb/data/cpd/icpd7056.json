@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7056",
+  "formula" : "BH3O3",
+  "name" : "boric acid",
+  "synonyms" : [ "orthoboric acid", "trihydroxyborane" ],
+  "alias" : "icpd7056",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C12486"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:BORATE"
+  } ],
+  "inchi" : "InChI=1S/BH3O3/c2-1(3)4/h2-4H",
+  "inchikey" : "KGBXLFKZBHKPEV-UHFFFAOYSA-N",
+  "smiles" : "B(O)(O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:ARGINASE-RXN", "META:GLUTAMIN-RXN", "META:ALLANTOATE-DEIMINASE-RXN", "META:ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN", "META:2.1.1.79-RXN" ],
+      "instances" : [ "META:Inorganic-Anions" ],
+      "gibbs" : -93.686646,
+      "cmlMolWeight" : 61.834,
+      "molWeight" : 61.834,
+      "parents" : [ "META:Inorganic-Anions" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  4  3  0  0  0  0  0  0  0  0999 V2000\n   32.1902  -24.4462    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0\n   32.1831  -23.0462    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.9813  -25.1523    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   33.4061  -25.1401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  3  1  0     0  0\n  1  2  1  0     0  0\n  1  4  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C12486\n\n$$$$",
+  "reactions" : [ ]
+}

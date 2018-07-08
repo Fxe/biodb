@@ -1,0 +1,46 @@
+{
+  "id" : "irxn4548",
+  "equation" : "7dhf + h2o <=> 6dhf + glu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7173" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd514" : "",
+      "icpd7093" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "GGH_7DHFl",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GGH_7DHFe"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GGH_7DHFl"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

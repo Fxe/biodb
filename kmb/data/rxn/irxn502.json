@@ -1,0 +1,57 @@
+{
+  "id" : "irxn502",
+  "equation" : "coa + hdcea + atp <=> hdcoa + amp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6870" : "",
+      "icpd2377" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3641" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "r1252",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL161"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r1252"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL161p"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r1487"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r1251"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iNJ661", "iLB1027_lipid", "iMM1415", "iMM904", "RECON1", "iYO844" ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id" : "icpd4631",
+  "formula" : "C20H31O4",
+  "name" : "(5z,9e,14z)-(8xi,11r,12s)-11,12-epoxy-8-hydroxyicosa-5,9,14-trienoate",
+  "synonyms" : [ "(5z,9e,14z)-(11r,12s)-11,12-epoxy-8-hydroxyicosa-5,9,14-trienoate", "(5z,9e,14z)-(8&xi;,11r,12s)-11,12-epoxy-8-hydroxyicosa-5,9,14-trienoate" ],
+  "alias" : "C04849",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-2044"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "C04849"
+  } ],
+  "inchi" : "InChI=1S/C20H32O4/c1-2-3-4-5-6-10-13-18-19(24-18)16-15-17(21)12-9-7-8-11-14-20(22)23/h6-7,9-10,15-19,21H,2-5,8,11-14H2,1H3,(H,22,23)/p-1/b9-7-,10-6-,16-15+/t17?,18-,19+/m0/s1",
+  "inchikey" : "SGTUOBURCVMACZ-CIQDQOFUSA-M",
+  "smiles" : "CCCCC/C(/[H])=C(/[H])\\C[C@@]1([H])[C@@]([H])(/C(/[H])=C(\\[H])/C([H])(C/C(/[H])=C(/[H])\\CCCC(=O)[O-])O)O1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Hydroxy-epoxy-icosatrienoates" ],
+      "reactions" : [ "META:HEPOXILIN-EPOXIDE-HYDROLASE-RXN" ],
+      "gibbs" : 273.78265,
+      "cmlMolWeight" : 335.462,
+      "molWeight" : 335.462,
+      "parents" : [ "META:Hydroxy-epoxy-icosatrienoates" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn6512", "irxn3993", "irxn4780", "irxn5807" ]
+}

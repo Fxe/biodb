@@ -1,0 +1,51 @@
+{
+  "id" : "irxn4794",
+  "equation" : "338349 + coa + 2.0 nadp <=> 2.0 nadph + 2.0 h + hmgcoa",
+  "stoichiometry" : {
+    "l" : {
+      "338349" : "",
+      "icpd2377" : "",
+      "icpd5537" : "2.0"
+    },
+    "r" : {
+      "icpd5432" : "2.0",
+      "icpd1851" : "2.0",
+      "icpd5434" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "HMGCOAR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HMGCOAR"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMGCOARr"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HMGCOARx"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iNF517", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1", "iSB619" ]
+    }
+  }
+}

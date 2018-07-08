@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1520",
+  "equation" : "his__L <=> n2 + urcan",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3297" : ""
+    },
+    "r" : {
+      "icpd5754" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.3.1.3; 4.3.1.3",
+  "otherNames" : [ ],
+  "alias" : "HISDr",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:HISTIDINE-AMMONIA-LYASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01168"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HISDr"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:UROCANATE" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5030", "META:HISHP-PWY", "META:PWY-5028", "META:HISDEG-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -0.80412674,
+      "uniprot" : [ "P42357", "P35492", "P24221", "Q9RZ06", "P10944", "Q20502", "P21310", "P21213" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00340" ],
+      "orthologs" : [ "K01745" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYL1228", "iCHOv1", "iRC1080", "iECIAI39_1322", "iMM1415", "RECON1", "iSB619", "iHN637", "STM_v1_0", "iYO844", "iJN746" ]
+    }
+  }
+}

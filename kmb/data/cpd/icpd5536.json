@@ -1,0 +1,32 @@
+{
+  "id" : "icpd5536",
+  "formula" : "C7H6O2",
+  "name" : "3-hydroxybenzaldehyde",
+  "synonyms" : [ "3-formylphenol" ],
+  "alias" : "icpd5536",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:3-OH-BENZALDEHYDE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C03067"
+  } ],
+  "inchi" : "InChI=1S/C7H6O2/c8-5-6-2-1-3-7(9)4-6/h1-5,9H",
+  "inchikey" : "IAVREABSGIHHMO-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=CC(=C1)C=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN", "META:RXN-14116" ],
+      "reactions" : [ "META:3-OH-BENZALDEHYDE-DEHYDROG-NADP+-RXN", "META:BENZYL-ALCOHOL-DEHYDROGENASE-RXN", "META:1.1.1.97-RXN" ],
+      "gibbs" : 21.79672,
+      "cmlMolWeight" : 122.123,
+      "molWeight" : 122.123
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   17.7907  -14.4030    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0121  -15.0937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5885  -15.0937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7907  -13.0090    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0121  -16.5006    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5885  -16.5006    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9930  -12.3119    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7907  -17.2104    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2271  -17.2041    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  2  0     0  0\n  1  4  1  0     0  0\n  2  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  5  8  1  0     0  0\n  5  9  1  0     0  0\n  6  8  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03067\n\n$$$$",
+  "reactions" : [ "irxn4769", "irxn5337" ]
+}

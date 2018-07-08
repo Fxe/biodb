@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3642",
+  "equation" : "nadph + o2 + 4hbz + h <=> h2o + nadp + 34dhbz",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd5989" : ""
+    },
+    "r" : {
+      "icpd4862" : "",
+      "icpd4016" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.2; 1.14.13.2; 1.14.13.33",
+  "otherNames" : [ ],
+  "alias" : "4HBHYOX",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "4HBHYOX"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01298"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CL-", "META:PHMB", "META:4-FLUOROBENZOATE", "META:COUMARATE", "META:P-AMINO-BENZOATE", "META:3-4-DIHYDROXYBENZOATE", "META:4-HYDROXYBENZALDEHYDE", "META:CPD-110", "META:BENZOATE", "META:3-HYDROXYBENZOATE", "META:IODOACETATE", "META:CPD-387" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7757", "META:PWY-6215", "META:4-HYDROXYMANDELATE-DEGRADATION-PWY", "META:PWY-7700" ],
+      "orphan" : "NO",
+      "gibbs" : -91.90051,
+      "uniprot" : [ "Q06519", "P00438", "Q59724", "Q7M1D8", "P20586" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00362" ],
+      "orthologs" : [ "K00481" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

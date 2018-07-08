@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7506",
+  "formula" : "C4H8O2",
+  "name" : "3-hydroxybutan-2-one",
+  "synonyms" : [ "(+)-acetoin", "(-)-acetoin", "1-hydroxyethyl methyl ketone", "2-hydroxy-3-butanone", "2-hydroxy-3-oxobutane", "3-hydroxy-2-butanone", "3-hydroxyl-2-butanone", "acetoin", "acetyl methyl carbinol" ],
+  "alias" : "icpd7506",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00466"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETOIN"
+  } ],
+  "inchi" : "InChI=1S/C4H8O2/c1-3(5)4(2)6/h3,5H,1-2H3",
+  "inchikey" : "ROWKJAVDOGWPAT-UHFFFAOYSA-N",
+  "smiles" : "CC(C(=O)C)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-10353", "META:CPD-255" ],
+      "reactions" : [ "META:ACETOINDEHYDROG-RXN", "META:RXN-9718", "META:2.2.1.4-RXN", "META:RXN0-2022", "META:ACETOINDEHYDROG-A-RXN", "META:RXN3O-470" ],
+      "gibbs" : 10.048964,
+      "cmlMolWeight" : 88.106,
+      "molWeight" : 88.106,
+      "parents" : [ "META:CPD-10353", "META:LONG-CHAIN-KETONE", "META:CPD-255" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   22.7246  -16.5174    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   21.5154  -15.8226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9406  -15.8226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7246  -17.9897    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2994  -16.5174    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5154  -14.5603    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00466\n\n$$$$",
+  "reactions" : [ "irxn2409", "irxn2856", "irxn5108" ]
+}

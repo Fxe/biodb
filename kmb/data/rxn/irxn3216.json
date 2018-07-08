@@ -1,0 +1,43 @@
+{
+  "id" : "irxn3216",
+  "equation" : "lys__D <=> icpd7526",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2283" : ""
+    },
+    "r" : {
+      "icpd7526" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.4.3.3; 5.4.3.3",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-LYSINE-56-AMINOMUTASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02852"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.81,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310" ],
+      "orthologs" : [ "K18011", "K01844" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

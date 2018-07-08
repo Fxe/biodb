@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2160",
+  "equation" : "pyr + ser__L <=> hpyr + ala__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd4818" : ""
+    },
+    "r" : {
+      "icpd3951" : "",
+      "icpd7336" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.51; EC-2.6.1.51",
+  "otherNames" : [ ],
+  "alias" : "SPTc",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SPTix"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:SERINE--PYRUVATE-AMINOTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00585"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SPTc"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -2.5899963,
+      "uniprot" : [ "P21549", "P09139" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00260" ],
+      "orthologs" : [ "K00830" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLJ478", "iCHOv1", "iRC1080", "iMM1415", "RECON1", "iJB785" ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6904",
+  "equation" : "h2o + icpd2744 <=> salc + ac + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2744" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5921" : "",
+      "icpd2297" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.1.55; EC-3.1.1.55",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02942"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETYLSALICYLATE-DEACETYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -4.2871246,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

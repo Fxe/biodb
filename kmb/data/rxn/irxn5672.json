@@ -1,0 +1,43 @@
+{
+  "id" : "irxn5672",
+  "equation" : "icpd4266 <=> icpd4368",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4266" : ""
+    },
+    "r" : {
+      "icpd4368" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "5.3.3.7; EC-5.3.3.7",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACONITATE-DELTA-ISOMERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02244"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : 3.0800018,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00660", "C5" ],
+      "orthologs" : [ "K22002", "K22003" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

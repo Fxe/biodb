@@ -1,0 +1,47 @@
+{
+  "id" : "irxn4015",
+  "equation" : "utp + dcyt <=> udp + h + dcmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd115" : "",
+      "icpd3223" : ""
+    },
+    "r" : {
+      "icpd6810" : "",
+      "icpd1851" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.74",
+  "otherNames" : [ ],
+  "alias" : "DCK2n",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DCK2n"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14100"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -109.805786,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

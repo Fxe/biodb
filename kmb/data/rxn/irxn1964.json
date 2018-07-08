@@ -1,0 +1,46 @@
+{
+  "id" : "irxn1964",
+  "equation" : "pi + icpd1438 <=> gdp + icpd1418 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1438" : "",
+      "icpd7485" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd1418" : "",
+      "icpd166" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.7.69; 2.7.7.69",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXNQT-4141"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R07678"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-882" ],
+      "orphan" : "NO",
+      "gibbs" : -3.432373,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00053", "rn01110" ],
+      "orthologs" : [ "K14190" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

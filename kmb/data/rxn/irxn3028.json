@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3028",
+  "equation" : "creat + atp <=> adp + pcreat",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6341" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd8153" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "CK",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CK"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CKc"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CKc_cho"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CK_cho"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

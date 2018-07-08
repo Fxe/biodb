@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5318",
+  "equation" : "h2o + cholp <=> pi + chol",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7683" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd3647" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.3.75; EC-3.1.3.75",
+  "otherNames" : [ ],
+  "alias" : "CHLP",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-5647"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06871"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHLP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-3385" ],
+      "orphan" : "NO",
+      "gibbs" : 5.9687347,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100" ],
+      "orthologs" : [ "K06124" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

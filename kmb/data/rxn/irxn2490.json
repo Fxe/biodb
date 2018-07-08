@@ -1,0 +1,48 @@
+{
+  "id" : "irxn2490",
+  "equation" : "3spyr <=> co2 + 2saa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7234" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd5831" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.79; 4.1.1.79",
+  "otherNames" : [ ],
+  "alias" : "SPDC",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05774"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:R231-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SPDC"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6643", "META:P261-PWY", "META:PWY-6637" ],
+      "orphan" : "NO",
+      "gibbs" : -2.8417206,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00680", "rn01120" ],
+      "orthologs" : [ "K06034", "K13039" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

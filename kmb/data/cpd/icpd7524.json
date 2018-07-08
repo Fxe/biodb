@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7524",
+  "formula" : "C9H9O3",
+  "name" : "(r)-3-phenyllactate",
+  "synonyms" : [ "(r)-3-phenyl-lactate", "(r)-alpha-hydroxy-3-phenylpropionate", "(r)-alpha-hydroxy-benzenepropanoate", "(r)-beta-phenyllactate", "d-2-hydroxy-3-phenylpropionate", "d-3-phenyllactate" ],
+  "alias" : "icpd7524",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C05607"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-5921"
+  } ],
+  "inchi" : "InChI=1S/C9H10O3/c10-8(9(11)12)6-7-4-2-1-3-5-7/h1-5,8,10H,6H2,(H,11,12)/p-1/t8-/m1/s1",
+  "inchikey" : "VOXXWSYKYCBWHO-MRVPVSSYSA-M",
+  "smiles" : "C1=CC=C(C=C1)C[C@]([H])(C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD-7999" ],
+      "reactions" : [ "META:2.8.3.17-RXN" ],
+      "gibbs" : 5.8280263,
+      "cmlMolWeight" : 165.168,
+      "molWeight" : 165.168,
+      "parents" : [ "META:CPD-7999" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 12  0  0  1  0  0  0  0  0999 V2000\n   14.3500  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.3500  -20.4400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5624  -21.1400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7749  -20.4400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7749  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5624  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0124  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2249  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4373  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6497  -19.0400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2249  -20.4398    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.4373  -16.9400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n  8 11  1  6     0  0\n  9 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C05607\n\n$$$$",
+  "reactions" : [ "irxn1345" ]
+}

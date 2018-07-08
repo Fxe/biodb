@@ -1,0 +1,41 @@
+{
+  "id" : "icpd5502",
+  "formula" : "C10H16O",
+  "name" : "p-mentha-1,8-dien-7-ol",
+  "synonyms" : [ "(-)-p-mentha-1,8-dien-7-ol", "1,8-p-menthadien-7-ol", "4-isopropenyl-cyclohex-1-ene-1-methanol", "4-isopropenylcyclohex-1-en-1-ylmethanol", "[4-(prop-1-en-2-yl)cyclohex-1-en-1-yl]methanol", "para-mentha-1,8-dien-7-ol" ],
+  "alias" : "perillyl",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "perillyl"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "perillyl"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C02452"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-261"
+  } ],
+  "inchi" : "InChI=1S/C10H16O/c1-8(2)10-5-3-9(7-11)4-6-10/h3,10-11H,1,4-7H2,2H3",
+  "inchikey" : "NDTYTMIUWGWIMO-UHFFFAOYSA-N",
+  "smiles" : "C=C(C)C1CC=C(CC1)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Perillyl-Alcohols" ],
+      "reactions" : [ "META:--LIMONENE-7-MONOOXYGENASE-RXN", "META:RXN-18735" ],
+      "gibbs" : 166.21794,
+      "cmlMolWeight" : 152.236,
+      "molWeight" : 152.236,
+      "parents" : [ "META:Perillyl-Alcohols" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n 11 11  0  0  1  0  0  0  0  0999 V2000\n   23.6551  -15.6387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6551  -17.0388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8715  -17.7424    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   26.0806  -17.0388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0806  -15.6387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8715  -14.9422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8581  -13.5422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0683  -12.8315    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8581  -19.1423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.0683  -19.8388    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6410  -19.8319    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  6  1  1  0     0  0\n  6  7  1  0     0  0\n  1  2  1  0     0  0\n  7  8  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  3  9  1  1     0  0\n  4  5  1  0     0  0\n  9 10  1  0     0  0\n  5  6  2  0     0  0\n  9 11  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02452\n\n$$$$",
+  "reactions" : [ ]
+}

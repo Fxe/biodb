@@ -1,0 +1,35 @@
+{
+  "id" : "icpd5029",
+  "formula" : "C9H18N2O3",
+  "name" : "l-alanyl-l-leucine",
+  "synonyms" : [ "alanylleucine" ],
+  "alias" : "CE5866",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "CE5866"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-13398"
+  } ],
+  "inchi" : "InChI=1S/C9H18N2O3/c1-5(2)4-7(9(13)14)11-8(12)6(3)10/h5-7H,4,10H2,1-3H3,(H,11,12)(H,13,14)/t6-,7-/m0/s1",
+  "inchikey" : "RDIKFPRVLJLMER-BQBZGAKWSA-N",
+  "smiles" : "CC(C)C[C@@]([H])(C(=O)O)N=C([C@]([H])(C)N)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:DIPEPTIDES" ],
+      "reactions" : [ "META:RXN0-6979" ],
+      "gibbs" : 69.24019,
+      "cmlMolWeight" : 202.253,
+      "molWeight" : 202.253,
+      "parents" : [ "META:DIPEPTIDES" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ ]
+}

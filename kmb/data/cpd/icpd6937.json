@@ -1,0 +1,31 @@
+{
+  "id" : "icpd6937",
+  "formula" : "C5H6NO3",
+  "name" : "4-hydroxy-1-pyrroline-2-carboxylate",
+  "synonyms" : [ ],
+  "alias" : "icpd6937",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C04282"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-1128"
+  } ],
+  "inchi" : "InChI=1S/C5H7NO3/c7-3-1-4(5(8)9)6-2-3/h3,7H,1-2H2,(H,8,9)/p-1",
+  "inchikey" : "AOMLMYXPXUTBQH-UHFFFAOYSA-M",
+  "smiles" : "C1C(CN=C1C(=O)[O-])O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:3.5.4.22-RXN", "META:RXN-8003" ],
+      "gibbs" : -45.935337,
+      "cmlMolWeight" : 128.107,
+      "molWeight" : 128.107
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   18.4619  -25.3619    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9117  -26.6877    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3115  -26.6696    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7270  -25.3327    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5839  -24.5244    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1078  -27.8243    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9324  -24.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1449  -25.3400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9339  -23.2402    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  2  0     0  0\n  1  5  1  0     0  0\n  2  6  1  0     0  0\n  4  7  1  0     0  0\n  7  8  1  0     0  0\n  7  9  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04282\n\n$$$$",
+  "reactions" : [ "irxn4596" ]
+}

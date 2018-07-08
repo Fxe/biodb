@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5781",
+  "equation" : "utp + pyr <=> udp + pep",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd115" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.40",
+  "otherNames" : [ ],
+  "alias" : "PYK2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PYK2"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00659"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iML1515", "iJN678" ]
+    }
+  }
+}

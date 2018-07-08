@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6641",
+  "equation" : "nadph + h + ribflv <=> ribflvRD + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd6271" : "",
+      "icpd1851" : ""
+    },
+    "r" : {
+      "icpd813" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.5.1.30",
+  "otherNames" : [ ],
+  "alias" : "FLVR_1",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:NADPH-DEHYDROGENASE-FLAVIN-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FLVR_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD0-1187", "META:AMP", "META:N-ETHYLMALEIMIDE", "META:NADP", "META:CPD-19571", "META:CPD-605", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -11.280579,
+      "uniprot" : [ "P30043", "P52556" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iNF517", "iYO844" ]
+    }
+  }
+}

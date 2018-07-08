@@ -1,0 +1,45 @@
+{
+  "id" : "irxn1573",
+  "equation" : "amet + icpd3903 <=> ahcys + icpd4736",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd3903" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd4736" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.76; EC-2.1.1.76",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:QUERCETIN-3-O-METHYLTRANSFERASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02157"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:ADENOSYL-HOMO-CYS", "META:CPD-29", "META:3457-TETRAHYDROXY-3-METHOXYFLAVONE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6064", "META:PWY-7161" ],
+      "orphan" : "NO",
+      "gibbs" : -2.7210464,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00944" ],
+      "orthologs" : [ "K05279" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

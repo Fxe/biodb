@@ -1,0 +1,35 @@
+{
+  "id" : "icpd5909",
+  "formula" : "C2H4O2",
+  "name" : "methyl formate",
+  "synonyms" : [ ],
+  "alias" : "mfor",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "mfor"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-18959"
+  } ],
+  "inchi" : "InChI=1S/C2H4O2/c1-4-2-3/h2H,1H3",
+  "inchikey" : "TZIHFWKZFHZASV-UHFFFAOYSA-N",
+  "smiles" : "COC=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Formate-Esters" ],
+      "reactions" : [ "META:RXN-17548" ],
+      "gibbs" : -5.7655177,
+      "cmlMolWeight" : 60.052,
+      "molWeight" : 60.052,
+      "parents" : [ "META:Formate-Esters" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ ]
+}

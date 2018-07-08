@@ -1,0 +1,33 @@
+{
+  "id" : "icpd8189",
+  "formula" : "C7H10N2O",
+  "name" : "4-hydroxymethylphenylhydrazine",
+  "synonyms" : [ ],
+  "alias" : "icpd8189",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03994"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:4-HYDROXYMETHYLPHENYLHYDRAZINE"
+  } ],
+  "inchi" : "InChI=1S/C7H10N2O/c8-9-7-3-1-6(5-10)2-4-7/h1-4,9-10H,5,8H2",
+  "inchikey" : "BBJOGQWGYPHPCA-UHFFFAOYSA-N",
+  "smiles" : "C1=C(C=CC(=C1)NN)CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Hydrazines" ],
+      "reactions" : [ "META:AGARITINE-GAMMA-GLUTAMYLTRANSFERASE-RXN" ],
+      "gibbs" : 108.9912,
+      "cmlMolWeight" : 138.169,
+      "molWeight" : 138.169,
+      "parents" : [ "META:Hydrazines" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   18.2700  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2700  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824  -18.2700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6949  -17.5700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6949  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824  -15.4700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.0576  -18.2700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8451  -17.5700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.9324  -15.4700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   23.1449  -16.1700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  2  7  1  0     0  0\n  7  8  1  0     0  0\n  5  9  1  0     0  0\n  9 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03994\n\n$$$$",
+  "reactions" : [ "irxn4407" ]
+}

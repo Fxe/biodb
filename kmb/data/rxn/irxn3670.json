@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3670",
+  "equation" : "o2 + nadh + h + dms <=> nad + h2o + ch4s + fald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7419" : ""
+    },
+    "r" : {
+      "icpd6225" : "",
+      "icpd4016" : "",
+      "icpd5131" : "",
+      "icpd7455" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.131; 1.14.13.131",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R09786"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9740"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:CPD-8186", "META:HG+2", "META:PB+2", "META:CPD-13245" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6047" ],
+      "orphan" : "NO",
+      "gibbs" : -90.72879,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00920" ],
+      "orthologs" : [ "K16967" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

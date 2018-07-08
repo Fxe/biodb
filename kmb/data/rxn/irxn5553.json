@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5553",
+  "equation" : "o2 + nadh + icpd2330 + h <=> nad + icpd5567 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd2330" : ""
+    },
+    "r" : {
+      "icpd5567" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.13.151; EC-1.14.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:LINALOOL-8-MONOOXYGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04366"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-12967" ],
+      "orphan" : null,
+      "gibbs" : -89.8988,
+      "uniprot" : [ "Q59723" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ "K05525" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

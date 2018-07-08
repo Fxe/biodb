@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6697",
+  "equation" : "ascb__L + h + 348988 <=> h2o + dhdascb + 324064",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "348988" : "",
+      "icpd285" : ""
+    },
+    "r" : {
+      "324064" : "",
+      "icpd4016" : "",
+      "icpd2627" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "VIOXANOR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "VIOXANOR"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "VIOXANDE_h"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

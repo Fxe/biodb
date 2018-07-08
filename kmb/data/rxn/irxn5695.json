@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5695",
+  "equation" : "aacoa + h2o <=> coa + h + acac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd726" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd267" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.1.2.11; EC-3.1.2.11",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01358"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ACETOACETYL-COA-HYDROLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6876" ],
+      "orphan" : "NO",
+      "gibbs" : -10.847107,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00650" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

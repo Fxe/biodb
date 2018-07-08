@@ -1,0 +1,44 @@
+{
+  "id" : "irxn2894",
+  "equation" : "cholcoar <=> cholcoas",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6122" : ""
+    },
+    "r" : {
+      "icpd2350" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "AMACRp",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "AMACRp"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "AMACRr"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

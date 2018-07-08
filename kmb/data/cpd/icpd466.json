@@ -1,0 +1,41 @@
+{
+  "id" : "icpd466",
+  "formula" : "C7H6O8",
+  "name" : "4-carboxy-4-hydroxy-2-oxoadipate",
+  "synonyms" : [ "4-carboxy-4-hydroxy-2-ketoadipate", "4-hydroxy-4-carboxymethyl-2-oxoglutarate" ],
+  "alias" : "oca",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-OH-4-ACETYL-2-OXOGLUTARATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C04115"
+  }, {
+    "source" : "BiGG",
+    "entry" : "oca"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "oca"
+  } ],
+  "inchi" : "InChI=1S/C7H8O8/c8-3(5(11)12)1-7(15,6(13)14)2-4(9)10/h15H,1-2H2,(H,9,10)(H,11,12)(H,13,14)/p-2",
+  "inchikey" : "RQMCNDRMPZBEOD-UHFFFAOYSA-L",
+  "smiles" : "C(C(=O)C(=O)[O-])C(CC(=O)[O-])(C(=O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:2-Oxo-Acids", "META:Tricarboxylates" ],
+      "reactions" : [ "META:RXN-2463", "META:RXN-2464" ],
+      "gibbs" : -257.83295,
+      "cmlMolWeight" : 217.112,
+      "molWeight" : 217.112,
+      "parents" : [ "META:2-Oxo-Acids", "META:Tricarboxylates" ]
+    },
+    "bigg" : {
+      "models" : [ "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 15 14  0  0  0  0  0  0  0  0999 V2000\n   21.5355  -18.0433    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7517  -17.3412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9679  -18.0433    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1841  -17.3412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4003  -18.0433    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6165  -17.3412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8327  -18.0433    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7517  -15.9370    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3194  -17.3412    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.5355  -19.4477    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.1911  -16.5589    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1872  -15.9848    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3331  -15.1422    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9812  -15.0762    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6165  -15.9371    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  1  9  1  0     0  0\n  1 10  2  0     0  0\n  4 11  1  0     0  0\n  4 12  1  0     0  0\n 12 13  1  0     0  0\n 12 14  2  0     0  0\n  6 15  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C04115\n\n$$$$",
+  "reactions" : [ "irxn6467", "irxn2824" ]
+}

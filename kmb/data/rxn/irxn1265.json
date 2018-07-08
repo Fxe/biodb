@@ -1,0 +1,54 @@
+{
+  "id" : "irxn1265",
+  "equation" : "glx + o2 + h2o <=> h + oxa + h2o2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd4016" : "",
+      "icpd941" : ""
+    },
+    "r" : {
+      "icpd2494" : "",
+      "icpd1851" : "",
+      "icpd1429" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.3.5; EC-1.2.3.5",
+  "otherNames" : [ ],
+  "alias" : "GLXO3r",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:GLYOXYLATE-OXIDASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00466"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLXO3r"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GLXO2p"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -39.111237,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00630", "rn01100" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iJN678", "RECON1", "iJB785" ]
+    }
+  }
+}

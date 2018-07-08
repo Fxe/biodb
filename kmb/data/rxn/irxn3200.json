@@ -1,0 +1,45 @@
+{
+  "id" : "irxn3200",
+  "equation" : "icpd6864 + accoa <=> coa + icpd7416",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd6864" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd7416" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.150; EC-2.3.1.150",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.150-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04723"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:CPD-7710", "META:DIETHYLDITHIOCARBAMATE", "META:CU+2", "META:CODEINONE", "META:ZN+2", "META:O-PHENANTHROLINE", "META:SALUTARIDINE", "META:8-HYDROXYQUINOLINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5270" ],
+      "orphan" : "NO",
+      "gibbs" : -3.6099854,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn00950" ],
+      "orthologs" : [ "K13393" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id" : "icpd7263",
+  "formula" : "C4H4O6",
+  "name" : "dihydroxyfumaric acid",
+  "synonyms" : [ "(2e)-2,3-dihydroxybut-2-enedioic acid", "dihydroxy-fumaric acid" ],
+  "alias" : "icpd7263",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-640"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00975"
+  } ],
+  "inchi" : "InChI=1S/C4H4O6/c5-1(3(7)8)2(6)4(9)10/h5-6H,(H,7,8)(H,9,10)/b2-1+",
+  "inchikey" : "BZCOSCNPHJNQBP-OWOJBTEDSA-N",
+  "smiles" : "C(=C(\\C(=O)O)/O)(/C(=O)O)\\O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TARTRATE-DEHYDROGENASE-RXN" ],
+      "reactions" : [ "META:MESO-TARTRATE-DEHYDROGENASE-RXN", "META:DIHYDROXYFUMARATE-DECARBOXYLASE-RXN" ],
+      "gibbs" : -201.60602,
+      "cmlMolWeight" : 146.056,
+      "molWeight" : 146.056
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10  9  0  0  0  0  0  0  0  0999 V2000\n   21.4179  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8221  -16.1700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7224  -14.9592    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.6524  -17.4508    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5239  -17.3808    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.5239  -15.0292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.4245  -13.8183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3185  -14.9592    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.7455  -18.6617    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9215  -17.3808    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  5  9  1  0     0  0\n  5 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00975\n\n$$$$",
+  "reactions" : [ "irxn3829", "irxn2226" ]
+}

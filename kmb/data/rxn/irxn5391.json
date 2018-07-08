@@ -1,0 +1,47 @@
+{
+  "id" : "irxn5391",
+  "equation" : "gtp + lac__L <=> gdp + h + 2plac__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1365" : "",
+      "icpd5544" : ""
+    },
+    "r" : {
+      "icpd642" : "",
+      "icpd1851" : "",
+      "icpd166" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "2PLS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "2PLS"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8076"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5198" ],
+      "orphan" : null,
+      "gibbs" : -110.62421,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692" ]
+    }
+  }
+}

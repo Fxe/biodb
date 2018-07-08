@@ -1,0 +1,45 @@
+{
+  "id" : "icpd7486",
+  "formula" : "C5H4N4S",
+  "name" : "6-mercaptopurine",
+  "synonyms" : [ "6,7-dihydro-3h-purine-6-thione", "mercaptopurine" ],
+  "alias" : "6mpur",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02380"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01756"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Thiopurines"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "6mpur"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15916"
+  } ],
+  "inchi" : "InChI=1S/C5H4N4S/c10-5-3-4(7-1-6-3)8-2-9-5/h1-2H,(H2,6,7,8,9,10)",
+  "inchikey" : "GLVAUDGFNGKCSF-UHFFFAOYSA-N",
+  "smiles" : "C1=NC2=C(C(=S)NC=N2)N1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:TRANS-RXN0-562" ],
+      "instances" : [ "META:Nucleobase-analogues" ],
+      "reactions" : [ "META:THIOPURINE-S-METHYLTRANSFERASE-RXN" ],
+      "gibbs" : 67.69548,
+      "cmlMolWeight" : 152.173,
+      "molWeight" : 152.173,
+      "parents" : [ "META:Nucleobase-analogues" ]
+    },
+    "bigg" : {
+      "models" : [ "iRC1080" ]
+    }
+  },
+  "mol" : " \n \n \n 10 11  0  0  0  0  0  0  0  0999 V2000\n   23.8000  -16.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.8000  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9900  -16.2400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9900  -19.0400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1800  -16.9400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   24.9900  -14.8400    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1800  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4000  -16.4500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6300  -17.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4000  -18.7600    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  3  6  2  0     0  0\n  4  7  1  0     0  0\n  5  7  2  0     0  0\n  1  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  2  0     0  0\n  2 10  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C02380\n\n$$$$",
+  "reactions" : [ "irxn358", "irxn436" ]
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4571",
+  "equation" : "2.0 nadph + o2 + icpd3261 + h <=> h2o + for + hpdcn + 2.0 nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5432" : "2.0",
+      "icpd1851" : "",
+      "icpd3261" : ""
+    },
+    "r" : {
+      "icpd4016" : "",
+      "icpd1650" : "",
+      "icpd3286" : "",
+      "icpd5537" : "2.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.99.5; EC-4.1.99.5",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:OCTADECANAL-DECARBONYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03728"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6622" ],
+      "orphan" : "NO",
+      "gibbs" : -109.46814,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

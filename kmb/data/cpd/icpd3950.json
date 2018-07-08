@@ -1,0 +1,34 @@
+{
+  "id" : "icpd3950",
+  "formula" : "Br",
+  "name" : "bromide",
+  "synonyms" : [ ],
+  "alias" : "icpd3950",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:BR-"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01324"
+  } ],
+  "inchi" : "InChI=1S/BrH/h1H/p-1",
+  "inchikey" : "CPELXLSAUQHCOX-UHFFFAOYSA-M",
+  "smiles" : "[Br-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2-NITROPROPANE-DIOXYGENASE-RXN", "META:ASPARAGHYD-RXN", "META:5.1.1.17-RXN", "META:KDGALDOL-RXN", "META:R524-RXN" ],
+      "instances" : [ "META:Halide-Anions" ],
+      "reactions" : [ "META:RXN1G-0", "META:ALKYLHALIDASE-RXN", "META:RXN-11268", "META:RXN-10443", "META:RXN0-6549" ],
+      "gibbs" : -0.3120594,
+      "cmlMolWeight" : 79.904,
+      "molWeight" : 79.904,
+      "parents" : [ "META:Halide-Anions" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  1  0  0  0  0  0  0  0  0  0999 V2000\n   25.1300  -17.2200    0.0000 Br  0  5  0  0  0  0  0  0  0  0  0  0\nM  CHG  1   1  -1\nM  END\n\n> <ENTRY>\ncpd:C01324\n\n$$$$",
+  "reactions" : [ "irxn3860" ]
+}

@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5653",
+  "equation" : "atp + minohp <=> adp + ppmi12346p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3329" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd2030" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.4.21",
+  "otherNames" : [ ],
+  "alias" : "MINOHPKn",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "PMI12346PS"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-10971"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "MINOHPKn"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6369" ],
+      "orphan" : "NO",
+      "gibbs" : 10.616455,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM904" ]
+    }
+  }
+}

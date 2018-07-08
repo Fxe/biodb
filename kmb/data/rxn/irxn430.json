@@ -1,0 +1,44 @@
+{
+  "id" : "irxn430",
+  "equation" : "25drapp <=> h2o + dhpmp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd134" : ""
+    },
+    "r" : {
+      "icpd1905" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.2.1.160; EC-4.2.1.160",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R11072"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-15730"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7539" ],
+      "orphan" : "NO",
+      "gibbs" : -28.656982,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00790" ],
+      "orthologs" : [ "K22100" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

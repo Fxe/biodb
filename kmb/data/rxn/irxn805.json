@@ -1,0 +1,45 @@
+{
+  "id" : "irxn805",
+  "equation" : "h2o + icpd3129 <=> icpd1332 + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd3129" : ""
+    },
+    "r" : {
+      "icpd1332" : "",
+      "icpd7085" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "3.5.4.45; 3.8.1.8; EC-3.5.4.45",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8015"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R06968"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-7402", "META:ATRAZINE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5170" ],
+      "orphan" : "NO",
+      "gibbs" : -18.423008,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00791" ],
+      "orthologs" : [ "K21593", "K05394" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn1880",
+  "equation" : "pacald + h2o + nadp <=> nadph + pac + 2.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd4822" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "2.0",
+      "icpd2748" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.5",
+  "otherNames" : [ ],
+  "alias" : "r0548",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ALDD19x_P"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02537"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0548"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00360" ],
+      "orthologs" : [ "K00129" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

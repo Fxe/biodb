@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2957",
+  "equation" : "icpd7652 + atp <=> icpd3278 + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7652" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd3278" : "",
+      "icpd5753" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.136; 2.7.1.136",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03780"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:MACROLIDE-2-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -13.567642,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd7081",
+  "formula" : "C6H12N2O4",
+  "name" : "d-alanyl-d-serine",
+  "synonyms" : [ ],
+  "alias" : "icpd7081",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-12249"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C19719"
+  } ],
+  "inchi" : "InChI=1S/C6H12N2O4/c1-3(7)5(10)8-4(2-9)6(11)12/h3-4,9H,2,7H2,1H3,(H,8,10)(H,11,12)/t3-,4-/m1/s1",
+  "inchikey" : "IPWKGIFRRBGCJO-QWWZWVQMSA-N",
+  "smiles" : "C[C@H](C(=O)N[C@H](CO)C(=O)O)N",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Dipeptides-Of-D-Amino-Acids" ],
+      "reactions" : [ "META:RXN-11299" ],
+      "gibbs" : -31.666561,
+      "cmlMolWeight" : 176.172,
+      "molWeight" : 176.172,
+      "parents" : [ "META:Dipeptides-Of-D-Amino-Acids" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 11  0  0  1  0  0  0  0  0999 V2000\n   11.6649  -12.6000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8773  -13.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.0897  -12.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3022  -13.3000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5146  -12.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7270  -13.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.9395  -12.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7270  -14.6999    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5146  -11.2000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.0897  -11.2001    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8625  -10.4915    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8773  -14.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  1     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  6  8  1  1     0  0\n  5  9  2  0     0  0\n  3 10  1  0     0  0\n 10 11  1  0     0  0\n  2 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19719\n\n$$$$",
+  "reactions" : [ "irxn2465" ]
+}

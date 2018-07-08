@@ -1,0 +1,49 @@
+{
+  "id" : "irxn602",
+  "equation" : "o2 + 2.0 nadh + 2.0 h + icpd4898 <=> 2.0 nad + sucsal + h2o + dhpyr",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "2.0",
+      "icpd1851" : "2.0",
+      "icpd4898" : ""
+    },
+    "r" : {
+      "icpd5159" : "",
+      "icpd4016" : "",
+      "icpd5131" : "2.0",
+      "icpd7343" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.14.13.163; 1.14.13.163",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13081"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R09472"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:CU+2", "META:ZN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6993", "META:PWY-7128" ],
+      "orphan" : "NO",
+      "gibbs" : -88.6806,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00760", "rn01120" ],
+      "orthologs" : [ "K18276", "K15359" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

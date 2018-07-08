@@ -1,0 +1,36 @@
+{
+  "id" : "icpd3916",
+  "formula" : "C5H10O5",
+  "name" : "alpha-d-xylose",
+  "synonyms" : [ "alphal-d-xypohyrlnose", "alphal-d-xypose" ],
+  "alias" : "icpd3916",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C02205"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:XYLOSE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01394"
+  } ],
+  "inchi" : "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5+/m1/s1",
+  "inchikey" : "SRBFZHDQGSBBOR-LECHCGJUSA-N",
+  "smiles" : "C1[C@H]([C@@H]([C@H]([C@@H](O)O1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:D-Xylopyranose" ],
+      "reactions" : [ "META:D-XYLOSE-1-DEHYDROGENASE-RXN", "META:RXN0-5001", "META:RXN-12402", "META:1.1.3.41-RXN", "META:RXN-14885" ],
+      "gibbs" : -77.3488,
+      "cmlMolWeight" : 150.131,
+      "molWeight" : 150.131,
+      "parents" : [ "META:D-Xylopyranose" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   24.8860  -19.3937    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   26.1010  -18.6866    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   23.6708  -18.6866    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   24.8860  -20.7888    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.1010  -17.2915    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   27.3160  -19.3937    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.6708  -17.2915    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4752  -19.3937    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.8860  -16.5907    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.3160  -16.5907    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  1     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  3  8  1  6     0  0\n  5  9  1  0     0  0\n  5 10  1  6     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01394\n\n$$$$",
+  "reactions" : [ ]
+}

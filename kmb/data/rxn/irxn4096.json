@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4096",
+  "equation" : "amet + anth <=> ahcys + icpd958",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7007" : "",
+      "icpd268" : ""
+    },
+    "r" : {
+      "icpd6782" : "",
+      "icpd958" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.1.1.111; EC-2.1.1.111",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00984"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:ANTHRANILATE-N-METHYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7463", "META:PWY-5958" ],
+      "orphan" : "NO",
+      "gibbs" : -14.200012,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01058", "rn01110" ],
+      "orthologs" : [ "K12643" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

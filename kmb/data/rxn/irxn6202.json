@@ -1,0 +1,48 @@
+{
+  "id" : "irxn6202",
+  "equation" : "no2 + focytc + 2.0 h <=> no + h2o + ficytc",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "2.0",
+      "icpd7710" : "",
+      "icpd6262" : ""
+    },
+    "r" : {
+      "icpd7807" : "",
+      "icpd4016" : "",
+      "icpd4286" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.7.2.1",
+  "otherNames" : [ ],
+  "alias" : "NITR_NO",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00783"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "NITR_NO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01120", "rn00910" ],
+      "orthologs" : [ "K15864", "K00368" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

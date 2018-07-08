@@ -1,0 +1,45 @@
+{
+  "id" : "irxn6477",
+  "equation" : "pyr + lys__L <=> L2aadp6sa + ala__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd4807" : ""
+    },
+    "r" : {
+      "icpd4839" : "",
+      "icpd7336" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.71; EC-2.6.1.71",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00453"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:LYSINE--PYRUVATE-6-AMINOTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:HYDROXYLAMINE", "META:FE+2", "META:CO+2", "META:CPD-29", "META:HG+2", "META:MN+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5324" ],
+      "orphan" : null,
+      "gibbs" : -0.91587734,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

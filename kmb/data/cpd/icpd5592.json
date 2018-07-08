@@ -1,0 +1,33 @@
+{
+  "id" : "icpd5592",
+  "formula" : "C7H6Cl2O2",
+  "name" : "4,6-dichloro-3-methylcatechol",
+  "synonyms" : [ ],
+  "alias" : "icpd5592",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10854"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18302"
+  } ],
+  "inchi" : "InChI=1S/C7H6Cl2O2/c1-3-4(8)2-5(9)7(11)6(3)10/h2,10-11H,1H3",
+  "inchikey" : "WHZYTTYRNXQNQF-UHFFFAOYSA-N",
+  "smiles" : "CC1=C(C=C(C(=C1O)O)Cl)Cl",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds", "META:Catechols" ],
+      "reactions" : [ "META:RXN-10093", "META:RXN-10096" ],
+      "gibbs" : -0.103277415,
+      "cmlMolWeight" : 193.029,
+      "molWeight" : 193.029,
+      "parents" : [ "META:Chloroaromatic-Compounds", "META:Catechols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 11 11  0  0  0  0  0  0  0  0999 V2000\n   18.8300  -13.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8300  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0424  -15.8200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2549  -15.1200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.2549  -13.7200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.0424  -13.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4860  -13.0090    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.4860  -15.8310    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   20.0424  -11.6202    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6176  -13.0200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6176  -15.8200    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  5  6  2  0     0  0\n  1  6  1  0     0  0\n  5  7  1  0     0  0\n  4  8  1  0     0  0\n  6  9  1  0     0  0\n  1 10  1  0     0  0\n  2 11  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C18302\n\n$$$$",
+  "reactions" : [ "irxn2800", "irxn2801" ]
+}

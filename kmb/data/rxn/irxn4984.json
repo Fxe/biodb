@@ -1,0 +1,54 @@
+{
+  "id" : "irxn4984",
+  "equation" : "5dpmev + atp <=> ipdp + co2 + pi + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6530" : "",
+      "icpd2389" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd2454" : "",
+      "icpd4227" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.33; EC-4.1.1.33",
+  "otherNames" : [ ],
+  "alias" : "DPMVD",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01121"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DPMVDx"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DPMVD"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIPHOSPHOMEVALONTE-DECARBOXYLASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-11394" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-922", "META:PWY-7391" ],
+      "orphan" : "NO",
+      "gibbs" : -6.0894775,
+      "uniprot" : [ "O23722", "Q9U294", "Q9U2A1", "Q9M381", "O13963", "P32377" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn01130", "rn00900" ],
+      "orthologs" : [ "K01597" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iNF517", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1", "iSB619" ]
+    }
+  }
+}

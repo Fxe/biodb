@@ -1,0 +1,56 @@
+{
+  "id" : "irxn1729",
+  "equation" : "arachcoa + h2o <=> coa + h + arach",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd5474" : ""
+    },
+    "r" : {
+      "icpd7880" : "",
+      "icpd1851" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.2.2; 3.1.2.2",
+  "otherNames" : [ ],
+  "alias" : "RE0577M",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "RE0577M"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08175"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE0577X"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-9629"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "RE0577C"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -6.3771973,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01040" ],
+      "orthologs" : [ "K01068" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

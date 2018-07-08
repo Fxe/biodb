@@ -1,0 +1,35 @@
+{
+  "id" : "icpd258",
+  "formula" : "C10H6O3",
+  "name" : "5-hydroxy-1,4-naphthoquinone",
+  "synonyms" : [ "5-hydroxy-1,4-dihydronaphthalene-1,4-dione", "5-hydroxy-1,4-naphthalenedione, 9ci", "8-hydroxy-1,4-naphthalenedione", "8-hydroxy-1,4-naphthoquinone" ],
+  "alias" : "icpd258",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03840"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYNAPHTHOQUINONE"
+  } ],
+  "inchi" : "InChI=1S/C10H6O3/c11-7-4-5-9(13)10-6(7)2-1-3-8(10)12/h1-5,12H",
+  "inchikey" : "KQPYUDDGWXQXHS-UHFFFAOYSA-N",
+  "smiles" : "C1=CC(=C2C(=C1)C(=O)C=CC2=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:RXN-9206", "META:RXN-3762", "META:RXN-3763", "META:PEPTIDYLPROLYL-ISOMERASE-RXN" ],
+      "activators" : [ "META:RXN-3761" ],
+      "instances" : [ "META:Quinones" ],
+      "reactions" : [ "META:RXN-18102", "META:JUGLONE-3-MONOOXYGENASE-RXN", "META:RXN-9099" ],
+      "gibbs" : 9.026723,
+      "cmlMolWeight" : 174.156,
+      "molWeight" : 174.156,
+      "parents" : [ "META:Quinones" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 14  0  0  0  0  0  0  0  0999 V2000\n   18.4548  -14.0595    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4548  -15.4561    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6609  -13.3485    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2423  -13.3674    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6736  -16.1544    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2423  -16.1608    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8798  -14.0468    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6546  -11.9708    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0423  -14.0595    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8925  -15.5831    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6673  -17.5385    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0423  -15.4561    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2359  -17.5385    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  3  8  2  0     0  0\n  4  9  2  0     0  0\n  5 10  1  0     0  0\n  5 11  2  0     0  0\n  6 12  2  0     0  0\n  6 13  1  0     0  0\n  7 10  2  0     0  0\n  9 12  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03840\n\n$$$$",
+  "reactions" : [ "irxn5084" ]
+}

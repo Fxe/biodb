@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5141",
+  "equation" : "fad + sphgn <=> fadh2 + sphings",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3085" : "",
+      "icpd6481" : ""
+    },
+    "r" : {
+      "icpd7636" : "",
+      "icpd5625" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.3.99.-",
+  "otherNames" : [ ],
+  "alias" : "SGOR",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R02979"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SGOR"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "icpd2927",
+  "formula" : "C6H14",
+  "name" : "hexane",
+  "synonyms" : [ "n-hexane" ],
+  "alias" : "icpd2927",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C11271"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-9288"
+  } ],
+  "inchi" : "InChI=1S/C6H14/c1-3-5-6-4-2/h3-6H2,1-2H3",
+  "inchikey" : "VLKZOEOYAKHREP-UHFFFAOYSA-N",
+  "smiles" : "CCCCCC",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Medium-Chain-Alkanes" ],
+      "reactions" : [ "META:RXN-13286" ],
+      "gibbs" : 146.65569,
+      "cmlMolWeight" : 86.177,
+      "molWeight" : 86.177,
+      "parents" : [ "META:Medium-Chain-Alkanes" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  6  5  0  0  0  0  0  0  0  0999 V2000\n   25.8486  -17.2629    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0617  -16.5646    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.2749  -17.2701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.4811  -16.5718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.6943  -17.2772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.9074  -16.5789    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  2  3  1  0     0  0\n  5  6  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11271\n\n$$$$",
+  "reactions" : [ ]
+}

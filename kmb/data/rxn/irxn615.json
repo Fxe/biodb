@@ -1,0 +1,48 @@
+{
+  "id" : "irxn615",
+  "equation" : "nad + lald__D + gthrd <=> nadh + lgt__S + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5131" : "",
+      "icpd1977" : "",
+      "icpd2878" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1470" : "",
+      "icpd1851" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "LALDO",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03082"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "LALDO"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iJN678", "RECON1" ]
+    }
+  }
+}

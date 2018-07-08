@@ -1,0 +1,38 @@
+{
+  "id" : "icpd5237",
+  "formula" : "C15H12I3NO7S",
+  "name" : "triiodothyronine sulfate",
+  "synonyms" : [ "(2s)-2-amino-3-{3,5-diiodo-4-[3-iodo-4-(sulfooxy)phenoxy]phenyl}propanoic acid", "3,3',5-triiodo-l-thyronine sulfate", "3,5,3'-triiodo-l-thyronine 4'-o-sulfate", "3,5,3'-triiodo-l-thyronine 4'-o-sulphate", "3,5-diiodo-o-[3-iodo-4-(sulfooxy)phenyl]-l-tyrosine", "l-tyrosine, 3,5-diiodo-o-(3-iodo-4-(sulfooxy)phenyl)-", "triiodothyronine sulphate" ],
+  "alias" : "triodthysuf",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "triodthysuf"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-11408"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "triodthysuf"
+  } ],
+  "inchi" : "InChI=1S/C15H12I3NO7S/c16-9-6-8(1-2-13(9)26-27(22,23)24)25-14-10(17)3-7(4-11(14)18)5-12(19)15(20)21/h1-4,6,12H,5,19H2,(H,20,21)(H,22,23,24)/t12-/m0/s1",
+  "inchikey" : "XBQYQXVJBNDCGY-LBPRGKRZSA-N",
+  "smiles" : "C1=C(C=C(C(=C1)OS(=O)(=O)O)I)OC2=C(C=C(C=C2I)C[C@@H](C(=O)O)N)I",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Iodoaromtic-Compounds" ],
+      "reactions" : [ "META:RXN-10615" ],
+      "gibbs" : 8.32026,
+      "cmlMolWeight" : 730.028,
+      "molWeight" : 730.028,
+      "parents" : [ "META:Iodoaromtic-Compounds" ]
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : null,
+  "reactions" : [ "irxn2657" ]
+}

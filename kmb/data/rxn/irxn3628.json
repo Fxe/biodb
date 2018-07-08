@@ -1,0 +1,46 @@
+{
+  "id" : "irxn3628",
+  "equation" : "h2o + accoa + 4met2obut <=> icpd594 + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2259" : "",
+      "icpd5825" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd594" : "",
+      "icpd2377" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.3.17; 2.3.3.17",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-2202"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R08619"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:IODOACETAMIDE" ],
+      "activators" : [ "META:ATP", "META:ADP", "META:DITHIOTHREITOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-1186" ],
+      "orphan" : "NO",
+      "gibbs" : -10.171204,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210", "rn01110", "rn00966" ],
+      "orthologs" : [ "K15742", "K15741" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

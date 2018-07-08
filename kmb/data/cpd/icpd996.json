@@ -1,0 +1,33 @@
+{
+  "id" : "icpd996",
+  "formula" : "C7H7ClO2",
+  "name" : "5-chloro-3-methylcatechol",
+  "synonyms" : [ "3-methyl-5-chlorocatechol" ],
+  "alias" : "icpd996",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03591"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10616"
+  } ],
+  "inchi" : "InChI=1S/C7H7ClO2/c1-4-2-5(8)3-6(9)7(4)10/h2-3,9-10H,1H3",
+  "inchikey" : "DEMKYMVOIBWYAM-UHFFFAOYSA-N",
+  "smiles" : "CC1=C(C(=CC(=C1)Cl)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Chloroaromatic-Compounds", "META:Catechols" ],
+      "reactions" : [ "META:RXN-9902", "META:RXN-9866", "META:RXN-9907" ],
+      "gibbs" : 15.527841,
+      "cmlMolWeight" : 158.584,
+      "molWeight" : 158.584,
+      "parents" : [ "META:Chloroaromatic-Compounds", "META:Catechols" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   19.6629  -14.7668    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6629  -16.1750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4403  -14.0690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8663  -14.0625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4403  -16.8854    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.8728  -16.8663    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2369  -14.7668    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4403  -12.6736    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2369  -16.1750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.0271  -16.8598    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  3  8  1  0     0  0\n  5  9  2  0     0  0\n  9 10  1  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03591\n\n$$$$",
+  "reactions" : [ ]
+}

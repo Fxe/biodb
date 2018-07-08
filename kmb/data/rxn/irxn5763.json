@@ -1,0 +1,48 @@
+{
+  "id" : "irxn5763",
+  "equation" : "coa + phyt + atp <=> phytcoa + amp + ppi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd2377" : "",
+      "icpd1551" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd71" : "",
+      "icpd1231" : "",
+      "icpd7180" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "FACOAL206",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "FAOXC16Brx"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "FACOAL206"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

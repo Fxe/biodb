@@ -1,0 +1,53 @@
+{
+  "id" : "irxn1475",
+  "equation" : "datp + pyr <=> dadp + h + pep",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd5507" : ""
+    },
+    "r" : {
+      "icpd1790" : "",
+      "icpd1851" : "",
+      "icpd6200" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.7.1.40; 2.7.1.40",
+  "otherNames" : [ ],
+  "alias" : "DAPOP",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-14192"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "r0280"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01138"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DAPOP"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -97.22412,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00230" ],
+      "orthologs" : [ "K12406", "K00873" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid" ]
+    }
+  }
+}

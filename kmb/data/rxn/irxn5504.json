@@ -1,0 +1,56 @@
+{
+  "id" : "irxn5504",
+  "equation" : "nad + bhb <=> nadh + h + acac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd42" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd267" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.30; EC-1.1.1.30",
+  "otherNames" : [ ],
+  "alias" : "BDH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "BDHm"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01361"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "BDH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3-HYDROXYBUTYRATE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HBNOx"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-368", "META:PWY66-367" ],
+      "orphan" : "NO",
+      "gibbs" : -3.388214,
+      "uniprot" : [ "Q02337", "Q02338", "P29147" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00650", "rn00072" ],
+      "orthologs" : [ "K00019" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iNJ661", "iMM1415", "RECON1", "iJN746" ]
+    }
+  }
+}

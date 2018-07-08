@@ -1,0 +1,34 @@
+{
+  "id" : "icpd960",
+  "formula" : "C10H13N5O",
+  "name" : "(2e)-2-methyl-4-[(7h-purin-6-yl)amino]but-2-en-1-ol",
+  "synonyms" : [ "(2e)-2-methyl-4-(1h-purin-6-ylamino)-2-buten-1-ol", "(2e)-2-methyl-4-(7h-purin-6-ylamino)but-2-en-1-ol", "(e)-2-methyl-4-(1h-purin-6-ylamino)but-2-en-1-ol" ],
+  "alias" : "icpd960",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00371"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-4210"
+  } ],
+  "inchi" : "InChI=1S/C10H13N5O/c1-7(4-16)2-3-11-9-8-10(13-5-12-8)15-6-14-9/h2,5-6,16H,3-4H2,1H3,(H2,11,12,13,14,15)/b7-2+",
+  "inchikey" : "UZKQTCBAMSWPJD-FARCUNLSSA-N",
+  "smiles" : "C/C(=C(/[H])\\CNC1=NC=NC2=C1N=CN2)/CO",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2.4.1.121-RXN", "META:RXN-4735" ],
+      "instances" : [ "META:Adenine-Cytokinins", "META:N6-Alkylaminopurine" ],
+      "reactions" : [ "META:RXN-4722", "META:RXN-4314", "META:RXN-4721", "META:RXN-4317", "META:TRANS-RXN-200", "META:RXN-4723", "META:BETA-9-CYTOKININ-ALANINE-SYNTHASE-RXN", "META:ZEATIN-REDUCTASE-RXN", "META:RXN-4661", "META:ZEATIN-O-BETA-D-XYLOSYLTRANSFERASE-RXN", "META:RXN-4318" ],
+      "gibbs" : 162.16556,
+      "cmlMolWeight" : 219.246,
+      "molWeight" : 219.246,
+      "parents" : [ "META:Adenine-Cytokinins", "META:N6-Alkylaminopurine" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 17 18  0  0  0  0  0  0  0  0999 V2000\n   24.7800  -18.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.7800  -19.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9700  -17.7100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9700  -20.3700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0900  -18.3400    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9700  -16.3800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.0900  -19.7400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4485  -17.9074    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6256  -19.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4485  -20.1726    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.1824  -15.6800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3779  -16.3704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5653  -15.6849    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.7565  -16.3729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5655  -14.2802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   31.9460  -15.6862    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.3780  -17.7797    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  2  0     0  0\n  3  6  1  0     0  0\n  4  7  2  0     0  0\n  5  7  1  0     0  0\n  1  8  1  0     0  0\n  8  9  2  0     0  0\n  9 10  1  0     0  0\n  2 10  1  0     0  0\n  6 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  2  0     0  0\n 13 14  1  0     0  0\n 13 15  1  0     0  0\n 14 16  1  0     0  0\n 12 17  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00371\n\n$$$$",
+  "reactions" : [ "irxn1241", "irxn6433", "irxn2969" ]
+}

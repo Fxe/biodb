@@ -1,0 +1,33 @@
+{
+  "id" : "icpd335",
+  "formula" : "C10H18N2O5",
+  "name" : "2,4-bis(acetamido)-2,4,6-trideoxy-beta-l-altropyranose",
+  "synonyms" : [ "2,4-bis(acetylamino)-2,4,6-trideoxy-beta-l-altropyranose", "2,4-dictamido-2,4,6-aridtoxy-beta-l-laropyrnost", "2,4-dictamido-2,4,6-aridtoxy-beta-l-larost", "2,4-eis(ctaylmino)-2,4,6-aridtoxy-beta-l-laropyrnost" ],
+  "alias" : "icpd335",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C19972"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10753"
+  } ],
+  "inchi" : "InChI=1S/C10H18N2O5/c1-4-7(11-5(2)13)9(15)8(10(16)17-4)12-6(3)14/h4,7-10,15-16H,1-3H3,(H,11,13)(H,12,14)/t4-,7-,8+,9-,10-/m0/s1",
+  "inchikey" : "NRXWTRNYICXMBF-SGZWNVLDSA-N",
+  "smiles" : "C[C@@]1([H])[C@@]([H])([C@@]([H])([C@]([H])([C@@]([H])(O)O1)N=C(C)O)O)N=C(C)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Carbohydrate-Derivatives" ],
+      "reactions" : [ "META:RXN-10002", "META:RXN-10001" ],
+      "gibbs" : 14.130176,
+      "cmlMolWeight" : 246.263,
+      "molWeight" : 246.263,
+      "parents" : [ "META:Carbohydrate-Derivatives" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 17 17  0  0  1  0  0  0  0  0999 V2000\n   24.6895  -27.1486    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.4920  -27.8530    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   23.4920  -29.1914    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   22.2945  -27.1486    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.2945  -29.8958    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   24.9713  -30.3186    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0969  -27.8530    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   21.0969  -29.1914    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   22.2945  -31.2343    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.3940  -31.5865    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9698  -27.1486    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.9698  -29.8958    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   26.7324  -31.7274    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5487  -32.6432    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.6074  -31.2485    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.2580  -31.6101    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5873  -32.2283    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  6     0  0\n  2  3  1  0     0  0\n  2  4  1  0     0  0\n  3  5  1  0     0  0\n  3  6  1  6     0  0\n  4  7  1  0     0  0\n  5  8  1  0     0  0\n  5  9  1  1     0  0\n  6 10  1  0     0  0\n  7 11  1  6     0  0\n  8 12  1  1     0  0\n 10 13  1  0     0  0\n 10 14  2  0     0  0\n  7  8  1  0     0  0\n 12 15  1  0     0  0\n 15 16  1  0     0  0\n 15 17  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C19972\n\n$$$$",
+  "reactions" : [ "irxn1308", "irxn1335" ]
+}

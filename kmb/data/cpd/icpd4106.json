@@ -1,0 +1,29 @@
+{
+  "id" : "icpd4106",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "icpd4106",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C01370"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:Aldoses"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-9926", "META:ALDEHYDE-REDUCTASE-RXN", "META:RXN0-6371" ],
+      "parents" : [ "META:D-Aldoses", "META:Aldopyranoses", "META:Aldopentoses", "META:ADP-Aldoses", "META:Aldotetraoses", "META:Aldohexoses", "META:Aldodioses", "META:Aldotrioses", "META:Aldehydes", "META:Monosaccharides" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  5  4  0  0  0  0  0  0  0  0999 V2000\n   19.3200  -21.9100    0.0000 R   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5324  -21.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.7449  -21.9100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.9573  -21.2100    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.5324  -19.8102    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  2  5  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01370\n\n$$$$",
+  "reactions" : [ "irxn3030" ]
+}

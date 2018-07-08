@@ -1,0 +1,46 @@
+{
+  "id" : "irxn6015",
+  "equation" : "icpd8158 + accoa <=> coa + icpd8156 + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8158" : "",
+      "icpd5825" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd2377" : "",
+      "icpd8156" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.3.1.80; EC-2.3.1.80",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:2.3.1.80-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R04950"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:N-ETHYLMALEIMIDE", "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-4061" ],
+      "orphan" : "NO",
+      "gibbs" : -16.185242,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00480" ],
+      "orthologs" : [ "K20838" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

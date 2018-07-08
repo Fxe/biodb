@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4809",
+  "equation" : "icpd7888 + h2o <=> ala_B + ac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7888" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd5921" : "",
+      "icpd7989" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.5.1.21; 3.5.1.21",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:N-ACETYL-BETA-ALANINE-DEACETYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00909"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.9830017,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00410" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "irxn6412",
+  "equation" : "icpd8107 + h2o + peamn <=> icpd8139 + pacald + n2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8107" : "",
+      "icpd4016" : "",
+      "icpd3503" : ""
+    },
+    "r" : {
+      "icpd7085" : "",
+      "icpd8139" : "",
+      "icpd4822" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.4.99; 1.4.9.2",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-11510"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02612"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6534" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00360" ],
+      "orthologs" : [ "K13372", "K13371" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

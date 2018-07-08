@@ -1,0 +1,31 @@
+{
+  "id" : "icpd3348",
+  "formula" : "C6H8N2O2",
+  "name" : "deamino-histidine",
+  "synonyms" : [ "1h-imidazole-4-propanoic acid", "3-(1h-imidazol-4-yl)-propionic acid", "3-(1h-imidazol-5-yl)propanoic acid", "3-(3h-imidazol-4-yl)propanoic acid", "3-(imidazol-4-yl)propionic acid", "5-imidazolepropionic acid", "deaminohistidine" ],
+  "alias" : "icpd3348",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C20522"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-15171"
+  } ],
+  "inchi" : "InChI=1S/C6H8N2O2/c9-6(10)2-1-5-3-7-4-8-5/h3-4H,1-2H2,(H,7,8)(H,9,10)",
+  "inchikey" : "ZCKYOWGFRHAZIQ-UHFFFAOYSA-N",
+  "smiles" : "C(CC(=O)O)C1=CNC=N1",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-14236" ],
+      "gibbs" : 16.93578,
+      "cmlMolWeight" : 139.133,
+      "molWeight" : 139.133
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  0  0  0  0  0  0999 V2000\n   15.3161  -14.9134    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7480  -16.2451    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.1481  -16.2459    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5815  -14.9147    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4492  -14.0911    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   18.3631  -16.9406    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5757  -16.2406    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7881  -16.9406    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0005  -16.2406    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7881  -18.3407    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  2  3  1  0     0  0\n  3  4  2  0     0  0\n  4  5  1  0     0  0\n  1  5  1  0     0  0\n  3  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  8 10  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C20522\n\n$$$$",
+  "reactions" : [ "irxn6884" ]
+}

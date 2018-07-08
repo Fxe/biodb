@@ -1,0 +1,49 @@
+{
+  "id" : "irxn3581",
+  "equation" : "gtp + hlys <=> gdp + pholys",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1365" : "",
+      "icpd6377" : ""
+    },
+    "r" : {
+      "icpd1672" : "",
+      "icpd166" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.81; EC-2.7.1.81",
+  "otherNames" : [ ],
+  "alias" : "HOLYSK",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03378"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HOLYSK"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYDROXYLYSINE-KINASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -108.55768,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00310", "rn01100" ],
+      "orthologs" : [ "K18201" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

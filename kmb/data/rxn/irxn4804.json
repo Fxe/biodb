@@ -1,0 +1,45 @@
+{
+  "id" : "irxn4804",
+  "equation" : "icpd5400 + h2o <=> pi + icpd1404",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5400" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "icpd7485" : "",
+      "icpd1404" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-3.1.3.40; 3.1.3.40",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R03496"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:3.1.3.40-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Pi" ],
+      "activators" : [ "META:DITHIOTHREITOL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5940" ],
+      "orphan" : null,
+      "gibbs" : 5.96875,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01130", "rn00521" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

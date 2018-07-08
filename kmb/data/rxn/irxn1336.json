@@ -1,0 +1,48 @@
+{
+  "id" : "irxn1336",
+  "equation" : "3dhguln <=> co2 + xylu__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd8116" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd2961" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.34; 4.1.1.34",
+  "otherNames" : [ ],
+  "alias" : "DGULND",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DEHYDRO-L-GULONATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01905"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "DGULND"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CD+2", "META:DIETHYLDITHIOCARBAMATE", "META:CU+2", "META:FE+2", "META:CPD-29" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5525" ],
+      "orphan" : null,
+      "gibbs" : -2.4658813,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00040" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "iAT_PLT_636", "RECON1", "iAB_RBC_283" ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "irxn5898",
+  "equation" : "4mzym_int1 + nadp <=> nadph + 4mzym_int2 + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1761" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd2454" : "",
+      "icpd1791" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.170",
+  "otherNames" : [ ],
+  "alias" : "C3STDH1Pr",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R07494"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "4MZYMCODH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "C3STDH1Pr"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100", "rn01130" ],
+      "orthologs" : [ "K07748" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

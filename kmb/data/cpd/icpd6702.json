@@ -1,0 +1,39 @@
+{
+  "id" : "icpd6702",
+  "formula" : "C8H7O4",
+  "name" : "homogentisate",
+  "synonyms" : [ "(2,5-dihydroxyphenyl)-acetate", "2,5-dihydroxy-alpha-toluate", "2,5-dihydroxy-benzeneacetate", "2,5-dihydroxyphenylacetate" ],
+  "alias" : "hgentis",
+  "references" : [ {
+    "source" : "BiGG",
+    "entry" : "hgentis"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "hgentis"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HOMOGENTISATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00544"
+  } ],
+  "inchi" : "InChI=1S/C8H8O4/c9-6-1-2-7(10)5(3-6)4-8(11)12/h1-3,9-10H,4H2,(H,11,12)/p-1",
+  "inchikey" : "IGMNYECMUMZDDF-UHFFFAOYSA-M",
+  "smiles" : "C1=C(C=C(CC(=O)[O-])C(=C1)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-14929", "META:RXN-18767", "META:HOMOGENTISATE-12-DIOXYGENASE-RXN", "META:RXN-2761", "META:RXN-2541", "META:1.14.13.18-RXN", "META:1.14.13.63-RXN", "META:4-HYDROXYPHENYLPYRUVATE-DIOXYGENASE-RXN" ],
+      "gibbs" : -57.254215,
+      "cmlMolWeight" : 167.141,
+      "molWeight" : 167.141
+    },
+    "bigg" : {
+      "models" : [ "iCHOv1", "iRC1080", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "iJN678", "iAT_PLT_636", "RECON1", "iJN746" ]
+    }
+  },
+  "mol" : " \n \n \n 12 12  0  0  0  0  0  0  0  0999 V2000\n   24.5165  -23.4961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7271  -24.1979    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3000  -24.1979    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5165  -22.0983    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7271  -25.5955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9376  -23.4961    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3000  -25.5955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7329  -21.3966    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.5165  -26.2973    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0895  -26.2973    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9434  -22.0983    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.7329  -19.9990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  2  0     0  0\n  4  8  1  0     0  0\n  5  9  2  0     0  0\n  7 10  1  0     0  0\n  8 11  1  0     0  0\n  8 12  2  0     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00544\n\n$$$$",
+  "reactions" : [ "irxn2299", "irxn831", "irxn928", "irxn3921", "irxn5875" ]
+}

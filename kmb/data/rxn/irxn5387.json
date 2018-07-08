@@ -1,0 +1,51 @@
+{
+  "id" : "irxn5387",
+  "equation" : "nad + h2o + histda <=> nadh + 2.0 h + his__L",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5957" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "2.0",
+      "icpd3297" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.23",
+  "otherNames" : [ ],
+  "alias" : "HISTDb",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01163"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HISTDb"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HISTALDEHYD-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-8001" ],
+      "orphan" : "NO",
+      "gibbs" : -12.481201,
+      "uniprot" : [ "P06988", "Q9PM77", "P73058", "O66976", "Q9X0D1", "O26327", "P18786", "P16245", "P10370", "P00815", "P72946", "P63950", "Q02136", "Q9RSI4", "O34651", "P24226", "P45353", "P44001", "P28736", "P07685", "Q58851", "Q9JTH9", "O30027", "Q12670" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00340", "rn01110" ],
+      "orthologs" : [ "K00013", "K14152" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJB785" ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id" : "icpd3889",
+  "formula" : "C5H8N2O2",
+  "name" : "dihydrothymine",
+  "synonyms" : [ "5,6-dihydro-5-methyluracil", "5,6-dihydrothymine", "5-methyl-1,3-diazinane-2,4-dione", "5-methyl-5,6-dihydrouracil", "5-methyldihydropyrimidine-2,4(1h,3h)-dione", "dihydro-5-methyl-2,4(1h,3h)-pyrimidinedione" ],
+  "alias" : "56dthm",
+  "references" : [ {
+    "source" : "BiGGMetabolite",
+    "entry" : "56dthm"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:DIHYDRO-THYMINE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00906"
+  }, {
+    "source" : "BiGG",
+    "entry" : "56dthm"
+  } ],
+  "inchi" : "InChI=1S/C5H8N2O2/c1-3-2-6-5(9)7-4(3)8/h3H,2H2,1H3,(H2,6,7,8,9)",
+  "inchikey" : "NBAKTGXDIBVZOO-UHFFFAOYSA-N",
+  "smiles" : "CC1CNC(=O)NC1=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:Pyrimidines", "META:All-Nucleosides", "META:Modified-Bases" ],
+      "reactions" : [ "META:RXN-11209", "META:RXN0-6565", "META:RXN-11211" ],
+      "gibbs" : 8.148967,
+      "cmlMolWeight" : 128.13,
+      "molWeight" : 128.13,
+      "parents" : [ "META:Pyrimidines", "META:All-Nucleosides", "META:Modified-Bases" ]
+    },
+    "bigg" : {
+      "models" : [ "iAF692", "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  },
+  "mol" : " \n \n \n  9  9  0  0  0  0  0  0  0  0999 V2000\n   27.5037  -17.8119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7262  -18.5031    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   26.3003  -18.5031    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5037  -16.4165    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7262  -19.9113    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.9296  -17.8054    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3003  -19.9113    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5037  -20.6219    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   25.0904  -20.6026    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  2  0     0  0\n  2  5  1  0     0  0\n  2  6  1  0     0  0\n  3  7  1  0     0  0\n  5  8  1  0     0  0\n  7  9  2  0     0  0\n  7  8  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00906\n\n$$$$",
+  "reactions" : [ "irxn3593", "irxn5251" ]
+}

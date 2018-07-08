@@ -1,0 +1,56 @@
+{
+  "id" : "irxn2192",
+  "equation" : "cdpea + 12dgr180 <=> cmp + h + pe161",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6037" : "",
+      "icpd5780" : ""
+    },
+    "r" : {
+      "icpd3421" : "",
+      "icpd1851" : "",
+      "icpd1971" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.8.1",
+  "otherNames" : [ ],
+  "alias" : "ETHAPT_STC_STC_c",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ETHAPT_MYRS_MYRS_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ETHAPT_STC_STC_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ETHAPT_PALM_PALM_c"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ETHAPT_HDE_HDE_c"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02057"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00564", "rn01100", "rn01110" ],
+      "orthologs" : [ "K13644", "K00993" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iLB1027_lipid" ]
+    }
+  }
+}

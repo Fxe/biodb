@@ -1,0 +1,39 @@
+{
+  "id" : "icpd8196",
+  "formula" : "C6H10O9P",
+  "name" : "2-dehydro-3-deoxy-d-galactonate 6-phosphate",
+  "synonyms" : [ "2-dehydro-3-deoxy-6-phospho-d-galactonate" ],
+  "alias" : "2dh3dgal6p",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:DEHYDRO-DEOXY-GALACTONATE-PHOSPHATE"
+  }, {
+    "source" : "BiGG",
+    "entry" : "2dh3dgal6p"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C01286"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "2dh3dgal6p"
+  } ],
+  "inchi" : "InChI=1S/C6H11O9P/c7-3(1-4(8)6(10)11)5(9)2-15-16(12,13)14/h3,5,7,9H,1-2H2,(H,10,11)(H2,12,13,14)/p-1/t3-,5-/m1/s1",
+  "inchikey" : "OVPRPPOVAXRCED-NQXXGFSBSA-M",
+  "smiles" : "C([C@]([H])([C@@]([H])(COP(=O)(O)O)O)O)C(=O)C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:DEHYDDEOXPHOSGALACT-ALDOL-RXN", "META:DEHYDDEOXGALACTKIN-RXN" ],
+      "gibbs" : -353.27957,
+      "cmlMolWeight" : 255.098,
+      "molWeight" : 255.098
+    },
+    "bigg" : {
+      "models" : [ "iEKO11_1354", "ic_1306", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iJR904", "iML1515", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iAPECO1_1312", "iS_1188", "iECDH10B_1368", "iSF_1195", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "STM_v1_0", "iSSON_1240", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 16 15  0  0  1  0  0  0  0  0999 V2000\n   19.1800  -18.5500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.3700  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6300  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8200  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0100  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2700  -19.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4600  -18.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6500  -19.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7800  -18.5500    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7800  -19.9500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.7800  -17.1500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.3800  -18.5500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6300  -17.1500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.8200  -20.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2700  -20.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4600  -17.1500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  1  9  1  0     0  0\n  9 10  2  0     0  0\n  9 11  1  0     0  0\n  9 12  1  0     0  0\n  3 13  1  1     0  0\n  4 14  1  1     0  0\n  6 15  2  0     0  0\n  7 16  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C01286\n\n$$$$",
+  "reactions" : [ "irxn3327", "irxn2955" ]
+}

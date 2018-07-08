@@ -1,0 +1,52 @@
+{
+  "id" : "irxn3779",
+  "equation" : "atp + 5pmev <=> 5dpmev + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5506" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd5753" : "",
+      "icpd2389" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.4.2; EC-2.7.4.2",
+  "otherNames" : [ ],
+  "alias" : "PMEVK",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:PHOSPHOMEVALONATE-KINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03245"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PMEVK"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "PMEVKx"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-922", "META:PWY-7391" ],
+      "orphan" : "NO",
+      "gibbs" : -1.4100342,
+      "uniprot" : [ "P24521" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn01130", "rn00900" ],
+      "orthologs" : [ "K13273", "K00938" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iCHOv1", "iNF517", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "RECON1", "iSB619" ]
+    }
+  }
+}

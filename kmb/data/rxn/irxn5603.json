@@ -1,0 +1,45 @@
+{
+  "id" : "irxn5603",
+  "equation" : "succoa + icpd5838 <=> succ + icpd5856",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5838" : "",
+      "icpd5739" : ""
+    },
+    "r" : {
+      "icpd5856" : "",
+      "icpd5108" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.8.3.15; EC-2.8.3.15",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R05588"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-864"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-81" ],
+      "orphan" : "NO",
+      "gibbs" : -2.040039,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn01220", "rn00623" ],
+      "orthologs" : [ "K07544", "K07543" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

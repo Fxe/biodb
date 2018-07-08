@@ -1,0 +1,53 @@
+{
+  "id" : "irxn1983",
+  "equation" : "atp + fru_B <=> f6p_B + h + adp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1050" : "",
+      "icpd6530" : ""
+    },
+    "r" : {
+      "icpd1851" : "",
+      "icpd5753" : "",
+      "icpd3606" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.7.1.1; 2.7.1.4; EC-2.7.1.4",
+  "otherNames" : [ ],
+  "alias" : "ABFPT",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ABFPT"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ABFPTh"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:FRUCTOKINASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03920"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:ADP", "META:FRU", "META:FRUCTOSE-6P" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5384", "META:PWY-4101", "META:PWY-621", "META:PWY-6531", "META:SUCUTIL-PWY", "META:P122-PWY", "META:SUCROSEUTIL2-PWY", "META:PWY-3801" ],
+      "orphan" : "NO",
+      "gibbs" : -12.545898,
+      "uniprot" : [ "Q9CFI9", "P26420", "Q42645", "Q9V0T7", "P24261", "P37829", "O04897", "O82616", "P73521", "Q09124", "P22824", "Q03417", "P26984", "P43468" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00520" ],
+      "orthologs" : [ "K00847", "K00844" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id" : "irxn2403",
+  "equation" : "accoa + crn <=> acrn + coa",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5825" : "",
+      "icpd6570" : ""
+    },
+    "r" : {
+      "icpd2377" : "",
+      "icpd1324" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.3.1.7",
+  "otherNames" : [ ],
+  "alias" : "CSNATr",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "CSNATr"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CSNATm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CSNATirm"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CSNATer"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CSNATp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CARNITINE-O-ACETYLTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CPD-5401", "META:IODOACETATE" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : -3.6099854,
+      "uniprot" : [ "P80235", "P52826", "P43155", "Q00614", "P32796" ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iND750", "iMM1415", "iLB1027_lipid", "iMM904", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

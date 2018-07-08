@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1409",
+  "equation" : "icpd3522 <=> 5odhf2a + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3522" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd4447" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "4.1.1.44; EC-4.1.1.44",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:4-CARBOXYMUCONOLACTONE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03470"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -7.8117676,
+      "uniprot" : [ "P20370", "P00881" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01120", "rn00362", "rn01220" ],
+      "orthologs" : [ "K01607", "K14727" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn2317",
+  "equation" : "nad + h2o + hyptaur <=> nadh + h + taur",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4016" : "",
+      "icpd7136" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7999" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.8.1.3; 1.8.1.3",
+  "otherNames" : [ ],
+  "alias" : "r0381",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "r0381"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:HYPOTAURINE-DEHYDROGENASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01681"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:Pi", "META:CPD-7082" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5331", "META:PWY-7850" ],
+      "orphan" : "NO",
+      "gibbs" : -3.4012146,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00430" ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1" ]
+    }
+  }
+}

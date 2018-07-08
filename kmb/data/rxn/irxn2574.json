@@ -1,0 +1,54 @@
+{
+  "id" : "irxn2574",
+  "equation" : "nadph + 13dpg + h <=> g3p + pi + nadp",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd3088" : ""
+    },
+    "r" : {
+      "icpd4806" : "",
+      "icpd7485" : "",
+      "icpd5537" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.2.1.13; 1.2.1.59; EC-1.2.1.13",
+  "otherNames" : [ ],
+  "alias" : "GAPDi_nadp",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "GAPDH_nadp_hi"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "GAPDi_nadp"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1.2.1.13-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01063"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:CALVIN-PWY" ],
+      "orphan" : "NO",
+      "gibbs" : -16.442871,
+      "uniprot" : [ "P50362", "O22534", "P30724", "Q41019", "P12859", "P12858", "Q7M1R7", "P12860", "P19866", "P09094", "Q7M1R8", "Q37174", "P09672", "P25856", "P09315", "P80505", "Q55245" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01200", "rn01120", "rn01230", "rn00010", "rn01110", "rn01130", "rn00710" ],
+      "orthologs" : [ "K00150", "K05298" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iAF692", "iRC1080", "iLB1027_lipid", "iJN678", "iJB785", "iYO844" ]
+    }
+  }
+}

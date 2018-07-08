@@ -1,0 +1,50 @@
+{
+  "id" : "irxn2364",
+  "equation" : "zymstnl <=> lthstrl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7642" : ""
+    },
+    "r" : {
+      "icpd1955" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-5.3.3.5; 5.3.3.5",
+  "otherNames" : [ ],
+  "alias" : "EBP2r",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN66-25"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03353"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "CHLSTD78I"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "EBP2r"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-3" ],
+      "orphan" : "NO",
+      "gibbs" : -24.629,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00100" ],
+      "orthologs" : [ "K01824" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "RECON1" ]
+    }
+  }
+}

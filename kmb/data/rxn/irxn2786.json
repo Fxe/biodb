@@ -1,0 +1,45 @@
+{
+  "id" : "irxn2786",
+  "equation" : "2amsa + h <=> co2 + aacald",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "",
+      "icpd1047" : ""
+    },
+    "r" : {
+      "icpd2454" : "",
+      "icpd7719" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.1.1.387; 1.1.1.276",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R06830"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-16002"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:RXN-16003", "META:RXN-16008" ],
+      "orphan" : null,
+      "gibbs" : -3.090004,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

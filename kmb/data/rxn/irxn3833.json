@@ -1,0 +1,47 @@
+{
+  "id" : "irxn3833",
+  "equation" : "inost + udpgal <=> udp + 1Dgali + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5440" : "",
+      "icpd4293" : ""
+    },
+    "r" : {
+      "icpd3879" : "",
+      "icpd1851" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.123",
+  "otherNames" : [ ],
+  "alias" : "IAGT",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01192"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "IAGT"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00052" ],
+      "orthologs" : [ "K18819" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

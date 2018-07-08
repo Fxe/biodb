@@ -1,0 +1,49 @@
+{
+  "id" : "irxn5894",
+  "equation" : "pyr + arg__L <=> ala__L + 5g2oxpt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3122" : "",
+      "icpd90" : ""
+    },
+    "r" : {
+      "icpd4196" : "",
+      "icpd7336" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.6.1.84; EC-2.6.1.84",
+  "otherNames" : [ ],
+  "alias" : "ARUH",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R08197"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "ARUH"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-8956"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5742" ],
+      "orphan" : "NO",
+      "gibbs" : 0.084127426,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00330", "rn01100" ],
+      "orthologs" : [ "K12252" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iJN746" ]
+    }
+  }
+}

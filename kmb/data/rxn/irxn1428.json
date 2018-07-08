@@ -1,0 +1,44 @@
+{
+  "id" : "irxn1428",
+  "equation" : "icpd4368 <=> itacon + co2",
+  "stoichiometry" : {
+    "l" : {
+      "icpd4368" : ""
+    },
+    "r" : {
+      "icpd4387" : "",
+      "icpd2454" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.1.1.6; 4.1.1.6",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:ACONITATE-DECARBOXYLASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R02243"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ "META:CU+2", "META:ZN+2", "META:CPD-29", "META:HG+2" ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-5750" ],
+      "orphan" : "NO",
+      "gibbs" : -5.217636,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "C5", "rn00660" ],
+      "orthologs" : [ "K17724" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

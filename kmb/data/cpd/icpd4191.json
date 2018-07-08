@@ -1,0 +1,33 @@
+{
+  "id" : "icpd4191",
+  "formula" : "C5H10O5",
+  "name" : "d-ribopyranose",
+  "synonyms" : [ ],
+  "alias" : "icpd4191",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:D-Ribopyranose"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C21057"
+  } ],
+  "inchi" : "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3-,4-,5?/m1/s1",
+  "inchikey" : "SRBFZHDQGSBBOR-SOOFDHNKSA-N",
+  "smiles" : "C1[C@H]([C@H]([C@H](C(O)O1)O)O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "instances" : [ "META:CPD0-1110", "META:CPD-15829" ],
+      "reactions" : [ "META:RXN-14883", "META:ABC-28-RXN" ],
+      "gibbs" : -77.3488,
+      "cmlMolWeight" : 150.131,
+      "molWeight" : 150.131,
+      "parents" : [ "META:CPD0-1110", "META:D-aldopyranoses", "META:CPD-15829", "META:RIBOSE" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 10 10  0  0  1  0  0  0  0  0999 V2000\n   18.6615  -16.8676    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   19.8660  -16.1694    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0\n   17.4454  -16.1694    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   18.6615  -18.2699    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8660  -14.7729    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0\n   21.0821  -16.8676    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.4454  -14.7729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2292  -16.8676    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.6615  -14.0689    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.0821  -14.0689    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  6     0  0\n  2  5  1  0     0  0\n  2  6  1  6     0  0\n  3  7  1  0     0  0\n  3  8  1  6     0  0\n  5  9  1  0     0  0\n  5 10  1  4     0  0\n  7  9  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C21057\n\n$$$$",
+  "reactions" : [ ]
+}

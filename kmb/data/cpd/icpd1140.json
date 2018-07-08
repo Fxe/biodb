@@ -1,0 +1,31 @@
+{
+  "id" : "icpd1140",
+  "formula" : "C10H14O2",
+  "name" : "(+)-bornane-2,5-dione",
+  "synonyms" : [ "1,7,7-trimethylbicyclo[2.2.1]heptane-2,5-dione", "2,5-diketocamphane", "2,5-dioxocamphane", "3,6-diketocamphane", "bornane-2,5-dione" ],
+  "alias" : "icpd1140",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C03037"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-864"
+  } ],
+  "inchi" : "InChI=1S/C10H14O2/c1-9(2)6-4-8(12)10(9,3)5-7(6)11/h6H,4-5H2,1-3H3",
+  "inchikey" : "UDIUFGIXIGLRSM-UHFFFAOYSA-N",
+  "smiles" : "CC1(C)C2CC(=O)C1(C)CC2=O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:R543-RXN", "META:R542-RXN" ],
+      "gibbs" : 95.70569,
+      "cmlMolWeight" : 166.219,
+      "molWeight" : 166.219
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 12 13  0  0  0  0  0  0  0  0999 V2000\n   28.0262  -17.7893    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.7230  -16.7479    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   26.7172  -18.4862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5434  -18.0569    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.9293  -16.6928    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7230  -18.9622    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n   28.2866  -15.4797    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   29.5284  -15.4262    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.4141  -19.9197    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.2857  -19.3984    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.5820  -18.1183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   31.2378  -20.1504    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  1  3  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\n  2  6  1  0     0  0\n  2  7  1  0     0  0\n  2  8  1  0     0  0\n  3  9  1  0     0  0\n  4 10  1  0     0  0\n  6  9  1  0     0  0\n  6 10  1  0     0  0\n  3 11  2  0     0  0\n 10 12  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C03037\n\n$$$$",
+  "reactions" : [ "irxn4161", "irxn2279" ]
+}

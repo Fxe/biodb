@@ -1,0 +1,52 @@
+{
+  "id" : "irxn2686",
+  "equation" : "nad + h2o + val__L <=> nadh + n2 + 3mob + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1379" : "",
+      "icpd4016" : "",
+      "icpd5131" : ""
+    },
+    "r" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7085" : "",
+      "icpd5052" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-1.4.1.23; 1.4.1.23; 1.4.1.9",
+  "otherNames" : [ ],
+  "alias" : "VALDHr",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN-13184"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01434"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "VALDHr"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ "META:VAL" ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : "NO",
+      "gibbs" : 4.624695,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn01110", "rn01130", "rn00280", "rn00290" ],
+      "orthologs" : [ "K00263", "K00271" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iYO844" ]
+    }
+  }
+}

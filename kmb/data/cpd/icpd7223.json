@@ -1,0 +1,37 @@
+{
+  "id" : "icpd7223",
+  "formula" : null,
+  "name" : null,
+  "synonyms" : [ ],
+  "alias" : "14glucan",
+  "references" : [ {
+    "source" : "LigandCompound",
+    "entry" : "C00718"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "14glucan"
+  }, {
+    "source" : "BiGG",
+    "entry" : "14glucan"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:1-4-alpha-D-Glucan"
+  } ],
+  "inchi" : null,
+  "inchikey" : null,
+  "smiles" : null,
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:2.4.1.24-RXN", "META:3.2.1.60-RXN", "META:RXN-14371", "META:RXN-18777", "META:RXN-14378", "META:3.2.1.116-RXN", "META:RXN-13028", "META:ALPHA-AMYL-RXN", "META:RXN-1827", "META:GLYCOGEN-BRANCH-RXN", "META:2.4.1.161-RXN", "META:3.2.1.98-RXN", "META:DEXTRIN-DEXTRANASE-RXN", "META:MALTODEXGLUCOSID-RXN", "META:4.2.2.13-RXN", "META:RXN0-5184", "META:AMYLOSUCRASE-RXN", "META:GLYCOGENSYN-RXN", "META:RXN-7710", "META:2.4.1.19-RXN", "META:2.4.1.242-RXN", "META:RXN0-5181" ],
+      "parents" : [ "META:Alpha-Amyloses", "META:Phospho-alpha-glucans", "META:O-phospho-phospho-alpha-glucans", "META:Alpha-D-Glucans", "META:Cyclodextrins", "META:POLY-GLUCOSYLATED-GLYCOGENINS" ]
+    },
+    "bigg" : {
+      "models" : [ "ic_1306", "iEKO11_1354", "iECD_1391", "iETEC_1333", "iECED1_1282", "iECIAI1_1343", "iWFL_1372", "iBWG_1329", "iML1515", "iECABU_c1320", "iAF1260b", "iEcHS_1320", "iEcDH1_1363", "iECP_1309", "iECO26_1355", "iEcolC_1368", "iG2583_1286", "iB21_1397", "iAF1260", "iECIAI39_1322", "iEC55989_1330", "iECW_1372", "iNRG857_1313", "iE2348C_1286", "iEcSMS35_1347", "iECO111_1330", "iJB785", "iECH74115_1262", "iECB_1328", "iECBD_1354", "iSbBS512_1146", "iECUMN_1333", "iECSF_1327", "iUMN146_1321", "iSDY_1059", "iECDH1ME8569_1439", "iLF82_1304", "iECO103_1326", "iZ_1308", "iUMNK88_1353", "iUTI89_1310", "iEcE24377_1341", "iS_1188", "iAPECO1_1312", "iSF_1195", "iECDH10B_1368", "iECS88_1305", "iECNA114_1301", "iSFxv_1172", "iSSON_1240", "STM_v1_0", "iEC042_1314", "iECSP_1301", "iECs_1301", "iY75_1357", "iSBO_1134", "iYL1228", "iPC815", "iJO1366", "iSFV_1184", "iECSE_1348", "iECOK1_1307" ]
+    }
+  },
+  "mol" : " \n \n \n 13 13  0  0  1  0  0  0  0  0999 V2000\n   26.4600  -14.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.4600  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6724  -16.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8849  -16.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.8849  -14.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6724  -14.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.2476  -14.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1160  -13.9890    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.6724  -18.1998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   30.1160  -16.8110    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   21.3276  -18.0600    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0\n   24.0521  -14.6904    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   32.9312  -15.5247    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  1  6  1  0     0  0\n  1  7  1  1     0  0\n  5  8  1  6     0  0\n  3  9  1  1     0  0\n  4 10  1  6     0  0\n  2 11  1  6     0  0\n  7 12  1  0     0  0\n  8 13  1  0     0  0\nM  STY  1   1 SRU\nM  SLB  1   1   1\nM  SCN  1   1 HT \nM  SAL   1 11   1   2   3   4   5   6   7   8   9  10  12\nM  SDI   1  4   22.8900  -18.6200   22.8900  -13.3000\nM  SDI   1  4   31.6400  -13.3000   31.6400  -18.6200\nM  SMT   1 n\nM  END\n\n> <ENTRY>\ncpd:C00718\n\n$$$$",
+  "reactions" : [ "irxn4763", "irxn3460" ]
+}

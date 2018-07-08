@@ -1,0 +1,51 @@
+{
+  "id" : "irxn549",
+  "equation" : "pdx5p + selcys <=> seln + ala__L + h + pydx5p",
+  "stoichiometry" : {
+    "l" : {
+      "icpd137" : "",
+      "icpd6015" : ""
+    },
+    "r" : {
+      "icpd2906" : "",
+      "icpd3498" : "",
+      "icpd1851" : "",
+      "icpd7336" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "SELCYSLY2",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "SELCYSLY2"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SELCYSLY2_h"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SELCYSLY2_1"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iLB1027_lipid", "iMM1415", "RECON1" ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id" : "irxn3301",
+  "equation" : "gtp + coa + succ <=> gdp + succoa + pi",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1365" : "",
+      "icpd2377" : "",
+      "icpd5108" : ""
+    },
+    "r" : {
+      "icpd5739" : "",
+      "icpd166" : "",
+      "icpd7485" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "6.2.1.4; EC-6.2.1.4",
+  "otherNames" : [ ],
+  "alias" : "SUCOAS1m",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:SUCCINATE--COA-LIGASE-GDP-FORMING-RXN"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "SUCOAS1m"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R00432"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY66-398" ],
+      "orphan" : "NO",
+      "gibbs" : -96.04419,
+      "uniprot" : [ "P53312", "P53587", "P13086", "Q9Y436", "O84829", "O08371", "Q8LAD2", "P36967", "Q03184", "P68209" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00640", "rn01100", "rn01200", "rn00020", "rn01110", "rn01130" ],
+      "orthologs" : [ "K01900", "K01899" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iRC1080", "iMM1415", "iAT_PLT_636", "RECON1" ]
+    }
+  }
+}

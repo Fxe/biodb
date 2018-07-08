@@ -1,0 +1,46 @@
+{
+  "id" : "irxn5503",
+  "equation" : "glc__D + udpgal <=> udp + lcts",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5440" : "",
+      "icpd2392" : ""
+    },
+    "r" : {
+      "icpd6179" : "",
+      "icpd6858" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "2.4.1.22",
+  "otherNames" : [ ],
+  "alias" : "UGALGTg",
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R00503"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "UGALGTg"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00052" ],
+      "orthologs" : [ "K07967", "K00704", "K07966" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1" ]
+    }
+  }
+}

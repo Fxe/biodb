@@ -1,0 +1,35 @@
+{
+  "id" : "icpd3593",
+  "formula" : "C6H5O7",
+  "name" : "(1r,2s)-1-hydroxypropane-1,2,3-tricarboxylate",
+  "synonyms" : [ ],
+  "alias" : "icpd3593",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:THREO-DS-ISO-CITRATE"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C00451"
+  } ],
+  "inchi" : "InChI=1S/C6H8O7/c7-3(8)1-2(5(10)11)4(9)6(12)13/h2,4,9H,1H2,(H,7,8)(H,10,11)(H,12,13)/p-3/t2-,4+/m0/s1",
+  "inchikey" : "ODBLHEXUDAPZAU-ZAFYKAAXSA-K",
+  "smiles" : "C([C@@]([H])([C@]([H])(C(=O)[O-])O)C(=O)[O-])C(=O)[O-]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:2PGADEHYDRAT-RXN" ],
+      "activators" : [ "META:RXN-3588", "META:RXN-4206", "META:RXN-4321", "META:RXN-4763", "META:RXN-3592", "META:RXN-4704" ],
+      "instances" : [ "META:Isocitrate" ],
+      "reactions" : [ "META:ACONITATEHYDR-RXN", "META:ISOCIT-CLEAV-RXN", "META:ISOCITDEH-RXN", "META:ISOCITRATE-DEHYDROGENASE-NAD+-RXN", "META:RXN-14047", "META:2.3.1.126-RXN", "META:RXN-9951", "META:ISOCITRATE-EPIMERASE-RXN", "META:R23-RXN" ],
+      "gibbs" : -230.47293,
+      "cmlMolWeight" : 189.101,
+      "molWeight" : 189.101,
+      "parents" : [ "META:Isocitrate" ]
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n 13 12  0  0  1  0  0  0  0  0999 V2000\n   21.4900  -17.9900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6800  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9400  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1300  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3200  -17.9900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5800  -17.2900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.7700  -17.9900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.6800  -15.8900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   25.1300  -15.8900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3200  -19.3900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.5800  -15.8900    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   26.3200  -15.1200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.9400  -15.1200    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  2  8  2  0     0  0\n  4  9  1  6     0  0\n  5 10  1  6     0  0\n  6 11  2  0     0  0\n  9 12  2  0     0  0\n  9 13  1  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C00451\n\n$$$$",
+  "reactions" : [ "irxn2656" ]
+}

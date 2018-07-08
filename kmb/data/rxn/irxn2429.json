@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2429",
+  "equation" : "dhbpt + nadh + h <=> nad + thbpt",
+  "stoichiometry" : {
+    "l" : {
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd7726" : ""
+    },
+    "r" : {
+      "icpd5131" : "",
+      "icpd276" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.5.1.34",
+  "otherNames" : [ ],
+  "alias" : "DHPR",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "DHPR"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01793"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01100", "rn00790" ],
+      "orthologs" : [ "K00357" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iCHOv1", "iMM1415", "RECON1", "iJN746" ]
+    }
+  }
+}

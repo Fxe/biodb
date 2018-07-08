@@ -1,0 +1,47 @@
+{
+  "id" : "irxn2992",
+  "equation" : "g6p_A + nadp <=> nadph + 6pgl + h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd3071" : "",
+      "icpd5537" : ""
+    },
+    "r" : {
+      "icpd5432" : "",
+      "icpd1851" : "",
+      "icpd3468" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "G6PADH",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "G6PADH"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "G6PADHh"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080" ]
+    }
+  }
+}

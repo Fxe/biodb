@@ -1,0 +1,44 @@
+{
+  "id" : "irxn980",
+  "equation" : "icpd1145 <=> h2o + citac",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1145" : ""
+    },
+    "r" : {
+      "icpd4282" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-4.2.1.35; 4.2.1.35",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:R-2-METHYLMALATE-DEHYDRATASE-RXN"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R03896"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-7698", "META:PWY-5101" ],
+      "orphan" : "NO",
+      "gibbs" : 1.4730072,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn01210", "rn01100", "C5", "rn00660", "rn01230", "rn00290" ],
+      "orthologs" : [ "K01703", "K01704" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

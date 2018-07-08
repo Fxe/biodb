@@ -1,0 +1,46 @@
+{
+  "id" : "irxn660",
+  "equation" : "no3 + 2.0 HC02114 + 2.0 h <=> no2 + h2o",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1851" : "2.0",
+      "icpd6911" : "",
+      "icpd4870" : "2.0"
+    },
+    "r" : {
+      "icpd7710" : "",
+      "icpd4016" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-5242"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:RXN0-6370"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:NITRATE-REDUCTASE-CYTOCHROME-RXN", "META:RXN0-7124", "META:RXN-11236", "META:RXN0-6369", "META:RXN0-3501", "META:RXN-16471", "META:R247-RXN" ],
+      "orphan" : "NO",
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

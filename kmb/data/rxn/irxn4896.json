@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4896",
+  "equation" : "o2 + nadh + h + icpd3115 <=> nad + catechol + co2 + cl",
+  "stoichiometry" : {
+    "l" : {
+      "icpd6049" : "",
+      "icpd5377" : "",
+      "icpd1851" : "",
+      "icpd3115" : ""
+    },
+    "r" : {
+      "icpd2941" : "",
+      "icpd8186" : "",
+      "icpd2454" : "",
+      "icpd5131" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "1.14.12.13; EC-1.14.12.13",
+  "otherNames" : [ ],
+  "alias" : null,
+  "references" : [ {
+    "source" : "LigandReaction",
+    "entry" : "R01033"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:2-CHLOROBENZOATE-12-DIOXYGENASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ "META:PWY-6221" ],
+      "orphan" : "NO",
+      "gibbs" : -81.7218,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00364", "rn01120", "rn01220" ],
+      "orthologs" : [ "K20808", "K20809", "K08686" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : null
+    }
+  }
+}

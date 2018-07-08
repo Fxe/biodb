@@ -1,0 +1,49 @@
+{
+  "id" : "irxn4576",
+  "equation" : "ala__D + akg <=> pyr + glu__D",
+  "stoichiometry" : {
+    "l" : {
+      "icpd7043" : "",
+      "icpd185" : ""
+    },
+    "r" : {
+      "icpd3122" : "",
+      "icpd2704" : ""
+    }
+  },
+  "name" : null,
+  "ecn" : "EC-2.6.1.21; 2.6.1.21",
+  "otherNames" : [ ],
+  "alias" : "ALATA_D",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "ALATA_D"
+  }, {
+    "source" : "LigandReaction",
+    "entry" : "R01148"
+  }, {
+    "source" : "MetaCyc",
+    "entry" : "META:D-ALANINE-AMINOTRANSFERASE-RXN"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : true,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : -1.4558716,
+      "uniprot" : [ "P19938", "Q58786" ]
+    },
+    "kegg" : {
+      "pathways" : [ "rn00473", "rn01100" ],
+      "orthologs" : [ "K00824" ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iSB619" ]
+    }
+  }
+}

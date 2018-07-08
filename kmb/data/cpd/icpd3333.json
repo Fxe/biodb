@@ -1,0 +1,36 @@
+{
+  "id" : "icpd3333",
+  "formula" : "C4H9NO2",
+  "name" : "n-ethylglycine",
+  "synonyms" : [ "2-(ethylamino)acetic acid" ],
+  "alias" : "egly",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD-10490"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C11735"
+  }, {
+    "source" : "BiGGMetabolite",
+    "entry" : "egly"
+  } ],
+  "inchi" : "InChI=1S/C4H9NO2/c1-2-5-3-4(6)7/h5H,2-3H2,1H3,(H,6,7)",
+  "inchikey" : "YPIGGYHFMKJNKV-UHFFFAOYSA-N",
+  "smiles" : "CCNCC(=O)O",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "reactions" : [ "META:RXN-8674" ],
+      "gibbs" : 8.846905,
+      "cmlMolWeight" : 102.113,
+      "molWeight" : 102.113
+    },
+    "bigg" : {
+      "models" : [ "iRC1080" ]
+    }
+  },
+  "mol" : " \n \n \n  7  6  0  0  0  0  0  0  0  0999 V2000\n   14.2324  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4449  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6573  -16.3800    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.8697  -17.0800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0822  -16.3800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2946  -17.0800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.0822  -14.9803    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  5  7  2  0     0  0\nM  END\n\n> <ENTRY>\ncpd:C11735\n\n$$$$",
+  "reactions" : [ "irxn3164", "irxn2853" ]
+}

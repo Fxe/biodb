@@ -1,0 +1,31 @@
+{
+  "id" : "icpd569",
+  "formula" : "CNNa",
+  "name" : "sodium cyanide",
+  "synonyms" : [ ],
+  "alias" : "icpd569",
+  "references" : [ {
+    "source" : "MetaCyc",
+    "entry" : "META:CPD0-1610"
+  }, {
+    "source" : "LigandCompound",
+    "entry" : "C18673"
+  } ],
+  "inchi" : "InChI=1S/CN.Na/c1-2;/q-1;+1",
+  "inchikey" : "MNWBNISUBARLIT-UHFFFAOYSA-N",
+  "smiles" : "[C-](#N)[Na+]",
+  "extra" : {
+    "lm" : { },
+    "hmdb" : { },
+    "ms" : { },
+    "metacyc" : {
+      "inhibitors" : [ "META:GLUCUROISOM-RXN", "META:GALACTUROISOM-RXN" ],
+      "gibbs" : -32.1,
+      "cmlMolWeight" : 49.007,
+      "molWeight" : 49.007
+    },
+    "bigg" : { }
+  },
+  "mol" : " \n \n \n  3  1  0  0  0  0  0  0  0  0999 V2000\n   20.7200  -16.1700    0.0000 Na  0  3  0  0  0  0  0  0  0  0  0  0\n   23.5200  -16.1700    0.0000 C   0  5  0  0  0  0  0  0  0  0  0  0\n   24.9200  -16.1700    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  3  0     0  0\nM  CHG  2   1   1   2  -1\nM  END\n\n> <ENTRY>\ncpd:C18673\n\n$$$$",
+  "reactions" : [ ]
+}

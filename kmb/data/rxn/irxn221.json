@@ -1,0 +1,46 @@
+{
+  "id" : "irxn221",
+  "equation" : "hemeO + h2o <=> 334808 + 4.0 h",
+  "stoichiometry" : {
+    "l" : {
+      "icpd1178" : "",
+      "icpd4016" : ""
+    },
+    "r" : {
+      "334808" : "",
+      "icpd1851" : "4.0"
+    }
+  },
+  "name" : null,
+  "ecn" : "",
+  "otherNames" : [ ],
+  "alias" : "HEMEAS",
+  "references" : [ {
+    "source" : "BiGGReaction",
+    "entry" : "HEMEAS"
+  }, {
+    "source" : "BiGGReaction",
+    "entry" : "HEMEASm"
+  } ],
+  "gibbs" : null,
+  "metacycDirection" : null,
+  "extra" : {
+    "metacyc" : {
+      "inhibitors" : [ ],
+      "activators" : [ ],
+      "physiologicallyRelevant" : null,
+      "pathways" : [ ],
+      "orphan" : null,
+      "gibbs" : null,
+      "uniprot" : [ ]
+    },
+    "kegg" : {
+      "pathways" : [ ],
+      "orthologs" : [ ]
+    },
+    "bigg" : {
+      "pseudoreaction" : false,
+      "models" : [ "iRC1080", "iJN678", "iSB619", "iYO844" ]
+    }
+  }
+}
