@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BioDB</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="margin-top: 60px" class="bg">
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BioDB</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="demo/index.html">Example Database</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com/Fxe/biosynth-framework">GitHub</a></li>
+        <li><a href="https://hub.docker.com/r/fliu/biodb/">Docker</a></li>
+        <li class="active"><a href="help.html">Docs</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Tutorial</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>0. Cache third party data</h1>
+      The first step is to load external data into the database system. The <code>biodb-cache</code> allows to store informally locally for later to be processed by the ETL tool.<br>
+      The <code>biodb-cache</code> requires to specify the database to extract, a path to store the data and a version label for the data.
+      The version label does not have to match the live version of the database and it is only to separate the local data in case of feature runs (by specifying another version).
+
+      Each loader is subject to the licencing terms of the third party resources.
+
+      <p>
+      Example:<br>
+      <code>biodb-cache --database kegg.compound  --dstore /home/user/biodb/kegg  --dversion latest</code><br>
+      This loads the entire KEGG Compound database to the <code>/home/user/biodb/kegg/latest</code> folder.
+      </p>
+
+      The current version supports the following loaders:
+      <table class="table">
+        <thead>
+          <tr>
+            <td>Loader (<a href="https://identifiers.org/">identifiers.org</a> namespace)</td>
+            <td>Database</td>
+            <td>Type</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>kegg.compound</td>
+          <td>KEGG</td>
+          <td>Metabolites</td>
+        </tr>
+        <tr>
+          <td>kegg.glycan</td>
+          <td>KEGG</td>
+          <td>Metabolites</td>
+        </tr>
+        <tr>
+          <td>kegg.drug</td>
+          <td>KEGG</td>
+          <td>Metabolites</td>
+        </tr>
+        <tr>
+          <td>metacyc.compound</td>
+          <td>MetaCyc</td>
+          <td>Metabolites</td>
+        </tr>
+        <tr>
+          <td>seed.compound</td>
+          <td>ModelSEED</td>
+          <td>Metabolites</td>
+        </tr>
+        <tr>
+          <td>bigg.compound</td>
+          <td>BiGG</td>
+          <td>Metabolites</td>
+        </tr>
+        <tr>
+          <td>hmdb</td>
+          <td>HMDB</td>
+          <td>Metabolites</td>
+        </tr>
+        <tr>
+          <td>lipidmaps</td>
+          <td>LipidMAPS</td>
+          <td>Metabolites</td>
+        </tr>
+
+        <tr>
+          <td>kegg.reaction</td>
+          <td>KEGG</td>
+          <td>Reactions</td>
+        </tr>
+        <tr>
+          <td>metacyc.reaction</td>
+          <td>MetaCyc</td>
+          <td>Reactions</td>
+        </tr>
+        <tr>
+          <td>bigg.reaction</td>
+          <td>BiGG</td>
+          <td>Reactions</td>
+        </tr>
+        <tr>
+          <td>seed.reaction</td>
+          <td>ModelSEED</td>
+          <td>Reactions</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h1>1. Extract, Transform, Load external data into the neo4j database</h1>
+
+      <p>
+      The <code>biodb-etl</code> tool transfers the third party entities into the neo4j database. It requires to specify the third party database
+      <code>--database DATABASE --dstore PATH --dversion VERSION</code> along with a neo4j database path <code>--neo4j</code>.
+      The tool itself will create a new neo4j database if no prior database is found. Other wise it will attempt to initialize the database and load the data into that database.
+      </p>
+
+      <p>
+        Example:<br>
+        <code>biodb-etl --neo4j /home/user/biodb/neo4j --database kegg.compound --dstore /home/user/biodb/kegg  --dversion latest</code><br>
+        This loads all KEGG compounds into the neo4j database at <code>/home/user/biodb/neo4j</code>.
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>a. (Optional) Check the content in the database</h3>
+
+      The <code>biodb-status</code> allows to check the instances in a neo4j database. It counts all nodes grouped by their <code>Labels</code>.
+      The only parameter needed is the location of the neo4j database <code>--neo4j /home/user/biodb/neo4j</code>.
+      Note that if the database does not exist, it will create an empty database.
+
+      <p>
+        Example:<br>
+        <code>biodb-status --neo4j /home/user/biodb/neo4j</code>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>b. (Optional) Expand and connect metabolite properties</h3>
+
+      The <code>biodb-expand</code> generates additional metabolite properties from the existing ones allowing to increase the number of attributes of the compounds in the database.
+
+      <p>
+        Example:<br>
+        <code>biodb-expand --neo4j /home/user/biodb/neo4j</code>
+      </p>
+      <!-- <code>biodb-status --neo4j /home/user/biodb/neo4j</code>-->
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h1>2. Identify all duplicate sets of metabolites and reactions in the neo4j database</h1>
+
+      The <code>biodb-integration</code> creates the metabolite and reaction clusters representing the duplicates across the collected databases.
+      A <code>--neo4j /home/user/biodb/neo4j</code> database must be specified with an output path <code>--output</code> to write the solutions.
+      It accepts to optional arguments: <code>--configuration JSON</code> to change the parameters of the integration; <code>--curation TSV</code> to specify a curated set.
+
+      <p>
+        Example:<br>
+        <code>biodb-integration --neo4j /home/user/biodb/neo4j --neo4j /home/user/biodb/neo4j --output /home/user/biodb/integration</code>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h1>3. Generate an integrated database</h1>
+      The <code>biodb-compile</code> compiles the metabolite and reaction clusters to generate a unified database.
+      It requires a metabolite set file <code>--cpds TSV</code> and a reaction set file <code>--rxns TSV</code> that can be found in the output directory given to the integration tool.
+      <p>
+        Example:<br>
+        <code>biodb-compile --neo4j /home/user/biodb/neo4j --output /home/user/biodb/www --cpds /home/user/biodb/integration/cpd/cpds.txt --rxns /home/user/biodb/integration/rxn/rxns.txt</code>
+      </p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

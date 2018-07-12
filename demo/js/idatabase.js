@@ -1,6 +1,8 @@
 
 var identifiersMap = {
   "LigandCompound" : "http://identifiers.org/kegg.compound/",
+  "LigandGlycan" : "http://identifiers.org/kegg.glycan/",
+  "LigandDrug" : "http://identifiers.org/kegg.drug/",
   "MetaCyc" : "http://identifiers.org/biocyc/",
   "ModelSeed" : "http://identifiers.org/seed.compound/",
   "BiGGMetabolite" : "http://identifiers.org/bigg.metabolite/",

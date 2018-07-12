@@ -308,7 +308,7 @@
 
         <h4>Database Links:</h4>
         <% _.each(cpdData.references, function(s) { %>
-          <%-s.entry %> @ <%-s.source %><br>
+          <%= getCpdLink(s.entry, s.source) %><br>
         <%} );%>
       </div>
     </div>
